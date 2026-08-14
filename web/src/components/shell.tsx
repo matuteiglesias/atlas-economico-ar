@@ -50,3 +50,11 @@ export function ContextRail({ topic }: { topic: TopicPage }) {
 export function Breadcrumbs({ topic }: { topic: TopicPage }) {
   return <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/"><Home /></Link>{topic.breadcrumbs.slice(1).map((item) => <Link key={item.href} href={item.href}>› <span>{item.title}</span></Link>)}<span>› &nbsp;{topic.title}</span></nav>;
 }
+
+export function PageBreadcrumbs({ items, current }: { items: EntityLink[]; current: string }) {
+  return <nav className="breadcrumbs" aria-label="Breadcrumb"><Link href="/"><Home /></Link>{items.map((item) => <Link key={item.href} href={item.href}>› <span>{item.title}</span></Link>)}<span>› &nbsp;{current}</span></nav>;
+}
+
+export function EntityContextRail({ label, groups }: { label: string; groups: { title: string; links: EntityLink[] }[] }) {
+  return <aside className="context-rail"><p className="rail-label">{label}</p>{groups.filter((group) => group.links.length).map((group) => <section key={group.title}><p className="rail-label">{group.title}</p><RailList links={group.links.slice(0, 7)} /></section>)}</aside>;
+}
