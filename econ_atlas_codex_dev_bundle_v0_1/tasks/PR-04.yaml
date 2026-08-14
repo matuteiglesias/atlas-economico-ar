@@ -1,0 +1,21 @@
+id: PR-04
+title: Release hardening
+max_scope: Target <= ~600 handwritten net LOC.
+work:
+- Run complete route audit.
+- Finalize static export configuration and document build/deploy commands.
+- Add/finish lightweight smoke checks for data contract and routes.
+- Remove dead components/styles and obvious scaffolding leftovers.
+- Final visual polish on typography, spacing, borders, icons, and context rail.
+- Verify no out-of-scope dependencies or runtime network calls.
+- Write web README covering local dev, build, data refresh, and known placeholder behavior.
+checks:
+- pnpm lint
+- pnpm typecheck
+- pnpm build
+- Static export/output succeeds
+- All 145 expected routes accounted for
+- Primary visual screenshot review
+- Representative page smoke review
+- No console errors in representative pages
+stop_gate: Final human release approval.

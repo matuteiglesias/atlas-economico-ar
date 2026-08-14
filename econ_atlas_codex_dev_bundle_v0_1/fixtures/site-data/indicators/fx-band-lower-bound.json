@@ -1,0 +1,123 @@
+{
+  "id": "ci.ns.fx_band_lower",
+  "kind": "indicator",
+  "slug": "fx-band-lower-bound",
+  "title": "FX-band lower bound",
+  "href": "/indicators/fx-band-lower-bound",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topic": {
+    "id": "ns.exchange_rate_band",
+    "kind": "topic",
+    "slug": "exchange-rate-band",
+    "title": "Exchange-rate band",
+    "href": "/topics/exchange-rate-band"
+  },
+  "unitSemantics": "ars_per_usd",
+  "frequency": "daily",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ns15",
+      "kind": "chart",
+      "slug": "official-exchange-rate-within-the-band",
+      "title": "Official exchange rate within the band",
+      "href": "/charts/official-exchange-rate-within-the-band"
+    }
+  ],
+  "derivedAsInput": [
+    "di.ns.band_position"
+  ],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ns.exchange_rate_band",
+      "kind": "topic",
+      "slug": "exchange-rate-band",
+      "title": "Exchange-rate band",
+      "href": "/topics/exchange-rate-band",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns15",
+      "kind": "chart",
+      "slug": "official-exchange-rate-within-the-band",
+      "title": "Official exchange rate within the band",
+      "href": "/charts/official-exchange-rate-within-the-band",
+      "distance": 1
+    },
+    {
+      "id": "q.ns08",
+      "kind": "question",
+      "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
+      "title": "Where is the official exchange rate inside the policy band?",
+      "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band",
+      "distance": 2
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations",
+      "distance": 2
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility",
+      "distance": 2
+    },
+    {
+      "id": "ci.ns.fx_band_upper",
+      "kind": "indicator",
+      "slug": "fx-band-upper-bound",
+      "title": "FX-band upper bound",
+      "href": "/indicators/fx-band-upper-bound",
+      "distance": 2
+    },
+    {
+      "id": "ci.ns.official_fx",
+      "kind": "indicator",
+      "slug": "official-ars-usd-exchange-rate",
+      "title": "Official ARS/USD exchange rate",
+      "href": "/indicators/official-ars-usd-exchange-rate",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 1,
+    "derivedAsInput": 1,
+    "derivedAsOutput": 0
+  }
+}

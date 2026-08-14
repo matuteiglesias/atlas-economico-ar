@@ -1,0 +1,26 @@
+policy:
+  autonomy: high_within_packet
+  human_gate: mandatory_after_each_pr
+  target_handwritten_net_loc_per_pr: <= ~1000 where practical
+  excluded_from_loc_budget:
+  - lockfiles
+  - generated scaffolding
+  - copied site-data
+  - generated shadcn primitive code
+prs:
+- id: PR-01
+  title: Foundation + Inflation visual target
+  goal: Create the web app foundation and make /topics/inflation convincingly match the visual reference.
+  human_gate: Desktop screenshot review at 1536x1024.
+- id: PR-02
+  title: All public page grammars
+  goal: Generalize the shell/data adapter to all 145 expected routes and empty Area states.
+  human_gate: Navigation/route/content-shape review.
+- id: PR-03
+  title: Search + responsive + accessibility
+  goal: Add command palette, mobile Explore behavior, responsive context rail, and keyboard/a11y hardening.
+  human_gate: Desktop + mobile UX review.
+- id: PR-04
+  title: Release hardening
+  goal: Build/static-export verification, route audit, visual polish, docs, and final acceptance.
+  human_gate: Final release approval.

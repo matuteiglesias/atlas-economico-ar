@@ -1,0 +1,153 @@
+{
+  "id": "ci.ns.bcra_fx_purchases_daily",
+  "kind": "indicator",
+  "slug": "bcra-net-fx-purchases",
+  "title": "BCRA net FX purchases",
+  "href": "/indicators/bcra-net-fx-purchases",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topic": {
+    "id": "ns.bcra_fx_operations",
+    "kind": "topic",
+    "slug": "bcra-fx-operations",
+    "title": "BCRA FX operations",
+    "href": "/topics/bcra-fx-operations"
+  },
+  "unitSemantics": "usd",
+  "frequency": "daily",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ns23",
+      "kind": "chart",
+      "slug": "bcra-daily-fx-purchases",
+      "title": "BCRA daily FX purchases",
+      "href": "/charts/bcra-daily-fx-purchases"
+    },
+    {
+      "id": "pi.ns24",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases",
+      "title": "Cumulative BCRA FX purchases",
+      "href": "/charts/cumulative-bcra-fx-purchases"
+    },
+    {
+      "id": "pi.ns25",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-official-exchange-rate",
+      "title": "BCRA purchases vs official exchange rate",
+      "href": "/charts/bcra-purchases-vs-official-exchange-rate"
+    },
+    {
+      "id": "pi.ns26",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-monetary-base-growth",
+      "title": "BCRA purchases vs monetary-base growth",
+      "href": "/charts/bcra-purchases-vs-monetary-base-growth"
+    },
+    {
+      "id": "pi.ns40",
+      "kind": "chart",
+      "slug": "remonetization-vs-bcra-fx-purchases",
+      "title": "Remonetization vs BCRA FX purchases",
+      "href": "/charts/remonetization-vs-bcra-fx-purchases"
+    }
+  ],
+  "derivedAsInput": [
+    "di.ns.fx_purchase_cumulative"
+  ],
+  "derivedAsOutput": [
+    "di.ns.fx_purchase_cumulative"
+  ],
+  "nearby": [
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns23",
+      "kind": "chart",
+      "slug": "bcra-daily-fx-purchases",
+      "title": "BCRA daily FX purchases",
+      "href": "/charts/bcra-daily-fx-purchases",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns26",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-monetary-base-growth",
+      "title": "BCRA purchases vs monetary-base growth",
+      "href": "/charts/bcra-purchases-vs-monetary-base-growth",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns25",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-official-exchange-rate",
+      "title": "BCRA purchases vs official exchange rate",
+      "href": "/charts/bcra-purchases-vs-official-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns24",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases",
+      "title": "Cumulative BCRA FX purchases",
+      "href": "/charts/cumulative-bcra-fx-purchases",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns40",
+      "kind": "chart",
+      "slug": "remonetization-vs-bcra-fx-purchases",
+      "title": "Remonetization vs BCRA FX purchases",
+      "href": "/charts/remonetization-vs-bcra-fx-purchases",
+      "distance": 1
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "distance": 2
+    },
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 5,
+    "derivedAsInput": 1,
+    "derivedAsOutput": 1
+  }
+}

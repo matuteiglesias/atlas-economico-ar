@@ -1,0 +1,23 @@
+id: PR-02
+title: All public page grammars
+max_scope: Target <= ~1000 handwritten net LOC.
+work:
+- Implement `/`, `/atlas`.
+- Implement `/areas/[slug]`, `/questions/[slug]`, `/indicators/[slug]`, `/charts/[slug]`.
+- Use generateStaticParams for every dynamic public kind.
+- Implement populated Nominal Stabilization Area page.
+- Implement polished EmptyAreaState for five unpopulated areas.
+- Implement Question, Indicator, Chart and Area context-rail variants.
+- Ensure only three known charts use dummy SVGs; all other Chart pages/cards use generic placeholder.
+- Implement direct backlink/nearby sections using already-compiled arrays only.
+- Add 404/not-found handling for unknown slugs.
+- Ensure page titles/metadata are sensible from compiled entities.
+checks:
+- pnpm lint
+- pnpm typecheck
+- pnpm build
+- Run bundle route verifier against expected-routes.txt
+- 'Expected total pages reachable: 145'
+- Spot-check representative-pages.json
+- No invented prose on missing editorial fields
+stop_gate: Human reviews route coverage and representative page grammar before PR-03.

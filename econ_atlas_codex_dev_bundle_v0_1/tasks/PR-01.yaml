@@ -1,0 +1,24 @@
+id: PR-01
+title: Foundation + Inflation visual target
+max_scope: One coherent implementation PR; target <= ~1000 handwritten net LOC.
+work:
+- Initialize `web/` with current stable Next.js App Router, TypeScript, Tailwind, pnpm.
+- Configure strict TypeScript and static-export-compatible architecture.
+- Create typed site-data adapter and fixture sync/read strategy.
+- Implement SiteHeader, ExploreRail, ContextRail, EntityHeader, Breadcrumbs, Section, QuestionRow, ChartCard, relation/topic
+  link primitives.
+- Implement `/topics/[slug]` with generateStaticParams for all topic slugs.
+- Implement `/topics/inflation` to strongly resemble the visual target.
+- Implement the three inline-SVG dummy chart previews.
+- Implement generic chart placeholder component.
+- Add basic global CSS/tokens and desktop layout.
+- Search trigger may be nonfunctional placeholder in this PR, but must look correct.
+checks:
+- pnpm lint
+- pnpm typecheck
+- pnpm build
+- Open /topics/inflation at 1536x1024
+- Verify all Topic links rendered on the page resolve to known hrefs
+- No runtime semantic graph traversal in page/component code
+stop_gate: Stop after reporting screenshot/layout fidelity, commands run, changed files, and known deviations. Human
+  reviews visual target before PR-02.

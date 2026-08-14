@@ -1,0 +1,21 @@
+{
+  "primary_visual_acceptance": "/topics/inflation",
+  "representative_pages": [
+    "/areas/nominal-stabilization",
+    "/topics/inflation",
+    "/questions/what-is-driving-monthly-inflation",
+    "/indicators/monthly-headline-cpi-inflation",
+    "/charts/inflation-driver-decomposition",
+    "/areas/external-financial-constraint"
+  ],
+  "dummy_chart_ids": [
+    "pi.ns05",
+    "pi.ns01",
+    "pi.ns08"
+  ],
+  "dummy_chart_slugs": [
+    "headline-vs-core-inflation",
+    "inflation-momentum-monthly-and-3-month-annualized",
+    "inflation-driver-decomposition"
+  ]
+}

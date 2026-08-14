@@ -1,0 +1,138 @@
+{
+  "id": "ci.ns.transactional_m2_nominal",
+  "kind": "indicator",
+  "slug": "private-transactional-m2",
+  "title": "Private transactional M2",
+  "href": "/indicators/private-transactional-m2",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topic": {
+    "id": "ns.transactional_m2",
+    "kind": "topic",
+    "slug": "transactional-m2",
+    "title": "Transactional M2",
+    "href": "/topics/transactional-m2"
+  },
+  "unitSemantics": "ars",
+  "frequency": "daily_or_monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ns36",
+      "kind": "chart",
+      "slug": "transactional-m2-nominal-and-real",
+      "title": "Transactional M2 nominal and real",
+      "href": "/charts/transactional-m2-nominal-and-real"
+    },
+    {
+      "id": "pi.ns37",
+      "kind": "chart",
+      "slug": "transactional-m2-vs-bcra-projection",
+      "title": "Transactional M2 vs BCRA projection",
+      "href": "/charts/transactional-m2-vs-bcra-projection"
+    },
+    {
+      "id": "pi.ns42",
+      "kind": "chart",
+      "slug": "monetary-base-growth-vs-money-demand-proxy",
+      "title": "Monetary-base growth vs money-demand proxy",
+      "href": "/charts/monetary-base-growth-vs-money-demand-proxy"
+    }
+  ],
+  "derivedAsInput": [
+    "di.ns.m2_projection_gap",
+    "di.ns.m2_to_gdp"
+  ],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ns.transactional_m2",
+      "kind": "topic",
+      "slug": "transactional-m2",
+      "title": "Transactional M2",
+      "href": "/topics/transactional-m2",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns42",
+      "kind": "chart",
+      "slug": "monetary-base-growth-vs-money-demand-proxy",
+      "title": "Monetary-base growth vs money-demand proxy",
+      "href": "/charts/monetary-base-growth-vs-money-demand-proxy",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns36",
+      "kind": "chart",
+      "slug": "transactional-m2-nominal-and-real",
+      "title": "Transactional M2 nominal and real",
+      "href": "/charts/transactional-m2-nominal-and-real",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns37",
+      "kind": "chart",
+      "slug": "transactional-m2-vs-bcra-projection",
+      "title": "Transactional M2 vs BCRA projection",
+      "href": "/charts/transactional-m2-vs-bcra-projection",
+      "distance": 1
+    },
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering",
+      "distance": 2
+    },
+    {
+      "id": "q.ns17",
+      "kind": "question",
+      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "distance": 2
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "distance": 2
+    },
+    {
+      "id": "ns.remonetization",
+      "kind": "topic",
+      "slug": "remonetization",
+      "title": "Remonetization",
+      "href": "/topics/remonetization",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 3,
+    "derivedAsInput": 2,
+    "derivedAsOutput": 0
+  }
+}

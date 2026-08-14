@@ -1,0 +1,1444 @@
+{
+  "entities": [
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.core_inflation",
+      "kind": "topic",
+      "slug": "core-inflation",
+      "title": "Core inflation",
+      "href": "/topics/core-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.inflation_inertia",
+      "kind": "topic",
+      "slug": "inflation-inertia",
+      "title": "Inflation inertia",
+      "href": "/topics/inflation-inertia",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.relative_price_adjustment",
+      "kind": "topic",
+      "slug": "relative-price-adjustment",
+      "title": "Relative-price adjustment",
+      "href": "/topics/relative-price-adjustment",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.fx_pass_through",
+      "kind": "topic",
+      "slug": "fx-pass-through",
+      "title": "FX pass-through",
+      "href": "/topics/fx-pass-through",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.aggregate_demand_pressure",
+      "kind": "topic",
+      "slug": "aggregate-demand-pressure",
+      "title": "Aggregate-demand pressure",
+      "href": "/topics/aggregate-demand-pressure",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.exchange_rate_band",
+      "kind": "topic",
+      "slug": "exchange-rate-band",
+      "title": "Exchange-rate band",
+      "href": "/topics/exchange-rate-band",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.parallel_exchange_rate",
+      "kind": "topic",
+      "slug": "parallel-exchange-rate",
+      "title": "Parallel exchange rate",
+      "href": "/topics/parallel-exchange-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.real_exchange_rate",
+      "kind": "topic",
+      "slug": "real-exchange-rate",
+      "title": "Real exchange rate",
+      "href": "/topics/real-exchange-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.real_interest_rate",
+      "kind": "topic",
+      "slug": "real-interest-rate",
+      "title": "Real interest rate",
+      "href": "/topics/real-interest-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.reserve_requirements",
+      "kind": "topic",
+      "slug": "reserve-requirements",
+      "title": "Reserve requirements",
+      "href": "/topics/reserve-requirements",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.transactional_m2",
+      "kind": "topic",
+      "slug": "transactional-m2",
+      "title": "Transactional M2",
+      "href": "/topics/transactional-m2",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.remonetization",
+      "kind": "topic",
+      "slug": "remonetization",
+      "title": "Remonetization",
+      "href": "/topics/remonetization",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.monetary_targeting_framework",
+      "kind": "topic",
+      "slug": "monetary-targeting-framework",
+      "title": "Monetary targeting framework",
+      "href": "/topics/monetary-targeting-framework",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "ns.fx_hedging_demand",
+      "kind": "topic",
+      "slug": "fx-hedging-demand",
+      "title": "FX hedging demand",
+      "href": "/topics/fx-hedging-demand",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns01",
+      "kind": "question",
+      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns03",
+      "kind": "question",
+      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
+      "title": "Is disinflation broad-based across underlying inflation measures?",
+      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns04",
+      "kind": "question",
+      "slug": "what-is-driving-monthly-inflation",
+      "title": "What is driving monthly inflation?",
+      "href": "/questions/what-is-driving-monthly-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns06",
+      "kind": "question",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns07",
+      "kind": "question",
+      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "title": "What inflation path does the market expect over the next months and year-end?",
+      "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns08",
+      "kind": "question",
+      "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
+      "title": "Where is the official exchange rate inside the policy band?",
+      "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns09",
+      "kind": "question",
+      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "title": "How large is the gap between official and parallel exchange rates?",
+      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns10",
+      "kind": "question",
+      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "title": "How much has the peso appreciated or depreciated in real terms?",
+      "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns14",
+      "kind": "question",
+      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "title": "How tight are bank reserve requirements and liquidity conditions?",
+      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns17",
+      "kind": "question",
+      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.ns18",
+      "kind": "question",
+      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.cpi_yoy",
+      "kind": "indicator",
+      "slug": "headline-cpi-inflation-year-over-year",
+      "title": "Headline CPI inflation, year-over-year",
+      "href": "/indicators/headline-cpi-inflation-year-over-year",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "headline-cpi-3-month-annualized",
+      "title": "Headline CPI, 3-month annualized",
+      "href": "/indicators/headline-cpi-3-month-annualized",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.core_monthly",
+      "kind": "indicator",
+      "slug": "core-cpi-inflation-monthly",
+      "title": "Core CPI inflation, monthly",
+      "href": "/indicators/core-cpi-inflation-monthly",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.core_3m_ann",
+      "kind": "indicator",
+      "slug": "core-cpi-3-month-annualized",
+      "title": "Core CPI, 3-month annualized",
+      "href": "/indicators/core-cpi-3-month-annualized",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.trimmed_cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-cpi-3-month-annualized",
+      "title": "Trimmed CPI, 3-month annualized",
+      "href": "/indicators/trimmed-cpi-3-month-annualized",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.trimmed_goods_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-goods-inflation-3-month-annualized",
+      "title": "Trimmed goods inflation, 3-month annualized",
+      "href": "/indicators/trimmed-goods-inflation-3-month-annualized",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.trimmed_services_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-services-inflation-3-month-annualized",
+      "title": "Trimmed services inflation, 3-month annualized",
+      "href": "/indicators/trimmed-services-inflation-3-month-annualized",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.food_inflation_contribution",
+      "kind": "indicator",
+      "slug": "food-contribution-to-monthly-inflation",
+      "title": "Food contribution to monthly inflation",
+      "href": "/indicators/food-contribution-to-monthly-inflation",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.regulated_inflation_contribution",
+      "kind": "indicator",
+      "slug": "regulated-price-contribution-to-monthly-inflation",
+      "title": "Regulated-price contribution to monthly inflation",
+      "href": "/indicators/regulated-price-contribution-to-monthly-inflation",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.infl_exp_1m",
+      "kind": "indicator",
+      "slug": "expected-inflation-next-month",
+      "title": "Expected inflation next month",
+      "href": "/indicators/expected-inflation-next-month",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.infl_exp_3m",
+      "kind": "indicator",
+      "slug": "expected-inflation-three-months-ahead",
+      "title": "Expected inflation three months ahead",
+      "href": "/indicators/expected-inflation-three-months-ahead",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.infl_exp_eop",
+      "kind": "indicator",
+      "slug": "expected-end-of-year-inflation",
+      "title": "Expected end-of-year inflation",
+      "href": "/indicators/expected-end-of-year-inflation",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.infl_surprise",
+      "kind": "indicator",
+      "slug": "inflation-surprise-vs-prior-expectation",
+      "title": "Inflation surprise vs prior expectation",
+      "href": "/indicators/inflation-surprise-vs-prior-expectation",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.infl_acceleration",
+      "kind": "indicator",
+      "slug": "monthly-inflation-acceleration",
+      "title": "Monthly inflation acceleration",
+      "href": "/indicators/monthly-inflation-acceleration",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.official_fx",
+      "kind": "indicator",
+      "slug": "official-ars-usd-exchange-rate",
+      "title": "Official ARS/USD exchange rate",
+      "href": "/indicators/official-ars-usd-exchange-rate",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.ccl_fx",
+      "kind": "indicator",
+      "slug": "ccl-exchange-rate",
+      "title": "CCL exchange rate",
+      "href": "/indicators/ccl-exchange-rate",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.blue_fx",
+      "kind": "indicator",
+      "slug": "blue-exchange-rate",
+      "title": "Blue exchange rate",
+      "href": "/indicators/blue-exchange-rate",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.fx_gap_ccl",
+      "kind": "indicator",
+      "slug": "ccl-official-fx-gap",
+      "title": "CCL-official FX gap",
+      "href": "/indicators/ccl-official-fx-gap",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.fx_gap_blue",
+      "kind": "indicator",
+      "slug": "blue-official-fx-gap",
+      "title": "Blue-official FX gap",
+      "href": "/indicators/blue-official-fx-gap",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.fx_band_lower",
+      "kind": "indicator",
+      "slug": "fx-band-lower-bound",
+      "title": "FX-band lower bound",
+      "href": "/indicators/fx-band-lower-bound",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.fx_band_upper",
+      "kind": "indicator",
+      "slug": "fx-band-upper-bound",
+      "title": "FX-band upper bound",
+      "href": "/indicators/fx-band-upper-bound",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.fx_band_position",
+      "kind": "indicator",
+      "slug": "official-fx-position-within-band",
+      "title": "Official FX position within band",
+      "href": "/indicators/official-fx-position-within-band",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.official_fx_monthly_change",
+      "kind": "indicator",
+      "slug": "official-fx-monthly-change",
+      "title": "Official FX monthly change",
+      "href": "/indicators/official-fx-monthly-change",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.reer_index",
+      "kind": "indicator",
+      "slug": "real-effective-exchange-rate-index",
+      "title": "Real effective exchange-rate index",
+      "href": "/indicators/real-effective-exchange-rate-index",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.reer_change_dec2023",
+      "kind": "indicator",
+      "slug": "reer-change-since-dec-2023",
+      "title": "REER change since Dec-2023",
+      "href": "/indicators/reer-change-since-dec-2023",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.fx_forward_1m",
+      "kind": "indicator",
+      "slug": "one-month-fx-forward-implied-rate",
+      "title": "One-month FX forward/implied rate",
+      "href": "/indicators/one-month-fx-forward-implied-rate",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.fx_forward_eoy",
+      "kind": "indicator",
+      "slug": "end-of-year-fx-forward-implied-rate",
+      "title": "End-of-year FX forward/implied rate",
+      "href": "/indicators/end-of-year-fx-forward-implied-rate",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.policy_rate_nominal",
+      "kind": "indicator",
+      "slug": "nominal-policy-relevant-rate",
+      "title": "Nominal policy-relevant rate",
+      "href": "/indicators/nominal-policy-relevant-rate",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.tamar_nominal",
+      "kind": "indicator",
+      "slug": "tamar-nominal-rate",
+      "title": "TAMAR nominal rate",
+      "href": "/indicators/tamar-nominal-rate",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.tamar_real_expost",
+      "kind": "indicator",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/indicators/tamar-ex-post-real-rate",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.tamar_real_exante",
+      "kind": "indicator",
+      "slug": "tamar-ex-ante-real-rate",
+      "title": "TAMAR ex-ante real rate",
+      "href": "/indicators/tamar-ex-ante-real-rate",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.reserve_requirement_ratio",
+      "kind": "indicator",
+      "slug": "bank-reserve-requirement-ratio",
+      "title": "Bank reserve requirement ratio",
+      "href": "/indicators/bank-reserve-requirement-ratio",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.bcra_peso_deposits",
+      "kind": "indicator",
+      "slug": "bcra-peso-deposits-reserve-balances",
+      "title": "BCRA peso deposits / reserve balances",
+      "href": "/indicators/bcra-peso-deposits-reserve-balances",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.monetary_base_nominal",
+      "kind": "indicator",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/indicators/monetary-base",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.monetary_base_real",
+      "kind": "indicator",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/indicators/real-monetary-base",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.transactional_m2_nominal",
+      "kind": "indicator",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/indicators/private-transactional-m2",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.transactional_m2_real",
+      "kind": "indicator",
+      "slug": "real-private-transactional-m2",
+      "title": "Real private transactional M2",
+      "href": "/indicators/real-private-transactional-m2",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.transactional_m2_projection_gap",
+      "kind": "indicator",
+      "slug": "transactional-m2-gap-vs-bcra-projection",
+      "title": "Transactional M2 gap vs BCRA projection",
+      "href": "/indicators/transactional-m2-gap-vs-bcra-projection",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.m2_to_gdp",
+      "kind": "indicator",
+      "slug": "transactional-m2-to-gdp",
+      "title": "Transactional M2 to GDP",
+      "href": "/indicators/transactional-m2-to-gdp",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "indicator",
+      "slug": "bcra-net-fx-purchases",
+      "title": "BCRA net FX purchases",
+      "href": "/indicators/bcra-net-fx-purchases",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns01",
+      "kind": "chart",
+      "slug": "inflation-momentum-monthly-and-3-month-annualized",
+      "title": "Inflation momentum: monthly and 3-month annualized",
+      "href": "/charts/inflation-momentum-monthly-and-3-month-annualized",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns02",
+      "kind": "chart",
+      "slug": "monthly-inflation-with-acceleration-markers",
+      "title": "Monthly inflation with acceleration markers",
+      "href": "/charts/monthly-inflation-with-acceleration-markers",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns03",
+      "kind": "chart",
+      "slug": "headline-inflation-monthly-vs-year-over-year",
+      "title": "Headline inflation: monthly vs year-over-year",
+      "href": "/charts/headline-inflation-monthly-vs-year-over-year",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns05",
+      "kind": "chart",
+      "slug": "headline-vs-core-inflation",
+      "title": "Headline vs core inflation",
+      "href": "/charts/headline-vs-core-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns06",
+      "kind": "chart",
+      "slug": "multiple-measures-of-core-inflation",
+      "title": "Multiple measures of core inflation",
+      "href": "/charts/multiple-measures-of-core-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns07",
+      "kind": "chart",
+      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "title": "Food and regulated prices as contributors to monthly inflation",
+      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns08",
+      "kind": "chart",
+      "slug": "inflation-driver-decomposition",
+      "title": "Inflation-driver decomposition",
+      "href": "/charts/inflation-driver-decomposition",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns09",
+      "kind": "chart",
+      "slug": "official-fx-change-vs-monthly-inflation",
+      "title": "Official FX change vs monthly inflation",
+      "href": "/charts/official-fx-change-vs-monthly-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns10",
+      "kind": "chart",
+      "slug": "rolling-fx-pass-through-estimate",
+      "title": "Rolling FX pass-through estimate",
+      "href": "/charts/rolling-fx-pass-through-estimate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns11",
+      "kind": "chart",
+      "slug": "inflation-expectations-vs-realized-inflation",
+      "title": "Inflation expectations vs realized inflation",
+      "href": "/charts/inflation-expectations-vs-realized-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns12",
+      "kind": "chart",
+      "slug": "inflation-surprise-through-time",
+      "title": "Inflation surprise through time",
+      "href": "/charts/inflation-surprise-through-time",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns13",
+      "kind": "chart",
+      "slug": "expected-inflation-path",
+      "title": "Expected inflation path",
+      "href": "/charts/expected-inflation-path",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns14",
+      "kind": "chart",
+      "slug": "inflation-expectations-fan-horizon-curve",
+      "title": "Inflation expectations fan / horizon curve",
+      "href": "/charts/inflation-expectations-fan-horizon-curve",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns15",
+      "kind": "chart",
+      "slug": "official-exchange-rate-within-the-band",
+      "title": "Official exchange rate within the band",
+      "href": "/charts/official-exchange-rate-within-the-band",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns16",
+      "kind": "chart",
+      "slug": "position-inside-fx-band",
+      "title": "Position inside FX band",
+      "href": "/charts/position-inside-fx-band",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns17",
+      "kind": "chart",
+      "slug": "official-ccl-and-blue-exchange-rates",
+      "title": "Official, CCL and blue exchange rates",
+      "href": "/charts/official-ccl-and-blue-exchange-rates",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns18",
+      "kind": "chart",
+      "slug": "fx-gaps-ccl-and-blue",
+      "title": "FX gaps: CCL and blue",
+      "href": "/charts/fx-gaps-ccl-and-blue",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns19",
+      "kind": "chart",
+      "slug": "fx-gap-around-stress-episodes",
+      "title": "FX gap around stress episodes",
+      "href": "/charts/fx-gap-around-stress-episodes",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns20",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate-since-dec-2023",
+      "title": "Real effective exchange rate since Dec-2023",
+      "href": "/charts/real-effective-exchange-rate-since-dec-2023",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns21",
+      "kind": "chart",
+      "slug": "nominal-vs-real-exchange-rate-movement",
+      "title": "Nominal vs real exchange-rate movement",
+      "href": "/charts/nominal-vs-real-exchange-rate-movement",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns22",
+      "kind": "chart",
+      "slug": "real-exchange-rate-with-major-policy-regime-markers",
+      "title": "Real exchange rate with major policy-regime markers",
+      "href": "/charts/real-exchange-rate-with-major-policy-regime-markers",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns23",
+      "kind": "chart",
+      "slug": "bcra-daily-fx-purchases",
+      "title": "BCRA daily FX purchases",
+      "href": "/charts/bcra-daily-fx-purchases",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns24",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases",
+      "title": "Cumulative BCRA FX purchases",
+      "href": "/charts/cumulative-bcra-fx-purchases",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns25",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-official-exchange-rate",
+      "title": "BCRA purchases vs official exchange rate",
+      "href": "/charts/bcra-purchases-vs-official-exchange-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns26",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-monetary-base-growth",
+      "title": "BCRA purchases vs monetary-base growth",
+      "href": "/charts/bcra-purchases-vs-monetary-base-growth",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns27",
+      "kind": "chart",
+      "slug": "nominal-rates-vs-expected-inflation",
+      "title": "Nominal rates vs expected inflation",
+      "href": "/charts/nominal-rates-vs-expected-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns28",
+      "kind": "chart",
+      "slug": "ex-ante-vs-ex-post-real-rates",
+      "title": "Ex-ante vs ex-post real rates",
+      "href": "/charts/ex-ante-vs-ex-post-real-rates",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns29",
+      "kind": "chart",
+      "slug": "real-rate-regime-since-2025",
+      "title": "Real-rate regime since 2025",
+      "href": "/charts/real-rate-regime-since-2025",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns30",
+      "kind": "chart",
+      "slug": "money-market-rate-volatility",
+      "title": "Money-market rate volatility",
+      "href": "/charts/money-market-rate-volatility",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns31",
+      "kind": "chart",
+      "slug": "policy-relevant-rate-vs-money-market-rate",
+      "title": "Policy-relevant rate vs money-market rate",
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns32",
+      "kind": "chart",
+      "slug": "reserve-requirements-and-bcra-peso-deposits",
+      "title": "Reserve requirements and BCRA peso deposits",
+      "href": "/charts/reserve-requirements-and-bcra-peso-deposits",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns33",
+      "kind": "chart",
+      "slug": "reserve-requirement-changes-with-money-market-rates",
+      "title": "Reserve requirement changes with money-market rates",
+      "href": "/charts/reserve-requirement-changes-with-money-market-rates",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns34",
+      "kind": "chart",
+      "slug": "nominal-monetary-base",
+      "title": "Nominal monetary base",
+      "href": "/charts/nominal-monetary-base",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns35",
+      "kind": "chart",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/charts/real-monetary-base",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns36",
+      "kind": "chart",
+      "slug": "transactional-m2-nominal-and-real",
+      "title": "Transactional M2 nominal and real",
+      "href": "/charts/transactional-m2-nominal-and-real",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns37",
+      "kind": "chart",
+      "slug": "transactional-m2-vs-bcra-projection",
+      "title": "Transactional M2 vs BCRA projection",
+      "href": "/charts/transactional-m2-vs-bcra-projection",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns38",
+      "kind": "chart",
+      "slug": "m2-to-gdp-monetization-ratio",
+      "title": "M2-to-GDP monetization ratio",
+      "href": "/charts/m2-to-gdp-monetization-ratio",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns39",
+      "kind": "chart",
+      "slug": "remonetization-vs-inflation",
+      "title": "Remonetization vs inflation",
+      "href": "/charts/remonetization-vs-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns40",
+      "kind": "chart",
+      "slug": "remonetization-vs-bcra-fx-purchases",
+      "title": "Remonetization vs BCRA FX purchases",
+      "href": "/charts/remonetization-vs-bcra-fx-purchases",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns41",
+      "kind": "chart",
+      "slug": "monetary-base-vs-transactional-m2",
+      "title": "Monetary base vs transactional M2",
+      "href": "/charts/monetary-base-vs-transactional-m2",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns42",
+      "kind": "chart",
+      "slug": "monetary-base-growth-vs-money-demand-proxy",
+      "title": "Monetary-base growth vs money-demand proxy",
+      "href": "/charts/monetary-base-growth-vs-money-demand-proxy",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns43",
+      "kind": "chart",
+      "slug": "monetization-dashboard-base-m2-inflation",
+      "title": "Monetization dashboard: base, M2, inflation",
+      "href": "/charts/monetization-dashboard-base-m2-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns44",
+      "kind": "chart",
+      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
+      "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns45",
+      "kind": "chart",
+      "slug": "fx-futures-vs-top-of-band",
+      "title": "FX futures vs top of band",
+      "href": "/charts/fx-futures-vs-top-of-band",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns46",
+      "kind": "chart",
+      "slug": "end-of-year-fx-forward-vs-inflation-expectation",
+      "title": "End-of-year FX forward vs inflation expectation",
+      "href": "/charts/end-of-year-fx-forward-vs-inflation-expectation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns47",
+      "kind": "chart",
+      "slug": "fx-gap-vs-inflation-expectations",
+      "title": "FX gap vs inflation expectations",
+      "href": "/charts/fx-gap-vs-inflation-expectations",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns48",
+      "kind": "chart",
+      "slug": "money-market-volatility-vs-fx-gap",
+      "title": "Money-market volatility vs FX gap",
+      "href": "/charts/money-market-volatility-vs-fx-gap",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns49",
+      "kind": "chart",
+      "slug": "carry-environment-real-rates-vs-fx-depreciation",
+      "title": "Carry environment: real rates vs FX depreciation",
+      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns50",
+      "kind": "chart",
+      "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
+      "title": "Inflation vs FX depreciation since stabilization start",
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns51",
+      "kind": "chart",
+      "slug": "core-services-vs-core-goods-inflation",
+      "title": "Core services vs core goods inflation",
+      "href": "/charts/core-services-vs-core-goods-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns52",
+      "kind": "chart",
+      "slug": "nominal-stabilization-state-map",
+      "title": "Nominal-stabilization state map",
+      "href": "/charts/nominal-stabilization-state-map",
+      "missing": [
+        "intro"
+      ]
+    }
+  ],
+  "count": 138
+}

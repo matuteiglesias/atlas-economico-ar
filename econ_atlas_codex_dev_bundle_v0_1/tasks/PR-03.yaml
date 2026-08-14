@@ -1,0 +1,22 @@
+id: PR-03
+title: Search + responsive + accessibility
+max_scope: Target <= ~800 handwritten net LOC.
+work:
+- Implement command/search palette using search-index.json.
+- Support Cmd+K and Ctrl+K.
+- Group results Questions, Topics, Charts, Indicators, Areas.
+- Implement mobile Explore Sheet/drawer.
+- 'Make right ContextRail responsive: sidebar on wide screens, below content on narrow screens.'
+- Make chart preview grids 3/2/1 columns appropriately.
+- Add active nav states and robust focus styles.
+- Audit semantic landmarks, labels, keyboard operation, reduced motion.
+- Tighten empty states and long-title wrapping.
+checks:
+- pnpm lint
+- pnpm typecheck
+- pnpm build
+- Keyboard-only search smoke test
+- Mobile viewport ~390x844 has no horizontal scroll
+- Tablet viewport ~768x1024 remains readable
+- Desktop visual target has not regressed materially
+stop_gate: Human reviews search/mobile/accessibility before final hardening.

@@ -1,0 +1,23 @@
+{
+  "compilerSchemaVersion": "0.1",
+  "publicKinds": [
+    "region",
+    "topic",
+    "question",
+    "indicator",
+    "chart"
+  ],
+  "counts": {
+    "region": 6,
+    "topic": 25,
+    "question": 18,
+    "indicator": 42,
+    "chart": 52
+  },
+  "graph": {
+    "nodes": 143,
+    "edges": 303
+  },
+  "editorialGaps": 138,
+  "seriesBindingsRequired": 42
+}

@@ -1,0 +1,155 @@
+{
+  "id": "pi.ns14",
+  "kind": "chart",
+  "slug": "inflation-expectations-fan-horizon-curve",
+  "title": "Inflation expectations fan / horizon curve",
+  "href": "/charts/inflation-expectations-fan-horizon-curve",
+  "dek": "Show expectation term structure across horizons.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns07",
+      "kind": "question",
+      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "title": "What inflation path does the market expect over the next months and year-end?",
+      "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation"
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.infl_exp_1m",
+      "kind": "indicator",
+      "slug": "expected-inflation-next-month",
+      "title": "Expected inflation next month",
+      "href": "/indicators/expected-inflation-next-month"
+    },
+    {
+      "id": "ci.ns.infl_exp_3m",
+      "kind": "indicator",
+      "slug": "expected-inflation-three-months-ahead",
+      "title": "Expected inflation three months ahead",
+      "href": "/indicators/expected-inflation-three-months-ahead"
+    },
+    {
+      "id": "ci.ns.infl_exp_eop",
+      "kind": "indicator",
+      "slug": "expected-end-of-year-inflation",
+      "title": "Expected end-of-year inflation",
+      "href": "/indicators/expected-end-of-year-inflation"
+    }
+  ],
+  "referenceFrameIds": [],
+  "chartSpec": {
+    "id": "cs.ns14",
+    "templateId": "expectations_curve",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ns07",
+      "kind": "question",
+      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "title": "What inflation path does the market expect over the next months and year-end?",
+      "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.infl_exp_eop",
+      "kind": "indicator",
+      "slug": "expected-end-of-year-inflation",
+      "title": "Expected end-of-year inflation",
+      "href": "/indicators/expected-end-of-year-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.infl_exp_1m",
+      "kind": "indicator",
+      "slug": "expected-inflation-next-month",
+      "title": "Expected inflation next month",
+      "href": "/indicators/expected-inflation-next-month",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.infl_exp_3m",
+      "kind": "indicator",
+      "slug": "expected-inflation-three-months-ahead",
+      "title": "Expected inflation three months ahead",
+      "href": "/indicators/expected-inflation-three-months-ahead",
+      "distance": 1
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns44",
+      "kind": "chart",
+      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
+      "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns46",
+      "kind": "chart",
+      "slug": "end-of-year-fx-forward-vs-inflation-expectation",
+      "title": "End-of-year FX forward vs inflation expectation",
+      "href": "/charts/end-of-year-fx-forward-vs-inflation-expectation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 2,
+    "indicators": 3
+  }
+}

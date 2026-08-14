@@ -1,0 +1,31 @@
+{
+  "id": "labor_incomes",
+  "kind": "region",
+  "slug": "labor-incomes",
+  "title": "Labor & Incomes",
+  "href": "/areas/labor-incomes",
+  "dek": "Explain employment quantity/quality, labor formalization, wages, real earnings, informality, and labor-market transmission from sectoral change.",
+  "intro": null,
+  "populated": false,
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    }
+  ],
+  "stats": {
+    "topics": 0,
+    "questions": 0,
+    "indicators": 0,
+    "charts": 0,
+    "relations": 0
+  },
+  "topics": [],
+  "questions": [],
+  "indicators": [],
+  "charts": [],
+  "localGraph": {
+    "nodes": [],
+    "edges": []
+  }
+}

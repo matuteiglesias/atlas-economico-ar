@@ -1,0 +1,23 @@
+version: '0.1'
+routes:
+- route: /
+  entity: home
+- route: /atlas
+  entity: atlas
+- route: /areas/[slug]
+  entity: region
+- route: /topics/[slug]
+  entity: topic
+- route: /questions/[slug]
+  entity: question
+- route: /indicators/[slug]
+  entity: indicator
+- route: /charts/[slug]
+  entity: chart
+reserved_future_routes:
+- /collections/[slug]
+rules:
+- Public URLs use human slugs; stable ontology IDs remain internal identifiers.
+- Breadcrumb root is Atlas for all entity pages.
+- No public route for Relation, ReferenceFrame, DerivedIndicator, ChartSpec in v0.1.
+- Broken entity references are build-time errors, never runtime fallbacks.

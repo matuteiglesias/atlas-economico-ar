@@ -1,0 +1,20 @@
+{
+  "bundle_id": "econ_atlas_frontend_contract_v0_1",
+  "version": "0.1",
+  "status": "frozen_for_initial_nextjs_implementation",
+  "files": [
+    "00_README.md",
+    "01_page_grammar.yaml",
+    "02_route_contract.yaml",
+    "03_component_contract.yaml",
+    "04_derived_vs_editorial.yaml",
+    "05_read_model_contract.yaml",
+    "06_navigation_rules.yaml",
+    "07_visual_principles.md",
+    "08_PRE_NEXTJS_FREEZE.yaml",
+    "09_NEXTJS_IMPLEMENTATION_BRIEF.md",
+    "10_REPO_HYGIENE.md",
+    "examples/question_inflation_drivers_page.yaml",
+    "examples/topic_inflation_page.yaml"
+  ]
+}

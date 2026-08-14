@@ -1,0 +1,80 @@
+version: '0.1'
+global_rhythm:
+- orient
+- understand
+- explore
+- see_the_data
+- continue
+pages:
+  home:
+    purpose: Orientation and curiosity.
+    required_sections:
+    - atlas_statement
+    - areas
+    - questions_worth_understanding
+    - featured_charts
+    - browse_by_entity_type
+    notes: No giant graph required. Must work meaningfully before real chart data exists.
+  area:
+    route: /areas/[slug]
+    purpose: Editorial landing page for one economic territory.
+    required_sections:
+    - entity_header
+    - stats
+    - key_questions
+    - core_topics
+    - charts
+    - connections_to_other_areas
+    - browse_all
+  topic:
+    route: /topics/[slug]
+    purpose: Explain an economic idea and expose its semantic neighborhood.
+    required_sections:
+    - entity_header
+    - questions_people_ask
+    - charts
+    - indicators
+    - connected_topics
+    context_rail:
+    - counts
+    - related_topics
+    - used_by_questions
+  question:
+    route: /questions/[slug]
+    purpose: Human-curiosity-first explainer page.
+    required_sections:
+    - entity_header
+    - why_this_question_matters
+    - topics_involved
+    - charts_that_answer_it
+    - indicators_underneath
+    - related_questions_or_topics
+    priority: Questions should be one of the strongest entry/navigation surfaces.
+  chart:
+    route: /charts/[slug]
+    purpose: 'Richest leaf object: one visual explanation and its semantic context.'
+    required_sections:
+    - entity_header
+    - chart_surface
+    - what_to_look_at
+    - questions_answered
+    - topics
+    - indicators
+    - related_charts
+    v0_behavior_without_data: Render a high-quality chart placeholder/skeleton using ChartSpec metadata.
+  indicator:
+    route: /indicators/[slug]
+    purpose: Compact reference page for a stable measurement.
+    required_sections:
+    - entity_header
+    - measurement_summary
+    - technical_facts
+    - used_to_answer
+    - used_in_charts
+    - related_topic
+    tone: More documentation-like than Topic/Question pages.
+  atlas:
+    route: /atlas
+    purpose: Global exploration surface.
+    v0_scope: May begin as structured area/topic exploration. Full graph visualization and XY layout are explicitly
+      out of scope.

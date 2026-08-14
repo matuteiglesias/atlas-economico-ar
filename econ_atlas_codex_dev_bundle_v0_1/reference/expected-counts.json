@@ -1,0 +1,16 @@
+{
+  "public_entity_pages": 143,
+  "site_pages_including_home_atlas": 145,
+  "counts": {
+    "region": 6,
+    "topic": 25,
+    "question": 18,
+    "indicator": 42,
+    "chart": 52
+  },
+  "graph": {
+    "nodes": 143,
+    "edges": 303
+  },
+  "verticals_loaded": 1
+}

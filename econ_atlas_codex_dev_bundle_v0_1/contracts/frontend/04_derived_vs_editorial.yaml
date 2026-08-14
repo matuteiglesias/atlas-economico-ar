@@ -1,0 +1,33 @@
+version: '0.1'
+editorial_fields_allowed:
+  title: Optional human override.
+  dek: 1-2 sentence human-facing explanation.
+  intro: Optional short richer explanation.
+  featured: Optional editorial selection flag.
+  order: Optional editorial ordering/ranking.
+must_be_derived_by_compiler:
+- href
+- slug unless explicitly overridden
+- breadcrumbs
+- area membership
+- topic ↔ question joins
+- topic ↔ indicator joins
+- topic ↔ chart joins
+- question ↔ chart joins
+- question ↔ indicator joins
+- indicator used-by charts/questions
+- chart questions/topics/indicators
+- incoming/outgoing relations
+- counts
+- nearby entities
+- search documents
+- navigation indexes
+- backlinks
+frontend_must_not_derive:
+- graph traversals for semantic joins
+- backlinks
+- nearby calculations
+- cross-file joins
+- slug generation
+- semantic ranking
+editorial_gap_policy: Missing prose is reported explicitly. Do not auto-fill generic marketing copy at runtime.

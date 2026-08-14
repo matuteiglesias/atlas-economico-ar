@@ -1,0 +1,64 @@
+version: '0.1'
+common_entity_fields:
+- id
+- kind
+- slug
+- title
+- href
+- dek
+- intro
+entity_reference_shape:
+  id: stable ontology id
+  kind: region|topic|question|indicator|chart
+  slug: human URL slug
+  title: display title
+  href: precompiled public URL
+common_page_fields:
+- region where applicable
+- breadcrumbs
+- nearby where applicable
+- counts where applicable
+topic_page_reads:
+- connections
+- questions
+- indicators
+- charts
+- nearby
+- counts
+question_page_reads:
+- questionFamily
+- topics
+- indicators
+- charts
+- nearby
+- counts
+indicator_page_reads:
+- topic
+- questions if compiled
+- charts
+- derivedUsage if compiled
+- nearby
+- counts
+chart_page_reads:
+- questions
+- topics
+- indicators
+- referenceFrameIds
+- chartSpec
+- nearby
+- counts
+region_page_reads:
+- mission/dek
+- topics
+- questions
+- indicators
+- charts
+- localGraph
+- counts
+global_files:
+  navigation.json: Primary browse/taxonomic navigation.
+  search-index.json: Client-side search source.
+  graph.json: Global semantic graph; useful for atlas/global exploration, not ordinary page joins.
+  stats.json: Global counts/status.
+  editorial-gaps.json: Editorial cleanup queue; not public UI.
+  manifest.json: Build metadata and compatibility checks.

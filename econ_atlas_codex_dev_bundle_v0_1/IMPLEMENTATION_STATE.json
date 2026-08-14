@@ -1,0 +1,29 @@
+{
+  "bundle_id": "econ_atlas_codex_dev_bundle_v0_1",
+  "status": "ready_for_PR_01",
+  "target_app_dir": "web",
+  "fixture_schema_version": "0.1",
+  "fixture_counts": {
+    "region": 6,
+    "topic": 25,
+    "question": 18,
+    "indicator": 42,
+    "chart": 52
+  },
+  "expected_total_routes": 145,
+  "primary_visual_target": {
+    "route": "/topics/inflation",
+    "viewport": "1536x1024",
+    "image": "reference/visual-target-inflation-topic.png"
+  },
+  "pr_sequence": [
+    "PR-01",
+    "PR-02",
+    "PR-03",
+    "PR-04"
+  ],
+  "human_gate_after_each_pr": true,
+  "dummy_chart_count": 3,
+  "real_series_required": false,
+  "next_action": "Give this bundle to Codex and instruct it to execute PR-01."
+}

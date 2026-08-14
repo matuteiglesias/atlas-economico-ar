@@ -1,0 +1,32 @@
+version: '0.1'
+navigation_types:
+  taxonomic:
+    question: Where am I?
+    mechanisms:
+    - breadcrumbs
+    - area navigation
+    - entity kind
+    - browse-by-kind
+  semantic:
+    question: Where can I go from here?
+    mechanisms:
+    - questions
+    - related topics
+    - charts
+    - indicators
+    - backlinks
+    - nearby
+ranking_defaults:
+- Editorial `featured/order` beats automatic ordering when present.
+- Direct semantic links beat graph-distance-2 nearby links.
+- Question and Chart links are favored over raw Relation exposition in primary reading sections.
+- Reference/technical information belongs lower on the page or in the context rail.
+search:
+  interaction: Global command/search palette.
+  groups:
+  - Questions
+  - Topics
+  - Charts
+  - Indicators
+  - Areas
+  implementation: Client-side for v0.1; no search backend required.
