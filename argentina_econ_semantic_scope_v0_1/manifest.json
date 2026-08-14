@@ -1,0 +1,21 @@
+{
+  "bundle": "argentina_econ_semantic_scope_v0_1",
+  "version": "0.1",
+  "files": [
+    "00_README.md",
+    "01_scope_freeze.yaml",
+    "02_ontology_contract.yaml",
+    "03_source_epistemics.yaml",
+    "04_vertical_build_contract.yaml",
+    "05_cross_slice_integration.yaml",
+    "06_semantic_map.yaml",
+    "07_FREEZE_DECISION.md",
+    "overlays/structural_transformation.yaml",
+    "slices/external_financial_constraint.yaml",
+    "slices/fiscal_regime.yaml",
+    "slices/household_welfare.yaml",
+    "slices/labor_incomes.yaml",
+    "slices/nominal_stabilization.yaml",
+    "slices/real_economy.yaml"
+  ]
+}

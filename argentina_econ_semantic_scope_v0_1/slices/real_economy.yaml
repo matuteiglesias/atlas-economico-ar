@@ -1,0 +1,34 @@
+slice_id: "real_economy"
+title: "Real Economy"
+mission: "Explain output, demand, investment, consumption, sectoral performance, production structure, and the real-side consequences of stabilization and openness."
+core_scope:
+  - "GDP/activity growth"
+  - "growth contributions: consumption, investment, exports, imports"
+  - "sectoral activity and divergence"
+  - "construction/manufacturing/retail vs primary sectors"
+  - "private consumption"
+  - "gross capital formation and investment"
+  - "credit conditions as a real-economy input"
+  - "productivity and capacity expansion"
+  - "sectoral export capacity"
+boundary_ports:
+  - "employment intensity and wages → labor_incomes"
+  - "trade/current account → external_financial_constraint"
+  - "public investment/revenue sensitivity → fiscal_regime"
+  - "inflation/real rates → nominal_stabilization"
+out_of_scope:
+  - "labor regulation detail"
+  - "poverty decomposition"
+  - "reserve adequacy"
+  - "full fiscal institution design"
+imf_enrichment_examples:
+  - "uneven sectoral recovery"
+  - "GDP growth contribution decomposition"
+  - "commodity-sector vs labor-intensive-sector divergence"
+  - "investment and primary-export expansion"
+vertical_policy:
+  must_use_global_contracts: true
+  must_respect_boundary_ports: true
+  may_add_new_port_candidates: true
+  may_not_redefine_global_relation_types: true
+  may_not_create_chart_specs_before_semantic_acceptance: true

@@ -1,0 +1,34 @@
+slice_id: "nominal_stabilization"
+title: "Nominal Stabilization"
+mission: "Explain price dynamics, the nominal anchor, monetary conditions, FX dynamics, expectations, and BCRA operating mechanisms."
+core_scope:
+  - "inflation dynamics and composition"
+  - "core/headline inflation"
+  - "inflation expectations and inertia"
+  - "nominal exchange rate and FX bands"
+  - "real interest rates and monetary conditions"
+  - "money demand/remonetization"
+  - "monetary aggregates and reserve requirements"
+  - "BCRA monetary/FX operations insofar as they affect nominal stabilization"
+  - "credibility/expectations as nominal-stabilization mechanisms"
+boundary_ports:
+  - "reserves and BCRA net FX position → external_financial_constraint"
+  - "real wages/indexation → labor_incomes"
+  - "regulated prices/subsidies/fiscal anchor → fiscal_regime"
+out_of_scope:
+  - "full debt sustainability"
+  - "poverty decomposition"
+  - "sectoral employment structure"
+  - "full fiscal composition"
+imf_enrichment_examples:
+  - "monthly inflation decomposition"
+  - "core inflation measures"
+  - "real rates vs expectations"
+  - "money demand and transactional M2"
+  - "FX pass-through and relative-price adjustment"
+vertical_policy:
+  must_use_global_contracts: true
+  must_respect_boundary_ports: true
+  may_add_new_port_candidates: true
+  may_not_redefine_global_relation_types: true
+  may_not_create_chart_specs_before_semantic_acceptance: true

@@ -1,0 +1,28 @@
+version: '0.1'
+status: frozen_for_nextjs_v0_1
+decisions_frozen:
+- 'Public entity vocabulary: Area, Topic, Question, Indicator, Chart.'
+- Six page grammars plus Home/Atlas.
+- Compiler owns semantic joins/backlinks/navigation.
+- Frontend consumes page-shaped JSON and does not know YAML.
+- Questions are a primary human navigation surface.
+- Topic/Question/Chart pages are editorial-first; Indicator page is reference-first.
+- Minimal editorial overlay only.
+- Client-side search is enough for v0.1.
+- No DB, CMS, auth, API layer, graph DB, provenance UI, news UI.
+- No Trails.
+- No XY atlas positions.
+- No real data-series binding required to build first UI.
+- Charts may render polished placeholders until PlotArtifacts/data exist.
+implementation_gate:
+  ready: true
+  remaining_before_nextjs:
+  - Choose repo location/name for web app.
+  - Choose exact initial design tokens/font stack during implementation.
+  - Copy or point app to site-data output.
+  not_blocking:
+  - other five semantic verticals
+  - real time-series data
+  - actual chart rendering
+  - Gold100 collection
+  - atlas graph visualization

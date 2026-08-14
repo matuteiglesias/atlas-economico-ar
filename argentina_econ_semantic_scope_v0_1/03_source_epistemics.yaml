@@ -1,0 +1,42 @@
+sources:
+  media_monitor:
+    role:
+      - "agenda_surface"
+      - "question_discovery"
+      - "vocabulary"
+      - "recurring_bridges"
+    cannot_establish:
+      - "causality"
+      - "measurement_truth"
+      - "methodological validity"
+  expert_reports:
+    initial_source: "IMF 2026 Article IV staff report"
+    role:
+      - "mechanisms"
+      - "decompositions"
+      - "tradeoffs"
+      - "structural_diagnostics"
+      - "reference_frames"
+      - "plot_intent_candidates"
+    cannot_establish:
+      - "sole canonical ontology by itself"
+      - "automatic truth without provenance/review"
+  official_data_sources:
+    role:
+      - "series_registration"
+      - "measurement_truth"
+      - "release_metadata"
+      - "methodology"
+  human_review:
+    role:
+      - "canonicalization"
+      - "merge_split_decisions"
+      - "epistemic_typing"
+      - "approval"
+      - "scope_changes"
+provenance_policy:
+  - "Every curated object must state origin/evidence sources."
+  - "A media-frequency relationship must remain agenda_related unless separately supported."
+  - "An expert-source mechanism must preserve source attribution and confidence."
+  - "Series mappings must cite official provider metadata when available."
+  - "DerivedIndicator definitions must record formula/method/version and input indicators."

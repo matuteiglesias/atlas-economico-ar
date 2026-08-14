@@ -1,0 +1,25 @@
+page_kind: question
+source: site-data/questions/what-is-driving-monthly-inflation.json
+render_order:
+- component: Breadcrumbs
+  from: breadcrumbs
+- component: EntityHeader
+  from:
+  - kind
+  - title
+  - dek
+  - intro
+  - region
+- component: TopicList
+  section_title: Ideas involved
+  from: topics
+- component: ChartGrid
+  section_title: Ways to look at it
+  from: charts
+- component: IndicatorList
+  section_title: Measurements underneath
+  from: indicators
+- component: ContextRail
+  from:
+  - counts
+  - nearby

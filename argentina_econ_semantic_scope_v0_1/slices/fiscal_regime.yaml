@@ -1,0 +1,38 @@
+slice_id: "fiscal_regime"
+title: "Fiscal Regime"
+mission: "Explain revenues, spending, balances, subsidies, pensions, public financing needs, and institutional durability of the fiscal anchor."
+core_scope:
+  - "primary and overall fiscal balance"
+  - "revenue composition and activity sensitivity"
+  - "primary expenditure composition"
+  - "subsidies and tariff-related fiscal costs"
+  - "social spending and targeting"
+  - "pension spending/contributions and financing gap"
+  - "federal vs provincial balances"
+  - "financing needs and debt-service interaction"
+  - "fiscal rules, debt anchors, escape clauses"
+  - "fiscal council and medium-term framework"
+  - "monetary financing prohibition/fiscal-monetary boundary"
+boundary_ports:
+  - "inflation/regulated prices → nominal_stabilization"
+  - "debt/market access → external_financial_constraint"
+  - "activity/public investment → real_economy"
+  - "pensions/transfers/subsidies → household_welfare"
+  - "social contributions/formality → labor_incomes"
+out_of_scope:
+  - "full monetary operating framework"
+  - "full banking-sector regulation"
+  - "general household welfare unrelated to fiscal incidence"
+imf_enrichment_examples:
+  - "primary balance vs real revenue/spending"
+  - "energy subsidy decomposition"
+  - "pension financing gap"
+  - "federal-provincial divergence"
+  - "fiscal-rule institutional design"
+  - "debt maturity and Treasury funding conditions"
+vertical_policy:
+  must_use_global_contracts: true
+  must_respect_boundary_ports: true
+  may_add_new_port_candidates: true
+  may_not_redefine_global_relation_types: true
+  may_not_create_chart_specs_before_semantic_acceptance: true

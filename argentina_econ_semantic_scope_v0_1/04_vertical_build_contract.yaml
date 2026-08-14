@@ -1,0 +1,74 @@
+vertical_build_sequence:
+  - stage: 0
+    name: "evidence_packet"
+    inputs:
+      - "slice definition"
+      - "media evidence subset"
+      - "expert-source excerpts"
+      - "global ontology contract"
+    outputs:
+      - "evidence_index"
+      - "open_scope_questions"
+  - stage: 1
+    name: "concepts"
+    outputs:
+      - "concepts.yaml"
+    rule: "Create only concepts needed to understand the slice; do not mirror API catalogs."
+  - stage: 2
+    name: "relations"
+    outputs:
+      - "relations.yaml"
+    rule: "Use approved Concept IDs and typed relation vocabulary only."
+  - stage: 3
+    name: "question_intents"
+    outputs:
+      - "questions.yaml"
+    rule: "Questions arise from concepts+relations+evidence; preserve recurring explanatory demand."
+  - stage: 4
+    name: "canonical_indicators"
+    outputs:
+      - "canonical_indicators.yaml"
+    rule: "Measurements derive from explanatory demand, not from what APIs happen to expose."
+  - stage: 5
+    name: "series_registration"
+    outputs:
+      - "series_candidates.yaml"
+      - "series_registry_delta.yaml"
+    rule: "Register official technical implementations; unresolved canonical choices remain explicit."
+  - stage: 6
+    name: "derived_indicators"
+    outputs:
+      - "derived_indicators.yaml"
+    rule: "Only explicit, reviewable methodologies; no silent transformations."
+  - stage: 7
+    name: "plot_intents"
+    outputs:
+      - "plot_intents.yaml"
+    rule: "Each PlotIntent must answer >=1 QuestionIntent and reference concepts/indicators/reference frames."
+  - stage: 8
+    name: "semantic_validation"
+    outputs:
+      - "coverage_report.yaml"
+      - "redundancy_report.yaml"
+      - "open_questions.yaml"
+    checks:
+      - "orphan concepts"
+      - "relations with unknown endpoints"
+      - "questions without measurable indicators"
+      - "indicators unused by questions/plots"
+      - "plots not answering a question"
+      - "near-duplicate concepts/questions"
+      - "cross-slice leakage"
+  - stage: 9
+    name: "chart_specs_later"
+    outputs:
+      - "chart_specs/"
+    rule: "Do not generate until semantic and measurement layers are accepted."
+agent_constraints:
+  - "Do not invent sources."
+  - "Do not silently change slice boundaries."
+  - "Do not silently resolve ambiguous series choices."
+  - "Do not silently merge concepts across slices."
+  - "Emit unresolved decisions explicitly."
+  - "Use existing global IDs when available."
+  - "Prefer sparse coherent graphs over exhaustive taxonomies."

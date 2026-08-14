@@ -1,0 +1,35 @@
+slice_id: "labor_incomes"
+title: "Labor & Incomes"
+mission: "Explain employment quantity/quality, labor formalization, wages, real earnings, informality, and labor-market transmission from sectoral change."
+core_scope:
+  - "employment/unemployment"
+  - "formal vs informal employment"
+  - "salaried vs non-salaried work"
+  - "employment by sector and employment intensity"
+  - "nominal and real wages"
+  - "wage dispersion and contract type"
+  - "labor income"
+  - "labor formalization"
+  - "labor-market regulation as an institutional driver"
+  - "labor-force participation where relevant"
+boundary_ports:
+  - "inflation/indexation → nominal_stabilization"
+  - "sector activity/productivity → real_economy"
+  - "household income/poverty → household_welfare"
+  - "social contributions/pension base → fiscal_regime"
+out_of_scope:
+  - "general poverty without labor-income mechanism"
+  - "full pension-system design"
+  - "full macro debt/external analysis"
+imf_enrichment_examples:
+  - "employment by type of contract"
+  - "real wage by contract type"
+  - "informality and labor segmentation"
+  - "labor reform and formalization incentives"
+  - "sectoral growth vs employment intensity"
+vertical_policy:
+  must_use_global_contracts: true
+  must_respect_boundary_ports: true
+  may_add_new_port_candidates: true
+  may_not_redefine_global_relation_types: true
+  may_not_create_chart_specs_before_semantic_acceptance: true

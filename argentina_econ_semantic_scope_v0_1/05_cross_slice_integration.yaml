@@ -1,0 +1,94 @@
+cross_slice_ports:
+  - between:
+      - "nominal_stabilization"
+      - "external_financial_constraint"
+    ports:
+      - "nominal_exchange_rate"
+      - "real_exchange_rate"
+      - "reserves"
+      - "bcra_fx_operations"
+      - "sovereign_spreads"
+      - "market_expectations"
+  - between:
+      - "nominal_stabilization"
+      - "labor_incomes"
+    ports:
+      - "inflation"
+      - "real_wages"
+      - "indexation"
+      - "inflation_expectations"
+  - between:
+      - "nominal_stabilization"
+      - "fiscal_regime"
+    ports:
+      - "fiscal_anchor"
+      - "monetary_financing"
+      - "regulated_prices"
+      - "subsidies"
+      - "policy_credibility"
+  - between:
+      - "external_financial_constraint"
+      - "real_economy"
+    ports:
+      - "exports"
+      - "imports"
+      - "terms_of_trade"
+      - "investment"
+      - "capital_inflows"
+      - "credit_conditions"
+  - between:
+      - "external_financial_constraint"
+      - "fiscal_regime"
+    ports:
+      - "public_debt"
+      - "fx_debt_service"
+      - "market_access"
+      - "sovereign_risk"
+      - "financing_needs"
+  - between:
+      - "real_economy"
+      - "labor_incomes"
+    ports:
+      - "sectoral_activity"
+      - "employment_intensity"
+      - "employment_growth"
+      - "productivity"
+      - "real_wages"
+  - between:
+      - "labor_incomes"
+      - "household_welfare"
+    ports:
+      - "labor_income"
+      - "real_wages"
+      - "employment_per_household"
+      - "informality"
+      - "household_income"
+  - between:
+      - "household_welfare"
+      - "fiscal_regime"
+    ports:
+      - "social_transfers"
+      - "pensions"
+      - "subsidies"
+      - "tax_incidence"
+      - "social_spending"
+  - between:
+      - "real_economy"
+      - "fiscal_regime"
+    ports:
+      - "activity_related_revenue"
+      - "public_investment"
+      - "government_consumption"
+      - "fiscal_multiplier_context"
+integration_pass_after_slices:
+  purpose:
+    - "identify missing bridge concepts/relations"
+    - "merge duplicates"
+    - "resolve conflicting definitions"
+    - "create cross-region QuestionIntents"
+    - "create cross-region PlotIntents"
+    - "audit global coverage and redundancy"
+  must_not:
+    - "regenerate slices from scratch"
+    - "erase provenance"
+    - "promote agenda links to causality"

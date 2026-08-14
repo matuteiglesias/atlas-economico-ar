@@ -1,0 +1,30 @@
+page_kind: topic
+source: site-data/topics/inflation.json
+render_order:
+- component: Breadcrumbs
+  from: breadcrumbs
+- component: EntityHeader
+  from:
+  - kind
+  - title
+  - dek
+  - intro
+  - region
+- component: QuestionList
+  section_title: Questions people ask
+  from: questions
+- component: ChartGrid
+  section_title: See it in the data
+  from: charts
+- component: IndicatorList
+  section_title: How we measure it
+  from: indicators
+- component: RelationList
+  section_title: Connected ideas
+  from: connections
+- component: ContextRail
+  from:
+  - counts
+  - nearby
+  - questions
+  - connections

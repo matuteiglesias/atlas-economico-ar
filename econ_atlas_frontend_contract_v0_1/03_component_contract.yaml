@@ -1,0 +1,27 @@
+version: '0.1'
+shell:
+  AppShell: Desktop may use left navigation + main reading column + right context rail. Must collapse cleanly on
+    smaller screens.
+  SiteHeader: Brand, global search trigger, minimal utility controls.
+  PrimaryExploreNav: Areas plus browse links. Derived from navigation.json.
+  ContextRail: 'Secondary/reference density: counts, related entities, backlinks.'
+primitives:
+  EntityHeader: Eyebrow/type + title + dek + optional intro + area membership.
+  Breadcrumbs: Render precompiled breadcrumbs without graph logic.
+  Section: Consistent section heading, optional action link.
+  EntityLink: Uniform linked entity reference.
+  StatStrip: Counts such as questions/charts/indicators.
+  QuestionCard: Question title + compact semantic metadata.
+  TopicCard: Topic title + dek + counts/nearby labels when useful.
+  ChartCard: Chart title + semantic purpose + future thumbnail/preview.
+  IndicatorCard: Measurement name + compact metadata + used-by counts.
+  RelationRow: Human-readable typed semantic relation.
+  SearchPalette: Client-side search over search-index.json.
+  ChartSurface: Placeholder now; actual chart renderer plugs in later.
+  EmptyAreaState: Elegant treatment of frozen-but-not-yet-populated areas.
+anti_patterns:
+- Do not create a component per economic concept.
+- Do not let React traverse graph.json to construct page joins.
+- Do not display ontology IDs by default.
+- Do not use ontology class names as human section labels.
+- Do not create bespoke layouts per entity.

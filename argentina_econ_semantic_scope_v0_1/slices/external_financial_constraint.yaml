@@ -1,0 +1,34 @@
+slice_id: "external_financial_constraint"
+title: "External & Financial Constraint"
+mission: "Explain external buffers, reserve adequacy, financing, market access, sovereign risk, balance-of-payments pressure, and financial-sector depth/vulnerability."
+core_scope:
+  - "gross reserves vs NIR vs liquid buffers"
+  - "BCRA net FX position and short-term FX liabilities"
+  - "FX purchases and reserve accumulation"
+  - "current account and balance-of-payments components"
+  - "capital flows and resident dollarization/hedging"
+  - "public FX obligations and refinancing"
+  - "sovereign/corporate spreads and market access"
+  - "external debt sustainability and reserve adequacy"
+  - "bank credit, NPLs, FX mismatches, financial depth"
+  - "capital-market depth and domestic savings mobilization"
+boundary_ports:
+  - "exchange-rate regime/monetary conditions → nominal_stabilization"
+  - "exports/imports/investment → real_economy"
+  - "public debt/fiscal anchor → fiscal_regime"
+out_of_scope:
+  - "full production-sector taxonomy"
+  - "household poverty"
+  - "tax/expenditure composition except financing implications"
+imf_enrichment_examples:
+  - "gross vs net reserves"
+  - "market access + FX debt + reserve coverage"
+  - "financial-account decomposition"
+  - "credit deepening vs NPL risk"
+  - "resident assets outside domestic financial system"
+vertical_policy:
+  must_use_global_contracts: true
+  must_respect_boundary_ports: true
+  may_add_new_port_candidates: true
+  may_not_redefine_global_relation_types: true
+  may_not_create_chart_specs_before_semantic_acceptance: true

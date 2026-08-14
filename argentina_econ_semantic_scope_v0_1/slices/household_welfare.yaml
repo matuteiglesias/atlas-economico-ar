@@ -1,0 +1,35 @@
+slice_id: "household_welfare"
+title: "Household Welfare"
+mission: "Explain purchasing power, poverty, basic baskets, distribution, social benefits, and how macro/labor changes reach households."
+core_scope:
+  - "poverty and extreme poverty"
+  - "basic consumption basket and poverty line"
+  - "real household income"
+  - "income distribution and quintiles/deciles"
+  - "labor-income contribution to welfare"
+  - "employment per household"
+  - "pensions and social benefits as household resources"
+  - "targeted transfers"
+  - "child/informal-worker household vulnerability"
+  - "distributional incidence of price/subsidy changes"
+boundary_ports:
+  - "real wages/employment → labor_incomes"
+  - "inflation/relative-price effects → nominal_stabilization"
+  - "transfers/pensions/subsidies → fiscal_regime"
+  - "regional/sectoral reallocation → structural_transformation"
+out_of_scope:
+  - "full pension actuarial design"
+  - "full fiscal-balance construction"
+  - "sovereign financing"
+imf_enrichment_examples:
+  - "poverty reduction decomposition"
+  - "income growth by quintile"
+  - "relative basket inflation effect"
+  - "employment vs earnings channels"
+  - "transfer and pension contributions"
+vertical_policy:
+  must_use_global_contracts: true
+  must_respect_boundary_ports: true
+  may_add_new_port_candidates: true
+  may_not_redefine_global_relation_types: true
+  may_not_create_chart_specs_before_semantic_acceptance: true
