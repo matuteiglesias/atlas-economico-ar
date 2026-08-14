@@ -1,0 +1,224 @@
+{
+  "id": "ns.transactional_m2",
+  "kind": "topic",
+  "slug": "transactional-m2",
+  "title": "Transactional M2",
+  "href": "/topics/transactional-m2",
+  "dek": "Private transactional broad-money aggregate used as an indicator of money demand.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.money_demand_measured_m2",
+      "relation_type": "measurement_of",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.money_demand",
+        "kind": "topic",
+        "slug": "money-demand",
+        "title": "Money demand",
+        "href": "/topics/money-demand"
+      }
+    },
+    {
+      "relation_id": "rel.m2_measures_remonetization",
+      "relation_type": "measurement_of",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.remonetization",
+        "kind": "topic",
+        "slug": "remonetization",
+        "title": "Remonetization",
+        "href": "/topics/remonetization"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.transactional_m2_nominal",
+      "kind": "indicator",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/indicators/private-transactional-m2"
+    },
+    {
+      "id": "ci.ns.transactional_m2_real",
+      "kind": "indicator",
+      "slug": "real-private-transactional-m2",
+      "title": "Real private transactional M2",
+      "href": "/indicators/real-private-transactional-m2"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns34",
+      "kind": "chart",
+      "slug": "nominal-monetary-base",
+      "title": "Nominal monetary base",
+      "href": "/charts/nominal-monetary-base"
+    },
+    {
+      "id": "pi.ns35",
+      "kind": "chart",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/charts/real-monetary-base"
+    },
+    {
+      "id": "pi.ns36",
+      "kind": "chart",
+      "slug": "transactional-m2-nominal-and-real",
+      "title": "Transactional M2 nominal and real",
+      "href": "/charts/transactional-m2-nominal-and-real"
+    },
+    {
+      "id": "pi.ns37",
+      "kind": "chart",
+      "slug": "transactional-m2-vs-bcra-projection",
+      "title": "Transactional M2 vs BCRA projection",
+      "href": "/charts/transactional-m2-vs-bcra-projection"
+    },
+    {
+      "id": "pi.ns38",
+      "kind": "chart",
+      "slug": "m2-to-gdp-monetization-ratio",
+      "title": "M2-to-GDP monetization ratio",
+      "href": "/charts/m2-to-gdp-monetization-ratio"
+    },
+    {
+      "id": "pi.ns39",
+      "kind": "chart",
+      "slug": "remonetization-vs-inflation",
+      "title": "Remonetization vs inflation",
+      "href": "/charts/remonetization-vs-inflation"
+    },
+    {
+      "id": "pi.ns40",
+      "kind": "chart",
+      "slug": "remonetization-vs-bcra-fx-purchases",
+      "title": "Remonetization vs BCRA FX purchases",
+      "href": "/charts/remonetization-vs-bcra-fx-purchases"
+    },
+    {
+      "id": "pi.ns41",
+      "kind": "chart",
+      "slug": "monetary-base-vs-transactional-m2",
+      "title": "Monetary base vs transactional M2",
+      "href": "/charts/monetary-base-vs-transactional-m2"
+    },
+    {
+      "id": "pi.ns42",
+      "kind": "chart",
+      "slug": "monetary-base-growth-vs-money-demand-proxy",
+      "title": "Monetary-base growth vs money-demand proxy",
+      "href": "/charts/monetary-base-growth-vs-money-demand-proxy"
+    },
+    {
+      "id": "pi.ns43",
+      "kind": "chart",
+      "slug": "monetization-dashboard-base-m2-inflation",
+      "title": "Monetization dashboard: base, M2, inflation",
+      "href": "/charts/monetization-dashboard-base-m2-inflation"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering",
+      "distance": 1
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "distance": 1
+    },
+    {
+      "id": "ns.remonetization",
+      "kind": "topic",
+      "slug": "remonetization",
+      "title": "Remonetization",
+      "href": "/topics/remonetization",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.transactional_m2_nominal",
+      "kind": "indicator",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/indicators/private-transactional-m2",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.transactional_m2_real",
+      "kind": "indicator",
+      "slug": "real-private-transactional-m2",
+      "title": "Real private transactional M2",
+      "href": "/indicators/real-private-transactional-m2",
+      "distance": 1
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "distance": 2
+    },
+    {
+      "id": "q.ns17",
+      "kind": "question",
+      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "distance": 2
+    },
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 2,
+    "questions": 1,
+    "indicators": 2,
+    "charts": 10
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "id": "pi.ns27",
+  "kind": "chart",
+  "slug": "nominal-rates-vs-expected-inflation",
+  "title": "Nominal rates vs expected inflation",
+  "href": "/charts/nominal-rates-vs-expected-inflation",
+  "dek": "Show nominal return relative to expectations.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations"
+    },
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate"
+    },
+    {
+      "id": "ns.real_interest_rate",
+      "kind": "topic",
+      "slug": "real-interest-rate",
+      "title": "Real interest rate",
+      "href": "/topics/real-interest-rate"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.tamar_nominal",
+      "kind": "indicator",
+      "slug": "tamar-nominal-rate",
+      "title": "TAMAR nominal rate",
+      "href": "/indicators/tamar-nominal-rate"
+    },
+    {
+      "id": "ci.ns.infl_exp_3m",
+      "kind": "indicator",
+      "slug": "expected-inflation-three-months-ahead",
+      "title": "Expected inflation three months ahead",
+      "href": "/indicators/expected-inflation-three-months-ahead"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.trailing_12m"
+  ],
+  "chartSpec": {
+    "id": "cs.ns27",
+    "templateId": "multi_line_time_series",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.infl_exp_3m",
+      "kind": "indicator",
+      "slug": "expected-inflation-three-months-ahead",
+      "title": "Expected inflation three months ahead",
+      "href": "/indicators/expected-inflation-three-months-ahead",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.tamar_nominal",
+      "kind": "indicator",
+      "slug": "tamar-nominal-rate",
+      "title": "TAMAR nominal rate",
+      "href": "/indicators/tamar-nominal-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "distance": 2
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "distance": 2
+    },
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate",
+      "distance": 2
+    },
+    {
+      "id": "ns.real_interest_rate",
+      "kind": "topic",
+      "slug": "real-interest-rate",
+      "title": "Real interest rate",
+      "href": "/topics/real-interest-rate",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns49",
+      "kind": "chart",
+      "slug": "carry-environment-real-rates-vs-fx-depreciation",
+      "title": "Carry environment: real rates vs FX depreciation",
+      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 3,
+    "indicators": 2
+  }
+}

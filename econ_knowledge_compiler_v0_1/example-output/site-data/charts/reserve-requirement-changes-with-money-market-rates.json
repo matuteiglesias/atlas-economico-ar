@@ -1,0 +1,145 @@
+{
+  "id": "pi.ns33",
+  "kind": "chart",
+  "slug": "reserve-requirement-changes-with-money-market-rates",
+  "title": "Reserve requirement changes with money-market rates",
+  "href": "/charts/reserve-requirement-changes-with-money-market-rates",
+  "dek": "Inspect liquidity-rule changes and short rates.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns14",
+      "kind": "question",
+      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "title": "How tight are bank reserve requirements and liquidity conditions?",
+      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate"
+    },
+    {
+      "id": "ns.reserve_requirements",
+      "kind": "topic",
+      "slug": "reserve-requirements",
+      "title": "Reserve requirements",
+      "href": "/topics/reserve-requirements"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.reserve_requirement_ratio",
+      "kind": "indicator",
+      "slug": "bank-reserve-requirement-ratio",
+      "title": "Bank reserve requirement ratio",
+      "href": "/indicators/bank-reserve-requirement-ratio"
+    },
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.trailing_12m"
+  ],
+  "chartSpec": null,
+  "nearby": [
+    {
+      "id": "q.ns14",
+      "kind": "question",
+      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "title": "How tight are bank reserve requirements and liquidity conditions?",
+      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.reserve_requirement_ratio",
+      "kind": "indicator",
+      "slug": "bank-reserve-requirement-ratio",
+      "title": "Bank reserve requirement ratio",
+      "href": "/indicators/bank-reserve-requirement-ratio",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "distance": 2
+    },
+    {
+      "id": "ns.reserve_requirements",
+      "kind": "topic",
+      "slug": "reserve-requirements",
+      "title": "Reserve requirements",
+      "href": "/topics/reserve-requirements",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns30",
+      "kind": "chart",
+      "slug": "money-market-rate-volatility",
+      "title": "Money-market rate volatility",
+      "href": "/charts/money-market-rate-volatility",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns48",
+      "kind": "chart",
+      "slug": "money-market-volatility-vs-fx-gap",
+      "title": "Money-market volatility vs FX gap",
+      "href": "/charts/money-market-volatility-vs-fx-gap",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns31",
+      "kind": "chart",
+      "slug": "policy-relevant-rate-vs-money-market-rate",
+      "title": "Policy-relevant rate vs money-market rate",
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 2,
+    "indicators": 2
+  }
+}

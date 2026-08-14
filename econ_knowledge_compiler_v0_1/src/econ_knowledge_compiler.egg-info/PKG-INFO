@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: econ-knowledge-compiler
+Version: 0.1.0
+Summary: Compile normalized economic knowledge YAML into frontend-oriented site read models
+Requires-Python: >=3.11
+Requires-Dist: PyYAML>=6.0

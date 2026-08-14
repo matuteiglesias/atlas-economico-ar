@@ -1,0 +1,107 @@
+{
+  "id": "ci.ns.reer_change_dec2023",
+  "kind": "indicator",
+  "slug": "reer-change-since-dec-2023",
+  "title": "REER change since Dec-2023",
+  "href": "/indicators/reer-change-since-dec-2023",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topic": {
+    "id": "ns.real_exchange_rate",
+    "kind": "topic",
+    "slug": "real-exchange-rate",
+    "title": "Real exchange rate",
+    "href": "/topics/real-exchange-rate"
+  },
+  "unitSemantics": "percent",
+  "frequency": "monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ns20",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate-since-dec-2023",
+      "title": "Real effective exchange rate since Dec-2023",
+      "href": "/charts/real-effective-exchange-rate-since-dec-2023"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [
+    "di.ns.reer_change_dec2023"
+  ],
+  "nearby": [
+    {
+      "id": "ns.real_exchange_rate",
+      "kind": "topic",
+      "slug": "real-exchange-rate",
+      "title": "Real exchange rate",
+      "href": "/topics/real-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns20",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate-since-dec-2023",
+      "title": "Real effective exchange rate since Dec-2023",
+      "href": "/charts/real-effective-exchange-rate-since-dec-2023",
+      "distance": 1
+    },
+    {
+      "id": "q.ns10",
+      "kind": "question",
+      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "title": "How much has the peso appreciated or depreciated in real terms?",
+      "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "distance": 2
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "ci.ns.reer_index",
+      "kind": "indicator",
+      "slug": "real-effective-exchange-rate-index",
+      "title": "Real effective exchange-rate index",
+      "href": "/indicators/real-effective-exchange-rate-index",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 1,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 1
+  }
+}

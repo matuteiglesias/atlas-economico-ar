@@ -1,0 +1,123 @@
+{
+  "id": "ci.ns.tamar_real_expost",
+  "kind": "indicator",
+  "slug": "tamar-ex-post-real-rate",
+  "title": "TAMAR ex-post real rate",
+  "href": "/indicators/tamar-ex-post-real-rate",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topic": {
+    "id": "ns.real_interest_rate",
+    "kind": "topic",
+    "slug": "real-interest-rate",
+    "title": "Real interest rate",
+    "href": "/topics/real-interest-rate"
+  },
+  "unitSemantics": "percent_annualized",
+  "frequency": "monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ns28",
+      "kind": "chart",
+      "slug": "ex-ante-vs-ex-post-real-rates",
+      "title": "Ex-ante vs ex-post real rates",
+      "href": "/charts/ex-ante-vs-ex-post-real-rates"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [
+    "di.ns.real_rate_expost"
+  ],
+  "nearby": [
+    {
+      "id": "ns.real_interest_rate",
+      "kind": "topic",
+      "slug": "real-interest-rate",
+      "title": "Real interest rate",
+      "href": "/topics/real-interest-rate",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns28",
+      "kind": "chart",
+      "slug": "ex-ante-vs-ex-post-real-rates",
+      "title": "Ex-ante vs ex-post real rates",
+      "href": "/charts/ex-ante-vs-ex-post-real-rates",
+      "distance": 1
+    },
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms",
+      "distance": 2
+    },
+    {
+      "id": "ns.aggregate_demand_pressure",
+      "kind": "topic",
+      "slug": "aggregate-demand-pressure",
+      "title": "Aggregate-demand pressure",
+      "href": "/topics/aggregate-demand-pressure",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "distance": 2
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "distance": 2
+    },
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate",
+      "distance": 2
+    },
+    {
+      "id": "ci.ns.tamar_real_exante",
+      "kind": "indicator",
+      "slug": "tamar-ex-ante-real-rate",
+      "title": "TAMAR ex-ante real rate",
+      "href": "/indicators/tamar-ex-ante-real-rate",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 1,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 1
+  }
+}

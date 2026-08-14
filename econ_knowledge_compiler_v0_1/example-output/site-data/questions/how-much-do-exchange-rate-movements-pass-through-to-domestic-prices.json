@@ -1,0 +1,163 @@
+{
+  "id": "q.ns05",
+  "kind": "question",
+  "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+  "title": "How much do exchange-rate movements pass through to domestic prices?",
+  "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+  "dek": null,
+  "intro": null,
+  "questionFamily": "mechanism",
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate"
+    },
+    {
+      "id": "ns.fx_pass_through",
+      "kind": "topic",
+      "slug": "fx-pass-through",
+      "title": "FX pass-through",
+      "href": "/topics/fx-pass-through"
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation"
+    },
+    {
+      "id": "ci.ns.official_fx_monthly_change",
+      "kind": "indicator",
+      "slug": "official-fx-monthly-change",
+      "title": "Official FX monthly change",
+      "href": "/indicators/official-fx-monthly-change"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns09",
+      "kind": "chart",
+      "slug": "official-fx-change-vs-monthly-inflation",
+      "title": "Official FX change vs monthly inflation",
+      "href": "/charts/official-fx-change-vs-monthly-inflation"
+    },
+    {
+      "id": "pi.ns10",
+      "kind": "chart",
+      "slug": "rolling-fx-pass-through-estimate",
+      "title": "Rolling FX pass-through estimate",
+      "href": "/charts/rolling-fx-pass-through-estimate"
+    },
+    {
+      "id": "pi.ns50",
+      "kind": "chart",
+      "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
+      "title": "Inflation vs FX depreciation since stabilization start",
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ns.fx_pass_through",
+      "kind": "topic",
+      "slug": "fx-pass-through",
+      "title": "FX pass-through",
+      "href": "/topics/fx-pass-through",
+      "distance": 1
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns50",
+      "kind": "chart",
+      "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
+      "title": "Inflation vs FX depreciation since stabilization start",
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns09",
+      "kind": "chart",
+      "slug": "official-fx-change-vs-monthly-inflation",
+      "title": "Official FX change vs monthly inflation",
+      "href": "/charts/official-fx-change-vs-monthly-inflation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns10",
+      "kind": "chart",
+      "slug": "rolling-fx-pass-through-estimate",
+      "title": "Rolling FX pass-through estimate",
+      "href": "/charts/rolling-fx-pass-through-estimate",
+      "distance": 1
+    },
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
+      "distance": 2
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "topics": 3,
+    "indicators": 2,
+    "charts": 3
+  }
+}

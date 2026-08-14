@@ -1,0 +1,238 @@
+{
+  "id": "ns.policy_credibility",
+  "kind": "topic",
+  "slug": "policy-credibility",
+  "title": "Policy credibility",
+  "href": "/topics/policy-credibility",
+  "dek": "Degree to which agents believe announced stabilization policy will be sustained and effective.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.rate_volatility_credibility",
+      "relation_type": "associated_with",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.money_market_rate",
+        "kind": "topic",
+        "slug": "money-market-rate",
+        "title": "Money-market rate",
+        "href": "/topics/money-market-rate"
+      }
+    },
+    {
+      "relation_id": "rel.band_credibility",
+      "relation_type": "associated_with",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.exchange_rate_band",
+        "kind": "topic",
+        "slug": "exchange-rate-band",
+        "title": "Exchange-rate band",
+        "href": "/topics/exchange-rate-band"
+      }
+    },
+    {
+      "relation_id": "rel.credibility_conditions_pass_through",
+      "relation_type": "constraint_on",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.fx_pass_through",
+        "kind": "topic",
+        "slug": "fx-pass-through",
+        "title": "FX pass-through",
+        "href": "/topics/fx-pass-through"
+      }
+    },
+    {
+      "relation_id": "rel.credibility_expectations",
+      "relation_type": "economic_mechanism",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.inflation_expectations",
+        "kind": "topic",
+        "slug": "inflation-expectations",
+        "title": "Inflation expectations",
+        "href": "/topics/inflation-expectations"
+      }
+    },
+    {
+      "relation_id": "rel.credibility_reduces_hedging",
+      "relation_type": "economic_mechanism",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.fx_hedging_demand",
+        "kind": "topic",
+        "slug": "fx-hedging-demand",
+        "title": "FX hedging demand",
+        "href": "/topics/fx-hedging-demand"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized"
+    },
+    {
+      "id": "q.ns18",
+      "kind": "question",
+      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand"
+    }
+  ],
+  "indicators": [],
+  "charts": [
+    {
+      "id": "pi.ns30",
+      "kind": "chart",
+      "slug": "money-market-rate-volatility",
+      "title": "Money-market rate volatility",
+      "href": "/charts/money-market-rate-volatility"
+    },
+    {
+      "id": "pi.ns31",
+      "kind": "chart",
+      "slug": "policy-relevant-rate-vs-money-market-rate",
+      "title": "Policy-relevant rate vs money-market rate",
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate"
+    },
+    {
+      "id": "pi.ns44",
+      "kind": "chart",
+      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
+      "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates"
+    },
+    {
+      "id": "pi.ns45",
+      "kind": "chart",
+      "slug": "fx-futures-vs-top-of-band",
+      "title": "FX futures vs top of band",
+      "href": "/charts/fx-futures-vs-top-of-band"
+    },
+    {
+      "id": "pi.ns46",
+      "kind": "chart",
+      "slug": "end-of-year-fx-forward-vs-inflation-expectation",
+      "title": "End-of-year FX forward vs inflation expectation",
+      "href": "/charts/end-of-year-fx-forward-vs-inflation-expectation"
+    },
+    {
+      "id": "pi.ns47",
+      "kind": "chart",
+      "slug": "fx-gap-vs-inflation-expectations",
+      "title": "FX gap vs inflation expectations",
+      "href": "/charts/fx-gap-vs-inflation-expectations"
+    },
+    {
+      "id": "pi.ns48",
+      "kind": "chart",
+      "slug": "money-market-volatility-vs-fx-gap",
+      "title": "Money-market volatility vs FX gap",
+      "href": "/charts/money-market-volatility-vs-fx-gap"
+    },
+    {
+      "id": "pi.ns52",
+      "kind": "chart",
+      "slug": "nominal-stabilization-state-map",
+      "title": "Nominal-stabilization state map",
+      "href": "/charts/nominal-stabilization-state-map"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized",
+      "distance": 1
+    },
+    {
+      "id": "q.ns18",
+      "kind": "question",
+      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "distance": 1
+    },
+    {
+      "id": "ns.exchange_rate_band",
+      "kind": "topic",
+      "slug": "exchange-rate-band",
+      "title": "Exchange-rate band",
+      "href": "/topics/exchange-rate-band",
+      "distance": 1
+    },
+    {
+      "id": "ns.fx_hedging_demand",
+      "kind": "topic",
+      "slug": "fx-hedging-demand",
+      "title": "FX hedging demand",
+      "href": "/topics/fx-hedging-demand",
+      "distance": 1
+    },
+    {
+      "id": "ns.fx_pass_through",
+      "kind": "topic",
+      "slug": "fx-pass-through",
+      "title": "FX pass-through",
+      "href": "/topics/fx-pass-through",
+      "distance": 1
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "distance": 1
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "distance": 1
+    },
+    {
+      "id": "q.ns06",
+      "kind": "question",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 5,
+    "questions": 2,
+    "indicators": 0,
+    "charts": 8
+  }
+}

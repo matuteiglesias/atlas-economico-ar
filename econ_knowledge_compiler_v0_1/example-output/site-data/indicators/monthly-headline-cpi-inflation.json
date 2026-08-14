@@ -1,0 +1,203 @@
+{
+  "id": "ci.ns.cpi_monthly",
+  "kind": "indicator",
+  "slug": "monthly-headline-cpi-inflation",
+  "title": "Monthly headline CPI inflation",
+  "href": "/indicators/monthly-headline-cpi-inflation",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topic": {
+    "id": "ns.headline_inflation",
+    "kind": "topic",
+    "slug": "headline-inflation",
+    "title": "Headline inflation",
+    "href": "/topics/headline-inflation"
+  },
+  "unitSemantics": "percent_mom",
+  "frequency": "monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ns01",
+      "kind": "chart",
+      "slug": "inflation-momentum-monthly-and-3-month-annualized",
+      "title": "Inflation momentum: monthly and 3-month annualized",
+      "href": "/charts/inflation-momentum-monthly-and-3-month-annualized"
+    },
+    {
+      "id": "pi.ns02",
+      "kind": "chart",
+      "slug": "monthly-inflation-with-acceleration-markers",
+      "title": "Monthly inflation with acceleration markers",
+      "href": "/charts/monthly-inflation-with-acceleration-markers"
+    },
+    {
+      "id": "pi.ns03",
+      "kind": "chart",
+      "slug": "headline-inflation-monthly-vs-year-over-year",
+      "title": "Headline inflation: monthly vs year-over-year",
+      "href": "/charts/headline-inflation-monthly-vs-year-over-year"
+    },
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023"
+    },
+    {
+      "id": "pi.ns07",
+      "kind": "chart",
+      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "title": "Food and regulated prices as contributors to monthly inflation",
+      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation"
+    },
+    {
+      "id": "pi.ns08",
+      "kind": "chart",
+      "slug": "inflation-driver-decomposition",
+      "title": "Inflation-driver decomposition",
+      "href": "/charts/inflation-driver-decomposition"
+    },
+    {
+      "id": "pi.ns09",
+      "kind": "chart",
+      "slug": "official-fx-change-vs-monthly-inflation",
+      "title": "Official FX change vs monthly inflation",
+      "href": "/charts/official-fx-change-vs-monthly-inflation"
+    },
+    {
+      "id": "pi.ns10",
+      "kind": "chart",
+      "slug": "rolling-fx-pass-through-estimate",
+      "title": "Rolling FX pass-through estimate",
+      "href": "/charts/rolling-fx-pass-through-estimate"
+    },
+    {
+      "id": "pi.ns11",
+      "kind": "chart",
+      "slug": "inflation-expectations-vs-realized-inflation",
+      "title": "Inflation expectations vs realized inflation",
+      "href": "/charts/inflation-expectations-vs-realized-inflation"
+    },
+    {
+      "id": "pi.ns39",
+      "kind": "chart",
+      "slug": "remonetization-vs-inflation",
+      "title": "Remonetization vs inflation",
+      "href": "/charts/remonetization-vs-inflation"
+    },
+    {
+      "id": "pi.ns43",
+      "kind": "chart",
+      "slug": "monetization-dashboard-base-m2-inflation",
+      "title": "Monetization dashboard: base, M2, inflation",
+      "href": "/charts/monetization-dashboard-base-m2-inflation"
+    },
+    {
+      "id": "pi.ns50",
+      "kind": "chart",
+      "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
+      "title": "Inflation vs FX depreciation since stabilization start",
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start"
+    }
+  ],
+  "derivedAsInput": [
+    "di.ns.cpi_3m_ann",
+    "di.ns.infl_acceleration",
+    "di.ns.infl_surprise",
+    "di.ns.real_rate_expost"
+  ],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns07",
+      "kind": "chart",
+      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "title": "Food and regulated prices as contributors to monthly inflation",
+      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns03",
+      "kind": "chart",
+      "slug": "headline-inflation-monthly-vs-year-over-year",
+      "title": "Headline inflation: monthly vs year-over-year",
+      "href": "/charts/headline-inflation-monthly-vs-year-over-year",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns11",
+      "kind": "chart",
+      "slug": "inflation-expectations-vs-realized-inflation",
+      "title": "Inflation expectations vs realized inflation",
+      "href": "/charts/inflation-expectations-vs-realized-inflation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns01",
+      "kind": "chart",
+      "slug": "inflation-momentum-monthly-and-3-month-annualized",
+      "title": "Inflation momentum: monthly and 3-month annualized",
+      "href": "/charts/inflation-momentum-monthly-and-3-month-annualized",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns50",
+      "kind": "chart",
+      "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
+      "title": "Inflation vs FX depreciation since stabilization start",
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns08",
+      "kind": "chart",
+      "slug": "inflation-driver-decomposition",
+      "title": "Inflation-driver decomposition",
+      "href": "/charts/inflation-driver-decomposition",
+      "distance": 1
+    }
+  ],
+  "counts": {
+    "charts": 12,
+    "derivedAsInput": 4,
+    "derivedAsOutput": 0
+  }
+}

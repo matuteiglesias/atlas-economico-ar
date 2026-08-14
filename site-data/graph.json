@@ -1,0 +1,3271 @@
+{
+  "nodes": [
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "fiscal_regime",
+      "kind": "region",
+      "slug": "fiscal-regime",
+      "title": "Fiscal Regime",
+      "href": "/areas/fiscal-regime",
+      "slice_id": "fiscal_regime"
+    },
+    {
+      "id": "household_welfare",
+      "kind": "region",
+      "slug": "household-welfare",
+      "title": "Household Welfare",
+      "href": "/areas/household-welfare",
+      "slice_id": "household_welfare"
+    },
+    {
+      "id": "labor_incomes",
+      "kind": "region",
+      "slug": "labor-incomes",
+      "title": "Labor & Incomes",
+      "href": "/areas/labor-incomes",
+      "slice_id": "labor_incomes"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "real_economy",
+      "kind": "region",
+      "slug": "real-economy",
+      "title": "Real Economy",
+      "href": "/areas/real-economy",
+      "slice_id": "real_economy"
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.core_inflation",
+      "kind": "topic",
+      "slug": "core-inflation",
+      "title": "Core inflation",
+      "href": "/topics/core-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.inflation_inertia",
+      "kind": "topic",
+      "slug": "inflation-inertia",
+      "title": "Inflation inertia",
+      "href": "/topics/inflation-inertia",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.relative_price_adjustment",
+      "kind": "topic",
+      "slug": "relative-price-adjustment",
+      "title": "Relative-price adjustment",
+      "href": "/topics/relative-price-adjustment",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.fx_pass_through",
+      "kind": "topic",
+      "slug": "fx-pass-through",
+      "title": "FX pass-through",
+      "href": "/topics/fx-pass-through",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.aggregate_demand_pressure",
+      "kind": "topic",
+      "slug": "aggregate-demand-pressure",
+      "title": "Aggregate-demand pressure",
+      "href": "/topics/aggregate-demand-pressure",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.exchange_rate_band",
+      "kind": "topic",
+      "slug": "exchange-rate-band",
+      "title": "Exchange-rate band",
+      "href": "/topics/exchange-rate-band",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.parallel_exchange_rate",
+      "kind": "topic",
+      "slug": "parallel-exchange-rate",
+      "title": "Parallel exchange rate",
+      "href": "/topics/parallel-exchange-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.real_exchange_rate",
+      "kind": "topic",
+      "slug": "real-exchange-rate",
+      "title": "Real exchange rate",
+      "href": "/topics/real-exchange-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.real_interest_rate",
+      "kind": "topic",
+      "slug": "real-interest-rate",
+      "title": "Real interest rate",
+      "href": "/topics/real-interest-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.reserve_requirements",
+      "kind": "topic",
+      "slug": "reserve-requirements",
+      "title": "Reserve requirements",
+      "href": "/topics/reserve-requirements",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.transactional_m2",
+      "kind": "topic",
+      "slug": "transactional-m2",
+      "title": "Transactional M2",
+      "href": "/topics/transactional-m2",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.remonetization",
+      "kind": "topic",
+      "slug": "remonetization",
+      "title": "Remonetization",
+      "href": "/topics/remonetization",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.monetary_targeting_framework",
+      "kind": "topic",
+      "slug": "monetary-targeting-framework",
+      "title": "Monetary targeting framework",
+      "href": "/topics/monetary-targeting-framework",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ns.fx_hedging_demand",
+      "kind": "topic",
+      "slug": "fx-hedging-demand",
+      "title": "FX hedging demand",
+      "href": "/topics/fx-hedging-demand",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns01",
+      "kind": "question",
+      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns03",
+      "kind": "question",
+      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
+      "title": "Is disinflation broad-based across underlying inflation measures?",
+      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns04",
+      "kind": "question",
+      "slug": "what-is-driving-monthly-inflation",
+      "title": "What is driving monthly inflation?",
+      "href": "/questions/what-is-driving-monthly-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns06",
+      "kind": "question",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns07",
+      "kind": "question",
+      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "title": "What inflation path does the market expect over the next months and year-end?",
+      "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns08",
+      "kind": "question",
+      "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
+      "title": "Where is the official exchange rate inside the policy band?",
+      "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns09",
+      "kind": "question",
+      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "title": "How large is the gap between official and parallel exchange rates?",
+      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns10",
+      "kind": "question",
+      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "title": "How much has the peso appreciated or depreciated in real terms?",
+      "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns14",
+      "kind": "question",
+      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "title": "How tight are bank reserve requirements and liquidity conditions?",
+      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns17",
+      "kind": "question",
+      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ns18",
+      "kind": "question",
+      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.cpi_yoy",
+      "kind": "indicator",
+      "slug": "headline-cpi-inflation-year-over-year",
+      "title": "Headline CPI inflation, year-over-year",
+      "href": "/indicators/headline-cpi-inflation-year-over-year",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "headline-cpi-3-month-annualized",
+      "title": "Headline CPI, 3-month annualized",
+      "href": "/indicators/headline-cpi-3-month-annualized",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.core_monthly",
+      "kind": "indicator",
+      "slug": "core-cpi-inflation-monthly",
+      "title": "Core CPI inflation, monthly",
+      "href": "/indicators/core-cpi-inflation-monthly",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.core_3m_ann",
+      "kind": "indicator",
+      "slug": "core-cpi-3-month-annualized",
+      "title": "Core CPI, 3-month annualized",
+      "href": "/indicators/core-cpi-3-month-annualized",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.trimmed_cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-cpi-3-month-annualized",
+      "title": "Trimmed CPI, 3-month annualized",
+      "href": "/indicators/trimmed-cpi-3-month-annualized",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.trimmed_goods_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-goods-inflation-3-month-annualized",
+      "title": "Trimmed goods inflation, 3-month annualized",
+      "href": "/indicators/trimmed-goods-inflation-3-month-annualized",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.trimmed_services_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-services-inflation-3-month-annualized",
+      "title": "Trimmed services inflation, 3-month annualized",
+      "href": "/indicators/trimmed-services-inflation-3-month-annualized",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.food_inflation_contribution",
+      "kind": "indicator",
+      "slug": "food-contribution-to-monthly-inflation",
+      "title": "Food contribution to monthly inflation",
+      "href": "/indicators/food-contribution-to-monthly-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.regulated_inflation_contribution",
+      "kind": "indicator",
+      "slug": "regulated-price-contribution-to-monthly-inflation",
+      "title": "Regulated-price contribution to monthly inflation",
+      "href": "/indicators/regulated-price-contribution-to-monthly-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.infl_exp_1m",
+      "kind": "indicator",
+      "slug": "expected-inflation-next-month",
+      "title": "Expected inflation next month",
+      "href": "/indicators/expected-inflation-next-month",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.infl_exp_3m",
+      "kind": "indicator",
+      "slug": "expected-inflation-three-months-ahead",
+      "title": "Expected inflation three months ahead",
+      "href": "/indicators/expected-inflation-three-months-ahead",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.infl_exp_eop",
+      "kind": "indicator",
+      "slug": "expected-end-of-year-inflation",
+      "title": "Expected end-of-year inflation",
+      "href": "/indicators/expected-end-of-year-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.infl_surprise",
+      "kind": "indicator",
+      "slug": "inflation-surprise-vs-prior-expectation",
+      "title": "Inflation surprise vs prior expectation",
+      "href": "/indicators/inflation-surprise-vs-prior-expectation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.infl_acceleration",
+      "kind": "indicator",
+      "slug": "monthly-inflation-acceleration",
+      "title": "Monthly inflation acceleration",
+      "href": "/indicators/monthly-inflation-acceleration",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.official_fx",
+      "kind": "indicator",
+      "slug": "official-ars-usd-exchange-rate",
+      "title": "Official ARS/USD exchange rate",
+      "href": "/indicators/official-ars-usd-exchange-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.ccl_fx",
+      "kind": "indicator",
+      "slug": "ccl-exchange-rate",
+      "title": "CCL exchange rate",
+      "href": "/indicators/ccl-exchange-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.blue_fx",
+      "kind": "indicator",
+      "slug": "blue-exchange-rate",
+      "title": "Blue exchange rate",
+      "href": "/indicators/blue-exchange-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.fx_gap_ccl",
+      "kind": "indicator",
+      "slug": "ccl-official-fx-gap",
+      "title": "CCL-official FX gap",
+      "href": "/indicators/ccl-official-fx-gap",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.fx_gap_blue",
+      "kind": "indicator",
+      "slug": "blue-official-fx-gap",
+      "title": "Blue-official FX gap",
+      "href": "/indicators/blue-official-fx-gap",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.fx_band_lower",
+      "kind": "indicator",
+      "slug": "fx-band-lower-bound",
+      "title": "FX-band lower bound",
+      "href": "/indicators/fx-band-lower-bound",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.fx_band_upper",
+      "kind": "indicator",
+      "slug": "fx-band-upper-bound",
+      "title": "FX-band upper bound",
+      "href": "/indicators/fx-band-upper-bound",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.fx_band_position",
+      "kind": "indicator",
+      "slug": "official-fx-position-within-band",
+      "title": "Official FX position within band",
+      "href": "/indicators/official-fx-position-within-band",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.official_fx_monthly_change",
+      "kind": "indicator",
+      "slug": "official-fx-monthly-change",
+      "title": "Official FX monthly change",
+      "href": "/indicators/official-fx-monthly-change",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.reer_index",
+      "kind": "indicator",
+      "slug": "real-effective-exchange-rate-index",
+      "title": "Real effective exchange-rate index",
+      "href": "/indicators/real-effective-exchange-rate-index",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.reer_change_dec2023",
+      "kind": "indicator",
+      "slug": "reer-change-since-dec-2023",
+      "title": "REER change since Dec-2023",
+      "href": "/indicators/reer-change-since-dec-2023",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.fx_forward_1m",
+      "kind": "indicator",
+      "slug": "one-month-fx-forward-implied-rate",
+      "title": "One-month FX forward/implied rate",
+      "href": "/indicators/one-month-fx-forward-implied-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.fx_forward_eoy",
+      "kind": "indicator",
+      "slug": "end-of-year-fx-forward-implied-rate",
+      "title": "End-of-year FX forward/implied rate",
+      "href": "/indicators/end-of-year-fx-forward-implied-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.policy_rate_nominal",
+      "kind": "indicator",
+      "slug": "nominal-policy-relevant-rate",
+      "title": "Nominal policy-relevant rate",
+      "href": "/indicators/nominal-policy-relevant-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.tamar_nominal",
+      "kind": "indicator",
+      "slug": "tamar-nominal-rate",
+      "title": "TAMAR nominal rate",
+      "href": "/indicators/tamar-nominal-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.tamar_real_expost",
+      "kind": "indicator",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/indicators/tamar-ex-post-real-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.tamar_real_exante",
+      "kind": "indicator",
+      "slug": "tamar-ex-ante-real-rate",
+      "title": "TAMAR ex-ante real rate",
+      "href": "/indicators/tamar-ex-ante-real-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.reserve_requirement_ratio",
+      "kind": "indicator",
+      "slug": "bank-reserve-requirement-ratio",
+      "title": "Bank reserve requirement ratio",
+      "href": "/indicators/bank-reserve-requirement-ratio",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.bcra_peso_deposits",
+      "kind": "indicator",
+      "slug": "bcra-peso-deposits-reserve-balances",
+      "title": "BCRA peso deposits / reserve balances",
+      "href": "/indicators/bcra-peso-deposits-reserve-balances",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.monetary_base_nominal",
+      "kind": "indicator",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/indicators/monetary-base",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.monetary_base_real",
+      "kind": "indicator",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/indicators/real-monetary-base",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.transactional_m2_nominal",
+      "kind": "indicator",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/indicators/private-transactional-m2",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.transactional_m2_real",
+      "kind": "indicator",
+      "slug": "real-private-transactional-m2",
+      "title": "Real private transactional M2",
+      "href": "/indicators/real-private-transactional-m2",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.transactional_m2_projection_gap",
+      "kind": "indicator",
+      "slug": "transactional-m2-gap-vs-bcra-projection",
+      "title": "Transactional M2 gap vs BCRA projection",
+      "href": "/indicators/transactional-m2-gap-vs-bcra-projection",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.m2_to_gdp",
+      "kind": "indicator",
+      "slug": "transactional-m2-to-gdp",
+      "title": "Transactional M2 to GDP",
+      "href": "/indicators/transactional-m2-to-gdp",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "indicator",
+      "slug": "bcra-net-fx-purchases",
+      "title": "BCRA net FX purchases",
+      "href": "/indicators/bcra-net-fx-purchases",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns01",
+      "kind": "chart",
+      "slug": "inflation-momentum-monthly-and-3-month-annualized",
+      "title": "Inflation momentum: monthly and 3-month annualized",
+      "href": "/charts/inflation-momentum-monthly-and-3-month-annualized",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns02",
+      "kind": "chart",
+      "slug": "monthly-inflation-with-acceleration-markers",
+      "title": "Monthly inflation with acceleration markers",
+      "href": "/charts/monthly-inflation-with-acceleration-markers",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns03",
+      "kind": "chart",
+      "slug": "headline-inflation-monthly-vs-year-over-year",
+      "title": "Headline inflation: monthly vs year-over-year",
+      "href": "/charts/headline-inflation-monthly-vs-year-over-year",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns05",
+      "kind": "chart",
+      "slug": "headline-vs-core-inflation",
+      "title": "Headline vs core inflation",
+      "href": "/charts/headline-vs-core-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns06",
+      "kind": "chart",
+      "slug": "multiple-measures-of-core-inflation",
+      "title": "Multiple measures of core inflation",
+      "href": "/charts/multiple-measures-of-core-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns07",
+      "kind": "chart",
+      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "title": "Food and regulated prices as contributors to monthly inflation",
+      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns08",
+      "kind": "chart",
+      "slug": "inflation-driver-decomposition",
+      "title": "Inflation-driver decomposition",
+      "href": "/charts/inflation-driver-decomposition",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns09",
+      "kind": "chart",
+      "slug": "official-fx-change-vs-monthly-inflation",
+      "title": "Official FX change vs monthly inflation",
+      "href": "/charts/official-fx-change-vs-monthly-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns10",
+      "kind": "chart",
+      "slug": "rolling-fx-pass-through-estimate",
+      "title": "Rolling FX pass-through estimate",
+      "href": "/charts/rolling-fx-pass-through-estimate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns11",
+      "kind": "chart",
+      "slug": "inflation-expectations-vs-realized-inflation",
+      "title": "Inflation expectations vs realized inflation",
+      "href": "/charts/inflation-expectations-vs-realized-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns12",
+      "kind": "chart",
+      "slug": "inflation-surprise-through-time",
+      "title": "Inflation surprise through time",
+      "href": "/charts/inflation-surprise-through-time",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns13",
+      "kind": "chart",
+      "slug": "expected-inflation-path",
+      "title": "Expected inflation path",
+      "href": "/charts/expected-inflation-path",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns14",
+      "kind": "chart",
+      "slug": "inflation-expectations-fan-horizon-curve",
+      "title": "Inflation expectations fan / horizon curve",
+      "href": "/charts/inflation-expectations-fan-horizon-curve",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns15",
+      "kind": "chart",
+      "slug": "official-exchange-rate-within-the-band",
+      "title": "Official exchange rate within the band",
+      "href": "/charts/official-exchange-rate-within-the-band",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns16",
+      "kind": "chart",
+      "slug": "position-inside-fx-band",
+      "title": "Position inside FX band",
+      "href": "/charts/position-inside-fx-band",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns17",
+      "kind": "chart",
+      "slug": "official-ccl-and-blue-exchange-rates",
+      "title": "Official, CCL and blue exchange rates",
+      "href": "/charts/official-ccl-and-blue-exchange-rates",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns18",
+      "kind": "chart",
+      "slug": "fx-gaps-ccl-and-blue",
+      "title": "FX gaps: CCL and blue",
+      "href": "/charts/fx-gaps-ccl-and-blue",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns19",
+      "kind": "chart",
+      "slug": "fx-gap-around-stress-episodes",
+      "title": "FX gap around stress episodes",
+      "href": "/charts/fx-gap-around-stress-episodes",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns20",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate-since-dec-2023",
+      "title": "Real effective exchange rate since Dec-2023",
+      "href": "/charts/real-effective-exchange-rate-since-dec-2023",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns21",
+      "kind": "chart",
+      "slug": "nominal-vs-real-exchange-rate-movement",
+      "title": "Nominal vs real exchange-rate movement",
+      "href": "/charts/nominal-vs-real-exchange-rate-movement",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns22",
+      "kind": "chart",
+      "slug": "real-exchange-rate-with-major-policy-regime-markers",
+      "title": "Real exchange rate with major policy-regime markers",
+      "href": "/charts/real-exchange-rate-with-major-policy-regime-markers",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns23",
+      "kind": "chart",
+      "slug": "bcra-daily-fx-purchases",
+      "title": "BCRA daily FX purchases",
+      "href": "/charts/bcra-daily-fx-purchases",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns24",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases",
+      "title": "Cumulative BCRA FX purchases",
+      "href": "/charts/cumulative-bcra-fx-purchases",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns25",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-official-exchange-rate",
+      "title": "BCRA purchases vs official exchange rate",
+      "href": "/charts/bcra-purchases-vs-official-exchange-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns26",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-monetary-base-growth",
+      "title": "BCRA purchases vs monetary-base growth",
+      "href": "/charts/bcra-purchases-vs-monetary-base-growth",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns27",
+      "kind": "chart",
+      "slug": "nominal-rates-vs-expected-inflation",
+      "title": "Nominal rates vs expected inflation",
+      "href": "/charts/nominal-rates-vs-expected-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns28",
+      "kind": "chart",
+      "slug": "ex-ante-vs-ex-post-real-rates",
+      "title": "Ex-ante vs ex-post real rates",
+      "href": "/charts/ex-ante-vs-ex-post-real-rates",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns29",
+      "kind": "chart",
+      "slug": "real-rate-regime-since-2025",
+      "title": "Real-rate regime since 2025",
+      "href": "/charts/real-rate-regime-since-2025",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns30",
+      "kind": "chart",
+      "slug": "money-market-rate-volatility",
+      "title": "Money-market rate volatility",
+      "href": "/charts/money-market-rate-volatility",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns31",
+      "kind": "chart",
+      "slug": "policy-relevant-rate-vs-money-market-rate",
+      "title": "Policy-relevant rate vs money-market rate",
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns32",
+      "kind": "chart",
+      "slug": "reserve-requirements-and-bcra-peso-deposits",
+      "title": "Reserve requirements and BCRA peso deposits",
+      "href": "/charts/reserve-requirements-and-bcra-peso-deposits",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns33",
+      "kind": "chart",
+      "slug": "reserve-requirement-changes-with-money-market-rates",
+      "title": "Reserve requirement changes with money-market rates",
+      "href": "/charts/reserve-requirement-changes-with-money-market-rates",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns34",
+      "kind": "chart",
+      "slug": "nominal-monetary-base",
+      "title": "Nominal monetary base",
+      "href": "/charts/nominal-monetary-base",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns35",
+      "kind": "chart",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/charts/real-monetary-base",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns36",
+      "kind": "chart",
+      "slug": "transactional-m2-nominal-and-real",
+      "title": "Transactional M2 nominal and real",
+      "href": "/charts/transactional-m2-nominal-and-real",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns37",
+      "kind": "chart",
+      "slug": "transactional-m2-vs-bcra-projection",
+      "title": "Transactional M2 vs BCRA projection",
+      "href": "/charts/transactional-m2-vs-bcra-projection",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns38",
+      "kind": "chart",
+      "slug": "m2-to-gdp-monetization-ratio",
+      "title": "M2-to-GDP monetization ratio",
+      "href": "/charts/m2-to-gdp-monetization-ratio",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns39",
+      "kind": "chart",
+      "slug": "remonetization-vs-inflation",
+      "title": "Remonetization vs inflation",
+      "href": "/charts/remonetization-vs-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns40",
+      "kind": "chart",
+      "slug": "remonetization-vs-bcra-fx-purchases",
+      "title": "Remonetization vs BCRA FX purchases",
+      "href": "/charts/remonetization-vs-bcra-fx-purchases",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns41",
+      "kind": "chart",
+      "slug": "monetary-base-vs-transactional-m2",
+      "title": "Monetary base vs transactional M2",
+      "href": "/charts/monetary-base-vs-transactional-m2",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns42",
+      "kind": "chart",
+      "slug": "monetary-base-growth-vs-money-demand-proxy",
+      "title": "Monetary-base growth vs money-demand proxy",
+      "href": "/charts/monetary-base-growth-vs-money-demand-proxy",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns43",
+      "kind": "chart",
+      "slug": "monetization-dashboard-base-m2-inflation",
+      "title": "Monetization dashboard: base, M2, inflation",
+      "href": "/charts/monetization-dashboard-base-m2-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns44",
+      "kind": "chart",
+      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
+      "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns45",
+      "kind": "chart",
+      "slug": "fx-futures-vs-top-of-band",
+      "title": "FX futures vs top of band",
+      "href": "/charts/fx-futures-vs-top-of-band",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns46",
+      "kind": "chart",
+      "slug": "end-of-year-fx-forward-vs-inflation-expectation",
+      "title": "End-of-year FX forward vs inflation expectation",
+      "href": "/charts/end-of-year-fx-forward-vs-inflation-expectation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns47",
+      "kind": "chart",
+      "slug": "fx-gap-vs-inflation-expectations",
+      "title": "FX gap vs inflation expectations",
+      "href": "/charts/fx-gap-vs-inflation-expectations",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns48",
+      "kind": "chart",
+      "slug": "money-market-volatility-vs-fx-gap",
+      "title": "Money-market volatility vs FX gap",
+      "href": "/charts/money-market-volatility-vs-fx-gap",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns49",
+      "kind": "chart",
+      "slug": "carry-environment-real-rates-vs-fx-depreciation",
+      "title": "Carry environment: real rates vs FX depreciation",
+      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns50",
+      "kind": "chart",
+      "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
+      "title": "Inflation vs FX depreciation since stabilization start",
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns51",
+      "kind": "chart",
+      "slug": "core-services-vs-core-goods-inflation",
+      "title": "Core services vs core goods inflation",
+      "href": "/charts/core-services-vs-core-goods-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns52",
+      "kind": "chart",
+      "slug": "nominal-stabilization-state-map",
+      "title": "Nominal-stabilization state map",
+      "href": "/charts/nominal-stabilization-state-map",
+      "slice_id": "nominal_stabilization"
+    }
+  ],
+  "edges": [
+    {
+      "from": "ns.headline_inflation",
+      "to": "ns.inflation",
+      "kind": "relation:measurement_of",
+      "source_id": "rel.headline_measures_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.core_inflation",
+      "to": "ns.inflation",
+      "kind": "relation:measurement_of",
+      "source_id": "rel.core_measures_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.inflation_expectations",
+      "to": "ns.inflation",
+      "kind": "relation:associated_with",
+      "source_id": "rel.expectations_associated_future_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.inflation_inertia",
+      "to": "ns.headline_inflation",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.inertia_contributes_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.relative_price_adjustment",
+      "to": "ns.headline_inflation",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.relative_prices_contribute_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.fx_pass_through",
+      "to": "ns.headline_inflation",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.pass_through_contributes_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.aggregate_demand_pressure",
+      "to": "ns.headline_inflation",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.demand_contributes_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.nominal_exchange_rate",
+      "to": "ns.fx_pass_through",
+      "kind": "relation:economic_mechanism",
+      "source_id": "rel.fx_change_enables_pass_through",
+      "directed": true
+    },
+    {
+      "from": "ns.policy_credibility",
+      "to": "ns.fx_pass_through",
+      "kind": "relation:constraint_on",
+      "source_id": "rel.credibility_conditions_pass_through",
+      "directed": true
+    },
+    {
+      "from": "ns.policy_credibility",
+      "to": "ns.inflation_expectations",
+      "kind": "relation:economic_mechanism",
+      "source_id": "rel.credibility_expectations",
+      "directed": true
+    },
+    {
+      "from": "ns.inflation_expectations",
+      "to": "ns.inflation_inertia",
+      "kind": "relation:economic_mechanism",
+      "source_id": "rel.expectations_inertia",
+      "directed": true
+    },
+    {
+      "from": "ns.exchange_rate_band",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "relation:constraint_on",
+      "source_id": "rel.band_constrains_official_fx",
+      "directed": true
+    },
+    {
+      "from": "ns.parallel_exchange_rate",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "relation:comparison",
+      "source_id": "rel.parallel_compares_official",
+      "directed": true
+    },
+    {
+      "from": "ns.fx_gap",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "relation:derived_from",
+      "source_id": "rel.fx_gap_derived_official",
+      "directed": true
+    },
+    {
+      "from": "ns.fx_gap",
+      "to": "ns.parallel_exchange_rate",
+      "kind": "relation:derived_from",
+      "source_id": "rel.fx_gap_derived_parallel",
+      "directed": true
+    },
+    {
+      "from": "ns.real_exchange_rate",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "relation:derived_from",
+      "source_id": "rel.real_fx_derived_nominal",
+      "directed": true
+    },
+    {
+      "from": "ns.policy_rate",
+      "to": "ns.money_market_rate",
+      "kind": "relation:economic_mechanism",
+      "source_id": "rel.policy_rate_affects_market_rate",
+      "directed": true
+    },
+    {
+      "from": "ns.real_interest_rate",
+      "to": "ns.policy_rate",
+      "kind": "relation:derived_from",
+      "source_id": "rel.real_rate_derived_policy_rate",
+      "directed": true
+    },
+    {
+      "from": "ns.real_interest_rate",
+      "to": "ns.inflation_expectations",
+      "kind": "relation:derived_from",
+      "source_id": "rel.real_rate_derived_expectations",
+      "directed": true
+    },
+    {
+      "from": "ns.real_interest_rate",
+      "to": "ns.aggregate_demand_pressure",
+      "kind": "relation:constraint_on",
+      "source_id": "rel.real_rate_constrains_demand",
+      "directed": true
+    },
+    {
+      "from": "ns.reserve_requirements",
+      "to": "ns.money_market_rate",
+      "kind": "relation:constraint_on",
+      "source_id": "rel.reserve_requirements_constrain_liquidity",
+      "directed": true
+    },
+    {
+      "from": "ns.reserve_requirements",
+      "to": "ns.monetary_base",
+      "kind": "relation:economic_mechanism",
+      "source_id": "rel.reserve_requirements_affect_base",
+      "directed": true
+    },
+    {
+      "from": "ns.transactional_m2",
+      "to": "ns.money_demand",
+      "kind": "relation:measurement_of",
+      "source_id": "rel.money_demand_measured_m2",
+      "directed": true
+    },
+    {
+      "from": "ns.monetary_base",
+      "to": "ns.money_demand",
+      "kind": "relation:associated_with",
+      "source_id": "rel.base_associated_money_demand",
+      "directed": true
+    },
+    {
+      "from": "ns.remonetization",
+      "to": "ns.money_demand",
+      "kind": "relation:component_of",
+      "source_id": "rel.remonetization_component_money_demand",
+      "directed": true
+    },
+    {
+      "from": "ns.transactional_m2",
+      "to": "ns.remonetization",
+      "kind": "relation:measurement_of",
+      "source_id": "rel.m2_measures_remonetization",
+      "directed": true
+    },
+    {
+      "from": "ns.monetary_targeting_framework",
+      "to": "ns.monetary_base",
+      "kind": "relation:enables",
+      "source_id": "rel.targeting_uses_base",
+      "directed": true
+    },
+    {
+      "from": "ns.monetary_targeting_framework",
+      "to": "ns.money_demand",
+      "kind": "relation:associated_with",
+      "source_id": "rel.targeting_uses_money_demand",
+      "directed": true
+    },
+    {
+      "from": "ns.monetary_targeting_framework",
+      "to": "ns.inflation",
+      "kind": "relation:economic_mechanism",
+      "source_id": "rel.targeting_supports_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.bcra_fx_operations",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "relation:economic_mechanism",
+      "source_id": "rel.fx_ops_affect_fx",
+      "directed": true
+    },
+    {
+      "from": "ns.bcra_fx_operations",
+      "to": "ns.monetary_base",
+      "kind": "relation:economic_mechanism",
+      "source_id": "rel.fx_ops_affect_base",
+      "directed": true
+    },
+    {
+      "from": "ns.bcra_fx_operations",
+      "to": "ns.remonetization",
+      "kind": "relation:policy_tradeoff",
+      "source_id": "rel.fx_ops_link_remonetization",
+      "directed": true
+    },
+    {
+      "from": "ns.fx_hedging_demand",
+      "to": "ns.parallel_exchange_rate",
+      "kind": "relation:economic_mechanism",
+      "source_id": "rel.hedging_affects_parallel_fx",
+      "directed": true
+    },
+    {
+      "from": "ns.fx_hedging_demand",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "relation:economic_mechanism",
+      "source_id": "rel.hedging_affects_official_fx",
+      "directed": true
+    },
+    {
+      "from": "ns.policy_credibility",
+      "to": "ns.fx_hedging_demand",
+      "kind": "relation:economic_mechanism",
+      "source_id": "rel.credibility_reduces_hedging",
+      "directed": true
+    },
+    {
+      "from": "ns.fx_gap",
+      "to": "ns.inflation",
+      "kind": "relation:agenda_related",
+      "source_id": "rel.fx_gap_agenda_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.nominal_exchange_rate",
+      "to": "ns.inflation",
+      "kind": "relation:agenda_related",
+      "source_id": "rel.official_fx_agenda_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.policy_rate",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "relation:agenda_related",
+      "source_id": "rel.rates_agenda_fx",
+      "directed": true
+    },
+    {
+      "from": "ns.policy_rate",
+      "to": "ns.inflation",
+      "kind": "relation:agenda_related",
+      "source_id": "rel.rates_agenda_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.bcra_fx_operations",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "relation:agenda_related",
+      "source_id": "rel.bcra_ops_agenda_fx",
+      "directed": true
+    },
+    {
+      "from": "ns.bcra_fx_operations",
+      "to": "ns.inflation",
+      "kind": "relation:agenda_related",
+      "source_id": "rel.bcra_ops_agenda_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.real_exchange_rate",
+      "to": "ns.inflation",
+      "kind": "relation:agenda_related",
+      "source_id": "rel.real_fx_agenda_inflation",
+      "directed": true
+    },
+    {
+      "from": "ns.money_demand",
+      "to": "ns.inflation_inertia",
+      "kind": "relation:economic_mechanism",
+      "source_id": "rel.money_demand_inertia",
+      "directed": true
+    },
+    {
+      "from": "ns.relative_price_adjustment",
+      "to": "ns.core_inflation",
+      "kind": "relation:associated_with",
+      "source_id": "rel.relative_prices_core_gap",
+      "directed": true
+    },
+    {
+      "from": "ns.real_interest_rate",
+      "to": "ns.inflation_expectations",
+      "kind": "relation:derived_from",
+      "source_id": "rel.expectations_real_rate",
+      "directed": true
+    },
+    {
+      "from": "ns.real_interest_rate",
+      "to": "ns.money_market_rate",
+      "kind": "relation:derived_from",
+      "source_id": "rel.market_rate_real_rate",
+      "directed": true
+    },
+    {
+      "from": "ns.money_market_rate",
+      "to": "ns.policy_credibility",
+      "kind": "relation:associated_with",
+      "source_id": "rel.rate_volatility_credibility",
+      "directed": true
+    },
+    {
+      "from": "ns.exchange_rate_band",
+      "to": "ns.policy_credibility",
+      "kind": "relation:associated_with",
+      "source_id": "rel.band_credibility",
+      "directed": true
+    },
+    {
+      "from": "ns.bcra_fx_operations",
+      "to": "ns.exchange_rate_band",
+      "kind": "relation:associated_with",
+      "source_id": "rel.fx_ops_band_credibility",
+      "directed": true
+    },
+    {
+      "from": "ns.remonetization",
+      "to": "ns.monetary_targeting_framework",
+      "kind": "relation:enables",
+      "source_id": "rel.remonetization_supports_framework",
+      "directed": true
+    },
+    {
+      "from": "ns.money_demand",
+      "to": "ns.bcra_fx_operations",
+      "kind": "relation:enables",
+      "source_id": "rel.money_demand_supports_fx_ops",
+      "directed": true
+    },
+    {
+      "from": "ns.real_exchange_rate",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "relation:comparison",
+      "source_id": "rel.real_fx_compares_nominal_fx",
+      "directed": true
+    },
+    {
+      "from": "q.ns01",
+      "to": "ns.inflation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns01",
+      "directed": false
+    },
+    {
+      "from": "q.ns01",
+      "to": "ns.headline_inflation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns01",
+      "directed": false
+    },
+    {
+      "from": "q.ns02",
+      "to": "ns.inflation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns02",
+      "directed": false
+    },
+    {
+      "from": "q.ns02",
+      "to": "ns.inflation_inertia",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns02",
+      "directed": false
+    },
+    {
+      "from": "q.ns02",
+      "to": "ns.inflation_expectations",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns02",
+      "directed": false
+    },
+    {
+      "from": "q.ns03",
+      "to": "ns.core_inflation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns03",
+      "directed": false
+    },
+    {
+      "from": "q.ns03",
+      "to": "ns.headline_inflation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns03",
+      "directed": false
+    },
+    {
+      "from": "q.ns04",
+      "to": "ns.headline_inflation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns04",
+      "directed": false
+    },
+    {
+      "from": "q.ns04",
+      "to": "ns.inflation_inertia",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns04",
+      "directed": false
+    },
+    {
+      "from": "q.ns04",
+      "to": "ns.relative_price_adjustment",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns04",
+      "directed": false
+    },
+    {
+      "from": "q.ns04",
+      "to": "ns.aggregate_demand_pressure",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns04",
+      "directed": false
+    },
+    {
+      "from": "q.ns04",
+      "to": "ns.fx_pass_through",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns04",
+      "directed": false
+    },
+    {
+      "from": "q.ns05",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns05",
+      "directed": false
+    },
+    {
+      "from": "q.ns05",
+      "to": "ns.fx_pass_through",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns05",
+      "directed": false
+    },
+    {
+      "from": "q.ns05",
+      "to": "ns.inflation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns05",
+      "directed": false
+    },
+    {
+      "from": "q.ns06",
+      "to": "ns.inflation_expectations",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns06",
+      "directed": false
+    },
+    {
+      "from": "q.ns06",
+      "to": "ns.headline_inflation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns06",
+      "directed": false
+    },
+    {
+      "from": "q.ns07",
+      "to": "ns.inflation_expectations",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns07",
+      "directed": false
+    },
+    {
+      "from": "q.ns07",
+      "to": "ns.inflation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns07",
+      "directed": false
+    },
+    {
+      "from": "q.ns08",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns08",
+      "directed": false
+    },
+    {
+      "from": "q.ns08",
+      "to": "ns.exchange_rate_band",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns08",
+      "directed": false
+    },
+    {
+      "from": "q.ns09",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns09",
+      "directed": false
+    },
+    {
+      "from": "q.ns09",
+      "to": "ns.parallel_exchange_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns09",
+      "directed": false
+    },
+    {
+      "from": "q.ns09",
+      "to": "ns.fx_gap",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns09",
+      "directed": false
+    },
+    {
+      "from": "q.ns10",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns10",
+      "directed": false
+    },
+    {
+      "from": "q.ns10",
+      "to": "ns.real_exchange_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns10",
+      "directed": false
+    },
+    {
+      "from": "q.ns11",
+      "to": "ns.bcra_fx_operations",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns11",
+      "directed": false
+    },
+    {
+      "from": "q.ns11",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns11",
+      "directed": false
+    },
+    {
+      "from": "q.ns11",
+      "to": "ns.monetary_base",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns11",
+      "directed": false
+    },
+    {
+      "from": "q.ns11",
+      "to": "ns.money_demand",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns11",
+      "directed": false
+    },
+    {
+      "from": "q.ns12",
+      "to": "ns.policy_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns12",
+      "directed": false
+    },
+    {
+      "from": "q.ns12",
+      "to": "ns.real_interest_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns12",
+      "directed": false
+    },
+    {
+      "from": "q.ns12",
+      "to": "ns.inflation_expectations",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns12",
+      "directed": false
+    },
+    {
+      "from": "q.ns13",
+      "to": "ns.money_market_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns13",
+      "directed": false
+    },
+    {
+      "from": "q.ns13",
+      "to": "ns.policy_credibility",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns13",
+      "directed": false
+    },
+    {
+      "from": "q.ns14",
+      "to": "ns.reserve_requirements",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns14",
+      "directed": false
+    },
+    {
+      "from": "q.ns14",
+      "to": "ns.money_market_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns14",
+      "directed": false
+    },
+    {
+      "from": "q.ns15",
+      "to": "ns.money_demand",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns15",
+      "directed": false
+    },
+    {
+      "from": "q.ns15",
+      "to": "ns.transactional_m2",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns15",
+      "directed": false
+    },
+    {
+      "from": "q.ns15",
+      "to": "ns.monetary_base",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns15",
+      "directed": false
+    },
+    {
+      "from": "q.ns16",
+      "to": "ns.remonetization",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns16",
+      "directed": false
+    },
+    {
+      "from": "q.ns16",
+      "to": "ns.money_demand",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns16",
+      "directed": false
+    },
+    {
+      "from": "q.ns16",
+      "to": "ns.monetary_base",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns16",
+      "directed": false
+    },
+    {
+      "from": "q.ns16",
+      "to": "ns.inflation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns16",
+      "directed": false
+    },
+    {
+      "from": "q.ns17",
+      "to": "ns.monetary_targeting_framework",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns17",
+      "directed": false
+    },
+    {
+      "from": "q.ns17",
+      "to": "ns.monetary_base",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns17",
+      "directed": false
+    },
+    {
+      "from": "q.ns17",
+      "to": "ns.money_demand",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns17",
+      "directed": false
+    },
+    {
+      "from": "q.ns18",
+      "to": "ns.policy_credibility",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns18",
+      "directed": false
+    },
+    {
+      "from": "q.ns18",
+      "to": "ns.inflation_expectations",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns18",
+      "directed": false
+    },
+    {
+      "from": "q.ns18",
+      "to": "ns.fx_gap",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns18",
+      "directed": false
+    },
+    {
+      "from": "q.ns18",
+      "to": "ns.money_market_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns18",
+      "directed": false
+    },
+    {
+      "from": "q.ns18",
+      "to": "ns.fx_hedging_demand",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ns18",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.cpi_monthly",
+      "to": "ns.headline_inflation",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.cpi_monthly",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.cpi_yoy",
+      "to": "ns.headline_inflation",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.cpi_yoy",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.cpi_3m_ann",
+      "to": "ns.headline_inflation",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.cpi_3m_ann",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.core_monthly",
+      "to": "ns.core_inflation",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.core_monthly",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.core_3m_ann",
+      "to": "ns.core_inflation",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.core_3m_ann",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.trimmed_cpi_3m_ann",
+      "to": "ns.core_inflation",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.trimmed_cpi_3m_ann",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.trimmed_goods_3m_ann",
+      "to": "ns.core_inflation",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.trimmed_goods_3m_ann",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.trimmed_services_3m_ann",
+      "to": "ns.core_inflation",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.trimmed_services_3m_ann",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.food_inflation_contribution",
+      "to": "ns.relative_price_adjustment",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.food_inflation_contribution",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.regulated_inflation_contribution",
+      "to": "ns.relative_price_adjustment",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.regulated_inflation_contribution",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.infl_exp_1m",
+      "to": "ns.inflation_expectations",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.infl_exp_1m",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.infl_exp_3m",
+      "to": "ns.inflation_expectations",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.infl_exp_3m",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.infl_exp_eop",
+      "to": "ns.inflation_expectations",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.infl_exp_eop",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.infl_surprise",
+      "to": "ns.inflation_expectations",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.infl_surprise",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.infl_acceleration",
+      "to": "ns.inflation",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.infl_acceleration",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.official_fx",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.official_fx",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.ccl_fx",
+      "to": "ns.parallel_exchange_rate",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.ccl_fx",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.blue_fx",
+      "to": "ns.parallel_exchange_rate",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.blue_fx",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.fx_gap_ccl",
+      "to": "ns.fx_gap",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.fx_gap_ccl",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.fx_gap_blue",
+      "to": "ns.fx_gap",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.fx_gap_blue",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.fx_band_lower",
+      "to": "ns.exchange_rate_band",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.fx_band_lower",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.fx_band_upper",
+      "to": "ns.exchange_rate_band",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.fx_band_upper",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.fx_band_position",
+      "to": "ns.exchange_rate_band",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.fx_band_position",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.official_fx_monthly_change",
+      "to": "ns.nominal_exchange_rate",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.official_fx_monthly_change",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.reer_index",
+      "to": "ns.real_exchange_rate",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.reer_index",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.reer_change_dec2023",
+      "to": "ns.real_exchange_rate",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.reer_change_dec2023",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.fx_forward_1m",
+      "to": "ns.fx_hedging_demand",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.fx_forward_1m",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.fx_forward_eoy",
+      "to": "ns.fx_hedging_demand",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.fx_forward_eoy",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.policy_rate_nominal",
+      "to": "ns.policy_rate",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.policy_rate_nominal",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.money_market_rate",
+      "to": "ns.money_market_rate",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.money_market_rate",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.tamar_nominal",
+      "to": "ns.money_market_rate",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.tamar_nominal",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.tamar_real_expost",
+      "to": "ns.real_interest_rate",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.tamar_real_expost",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.tamar_real_exante",
+      "to": "ns.real_interest_rate",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.tamar_real_exante",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.reserve_requirement_ratio",
+      "to": "ns.reserve_requirements",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.reserve_requirement_ratio",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.bcra_peso_deposits",
+      "to": "ns.reserve_requirements",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.bcra_peso_deposits",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.monetary_base_nominal",
+      "to": "ns.monetary_base",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.monetary_base_nominal",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.monetary_base_real",
+      "to": "ns.monetary_base",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.monetary_base_real",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.transactional_m2_nominal",
+      "to": "ns.transactional_m2",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.transactional_m2_nominal",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.transactional_m2_real",
+      "to": "ns.transactional_m2",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.transactional_m2_real",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.transactional_m2_projection_gap",
+      "to": "ns.money_demand",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.transactional_m2_projection_gap",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.m2_to_gdp",
+      "to": "ns.money_demand",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.m2_to_gdp",
+      "directed": false
+    },
+    {
+      "from": "ci.ns.bcra_fx_purchases_daily",
+      "to": "ns.bcra_fx_operations",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.bcra_fx_purchases_daily",
+      "directed": false
+    },
+    {
+      "from": "pi.ns01",
+      "to": "q.ns01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns01",
+      "directed": false
+    },
+    {
+      "from": "pi.ns01",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns01",
+      "directed": false
+    },
+    {
+      "from": "pi.ns01",
+      "to": "ci.ns.cpi_3m_ann",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns01",
+      "directed": false
+    },
+    {
+      "from": "pi.ns02",
+      "to": "q.ns01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns02",
+      "directed": false
+    },
+    {
+      "from": "pi.ns02",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns02",
+      "directed": false
+    },
+    {
+      "from": "pi.ns02",
+      "to": "ci.ns.infl_acceleration",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns02",
+      "directed": false
+    },
+    {
+      "from": "pi.ns03",
+      "to": "q.ns01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns03",
+      "directed": false
+    },
+    {
+      "from": "pi.ns03",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns03",
+      "directed": false
+    },
+    {
+      "from": "pi.ns03",
+      "to": "ci.ns.cpi_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns03",
+      "directed": false
+    },
+    {
+      "from": "pi.ns04",
+      "to": "q.ns02",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns04",
+      "directed": false
+    },
+    {
+      "from": "pi.ns04",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns04",
+      "directed": false
+    },
+    {
+      "from": "pi.ns04",
+      "to": "ci.ns.cpi_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns04",
+      "directed": false
+    },
+    {
+      "from": "pi.ns05",
+      "to": "q.ns03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns05",
+      "directed": false
+    },
+    {
+      "from": "pi.ns05",
+      "to": "ci.ns.cpi_3m_ann",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns05",
+      "directed": false
+    },
+    {
+      "from": "pi.ns05",
+      "to": "ci.ns.core_3m_ann",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns05",
+      "directed": false
+    },
+    {
+      "from": "pi.ns06",
+      "to": "q.ns03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns06",
+      "directed": false
+    },
+    {
+      "from": "pi.ns06",
+      "to": "ci.ns.core_3m_ann",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns06",
+      "directed": false
+    },
+    {
+      "from": "pi.ns06",
+      "to": "ci.ns.trimmed_cpi_3m_ann",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns06",
+      "directed": false
+    },
+    {
+      "from": "pi.ns06",
+      "to": "ci.ns.trimmed_goods_3m_ann",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns06",
+      "directed": false
+    },
+    {
+      "from": "pi.ns06",
+      "to": "ci.ns.trimmed_services_3m_ann",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns06",
+      "directed": false
+    },
+    {
+      "from": "pi.ns07",
+      "to": "q.ns04",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns07",
+      "directed": false
+    },
+    {
+      "from": "pi.ns07",
+      "to": "ci.ns.food_inflation_contribution",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns07",
+      "directed": false
+    },
+    {
+      "from": "pi.ns07",
+      "to": "ci.ns.regulated_inflation_contribution",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns07",
+      "directed": false
+    },
+    {
+      "from": "pi.ns07",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns07",
+      "directed": false
+    },
+    {
+      "from": "pi.ns08",
+      "to": "q.ns04",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns08",
+      "directed": false
+    },
+    {
+      "from": "pi.ns08",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns08",
+      "directed": false
+    },
+    {
+      "from": "pi.ns09",
+      "to": "q.ns05",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns09",
+      "directed": false
+    },
+    {
+      "from": "pi.ns09",
+      "to": "ci.ns.official_fx_monthly_change",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns09",
+      "directed": false
+    },
+    {
+      "from": "pi.ns09",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns09",
+      "directed": false
+    },
+    {
+      "from": "pi.ns10",
+      "to": "q.ns05",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns10",
+      "directed": false
+    },
+    {
+      "from": "pi.ns10",
+      "to": "ci.ns.official_fx_monthly_change",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns10",
+      "directed": false
+    },
+    {
+      "from": "pi.ns10",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns10",
+      "directed": false
+    },
+    {
+      "from": "pi.ns11",
+      "to": "q.ns06",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns11",
+      "directed": false
+    },
+    {
+      "from": "pi.ns11",
+      "to": "ci.ns.infl_exp_1m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns11",
+      "directed": false
+    },
+    {
+      "from": "pi.ns11",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns11",
+      "directed": false
+    },
+    {
+      "from": "pi.ns12",
+      "to": "q.ns06",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns12",
+      "directed": false
+    },
+    {
+      "from": "pi.ns12",
+      "to": "ci.ns.infl_surprise",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns12",
+      "directed": false
+    },
+    {
+      "from": "pi.ns13",
+      "to": "q.ns07",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns13",
+      "directed": false
+    },
+    {
+      "from": "pi.ns13",
+      "to": "ci.ns.infl_exp_1m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns13",
+      "directed": false
+    },
+    {
+      "from": "pi.ns13",
+      "to": "ci.ns.infl_exp_3m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns13",
+      "directed": false
+    },
+    {
+      "from": "pi.ns13",
+      "to": "ci.ns.infl_exp_eop",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns13",
+      "directed": false
+    },
+    {
+      "from": "pi.ns14",
+      "to": "q.ns07",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns14",
+      "directed": false
+    },
+    {
+      "from": "pi.ns14",
+      "to": "ci.ns.infl_exp_1m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns14",
+      "directed": false
+    },
+    {
+      "from": "pi.ns14",
+      "to": "ci.ns.infl_exp_3m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns14",
+      "directed": false
+    },
+    {
+      "from": "pi.ns14",
+      "to": "ci.ns.infl_exp_eop",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns14",
+      "directed": false
+    },
+    {
+      "from": "pi.ns15",
+      "to": "q.ns08",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns15",
+      "directed": false
+    },
+    {
+      "from": "pi.ns15",
+      "to": "ci.ns.official_fx",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns15",
+      "directed": false
+    },
+    {
+      "from": "pi.ns15",
+      "to": "ci.ns.fx_band_lower",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns15",
+      "directed": false
+    },
+    {
+      "from": "pi.ns15",
+      "to": "ci.ns.fx_band_upper",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns15",
+      "directed": false
+    },
+    {
+      "from": "pi.ns16",
+      "to": "q.ns08",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns16",
+      "directed": false
+    },
+    {
+      "from": "pi.ns16",
+      "to": "ci.ns.fx_band_position",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns16",
+      "directed": false
+    },
+    {
+      "from": "pi.ns17",
+      "to": "q.ns09",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns17",
+      "directed": false
+    },
+    {
+      "from": "pi.ns17",
+      "to": "ci.ns.official_fx",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns17",
+      "directed": false
+    },
+    {
+      "from": "pi.ns17",
+      "to": "ci.ns.ccl_fx",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns17",
+      "directed": false
+    },
+    {
+      "from": "pi.ns17",
+      "to": "ci.ns.blue_fx",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns17",
+      "directed": false
+    },
+    {
+      "from": "pi.ns18",
+      "to": "q.ns09",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns18",
+      "directed": false
+    },
+    {
+      "from": "pi.ns18",
+      "to": "ci.ns.fx_gap_ccl",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns18",
+      "directed": false
+    },
+    {
+      "from": "pi.ns18",
+      "to": "ci.ns.fx_gap_blue",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns18",
+      "directed": false
+    },
+    {
+      "from": "pi.ns19",
+      "to": "q.ns09",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns19",
+      "directed": false
+    },
+    {
+      "from": "pi.ns19",
+      "to": "ci.ns.fx_gap_ccl",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns19",
+      "directed": false
+    },
+    {
+      "from": "pi.ns19",
+      "to": "ci.ns.fx_gap_blue",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns19",
+      "directed": false
+    },
+    {
+      "from": "pi.ns20",
+      "to": "q.ns10",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns20",
+      "directed": false
+    },
+    {
+      "from": "pi.ns20",
+      "to": "ci.ns.reer_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns20",
+      "directed": false
+    },
+    {
+      "from": "pi.ns20",
+      "to": "ci.ns.reer_change_dec2023",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns20",
+      "directed": false
+    },
+    {
+      "from": "pi.ns21",
+      "to": "q.ns10",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns21",
+      "directed": false
+    },
+    {
+      "from": "pi.ns21",
+      "to": "ci.ns.official_fx",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns21",
+      "directed": false
+    },
+    {
+      "from": "pi.ns21",
+      "to": "ci.ns.reer_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns21",
+      "directed": false
+    },
+    {
+      "from": "pi.ns22",
+      "to": "q.ns10",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns22",
+      "directed": false
+    },
+    {
+      "from": "pi.ns22",
+      "to": "ci.ns.reer_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns22",
+      "directed": false
+    },
+    {
+      "from": "pi.ns23",
+      "to": "q.ns11",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns23",
+      "directed": false
+    },
+    {
+      "from": "pi.ns23",
+      "to": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns23",
+      "directed": false
+    },
+    {
+      "from": "pi.ns24",
+      "to": "q.ns11",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns24",
+      "directed": false
+    },
+    {
+      "from": "pi.ns24",
+      "to": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns24",
+      "directed": false
+    },
+    {
+      "from": "pi.ns25",
+      "to": "q.ns11",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns25",
+      "directed": false
+    },
+    {
+      "from": "pi.ns25",
+      "to": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns25",
+      "directed": false
+    },
+    {
+      "from": "pi.ns25",
+      "to": "ci.ns.official_fx",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns25",
+      "directed": false
+    },
+    {
+      "from": "pi.ns26",
+      "to": "q.ns11",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns26",
+      "directed": false
+    },
+    {
+      "from": "pi.ns26",
+      "to": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns26",
+      "directed": false
+    },
+    {
+      "from": "pi.ns26",
+      "to": "ci.ns.monetary_base_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns26",
+      "directed": false
+    },
+    {
+      "from": "pi.ns27",
+      "to": "q.ns12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns27",
+      "directed": false
+    },
+    {
+      "from": "pi.ns27",
+      "to": "ci.ns.tamar_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns27",
+      "directed": false
+    },
+    {
+      "from": "pi.ns27",
+      "to": "ci.ns.infl_exp_3m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns27",
+      "directed": false
+    },
+    {
+      "from": "pi.ns28",
+      "to": "q.ns12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns28",
+      "directed": false
+    },
+    {
+      "from": "pi.ns28",
+      "to": "ci.ns.tamar_real_exante",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns28",
+      "directed": false
+    },
+    {
+      "from": "pi.ns28",
+      "to": "ci.ns.tamar_real_expost",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns28",
+      "directed": false
+    },
+    {
+      "from": "pi.ns29",
+      "to": "q.ns12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns29",
+      "directed": false
+    },
+    {
+      "from": "pi.ns29",
+      "to": "ci.ns.tamar_real_exante",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns29",
+      "directed": false
+    },
+    {
+      "from": "pi.ns30",
+      "to": "q.ns13",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns30",
+      "directed": false
+    },
+    {
+      "from": "pi.ns30",
+      "to": "ci.ns.money_market_rate",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns30",
+      "directed": false
+    },
+    {
+      "from": "pi.ns31",
+      "to": "q.ns13",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns31",
+      "directed": false
+    },
+    {
+      "from": "pi.ns31",
+      "to": "ci.ns.policy_rate_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns31",
+      "directed": false
+    },
+    {
+      "from": "pi.ns31",
+      "to": "ci.ns.money_market_rate",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns31",
+      "directed": false
+    },
+    {
+      "from": "pi.ns32",
+      "to": "q.ns14",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns32",
+      "directed": false
+    },
+    {
+      "from": "pi.ns32",
+      "to": "ci.ns.reserve_requirement_ratio",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns32",
+      "directed": false
+    },
+    {
+      "from": "pi.ns32",
+      "to": "ci.ns.bcra_peso_deposits",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns32",
+      "directed": false
+    },
+    {
+      "from": "pi.ns33",
+      "to": "q.ns14",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns33",
+      "directed": false
+    },
+    {
+      "from": "pi.ns33",
+      "to": "ci.ns.reserve_requirement_ratio",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns33",
+      "directed": false
+    },
+    {
+      "from": "pi.ns33",
+      "to": "ci.ns.money_market_rate",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns33",
+      "directed": false
+    },
+    {
+      "from": "pi.ns34",
+      "to": "q.ns15",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns34",
+      "directed": false
+    },
+    {
+      "from": "pi.ns34",
+      "to": "ci.ns.monetary_base_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns34",
+      "directed": false
+    },
+    {
+      "from": "pi.ns35",
+      "to": "q.ns15",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns35",
+      "directed": false
+    },
+    {
+      "from": "pi.ns35",
+      "to": "ci.ns.monetary_base_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns35",
+      "directed": false
+    },
+    {
+      "from": "pi.ns36",
+      "to": "q.ns15",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns36",
+      "directed": false
+    },
+    {
+      "from": "pi.ns36",
+      "to": "ci.ns.transactional_m2_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns36",
+      "directed": false
+    },
+    {
+      "from": "pi.ns36",
+      "to": "ci.ns.transactional_m2_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns36",
+      "directed": false
+    },
+    {
+      "from": "pi.ns37",
+      "to": "q.ns15",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns37",
+      "directed": false
+    },
+    {
+      "from": "pi.ns37",
+      "to": "ci.ns.transactional_m2_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns37",
+      "directed": false
+    },
+    {
+      "from": "pi.ns37",
+      "to": "ci.ns.transactional_m2_projection_gap",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns37",
+      "directed": false
+    },
+    {
+      "from": "pi.ns38",
+      "to": "q.ns15",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns38",
+      "directed": false
+    },
+    {
+      "from": "pi.ns38",
+      "to": "ci.ns.m2_to_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns38",
+      "directed": false
+    },
+    {
+      "from": "pi.ns39",
+      "to": "q.ns16",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns39",
+      "directed": false
+    },
+    {
+      "from": "pi.ns39",
+      "to": "ci.ns.transactional_m2_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns39",
+      "directed": false
+    },
+    {
+      "from": "pi.ns39",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns39",
+      "directed": false
+    },
+    {
+      "from": "pi.ns40",
+      "to": "q.ns16",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns40",
+      "directed": false
+    },
+    {
+      "from": "pi.ns40",
+      "to": "ci.ns.transactional_m2_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns40",
+      "directed": false
+    },
+    {
+      "from": "pi.ns40",
+      "to": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns40",
+      "directed": false
+    },
+    {
+      "from": "pi.ns41",
+      "to": "q.ns16",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns41",
+      "directed": false
+    },
+    {
+      "from": "pi.ns41",
+      "to": "ci.ns.monetary_base_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns41",
+      "directed": false
+    },
+    {
+      "from": "pi.ns41",
+      "to": "ci.ns.transactional_m2_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns41",
+      "directed": false
+    },
+    {
+      "from": "pi.ns42",
+      "to": "q.ns17",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns42",
+      "directed": false
+    },
+    {
+      "from": "pi.ns42",
+      "to": "ci.ns.monetary_base_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns42",
+      "directed": false
+    },
+    {
+      "from": "pi.ns42",
+      "to": "ci.ns.transactional_m2_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns42",
+      "directed": false
+    },
+    {
+      "from": "pi.ns43",
+      "to": "q.ns17",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns43",
+      "directed": false
+    },
+    {
+      "from": "pi.ns43",
+      "to": "ci.ns.monetary_base_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns43",
+      "directed": false
+    },
+    {
+      "from": "pi.ns43",
+      "to": "ci.ns.transactional_m2_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns43",
+      "directed": false
+    },
+    {
+      "from": "pi.ns43",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns43",
+      "directed": false
+    },
+    {
+      "from": "pi.ns44",
+      "to": "q.ns18",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns44",
+      "directed": false
+    },
+    {
+      "from": "pi.ns44",
+      "to": "ci.ns.infl_exp_3m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns44",
+      "directed": false
+    },
+    {
+      "from": "pi.ns44",
+      "to": "ci.ns.fx_gap_ccl",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns44",
+      "directed": false
+    },
+    {
+      "from": "pi.ns44",
+      "to": "ci.ns.tamar_real_exante",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns44",
+      "directed": false
+    },
+    {
+      "from": "pi.ns45",
+      "to": "q.ns18",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns45",
+      "directed": false
+    },
+    {
+      "from": "pi.ns45",
+      "to": "ci.ns.fx_forward_1m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns45",
+      "directed": false
+    },
+    {
+      "from": "pi.ns45",
+      "to": "ci.ns.fx_band_upper",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns45",
+      "directed": false
+    },
+    {
+      "from": "pi.ns46",
+      "to": "q.ns18",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns46",
+      "directed": false
+    },
+    {
+      "from": "pi.ns46",
+      "to": "ci.ns.fx_forward_eoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns46",
+      "directed": false
+    },
+    {
+      "from": "pi.ns46",
+      "to": "ci.ns.infl_exp_eop",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns46",
+      "directed": false
+    },
+    {
+      "from": "pi.ns47",
+      "to": "q.ns18",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns47",
+      "directed": false
+    },
+    {
+      "from": "pi.ns47",
+      "to": "ci.ns.fx_gap_ccl",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns47",
+      "directed": false
+    },
+    {
+      "from": "pi.ns47",
+      "to": "ci.ns.infl_exp_3m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns47",
+      "directed": false
+    },
+    {
+      "from": "pi.ns48",
+      "to": "q.ns18",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns48",
+      "directed": false
+    },
+    {
+      "from": "pi.ns48",
+      "to": "ci.ns.money_market_rate",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns48",
+      "directed": false
+    },
+    {
+      "from": "pi.ns48",
+      "to": "ci.ns.fx_gap_ccl",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns48",
+      "directed": false
+    },
+    {
+      "from": "pi.ns49",
+      "to": "q.ns12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns49",
+      "directed": false
+    },
+    {
+      "from": "pi.ns49",
+      "to": "ci.ns.tamar_real_exante",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns49",
+      "directed": false
+    },
+    {
+      "from": "pi.ns49",
+      "to": "ci.ns.official_fx_monthly_change",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns49",
+      "directed": false
+    },
+    {
+      "from": "pi.ns50",
+      "to": "q.ns05",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns50",
+      "directed": false
+    },
+    {
+      "from": "pi.ns50",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns50",
+      "directed": false
+    },
+    {
+      "from": "pi.ns50",
+      "to": "ci.ns.official_fx_monthly_change",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns50",
+      "directed": false
+    },
+    {
+      "from": "pi.ns51",
+      "to": "q.ns03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns51",
+      "directed": false
+    },
+    {
+      "from": "pi.ns51",
+      "to": "ci.ns.trimmed_services_3m_ann",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns51",
+      "directed": false
+    },
+    {
+      "from": "pi.ns51",
+      "to": "ci.ns.trimmed_goods_3m_ann",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns51",
+      "directed": false
+    },
+    {
+      "from": "pi.ns52",
+      "to": "q.ns18",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns52",
+      "directed": false
+    },
+    {
+      "from": "pi.ns52",
+      "to": "ci.ns.cpi_3m_ann",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns52",
+      "directed": false
+    },
+    {
+      "from": "pi.ns52",
+      "to": "ci.ns.infl_exp_3m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns52",
+      "directed": false
+    },
+    {
+      "from": "pi.ns52",
+      "to": "ci.ns.fx_gap_ccl",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns52",
+      "directed": false
+    },
+    {
+      "from": "pi.ns52",
+      "to": "ci.ns.tamar_real_exante",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns52",
+      "directed": false
+    },
+    {
+      "from": "pi.ns52",
+      "to": "ci.ns.transactional_m2_projection_gap",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns52",
+      "directed": false
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "pi.ns45",
+  "kind": "chart",
+  "slug": "fx-futures-vs-top-of-band",
+  "title": "FX futures vs top of band",
+  "href": "/charts/fx-futures-vs-top-of-band",
+  "dek": "Show market-implied depreciation relative to policy corridor.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns18",
+      "kind": "question",
+      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap"
+    },
+    {
+      "id": "ns.fx_hedging_demand",
+      "kind": "topic",
+      "slug": "fx-hedging-demand",
+      "title": "FX hedging demand",
+      "href": "/topics/fx-hedging-demand"
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations"
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate"
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.fx_forward_1m",
+      "kind": "indicator",
+      "slug": "one-month-fx-forward-implied-rate",
+      "title": "One-month FX forward/implied rate",
+      "href": "/indicators/one-month-fx-forward-implied-rate"
+    },
+    {
+      "id": "ci.ns.fx_band_upper",
+      "kind": "indicator",
+      "slug": "fx-band-upper-bound",
+      "title": "FX-band upper bound",
+      "href": "/indicators/fx-band-upper-bound"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.apr_2025_fx_framework"
+  ],
+  "chartSpec": null,
+  "nearby": [
+    {
+      "id": "q.ns18",
+      "kind": "question",
+      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.fx_band_upper",
+      "kind": "indicator",
+      "slug": "fx-band-upper-bound",
+      "title": "FX-band upper bound",
+      "href": "/indicators/fx-band-upper-bound",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.fx_forward_1m",
+      "kind": "indicator",
+      "slug": "one-month-fx-forward-implied-rate",
+      "title": "One-month FX forward/implied rate",
+      "href": "/indicators/one-month-fx-forward-implied-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.exchange_rate_band",
+      "kind": "topic",
+      "slug": "exchange-rate-band",
+      "title": "Exchange-rate band",
+      "href": "/topics/exchange-rate-band",
+      "distance": 2
+    },
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap",
+      "distance": 2
+    },
+    {
+      "id": "ns.fx_hedging_demand",
+      "kind": "topic",
+      "slug": "fx-hedging-demand",
+      "title": "FX hedging demand",
+      "href": "/topics/fx-hedging-demand",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "distance": 2
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 5,
+    "indicators": 2
+  }
+}

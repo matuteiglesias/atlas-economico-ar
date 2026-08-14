@@ -1,0 +1,157 @@
+{
+  "id": "pi.ns04",
+  "kind": "chart",
+  "slug": "disinflation-since-december-2023",
+  "title": "Disinflation since December 2023",
+  "href": "/charts/disinflation-since-december-2023",
+  "dek": "Show the stabilization path and recent stalls.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation"
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations"
+    },
+    {
+      "id": "ns.inflation_inertia",
+      "kind": "topic",
+      "slug": "inflation-inertia",
+      "title": "Inflation inertia",
+      "href": "/topics/inflation-inertia"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation"
+    },
+    {
+      "id": "ci.ns.cpi_yoy",
+      "kind": "indicator",
+      "slug": "headline-cpi-inflation-year-over-year",
+      "title": "Headline CPI inflation, year-over-year",
+      "href": "/indicators/headline-cpi-inflation-year-over-year"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.dec_2023_anchor"
+  ],
+  "chartSpec": {
+    "id": "cs.ns04",
+    "templateId": "line_with_reference_event",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.cpi_yoy",
+      "kind": "indicator",
+      "slug": "headline-cpi-inflation-year-over-year",
+      "title": "Headline CPI inflation, year-over-year",
+      "href": "/indicators/headline-cpi-inflation-year-over-year",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation_inertia",
+      "kind": "topic",
+      "slug": "inflation-inertia",
+      "title": "Inflation inertia",
+      "href": "/topics/inflation-inertia",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns07",
+      "kind": "chart",
+      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "title": "Food and regulated prices as contributors to monthly inflation",
+      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 3,
+    "indicators": 2
+  }
+}

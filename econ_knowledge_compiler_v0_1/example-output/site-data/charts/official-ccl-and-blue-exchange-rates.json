@@ -1,0 +1,164 @@
+{
+  "id": "pi.ns17",
+  "kind": "chart",
+  "slug": "official-ccl-and-blue-exchange-rates",
+  "title": "Official, CCL and blue exchange rates",
+  "href": "/charts/official-ccl-and-blue-exchange-rates",
+  "dek": "Show convergence/divergence across FX markets.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns09",
+      "kind": "question",
+      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "title": "How large is the gap between official and parallel exchange rates?",
+      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap"
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate"
+    },
+    {
+      "id": "ns.parallel_exchange_rate",
+      "kind": "topic",
+      "slug": "parallel-exchange-rate",
+      "title": "Parallel exchange rate",
+      "href": "/topics/parallel-exchange-rate"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.official_fx",
+      "kind": "indicator",
+      "slug": "official-ars-usd-exchange-rate",
+      "title": "Official ARS/USD exchange rate",
+      "href": "/indicators/official-ars-usd-exchange-rate"
+    },
+    {
+      "id": "ci.ns.ccl_fx",
+      "kind": "indicator",
+      "slug": "ccl-exchange-rate",
+      "title": "CCL exchange rate",
+      "href": "/indicators/ccl-exchange-rate"
+    },
+    {
+      "id": "ci.ns.blue_fx",
+      "kind": "indicator",
+      "slug": "blue-exchange-rate",
+      "title": "Blue exchange rate",
+      "href": "/indicators/blue-exchange-rate"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.trailing_12m"
+  ],
+  "chartSpec": {
+    "id": "cs.ns17",
+    "templateId": "multi_line_time_series",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ns09",
+      "kind": "question",
+      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "title": "How large is the gap between official and parallel exchange rates?",
+      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.blue_fx",
+      "kind": "indicator",
+      "slug": "blue-exchange-rate",
+      "title": "Blue exchange rate",
+      "href": "/indicators/blue-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.ccl_fx",
+      "kind": "indicator",
+      "slug": "ccl-exchange-rate",
+      "title": "CCL exchange rate",
+      "href": "/indicators/ccl-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.official_fx",
+      "kind": "indicator",
+      "slug": "official-ars-usd-exchange-rate",
+      "title": "Official ARS/USD exchange rate",
+      "href": "/indicators/official-ars-usd-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap",
+      "distance": 2
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "ns.parallel_exchange_rate",
+      "kind": "topic",
+      "slug": "parallel-exchange-rate",
+      "title": "Parallel exchange rate",
+      "href": "/topics/parallel-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns25",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-official-exchange-rate",
+      "title": "BCRA purchases vs official exchange rate",
+      "href": "/charts/bcra-purchases-vs-official-exchange-rate",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 3,
+    "indicators": 3
+  }
+}

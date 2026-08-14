@@ -1,0 +1,196 @@
+{
+  "id": "ns.core_inflation",
+  "kind": "topic",
+  "slug": "core-inflation",
+  "title": "Core inflation",
+  "href": "/topics/core-inflation",
+  "dek": "Underlying inflation measure designed to abstract from selected volatile or regulated components.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.relative_prices_core_gap",
+      "relation_type": "associated_with",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.relative_price_adjustment",
+        "kind": "topic",
+        "slug": "relative-price-adjustment",
+        "title": "Relative-price adjustment",
+        "href": "/topics/relative-price-adjustment"
+      }
+    },
+    {
+      "relation_id": "rel.core_measures_inflation",
+      "relation_type": "measurement_of",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.inflation",
+        "kind": "topic",
+        "slug": "inflation",
+        "title": "Inflation",
+        "href": "/topics/inflation"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns03",
+      "kind": "question",
+      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
+      "title": "Is disinflation broad-based across underlying inflation measures?",
+      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.core_3m_ann",
+      "kind": "indicator",
+      "slug": "core-cpi-3-month-annualized",
+      "title": "Core CPI, 3-month annualized",
+      "href": "/indicators/core-cpi-3-month-annualized"
+    },
+    {
+      "id": "ci.ns.core_monthly",
+      "kind": "indicator",
+      "slug": "core-cpi-inflation-monthly",
+      "title": "Core CPI inflation, monthly",
+      "href": "/indicators/core-cpi-inflation-monthly"
+    },
+    {
+      "id": "ci.ns.trimmed_cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-cpi-3-month-annualized",
+      "title": "Trimmed CPI, 3-month annualized",
+      "href": "/indicators/trimmed-cpi-3-month-annualized"
+    },
+    {
+      "id": "ci.ns.trimmed_goods_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-goods-inflation-3-month-annualized",
+      "title": "Trimmed goods inflation, 3-month annualized",
+      "href": "/indicators/trimmed-goods-inflation-3-month-annualized"
+    },
+    {
+      "id": "ci.ns.trimmed_services_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-services-inflation-3-month-annualized",
+      "title": "Trimmed services inflation, 3-month annualized",
+      "href": "/indicators/trimmed-services-inflation-3-month-annualized"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns05",
+      "kind": "chart",
+      "slug": "headline-vs-core-inflation",
+      "title": "Headline vs core inflation",
+      "href": "/charts/headline-vs-core-inflation"
+    },
+    {
+      "id": "pi.ns06",
+      "kind": "chart",
+      "slug": "multiple-measures-of-core-inflation",
+      "title": "Multiple measures of core inflation",
+      "href": "/charts/multiple-measures-of-core-inflation"
+    },
+    {
+      "id": "pi.ns51",
+      "kind": "chart",
+      "slug": "core-services-vs-core-goods-inflation",
+      "title": "Core services vs core goods inflation",
+      "href": "/charts/core-services-vs-core-goods-inflation"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ns03",
+      "kind": "question",
+      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
+      "title": "Is disinflation broad-based across underlying inflation measures?",
+      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
+      "distance": 1
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.relative_price_adjustment",
+      "kind": "topic",
+      "slug": "relative-price-adjustment",
+      "title": "Relative-price adjustment",
+      "href": "/topics/relative-price-adjustment",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.core_monthly",
+      "kind": "indicator",
+      "slug": "core-cpi-inflation-monthly",
+      "title": "Core CPI inflation, monthly",
+      "href": "/indicators/core-cpi-inflation-monthly",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.core_3m_ann",
+      "kind": "indicator",
+      "slug": "core-cpi-3-month-annualized",
+      "title": "Core CPI, 3-month annualized",
+      "href": "/indicators/core-cpi-3-month-annualized",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.trimmed_cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-cpi-3-month-annualized",
+      "title": "Trimmed CPI, 3-month annualized",
+      "href": "/indicators/trimmed-cpi-3-month-annualized",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.trimmed_goods_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-goods-inflation-3-month-annualized",
+      "title": "Trimmed goods inflation, 3-month annualized",
+      "href": "/indicators/trimmed-goods-inflation-3-month-annualized",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.trimmed_services_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-services-inflation-3-month-annualized",
+      "title": "Trimmed services inflation, 3-month annualized",
+      "href": "/indicators/trimmed-services-inflation-3-month-annualized",
+      "distance": 1
+    }
+  ],
+  "counts": {
+    "connections": 2,
+    "questions": 1,
+    "indicators": 5,
+    "charts": 3
+  }
+}

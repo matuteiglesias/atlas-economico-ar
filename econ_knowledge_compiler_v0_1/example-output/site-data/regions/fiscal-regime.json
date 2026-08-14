@@ -1,0 +1,31 @@
+{
+  "id": "fiscal_regime",
+  "kind": "region",
+  "slug": "fiscal-regime",
+  "title": "Fiscal Regime",
+  "href": "/areas/fiscal-regime",
+  "dek": "Explain revenues, spending, balances, subsidies, pensions, public financing needs, and institutional durability of the fiscal anchor.",
+  "intro": null,
+  "populated": false,
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    }
+  ],
+  "stats": {
+    "topics": 0,
+    "questions": 0,
+    "indicators": 0,
+    "charts": 0,
+    "relations": 0
+  },
+  "topics": [],
+  "questions": [],
+  "indicators": [],
+  "charts": [],
+  "localGraph": {
+    "nodes": [],
+    "edges": []
+  }
+}

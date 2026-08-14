@@ -1,0 +1,24 @@
+schema_version: '0.1'
+entities:
+  nominal_stabilization:
+    title: Nominal Stabilization
+    slug: nominal-stabilization
+    dek: How prices, exchange rates, monetary conditions, and expectations interact during Argentina's stabilization process.
+    featured: true
+    order: 10
+
+  ns.inflation:
+    title: Inflation
+    slug: inflation
+    dek: How quickly the general level of prices is changing — and one of the central variables around which Argentina's stabilization process is organized.
+    featured: true
+
+  q.ns04:
+    title: What is driving monthly inflation?
+    slug: what-is-driving-monthly-inflation
+    dek: Separate persistence from relative-price changes, demand conditions, interest rates, and exchange-rate pass-through.
+
+  pi.ns08:
+    title: Inflation-driver decomposition
+    slug: inflation-driver-decomposition
+    dek: A decomposition of monthly inflation into the mechanisms that may be sustaining or slowing the price process.

@@ -1,0 +1,150 @@
+{
+  "id": "pi.ns21",
+  "kind": "chart",
+  "slug": "nominal-vs-real-exchange-rate-movement",
+  "title": "Nominal vs real exchange-rate movement",
+  "href": "/charts/nominal-vs-real-exchange-rate-movement",
+  "dek": "Contrast nominal depreciation with real appreciation/depreciation.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns10",
+      "kind": "question",
+      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "title": "How much has the peso appreciated or depreciated in real terms?",
+      "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate"
+    },
+    {
+      "id": "ns.real_exchange_rate",
+      "kind": "topic",
+      "slug": "real-exchange-rate",
+      "title": "Real exchange rate",
+      "href": "/topics/real-exchange-rate"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.official_fx",
+      "kind": "indicator",
+      "slug": "official-ars-usd-exchange-rate",
+      "title": "Official ARS/USD exchange rate",
+      "href": "/indicators/official-ars-usd-exchange-rate"
+    },
+    {
+      "id": "ci.ns.reer_index",
+      "kind": "indicator",
+      "slug": "real-effective-exchange-rate-index",
+      "title": "Real effective exchange-rate index",
+      "href": "/indicators/real-effective-exchange-rate-index"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.dec_2023_anchor"
+  ],
+  "chartSpec": {
+    "id": "cs.ns21",
+    "templateId": "indexed_comparison",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ns10",
+      "kind": "question",
+      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "title": "How much has the peso appreciated or depreciated in real terms?",
+      "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.official_fx",
+      "kind": "indicator",
+      "slug": "official-ars-usd-exchange-rate",
+      "title": "Official ARS/USD exchange rate",
+      "href": "/indicators/official-ars-usd-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.reer_index",
+      "kind": "indicator",
+      "slug": "real-effective-exchange-rate-index",
+      "title": "Real effective exchange-rate index",
+      "href": "/indicators/real-effective-exchange-rate-index",
+      "distance": 1
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "ns.real_exchange_rate",
+      "kind": "topic",
+      "slug": "real-exchange-rate",
+      "title": "Real exchange rate",
+      "href": "/topics/real-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns25",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-official-exchange-rate",
+      "title": "BCRA purchases vs official exchange rate",
+      "href": "/charts/bcra-purchases-vs-official-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns15",
+      "kind": "chart",
+      "slug": "official-exchange-rate-within-the-band",
+      "title": "Official exchange rate within the band",
+      "href": "/charts/official-exchange-rate-within-the-band",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns17",
+      "kind": "chart",
+      "slug": "official-ccl-and-blue-exchange-rates",
+      "title": "Official, CCL and blue exchange rates",
+      "href": "/charts/official-ccl-and-blue-exchange-rates",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 2,
+    "indicators": 2
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "id": "pi.ns08",
+  "kind": "chart",
+  "slug": "inflation-driver-decomposition",
+  "title": "Inflation-driver decomposition",
+  "href": "/charts/inflation-driver-decomposition",
+  "dek": "A decomposition of monthly inflation into the mechanisms that may be sustaining or slowing the price process.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns04",
+      "kind": "question",
+      "slug": "what-is-driving-monthly-inflation",
+      "title": "What is driving monthly inflation?",
+      "href": "/questions/what-is-driving-monthly-inflation"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.aggregate_demand_pressure",
+      "kind": "topic",
+      "slug": "aggregate-demand-pressure",
+      "title": "Aggregate-demand pressure",
+      "href": "/topics/aggregate-demand-pressure"
+    },
+    {
+      "id": "ns.fx_pass_through",
+      "kind": "topic",
+      "slug": "fx-pass-through",
+      "title": "FX pass-through",
+      "href": "/topics/fx-pass-through"
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation"
+    },
+    {
+      "id": "ns.inflation_inertia",
+      "kind": "topic",
+      "slug": "inflation-inertia",
+      "title": "Inflation inertia",
+      "href": "/topics/inflation-inertia"
+    },
+    {
+      "id": "ns.relative_price_adjustment",
+      "kind": "topic",
+      "slug": "relative-price-adjustment",
+      "title": "Relative-price adjustment",
+      "href": "/topics/relative-price-adjustment"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.trailing_12m"
+  ],
+  "chartSpec": {
+    "id": "cs.ns08",
+    "templateId": "stacked_contribution_with_total",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ns04",
+      "kind": "question",
+      "slug": "what-is-driving-monthly-inflation",
+      "title": "What is driving monthly inflation?",
+      "href": "/questions/what-is-driving-monthly-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.aggregate_demand_pressure",
+      "kind": "topic",
+      "slug": "aggregate-demand-pressure",
+      "title": "Aggregate-demand pressure",
+      "href": "/topics/aggregate-demand-pressure",
+      "distance": 2
+    },
+    {
+      "id": "ns.fx_pass_through",
+      "kind": "topic",
+      "slug": "fx-pass-through",
+      "title": "FX pass-through",
+      "href": "/topics/fx-pass-through",
+      "distance": 2
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation_inertia",
+      "kind": "topic",
+      "slug": "inflation-inertia",
+      "title": "Inflation inertia",
+      "href": "/topics/inflation-inertia",
+      "distance": 2
+    },
+    {
+      "id": "ns.relative_price_adjustment",
+      "kind": "topic",
+      "slug": "relative-price-adjustment",
+      "title": "Relative-price adjustment",
+      "href": "/topics/relative-price-adjustment",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 5,
+    "indicators": 1
+  }
+}

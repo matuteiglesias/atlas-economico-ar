@@ -1,0 +1,150 @@
+{
+  "id": "pi.ns11",
+  "kind": "chart",
+  "slug": "inflation-expectations-vs-realized-inflation",
+  "title": "Inflation expectations vs realized inflation",
+  "href": "/charts/inflation-expectations-vs-realized-inflation",
+  "dek": "Show expectation errors and anchoring.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns06",
+      "kind": "question",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation"
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.infl_exp_1m",
+      "kind": "indicator",
+      "slug": "expected-inflation-next-month",
+      "title": "Expected inflation next month",
+      "href": "/indicators/expected-inflation-next-month"
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.trailing_12m"
+  ],
+  "chartSpec": {
+    "id": "cs.ns11",
+    "templateId": "actual_vs_expected",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ns06",
+      "kind": "question",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.infl_exp_1m",
+      "kind": "indicator",
+      "slug": "expected-inflation-next-month",
+      "title": "Expected inflation next month",
+      "href": "/indicators/expected-inflation-next-month",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns13",
+      "kind": "chart",
+      "slug": "expected-inflation-path",
+      "title": "Expected inflation path",
+      "href": "/charts/expected-inflation-path",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns07",
+      "kind": "chart",
+      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "title": "Food and regulated prices as contributors to monthly inflation",
+      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 2,
+    "indicators": 2
+  }
+}

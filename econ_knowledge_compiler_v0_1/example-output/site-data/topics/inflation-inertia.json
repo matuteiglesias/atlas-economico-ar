@@ -1,0 +1,179 @@
+{
+  "id": "ns.inflation_inertia",
+  "kind": "topic",
+  "slug": "inflation-inertia",
+  "title": "Inflation inertia",
+  "href": "/topics/inflation-inertia",
+  "dek": "Persistence in price-setting dynamics linked to backward-looking adjustment, contracts, and expectations.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.expectations_inertia",
+      "relation_type": "economic_mechanism",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.inflation_expectations",
+        "kind": "topic",
+        "slug": "inflation-expectations",
+        "title": "Inflation expectations",
+        "href": "/topics/inflation-expectations"
+      }
+    },
+    {
+      "relation_id": "rel.money_demand_inertia",
+      "relation_type": "economic_mechanism",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.money_demand",
+        "kind": "topic",
+        "slug": "money-demand",
+        "title": "Money demand",
+        "href": "/topics/money-demand"
+      }
+    },
+    {
+      "relation_id": "rel.inertia_contributes_inflation",
+      "relation_type": "contributes_to",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.headline_inflation",
+        "kind": "topic",
+        "slug": "headline-inflation",
+        "title": "Headline inflation",
+        "href": "/topics/headline-inflation"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed"
+    },
+    {
+      "id": "q.ns04",
+      "kind": "question",
+      "slug": "what-is-driving-monthly-inflation",
+      "title": "What is driving monthly inflation?",
+      "href": "/questions/what-is-driving-monthly-inflation"
+    }
+  ],
+  "indicators": [],
+  "charts": [
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023"
+    },
+    {
+      "id": "pi.ns07",
+      "kind": "chart",
+      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "title": "Food and regulated prices as contributors to monthly inflation",
+      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation"
+    },
+    {
+      "id": "pi.ns08",
+      "kind": "chart",
+      "slug": "inflation-driver-decomposition",
+      "title": "Inflation-driver decomposition",
+      "href": "/charts/inflation-driver-decomposition"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
+      "distance": 1
+    },
+    {
+      "id": "q.ns04",
+      "kind": "question",
+      "slug": "what-is-driving-monthly-inflation",
+      "title": "What is driving monthly inflation?",
+      "href": "/questions/what-is-driving-monthly-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "distance": 1
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "distance": 1
+    },
+    {
+      "id": "q.ns06",
+      "kind": "question",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "distance": 2
+    },
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms",
+      "distance": 2
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 3,
+    "questions": 2,
+    "indicators": 0,
+    "charts": 3
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "id": "ns.real_interest_rate",
+  "kind": "topic",
+  "slug": "real-interest-rate",
+  "title": "Real interest rate",
+  "href": "/topics/real-interest-rate",
+  "dek": "Nominal interest rate adjusted for actual or expected inflation.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.real_rate_derived_policy_rate",
+      "relation_type": "derived_from",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.policy_rate",
+        "kind": "topic",
+        "slug": "policy-interest-rate",
+        "title": "Policy interest rate",
+        "href": "/topics/policy-interest-rate"
+      }
+    },
+    {
+      "relation_id": "rel.real_rate_derived_expectations",
+      "relation_type": "derived_from",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.inflation_expectations",
+        "kind": "topic",
+        "slug": "inflation-expectations",
+        "title": "Inflation expectations",
+        "href": "/topics/inflation-expectations"
+      }
+    },
+    {
+      "relation_id": "rel.real_rate_constrains_demand",
+      "relation_type": "constraint_on",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.aggregate_demand_pressure",
+        "kind": "topic",
+        "slug": "aggregate-demand-pressure",
+        "title": "Aggregate-demand pressure",
+        "href": "/topics/aggregate-demand-pressure"
+      }
+    },
+    {
+      "relation_id": "rel.expectations_real_rate",
+      "relation_type": "derived_from",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.inflation_expectations",
+        "kind": "topic",
+        "slug": "inflation-expectations",
+        "title": "Inflation expectations",
+        "href": "/topics/inflation-expectations"
+      }
+    },
+    {
+      "relation_id": "rel.market_rate_real_rate",
+      "relation_type": "derived_from",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.money_market_rate",
+        "kind": "topic",
+        "slug": "money-market-rate",
+        "title": "Money-market rate",
+        "href": "/topics/money-market-rate"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.tamar_real_exante",
+      "kind": "indicator",
+      "slug": "tamar-ex-ante-real-rate",
+      "title": "TAMAR ex-ante real rate",
+      "href": "/indicators/tamar-ex-ante-real-rate"
+    },
+    {
+      "id": "ci.ns.tamar_real_expost",
+      "kind": "indicator",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/indicators/tamar-ex-post-real-rate"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns27",
+      "kind": "chart",
+      "slug": "nominal-rates-vs-expected-inflation",
+      "title": "Nominal rates vs expected inflation",
+      "href": "/charts/nominal-rates-vs-expected-inflation"
+    },
+    {
+      "id": "pi.ns28",
+      "kind": "chart",
+      "slug": "ex-ante-vs-ex-post-real-rates",
+      "title": "Ex-ante vs ex-post real rates",
+      "href": "/charts/ex-ante-vs-ex-post-real-rates"
+    },
+    {
+      "id": "pi.ns29",
+      "kind": "chart",
+      "slug": "real-rate-regime-since-2025",
+      "title": "Real-rate regime since 2025",
+      "href": "/charts/real-rate-regime-since-2025"
+    },
+    {
+      "id": "pi.ns44",
+      "kind": "chart",
+      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
+      "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates"
+    },
+    {
+      "id": "pi.ns49",
+      "kind": "chart",
+      "slug": "carry-environment-real-rates-vs-fx-depreciation",
+      "title": "Carry environment: real rates vs FX depreciation",
+      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation"
+    },
+    {
+      "id": "pi.ns52",
+      "kind": "chart",
+      "slug": "nominal-stabilization-state-map",
+      "title": "Nominal-stabilization state map",
+      "href": "/charts/nominal-stabilization-state-map"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms",
+      "distance": 1
+    },
+    {
+      "id": "ns.aggregate_demand_pressure",
+      "kind": "topic",
+      "slug": "aggregate-demand-pressure",
+      "title": "Aggregate-demand pressure",
+      "href": "/topics/aggregate-demand-pressure",
+      "distance": 1
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "distance": 1
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.tamar_real_exante",
+      "kind": "indicator",
+      "slug": "tamar-ex-ante-real-rate",
+      "title": "TAMAR ex-ante real rate",
+      "href": "/indicators/tamar-ex-ante-real-rate",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.tamar_real_expost",
+      "kind": "indicator",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/indicators/tamar-ex-post-real-rate",
+      "distance": 1
+    },
+    {
+      "id": "q.ns06",
+      "kind": "question",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 5,
+    "questions": 1,
+    "indicators": 2,
+    "charts": 6
+  }
+}

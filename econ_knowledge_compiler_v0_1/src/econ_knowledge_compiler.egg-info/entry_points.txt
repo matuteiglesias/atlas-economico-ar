@@ -1,0 +1,2 @@
+[console_scripts]
+ekc = econ_knowledge_compiler.cli:main

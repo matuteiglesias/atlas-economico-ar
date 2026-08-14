@@ -1,0 +1,187 @@
+{
+  "id": "ns.real_exchange_rate",
+  "kind": "topic",
+  "slug": "real-exchange-rate",
+  "title": "Real exchange rate",
+  "href": "/topics/real-exchange-rate",
+  "dek": "Price-adjusted exchange-rate measure used to assess real appreciation/depreciation and competitiveness.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.real_fx_derived_nominal",
+      "relation_type": "derived_from",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.nominal_exchange_rate",
+        "kind": "topic",
+        "slug": "nominal-exchange-rate",
+        "title": "Nominal exchange rate",
+        "href": "/topics/nominal-exchange-rate"
+      }
+    },
+    {
+      "relation_id": "rel.real_fx_agenda_inflation",
+      "relation_type": "agenda_related",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.inflation",
+        "kind": "topic",
+        "slug": "inflation",
+        "title": "Inflation",
+        "href": "/topics/inflation"
+      }
+    },
+    {
+      "relation_id": "rel.real_fx_compares_nominal_fx",
+      "relation_type": "comparison",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.nominal_exchange_rate",
+        "kind": "topic",
+        "slug": "nominal-exchange-rate",
+        "title": "Nominal exchange rate",
+        "href": "/topics/nominal-exchange-rate"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns10",
+      "kind": "question",
+      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "title": "How much has the peso appreciated or depreciated in real terms?",
+      "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.reer_change_dec2023",
+      "kind": "indicator",
+      "slug": "reer-change-since-dec-2023",
+      "title": "REER change since Dec-2023",
+      "href": "/indicators/reer-change-since-dec-2023"
+    },
+    {
+      "id": "ci.ns.reer_index",
+      "kind": "indicator",
+      "slug": "real-effective-exchange-rate-index",
+      "title": "Real effective exchange-rate index",
+      "href": "/indicators/real-effective-exchange-rate-index"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns20",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate-since-dec-2023",
+      "title": "Real effective exchange rate since Dec-2023",
+      "href": "/charts/real-effective-exchange-rate-since-dec-2023"
+    },
+    {
+      "id": "pi.ns21",
+      "kind": "chart",
+      "slug": "nominal-vs-real-exchange-rate-movement",
+      "title": "Nominal vs real exchange-rate movement",
+      "href": "/charts/nominal-vs-real-exchange-rate-movement"
+    },
+    {
+      "id": "pi.ns22",
+      "kind": "chart",
+      "slug": "real-exchange-rate-with-major-policy-regime-markers",
+      "title": "Real exchange rate with major policy-regime markers",
+      "href": "/charts/real-exchange-rate-with-major-policy-regime-markers"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ns10",
+      "kind": "question",
+      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "title": "How much has the peso appreciated or depreciated in real terms?",
+      "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "distance": 1
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.reer_index",
+      "kind": "indicator",
+      "slug": "real-effective-exchange-rate-index",
+      "title": "Real effective exchange-rate index",
+      "href": "/indicators/real-effective-exchange-rate-index",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.reer_change_dec2023",
+      "kind": "indicator",
+      "slug": "reer-change-since-dec-2023",
+      "title": "REER change since Dec-2023",
+      "href": "/indicators/reer-change-since-dec-2023",
+      "distance": 1
+    },
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
+      "distance": 2
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "distance": 2
+    },
+    {
+      "id": "q.ns01",
+      "kind": "question",
+      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 3,
+    "questions": 1,
+    "indicators": 2,
+    "charts": 3
+  }
+}

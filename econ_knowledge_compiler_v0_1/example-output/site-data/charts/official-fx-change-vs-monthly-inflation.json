@@ -1,0 +1,157 @@
+{
+  "id": "pi.ns09",
+  "kind": "chart",
+  "slug": "official-fx-change-vs-monthly-inflation",
+  "title": "Official FX change vs monthly inflation",
+  "href": "/charts/official-fx-change-vs-monthly-inflation",
+  "dek": "Visually inspect short-run co-movement without claiming causality.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.fx_pass_through",
+      "kind": "topic",
+      "slug": "fx-pass-through",
+      "title": "FX pass-through",
+      "href": "/topics/fx-pass-through"
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation"
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.official_fx_monthly_change",
+      "kind": "indicator",
+      "slug": "official-fx-monthly-change",
+      "title": "Official FX monthly change",
+      "href": "/indicators/official-fx-monthly-change"
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.trailing_12m"
+  ],
+  "chartSpec": {
+    "id": "cs.ns09",
+    "templateId": "dual_line_time_series",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.official_fx_monthly_change",
+      "kind": "indicator",
+      "slug": "official-fx-monthly-change",
+      "title": "Official FX monthly change",
+      "href": "/indicators/official-fx-monthly-change",
+      "distance": 1
+    },
+    {
+      "id": "ns.fx_pass_through",
+      "kind": "topic",
+      "slug": "fx-pass-through",
+      "title": "FX pass-through",
+      "href": "/topics/fx-pass-through",
+      "distance": 2
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "distance": 2
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns49",
+      "kind": "chart",
+      "slug": "carry-environment-real-rates-vs-fx-depreciation",
+      "title": "Carry environment: real rates vs FX depreciation",
+      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 3,
+    "indicators": 2
+  }
+}

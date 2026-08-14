@@ -1,0 +1,123 @@
+{
+  "id": "ci.ns.infl_acceleration",
+  "kind": "indicator",
+  "slug": "monthly-inflation-acceleration",
+  "title": "Monthly inflation acceleration",
+  "href": "/indicators/monthly-inflation-acceleration",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topic": {
+    "id": "ns.inflation",
+    "kind": "topic",
+    "slug": "inflation",
+    "title": "Inflation",
+    "href": "/topics/inflation"
+  },
+  "unitSemantics": "percentage_points_change",
+  "frequency": "monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ns02",
+      "kind": "chart",
+      "slug": "monthly-inflation-with-acceleration-markers",
+      "title": "Monthly inflation with acceleration markers",
+      "href": "/charts/monthly-inflation-with-acceleration-markers"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [
+    "di.ns.infl_acceleration"
+  ],
+  "nearby": [
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns02",
+      "kind": "chart",
+      "slug": "monthly-inflation-with-acceleration-markers",
+      "title": "Monthly inflation with acceleration markers",
+      "href": "/charts/monthly-inflation-with-acceleration-markers",
+      "distance": 1
+    },
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
+      "distance": 2
+    },
+    {
+      "id": "q.ns01",
+      "kind": "question",
+      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "distance": 2
+    },
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "distance": 2
+    },
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "distance": 2
+    },
+    {
+      "id": "q.ns07",
+      "kind": "question",
+      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "title": "What inflation path does the market expect over the next months and year-end?",
+      "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "distance": 2
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 1,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 1
+  }
+}

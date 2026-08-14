@@ -1,0 +1,128 @@
+{
+  "id": "ci.ns.cpi_yoy",
+  "kind": "indicator",
+  "slug": "headline-cpi-inflation-year-over-year",
+  "title": "Headline CPI inflation, year-over-year",
+  "href": "/indicators/headline-cpi-inflation-year-over-year",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topic": {
+    "id": "ns.headline_inflation",
+    "kind": "topic",
+    "slug": "headline-inflation",
+    "title": "Headline inflation",
+    "href": "/topics/headline-inflation"
+  },
+  "unitSemantics": "percent_yoy",
+  "frequency": "monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ns03",
+      "kind": "chart",
+      "slug": "headline-inflation-monthly-vs-year-over-year",
+      "title": "Headline inflation: monthly vs year-over-year",
+      "href": "/charts/headline-inflation-monthly-vs-year-over-year"
+    },
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns03",
+      "kind": "chart",
+      "slug": "headline-inflation-monthly-vs-year-over-year",
+      "title": "Headline inflation: monthly vs year-over-year",
+      "href": "/charts/headline-inflation-monthly-vs-year-over-year",
+      "distance": 1
+    },
+    {
+      "id": "q.ns06",
+      "kind": "question",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "distance": 2
+    },
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
+      "distance": 2
+    },
+    {
+      "id": "q.ns01",
+      "kind": "question",
+      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "distance": 2
+    },
+    {
+      "id": "q.ns03",
+      "kind": "question",
+      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
+      "title": "Is disinflation broad-based across underlying inflation measures?",
+      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
+      "distance": 2
+    },
+    {
+      "id": "q.ns04",
+      "kind": "question",
+      "slug": "what-is-driving-monthly-inflation",
+      "title": "What is driving monthly inflation?",
+      "href": "/questions/what-is-driving-monthly-inflation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 2,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 0
+  }
+}

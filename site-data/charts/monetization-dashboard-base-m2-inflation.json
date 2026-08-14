@@ -1,0 +1,159 @@
+{
+  "id": "pi.ns43",
+  "kind": "chart",
+  "slug": "monetization-dashboard-base-m2-inflation",
+  "title": "Monetization dashboard: base, M2, inflation",
+  "href": "/charts/monetization-dashboard-base-m2-inflation",
+  "dek": "Compact view of monetary normalization.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns17",
+      "kind": "question",
+      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base"
+    },
+    {
+      "id": "ns.monetary_targeting_framework",
+      "kind": "topic",
+      "slug": "monetary-targeting-framework",
+      "title": "Monetary targeting framework",
+      "href": "/topics/monetary-targeting-framework"
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.monetary_base_real",
+      "kind": "indicator",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/indicators/real-monetary-base"
+    },
+    {
+      "id": "ci.ns.transactional_m2_real",
+      "kind": "indicator",
+      "slug": "real-private-transactional-m2",
+      "title": "Real private transactional M2",
+      "href": "/indicators/real-private-transactional-m2"
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.dec_2023_anchor"
+  ],
+  "chartSpec": null,
+  "nearby": [
+    {
+      "id": "q.ns17",
+      "kind": "question",
+      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.monetary_base_real",
+      "kind": "indicator",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/indicators/real-monetary-base",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.transactional_m2_real",
+      "kind": "indicator",
+      "slug": "real-private-transactional-m2",
+      "title": "Real private transactional M2",
+      "href": "/indicators/real-private-transactional-m2",
+      "distance": 1
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "distance": 2
+    },
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base",
+      "distance": 2
+    },
+    {
+      "id": "ns.monetary_targeting_framework",
+      "kind": "topic",
+      "slug": "monetary-targeting-framework",
+      "title": "Monetary targeting framework",
+      "href": "/topics/monetary-targeting-framework",
+      "distance": 2
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 3,
+    "indicators": 3
+  }
+}

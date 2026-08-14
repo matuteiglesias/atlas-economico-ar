@@ -1,0 +1,137 @@
+{
+  "id": "ci.ns.reer_index",
+  "kind": "indicator",
+  "slug": "real-effective-exchange-rate-index",
+  "title": "Real effective exchange-rate index",
+  "href": "/indicators/real-effective-exchange-rate-index",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topic": {
+    "id": "ns.real_exchange_rate",
+    "kind": "topic",
+    "slug": "real-exchange-rate",
+    "title": "Real exchange rate",
+    "href": "/topics/real-exchange-rate"
+  },
+  "unitSemantics": "index",
+  "frequency": "monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ns20",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate-since-dec-2023",
+      "title": "Real effective exchange rate since Dec-2023",
+      "href": "/charts/real-effective-exchange-rate-since-dec-2023"
+    },
+    {
+      "id": "pi.ns21",
+      "kind": "chart",
+      "slug": "nominal-vs-real-exchange-rate-movement",
+      "title": "Nominal vs real exchange-rate movement",
+      "href": "/charts/nominal-vs-real-exchange-rate-movement"
+    },
+    {
+      "id": "pi.ns22",
+      "kind": "chart",
+      "slug": "real-exchange-rate-with-major-policy-regime-markers",
+      "title": "Real exchange rate with major policy-regime markers",
+      "href": "/charts/real-exchange-rate-with-major-policy-regime-markers"
+    }
+  ],
+  "derivedAsInput": [
+    "di.ns.reer_change_dec2023"
+  ],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ns.real_exchange_rate",
+      "kind": "topic",
+      "slug": "real-exchange-rate",
+      "title": "Real exchange rate",
+      "href": "/topics/real-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns21",
+      "kind": "chart",
+      "slug": "nominal-vs-real-exchange-rate-movement",
+      "title": "Nominal vs real exchange-rate movement",
+      "href": "/charts/nominal-vs-real-exchange-rate-movement",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns20",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate-since-dec-2023",
+      "title": "Real effective exchange rate since Dec-2023",
+      "href": "/charts/real-effective-exchange-rate-since-dec-2023",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns22",
+      "kind": "chart",
+      "slug": "real-exchange-rate-with-major-policy-regime-markers",
+      "title": "Real exchange rate with major policy-regime markers",
+      "href": "/charts/real-exchange-rate-with-major-policy-regime-markers",
+      "distance": 1
+    },
+    {
+      "id": "q.ns10",
+      "kind": "question",
+      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "title": "How much has the peso appreciated or depreciated in real terms?",
+      "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "distance": 2
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "ci.ns.official_fx",
+      "kind": "indicator",
+      "slug": "official-ars-usd-exchange-rate",
+      "title": "Official ARS/USD exchange rate",
+      "href": "/indicators/official-ars-usd-exchange-rate",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 3,
+    "derivedAsInput": 1,
+    "derivedAsOutput": 0
+  }
+}
