@@ -97,19 +97,19 @@
       "distance": 2
     },
     {
+      "id": "ef.resident_fx_hedging",
+      "kind": "topic",
+      "slug": "resident-fx-hedging-and-dollarization-pressure",
+      "title": "Resident FX hedging and dollarization pressure",
+      "href": "/topics/resident-fx-hedging-and-dollarization-pressure",
+      "distance": 2
+    },
+    {
       "id": "ci.ns.infl_exp_eop",
       "kind": "indicator",
       "slug": "expected-end-of-year-inflation",
       "title": "Expected end-of-year inflation",
       "href": "/indicators/expected-end-of-year-inflation",
-      "distance": 2
-    },
-    {
-      "id": "ci.ns.fx_forward_1m",
-      "kind": "indicator",
-      "slug": "one-month-fx-forward-implied-rate",
-      "title": "One-month FX forward/implied rate",
-      "href": "/indicators/one-month-fx-forward-implied-rate",
       "distance": 2
     }
   ],

@@ -1,0 +1,161 @@
+{
+  "id": "ef.domestic_savings_mobilization",
+  "kind": "topic",
+  "slug": "domestic-savings-mobilization",
+  "title": "Domestic savings mobilization",
+  "href": "/topics/domestic-savings-mobilization",
+  "dek": "The process of bringing resident savings into domestic financial intermediation and productive investment.",
+  "intro": "Argentina's external financing constraint coexists with a large stock of resident assets held outside the domestic financial system. Mobilizing even part of those savings could deepen credit and capital markets, but doing so sustainably depends on confidence, legal certainty, macro stability, and credible financial institutions.",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.savings_enables_depth",
+      "relation_type": "enables",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.financial_depth",
+        "kind": "topic",
+        "slug": "financial-depth",
+        "title": "Financial depth",
+        "href": "/topics/financial-depth"
+      }
+    },
+    {
+      "relation_id": "rel.ef.savings_enables_market",
+      "relation_type": "enables",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.domestic_capital_market_depth",
+        "kind": "topic",
+        "slug": "domestic-capital-market-depth",
+        "title": "Domestic capital-market depth",
+        "href": "/topics/domestic-capital-market-depth"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.assets_outside_system_gdp",
+      "kind": "indicator",
+      "slug": "resident-financial-assets-outside-the-domestic-financial-system",
+      "title": "Resident financial assets outside the domestic financial system",
+      "href": "/indicators/resident-financial-assets-outside-the-domestic-financial-system"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef38",
+      "kind": "chart",
+      "slug": "assets-outside-the-financial-system-versus-private-credit",
+      "title": "Assets outside the financial system versus private credit",
+      "href": "/charts/assets-outside-the-financial-system-versus-private-credit"
+    },
+    {
+      "id": "pi.ef39",
+      "kind": "chart",
+      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
+      "title": "Domestic capital-market depth versus external market issuance",
+      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint",
+      "distance": 1
+    },
+    {
+      "id": "ef.domestic_capital_market_depth",
+      "kind": "topic",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/topics/domestic-capital-market-depth",
+      "distance": 1
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.assets_outside_system_gdp",
+      "kind": "indicator",
+      "slug": "resident-financial-assets-outside-the-domestic-financial-system",
+      "title": "Resident financial assets outside the domestic financial system",
+      "href": "/indicators/resident-financial-assets-outside-the-domestic-financial-system",
+      "distance": 1
+    },
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": "/questions/how-shallow-is-argentina-s-financial-system",
+      "distance": 2
+    },
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening",
+      "distance": 2
+    },
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean",
+      "distance": 2
+    },
+    {
+      "id": "ef.fx_deposits",
+      "kind": "topic",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/topics/foreign-currency-deposits",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 2,
+    "questions": 1,
+    "indicators": 1,
+    "charts": 2
+  }
+}

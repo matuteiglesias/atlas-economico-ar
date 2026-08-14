@@ -158,6 +158,18 @@
         "title": "Inflation",
         "href": "/topics/inflation"
       }
+    },
+    {
+      "relation_id": "rel.ef.fx_level_external_port",
+      "relation_type": "associated_with",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.external_position",
+        "kind": "topic",
+        "slug": "external-position",
+        "title": "External position",
+        "href": "/topics/external-position"
+      }
     }
   ],
   "questions": [
@@ -385,16 +397,16 @@
       "distance": 1
     },
     {
-      "id": "ns.fx_gap",
+      "id": "ef.external_position",
       "kind": "topic",
-      "slug": "fx-gap",
-      "title": "FX gap",
-      "href": "/topics/fx-gap",
+      "slug": "external-position",
+      "title": "External position",
+      "href": "/topics/external-position",
       "distance": 1
     }
   ],
   "counts": {
-    "connections": 11,
+    "connections": 12,
     "questions": 5,
     "indicators": 2,
     "charts": 16

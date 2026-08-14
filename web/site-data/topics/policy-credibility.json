@@ -86,6 +86,30 @@
         "title": "FX hedging demand",
         "href": "/topics/fx-hedging-demand"
       }
+    },
+    {
+      "relation_id": "rel.ef.credibility_spreads_port",
+      "relation_type": "associated_with",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.sovereign_spreads",
+        "kind": "topic",
+        "slug": "sovereign-spreads",
+        "title": "Sovereign spreads",
+        "href": "/topics/sovereign-spreads"
+      }
+    },
+    {
+      "relation_id": "rel.ef.credibility_access_port",
+      "relation_type": "associated_with",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.market_access",
+        "kind": "topic",
+        "slug": "international-market-access",
+        "title": "International market access",
+        "href": "/topics/international-market-access"
+      }
     }
   ],
   "questions": [
@@ -213,24 +237,24 @@
       "distance": 1
     },
     {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access",
+      "distance": 1
+    },
+    {
       "id": "ns.money_market_rate",
       "kind": "topic",
       "slug": "money-market-rate",
       "title": "Money-market rate",
       "href": "/topics/money-market-rate",
       "distance": 1
-    },
-    {
-      "id": "q.ns06",
-      "kind": "question",
-      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "distance": 2
     }
   ],
   "counts": {
-    "connections": 5,
+    "connections": 7,
     "questions": 2,
     "indicators": 0,
     "charts": 8

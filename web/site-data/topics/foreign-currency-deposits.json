@@ -1,0 +1,163 @@
+{
+  "id": "ef.fx_deposits",
+  "kind": "topic",
+  "slug": "foreign-currency-deposits",
+  "title": "Foreign-currency deposits",
+  "href": "/topics/foreign-currency-deposits",
+  "dek": "Deposits denominated in foreign currency within the domestic financial system.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.fx_deposits_component_depth",
+      "relation_type": "component_of",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.financial_depth",
+        "kind": "topic",
+        "slug": "financial-depth",
+        "title": "Financial depth",
+        "href": "/topics/financial-depth"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.fx_deposit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposit-share",
+      "title": "Foreign-currency deposit share",
+      "href": "/indicators/foreign-currency-deposit-share"
+    },
+    {
+      "id": "ci.ef.fx_deposits_usd",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/indicators/foreign-currency-deposits"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef33",
+      "kind": "chart",
+      "slug": "fx-deposits-in-the-domestic-financial-system",
+      "title": "FX deposits in the domestic financial system",
+      "href": "/charts/fx-deposits-in-the-domestic-financial-system"
+    },
+    {
+      "id": "pi.ef34",
+      "kind": "chart",
+      "slug": "fx-deposits-versus-bank-liquidity",
+      "title": "FX deposits versus bank liquidity",
+      "href": "/charts/fx-deposits-versus-bank-liquidity"
+    },
+    {
+      "id": "pi.ef35",
+      "kind": "chart",
+      "slug": "bank-capital-and-npls",
+      "title": "Bank capital and NPLs",
+      "href": "/charts/bank-capital-and-npls"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean",
+      "distance": 1
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.fx_deposit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposit-share",
+      "title": "Foreign-currency deposit share",
+      "href": "/indicators/foreign-currency-deposit-share",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.fx_deposits_usd",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/indicators/foreign-currency-deposits",
+      "distance": 1
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint",
+      "distance": 2
+    },
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": "/questions/how-shallow-is-argentina-s-financial-system",
+      "distance": 2
+    },
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening",
+      "distance": 2
+    },
+    {
+      "id": "ef.domestic_capital_market_depth",
+      "kind": "topic",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/topics/domestic-capital-market-depth",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 1,
+    "questions": 1,
+    "indicators": 2,
+    "charts": 3
+  }
+}

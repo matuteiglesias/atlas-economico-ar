@@ -1,0 +1,184 @@
+{
+  "id": "q.ef16",
+  "kind": "question",
+  "slug": "what-does-the-rise-in-dollar-deposits-mean",
+  "title": "What does the rise in dollar deposits mean?",
+  "href": "/questions/what-does-the-rise-in-dollar-deposits-mean",
+  "dek": "Distinguish deeper domestic intermediation from the risks created by foreign-currency balance sheets.",
+  "intro": "More FX deposits can bring resident savings into the domestic system and support financial depth. Their implications depend on how those funds are invested or lent, the currency exposure of borrowers, and the liquidity and capital position of banks.",
+  "questionFamily": "dollarization_finance",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ef.fx_deposits",
+      "kind": "topic",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/topics/foreign-currency-deposits"
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth"
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.bank_capital_ratio",
+      "kind": "indicator",
+      "slug": "bank-regulatory-capital-ratio",
+      "title": "Bank regulatory capital ratio",
+      "href": "/indicators/bank-regulatory-capital-ratio"
+    },
+    {
+      "id": "ci.ef.bank_liquidity_ratio",
+      "kind": "indicator",
+      "slug": "bank-liquid-assets-ratio",
+      "title": "Bank liquid-assets ratio",
+      "href": "/indicators/bank-liquid-assets-ratio"
+    },
+    {
+      "id": "ci.ef.fx_deposit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposit-share",
+      "title": "Foreign-currency deposit share",
+      "href": "/indicators/foreign-currency-deposit-share"
+    },
+    {
+      "id": "ci.ef.fx_deposits_usd",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/indicators/foreign-currency-deposits"
+    },
+    {
+      "id": "ci.ef.npl_ratio",
+      "kind": "indicator",
+      "slug": "non-performing-loans-ratio",
+      "title": "Non-performing loans ratio",
+      "href": "/indicators/non-performing-loans-ratio"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef33",
+      "kind": "chart",
+      "slug": "fx-deposits-in-the-domestic-financial-system",
+      "title": "FX deposits in the domestic financial system",
+      "href": "/charts/fx-deposits-in-the-domestic-financial-system"
+    },
+    {
+      "id": "pi.ef34",
+      "kind": "chart",
+      "slug": "fx-deposits-versus-bank-liquidity",
+      "title": "FX deposits versus bank liquidity",
+      "href": "/charts/fx-deposits-versus-bank-liquidity"
+    },
+    {
+      "id": "pi.ef35",
+      "kind": "chart",
+      "slug": "bank-capital-and-npls",
+      "title": "Bank capital and NPLs",
+      "href": "/charts/bank-capital-and-npls"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability",
+      "distance": 1
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth",
+      "distance": 1
+    },
+    {
+      "id": "ef.fx_deposits",
+      "kind": "topic",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/topics/foreign-currency-deposits",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef35",
+      "kind": "chart",
+      "slug": "bank-capital-and-npls",
+      "title": "Bank capital and NPLs",
+      "href": "/charts/bank-capital-and-npls",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef33",
+      "kind": "chart",
+      "slug": "fx-deposits-in-the-domestic-financial-system",
+      "title": "FX deposits in the domestic financial system",
+      "href": "/charts/fx-deposits-in-the-domestic-financial-system",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef34",
+      "kind": "chart",
+      "slug": "fx-deposits-versus-bank-liquidity",
+      "title": "FX deposits versus bank liquidity",
+      "href": "/charts/fx-deposits-versus-bank-liquidity",
+      "distance": 1
+    },
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
+      "distance": 2
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "topics": 3,
+    "indicators": 5,
+    "charts": 3
+  }
+}

@@ -62,6 +62,18 @@
         "title": "Nominal exchange rate",
         "href": "/topics/nominal-exchange-rate"
       }
+    },
+    {
+      "relation_id": "rel.ef.fx_hedging_port",
+      "relation_type": "associated_with",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.resident_fx_hedging",
+        "kind": "topic",
+        "slug": "resident-fx-hedging-and-dollarization-pressure",
+        "title": "Resident FX hedging and dollarization pressure",
+        "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
+      }
     }
   ],
   "questions": [
@@ -167,6 +179,14 @@
       "distance": 1
     },
     {
+      "id": "ef.resident_fx_hedging",
+      "kind": "topic",
+      "slug": "resident-fx-hedging-and-dollarization-pressure",
+      "title": "Resident FX hedging and dollarization pressure",
+      "href": "/topics/resident-fx-hedging-and-dollarization-pressure",
+      "distance": 1
+    },
+    {
       "id": "ci.ns.fx_forward_eoy",
       "kind": "indicator",
       "slug": "end-of-year-fx-forward-implied-rate",
@@ -183,24 +203,16 @@
       "distance": 1
     },
     {
-      "id": "q.ns13",
+      "id": "q.ef07",
       "kind": "question",
-      "slug": "has-short-term-interest-rate-volatility-normalized",
-      "title": "Has short-term interest-rate volatility normalized?",
-      "href": "/questions/has-short-term-interest-rate-volatility-normalized",
-      "distance": 2
-    },
-    {
-      "id": "q.ns11",
-      "kind": "question",
-      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
-      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
-      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "href": "/questions/has-fx-hedging-pressure-normalized",
       "distance": 2
     }
   ],
   "counts": {
-    "connections": 3,
+    "connections": 4,
     "questions": 1,
     "indicators": 2,
     "charts": 6

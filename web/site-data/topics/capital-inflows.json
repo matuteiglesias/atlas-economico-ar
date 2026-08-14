@@ -1,0 +1,215 @@
+{
+  "id": "ef.capital_inflows",
+  "kind": "topic",
+  "slug": "capital-inflows",
+  "title": "Capital inflows",
+  "href": "/topics/capital-inflows",
+  "dek": "External financing entering the economy through debt, equity, direct investment, official financing, or other financial flows.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.fdi_component_inflows",
+      "relation_type": "component_of",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.foreign_direct_investment",
+        "kind": "topic",
+        "slug": "foreign-direct-investment",
+        "title": "Foreign direct investment",
+        "href": "/topics/foreign-direct-investment"
+      }
+    },
+    {
+      "relation_id": "rel.ef.market_access_enables_inflows",
+      "relation_type": "enables",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.market_access",
+        "kind": "topic",
+        "slug": "international-market-access",
+        "title": "International market access",
+        "href": "/topics/international-market-access"
+      }
+    },
+    {
+      "relation_id": "rel.ef.inflows_component_financial",
+      "relation_type": "component_of",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.financial_account",
+        "kind": "topic",
+        "slug": "financial-account",
+        "title": "Financial account",
+        "href": "/topics/financial-account"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef06",
+      "kind": "question",
+      "slug": "are-capital-inflows-durable",
+      "title": "Are capital inflows durable?",
+      "href": "/questions/are-capital-inflows-durable"
+    },
+    {
+      "id": "q.ef12",
+      "kind": "question",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.capital_inflows_usd",
+      "kind": "indicator",
+      "slug": "gross-identified-capital-inflows",
+      "title": "Gross identified capital inflows",
+      "href": "/indicators/gross-identified-capital-inflows"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef12",
+      "kind": "chart",
+      "slug": "financial-account-components",
+      "title": "Financial-account components",
+      "href": "/charts/financial-account-components"
+    },
+    {
+      "id": "pi.ef13",
+      "kind": "chart",
+      "slug": "capital-inflows-versus-current-account-financing-need",
+      "title": "Capital inflows versus current-account financing need",
+      "href": "/charts/capital-inflows-versus-current-account-financing-need"
+    },
+    {
+      "id": "pi.ef14",
+      "kind": "chart",
+      "slug": "fdi-versus-broader-capital-inflows",
+      "title": "FDI versus broader capital inflows",
+      "href": "/charts/fdi-versus-broader-capital-inflows"
+    },
+    {
+      "id": "pi.ef18",
+      "kind": "chart",
+      "slug": "sovereign-and-corporate-spreads",
+      "title": "Sovereign and corporate spreads",
+      "href": "/charts/sovereign-and-corporate-spreads"
+    },
+    {
+      "id": "pi.ef19",
+      "kind": "chart",
+      "slug": "fx-issuance-volumes-by-issuer-type",
+      "title": "FX issuance volumes by issuer type",
+      "href": "/charts/fx-issuance-volumes-by-issuer-type"
+    },
+    {
+      "id": "pi.ef26",
+      "kind": "chart",
+      "slug": "market-issuance-cumulative-since-re-entry",
+      "title": "Market issuance cumulative since re-entry",
+      "href": "/charts/market-issuance-cumulative-since-re-entry"
+    },
+    {
+      "id": "pi.ef39",
+      "kind": "chart",
+      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
+      "title": "Domestic capital-market depth versus external market issuance",
+      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef06",
+      "kind": "question",
+      "slug": "are-capital-inflows-durable",
+      "title": "Are capital inflows durable?",
+      "href": "/questions/are-capital-inflows-durable",
+      "distance": 1
+    },
+    {
+      "id": "q.ef12",
+      "kind": "question",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
+      "distance": 1
+    },
+    {
+      "id": "ef.financial_account",
+      "kind": "topic",
+      "slug": "financial-account",
+      "title": "Financial account",
+      "href": "/topics/financial-account",
+      "distance": 1
+    },
+    {
+      "id": "ef.foreign_direct_investment",
+      "kind": "topic",
+      "slug": "foreign-direct-investment",
+      "title": "Foreign direct investment",
+      "href": "/topics/foreign-direct-investment",
+      "distance": 1
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.capital_inflows_usd",
+      "kind": "indicator",
+      "slug": "gross-identified-capital-inflows",
+      "title": "Gross identified capital inflows",
+      "href": "/indicators/gross-identified-capital-inflows",
+      "distance": 1
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint",
+      "distance": 2
+    },
+    {
+      "id": "q.ef07",
+      "kind": "question",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "href": "/questions/has-fx-hedging-pressure-normalized",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 3,
+    "questions": 2,
+    "indicators": 1,
+    "charts": 7
+  }
+}

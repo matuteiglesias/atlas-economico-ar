@@ -1,0 +1,170 @@
+{
+  "id": "ef.services_balance",
+  "kind": "topic",
+  "slug": "services-balance",
+  "title": "Services balance",
+  "href": "/topics/services-balance",
+  "dek": "Net exports of services, including travel and other service categories.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.services_component_ca",
+      "relation_type": "component_of",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.current_account",
+        "kind": "topic",
+        "slug": "current-account",
+        "title": "Current account",
+        "href": "/topics/current-account"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef04",
+      "kind": "question",
+      "slug": "is-the-current-account-improving",
+      "title": "Is the current account improving?",
+      "href": "/questions/is-the-current-account-improving"
+    },
+    {
+      "id": "q.ef05",
+      "kind": "question",
+      "slug": "what-offsets-argentina-s-goods-surplus",
+      "title": "What offsets Argentina's goods surplus?",
+      "href": "/questions/what-offsets-argentina-s-goods-surplus"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.services_balance_usd",
+      "kind": "indicator",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/indicators/services-balance"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef08",
+      "kind": "chart",
+      "slug": "current-account-balance-through-time",
+      "title": "Current-account balance through time",
+      "href": "/charts/current-account-balance-through-time"
+    },
+    {
+      "id": "pi.ef09",
+      "kind": "chart",
+      "slug": "current-account-component-decomposition",
+      "title": "Current-account component decomposition",
+      "href": "/charts/current-account-component-decomposition"
+    },
+    {
+      "id": "pi.ef10",
+      "kind": "chart",
+      "slug": "goods-surplus-versus-services-deficit",
+      "title": "Goods surplus versus services deficit",
+      "href": "/charts/goods-surplus-versus-services-deficit"
+    },
+    {
+      "id": "pi.ef11",
+      "kind": "chart",
+      "slug": "primary-income-drag-on-the-current-account",
+      "title": "Primary-income drag on the current account",
+      "href": "/charts/primary-income-drag-on-the-current-account"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef04",
+      "kind": "question",
+      "slug": "is-the-current-account-improving",
+      "title": "Is the current account improving?",
+      "href": "/questions/is-the-current-account-improving",
+      "distance": 1
+    },
+    {
+      "id": "q.ef05",
+      "kind": "question",
+      "slug": "what-offsets-argentina-s-goods-surplus",
+      "title": "What offsets Argentina's goods surplus?",
+      "href": "/questions/what-offsets-argentina-s-goods-surplus",
+      "distance": 1
+    },
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.services_balance_usd",
+      "kind": "indicator",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/indicators/services-balance",
+      "distance": 1
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "distance": 2
+    },
+    {
+      "id": "ef.external_position",
+      "kind": "topic",
+      "slug": "external-position",
+      "title": "External position",
+      "href": "/topics/external-position",
+      "distance": 2
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability",
+      "distance": 2
+    },
+    {
+      "id": "ef.goods_trade_balance",
+      "kind": "topic",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/topics/goods-trade-balance",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 1,
+    "questions": 2,
+    "indicators": 1,
+    "charts": 4
+  }
+}

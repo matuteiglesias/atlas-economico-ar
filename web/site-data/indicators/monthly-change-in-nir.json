@@ -1,0 +1,135 @@
+{
+  "id": "ci.ef.nir_change_monthly",
+  "kind": "indicator",
+  "slug": "monthly-change-in-nir",
+  "title": "Monthly change in NIR",
+  "href": "/indicators/monthly-change-in-nir",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topic": {
+    "id": "ef.reserve_accumulation",
+    "kind": "topic",
+    "slug": "reserve-accumulation",
+    "title": "Reserve accumulation",
+    "href": "/topics/reserve-accumulation"
+  },
+  "unitSemantics": "usd_billions_change",
+  "frequency": "monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ef05",
+      "kind": "chart",
+      "slug": "monthly-reserve-change-gross-versus-nir",
+      "title": "Monthly reserve change: gross versus NIR",
+      "href": "/charts/monthly-reserve-change-gross-versus-nir"
+    },
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge"
+    },
+    {
+      "id": "pi.ef16",
+      "kind": "chart",
+      "slug": "private-financial-flows-versus-reserve-accumulation",
+      "title": "Private financial flows versus reserve accumulation",
+      "href": "/charts/private-financial-flows-versus-reserve-accumulation"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef05",
+      "kind": "chart",
+      "slug": "monthly-reserve-change-gross-versus-nir",
+      "title": "Monthly reserve change: gross versus NIR",
+      "href": "/charts/monthly-reserve-change-gross-versus-nir",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef16",
+      "kind": "chart",
+      "slug": "private-financial-flows-versus-reserve-accumulation",
+      "title": "Private financial flows versus reserve accumulation",
+      "href": "/charts/private-financial-flows-versus-reserve-accumulation",
+      "distance": 1
+    },
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
+      "distance": 2
+    },
+    {
+      "id": "q.ef02",
+      "kind": "question",
+      "slug": "are-reserves-rebuilding-fast-enough",
+      "title": "Are reserves rebuilding fast enough?",
+      "href": "/questions/are-reserves-rebuilding-fast-enough",
+      "distance": 2
+    },
+    {
+      "id": "q.ef07",
+      "kind": "question",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "href": "/questions/has-fx-hedging-pressure-normalized",
+      "distance": 2
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 3,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 0
+  }
+}

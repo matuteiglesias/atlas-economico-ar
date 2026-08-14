@@ -1,0 +1,151 @@
+{
+  "id": "ci.ef.public_fx_debt_service_12m",
+  "kind": "indicator",
+  "slug": "public-sector-fx-debt-service-next-12-months",
+  "title": "Public-sector FX debt service next 12 months",
+  "href": "/indicators/public-sector-fx-debt-service-next-12-months",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topic": {
+    "id": "ef.fx_debt_service",
+    "kind": "topic",
+    "slug": "foreign-currency-debt-service",
+    "title": "Foreign-currency debt service",
+    "href": "/topics/foreign-currency-debt-service"
+  },
+  "unitSemantics": "usd_billions",
+  "frequency": "monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ef04",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
+      "title": "Reserve accumulation versus next-12m FX debt service",
+      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service"
+    },
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge"
+    },
+    {
+      "id": "pi.ef22",
+      "kind": "chart",
+      "slug": "fx-debt-service-maturity-wall",
+      "title": "FX debt-service maturity wall",
+      "href": "/charts/fx-debt-service-maturity-wall"
+    },
+    {
+      "id": "pi.ef23",
+      "kind": "chart",
+      "slug": "debt-service-versus-reserves",
+      "title": "Debt service versus reserves",
+      "href": "/charts/debt-service-versus-reserves"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    }
+  ],
+  "derivedAsInput": [
+    "di.ef.reserve_fx_service"
+  ],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef23",
+      "kind": "chart",
+      "slug": "debt-service-versus-reserves",
+      "title": "Debt service versus reserves",
+      "href": "/charts/debt-service-versus-reserves",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef22",
+      "kind": "chart",
+      "slug": "fx-debt-service-maturity-wall",
+      "title": "FX debt-service maturity wall",
+      "href": "/charts/fx-debt-service-maturity-wall",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef04",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
+      "title": "Reserve accumulation versus next-12m FX debt service",
+      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service",
+      "distance": 1
+    },
+    {
+      "id": "q.ef02",
+      "kind": "question",
+      "slug": "are-reserves-rebuilding-fast-enough",
+      "title": "Are reserves rebuilding fast enough?",
+      "href": "/questions/are-reserves-rebuilding-fast-enough",
+      "distance": 2
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 5,
+    "derivedAsInput": 1,
+    "derivedAsOutput": 0
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "q.ef18",
+  "kind": "question",
+  "slug": "could-resident-savings-relax-the-external-constraint",
+  "title": "Could resident savings relax the external constraint?",
+  "href": "/questions/could-resident-savings-relax-the-external-constraint",
+  "dek": "Put assets held outside the domestic system beside the small scale of local credit and capital markets.",
+  "intro": "Argentina's scarcity of domestic financing sits beside substantial resident wealth, much of it held in foreign currency or outside local intermediation. The interesting question is not whether those assets exist, but what institutional and macro conditions would allow them to finance productive activity.",
+  "questionFamily": "structural_mechanism",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ef.domestic_savings_mobilization",
+      "kind": "topic",
+      "slug": "domestic-savings-mobilization",
+      "title": "Domestic savings mobilization",
+      "href": "/topics/domestic-savings-mobilization"
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth"
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.assets_outside_system_gdp",
+      "kind": "indicator",
+      "slug": "resident-financial-assets-outside-the-domestic-financial-system",
+      "title": "Resident financial assets outside the domestic financial system",
+      "href": "/indicators/resident-financial-assets-outside-the-domestic-financial-system"
+    },
+    {
+      "id": "ci.ef.corporate_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "corporate-fx-issuance",
+      "title": "Corporate FX issuance",
+      "href": "/indicators/corporate-fx-issuance"
+    },
+    {
+      "id": "ci.ef.domestic_market_depth_gdp",
+      "kind": "indicator",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/indicators/domestic-capital-market-depth"
+    },
+    {
+      "id": "ci.ef.private_credit_gdp",
+      "kind": "indicator",
+      "slug": "private-sector-credit-as-share-of-gdp",
+      "title": "Private-sector credit as share of GDP",
+      "href": "/indicators/private-sector-credit-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.public_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "public-and-provincial-fx-issuance",
+      "title": "Public and provincial FX issuance",
+      "href": "/indicators/public-and-provincial-fx-issuance"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef38",
+      "kind": "chart",
+      "slug": "assets-outside-the-financial-system-versus-private-credit",
+      "title": "Assets outside the financial system versus private credit",
+      "href": "/charts/assets-outside-the-financial-system-versus-private-credit"
+    },
+    {
+      "id": "pi.ef39",
+      "kind": "chart",
+      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
+      "title": "Domestic capital-market depth versus external market issuance",
+      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ef.domestic_savings_mobilization",
+      "kind": "topic",
+      "slug": "domestic-savings-mobilization",
+      "title": "Domestic savings mobilization",
+      "href": "/topics/domestic-savings-mobilization",
+      "distance": 1
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth",
+      "distance": 1
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef38",
+      "kind": "chart",
+      "slug": "assets-outside-the-financial-system-versus-private-credit",
+      "title": "Assets outside the financial system versus private credit",
+      "href": "/charts/assets-outside-the-financial-system-versus-private-credit",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef39",
+      "kind": "chart",
+      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
+      "title": "Domestic capital-market depth versus external market issuance",
+      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance",
+      "distance": 1
+    },
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": "/questions/how-shallow-is-argentina-s-financial-system",
+      "distance": 2
+    },
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access",
+      "distance": 2
+    },
+    {
+      "id": "q.ef12",
+      "kind": "question",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "topics": 3,
+    "indicators": 5,
+    "charts": 2
+  }
+}

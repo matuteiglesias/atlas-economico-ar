@@ -110,9 +110,28 @@
         "title": "Exchange-rate band",
         "href": "/topics/exchange-rate-band"
       }
+    },
+    {
+      "relation_id": "rel.ef.bcra_ops_build_reserves",
+      "relation_type": "contributes_to",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.reserve_accumulation",
+        "kind": "topic",
+        "slug": "reserve-accumulation",
+        "title": "Reserve accumulation",
+        "href": "/topics/reserve-accumulation"
+      }
     }
   ],
   "questions": [
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position"
+    },
     {
       "id": "q.ns11",
       "kind": "question",
@@ -131,6 +150,27 @@
     }
   ],
   "charts": [
+    {
+      "id": "pi.ef06",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-nir-accumulation",
+      "title": "BCRA FX purchases versus NIR accumulation",
+      "href": "/charts/bcra-fx-purchases-versus-nir-accumulation"
+    },
+    {
+      "id": "pi.ef42",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-reserve-accumulation",
+      "title": "BCRA FX purchases and reserve accumulation",
+      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation"
+    },
+    {
+      "id": "pi.ef43",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-sovereign-spreads",
+      "title": "BCRA FX purchases versus sovereign spreads",
+      "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads"
+    },
     {
       "id": "pi.ns23",
       "kind": "chart",
@@ -168,6 +208,14 @@
     }
   ],
   "nearby": [
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
+      "distance": 1
+    },
     {
       "id": "q.ns11",
       "kind": "question",
@@ -223,20 +271,12 @@
       "title": "Remonetization",
       "href": "/topics/remonetization",
       "distance": 1
-    },
-    {
-      "id": "ci.ns.bcra_fx_purchases_daily",
-      "kind": "indicator",
-      "slug": "bcra-net-fx-purchases",
-      "title": "BCRA net FX purchases",
-      "href": "/indicators/bcra-net-fx-purchases",
-      "distance": 1
     }
   ],
   "counts": {
-    "connections": 7,
-    "questions": 1,
+    "connections": 8,
+    "questions": 2,
     "indicators": 1,
-    "charts": 5
+    "charts": 8
   }
 }

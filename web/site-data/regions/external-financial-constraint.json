@@ -4,9 +4,9 @@
   "slug": "external-financial-constraint",
   "title": "External & Financial Constraint",
   "href": "/areas/external-financial-constraint",
-  "dek": "Explain external buffers, reserve adequacy, financing, market access, sovereign risk, balance-of-payments pressure, and financial-sector depth/vulnerability.",
-  "intro": null,
-  "populated": false,
+  "dek": "How reserves, external flows, debt obligations, market access, and the depth of domestic finance shape Argentina's capacity to absorb shocks and finance growth.",
+  "intro": "Argentina's external constraint is not one number. Gross reserves can rise while usable buffers remain thin; a trade surplus can coexist with service and interest outflows; market access can improve while refinancing needs remain large. This area organizes those pieces into a common reading structure, separating stocks from flows and distinguishing temporary financing support from durable improvements in external resilience.",
+  "populated": true,
   "breadcrumbs": [
     {
       "title": "Atlas",
@@ -14,18 +14,1431 @@
     }
   ],
   "stats": {
-    "topics": 0,
-    "questions": 0,
-    "indicators": 0,
-    "charts": 0,
-    "relations": 0
+    "topics": 30,
+    "questions": 20,
+    "indicators": 40,
+    "charts": 44,
+    "relations": 37
   },
-  "topics": [],
-  "questions": [],
-  "indicators": [],
-  "charts": [],
+  "topics": [
+    {
+      "id": "ef.capital_inflows",
+      "kind": "topic",
+      "slug": "capital-inflows",
+      "title": "Capital inflows",
+      "href": "/topics/capital-inflows"
+    },
+    {
+      "id": "ef.credit_quality",
+      "kind": "topic",
+      "slug": "credit-quality",
+      "title": "Credit quality",
+      "href": "/topics/credit-quality"
+    },
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account"
+    },
+    {
+      "id": "ef.domestic_capital_market_depth",
+      "kind": "topic",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/topics/domestic-capital-market-depth"
+    },
+    {
+      "id": "ef.domestic_savings_mobilization",
+      "kind": "topic",
+      "slug": "domestic-savings-mobilization",
+      "title": "Domestic savings mobilization",
+      "href": "/topics/domestic-savings-mobilization"
+    },
+    {
+      "id": "ef.external_position",
+      "kind": "topic",
+      "slug": "external-position",
+      "title": "External position",
+      "href": "/topics/external-position"
+    },
+    {
+      "id": "ef.external_public_debt",
+      "kind": "topic",
+      "slug": "external-public-debt",
+      "title": "External public debt",
+      "href": "/topics/external-public-debt"
+    },
+    {
+      "id": "ef.refinancing_needs",
+      "kind": "topic",
+      "slug": "external-refinancing-needs",
+      "title": "External refinancing needs",
+      "href": "/topics/external-refinancing-needs"
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability"
+    },
+    {
+      "id": "ef.financial_account",
+      "kind": "topic",
+      "slug": "financial-account",
+      "title": "Financial account",
+      "href": "/topics/financial-account"
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth"
+    },
+    {
+      "id": "ef.foreign_direct_investment",
+      "kind": "topic",
+      "slug": "foreign-direct-investment",
+      "title": "Foreign direct investment",
+      "href": "/topics/foreign-direct-investment"
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service"
+    },
+    {
+      "id": "ef.fx_deposits",
+      "kind": "topic",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/topics/foreign-currency-deposits"
+    },
+    {
+      "id": "ef.fx_market_issuance",
+      "kind": "topic",
+      "slug": "fx-market-issuance",
+      "title": "FX market issuance",
+      "href": "/topics/fx-market-issuance"
+    },
+    {
+      "id": "ef.goods_trade_balance",
+      "kind": "topic",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/topics/goods-trade-balance"
+    },
+    {
+      "id": "ef.gross_reserves",
+      "kind": "topic",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/topics/gross-international-reserves"
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access"
+    },
+    {
+      "id": "ef.liquid_reserve_buffers",
+      "kind": "topic",
+      "slug": "liquid-reserve-buffers",
+      "title": "Liquid reserve buffers",
+      "href": "/topics/liquid-reserve-buffers"
+    },
+    {
+      "id": "ef.net_international_reserves",
+      "kind": "topic",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/topics/net-international-reserves"
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing"
+    },
+    {
+      "id": "ef.primary_income_balance",
+      "kind": "topic",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/topics/primary-income-balance"
+    },
+    {
+      "id": "ef.private_credit",
+      "kind": "topic",
+      "slug": "private-sector-credit",
+      "title": "Private-sector credit",
+      "href": "/topics/private-sector-credit"
+    },
+    {
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation"
+    },
+    {
+      "id": "ef.reserve_adequacy",
+      "kind": "topic",
+      "slug": "reserve-adequacy",
+      "title": "Reserve adequacy",
+      "href": "/topics/reserve-adequacy"
+    },
+    {
+      "id": "ef.resident_fx_hedging",
+      "kind": "topic",
+      "slug": "resident-fx-hedging-and-dollarization-pressure",
+      "title": "Resident FX hedging and dollarization pressure",
+      "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
+    },
+    {
+      "id": "ef.services_balance",
+      "kind": "topic",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/topics/services-balance"
+    },
+    {
+      "id": "ef.sovereign_risk",
+      "kind": "topic",
+      "slug": "sovereign-risk",
+      "title": "Sovereign risk",
+      "href": "/topics/sovereign-risk"
+    },
+    {
+      "id": "ef.sovereign_spreads",
+      "kind": "topic",
+      "slug": "sovereign-spreads",
+      "title": "Sovereign spreads",
+      "href": "/topics/sovereign-spreads"
+    },
+    {
+      "id": "ef.swap_repo_financing",
+      "kind": "topic",
+      "slug": "swap-and-repo-financing",
+      "title": "Swap and repo financing",
+      "href": "/topics/swap-and-repo-financing"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position"
+    },
+    {
+      "id": "q.ef06",
+      "kind": "question",
+      "slug": "are-capital-inflows-durable",
+      "title": "Are capital inflows durable?",
+      "href": "/questions/are-capital-inflows-durable"
+    },
+    {
+      "id": "q.ef02",
+      "kind": "question",
+      "slug": "are-reserves-rebuilding-fast-enough",
+      "title": "Are reserves rebuilding fast enough?",
+      "href": "/questions/are-reserves-rebuilding-fast-enough"
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint"
+    },
+    {
+      "id": "q.ef07",
+      "kind": "question",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "href": "/questions/has-fx-hedging-pressure-normalized"
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance"
+    },
+    {
+      "id": "q.ef10",
+      "kind": "question",
+      "slug": "how-large-is-the-near-term-fx-maturity-wall",
+      "title": "How large is the near-term FX maturity wall?",
+      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall"
+    },
+    {
+      "id": "q.ef11",
+      "kind": "question",
+      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "title": "How much does the strategy rely on swaps and repos?",
+      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos"
+    },
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": "/questions/how-shallow-is-argentina-s-financial-system"
+    },
+    {
+      "id": "q.ef01",
+      "kind": "question",
+      "slug": "how-strong-is-argentina-s-reserve-position",
+      "title": "How strong is Argentina's reserve position?",
+      "href": "/questions/how-strong-is-argentina-s-reserve-position"
+    },
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access"
+    },
+    {
+      "id": "q.ef15",
+      "kind": "question",
+      "slug": "is-credit-quality-deteriorating-as-lending-expands",
+      "title": "Is credit quality deteriorating as lending expands?",
+      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands"
+    },
+    {
+      "id": "q.ef12",
+      "kind": "question",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign"
+    },
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening"
+    },
+    {
+      "id": "q.ef04",
+      "kind": "question",
+      "slug": "is-the-current-account-improving",
+      "title": "Is the current account improving?",
+      "href": "/questions/is-the-current-account-improving"
+    },
+    {
+      "id": "q.ef13",
+      "kind": "question",
+      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
+      "title": "Is the external debt burden becoming easier to service?",
+      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service"
+    },
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean"
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves"
+    },
+    {
+      "id": "q.ef05",
+      "kind": "question",
+      "slug": "what-offsets-argentina-s-goods-surplus",
+      "title": "What offsets Argentina's goods surplus?",
+      "href": "/questions/what-offsets-argentina-s-goods-surplus"
+    },
+    {
+      "id": "q.ef09",
+      "kind": "question",
+      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "title": "Why can reserves rise while sovereign risk stays high?",
+      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.bank_liquidity_ratio",
+      "kind": "indicator",
+      "slug": "bank-liquid-assets-ratio",
+      "title": "Bank liquid-assets ratio",
+      "href": "/indicators/bank-liquid-assets-ratio"
+    },
+    {
+      "id": "ci.ef.bank_capital_ratio",
+      "kind": "indicator",
+      "slug": "bank-regulatory-capital-ratio",
+      "title": "Bank regulatory capital ratio",
+      "href": "/indicators/bank-regulatory-capital-ratio"
+    },
+    {
+      "id": "ci.ef.swap_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-external-swap-liabilities",
+      "title": "Central-bank external swap liabilities",
+      "href": "/indicators/central-bank-external-swap-liabilities"
+    },
+    {
+      "id": "ci.ef.repo_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-repo-liabilities",
+      "title": "Central-bank repo liabilities",
+      "href": "/indicators/central-bank-repo-liabilities"
+    },
+    {
+      "id": "ci.ef.corporate_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "corporate-fx-issuance",
+      "title": "Corporate FX issuance",
+      "href": "/indicators/corporate-fx-issuance"
+    },
+    {
+      "id": "ci.ef.corporate_spread_bps",
+      "kind": "indicator",
+      "slug": "corporate-spread",
+      "title": "Corporate spread",
+      "href": "/indicators/corporate-spread"
+    },
+    {
+      "id": "ci.ef.reserve_accumulation_ytd",
+      "kind": "indicator",
+      "slug": "cumulative-reserve-accumulation-ytd",
+      "title": "Cumulative reserve accumulation YTD",
+      "href": "/indicators/cumulative-reserve-accumulation-ytd"
+    },
+    {
+      "id": "ci.ef.current_account_usd",
+      "kind": "indicator",
+      "slug": "current-account-balance",
+      "title": "Current account balance",
+      "href": "/indicators/current-account-balance"
+    },
+    {
+      "id": "ci.ef.current_account_gdp",
+      "kind": "indicator",
+      "slug": "current-account-balance-as-share-of-gdp",
+      "title": "Current account balance as share of GDP",
+      "href": "/indicators/current-account-balance-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.domestic_market_depth_gdp",
+      "kind": "indicator",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/indicators/domestic-capital-market-depth"
+    },
+    {
+      "id": "ci.ef.external_debt_gdp",
+      "kind": "indicator",
+      "slug": "external-debt-as-share-of-gdp",
+      "title": "External debt as share of GDP",
+      "href": "/indicators/external-debt-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.financial_account_usd",
+      "kind": "indicator",
+      "slug": "financial-account-balance",
+      "title": "Financial account balance",
+      "href": "/indicators/financial-account-balance"
+    },
+    {
+      "id": "ci.ef.fx_deposit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposit-share",
+      "title": "Foreign-currency deposit share",
+      "href": "/indicators/foreign-currency-deposit-share"
+    },
+    {
+      "id": "ci.ef.fx_deposits_usd",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/indicators/foreign-currency-deposits"
+    },
+    {
+      "id": "ci.ef.goods_balance_usd",
+      "kind": "indicator",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/indicators/goods-trade-balance"
+    },
+    {
+      "id": "ci.ef.capital_inflows_usd",
+      "kind": "indicator",
+      "slug": "gross-identified-capital-inflows",
+      "title": "Gross identified capital inflows",
+      "href": "/indicators/gross-identified-capital-inflows"
+    },
+    {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves"
+    },
+    {
+      "id": "ci.ef.imf_obligations_12m",
+      "kind": "indicator",
+      "slug": "imf-obligations-next-12-months",
+      "title": "IMF obligations next 12 months",
+      "href": "/indicators/imf-obligations-next-12-months"
+    },
+    {
+      "id": "ci.ef.liquid_reserve_buffer_usd",
+      "kind": "indicator",
+      "slug": "liquid-reserve-buffer",
+      "title": "Liquid reserve buffer",
+      "href": "/indicators/liquid-reserve-buffer"
+    },
+    {
+      "id": "ci.ef.market_fx_redemptions_12m",
+      "kind": "indicator",
+      "slug": "market-fx-redemptions-next-12-months",
+      "title": "Market FX redemptions next 12 months",
+      "href": "/indicators/market-fx-redemptions-next-12-months"
+    },
+    {
+      "id": "ci.ef.reserve_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/indicators/monthly-change-in-gross-reserves"
+    },
+    {
+      "id": "ci.ef.nir_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-nir",
+      "title": "Monthly change in NIR",
+      "href": "/indicators/monthly-change-in-nir"
+    },
+    {
+      "id": "ci.ef.fdi_net_usd",
+      "kind": "indicator",
+      "slug": "net-foreign-direct-investment-flows",
+      "title": "Net foreign direct investment flows",
+      "href": "/indicators/net-foreign-direct-investment-flows"
+    },
+    {
+      "id": "ci.ef.nir_usd",
+      "kind": "indicator",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/indicators/net-international-reserves"
+    },
+    {
+      "id": "ci.ef.private_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-private-financial-flows",
+      "title": "Net private financial flows",
+      "href": "/indicators/net-private-financial-flows"
+    },
+    {
+      "id": "ci.ef.public_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-public-sector-financial-flows",
+      "title": "Net public-sector financial flows",
+      "href": "/indicators/net-public-sector-financial-flows"
+    },
+    {
+      "id": "ci.ef.nir_to_gross_ratio",
+      "kind": "indicator",
+      "slug": "nir-to-gross-reserves-ratio",
+      "title": "NIR-to-gross-reserves ratio",
+      "href": "/indicators/nir-to-gross-reserves-ratio"
+    },
+    {
+      "id": "ci.ef.npl_ratio",
+      "kind": "indicator",
+      "slug": "non-performing-loans-ratio",
+      "title": "Non-performing loans ratio",
+      "href": "/indicators/non-performing-loans-ratio"
+    },
+    {
+      "id": "ci.ef.official_external_financing_usd",
+      "kind": "indicator",
+      "slug": "official-external-financing-flows",
+      "title": "Official external financing flows",
+      "href": "/indicators/official-external-financing-flows"
+    },
+    {
+      "id": "ci.ef.primary_income_balance_usd",
+      "kind": "indicator",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/indicators/primary-income-balance"
+    },
+    {
+      "id": "ci.ef.private_credit_gdp",
+      "kind": "indicator",
+      "slug": "private-sector-credit-as-share-of-gdp",
+      "title": "Private-sector credit as share of GDP",
+      "href": "/indicators/private-sector-credit-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.public_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "public-and-provincial-fx-issuance",
+      "title": "Public and provincial FX issuance",
+      "href": "/indicators/public-and-provincial-fx-issuance"
+    },
+    {
+      "id": "ci.ef.public_fx_debt_service_12m",
+      "kind": "indicator",
+      "slug": "public-sector-fx-debt-service-next-12-months",
+      "title": "Public-sector FX debt service next 12 months",
+      "href": "/indicators/public-sector-fx-debt-service-next-12-months"
+    },
+    {
+      "id": "ci.ef.real_private_credit_growth",
+      "kind": "indicator",
+      "slug": "real-private-sector-credit-growth",
+      "title": "Real private-sector credit growth",
+      "href": "/indicators/real-private-sector-credit-growth"
+    },
+    {
+      "id": "ci.ef.import_cover_months",
+      "kind": "indicator",
+      "slug": "reserve-import-coverage",
+      "title": "Reserve import coverage",
+      "href": "/indicators/reserve-import-coverage"
+    },
+    {
+      "id": "ci.ef.reserve_to_fx_service_ratio",
+      "kind": "indicator",
+      "slug": "reserves-relative-to-next-12m-fx-debt-service",
+      "title": "Reserves relative to next-12m FX debt service",
+      "href": "/indicators/reserves-relative-to-next-12m-fx-debt-service"
+    },
+    {
+      "id": "ci.ef.assets_outside_system_gdp",
+      "kind": "indicator",
+      "slug": "resident-financial-assets-outside-the-domestic-financial-system",
+      "title": "Resident financial assets outside the domestic financial system",
+      "href": "/indicators/resident-financial-assets-outside-the-domestic-financial-system"
+    },
+    {
+      "id": "ci.ef.services_balance_usd",
+      "kind": "indicator",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/indicators/services-balance"
+    },
+    {
+      "id": "ci.ef.sovereign_spread_bps",
+      "kind": "indicator",
+      "slug": "sovereign-spread",
+      "title": "Sovereign spread",
+      "href": "/indicators/sovereign-spread"
+    },
+    {
+      "id": "ci.ef.external_debt_usd",
+      "kind": "indicator",
+      "slug": "total-external-debt",
+      "title": "Total external debt",
+      "href": "/indicators/total-external-debt"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef38",
+      "kind": "chart",
+      "slug": "assets-outside-the-financial-system-versus-private-credit",
+      "title": "Assets outside the financial system versus private credit",
+      "href": "/charts/assets-outside-the-financial-system-versus-private-credit"
+    },
+    {
+      "id": "pi.ef35",
+      "kind": "chart",
+      "slug": "bank-capital-and-npls",
+      "title": "Bank capital and NPLs",
+      "href": "/charts/bank-capital-and-npls"
+    },
+    {
+      "id": "pi.ef42",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-reserve-accumulation",
+      "title": "BCRA FX purchases and reserve accumulation",
+      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation"
+    },
+    {
+      "id": "pi.ef06",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-nir-accumulation",
+      "title": "BCRA FX purchases versus NIR accumulation",
+      "href": "/charts/bcra-fx-purchases-versus-nir-accumulation"
+    },
+    {
+      "id": "pi.ef43",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-sovereign-spreads",
+      "title": "BCRA FX purchases versus sovereign spreads",
+      "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef13",
+      "kind": "chart",
+      "slug": "capital-inflows-versus-current-account-financing-need",
+      "title": "Capital inflows versus current-account financing need",
+      "href": "/charts/capital-inflows-versus-current-account-financing-need"
+    },
+    {
+      "id": "pi.ef08",
+      "kind": "chart",
+      "slug": "current-account-balance-through-time",
+      "title": "Current-account balance through time",
+      "href": "/charts/current-account-balance-through-time"
+    },
+    {
+      "id": "pi.ef09",
+      "kind": "chart",
+      "slug": "current-account-component-decomposition",
+      "title": "Current-account component decomposition",
+      "href": "/charts/current-account-component-decomposition"
+    },
+    {
+      "id": "pi.ef23",
+      "kind": "chart",
+      "slug": "debt-service-versus-reserves",
+      "title": "Debt service versus reserves",
+      "href": "/charts/debt-service-versus-reserves"
+    },
+    {
+      "id": "pi.ef39",
+      "kind": "chart",
+      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
+      "title": "Domestic capital-market depth versus external market issuance",
+      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
+    },
+    {
+      "id": "pi.ef27",
+      "kind": "chart",
+      "slug": "external-debt-in-dollars-and-percent-of-gdp",
+      "title": "External debt in dollars and percent of GDP",
+      "href": "/charts/external-debt-in-dollars-and-percent-of-gdp"
+    },
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    },
+    {
+      "id": "pi.ef14",
+      "kind": "chart",
+      "slug": "fdi-versus-broader-capital-inflows",
+      "title": "FDI versus broader capital inflows",
+      "href": "/charts/fdi-versus-broader-capital-inflows"
+    },
+    {
+      "id": "pi.ef37",
+      "kind": "chart",
+      "slug": "financial-depth-versus-emerging-market-peers",
+      "title": "Financial depth versus emerging-market peers",
+      "href": "/charts/financial-depth-versus-emerging-market-peers"
+    },
+    {
+      "id": "pi.ef36",
+      "kind": "chart",
+      "slug": "financial-depth-private-credit-and-domestic-markets",
+      "title": "Financial depth: private credit and domestic markets",
+      "href": "/charts/financial-depth-private-credit-and-domestic-markets"
+    },
+    {
+      "id": "pi.ef12",
+      "kind": "chart",
+      "slug": "financial-account-components",
+      "title": "Financial-account components",
+      "href": "/charts/financial-account-components"
+    },
+    {
+      "id": "pi.ef22",
+      "kind": "chart",
+      "slug": "fx-debt-service-maturity-wall",
+      "title": "FX debt-service maturity wall",
+      "href": "/charts/fx-debt-service-maturity-wall"
+    },
+    {
+      "id": "pi.ef33",
+      "kind": "chart",
+      "slug": "fx-deposits-in-the-domestic-financial-system",
+      "title": "FX deposits in the domestic financial system",
+      "href": "/charts/fx-deposits-in-the-domestic-financial-system"
+    },
+    {
+      "id": "pi.ef34",
+      "kind": "chart",
+      "slug": "fx-deposits-versus-bank-liquidity",
+      "title": "FX deposits versus bank liquidity",
+      "href": "/charts/fx-deposits-versus-bank-liquidity"
+    },
+    {
+      "id": "pi.ef19",
+      "kind": "chart",
+      "slug": "fx-issuance-volumes-by-issuer-type",
+      "title": "FX issuance volumes by issuer type",
+      "href": "/charts/fx-issuance-volumes-by-issuer-type"
+    },
+    {
+      "id": "pi.ef10",
+      "kind": "chart",
+      "slug": "goods-surplus-versus-services-deficit",
+      "title": "Goods surplus versus services deficit",
+      "href": "/charts/goods-surplus-versus-services-deficit"
+    },
+    {
+      "id": "pi.ef21",
+      "kind": "chart",
+      "slug": "gross-reserves-versus-sovereign-spreads",
+      "title": "Gross reserves versus sovereign spreads",
+      "href": "/charts/gross-reserves-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef01",
+      "kind": "chart",
+      "slug": "gross-reserves-nir-and-liquid-buffers",
+      "title": "Gross reserves, NIR, and liquid buffers",
+      "href": "/charts/gross-reserves-nir-and-liquid-buffers"
+    },
+    {
+      "id": "pi.ef26",
+      "kind": "chart",
+      "slug": "market-issuance-cumulative-since-re-entry",
+      "title": "Market issuance cumulative since re-entry",
+      "href": "/charts/market-issuance-cumulative-since-re-entry"
+    },
+    {
+      "id": "pi.ef05",
+      "kind": "chart",
+      "slug": "monthly-reserve-change-gross-versus-nir",
+      "title": "Monthly reserve change: gross versus NIR",
+      "href": "/charts/monthly-reserve-change-gross-versus-nir"
+    },
+    {
+      "id": "pi.ef03",
+      "kind": "chart",
+      "slug": "nir-versus-program-target-path",
+      "title": "NIR versus program target path",
+      "href": "/charts/nir-versus-program-target-path"
+    },
+    {
+      "id": "pi.ef32",
+      "kind": "chart",
+      "slug": "npl-ratio-through-the-credit-cycle",
+      "title": "NPL ratio through the credit cycle",
+      "href": "/charts/npl-ratio-through-the-credit-cycle"
+    },
+    {
+      "id": "pi.ef24",
+      "kind": "chart",
+      "slug": "official-financing-swaps-and-repos",
+      "title": "Official financing, swaps, and repos",
+      "href": "/charts/official-financing-swaps-and-repos"
+    },
+    {
+      "id": "pi.ef11",
+      "kind": "chart",
+      "slug": "primary-income-drag-on-the-current-account",
+      "title": "Primary-income drag on the current account",
+      "href": "/charts/primary-income-drag-on-the-current-account"
+    },
+    {
+      "id": "pi.ef29",
+      "kind": "chart",
+      "slug": "private-credit-as-a-share-of-gdp",
+      "title": "Private credit as a share of GDP",
+      "href": "/charts/private-credit-as-a-share-of-gdp"
+    },
+    {
+      "id": "pi.ef15",
+      "kind": "chart",
+      "slug": "private-financial-flows-around-the-2025-stress-episode",
+      "title": "Private financial flows around the 2025 stress episode",
+      "href": "/charts/private-financial-flows-around-the-2025-stress-episode"
+    },
+    {
+      "id": "pi.ef16",
+      "kind": "chart",
+      "slug": "private-financial-flows-versus-reserve-accumulation",
+      "title": "Private financial flows versus reserve accumulation",
+      "href": "/charts/private-financial-flows-versus-reserve-accumulation"
+    },
+    {
+      "id": "pi.ef31",
+      "kind": "chart",
+      "slug": "real-credit-growth-versus-npl-ratio",
+      "title": "Real credit growth versus NPL ratio",
+      "href": "/charts/real-credit-growth-versus-npl-ratio"
+    },
+    {
+      "id": "pi.ef30",
+      "kind": "chart",
+      "slug": "real-private-credit-growth",
+      "title": "Real private-credit growth",
+      "href": "/charts/real-private-credit-growth"
+    },
+    {
+      "id": "pi.ef40",
+      "kind": "chart",
+      "slug": "reer-versus-current-account-balance",
+      "title": "REER versus current-account balance",
+      "href": "/charts/reer-versus-current-account-balance"
+    },
+    {
+      "id": "pi.ef41",
+      "kind": "chart",
+      "slug": "reer-versus-nir-accumulation",
+      "title": "REER versus NIR accumulation",
+      "href": "/charts/reer-versus-nir-accumulation"
+    },
+    {
+      "id": "pi.ef04",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
+      "title": "Reserve accumulation versus next-12m FX debt service",
+      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service"
+    },
+    {
+      "id": "pi.ef20",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-sovereign-spreads",
+      "title": "Reserve accumulation versus sovereign spreads",
+      "href": "/charts/reserve-accumulation-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef02",
+      "kind": "chart",
+      "slug": "reserve-adequacy-dashboard",
+      "title": "Reserve adequacy dashboard",
+      "href": "/charts/reserve-adequacy-dashboard"
+    },
+    {
+      "id": "pi.ef28",
+      "kind": "chart",
+      "slug": "reserve-coverage-of-external-debt-service",
+      "title": "Reserve coverage of external debt service",
+      "href": "/charts/reserve-coverage-of-external-debt-service"
+    },
+    {
+      "id": "pi.ef18",
+      "kind": "chart",
+      "slug": "sovereign-and-corporate-spreads",
+      "title": "Sovereign and corporate spreads",
+      "href": "/charts/sovereign-and-corporate-spreads"
+    },
+    {
+      "id": "pi.ef17",
+      "kind": "chart",
+      "slug": "sovereign-spreads-through-the-market-re-entry-window",
+      "title": "Sovereign spreads through the market re-entry window",
+      "href": "/charts/sovereign-spreads-through-the-market-re-entry-window"
+    },
+    {
+      "id": "pi.ef25",
+      "kind": "chart",
+      "slug": "swap-and-repo-liabilities-versus-nir",
+      "title": "Swap and repo liabilities versus NIR",
+      "href": "/charts/swap-and-repo-liabilities-versus-nir"
+    }
+  ],
   "localGraph": {
-    "nodes": [],
-    "edges": []
+    "nodes": [
+      {
+        "id": "ef.official_external_financing",
+        "kind": "topic",
+        "slug": "official-external-financing",
+        "title": "Official external financing",
+        "href": "/topics/official-external-financing"
+      },
+      {
+        "id": "ef.gross_reserves",
+        "kind": "topic",
+        "slug": "gross-international-reserves",
+        "title": "Gross international reserves",
+        "href": "/topics/gross-international-reserves"
+      },
+      {
+        "id": "ef.goods_trade_balance",
+        "kind": "topic",
+        "slug": "goods-trade-balance",
+        "title": "Goods trade balance",
+        "href": "/topics/goods-trade-balance"
+      },
+      {
+        "id": "ef.primary_income_balance",
+        "kind": "topic",
+        "slug": "primary-income-balance",
+        "title": "Primary income balance",
+        "href": "/topics/primary-income-balance"
+      },
+      {
+        "id": "ef.domestic_savings_mobilization",
+        "kind": "topic",
+        "slug": "domestic-savings-mobilization",
+        "title": "Domestic savings mobilization",
+        "href": "/topics/domestic-savings-mobilization"
+      },
+      {
+        "id": "ef.financial_account",
+        "kind": "topic",
+        "slug": "financial-account",
+        "title": "Financial account",
+        "href": "/topics/financial-account"
+      },
+      {
+        "id": "ef.fx_market_issuance",
+        "kind": "topic",
+        "slug": "fx-market-issuance",
+        "title": "FX market issuance",
+        "href": "/topics/fx-market-issuance"
+      },
+      {
+        "id": "ef.resident_fx_hedging",
+        "kind": "topic",
+        "slug": "resident-fx-hedging-and-dollarization-pressure",
+        "title": "Resident FX hedging and dollarization pressure",
+        "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
+      },
+      {
+        "id": "ef.fx_debt_service",
+        "kind": "topic",
+        "slug": "foreign-currency-debt-service",
+        "title": "Foreign-currency debt service",
+        "href": "/topics/foreign-currency-debt-service"
+      },
+      {
+        "id": "ef.private_credit",
+        "kind": "topic",
+        "slug": "private-sector-credit",
+        "title": "Private-sector credit",
+        "href": "/topics/private-sector-credit"
+      },
+      {
+        "id": "ef.capital_inflows",
+        "kind": "topic",
+        "slug": "capital-inflows",
+        "title": "Capital inflows",
+        "href": "/topics/capital-inflows"
+      },
+      {
+        "id": "ef.external_public_debt",
+        "kind": "topic",
+        "slug": "external-public-debt",
+        "title": "External public debt",
+        "href": "/topics/external-public-debt"
+      },
+      {
+        "id": "ef.current_account",
+        "kind": "topic",
+        "slug": "current-account",
+        "title": "Current account",
+        "href": "/topics/current-account"
+      },
+      {
+        "id": "ef.swap_repo_financing",
+        "kind": "topic",
+        "slug": "swap-and-repo-financing",
+        "title": "Swap and repo financing",
+        "href": "/topics/swap-and-repo-financing"
+      },
+      {
+        "id": "ef.net_international_reserves",
+        "kind": "topic",
+        "slug": "net-international-reserves",
+        "title": "Net international reserves",
+        "href": "/topics/net-international-reserves"
+      },
+      {
+        "id": "ef.sovereign_spreads",
+        "kind": "topic",
+        "slug": "sovereign-spreads",
+        "title": "Sovereign spreads",
+        "href": "/topics/sovereign-spreads"
+      },
+      {
+        "id": "ef.sovereign_risk",
+        "kind": "topic",
+        "slug": "sovereign-risk",
+        "title": "Sovereign risk",
+        "href": "/topics/sovereign-risk"
+      },
+      {
+        "id": "ef.domestic_capital_market_depth",
+        "kind": "topic",
+        "slug": "domestic-capital-market-depth",
+        "title": "Domestic capital-market depth",
+        "href": "/topics/domestic-capital-market-depth"
+      },
+      {
+        "id": "ef.fx_deposits",
+        "kind": "topic",
+        "slug": "foreign-currency-deposits",
+        "title": "Foreign-currency deposits",
+        "href": "/topics/foreign-currency-deposits"
+      },
+      {
+        "id": "ef.foreign_direct_investment",
+        "kind": "topic",
+        "slug": "foreign-direct-investment",
+        "title": "Foreign direct investment",
+        "href": "/topics/foreign-direct-investment"
+      },
+      {
+        "id": "ef.reserve_adequacy",
+        "kind": "topic",
+        "slug": "reserve-adequacy",
+        "title": "Reserve adequacy",
+        "href": "/topics/reserve-adequacy"
+      },
+      {
+        "id": "ef.market_access",
+        "kind": "topic",
+        "slug": "international-market-access",
+        "title": "International market access",
+        "href": "/topics/international-market-access"
+      },
+      {
+        "id": "ef.external_position",
+        "kind": "topic",
+        "slug": "external-position",
+        "title": "External position",
+        "href": "/topics/external-position"
+      },
+      {
+        "id": "ef.services_balance",
+        "kind": "topic",
+        "slug": "services-balance",
+        "title": "Services balance",
+        "href": "/topics/services-balance"
+      },
+      {
+        "id": "ef.refinancing_needs",
+        "kind": "topic",
+        "slug": "external-refinancing-needs",
+        "title": "External refinancing needs",
+        "href": "/topics/external-refinancing-needs"
+      },
+      {
+        "id": "ef.liquid_reserve_buffers",
+        "kind": "topic",
+        "slug": "liquid-reserve-buffers",
+        "title": "Liquid reserve buffers",
+        "href": "/topics/liquid-reserve-buffers"
+      },
+      {
+        "id": "ef.reserve_accumulation",
+        "kind": "topic",
+        "slug": "reserve-accumulation",
+        "title": "Reserve accumulation",
+        "href": "/topics/reserve-accumulation"
+      },
+      {
+        "id": "ef.credit_quality",
+        "kind": "topic",
+        "slug": "credit-quality",
+        "title": "Credit quality",
+        "href": "/topics/credit-quality"
+      },
+      {
+        "id": "ef.financial_depth",
+        "kind": "topic",
+        "slug": "financial-depth",
+        "title": "Financial depth",
+        "href": "/topics/financial-depth"
+      },
+      {
+        "id": "ef.external_vulnerability",
+        "kind": "topic",
+        "slug": "external-vulnerability",
+        "title": "External vulnerability",
+        "href": "/topics/external-vulnerability"
+      }
+    ],
+    "edges": [
+      {
+        "from": "ef.gross_reserves",
+        "to": "ef.external_position",
+        "kind": "relation:component_of",
+        "source_id": "rel.ef.gross_component_external",
+        "directed": true
+      },
+      {
+        "from": "ef.net_international_reserves",
+        "to": "ef.external_position",
+        "kind": "relation:measurement_of",
+        "source_id": "rel.ef.nir_measure_external",
+        "directed": true
+      },
+      {
+        "from": "ef.liquid_reserve_buffers",
+        "to": "ef.gross_reserves",
+        "kind": "relation:component_of",
+        "source_id": "rel.ef.liquid_component_reserves",
+        "directed": true
+      },
+      {
+        "from": "ef.reserve_adequacy",
+        "to": "ef.gross_reserves",
+        "kind": "relation:derived_from",
+        "source_id": "rel.ef.adequacy_uses_reserves",
+        "directed": true
+      },
+      {
+        "from": "ef.reserve_adequacy",
+        "to": "ef.net_international_reserves",
+        "kind": "relation:derived_from",
+        "source_id": "rel.ef.adequacy_uses_nir",
+        "directed": true
+      },
+      {
+        "from": "ef.reserve_adequacy",
+        "to": "ef.external_vulnerability",
+        "kind": "relation:constraint_on",
+        "source_id": "rel.ef.adequacy_constrains_vulnerability",
+        "directed": true
+      },
+      {
+        "from": "ef.reserve_accumulation",
+        "to": "ef.net_international_reserves",
+        "kind": "relation:contributes_to",
+        "source_id": "rel.ef.accumulation_builds_nir",
+        "directed": true
+      },
+      {
+        "from": "ef.current_account",
+        "to": "ef.external_position",
+        "kind": "relation:component_of",
+        "source_id": "rel.ef.current_account_component_external",
+        "directed": true
+      },
+      {
+        "from": "ef.goods_trade_balance",
+        "to": "ef.current_account",
+        "kind": "relation:component_of",
+        "source_id": "rel.ef.goods_component_ca",
+        "directed": true
+      },
+      {
+        "from": "ef.services_balance",
+        "to": "ef.current_account",
+        "kind": "relation:component_of",
+        "source_id": "rel.ef.services_component_ca",
+        "directed": true
+      },
+      {
+        "from": "ef.primary_income_balance",
+        "to": "ef.current_account",
+        "kind": "relation:component_of",
+        "source_id": "rel.ef.income_component_ca",
+        "directed": true
+      },
+      {
+        "from": "ef.financial_account",
+        "to": "ef.external_position",
+        "kind": "relation:component_of",
+        "source_id": "rel.ef.financial_component_external",
+        "directed": true
+      },
+      {
+        "from": "ef.capital_inflows",
+        "to": "ef.financial_account",
+        "kind": "relation:component_of",
+        "source_id": "rel.ef.inflows_component_financial",
+        "directed": true
+      },
+      {
+        "from": "ef.foreign_direct_investment",
+        "to": "ef.capital_inflows",
+        "kind": "relation:component_of",
+        "source_id": "rel.ef.fdi_component_inflows",
+        "directed": true
+      },
+      {
+        "from": "ef.resident_fx_hedging",
+        "to": "ef.financial_account",
+        "kind": "relation:contributes_to",
+        "source_id": "rel.ef.hedging_pressure_financial",
+        "directed": true
+      },
+      {
+        "from": "ef.resident_fx_hedging",
+        "to": "ef.reserve_accumulation",
+        "kind": "relation:constraint_on",
+        "source_id": "rel.ef.hedging_pressure_reserves",
+        "directed": true
+      },
+      {
+        "from": "ef.market_access",
+        "to": "ef.capital_inflows",
+        "kind": "relation:enables",
+        "source_id": "rel.ef.market_access_enables_inflows",
+        "directed": true
+      },
+      {
+        "from": "ef.sovereign_risk",
+        "to": "ef.sovereign_spreads",
+        "kind": "relation:measurement_of",
+        "source_id": "rel.ef.sovereign_risk_spreads",
+        "directed": true
+      },
+      {
+        "from": "ef.sovereign_spreads",
+        "to": "ef.market_access",
+        "kind": "relation:constraint_on",
+        "source_id": "rel.ef.spreads_constrain_access",
+        "directed": true
+      },
+      {
+        "from": "ef.external_public_debt",
+        "to": "ef.fx_debt_service",
+        "kind": "relation:contributes_to",
+        "source_id": "rel.ef.debt_creates_service",
+        "directed": true
+      },
+      {
+        "from": "ef.fx_debt_service",
+        "to": "ef.refinancing_needs",
+        "kind": "relation:contributes_to",
+        "source_id": "rel.ef.service_creates_refi",
+        "directed": true
+      },
+      {
+        "from": "ef.refinancing_needs",
+        "to": "ef.market_access",
+        "kind": "relation:constraint_on",
+        "source_id": "rel.ef.refi_constrains_access",
+        "directed": true
+      },
+      {
+        "from": "ef.fx_debt_service",
+        "to": "ef.reserve_accumulation",
+        "kind": "relation:constraint_on",
+        "source_id": "rel.ef.service_constrains_reserves",
+        "directed": true
+      },
+      {
+        "from": "ef.official_external_financing",
+        "to": "ef.liquid_reserve_buffers",
+        "kind": "relation:contributes_to",
+        "source_id": "rel.ef.official_financing_enables_buffers",
+        "directed": true
+      },
+      {
+        "from": "ef.swap_repo_financing",
+        "to": "ef.official_external_financing",
+        "kind": "relation:component_of",
+        "source_id": "rel.ef.swaps_component_official",
+        "directed": true
+      },
+      {
+        "from": "ef.swap_repo_financing",
+        "to": "ef.external_vulnerability",
+        "kind": "relation:associated_with",
+        "source_id": "rel.ef.swaps_create_liabilities",
+        "directed": true
+      },
+      {
+        "from": "ef.fx_market_issuance",
+        "to": "ef.market_access",
+        "kind": "relation:associated_with",
+        "source_id": "rel.ef.issuance_enables_access",
+        "directed": true
+      },
+      {
+        "from": "ef.fx_market_issuance",
+        "to": "ef.refinancing_needs",
+        "kind": "relation:contributes_to",
+        "source_id": "rel.ef.issuance_finances_refi",
+        "directed": true
+      },
+      {
+        "from": "ef.financial_depth",
+        "to": "ef.private_credit",
+        "kind": "relation:enables",
+        "source_id": "rel.ef.financial_depth_enables_credit",
+        "directed": true
+      },
+      {
+        "from": "ef.credit_quality",
+        "to": "ef.private_credit",
+        "kind": "relation:constraint_on",
+        "source_id": "rel.ef.credit_quality_constrains_credit",
+        "directed": true
+      },
+      {
+        "from": "ef.fx_deposits",
+        "to": "ef.financial_depth",
+        "kind": "relation:component_of",
+        "source_id": "rel.ef.fx_deposits_component_depth",
+        "directed": true
+      },
+      {
+        "from": "ef.domestic_capital_market_depth",
+        "to": "ef.financial_depth",
+        "kind": "relation:component_of",
+        "source_id": "rel.ef.capital_market_component_depth",
+        "directed": true
+      },
+      {
+        "from": "ef.domestic_savings_mobilization",
+        "to": "ef.financial_depth",
+        "kind": "relation:enables",
+        "source_id": "rel.ef.savings_enables_depth",
+        "directed": true
+      },
+      {
+        "from": "ef.domestic_savings_mobilization",
+        "to": "ef.domestic_capital_market_depth",
+        "kind": "relation:enables",
+        "source_id": "rel.ef.savings_enables_market",
+        "directed": true
+      },
+      {
+        "from": "ef.market_access",
+        "to": "ef.external_vulnerability",
+        "kind": "relation:constraint_on",
+        "source_id": "rel.ef.vulnerability_constrained_by_access",
+        "directed": true
+      },
+      {
+        "from": "ef.external_public_debt",
+        "to": "ef.external_vulnerability",
+        "kind": "relation:associated_with",
+        "source_id": "rel.ef.vulnerability_associated_debt",
+        "directed": true
+      },
+      {
+        "from": "ef.current_account",
+        "to": "ef.external_vulnerability",
+        "kind": "relation:associated_with",
+        "source_id": "rel.ef.vulnerability_associated_ca",
+        "directed": true
+      }
+    ]
   }
 }

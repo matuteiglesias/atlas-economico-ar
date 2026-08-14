@@ -133,19 +133,19 @@
       "distance": 2
     },
     {
-      "id": "pi.ns26",
+      "id": "pi.ef42",
       "kind": "chart",
-      "slug": "bcra-purchases-vs-monetary-base-growth",
-      "title": "BCRA purchases vs monetary-base growth",
-      "href": "/charts/bcra-purchases-vs-monetary-base-growth",
+      "slug": "bcra-fx-purchases-and-reserve-accumulation",
+      "title": "BCRA FX purchases and reserve accumulation",
+      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation",
       "distance": 2
     },
     {
-      "id": "pi.ns25",
+      "id": "pi.ef06",
       "kind": "chart",
-      "slug": "bcra-purchases-vs-official-exchange-rate",
-      "title": "BCRA purchases vs official exchange rate",
-      "href": "/charts/bcra-purchases-vs-official-exchange-rate",
+      "slug": "bcra-fx-purchases-versus-nir-accumulation",
+      "title": "BCRA FX purchases versus NIR accumulation",
+      "href": "/charts/bcra-fx-purchases-versus-nir-accumulation",
       "distance": 2
     }
   ],

@@ -67,11 +67,27 @@
       "distance": 1
     },
     {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "distance": 2
+    },
+    {
       "id": "q.ns10",
       "kind": "question",
       "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
       "title": "How much has the peso appreciated or depreciated in real terms?",
       "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "distance": 2
+    },
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account",
       "distance": 2
     },
     {
@@ -91,11 +107,11 @@
       "distance": 2
     },
     {
-      "id": "ci.ns.reer_index",
-      "kind": "indicator",
-      "slug": "real-effective-exchange-rate-index",
-      "title": "Real effective exchange-rate index",
-      "href": "/indicators/real-effective-exchange-rate-index",
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation",
       "distance": 2
     }
   ],

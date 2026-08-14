@@ -62,9 +62,40 @@
         "title": "Nominal exchange rate",
         "href": "/topics/nominal-exchange-rate"
       }
+    },
+    {
+      "relation_id": "rel.ef.reer_current_account_port",
+      "relation_type": "associated_with",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.current_account",
+        "kind": "topic",
+        "slug": "current-account",
+        "title": "Current account",
+        "href": "/topics/current-account"
+      }
+    },
+    {
+      "relation_id": "rel.ef.reer_reserves_port",
+      "relation_type": "associated_with",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.reserve_accumulation",
+        "kind": "topic",
+        "slug": "reserve-accumulation",
+        "title": "Reserve accumulation",
+        "href": "/topics/reserve-accumulation"
+      }
     }
   ],
   "questions": [
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance"
+    },
     {
       "id": "q.ns10",
       "kind": "question",
@@ -91,6 +122,27 @@
   ],
   "charts": [
     {
+      "id": "pi.ef40",
+      "kind": "chart",
+      "slug": "reer-versus-current-account-balance",
+      "title": "REER versus current-account balance",
+      "href": "/charts/reer-versus-current-account-balance"
+    },
+    {
+      "id": "pi.ef41",
+      "kind": "chart",
+      "slug": "reer-versus-nir-accumulation",
+      "title": "REER versus NIR accumulation",
+      "href": "/charts/reer-versus-nir-accumulation"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    },
+    {
       "id": "pi.ns20",
       "kind": "chart",
       "slug": "real-effective-exchange-rate-since-dec-2023",
@@ -114,11 +166,27 @@
   ],
   "nearby": [
     {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "distance": 1
+    },
+    {
       "id": "q.ns10",
       "kind": "question",
       "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
       "title": "How much has the peso appreciated or depreciated in real terms?",
       "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "distance": 1
+    },
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account",
       "distance": 1
     },
     {
@@ -138,6 +206,14 @@
       "distance": 1
     },
     {
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation",
+      "distance": 1
+    },
+    {
       "id": "ci.ns.reer_index",
       "kind": "indicator",
       "slug": "real-effective-exchange-rate-index",
@@ -152,36 +228,12 @@
       "title": "REER change since Dec-2023",
       "href": "/indicators/reer-change-since-dec-2023",
       "distance": 1
-    },
-    {
-      "id": "q.ns02",
-      "kind": "question",
-      "slug": "has-the-disinflation-process-stalled-or-resumed",
-      "title": "Has the disinflation process stalled or resumed?",
-      "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
-      "distance": 2
-    },
-    {
-      "id": "q.ns11",
-      "kind": "question",
-      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
-      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
-      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
-      "distance": 2
-    },
-    {
-      "id": "q.ns01",
-      "kind": "question",
-      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
-      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
-      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
-      "distance": 2
     }
   ],
   "counts": {
-    "connections": 3,
-    "questions": 1,
+    "connections": 5,
+    "questions": 2,
     "indicators": 2,
-    "charts": 3
+    "charts": 6
   }
 }

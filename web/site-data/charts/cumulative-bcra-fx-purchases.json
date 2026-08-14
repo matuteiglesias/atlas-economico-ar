@@ -141,11 +141,11 @@
       "distance": 2
     },
     {
-      "id": "pi.ns26",
+      "id": "pi.ef42",
       "kind": "chart",
-      "slug": "bcra-purchases-vs-monetary-base-growth",
-      "title": "BCRA purchases vs monetary-base growth",
-      "href": "/charts/bcra-purchases-vs-monetary-base-growth",
+      "slug": "bcra-fx-purchases-and-reserve-accumulation",
+      "title": "BCRA FX purchases and reserve accumulation",
+      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation",
       "distance": 2
     }
   ],

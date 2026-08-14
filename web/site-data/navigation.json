@@ -15,8 +15,8 @@
       "slug": "external-financial-constraint",
       "title": "External & Financial Constraint",
       "href": "/areas/external-financial-constraint",
-      "populated": false,
-      "dek": "Explain external buffers, reserve adequacy, financing, market access, sovereign risk, balance-of-payments pressure, and financial-sector depth/vulnerability."
+      "populated": true,
+      "dek": "How reserves, external flows, debt obligations, market access, and the depth of domestic finance shape Argentina's capacity to absorb shocks and finance growth."
     },
     {
       "id": "fiscal_regime",
@@ -57,9 +57,9 @@
   ],
   "counts": {
     "region": 6,
-    "topic": 25,
-    "question": 18,
-    "indicator": 42,
-    "chart": 52
+    "topic": 55,
+    "question": 38,
+    "indicator": 82,
+    "chart": 96
   }
 }
