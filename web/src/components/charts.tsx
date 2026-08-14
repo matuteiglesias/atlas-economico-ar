@@ -24,5 +24,6 @@ export function ChartPreview({ slug }: { slug: string }) {
 }
 
 export function ChartCard({ item, displayTitle }: { item: EntityLink; displayTitle?: string }) {
-  return <article className="chart-card"><div className="chart-title"><h3>{displayTitle ?? item.title}</h3><p>Illustrative placeholder</p></div><ChartPreview slug={item.slug ?? ""} /><Link href={item.href}>View chart <ArrowRight /></Link></article>;
+  const isDummy = item.slug === "inflation-driver-decomposition" || (item.slug ? item.slug in paths : false);
+  return <article className="chart-card"><div className="chart-title"><h3>{displayTitle ?? item.title}</h3><p>{isDummy ? "Illustrative placeholder" : "Chart preview pending"}</p></div><ChartPreview slug={item.slug ?? ""} /><Link href={item.href}>View chart <ArrowRight /></Link></article>;
 }

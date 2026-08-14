@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { ChartCard } from "@/components/charts";
 import { EntityHeader, QuestionRow, Section, WhyItMatters } from "@/components/content";
 import { Breadcrumbs, ContextRail, ExploreRail, SiteHeader } from "@/components/shell";
@@ -9,6 +10,10 @@ export const dynamicParams = false;
 
 export async function generateStaticParams() {
   return (await getTopicSlugs()).map((slug) => ({ slug }));
+}
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params; const topic = await getTopic(slug).catch(() => null);
+  return { title: topic?.title ?? "Topic", description: topic?.dek ?? undefined };
 }
 
 const featuredCharts: EntityLink[] = [
