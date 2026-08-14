@@ -1,0 +1,150 @@
+{
+  "id": "pi.ns31",
+  "kind": "chart",
+  "slug": "policy-relevant-rate-vs-money-market-rate",
+  "title": "Policy-relevant rate vs money-market rate",
+  "href": "/charts/policy-relevant-rate-vs-money-market-rate",
+  "dek": "Track transmission and market segmentation.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate"
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.policy_rate_nominal",
+      "kind": "indicator",
+      "slug": "nominal-policy-relevant-rate",
+      "title": "Nominal policy-relevant rate",
+      "href": "/indicators/nominal-policy-relevant-rate"
+    },
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.trailing_12m"
+  ],
+  "chartSpec": {
+    "id": "cs.ns31",
+    "templateId": "multi_line_time_series",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.policy_rate_nominal",
+      "kind": "indicator",
+      "slug": "nominal-policy-relevant-rate",
+      "title": "Nominal policy-relevant rate",
+      "href": "/indicators/nominal-policy-relevant-rate",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "distance": 2
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility",
+      "distance": 2
+    },
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns30",
+      "kind": "chart",
+      "slug": "money-market-rate-volatility",
+      "title": "Money-market rate volatility",
+      "href": "/charts/money-market-rate-volatility",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns48",
+      "kind": "chart",
+      "slug": "money-market-volatility-vs-fx-gap",
+      "title": "Money-market volatility vs FX gap",
+      "href": "/charts/money-market-volatility-vs-fx-gap",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 2,
+    "indicators": 2
+  }
+}

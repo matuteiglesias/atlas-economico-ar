@@ -45,6 +45,14 @@ export interface Navigation {
   counts: Record<EntityKind, number>;
 }
 
+export interface SearchItem extends EntityLink {
+  id: string;
+  kind: EntityKind;
+  slug: string;
+  regionId: string;
+  text: string;
+}
+
 export interface RegionPage extends Region {
   intro: string | null;
   breadcrumbs: EntityLink[];

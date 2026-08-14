@@ -1,0 +1,205 @@
+{
+  "id": "q.ns15",
+  "kind": "question",
+  "slug": "is-domestic-money-demand-recovering",
+  "title": "Is domestic money demand recovering?",
+  "href": "/questions/is-domestic-money-demand-recovering",
+  "dek": null,
+  "intro": null,
+  "questionFamily": "monetization",
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand"
+    },
+    {
+      "id": "ns.transactional_m2",
+      "kind": "topic",
+      "slug": "transactional-m2",
+      "title": "Transactional M2",
+      "href": "/topics/transactional-m2"
+    },
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.m2_to_gdp",
+      "kind": "indicator",
+      "slug": "transactional-m2-to-gdp",
+      "title": "Transactional M2 to GDP",
+      "href": "/indicators/transactional-m2-to-gdp"
+    },
+    {
+      "id": "ci.ns.monetary_base_nominal",
+      "kind": "indicator",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/indicators/monetary-base"
+    },
+    {
+      "id": "ci.ns.monetary_base_real",
+      "kind": "indicator",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/indicators/real-monetary-base"
+    },
+    {
+      "id": "ci.ns.transactional_m2_nominal",
+      "kind": "indicator",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/indicators/private-transactional-m2"
+    },
+    {
+      "id": "ci.ns.transactional_m2_projection_gap",
+      "kind": "indicator",
+      "slug": "transactional-m2-gap-vs-bcra-projection",
+      "title": "Transactional M2 gap vs BCRA projection",
+      "href": "/indicators/transactional-m2-gap-vs-bcra-projection"
+    },
+    {
+      "id": "ci.ns.transactional_m2_real",
+      "kind": "indicator",
+      "slug": "real-private-transactional-m2",
+      "title": "Real private transactional M2",
+      "href": "/indicators/real-private-transactional-m2"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns34",
+      "kind": "chart",
+      "slug": "nominal-monetary-base",
+      "title": "Nominal monetary base",
+      "href": "/charts/nominal-monetary-base"
+    },
+    {
+      "id": "pi.ns35",
+      "kind": "chart",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/charts/real-monetary-base"
+    },
+    {
+      "id": "pi.ns36",
+      "kind": "chart",
+      "slug": "transactional-m2-nominal-and-real",
+      "title": "Transactional M2 nominal and real",
+      "href": "/charts/transactional-m2-nominal-and-real"
+    },
+    {
+      "id": "pi.ns37",
+      "kind": "chart",
+      "slug": "transactional-m2-vs-bcra-projection",
+      "title": "Transactional M2 vs BCRA projection",
+      "href": "/charts/transactional-m2-vs-bcra-projection"
+    },
+    {
+      "id": "pi.ns38",
+      "kind": "chart",
+      "slug": "m2-to-gdp-monetization-ratio",
+      "title": "M2-to-GDP monetization ratio",
+      "href": "/charts/m2-to-gdp-monetization-ratio"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base",
+      "distance": 1
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "distance": 1
+    },
+    {
+      "id": "ns.transactional_m2",
+      "kind": "topic",
+      "slug": "transactional-m2",
+      "title": "Transactional M2",
+      "href": "/topics/transactional-m2",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns38",
+      "kind": "chart",
+      "slug": "m2-to-gdp-monetization-ratio",
+      "title": "M2-to-GDP monetization ratio",
+      "href": "/charts/m2-to-gdp-monetization-ratio",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns34",
+      "kind": "chart",
+      "slug": "nominal-monetary-base",
+      "title": "Nominal monetary base",
+      "href": "/charts/nominal-monetary-base",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns35",
+      "kind": "chart",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/charts/real-monetary-base",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns36",
+      "kind": "chart",
+      "slug": "transactional-m2-nominal-and-real",
+      "title": "Transactional M2 nominal and real",
+      "href": "/charts/transactional-m2-nominal-and-real",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns37",
+      "kind": "chart",
+      "slug": "transactional-m2-vs-bcra-projection",
+      "title": "Transactional M2 vs BCRA projection",
+      "href": "/charts/transactional-m2-vs-bcra-projection",
+      "distance": 1
+    }
+  ],
+  "counts": {
+    "topics": 3,
+    "indicators": 6,
+    "charts": 5
+  }
+}

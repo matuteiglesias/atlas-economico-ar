@@ -1,0 +1,149 @@
+{
+  "id": "q.ns13",
+  "kind": "question",
+  "slug": "has-short-term-interest-rate-volatility-normalized",
+  "title": "Has short-term interest-rate volatility normalized?",
+  "href": "/questions/has-short-term-interest-rate-volatility-normalized",
+  "dek": null,
+  "intro": null,
+  "questionFamily": "market_functioning",
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate"
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate"
+    },
+    {
+      "id": "ci.ns.policy_rate_nominal",
+      "kind": "indicator",
+      "slug": "nominal-policy-relevant-rate",
+      "title": "Nominal policy-relevant rate",
+      "href": "/indicators/nominal-policy-relevant-rate"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns30",
+      "kind": "chart",
+      "slug": "money-market-rate-volatility",
+      "title": "Money-market rate volatility",
+      "href": "/charts/money-market-rate-volatility"
+    },
+    {
+      "id": "pi.ns31",
+      "kind": "chart",
+      "slug": "policy-relevant-rate-vs-money-market-rate",
+      "title": "Policy-relevant rate vs money-market rate",
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns30",
+      "kind": "chart",
+      "slug": "money-market-rate-volatility",
+      "title": "Money-market rate volatility",
+      "href": "/charts/money-market-rate-volatility",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns31",
+      "kind": "chart",
+      "slug": "policy-relevant-rate-vs-money-market-rate",
+      "title": "Policy-relevant rate vs money-market rate",
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate",
+      "distance": 1
+    },
+    {
+      "id": "q.ns14",
+      "kind": "question",
+      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "title": "How tight are bank reserve requirements and liquidity conditions?",
+      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "distance": 2
+    },
+    {
+      "id": "q.ns18",
+      "kind": "question",
+      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "distance": 2
+    },
+    {
+      "id": "ns.exchange_rate_band",
+      "kind": "topic",
+      "slug": "exchange-rate-band",
+      "title": "Exchange-rate band",
+      "href": "/topics/exchange-rate-band",
+      "distance": 2
+    },
+    {
+      "id": "ns.fx_hedging_demand",
+      "kind": "topic",
+      "slug": "fx-hedging-demand",
+      "title": "FX hedging demand",
+      "href": "/topics/fx-hedging-demand",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "topics": 2,
+    "indicators": 2,
+    "charts": 2
+  }
+}

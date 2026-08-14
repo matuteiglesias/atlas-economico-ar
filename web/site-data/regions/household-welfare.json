@@ -1,0 +1,31 @@
+{
+  "id": "household_welfare",
+  "kind": "region",
+  "slug": "household-welfare",
+  "title": "Household Welfare",
+  "href": "/areas/household-welfare",
+  "dek": "Explain purchasing power, poverty, basic baskets, distribution, social benefits, and how macro/labor changes reach households.",
+  "intro": null,
+  "populated": false,
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    }
+  ],
+  "stats": {
+    "topics": 0,
+    "questions": 0,
+    "indicators": 0,
+    "charts": 0,
+    "relations": 0
+  },
+  "topics": [],
+  "questions": [],
+  "indicators": [],
+  "charts": [],
+  "localGraph": {
+    "nodes": [],
+    "edges": []
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "id": "ns.money_market_rate",
+  "kind": "topic",
+  "slug": "money-market-rate",
+  "title": "Money-market rate",
+  "href": "/topics/money-market-rate",
+  "dek": "Short-term market interest rate reflecting liquidity conditions.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.policy_rate_affects_market_rate",
+      "relation_type": "economic_mechanism",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.policy_rate",
+        "kind": "topic",
+        "slug": "policy-interest-rate",
+        "title": "Policy interest rate",
+        "href": "/topics/policy-interest-rate"
+      }
+    },
+    {
+      "relation_id": "rel.reserve_requirements_constrain_liquidity",
+      "relation_type": "constraint_on",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.reserve_requirements",
+        "kind": "topic",
+        "slug": "reserve-requirements",
+        "title": "Reserve requirements",
+        "href": "/topics/reserve-requirements"
+      }
+    },
+    {
+      "relation_id": "rel.market_rate_real_rate",
+      "relation_type": "derived_from",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.real_interest_rate",
+        "kind": "topic",
+        "slug": "real-interest-rate",
+        "title": "Real interest rate",
+        "href": "/topics/real-interest-rate"
+      }
+    },
+    {
+      "relation_id": "rel.rate_volatility_credibility",
+      "relation_type": "associated_with",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.policy_credibility",
+        "kind": "topic",
+        "slug": "policy-credibility",
+        "title": "Policy credibility",
+        "href": "/topics/policy-credibility"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized"
+    },
+    {
+      "id": "q.ns14",
+      "kind": "question",
+      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "title": "How tight are bank reserve requirements and liquidity conditions?",
+      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions"
+    },
+    {
+      "id": "q.ns18",
+      "kind": "question",
+      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate"
+    },
+    {
+      "id": "ci.ns.tamar_nominal",
+      "kind": "indicator",
+      "slug": "tamar-nominal-rate",
+      "title": "TAMAR nominal rate",
+      "href": "/indicators/tamar-nominal-rate"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns27",
+      "kind": "chart",
+      "slug": "nominal-rates-vs-expected-inflation",
+      "title": "Nominal rates vs expected inflation",
+      "href": "/charts/nominal-rates-vs-expected-inflation"
+    },
+    {
+      "id": "pi.ns30",
+      "kind": "chart",
+      "slug": "money-market-rate-volatility",
+      "title": "Money-market rate volatility",
+      "href": "/charts/money-market-rate-volatility"
+    },
+    {
+      "id": "pi.ns31",
+      "kind": "chart",
+      "slug": "policy-relevant-rate-vs-money-market-rate",
+      "title": "Policy-relevant rate vs money-market rate",
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate"
+    },
+    {
+      "id": "pi.ns32",
+      "kind": "chart",
+      "slug": "reserve-requirements-and-bcra-peso-deposits",
+      "title": "Reserve requirements and BCRA peso deposits",
+      "href": "/charts/reserve-requirements-and-bcra-peso-deposits"
+    },
+    {
+      "id": "pi.ns33",
+      "kind": "chart",
+      "slug": "reserve-requirement-changes-with-money-market-rates",
+      "title": "Reserve requirement changes with money-market rates",
+      "href": "/charts/reserve-requirement-changes-with-money-market-rates"
+    },
+    {
+      "id": "pi.ns44",
+      "kind": "chart",
+      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
+      "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates"
+    },
+    {
+      "id": "pi.ns45",
+      "kind": "chart",
+      "slug": "fx-futures-vs-top-of-band",
+      "title": "FX futures vs top of band",
+      "href": "/charts/fx-futures-vs-top-of-band"
+    },
+    {
+      "id": "pi.ns46",
+      "kind": "chart",
+      "slug": "end-of-year-fx-forward-vs-inflation-expectation",
+      "title": "End-of-year FX forward vs inflation expectation",
+      "href": "/charts/end-of-year-fx-forward-vs-inflation-expectation"
+    },
+    {
+      "id": "pi.ns47",
+      "kind": "chart",
+      "slug": "fx-gap-vs-inflation-expectations",
+      "title": "FX gap vs inflation expectations",
+      "href": "/charts/fx-gap-vs-inflation-expectations"
+    },
+    {
+      "id": "pi.ns48",
+      "kind": "chart",
+      "slug": "money-market-volatility-vs-fx-gap",
+      "title": "Money-market volatility vs FX gap",
+      "href": "/charts/money-market-volatility-vs-fx-gap"
+    },
+    {
+      "id": "pi.ns52",
+      "kind": "chart",
+      "slug": "nominal-stabilization-state-map",
+      "title": "Nominal-stabilization state map",
+      "href": "/charts/nominal-stabilization-state-map"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized",
+      "distance": 1
+    },
+    {
+      "id": "q.ns14",
+      "kind": "question",
+      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "title": "How tight are bank reserve requirements and liquidity conditions?",
+      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "distance": 1
+    },
+    {
+      "id": "q.ns18",
+      "kind": "question",
+      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "distance": 1
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility",
+      "distance": 1
+    },
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.real_interest_rate",
+      "kind": "topic",
+      "slug": "real-interest-rate",
+      "title": "Real interest rate",
+      "href": "/topics/real-interest-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.reserve_requirements",
+      "kind": "topic",
+      "slug": "reserve-requirements",
+      "title": "Reserve requirements",
+      "href": "/topics/reserve-requirements",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate",
+      "distance": 1
+    }
+  ],
+  "counts": {
+    "connections": 4,
+    "questions": 3,
+    "indicators": 2,
+    "charts": 11
+  }
+}

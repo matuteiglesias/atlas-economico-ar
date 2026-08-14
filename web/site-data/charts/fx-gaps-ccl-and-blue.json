@@ -1,0 +1,157 @@
+{
+  "id": "pi.ns18",
+  "kind": "chart",
+  "slug": "fx-gaps-ccl-and-blue",
+  "title": "FX gaps: CCL and blue",
+  "href": "/charts/fx-gaps-ccl-and-blue",
+  "dek": "Show market segmentation and stress.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns09",
+      "kind": "question",
+      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "title": "How large is the gap between official and parallel exchange rates?",
+      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap"
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate"
+    },
+    {
+      "id": "ns.parallel_exchange_rate",
+      "kind": "topic",
+      "slug": "parallel-exchange-rate",
+      "title": "Parallel exchange rate",
+      "href": "/topics/parallel-exchange-rate"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.fx_gap_ccl",
+      "kind": "indicator",
+      "slug": "ccl-official-fx-gap",
+      "title": "CCL-official FX gap",
+      "href": "/indicators/ccl-official-fx-gap"
+    },
+    {
+      "id": "ci.ns.fx_gap_blue",
+      "kind": "indicator",
+      "slug": "blue-official-fx-gap",
+      "title": "Blue-official FX gap",
+      "href": "/indicators/blue-official-fx-gap"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.trailing_12m"
+  ],
+  "chartSpec": {
+    "id": "cs.ns18",
+    "templateId": "multi_line_time_series",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ns09",
+      "kind": "question",
+      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "title": "How large is the gap between official and parallel exchange rates?",
+      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.fx_gap_blue",
+      "kind": "indicator",
+      "slug": "blue-official-fx-gap",
+      "title": "Blue-official FX gap",
+      "href": "/indicators/blue-official-fx-gap",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.fx_gap_ccl",
+      "kind": "indicator",
+      "slug": "ccl-official-fx-gap",
+      "title": "CCL-official FX gap",
+      "href": "/indicators/ccl-official-fx-gap",
+      "distance": 1
+    },
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap",
+      "distance": 2
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "ns.parallel_exchange_rate",
+      "kind": "topic",
+      "slug": "parallel-exchange-rate",
+      "title": "Parallel exchange rate",
+      "href": "/topics/parallel-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns44",
+      "kind": "chart",
+      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
+      "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns19",
+      "kind": "chart",
+      "slug": "fx-gap-around-stress-episodes",
+      "title": "FX gap around stress episodes",
+      "href": "/charts/fx-gap-around-stress-episodes",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 3,
+    "indicators": 2
+  }
+}

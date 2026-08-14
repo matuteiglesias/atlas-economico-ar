@@ -1,14 +1,16 @@
 import Link from "next/link";
-import { BarChart3, Building2, CircleHelp, Compass, Database, Globe2, Home, Landmark, Menu, Search, Tag, Users } from "lucide-react";
+import { BarChart3, Building2, CircleHelp, Compass, Database, Globe2, Home, Landmark, Search, Tag, Users } from "lucide-react";
 import type { EntityLink, Navigation, TopicPage } from "@/lib/types";
+import { getNavigation, getSearchIndex } from "@/lib/site-data";
+import { HeaderControls } from "./shell-controls";
 
 const areaIcons = [BarChart3, Globe2, Building2, Users, Home, Landmark];
 
-export function SiteHeader() {
+export async function SiteHeader() {
+  const [navigation, searchItems] = await Promise.all([getNavigation(), getSearchIndex()]);
   return <header className="site-header">
     <Link href="/" className="brand"><Compass aria-hidden /><strong>ARGENTINA</strong><span>/ ECONOMIC ATLAS</span></Link>
-    <button className="mobile-menu" aria-label="Open navigation"><Menu /></button>
-    <div className="header-actions"><button className="search-trigger"><Search size={18} /><span>Search the atlas…</span><kbd>⌘ K</kbd></button><a href="#about">About</a></div>
+    <HeaderControls navigation={navigation} searchItems={searchItems} />
   </header>;
 }
 
@@ -16,9 +18,9 @@ export function ExploreRail({ navigation, activeRegion }: { navigation: Navigati
   const quick = [
     [CircleHelp, "All Questions", "/atlas#questions"], [BarChart3, "All Charts", "/atlas#charts"],
     [Database, "All Indicators", "/atlas#indicators"], [Tag, "Topics", "/atlas#topics"],
-    [Search, "Search", "#search"], [Compass, "Atlas Map", "/atlas"],
+    [Search, "Search", "?search=open"], [Compass, "Atlas Map", "/atlas"],
   ] as const;
-  return <aside className="explore-rail">
+  return <aside className="explore-rail" aria-label="Explore the atlas">
     <p className="rail-label">Explore</p>
     <nav aria-label="Economic areas" className="area-list">{navigation.regions.map((area, index) => {
       const Icon = areaIcons[index];

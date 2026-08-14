@@ -7,7 +7,11 @@
     "dev": "next dev",
     "build": "next build",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "sync:data": "node scripts/sync-site-data.mjs",
+    "verify:data": "node scripts/verify-data.mjs",
+    "verify:routes": "node scripts/verify-routes.mjs",
+    "check": "pnpm verify:data && pnpm lint && pnpm typecheck && pnpm build && pnpm verify:routes"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

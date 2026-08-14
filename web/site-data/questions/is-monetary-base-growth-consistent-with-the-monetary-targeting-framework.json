@@ -1,0 +1,177 @@
+{
+  "id": "q.ns17",
+  "kind": "question",
+  "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+  "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+  "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+  "dek": null,
+  "intro": null,
+  "questionFamily": "program_consistency",
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.monetary_targeting_framework",
+      "kind": "topic",
+      "slug": "monetary-targeting-framework",
+      "title": "Monetary targeting framework",
+      "href": "/topics/monetary-targeting-framework"
+    },
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base"
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation"
+    },
+    {
+      "id": "ci.ns.monetary_base_nominal",
+      "kind": "indicator",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/indicators/monetary-base"
+    },
+    {
+      "id": "ci.ns.monetary_base_real",
+      "kind": "indicator",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/indicators/real-monetary-base"
+    },
+    {
+      "id": "ci.ns.transactional_m2_nominal",
+      "kind": "indicator",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/indicators/private-transactional-m2"
+    },
+    {
+      "id": "ci.ns.transactional_m2_real",
+      "kind": "indicator",
+      "slug": "real-private-transactional-m2",
+      "title": "Real private transactional M2",
+      "href": "/indicators/real-private-transactional-m2"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns42",
+      "kind": "chart",
+      "slug": "monetary-base-growth-vs-money-demand-proxy",
+      "title": "Monetary-base growth vs money-demand proxy",
+      "href": "/charts/monetary-base-growth-vs-money-demand-proxy"
+    },
+    {
+      "id": "pi.ns43",
+      "kind": "chart",
+      "slug": "monetization-dashboard-base-m2-inflation",
+      "title": "Monetization dashboard: base, M2, inflation",
+      "href": "/charts/monetization-dashboard-base-m2-inflation"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base",
+      "distance": 1
+    },
+    {
+      "id": "ns.monetary_targeting_framework",
+      "kind": "topic",
+      "slug": "monetary-targeting-framework",
+      "title": "Monetary targeting framework",
+      "href": "/topics/monetary-targeting-framework",
+      "distance": 1
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns42",
+      "kind": "chart",
+      "slug": "monetary-base-growth-vs-money-demand-proxy",
+      "title": "Monetary-base growth vs money-demand proxy",
+      "href": "/charts/monetary-base-growth-vs-money-demand-proxy",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns43",
+      "kind": "chart",
+      "slug": "monetization-dashboard-base-m2-inflation",
+      "title": "Monetization dashboard: base, M2, inflation",
+      "href": "/charts/monetization-dashboard-base-m2-inflation",
+      "distance": 1
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "distance": 2
+    },
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering",
+      "distance": 2
+    },
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "topics": 3,
+    "indicators": 5,
+    "charts": 2
+  }
+}

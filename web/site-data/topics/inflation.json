@@ -1,0 +1,343 @@
+{
+  "id": "ns.inflation",
+  "kind": "topic",
+  "slug": "inflation",
+  "title": "Inflation",
+  "href": "/topics/inflation",
+  "dek": "How quickly the general level of prices is changing — and one of the central variables around which Argentina's stabilization process is organized.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.headline_measures_inflation",
+      "relation_type": "measurement_of",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.headline_inflation",
+        "kind": "topic",
+        "slug": "headline-inflation",
+        "title": "Headline inflation",
+        "href": "/topics/headline-inflation"
+      }
+    },
+    {
+      "relation_id": "rel.core_measures_inflation",
+      "relation_type": "measurement_of",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.core_inflation",
+        "kind": "topic",
+        "slug": "core-inflation",
+        "title": "Core inflation",
+        "href": "/topics/core-inflation"
+      }
+    },
+    {
+      "relation_id": "rel.expectations_associated_future_inflation",
+      "relation_type": "associated_with",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.inflation_expectations",
+        "kind": "topic",
+        "slug": "inflation-expectations",
+        "title": "Inflation expectations",
+        "href": "/topics/inflation-expectations"
+      }
+    },
+    {
+      "relation_id": "rel.targeting_supports_inflation",
+      "relation_type": "economic_mechanism",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.monetary_targeting_framework",
+        "kind": "topic",
+        "slug": "monetary-targeting-framework",
+        "title": "Monetary targeting framework",
+        "href": "/topics/monetary-targeting-framework"
+      }
+    },
+    {
+      "relation_id": "rel.fx_gap_agenda_inflation",
+      "relation_type": "agenda_related",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.fx_gap",
+        "kind": "topic",
+        "slug": "fx-gap",
+        "title": "FX gap",
+        "href": "/topics/fx-gap"
+      }
+    },
+    {
+      "relation_id": "rel.official_fx_agenda_inflation",
+      "relation_type": "agenda_related",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.nominal_exchange_rate",
+        "kind": "topic",
+        "slug": "nominal-exchange-rate",
+        "title": "Nominal exchange rate",
+        "href": "/topics/nominal-exchange-rate"
+      }
+    },
+    {
+      "relation_id": "rel.rates_agenda_inflation",
+      "relation_type": "agenda_related",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.policy_rate",
+        "kind": "topic",
+        "slug": "policy-interest-rate",
+        "title": "Policy interest rate",
+        "href": "/topics/policy-interest-rate"
+      }
+    },
+    {
+      "relation_id": "rel.bcra_ops_agenda_inflation",
+      "relation_type": "agenda_related",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.bcra_fx_operations",
+        "kind": "topic",
+        "slug": "bcra-fx-operations",
+        "title": "BCRA FX operations",
+        "href": "/topics/bcra-fx-operations"
+      }
+    },
+    {
+      "relation_id": "rel.real_fx_agenda_inflation",
+      "relation_type": "agenda_related",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.real_exchange_rate",
+        "kind": "topic",
+        "slug": "real-exchange-rate",
+        "title": "Real exchange rate",
+        "href": "/topics/real-exchange-rate"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns01",
+      "kind": "question",
+      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating"
+    },
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed"
+    },
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices"
+    },
+    {
+      "id": "q.ns07",
+      "kind": "question",
+      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "title": "What inflation path does the market expect over the next months and year-end?",
+      "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end"
+    },
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.infl_acceleration",
+      "kind": "indicator",
+      "slug": "monthly-inflation-acceleration",
+      "title": "Monthly inflation acceleration",
+      "href": "/indicators/monthly-inflation-acceleration"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns01",
+      "kind": "chart",
+      "slug": "inflation-momentum-monthly-and-3-month-annualized",
+      "title": "Inflation momentum: monthly and 3-month annualized",
+      "href": "/charts/inflation-momentum-monthly-and-3-month-annualized"
+    },
+    {
+      "id": "pi.ns02",
+      "kind": "chart",
+      "slug": "monthly-inflation-with-acceleration-markers",
+      "title": "Monthly inflation with acceleration markers",
+      "href": "/charts/monthly-inflation-with-acceleration-markers"
+    },
+    {
+      "id": "pi.ns03",
+      "kind": "chart",
+      "slug": "headline-inflation-monthly-vs-year-over-year",
+      "title": "Headline inflation: monthly vs year-over-year",
+      "href": "/charts/headline-inflation-monthly-vs-year-over-year"
+    },
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023"
+    },
+    {
+      "id": "pi.ns09",
+      "kind": "chart",
+      "slug": "official-fx-change-vs-monthly-inflation",
+      "title": "Official FX change vs monthly inflation",
+      "href": "/charts/official-fx-change-vs-monthly-inflation"
+    },
+    {
+      "id": "pi.ns10",
+      "kind": "chart",
+      "slug": "rolling-fx-pass-through-estimate",
+      "title": "Rolling FX pass-through estimate",
+      "href": "/charts/rolling-fx-pass-through-estimate"
+    },
+    {
+      "id": "pi.ns13",
+      "kind": "chart",
+      "slug": "expected-inflation-path",
+      "title": "Expected inflation path",
+      "href": "/charts/expected-inflation-path"
+    },
+    {
+      "id": "pi.ns14",
+      "kind": "chart",
+      "slug": "inflation-expectations-fan-horizon-curve",
+      "title": "Inflation expectations fan / horizon curve",
+      "href": "/charts/inflation-expectations-fan-horizon-curve"
+    },
+    {
+      "id": "pi.ns39",
+      "kind": "chart",
+      "slug": "remonetization-vs-inflation",
+      "title": "Remonetization vs inflation",
+      "href": "/charts/remonetization-vs-inflation"
+    },
+    {
+      "id": "pi.ns40",
+      "kind": "chart",
+      "slug": "remonetization-vs-bcra-fx-purchases",
+      "title": "Remonetization vs BCRA FX purchases",
+      "href": "/charts/remonetization-vs-bcra-fx-purchases"
+    },
+    {
+      "id": "pi.ns41",
+      "kind": "chart",
+      "slug": "monetary-base-vs-transactional-m2",
+      "title": "Monetary base vs transactional M2",
+      "href": "/charts/monetary-base-vs-transactional-m2"
+    },
+    {
+      "id": "pi.ns50",
+      "kind": "chart",
+      "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
+      "title": "Inflation vs FX depreciation since stabilization start",
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
+      "distance": 1
+    },
+    {
+      "id": "q.ns01",
+      "kind": "question",
+      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "distance": 1
+    },
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "distance": 1
+    },
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "distance": 1
+    },
+    {
+      "id": "q.ns07",
+      "kind": "question",
+      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "title": "What inflation path does the market expect over the next months and year-end?",
+      "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "distance": 1
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations",
+      "distance": 1
+    },
+    {
+      "id": "ns.core_inflation",
+      "kind": "topic",
+      "slug": "core-inflation",
+      "title": "Core inflation",
+      "href": "/topics/core-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap",
+      "distance": 1
+    }
+  ],
+  "counts": {
+    "connections": 9,
+    "questions": 5,
+    "indicators": 1,
+    "charts": 12
+  }
+}

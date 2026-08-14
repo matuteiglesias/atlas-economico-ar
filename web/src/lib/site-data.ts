@@ -1,15 +1,16 @@
 import "server-only";
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
-import type { EntityPage, Navigation, RegionPage, TopicPage } from "./types";
+import type { EntityPage, Navigation, RegionPage, SearchItem, TopicPage } from "./types";
 
-const dataRoot = path.resolve(process.cwd(), "../site-data");
+const dataRoot = path.resolve(process.cwd(), "site-data");
 
 async function readJson<T>(relativePath: string): Promise<T> {
   return JSON.parse(await readFile(path.join(dataRoot, relativePath), "utf8")) as T;
 }
 
 export const getNavigation = () => readJson<Navigation>("navigation.json");
+export const getSearchIndex = () => readJson<SearchItem[]>("search-index.json");
 export const getTopic = (slug: string) => readJson<TopicPage>(`topics/${slug}.json`);
 export const getRegion = (slug: string) => readJson<RegionPage>(`regions/${slug}.json`);
 export const getEntity = (kind: "questions" | "indicators" | "charts", slug: string) =>

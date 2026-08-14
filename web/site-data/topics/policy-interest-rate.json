@@ -1,0 +1,206 @@
+{
+  "id": "ns.policy_rate",
+  "kind": "topic",
+  "slug": "policy-interest-rate",
+  "title": "Policy interest rate",
+  "href": "/topics/policy-interest-rate",
+  "dek": "Interest-rate instrument or policy-relevant short rate used to characterize monetary stance.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.real_rate_derived_policy_rate",
+      "relation_type": "derived_from",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.real_interest_rate",
+        "kind": "topic",
+        "slug": "real-interest-rate",
+        "title": "Real interest rate",
+        "href": "/topics/real-interest-rate"
+      }
+    },
+    {
+      "relation_id": "rel.policy_rate_affects_market_rate",
+      "relation_type": "economic_mechanism",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.money_market_rate",
+        "kind": "topic",
+        "slug": "money-market-rate",
+        "title": "Money-market rate",
+        "href": "/topics/money-market-rate"
+      }
+    },
+    {
+      "relation_id": "rel.rates_agenda_fx",
+      "relation_type": "agenda_related",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.nominal_exchange_rate",
+        "kind": "topic",
+        "slug": "nominal-exchange-rate",
+        "title": "Nominal exchange rate",
+        "href": "/topics/nominal-exchange-rate"
+      }
+    },
+    {
+      "relation_id": "rel.rates_agenda_inflation",
+      "relation_type": "agenda_related",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.inflation",
+        "kind": "topic",
+        "slug": "inflation",
+        "title": "Inflation",
+        "href": "/topics/inflation"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.policy_rate_nominal",
+      "kind": "indicator",
+      "slug": "nominal-policy-relevant-rate",
+      "title": "Nominal policy-relevant rate",
+      "href": "/indicators/nominal-policy-relevant-rate"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns27",
+      "kind": "chart",
+      "slug": "nominal-rates-vs-expected-inflation",
+      "title": "Nominal rates vs expected inflation",
+      "href": "/charts/nominal-rates-vs-expected-inflation"
+    },
+    {
+      "id": "pi.ns28",
+      "kind": "chart",
+      "slug": "ex-ante-vs-ex-post-real-rates",
+      "title": "Ex-ante vs ex-post real rates",
+      "href": "/charts/ex-ante-vs-ex-post-real-rates"
+    },
+    {
+      "id": "pi.ns29",
+      "kind": "chart",
+      "slug": "real-rate-regime-since-2025",
+      "title": "Real-rate regime since 2025",
+      "href": "/charts/real-rate-regime-since-2025"
+    },
+    {
+      "id": "pi.ns31",
+      "kind": "chart",
+      "slug": "policy-relevant-rate-vs-money-market-rate",
+      "title": "Policy-relevant rate vs money-market rate",
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate"
+    },
+    {
+      "id": "pi.ns49",
+      "kind": "chart",
+      "slug": "carry-environment-real-rates-vs-fx-depreciation",
+      "title": "Carry environment: real rates vs FX depreciation",
+      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms",
+      "distance": 1
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.real_interest_rate",
+      "kind": "topic",
+      "slug": "real-interest-rate",
+      "title": "Real interest rate",
+      "href": "/topics/real-interest-rate",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.policy_rate_nominal",
+      "kind": "indicator",
+      "slug": "nominal-policy-relevant-rate",
+      "title": "Nominal policy-relevant rate",
+      "href": "/indicators/nominal-policy-relevant-rate",
+      "distance": 1
+    },
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized",
+      "distance": 2
+    },
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 4,
+    "questions": 1,
+    "indicators": 1,
+    "charts": 5
+  }
+}
