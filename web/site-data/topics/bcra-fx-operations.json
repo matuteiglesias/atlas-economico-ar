@@ -1,0 +1,242 @@
+{
+  "id": "ns.bcra_fx_operations",
+  "kind": "topic",
+  "slug": "bcra-fx-operations",
+  "title": "BCRA FX operations",
+  "href": "/topics/bcra-fx-operations",
+  "dek": "Central-bank purchases or sales of foreign currency affecting market liquidity and reserve accumulation.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.money_demand_supports_fx_ops",
+      "relation_type": "enables",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.money_demand",
+        "kind": "topic",
+        "slug": "money-demand",
+        "title": "Money demand",
+        "href": "/topics/money-demand"
+      }
+    },
+    {
+      "relation_id": "rel.fx_ops_affect_fx",
+      "relation_type": "economic_mechanism",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.nominal_exchange_rate",
+        "kind": "topic",
+        "slug": "nominal-exchange-rate",
+        "title": "Nominal exchange rate",
+        "href": "/topics/nominal-exchange-rate"
+      }
+    },
+    {
+      "relation_id": "rel.fx_ops_affect_base",
+      "relation_type": "economic_mechanism",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.monetary_base",
+        "kind": "topic",
+        "slug": "monetary-base",
+        "title": "Monetary base",
+        "href": "/topics/monetary-base"
+      }
+    },
+    {
+      "relation_id": "rel.fx_ops_link_remonetization",
+      "relation_type": "policy_tradeoff",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.remonetization",
+        "kind": "topic",
+        "slug": "remonetization",
+        "title": "Remonetization",
+        "href": "/topics/remonetization"
+      }
+    },
+    {
+      "relation_id": "rel.bcra_ops_agenda_fx",
+      "relation_type": "agenda_related",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.nominal_exchange_rate",
+        "kind": "topic",
+        "slug": "nominal-exchange-rate",
+        "title": "Nominal exchange rate",
+        "href": "/topics/nominal-exchange-rate"
+      }
+    },
+    {
+      "relation_id": "rel.bcra_ops_agenda_inflation",
+      "relation_type": "agenda_related",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.inflation",
+        "kind": "topic",
+        "slug": "inflation",
+        "title": "Inflation",
+        "href": "/topics/inflation"
+      }
+    },
+    {
+      "relation_id": "rel.fx_ops_band_credibility",
+      "relation_type": "associated_with",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.exchange_rate_band",
+        "kind": "topic",
+        "slug": "exchange-rate-band",
+        "title": "Exchange-rate band",
+        "href": "/topics/exchange-rate-band"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "indicator",
+      "slug": "bcra-net-fx-purchases",
+      "title": "BCRA net FX purchases",
+      "href": "/indicators/bcra-net-fx-purchases"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns23",
+      "kind": "chart",
+      "slug": "bcra-daily-fx-purchases",
+      "title": "BCRA daily FX purchases",
+      "href": "/charts/bcra-daily-fx-purchases"
+    },
+    {
+      "id": "pi.ns24",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases",
+      "title": "Cumulative BCRA FX purchases",
+      "href": "/charts/cumulative-bcra-fx-purchases"
+    },
+    {
+      "id": "pi.ns25",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-official-exchange-rate",
+      "title": "BCRA purchases vs official exchange rate",
+      "href": "/charts/bcra-purchases-vs-official-exchange-rate"
+    },
+    {
+      "id": "pi.ns26",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-monetary-base-growth",
+      "title": "BCRA purchases vs monetary-base growth",
+      "href": "/charts/bcra-purchases-vs-monetary-base-growth"
+    },
+    {
+      "id": "pi.ns40",
+      "kind": "chart",
+      "slug": "remonetization-vs-bcra-fx-purchases",
+      "title": "Remonetization vs BCRA FX purchases",
+      "href": "/charts/remonetization-vs-bcra-fx-purchases"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "distance": 1
+    },
+    {
+      "id": "ns.exchange_rate_band",
+      "kind": "topic",
+      "slug": "exchange-rate-band",
+      "title": "Exchange-rate band",
+      "href": "/topics/exchange-rate-band",
+      "distance": 1
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base",
+      "distance": 1
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "distance": 1
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.remonetization",
+      "kind": "topic",
+      "slug": "remonetization",
+      "title": "Remonetization",
+      "href": "/topics/remonetization",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "indicator",
+      "slug": "bcra-net-fx-purchases",
+      "title": "BCRA net FX purchases",
+      "href": "/indicators/bcra-net-fx-purchases",
+      "distance": 1
+    }
+  ],
+  "counts": {
+    "connections": 7,
+    "questions": 1,
+    "indicators": 1,
+    "charts": 5
+  }
+}

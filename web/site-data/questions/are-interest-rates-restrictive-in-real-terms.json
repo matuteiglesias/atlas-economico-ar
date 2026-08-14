@@ -1,0 +1,191 @@
+{
+  "id": "q.ns12",
+  "kind": "question",
+  "slug": "are-interest-rates-restrictive-in-real-terms",
+  "title": "Are interest rates restrictive in real terms?",
+  "href": "/questions/are-interest-rates-restrictive-in-real-terms",
+  "dek": null,
+  "intro": null,
+  "questionFamily": "policy_stance",
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate"
+    },
+    {
+      "id": "ns.real_interest_rate",
+      "kind": "topic",
+      "slug": "real-interest-rate",
+      "title": "Real interest rate",
+      "href": "/topics/real-interest-rate"
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.infl_exp_3m",
+      "kind": "indicator",
+      "slug": "expected-inflation-three-months-ahead",
+      "title": "Expected inflation three months ahead",
+      "href": "/indicators/expected-inflation-three-months-ahead"
+    },
+    {
+      "id": "ci.ns.official_fx_monthly_change",
+      "kind": "indicator",
+      "slug": "official-fx-monthly-change",
+      "title": "Official FX monthly change",
+      "href": "/indicators/official-fx-monthly-change"
+    },
+    {
+      "id": "ci.ns.tamar_nominal",
+      "kind": "indicator",
+      "slug": "tamar-nominal-rate",
+      "title": "TAMAR nominal rate",
+      "href": "/indicators/tamar-nominal-rate"
+    },
+    {
+      "id": "ci.ns.tamar_real_exante",
+      "kind": "indicator",
+      "slug": "tamar-ex-ante-real-rate",
+      "title": "TAMAR ex-ante real rate",
+      "href": "/indicators/tamar-ex-ante-real-rate"
+    },
+    {
+      "id": "ci.ns.tamar_real_expost",
+      "kind": "indicator",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/indicators/tamar-ex-post-real-rate"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns27",
+      "kind": "chart",
+      "slug": "nominal-rates-vs-expected-inflation",
+      "title": "Nominal rates vs expected inflation",
+      "href": "/charts/nominal-rates-vs-expected-inflation"
+    },
+    {
+      "id": "pi.ns28",
+      "kind": "chart",
+      "slug": "ex-ante-vs-ex-post-real-rates",
+      "title": "Ex-ante vs ex-post real rates",
+      "href": "/charts/ex-ante-vs-ex-post-real-rates"
+    },
+    {
+      "id": "pi.ns29",
+      "kind": "chart",
+      "slug": "real-rate-regime-since-2025",
+      "title": "Real-rate regime since 2025",
+      "href": "/charts/real-rate-regime-since-2025"
+    },
+    {
+      "id": "pi.ns49",
+      "kind": "chart",
+      "slug": "carry-environment-real-rates-vs-fx-depreciation",
+      "title": "Carry environment: real rates vs FX depreciation",
+      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "distance": 1
+    },
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.real_interest_rate",
+      "kind": "topic",
+      "slug": "real-interest-rate",
+      "title": "Real interest rate",
+      "href": "/topics/real-interest-rate",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns49",
+      "kind": "chart",
+      "slug": "carry-environment-real-rates-vs-fx-depreciation",
+      "title": "Carry environment: real rates vs FX depreciation",
+      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns28",
+      "kind": "chart",
+      "slug": "ex-ante-vs-ex-post-real-rates",
+      "title": "Ex-ante vs ex-post real rates",
+      "href": "/charts/ex-ante-vs-ex-post-real-rates",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns27",
+      "kind": "chart",
+      "slug": "nominal-rates-vs-expected-inflation",
+      "title": "Nominal rates vs expected inflation",
+      "href": "/charts/nominal-rates-vs-expected-inflation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns29",
+      "kind": "chart",
+      "slug": "real-rate-regime-since-2025",
+      "title": "Real-rate regime since 2025",
+      "href": "/charts/real-rate-regime-since-2025",
+      "distance": 1
+    },
+    {
+      "id": "q.ns06",
+      "kind": "question",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "topics": 3,
+    "indicators": 5,
+    "charts": 4
+  }
+}

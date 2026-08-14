@@ -1,0 +1,31 @@
+{
+  "id": "external_financial_constraint",
+  "kind": "region",
+  "slug": "external-financial-constraint",
+  "title": "External & Financial Constraint",
+  "href": "/areas/external-financial-constraint",
+  "dek": "Explain external buffers, reserve adequacy, financing, market access, sovereign risk, balance-of-payments pressure, and financial-sector depth/vulnerability.",
+  "intro": null,
+  "populated": false,
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    }
+  ],
+  "stats": {
+    "topics": 0,
+    "questions": 0,
+    "indicators": 0,
+    "charts": 0,
+    "relations": 0
+  },
+  "topics": [],
+  "questions": [],
+  "indicators": [],
+  "charts": [],
+  "localGraph": {
+    "nodes": [],
+    "edges": []
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "q.ns10",
+  "kind": "question",
+  "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+  "title": "How much has the peso appreciated or depreciated in real terms?",
+  "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+  "dek": null,
+  "intro": null,
+  "questionFamily": "historical_comparison",
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate"
+    },
+    {
+      "id": "ns.real_exchange_rate",
+      "kind": "topic",
+      "slug": "real-exchange-rate",
+      "title": "Real exchange rate",
+      "href": "/topics/real-exchange-rate"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.official_fx",
+      "kind": "indicator",
+      "slug": "official-ars-usd-exchange-rate",
+      "title": "Official ARS/USD exchange rate",
+      "href": "/indicators/official-ars-usd-exchange-rate"
+    },
+    {
+      "id": "ci.ns.reer_change_dec2023",
+      "kind": "indicator",
+      "slug": "reer-change-since-dec-2023",
+      "title": "REER change since Dec-2023",
+      "href": "/indicators/reer-change-since-dec-2023"
+    },
+    {
+      "id": "ci.ns.reer_index",
+      "kind": "indicator",
+      "slug": "real-effective-exchange-rate-index",
+      "title": "Real effective exchange-rate index",
+      "href": "/indicators/real-effective-exchange-rate-index"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns20",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate-since-dec-2023",
+      "title": "Real effective exchange rate since Dec-2023",
+      "href": "/charts/real-effective-exchange-rate-since-dec-2023"
+    },
+    {
+      "id": "pi.ns21",
+      "kind": "chart",
+      "slug": "nominal-vs-real-exchange-rate-movement",
+      "title": "Nominal vs real exchange-rate movement",
+      "href": "/charts/nominal-vs-real-exchange-rate-movement"
+    },
+    {
+      "id": "pi.ns22",
+      "kind": "chart",
+      "slug": "real-exchange-rate-with-major-policy-regime-markers",
+      "title": "Real exchange rate with major policy-regime markers",
+      "href": "/charts/real-exchange-rate-with-major-policy-regime-markers"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.real_exchange_rate",
+      "kind": "topic",
+      "slug": "real-exchange-rate",
+      "title": "Real exchange rate",
+      "href": "/topics/real-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns21",
+      "kind": "chart",
+      "slug": "nominal-vs-real-exchange-rate-movement",
+      "title": "Nominal vs real exchange-rate movement",
+      "href": "/charts/nominal-vs-real-exchange-rate-movement",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns20",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate-since-dec-2023",
+      "title": "Real effective exchange rate since Dec-2023",
+      "href": "/charts/real-effective-exchange-rate-since-dec-2023",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns22",
+      "kind": "chart",
+      "slug": "real-exchange-rate-with-major-policy-regime-markers",
+      "title": "Real exchange rate with major policy-regime markers",
+      "href": "/charts/real-exchange-rate-with-major-policy-regime-markers",
+      "distance": 1
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "distance": 2
+    },
+    {
+      "id": "q.ns09",
+      "kind": "question",
+      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "title": "How large is the gap between official and parallel exchange rates?",
+      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "distance": 2
+    },
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "topics": 2,
+    "indicators": 3,
+    "charts": 3
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "pi.ns16",
+  "kind": "chart",
+  "slug": "position-inside-fx-band",
+  "title": "Position inside FX band",
+  "href": "/charts/position-inside-fx-band",
+  "dek": "Normalize the exchange rate's location within the band to 0-100.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns08",
+      "kind": "question",
+      "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
+      "title": "Where is the official exchange rate inside the policy band?",
+      "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.exchange_rate_band",
+      "kind": "topic",
+      "slug": "exchange-rate-band",
+      "title": "Exchange-rate band",
+      "href": "/topics/exchange-rate-band"
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.fx_band_position",
+      "kind": "indicator",
+      "slug": "official-fx-position-within-band",
+      "title": "Official FX position within band",
+      "href": "/indicators/official-fx-position-within-band"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.apr_2025_fx_framework"
+  ],
+  "chartSpec": {
+    "id": "cs.ns16",
+    "templateId": "normalized_band_position_line",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ns08",
+      "kind": "question",
+      "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
+      "title": "Where is the official exchange rate inside the policy band?",
+      "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.fx_band_position",
+      "kind": "indicator",
+      "slug": "official-fx-position-within-band",
+      "title": "Official FX position within band",
+      "href": "/indicators/official-fx-position-within-band",
+      "distance": 1
+    },
+    {
+      "id": "ns.exchange_rate_band",
+      "kind": "topic",
+      "slug": "exchange-rate-band",
+      "title": "Exchange-rate band",
+      "href": "/topics/exchange-rate-band",
+      "distance": 2
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns15",
+      "kind": "chart",
+      "slug": "official-exchange-rate-within-the-band",
+      "title": "Official exchange rate within the band",
+      "href": "/charts/official-exchange-rate-within-the-band",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 2,
+    "indicators": 1
+  }
+}

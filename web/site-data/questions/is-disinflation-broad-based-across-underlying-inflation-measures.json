@@ -1,0 +1,177 @@
+{
+  "id": "q.ns03",
+  "kind": "question",
+  "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
+  "title": "Is disinflation broad-based across underlying inflation measures?",
+  "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
+  "dek": null,
+  "intro": null,
+  "questionFamily": "breadth",
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.core_inflation",
+      "kind": "topic",
+      "slug": "core-inflation",
+      "title": "Core inflation",
+      "href": "/topics/core-inflation"
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.core_3m_ann",
+      "kind": "indicator",
+      "slug": "core-cpi-3-month-annualized",
+      "title": "Core CPI, 3-month annualized",
+      "href": "/indicators/core-cpi-3-month-annualized"
+    },
+    {
+      "id": "ci.ns.cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "headline-cpi-3-month-annualized",
+      "title": "Headline CPI, 3-month annualized",
+      "href": "/indicators/headline-cpi-3-month-annualized"
+    },
+    {
+      "id": "ci.ns.trimmed_cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-cpi-3-month-annualized",
+      "title": "Trimmed CPI, 3-month annualized",
+      "href": "/indicators/trimmed-cpi-3-month-annualized"
+    },
+    {
+      "id": "ci.ns.trimmed_goods_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-goods-inflation-3-month-annualized",
+      "title": "Trimmed goods inflation, 3-month annualized",
+      "href": "/indicators/trimmed-goods-inflation-3-month-annualized"
+    },
+    {
+      "id": "ci.ns.trimmed_services_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-services-inflation-3-month-annualized",
+      "title": "Trimmed services inflation, 3-month annualized",
+      "href": "/indicators/trimmed-services-inflation-3-month-annualized"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ns05",
+      "kind": "chart",
+      "slug": "headline-vs-core-inflation",
+      "title": "Headline vs core inflation",
+      "href": "/charts/headline-vs-core-inflation"
+    },
+    {
+      "id": "pi.ns06",
+      "kind": "chart",
+      "slug": "multiple-measures-of-core-inflation",
+      "title": "Multiple measures of core inflation",
+      "href": "/charts/multiple-measures-of-core-inflation"
+    },
+    {
+      "id": "pi.ns51",
+      "kind": "chart",
+      "slug": "core-services-vs-core-goods-inflation",
+      "title": "Core services vs core goods inflation",
+      "href": "/charts/core-services-vs-core-goods-inflation"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ns.core_inflation",
+      "kind": "topic",
+      "slug": "core-inflation",
+      "title": "Core inflation",
+      "href": "/topics/core-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns51",
+      "kind": "chart",
+      "slug": "core-services-vs-core-goods-inflation",
+      "title": "Core services vs core goods inflation",
+      "href": "/charts/core-services-vs-core-goods-inflation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns05",
+      "kind": "chart",
+      "slug": "headline-vs-core-inflation",
+      "title": "Headline vs core inflation",
+      "href": "/charts/headline-vs-core-inflation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns06",
+      "kind": "chart",
+      "slug": "multiple-measures-of-core-inflation",
+      "title": "Multiple measures of core inflation",
+      "href": "/charts/multiple-measures-of-core-inflation",
+      "distance": 1
+    },
+    {
+      "id": "q.ns06",
+      "kind": "question",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "distance": 2
+    },
+    {
+      "id": "q.ns01",
+      "kind": "question",
+      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "distance": 2
+    },
+    {
+      "id": "q.ns04",
+      "kind": "question",
+      "slug": "what-is-driving-monthly-inflation",
+      "title": "What is driving monthly inflation?",
+      "href": "/questions/what-is-driving-monthly-inflation",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "topics": 2,
+    "indicators": 5,
+    "charts": 3
+  }
+}
