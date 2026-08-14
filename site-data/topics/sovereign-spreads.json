@@ -1,0 +1,215 @@
+{
+  "id": "ef.sovereign_spreads",
+  "kind": "topic",
+  "slug": "sovereign-spreads",
+  "title": "Sovereign spreads",
+  "href": "/topics/sovereign-spreads",
+  "dek": "The market premium investors demand to hold Argentine sovereign debt relative to a lower-risk benchmark.",
+  "intro": "Spreads compress a large amount of information into one market price: debt sustainability, policy credibility, global risk appetite, refinancing pressure, and expected recovery values. They are therefore valuable state indicators, but should not be interpreted as a clean measure of any single causal mechanism.",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.sovereign_risk_spreads",
+      "relation_type": "measurement_of",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.sovereign_risk",
+        "kind": "topic",
+        "slug": "sovereign-risk",
+        "title": "Sovereign risk",
+        "href": "/topics/sovereign-risk"
+      }
+    },
+    {
+      "relation_id": "rel.ef.credibility_spreads_port",
+      "relation_type": "associated_with",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.policy_credibility",
+        "kind": "topic",
+        "slug": "policy-credibility",
+        "title": "Policy credibility",
+        "href": "/topics/policy-credibility"
+      }
+    },
+    {
+      "relation_id": "rel.ef.spreads_constrain_access",
+      "relation_type": "constraint_on",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.market_access",
+        "kind": "topic",
+        "slug": "international-market-access",
+        "title": "International market access",
+        "href": "/topics/international-market-access"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access"
+    },
+    {
+      "id": "q.ef09",
+      "kind": "question",
+      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "title": "Why can reserves rise while sovereign risk stays high?",
+      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.sovereign_spread_bps",
+      "kind": "indicator",
+      "slug": "sovereign-spread",
+      "title": "Sovereign spread",
+      "href": "/indicators/sovereign-spread"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef17",
+      "kind": "chart",
+      "slug": "sovereign-spreads-through-the-market-re-entry-window",
+      "title": "Sovereign spreads through the market re-entry window",
+      "href": "/charts/sovereign-spreads-through-the-market-re-entry-window"
+    },
+    {
+      "id": "pi.ef18",
+      "kind": "chart",
+      "slug": "sovereign-and-corporate-spreads",
+      "title": "Sovereign and corporate spreads",
+      "href": "/charts/sovereign-and-corporate-spreads"
+    },
+    {
+      "id": "pi.ef19",
+      "kind": "chart",
+      "slug": "fx-issuance-volumes-by-issuer-type",
+      "title": "FX issuance volumes by issuer type",
+      "href": "/charts/fx-issuance-volumes-by-issuer-type"
+    },
+    {
+      "id": "pi.ef20",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-sovereign-spreads",
+      "title": "Reserve accumulation versus sovereign spreads",
+      "href": "/charts/reserve-accumulation-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef21",
+      "kind": "chart",
+      "slug": "gross-reserves-versus-sovereign-spreads",
+      "title": "Gross reserves versus sovereign spreads",
+      "href": "/charts/gross-reserves-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef43",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-sovereign-spreads",
+      "title": "BCRA FX purchases versus sovereign spreads",
+      "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access",
+      "distance": 1
+    },
+    {
+      "id": "q.ef09",
+      "kind": "question",
+      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "title": "Why can reserves rise while sovereign risk stays high?",
+      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "distance": 1
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access",
+      "distance": 1
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility",
+      "distance": 1
+    },
+    {
+      "id": "ef.sovereign_risk",
+      "kind": "topic",
+      "slug": "sovereign-risk",
+      "title": "Sovereign risk",
+      "href": "/topics/sovereign-risk",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.sovereign_spread_bps",
+      "kind": "indicator",
+      "slug": "sovereign-spread",
+      "title": "Sovereign spread",
+      "href": "/indicators/sovereign-spread",
+      "distance": 1
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint",
+      "distance": 2
+    },
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 3,
+    "questions": 2,
+    "indicators": 1,
+    "charts": 7
+  }
+}

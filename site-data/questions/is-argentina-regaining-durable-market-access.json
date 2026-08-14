@@ -1,0 +1,205 @@
+{
+  "id": "q.ef08",
+  "kind": "question",
+  "slug": "is-argentina-regaining-durable-market-access",
+  "title": "Is Argentina regaining durable market access?",
+  "href": "/questions/is-argentina-regaining-durable-market-access",
+  "dek": "Read spreads, issuance volumes, issuer breadth, and maturity conditions together.",
+  "intro": "Market access is stronger when financing becomes repeatable rather than exceptional. Falling spreads matter, but so do the number of issuers returning to market, the tenor of new debt, and whether refinancing can occur without relying on temporary official facilities.",
+  "questionFamily": "market_access",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access"
+    },
+    {
+      "id": "ef.sovereign_spreads",
+      "kind": "topic",
+      "slug": "sovereign-spreads",
+      "title": "Sovereign spreads",
+      "href": "/topics/sovereign-spreads"
+    },
+    {
+      "id": "ef.fx_market_issuance",
+      "kind": "topic",
+      "slug": "fx-market-issuance",
+      "title": "FX market issuance",
+      "href": "/topics/fx-market-issuance"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.corporate_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "corporate-fx-issuance",
+      "title": "Corporate FX issuance",
+      "href": "/indicators/corporate-fx-issuance"
+    },
+    {
+      "id": "ci.ef.corporate_spread_bps",
+      "kind": "indicator",
+      "slug": "corporate-spread",
+      "title": "Corporate spread",
+      "href": "/indicators/corporate-spread"
+    },
+    {
+      "id": "ci.ef.current_account_gdp",
+      "kind": "indicator",
+      "slug": "current-account-balance-as-share-of-gdp",
+      "title": "Current account balance as share of GDP",
+      "href": "/indicators/current-account-balance-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.nir_usd",
+      "kind": "indicator",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/indicators/net-international-reserves"
+    },
+    {
+      "id": "ci.ef.public_fx_debt_service_12m",
+      "kind": "indicator",
+      "slug": "public-sector-fx-debt-service-next-12-months",
+      "title": "Public-sector FX debt service next 12 months",
+      "href": "/indicators/public-sector-fx-debt-service-next-12-months"
+    },
+    {
+      "id": "ci.ef.public_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "public-and-provincial-fx-issuance",
+      "title": "Public and provincial FX issuance",
+      "href": "/indicators/public-and-provincial-fx-issuance"
+    },
+    {
+      "id": "ci.ef.sovereign_spread_bps",
+      "kind": "indicator",
+      "slug": "sovereign-spread",
+      "title": "Sovereign spread",
+      "href": "/indicators/sovereign-spread"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef17",
+      "kind": "chart",
+      "slug": "sovereign-spreads-through-the-market-re-entry-window",
+      "title": "Sovereign spreads through the market re-entry window",
+      "href": "/charts/sovereign-spreads-through-the-market-re-entry-window"
+    },
+    {
+      "id": "pi.ef18",
+      "kind": "chart",
+      "slug": "sovereign-and-corporate-spreads",
+      "title": "Sovereign and corporate spreads",
+      "href": "/charts/sovereign-and-corporate-spreads"
+    },
+    {
+      "id": "pi.ef19",
+      "kind": "chart",
+      "slug": "fx-issuance-volumes-by-issuer-type",
+      "title": "FX issuance volumes by issuer type",
+      "href": "/charts/fx-issuance-volumes-by-issuer-type"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ef.fx_market_issuance",
+      "kind": "topic",
+      "slug": "fx-market-issuance",
+      "title": "FX market issuance",
+      "href": "/topics/fx-market-issuance",
+      "distance": 1
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access",
+      "distance": 1
+    },
+    {
+      "id": "ef.sovereign_spreads",
+      "kind": "topic",
+      "slug": "sovereign-spreads",
+      "title": "Sovereign spreads",
+      "href": "/topics/sovereign-spreads",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef19",
+      "kind": "chart",
+      "slug": "fx-issuance-volumes-by-issuer-type",
+      "title": "FX issuance volumes by issuer type",
+      "href": "/charts/fx-issuance-volumes-by-issuer-type",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef18",
+      "kind": "chart",
+      "slug": "sovereign-and-corporate-spreads",
+      "title": "Sovereign and corporate spreads",
+      "href": "/charts/sovereign-and-corporate-spreads",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef17",
+      "kind": "chart",
+      "slug": "sovereign-spreads-through-the-market-re-entry-window",
+      "title": "Sovereign spreads through the market re-entry window",
+      "href": "/charts/sovereign-spreads-through-the-market-re-entry-window",
+      "distance": 1
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "topics": 3,
+    "indicators": 7,
+    "charts": 4
+  }
+}

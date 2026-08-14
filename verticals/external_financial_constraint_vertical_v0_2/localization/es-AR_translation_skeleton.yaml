@@ -1,0 +1,550 @@
+schema_version: '0.1'
+locale: es-AR
+translation_policy:
+  do_not_translate_ids: true
+  do_not_change_slugs_in_v0_1: true
+  fields_to_translate:
+  - title
+  - dek
+  - intro
+entities:
+  external_financial_constraint:
+    title: null
+    dek: null
+    intro: null
+  ef.external_position:
+    title: null
+    dek: null
+    intro: null
+  ef.gross_reserves:
+    title: null
+    dek: null
+    intro: null
+  ef.net_international_reserves:
+    title: null
+    dek: null
+    intro: null
+  ef.liquid_reserve_buffers:
+    title: null
+    dek: null
+    intro: null
+  ef.reserve_adequacy:
+    title: null
+    dek: null
+    intro: null
+  ef.reserve_accumulation:
+    title: null
+    dek: null
+    intro: null
+  ef.current_account:
+    title: null
+    dek: null
+    intro: null
+  ef.goods_trade_balance:
+    title: null
+    dek: null
+    intro: null
+  ef.services_balance:
+    title: null
+    dek: null
+    intro: null
+  ef.primary_income_balance:
+    title: null
+    dek: null
+    intro: null
+  ef.financial_account:
+    title: null
+    dek: null
+    intro: null
+  ef.capital_inflows:
+    title: null
+    dek: null
+    intro: null
+  ef.resident_fx_hedging:
+    title: null
+    dek: null
+    intro: null
+  ef.foreign_direct_investment:
+    title: null
+    dek: null
+    intro: null
+  ef.market_access:
+    title: null
+    dek: null
+    intro: null
+  ef.sovereign_risk:
+    title: null
+    dek: null
+    intro: null
+  ef.sovereign_spreads:
+    title: null
+    dek: null
+    intro: null
+  ef.external_public_debt:
+    title: null
+    dek: null
+    intro: null
+  ef.fx_debt_service:
+    title: null
+    dek: null
+    intro: null
+  ef.refinancing_needs:
+    title: null
+    dek: null
+    intro: null
+  ef.official_external_financing:
+    title: null
+    dek: null
+    intro: null
+  ef.swap_repo_financing:
+    title: null
+    dek: null
+    intro: null
+  ef.fx_market_issuance:
+    title: null
+    dek: null
+    intro: null
+  ef.financial_depth:
+    title: null
+    dek: null
+    intro: null
+  ef.private_credit:
+    title: null
+    dek: null
+    intro: null
+  ef.credit_quality:
+    title: null
+    dek: null
+    intro: null
+  ef.fx_deposits:
+    title: null
+    dek: null
+    intro: null
+  ef.domestic_capital_market_depth:
+    title: null
+    dek: null
+    intro: null
+  ef.domestic_savings_mobilization:
+    title: null
+    dek: null
+    intro: null
+  ef.external_vulnerability:
+    title: null
+    dek: null
+    intro: null
+  q.ef01:
+    title: null
+    dek: null
+    intro: null
+  q.ef02:
+    title: null
+    dek: null
+    intro: null
+  q.ef03:
+    title: null
+    dek: null
+    intro: null
+  q.ef04:
+    title: null
+    dek: null
+    intro: null
+  q.ef05:
+    title: null
+    dek: null
+    intro: null
+  q.ef06:
+    title: null
+    dek: null
+    intro: null
+  q.ef07:
+    title: null
+    dek: null
+    intro: null
+  q.ef08:
+    title: null
+    dek: null
+    intro: null
+  q.ef09:
+    title: null
+    dek: null
+    intro: null
+  q.ef10:
+    title: null
+    dek: null
+    intro: null
+  q.ef11:
+    title: null
+    dek: null
+    intro: null
+  q.ef12:
+    title: null
+    dek: null
+    intro: null
+  q.ef13:
+    title: null
+    dek: null
+    intro: null
+  q.ef14:
+    title: null
+    dek: null
+    intro: null
+  q.ef15:
+    title: null
+    dek: null
+    intro: null
+  q.ef16:
+    title: null
+    dek: null
+    intro: null
+  q.ef17:
+    title: null
+    dek: null
+    intro: null
+  q.ef18:
+    title: null
+    dek: null
+    intro: null
+  q.ef19:
+    title: null
+    dek: null
+    intro: null
+  q.ef20:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.gross_reserves_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.nir_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.liquid_reserve_buffer_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.reserve_change_monthly:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.nir_change_monthly:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.reserve_accumulation_ytd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.import_cover_months:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.nir_to_gross_ratio:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.reserve_to_fx_service_ratio:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.current_account_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.current_account_gdp:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.goods_balance_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.services_balance_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.primary_income_balance_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.financial_account_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.fdi_net_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.private_financial_flows_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.public_financial_flows_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.capital_inflows_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.external_debt_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.external_debt_gdp:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.public_fx_debt_service_12m:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.market_fx_redemptions_12m:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.imf_obligations_12m:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.sovereign_spread_bps:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.corporate_spread_bps:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.public_fx_issuance_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.corporate_fx_issuance_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.official_external_financing_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.swap_liabilities_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.repo_liabilities_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.private_credit_gdp:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.real_private_credit_growth:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.npl_ratio:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.fx_deposits_usd:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.fx_deposit_share:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.bank_capital_ratio:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.bank_liquidity_ratio:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.assets_outside_system_gdp:
+    title: null
+    dek: null
+    intro: null
+  ci.ef.domestic_market_depth_gdp:
+    title: null
+    dek: null
+    intro: null
+  pi.ef01:
+    title: null
+    dek: null
+    intro: null
+  pi.ef02:
+    title: null
+    dek: null
+    intro: null
+  pi.ef03:
+    title: null
+    dek: null
+    intro: null
+  pi.ef04:
+    title: null
+    dek: null
+    intro: null
+  pi.ef05:
+    title: null
+    dek: null
+    intro: null
+  pi.ef06:
+    title: null
+    dek: null
+    intro: null
+  pi.ef07:
+    title: null
+    dek: null
+    intro: null
+  pi.ef08:
+    title: null
+    dek: null
+    intro: null
+  pi.ef09:
+    title: null
+    dek: null
+    intro: null
+  pi.ef10:
+    title: null
+    dek: null
+    intro: null
+  pi.ef11:
+    title: null
+    dek: null
+    intro: null
+  pi.ef12:
+    title: null
+    dek: null
+    intro: null
+  pi.ef13:
+    title: null
+    dek: null
+    intro: null
+  pi.ef14:
+    title: null
+    dek: null
+    intro: null
+  pi.ef15:
+    title: null
+    dek: null
+    intro: null
+  pi.ef16:
+    title: null
+    dek: null
+    intro: null
+  pi.ef17:
+    title: null
+    dek: null
+    intro: null
+  pi.ef18:
+    title: null
+    dek: null
+    intro: null
+  pi.ef19:
+    title: null
+    dek: null
+    intro: null
+  pi.ef20:
+    title: null
+    dek: null
+    intro: null
+  pi.ef21:
+    title: null
+    dek: null
+    intro: null
+  pi.ef22:
+    title: null
+    dek: null
+    intro: null
+  pi.ef23:
+    title: null
+    dek: null
+    intro: null
+  pi.ef24:
+    title: null
+    dek: null
+    intro: null
+  pi.ef25:
+    title: null
+    dek: null
+    intro: null
+  pi.ef26:
+    title: null
+    dek: null
+    intro: null
+  pi.ef27:
+    title: null
+    dek: null
+    intro: null
+  pi.ef28:
+    title: null
+    dek: null
+    intro: null
+  pi.ef29:
+    title: null
+    dek: null
+    intro: null
+  pi.ef30:
+    title: null
+    dek: null
+    intro: null
+  pi.ef31:
+    title: null
+    dek: null
+    intro: null
+  pi.ef32:
+    title: null
+    dek: null
+    intro: null
+  pi.ef33:
+    title: null
+    dek: null
+    intro: null
+  pi.ef34:
+    title: null
+    dek: null
+    intro: null
+  pi.ef35:
+    title: null
+    dek: null
+    intro: null
+  pi.ef36:
+    title: null
+    dek: null
+    intro: null
+  pi.ef37:
+    title: null
+    dek: null
+    intro: null
+  pi.ef38:
+    title: null
+    dek: null
+    intro: null
+  pi.ef39:
+    title: null
+    dek: null
+    intro: null
+  pi.ef40:
+    title: null
+    dek: null
+    intro: null
+  pi.ef41:
+    title: null
+    dek: null
+    intro: null
+  pi.ef42:
+    title: null
+    dek: null
+    intro: null
+  pi.ef43:
+    title: null
+    dek: null
+    intro: null
+  pi.ef44:
+    title: null
+    dek: null
+    intro: null

@@ -1,0 +1,93 @@
+derived_indicators:
+- id: di.ef.nir_to_gross
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  output_indicator_id: ci.ef.nir_to_gross_ratio
+  input_indicator_ids:
+  - ci.ef.nir_usd
+  - ci.ef.gross_reserves_usd
+  methodology: divide NIR by gross reserves using consistent period-end observations
+  methodology_status: specified_v0_2_requires_series_binding_validation
+  provenance:
+    model_prior_used: true
+    imf_2026_refs:
+    - External sector / financial system discussion
+    - Figures 2, 6 and 7
+- id: di.ef.import_cover
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  output_indicator_id: ci.ef.import_cover_months
+  input_indicator_ids:
+  - ci.ef.gross_reserves_usd
+  methodology: divide gross reserves by a trailing monthly import flow consistent with the chosen BOP/trade series
+  methodology_status: specified_v0_2_requires_series_binding_validation
+  provenance:
+    model_prior_used: true
+    imf_2026_refs:
+    - External sector / financial system discussion
+    - Figures 2, 6 and 7
+- id: di.ef.reserve_fx_service
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  output_indicator_id: ci.ef.reserve_to_fx_service_ratio
+  input_indicator_ids:
+  - ci.ef.gross_reserves_usd
+  - ci.ef.public_fx_debt_service_12m
+  methodology: divide gross reserves by public-sector FX debt service due over the next 12 months
+  methodology_status: specified_v0_2_requires_series_binding_validation
+  provenance:
+    model_prior_used: true
+    imf_2026_refs:
+    - External sector / financial system discussion
+    - Figures 2, 6 and 7
+- id: di.ef.current_account_gdp
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  output_indicator_id: ci.ef.current_account_gdp
+  input_indicator_ids:
+  - ci.ef.current_account_usd
+  methodology: divide current-account balance by nominal GDP using matched quarterly/annual scaling
+  methodology_status: specified_v0_2_requires_series_binding_validation
+  provenance:
+    model_prior_used: true
+    imf_2026_refs:
+    - External sector / financial system discussion
+    - Figures 2, 6 and 7
+- id: di.ef.fx_deposit_share
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  output_indicator_id: ci.ef.fx_deposit_share
+  input_indicator_ids:
+  - ci.ef.fx_deposits_usd
+  methodology: divide FX deposits by total deposits after currency conversion under a documented convention
+  methodology_status: specified_v0_2_requires_series_binding_validation
+  provenance:
+    model_prior_used: true
+    imf_2026_refs:
+    - External sector / financial system discussion
+    - Figures 2, 6 and 7

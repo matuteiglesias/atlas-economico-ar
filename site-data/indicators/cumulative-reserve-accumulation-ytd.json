@@ -1,0 +1,121 @@
+{
+  "id": "ci.ef.reserve_accumulation_ytd",
+  "kind": "indicator",
+  "slug": "cumulative-reserve-accumulation-ytd",
+  "title": "Cumulative reserve accumulation YTD",
+  "href": "/indicators/cumulative-reserve-accumulation-ytd",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topic": {
+    "id": "ef.reserve_accumulation",
+    "kind": "topic",
+    "slug": "reserve-accumulation",
+    "title": "Reserve accumulation",
+    "href": "/topics/reserve-accumulation"
+  },
+  "unitSemantics": "usd_billions",
+  "frequency": "daily",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ef04",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
+      "title": "Reserve accumulation versus next-12m FX debt service",
+      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef04",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
+      "title": "Reserve accumulation versus next-12m FX debt service",
+      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service",
+      "distance": 1
+    },
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
+      "distance": 2
+    },
+    {
+      "id": "q.ef02",
+      "kind": "question",
+      "slug": "are-reserves-rebuilding-fast-enough",
+      "title": "Are reserves rebuilding fast enough?",
+      "href": "/questions/are-reserves-rebuilding-fast-enough",
+      "distance": 2
+    },
+    {
+      "id": "q.ef07",
+      "kind": "question",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "href": "/questions/has-fx-hedging-pressure-normalized",
+      "distance": 2
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "distance": 2
+    },
+    {
+      "id": "q.ef10",
+      "kind": "question",
+      "slug": "how-large-is-the-near-term-fx-maturity-wall",
+      "title": "How large is the near-term FX maturity wall?",
+      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
+      "distance": 2
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 1,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 0
+  }
+}

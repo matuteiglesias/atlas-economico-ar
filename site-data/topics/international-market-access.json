@@ -1,0 +1,286 @@
+{
+  "id": "ef.market_access",
+  "kind": "topic",
+  "slug": "international-market-access",
+  "title": "International market access",
+  "href": "/topics/international-market-access",
+  "dek": "The ability to refinance and raise foreign-currency funding at terms that can be sustained over time.",
+  "intro": "A successful bond issue is evidence of access, but not necessarily of durable access. The broader question is whether multiple issuers can return to markets repeatedly, whether maturities lengthen, and whether spreads fall enough for refinancing to stop depending on exceptional official or secured financing.",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.spreads_constrain_access",
+      "relation_type": "constraint_on",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.sovereign_spreads",
+        "kind": "topic",
+        "slug": "sovereign-spreads",
+        "title": "Sovereign spreads",
+        "href": "/topics/sovereign-spreads"
+      }
+    },
+    {
+      "relation_id": "rel.ef.refi_constrains_access",
+      "relation_type": "constraint_on",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.refinancing_needs",
+        "kind": "topic",
+        "slug": "external-refinancing-needs",
+        "title": "External refinancing needs",
+        "href": "/topics/external-refinancing-needs"
+      }
+    },
+    {
+      "relation_id": "rel.ef.issuance_enables_access",
+      "relation_type": "associated_with",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.fx_market_issuance",
+        "kind": "topic",
+        "slug": "fx-market-issuance",
+        "title": "FX market issuance",
+        "href": "/topics/fx-market-issuance"
+      }
+    },
+    {
+      "relation_id": "rel.ef.credibility_access_port",
+      "relation_type": "associated_with",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.policy_credibility",
+        "kind": "topic",
+        "slug": "policy-credibility",
+        "title": "Policy credibility",
+        "href": "/topics/policy-credibility"
+      }
+    },
+    {
+      "relation_id": "rel.ef.market_access_enables_inflows",
+      "relation_type": "enables",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.capital_inflows",
+        "kind": "topic",
+        "slug": "capital-inflows",
+        "title": "Capital inflows",
+        "href": "/topics/capital-inflows"
+      }
+    },
+    {
+      "relation_id": "rel.ef.vulnerability_constrained_by_access",
+      "relation_type": "constraint_on",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.external_vulnerability",
+        "kind": "topic",
+        "slug": "external-vulnerability",
+        "title": "External vulnerability",
+        "href": "/topics/external-vulnerability"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access"
+    },
+    {
+      "id": "q.ef09",
+      "kind": "question",
+      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "title": "Why can reserves rise while sovereign risk stays high?",
+      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high"
+    },
+    {
+      "id": "q.ef12",
+      "kind": "question",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign"
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.corporate_spread_bps",
+      "kind": "indicator",
+      "slug": "corporate-spread",
+      "title": "Corporate spread",
+      "href": "/indicators/corporate-spread"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef17",
+      "kind": "chart",
+      "slug": "sovereign-spreads-through-the-market-re-entry-window",
+      "title": "Sovereign spreads through the market re-entry window",
+      "href": "/charts/sovereign-spreads-through-the-market-re-entry-window"
+    },
+    {
+      "id": "pi.ef18",
+      "kind": "chart",
+      "slug": "sovereign-and-corporate-spreads",
+      "title": "Sovereign and corporate spreads",
+      "href": "/charts/sovereign-and-corporate-spreads"
+    },
+    {
+      "id": "pi.ef19",
+      "kind": "chart",
+      "slug": "fx-issuance-volumes-by-issuer-type",
+      "title": "FX issuance volumes by issuer type",
+      "href": "/charts/fx-issuance-volumes-by-issuer-type"
+    },
+    {
+      "id": "pi.ef20",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-sovereign-spreads",
+      "title": "Reserve accumulation versus sovereign spreads",
+      "href": "/charts/reserve-accumulation-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef21",
+      "kind": "chart",
+      "slug": "gross-reserves-versus-sovereign-spreads",
+      "title": "Gross reserves versus sovereign spreads",
+      "href": "/charts/gross-reserves-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef26",
+      "kind": "chart",
+      "slug": "market-issuance-cumulative-since-re-entry",
+      "title": "Market issuance cumulative since re-entry",
+      "href": "/charts/market-issuance-cumulative-since-re-entry"
+    },
+    {
+      "id": "pi.ef38",
+      "kind": "chart",
+      "slug": "assets-outside-the-financial-system-versus-private-credit",
+      "title": "Assets outside the financial system versus private credit",
+      "href": "/charts/assets-outside-the-financial-system-versus-private-credit"
+    },
+    {
+      "id": "pi.ef39",
+      "kind": "chart",
+      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
+      "title": "Domestic capital-market depth versus external market issuance",
+      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
+    },
+    {
+      "id": "pi.ef43",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-sovereign-spreads",
+      "title": "BCRA FX purchases versus sovereign spreads",
+      "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint",
+      "distance": 1
+    },
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access",
+      "distance": 1
+    },
+    {
+      "id": "q.ef12",
+      "kind": "question",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
+      "distance": 1
+    },
+    {
+      "id": "q.ef09",
+      "kind": "question",
+      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "title": "Why can reserves rise while sovereign risk stays high?",
+      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "distance": 1
+    },
+    {
+      "id": "ef.capital_inflows",
+      "kind": "topic",
+      "slug": "capital-inflows",
+      "title": "Capital inflows",
+      "href": "/topics/capital-inflows",
+      "distance": 1
+    },
+    {
+      "id": "ef.refinancing_needs",
+      "kind": "topic",
+      "slug": "external-refinancing-needs",
+      "title": "External refinancing needs",
+      "href": "/topics/external-refinancing-needs",
+      "distance": 1
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability",
+      "distance": 1
+    },
+    {
+      "id": "ef.fx_market_issuance",
+      "kind": "topic",
+      "slug": "fx-market-issuance",
+      "title": "FX market issuance",
+      "href": "/topics/fx-market-issuance",
+      "distance": 1
+    }
+  ],
+  "counts": {
+    "connections": 6,
+    "questions": 4,
+    "indicators": 1,
+    "charts": 10
+  }
+}

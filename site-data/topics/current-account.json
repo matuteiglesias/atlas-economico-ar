@@ -1,0 +1,272 @@
+{
+  "id": "ef.current_account",
+  "kind": "topic",
+  "slug": "current-account",
+  "title": "Current account",
+  "href": "/topics/current-account",
+  "dek": "The balance of goods, services, income, and transfers between Argentina and the rest of the world.",
+  "intro": "A headline current-account balance can hide very different underlying stories. A strong goods surplus may be offset by tourism, other services, or interest payments. Decomposing those pieces helps distinguish a durable export improvement from a temporary compression of imports or a change in financing conditions.",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.goods_component_ca",
+      "relation_type": "component_of",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.goods_trade_balance",
+        "kind": "topic",
+        "slug": "goods-trade-balance",
+        "title": "Goods trade balance",
+        "href": "/topics/goods-trade-balance"
+      }
+    },
+    {
+      "relation_id": "rel.ef.services_component_ca",
+      "relation_type": "component_of",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.services_balance",
+        "kind": "topic",
+        "slug": "services-balance",
+        "title": "Services balance",
+        "href": "/topics/services-balance"
+      }
+    },
+    {
+      "relation_id": "rel.ef.income_component_ca",
+      "relation_type": "component_of",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.primary_income_balance",
+        "kind": "topic",
+        "slug": "primary-income-balance",
+        "title": "Primary income balance",
+        "href": "/topics/primary-income-balance"
+      }
+    },
+    {
+      "relation_id": "rel.ef.reer_current_account_port",
+      "relation_type": "associated_with",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.real_exchange_rate",
+        "kind": "topic",
+        "slug": "real-exchange-rate",
+        "title": "Real exchange rate",
+        "href": "/topics/real-exchange-rate"
+      }
+    },
+    {
+      "relation_id": "rel.ef.current_account_component_external",
+      "relation_type": "component_of",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.external_position",
+        "kind": "topic",
+        "slug": "external-position",
+        "title": "External position",
+        "href": "/topics/external-position"
+      }
+    },
+    {
+      "relation_id": "rel.ef.vulnerability_associated_ca",
+      "relation_type": "associated_with",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.external_vulnerability",
+        "kind": "topic",
+        "slug": "external-vulnerability",
+        "title": "External vulnerability",
+        "href": "/topics/external-vulnerability"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef04",
+      "kind": "question",
+      "slug": "is-the-current-account-improving",
+      "title": "Is the current account improving?",
+      "href": "/questions/is-the-current-account-improving"
+    },
+    {
+      "id": "q.ef05",
+      "kind": "question",
+      "slug": "what-offsets-argentina-s-goods-surplus",
+      "title": "What offsets Argentina's goods surplus?",
+      "href": "/questions/what-offsets-argentina-s-goods-surplus"
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.current_account_gdp",
+      "kind": "indicator",
+      "slug": "current-account-balance-as-share-of-gdp",
+      "title": "Current account balance as share of GDP",
+      "href": "/indicators/current-account-balance-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.current_account_usd",
+      "kind": "indicator",
+      "slug": "current-account-balance",
+      "title": "Current account balance",
+      "href": "/indicators/current-account-balance"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef08",
+      "kind": "chart",
+      "slug": "current-account-balance-through-time",
+      "title": "Current-account balance through time",
+      "href": "/charts/current-account-balance-through-time"
+    },
+    {
+      "id": "pi.ef09",
+      "kind": "chart",
+      "slug": "current-account-component-decomposition",
+      "title": "Current-account component decomposition",
+      "href": "/charts/current-account-component-decomposition"
+    },
+    {
+      "id": "pi.ef10",
+      "kind": "chart",
+      "slug": "goods-surplus-versus-services-deficit",
+      "title": "Goods surplus versus services deficit",
+      "href": "/charts/goods-surplus-versus-services-deficit"
+    },
+    {
+      "id": "pi.ef11",
+      "kind": "chart",
+      "slug": "primary-income-drag-on-the-current-account",
+      "title": "Primary-income drag on the current account",
+      "href": "/charts/primary-income-drag-on-the-current-account"
+    },
+    {
+      "id": "pi.ef13",
+      "kind": "chart",
+      "slug": "capital-inflows-versus-current-account-financing-need",
+      "title": "Capital inflows versus current-account financing need",
+      "href": "/charts/capital-inflows-versus-current-account-financing-need"
+    },
+    {
+      "id": "pi.ef40",
+      "kind": "chart",
+      "slug": "reer-versus-current-account-balance",
+      "title": "REER versus current-account balance",
+      "href": "/charts/reer-versus-current-account-balance"
+    },
+    {
+      "id": "pi.ef41",
+      "kind": "chart",
+      "slug": "reer-versus-nir-accumulation",
+      "title": "REER versus NIR accumulation",
+      "href": "/charts/reer-versus-nir-accumulation"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "distance": 1
+    },
+    {
+      "id": "q.ef04",
+      "kind": "question",
+      "slug": "is-the-current-account-improving",
+      "title": "Is the current account improving?",
+      "href": "/questions/is-the-current-account-improving",
+      "distance": 1
+    },
+    {
+      "id": "q.ef05",
+      "kind": "question",
+      "slug": "what-offsets-argentina-s-goods-surplus",
+      "title": "What offsets Argentina's goods surplus?",
+      "href": "/questions/what-offsets-argentina-s-goods-surplus",
+      "distance": 1
+    },
+    {
+      "id": "ef.external_position",
+      "kind": "topic",
+      "slug": "external-position",
+      "title": "External position",
+      "href": "/topics/external-position",
+      "distance": 1
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability",
+      "distance": 1
+    },
+    {
+      "id": "ef.goods_trade_balance",
+      "kind": "topic",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/topics/goods-trade-balance",
+      "distance": 1
+    },
+    {
+      "id": "ef.primary_income_balance",
+      "kind": "topic",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/topics/primary-income-balance",
+      "distance": 1
+    },
+    {
+      "id": "ns.real_exchange_rate",
+      "kind": "topic",
+      "slug": "real-exchange-rate",
+      "title": "Real exchange rate",
+      "href": "/topics/real-exchange-rate",
+      "distance": 1
+    }
+  ],
+  "counts": {
+    "connections": 6,
+    "questions": 3,
+    "indicators": 2,
+    "charts": 8
+  }
+}

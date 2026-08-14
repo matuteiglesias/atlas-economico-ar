@@ -1,0 +1,47 @@
+{
+  "bundle_id": "nominal_stabilization_vertical_v0_1",
+  "status": "PASS",
+  "duplicate_ids": [],
+  "errors": [],
+  "warnings": [],
+  "coverage": {
+    "orphan_concepts": [],
+    "questions_without_plot_intents": [],
+    "plot_intents_without_chart_specs": [
+      "pi.ns33",
+      "pi.ns34",
+      "pi.ns35",
+      "pi.ns36",
+      "pi.ns37",
+      "pi.ns38",
+      "pi.ns39",
+      "pi.ns40",
+      "pi.ns41",
+      "pi.ns42",
+      "pi.ns43",
+      "pi.ns44",
+      "pi.ns45",
+      "pi.ns46",
+      "pi.ns47",
+      "pi.ns48",
+      "pi.ns49",
+      "pi.ns50",
+      "pi.ns51",
+      "pi.ns52"
+    ],
+    "deferred_series_bindings": 42,
+    "chart_specs_with_deferred_bindings": 32
+  },
+  "counts": {
+    "concepts": 25,
+    "relations": 52,
+    "question_intents": 18,
+    "reference_frames": 9,
+    "canonical_indicators": 42,
+    "derived_indicators": 12,
+    "plot_intents": 52,
+    "chart_specs": 32
+  },
+  "curated_total": 242,
+  "evidence_rows_media": 260
+}

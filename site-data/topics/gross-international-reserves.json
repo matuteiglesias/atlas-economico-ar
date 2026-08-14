@@ -1,0 +1,201 @@
+{
+  "id": "ef.gross_reserves",
+  "kind": "topic",
+  "slug": "gross-international-reserves",
+  "title": "Gross international reserves",
+  "href": "/topics/gross-international-reserves",
+  "dek": "The headline stock of reserve assets held by the central bank.",
+  "intro": "Gross reserves are the most visible external-buffer measure, but they should not be read as if every dollar were equally available. Reserve requirements, swaps, repos, and other reserve-related liabilities can make the headline stock diverge substantially from the resources that are readily usable under stress.",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.liquid_component_reserves",
+      "relation_type": "component_of",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.liquid_reserve_buffers",
+        "kind": "topic",
+        "slug": "liquid-reserve-buffers",
+        "title": "Liquid reserve buffers",
+        "href": "/topics/liquid-reserve-buffers"
+      }
+    },
+    {
+      "relation_id": "rel.ef.adequacy_uses_reserves",
+      "relation_type": "derived_from",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.reserve_adequacy",
+        "kind": "topic",
+        "slug": "reserve-adequacy",
+        "title": "Reserve adequacy",
+        "href": "/topics/reserve-adequacy"
+      }
+    },
+    {
+      "relation_id": "rel.ef.gross_component_external",
+      "relation_type": "component_of",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.external_position",
+        "kind": "topic",
+        "slug": "external-position",
+        "title": "External position",
+        "href": "/topics/external-position"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef01",
+      "kind": "question",
+      "slug": "how-strong-is-argentina-s-reserve-position",
+      "title": "How strong is Argentina's reserve position?",
+      "href": "/questions/how-strong-is-argentina-s-reserve-position"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef01",
+      "kind": "chart",
+      "slug": "gross-reserves-nir-and-liquid-buffers",
+      "title": "Gross reserves, NIR, and liquid buffers",
+      "href": "/charts/gross-reserves-nir-and-liquid-buffers"
+    },
+    {
+      "id": "pi.ef02",
+      "kind": "chart",
+      "slug": "reserve-adequacy-dashboard",
+      "title": "Reserve adequacy dashboard",
+      "href": "/charts/reserve-adequacy-dashboard"
+    },
+    {
+      "id": "pi.ef21",
+      "kind": "chart",
+      "slug": "gross-reserves-versus-sovereign-spreads",
+      "title": "Gross reserves versus sovereign spreads",
+      "href": "/charts/gross-reserves-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef23",
+      "kind": "chart",
+      "slug": "debt-service-versus-reserves",
+      "title": "Debt service versus reserves",
+      "href": "/charts/debt-service-versus-reserves"
+    },
+    {
+      "id": "pi.ef42",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-reserve-accumulation",
+      "title": "BCRA FX purchases and reserve accumulation",
+      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef01",
+      "kind": "question",
+      "slug": "how-strong-is-argentina-s-reserve-position",
+      "title": "How strong is Argentina's reserve position?",
+      "href": "/questions/how-strong-is-argentina-s-reserve-position",
+      "distance": 1
+    },
+    {
+      "id": "ef.external_position",
+      "kind": "topic",
+      "slug": "external-position",
+      "title": "External position",
+      "href": "/topics/external-position",
+      "distance": 1
+    },
+    {
+      "id": "ef.liquid_reserve_buffers",
+      "kind": "topic",
+      "slug": "liquid-reserve-buffers",
+      "title": "Liquid reserve buffers",
+      "href": "/topics/liquid-reserve-buffers",
+      "distance": 1
+    },
+    {
+      "id": "ef.reserve_adequacy",
+      "kind": "topic",
+      "slug": "reserve-adequacy",
+      "title": "Reserve adequacy",
+      "href": "/topics/reserve-adequacy",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves",
+      "distance": 1
+    },
+    {
+      "id": "q.ef06",
+      "kind": "question",
+      "slug": "are-capital-inflows-durable",
+      "title": "Are capital inflows durable?",
+      "href": "/questions/are-capital-inflows-durable",
+      "distance": 2
+    },
+    {
+      "id": "q.ef02",
+      "kind": "question",
+      "slug": "are-reserves-rebuilding-fast-enough",
+      "title": "Are reserves rebuilding fast enough?",
+      "href": "/questions/are-reserves-rebuilding-fast-enough",
+      "distance": 2
+    },
+    {
+      "id": "q.ef13",
+      "kind": "question",
+      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
+      "title": "Is the external debt burden becoming easier to service?",
+      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 3,
+    "questions": 1,
+    "indicators": 1,
+    "charts": 6
+  }
+}

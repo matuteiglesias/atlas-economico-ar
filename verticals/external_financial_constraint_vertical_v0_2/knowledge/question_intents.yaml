@@ -1,0 +1,546 @@
+question_intents:
+- id: q.ef01
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: How strong is Argentina's reserve position once gross reserves, NIR, and liquid buffers are distinguished?
+  question_family: state_measurement
+  concept_ids:
+  - ef.gross_reserves
+  - ef.net_international_reserves
+  - ef.liquid_reserve_buffers
+  - ef.reserve_adequacy
+  relation_ids:
+  - rel.ef.liquid_component_reserves
+  - rel.ef.adequacy_uses_reserves
+  - rel.ef.adequacy_uses_nir
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef02
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: Is reserve accumulation keeping pace with the program target and near-term foreign-currency obligations?
+  question_family: target_gap
+  concept_ids:
+  - ef.reserve_accumulation
+  - ef.net_international_reserves
+  - ef.fx_debt_service
+  - ef.reserve_adequacy
+  relation_ids:
+  - rel.ef.adequacy_uses_nir
+  - rel.ef.accumulation_builds_nir
+  - rel.ef.service_constrains_reserves
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef03
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: 'What is actually driving changes in reserves: FX purchases, debt payments, official financing, or other flows?'
+  question_family: decomposition
+  concept_ids:
+  - ef.reserve_accumulation
+  - ef.fx_debt_service
+  - ef.official_external_financing
+  - ef.net_international_reserves
+  relation_ids:
+  - rel.ef.accumulation_builds_nir
+  - rel.ef.service_constrains_reserves
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef04
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: Is the current account improving, and which components are responsible?
+  question_family: decomposition
+  concept_ids:
+  - ef.current_account
+  - ef.goods_trade_balance
+  - ef.services_balance
+  - ef.primary_income_balance
+  relation_ids:
+  - rel.ef.goods_component_ca
+  - rel.ef.services_component_ca
+  - rel.ef.income_component_ca
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef05
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: How much does the goods surplus offset services and primary-income deficits?
+  question_family: accounting_bridge
+  concept_ids:
+  - ef.goods_trade_balance
+  - ef.services_balance
+  - ef.primary_income_balance
+  - ef.current_account
+  relation_ids:
+  - rel.ef.goods_component_ca
+  - rel.ef.services_component_ca
+  - rel.ef.income_component_ca
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef06
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: Are capital inflows financing the external position in a durable way?
+  question_family: financing_quality
+  concept_ids:
+  - ef.financial_account
+  - ef.capital_inflows
+  - ef.foreign_direct_investment
+  - ef.external_position
+  relation_ids:
+  - rel.ef.financial_component_external
+  - rel.ef.inflows_component_financial
+  - rel.ef.fdi_component_inflows
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef07
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: Has resident FX hedging pressure normalized after periods of political and financial stress?
+  question_family: stress_normalization
+  concept_ids:
+  - ef.resident_fx_hedging
+  - ef.financial_account
+  - ef.reserve_accumulation
+  relation_ids:
+  - rel.ef.hedging_pressure_financial
+  - rel.ef.hedging_pressure_reserves
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef08
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: Is Argentina regaining durable international market access?
+  question_family: market_access
+  concept_ids:
+  - ef.market_access
+  - ef.sovereign_spreads
+  - ef.fx_market_issuance
+  relation_ids:
+  - rel.ef.spreads_constrain_access
+  - rel.ef.issuance_enables_access
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef09
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: Why can reserves improve while sovereign spreads remain elevated?
+  question_family: joint_state
+  concept_ids:
+  - ef.reserve_accumulation
+  - ef.sovereign_spreads
+  - ef.market_access
+  - ef.external_vulnerability
+  relation_ids:
+  - rel.ef.spreads_constrain_access
+  - rel.ef.vulnerability_constrained_by_access
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef10
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: How large are the next twelve months of public-sector FX debt service and refinancing needs?
+  question_family: maturity_profile
+  concept_ids:
+  - ef.fx_debt_service
+  - ef.refinancing_needs
+  - ef.external_public_debt
+  relation_ids:
+  - rel.ef.debt_creates_service
+  - rel.ef.service_creates_refi
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef11
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: How dependent is the external financing strategy on official financing, swaps, and repos?
+  question_family: financing_mix
+  concept_ids:
+  - ef.official_external_financing
+  - ef.swap_repo_financing
+  - ef.refinancing_needs
+  relation_ids:
+  - rel.ef.swaps_component_official
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef12
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: Are sovereign, provincial, and corporate FX issuances broadening access to market financing?
+  question_family: market_breadth
+  concept_ids:
+  - ef.fx_market_issuance
+  - ef.market_access
+  - ef.capital_inflows
+  relation_ids:
+  - rel.ef.market_access_enables_inflows
+  - rel.ef.issuance_enables_access
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef13
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: Is the external debt burden becoming easier to service relative to GDP, exports, and reserves?
+  question_family: sustainability
+  concept_ids:
+  - ef.external_public_debt
+  - ef.fx_debt_service
+  - ef.reserve_adequacy
+  relation_ids:
+  - rel.ef.debt_creates_service
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef14
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: Is private credit deepening from Argentina's historically low financial base?
+  question_family: financial_depth
+  concept_ids:
+  - ef.private_credit
+  - ef.financial_depth
+  relation_ids:
+  - rel.ef.financial_depth_enables_credit
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef15
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: Is credit quality deteriorating as financial intermediation expands?
+  question_family: financial_risk
+  concept_ids:
+  - ef.private_credit
+  - ef.credit_quality
+  relation_ids:
+  - rel.ef.credit_quality_constrains_credit
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef16
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: What does the rise in foreign-currency deposits imply for financial depth and liquidity?
+  question_family: dollarization_finance
+  concept_ids:
+  - ef.fx_deposits
+  - ef.financial_depth
+  - ef.external_vulnerability
+  relation_ids:
+  - rel.ef.fx_deposits_component_depth
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef17
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: How shallow are domestic banking and capital markets relative to the size of the economy?
+  question_family: structural_comparison
+  concept_ids:
+  - ef.financial_depth
+  - ef.domestic_capital_market_depth
+  - ef.private_credit
+  relation_ids:
+  - rel.ef.financial_depth_enables_credit
+  - rel.ef.capital_market_component_depth
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef18
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: Could mobilizing resident savings reduce Argentina's dependence on external financing?
+  question_family: structural_mechanism
+  concept_ids:
+  - ef.domestic_savings_mobilization
+  - ef.financial_depth
+  - ef.market_access
+  relation_ids:
+  - rel.ef.savings_enables_depth
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef19
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: How does real exchange-rate appreciation interact with the current account and reserve accumulation?
+  question_family: cross_slice_tradeoff
+  concept_ids:
+  - ns.real_exchange_rate
+  - ef.current_account
+  - ef.reserve_accumulation
+  relation_ids:
+  - rel.ef.reer_current_account_port
+  - rel.ef.reer_reserves_port
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion
+- id: q.ef20
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  question: Are BCRA FX purchases rebuilding reserves without worsening broader external vulnerability?
+  question_family: cross_slice_policy
+  concept_ids:
+  - ns.bcra_fx_operations
+  - ef.reserve_accumulation
+  - ef.external_vulnerability
+  - ef.net_international_reserves
+  relation_ids:
+  - rel.ef.accumulation_builds_nir
+  - rel.ef.bcra_ops_build_reserves
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 2, 6 and 7
+    - Debt sustainability / financing discussion

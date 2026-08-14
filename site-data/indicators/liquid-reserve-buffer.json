@@ -1,0 +1,113 @@
+{
+  "id": "ci.ef.liquid_reserve_buffer_usd",
+  "kind": "indicator",
+  "slug": "liquid-reserve-buffer",
+  "title": "Liquid reserve buffer",
+  "href": "/indicators/liquid-reserve-buffer",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topic": {
+    "id": "ef.liquid_reserve_buffers",
+    "kind": "topic",
+    "slug": "liquid-reserve-buffers",
+    "title": "Liquid reserve buffers",
+    "href": "/topics/liquid-reserve-buffers"
+  },
+  "unitSemantics": "usd_billions",
+  "frequency": "monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ef01",
+      "kind": "chart",
+      "slug": "gross-reserves-nir-and-liquid-buffers",
+      "title": "Gross reserves, NIR, and liquid buffers",
+      "href": "/charts/gross-reserves-nir-and-liquid-buffers"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ef.liquid_reserve_buffers",
+      "kind": "topic",
+      "slug": "liquid-reserve-buffers",
+      "title": "Liquid reserve buffers",
+      "href": "/topics/liquid-reserve-buffers",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef01",
+      "kind": "chart",
+      "slug": "gross-reserves-nir-and-liquid-buffers",
+      "title": "Gross reserves, NIR, and liquid buffers",
+      "href": "/charts/gross-reserves-nir-and-liquid-buffers",
+      "distance": 1
+    },
+    {
+      "id": "q.ef01",
+      "kind": "question",
+      "slug": "how-strong-is-argentina-s-reserve-position",
+      "title": "How strong is Argentina's reserve position?",
+      "href": "/questions/how-strong-is-argentina-s-reserve-position",
+      "distance": 2
+    },
+    {
+      "id": "ef.gross_reserves",
+      "kind": "topic",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/topics/gross-international-reserves",
+      "distance": 2
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.nir_usd",
+      "kind": "indicator",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/indicators/net-international-reserves",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 1,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 0
+  }
+}

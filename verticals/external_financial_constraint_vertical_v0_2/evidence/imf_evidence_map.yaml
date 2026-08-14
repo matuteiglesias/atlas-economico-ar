@@ -1,0 +1,58 @@
+source: IMF Argentina 2026 Article IV / Second EFF Review staff report (May 2026)
+role: Expert/mechanism/decomposition source, not sole measurement truth.
+evidence_clusters:
+- id: external_bop
+  supports:
+  - current account decomposition
+  - financial-account shifts
+  - goods/services/primary-income balances
+  refs:
+  - External sector developments / Figure 6
+  - External Balance of Payments table
+- id: reserve_layers
+  supports:
+  - gross reserves vs NIR
+  - liquid buffers
+  - reserve accumulation
+  - reserve vulnerabilities
+  refs:
+  - External sector discussion
+  - NIR definition in tables
+  - reserve-accumulation program discussion
+- id: market_access
+  supports:
+  - sovereign spreads
+  - market re-entry
+  - FX debt refinancing
+  - corporate/provincial issuance
+  refs:
+  - Market access strategy discussion
+  - Recent Market Developments
+  - debt-financing discussion
+- id: official_support
+  supports:
+  - official financing
+  - swap lines
+  - BCRA repos
+  - reserve-related liabilities
+  refs:
+  - FX financing strategy discussion
+  - BCRA balance-sheet discussion
+- id: financial_depth
+  supports:
+  - private credit/GDP
+  - credit growth
+  - NPLs
+  - FX deposits
+  - assets outside domestic system
+  refs:
+  - Figure 2 Structural Challenges
+  - Figure 7 financial system discussion
+- id: cross_slice
+  supports:
+  - REER/current account interaction
+  - FX purchases/reserve accumulation
+  - external-buffer trade-offs
+  refs:
+  - Figures 1 and 6
+  - policy discussion

@@ -1,0 +1,517 @@
+question_intents:
+- id: q.ns01
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: How fast is inflation running now, and is it accelerating or decelerating?
+  question_family: direction_change
+  concept_ids:
+  - ns.inflation
+  - ns.headline_inflation
+  relation_ids:
+  - rel.headline_measures_inflation
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns02
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: Has the disinflation process stalled or resumed?
+  question_family: trend_regime
+  concept_ids:
+  - ns.inflation
+  - ns.inflation_inertia
+  - ns.inflation_expectations
+  relation_ids:
+  - rel.inertia_contributes_inflation
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns03
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: Is disinflation broad-based across underlying inflation measures?
+  question_family: breadth
+  concept_ids:
+  - ns.core_inflation
+  - ns.headline_inflation
+  relation_ids:
+  - rel.core_measures_inflation
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns04
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: 'What is driving monthly inflation: inertia, relative prices, demand, rates, or FX pass-through?'
+  question_family: decomposition
+  concept_ids:
+  - ns.headline_inflation
+  - ns.inflation_inertia
+  - ns.relative_price_adjustment
+  - ns.aggregate_demand_pressure
+  - ns.fx_pass_through
+  relation_ids:
+  - rel.inertia_contributes_inflation
+  - rel.relative_prices_contribute_inflation
+  - rel.pass_through_contributes_inflation
+  - rel.demand_contributes_inflation
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns05
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: How much do exchange-rate movements pass through to domestic prices?
+  question_family: mechanism
+  concept_ids:
+  - ns.nominal_exchange_rate
+  - ns.fx_pass_through
+  - ns.inflation
+  relation_ids:
+  - rel.fx_change_enables_pass_through
+  - rel.pass_through_contributes_inflation
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns06
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: Are inflation expectations leading, lagging, or validating realized inflation?
+  question_family: expectations
+  concept_ids:
+  - ns.inflation_expectations
+  - ns.headline_inflation
+  relation_ids:
+  - rel.expectations_associated_future_inflation
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns07
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: What inflation path does the market expect over the next months and year-end?
+  question_family: forecast
+  concept_ids:
+  - ns.inflation_expectations
+  - ns.inflation
+  relation_ids:
+  - rel.expectations_associated_future_inflation
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns08
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: Where is the official exchange rate inside the policy band?
+  question_family: policy_monitoring
+  concept_ids:
+  - ns.nominal_exchange_rate
+  - ns.exchange_rate_band
+  relation_ids:
+  - rel.band_constrains_official_fx
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns09
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: How large is the gap between official and parallel exchange rates?
+  question_family: comparison
+  concept_ids:
+  - ns.nominal_exchange_rate
+  - ns.parallel_exchange_rate
+  - ns.fx_gap
+  relation_ids:
+  - rel.parallel_compares_official
+  - rel.fx_gap_derived_official
+  - rel.fx_gap_derived_parallel
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns10
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: How much has the peso appreciated or depreciated in real terms?
+  question_family: historical_comparison
+  concept_ids:
+  - ns.nominal_exchange_rate
+  - ns.real_exchange_rate
+  relation_ids:
+  - rel.real_fx_derived_nominal
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns11
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: How are BCRA FX purchases interacting with the exchange rate and monetary conditions?
+  question_family: policy_transmission
+  concept_ids:
+  - ns.bcra_fx_operations
+  - ns.nominal_exchange_rate
+  - ns.monetary_base
+  - ns.money_demand
+  relation_ids:
+  - rel.fx_ops_affect_fx
+  - rel.fx_ops_affect_base
+  - rel.money_demand_supports_fx_ops
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns12
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: Are interest rates restrictive in real terms?
+  question_family: policy_stance
+  concept_ids:
+  - ns.policy_rate
+  - ns.real_interest_rate
+  - ns.inflation_expectations
+  relation_ids:
+  - rel.real_rate_derived_policy_rate
+  - rel.real_rate_derived_expectations
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns13
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: Has short-term interest-rate volatility normalized?
+  question_family: market_functioning
+  concept_ids:
+  - ns.money_market_rate
+  - ns.policy_credibility
+  relation_ids:
+  - rel.rate_volatility_credibility
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns14
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: How tight are bank reserve requirements and liquidity conditions?
+  question_family: liquidity
+  concept_ids:
+  - ns.reserve_requirements
+  - ns.money_market_rate
+  relation_ids:
+  - rel.reserve_requirements_constrain_liquidity
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns15
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: Is domestic money demand recovering?
+  question_family: monetization
+  concept_ids:
+  - ns.money_demand
+  - ns.transactional_m2
+  - ns.monetary_base
+  relation_ids:
+  - rel.money_demand_measured_m2
+  - rel.base_associated_money_demand
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns16
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?
+  question_family: policy_tradeoff
+  concept_ids:
+  - ns.remonetization
+  - ns.money_demand
+  - ns.monetary_base
+  - ns.inflation
+  relation_ids:
+  - rel.m2_measures_remonetization
+  - rel.targeting_supports_inflation
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns17
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: Is monetary-base growth consistent with the monetary-targeting framework?
+  question_family: program_consistency
+  concept_ids:
+  - ns.monetary_targeting_framework
+  - ns.monetary_base
+  - ns.money_demand
+  relation_ids:
+  - rel.targeting_uses_base
+  - rel.targeting_uses_money_demand
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: q.ns18
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  question: Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?
+  question_family: credibility
+  concept_ids:
+  - ns.policy_credibility
+  - ns.inflation_expectations
+  - ns.fx_gap
+  - ns.money_market_rate
+  - ns.fx_hedging_demand
+  relation_ids:
+  - rel.credibility_expectations
+  - rel.credibility_reduces_hedging
+  - rel.rate_volatility_credibility
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    - reserves
+    imf_2026_refs:
+    - Figure 4
+    - Recent Market Developments
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true

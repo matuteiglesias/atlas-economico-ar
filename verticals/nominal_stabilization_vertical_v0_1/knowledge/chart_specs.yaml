@@ -1,0 +1,1116 @@
+chart_specs:
+- id: cs.ns01
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns01
+  title: 'Inflation momentum: monthly and 3-month annualized'
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.cpi_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.cpi_3m_ann
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.rolling_3m_annualized
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns02
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns02
+  title: Monthly inflation with acceleration markers
+  template_id: line_with_change_markers
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.cpi_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.infl_acceleration
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.previous_period
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns03
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns03
+  title: 'Headline inflation: monthly vs year-over-year'
+  template_id: dual_measure_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.cpi_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.cpi_yoy
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns04
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns04
+  title: Disinflation since December 2023
+  template_id: line_with_reference_event
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.cpi_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.cpi_yoy
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns05
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns05
+  title: Headline vs core inflation
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.cpi_3m_ann
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.core_3m_ann
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.rolling_3m_annualized
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns06
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns06
+  title: Multiple measures of core inflation
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.core_3m_ann
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.trimmed_cpi_3m_ann
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.trimmed_goods_3m_ann
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.trimmed_services_3m_ann
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.rolling_3m_annualized
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns07
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns07
+  title: Food and regulated prices as contributors to monthly inflation
+  template_id: stacked_contribution_with_total
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.food_inflation_contribution
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.regulated_inflation_contribution
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.cpi_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns08
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns08
+  title: Inflation-driver decomposition
+  template_id: stacked_contribution_with_total
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.cpi_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns09
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns09
+  title: Official FX change vs monthly inflation
+  template_id: dual_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.official_fx_monthly_change
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.cpi_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns10
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns10
+  title: Rolling FX pass-through estimate
+  template_id: rolling_estimate_line
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.official_fx_monthly_change
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.cpi_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.historical_2017_present
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns11
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns11
+  title: Inflation expectations vs realized inflation
+  template_id: actual_vs_expected
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.infl_exp_1m
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.cpi_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns12
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns12
+  title: Inflation surprise through time
+  template_id: diverging_bar_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.infl_surprise
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns13
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns13
+  title: Expected inflation path
+  template_id: expectations_term_structure
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.infl_exp_1m
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.infl_exp_3m
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.infl_exp_eop
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids: []
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns14
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns14
+  title: Inflation expectations fan / horizon curve
+  template_id: expectations_curve
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.infl_exp_1m
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.infl_exp_3m
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.infl_exp_eop
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids: []
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns15
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns15
+  title: Official exchange rate within the band
+  template_id: line_with_policy_band
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.official_fx
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.fx_band_lower
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.fx_band_upper
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.apr_2025_fx_framework
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns16
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns16
+  title: Position inside FX band
+  template_id: normalized_band_position_line
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.fx_band_position
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.apr_2025_fx_framework
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns17
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns17
+  title: Official, CCL and blue exchange rates
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.official_fx
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.ccl_fx
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.blue_fx
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns18
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns18
+  title: 'FX gaps: CCL and blue'
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.fx_gap_ccl
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.fx_gap_blue
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns19
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns19
+  title: FX gap around stress episodes
+  template_id: event_window_comparison
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.fx_gap_ccl
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.fx_gap_blue
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.pre_election_2025_vs_post
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns20
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns20
+  title: Real effective exchange rate since Dec-2023
+  template_id: indexed_line_with_anchor
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.reer_index
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.reer_change_dec2023
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns21
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns21
+  title: Nominal vs real exchange-rate movement
+  template_id: indexed_comparison
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.official_fx
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.reer_index
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns22
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns22
+  title: Real exchange rate with major policy-regime markers
+  template_id: line_with_event_markers
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.reer_index
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.apr_2025_fx_framework
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns23
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns23
+  title: BCRA daily FX purchases
+  template_id: bar_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.bcra_fx_purchases_daily
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.jan_2026_fx_purchase_program
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns24
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns24
+  title: Cumulative BCRA FX purchases
+  template_id: cumulative_line
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.bcra_fx_purchases_daily
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.jan_2026_fx_purchase_program
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns25
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns25
+  title: BCRA purchases vs official exchange rate
+  template_id: dual_axis_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.bcra_fx_purchases_daily
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.official_fx
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.jan_2026_fx_purchase_program
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns26
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns26
+  title: BCRA purchases vs monetary-base growth
+  template_id: indexed_comparison
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.bcra_fx_purchases_daily
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.monetary_base_nominal
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.jan_2026_fx_purchase_program
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns27
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns27
+  title: Nominal rates vs expected inflation
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.tamar_nominal
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.infl_exp_3m
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns28
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns28
+  title: Ex-ante vs ex-post real rates
+  template_id: diverging_multi_line
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.tamar_real_exante
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.tamar_real_expost
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns29
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns29
+  title: Real-rate regime since 2025
+  template_id: line_zero_baseline
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.tamar_real_exante
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.apr_2025_fx_framework
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns30
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns30
+  title: Money-market rate volatility
+  template_id: line_with_event_window
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.money_market_rate
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.pre_election_2025_vs_post
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns31
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns31
+  title: Policy-relevant rate vs money-market rate
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.policy_rate_nominal
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.money_market_rate
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: cs.ns32
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  plot_intent_id: pi.ns32
+  title: Reserve requirements and BCRA peso deposits
+  template_id: dual_measure_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.reserve_requirement_ratio
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ns.bcra_peso_deposits
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.1; resolve in later global series-registry
+    session
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true

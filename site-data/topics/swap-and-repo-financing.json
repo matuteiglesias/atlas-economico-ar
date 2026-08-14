@@ -1,0 +1,175 @@
+{
+  "id": "ef.swap_repo_financing",
+  "kind": "topic",
+  "slug": "swap-and-repo-financing",
+  "title": "Swap and repo financing",
+  "href": "/topics/swap-and-repo-financing",
+  "dek": "Foreign-currency financing obtained through central-bank swaps, repos, and similar secured facilities.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.swaps_component_official",
+      "relation_type": "component_of",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.official_external_financing",
+        "kind": "topic",
+        "slug": "official-external-financing",
+        "title": "Official external financing",
+        "href": "/topics/official-external-financing"
+      }
+    },
+    {
+      "relation_id": "rel.ef.swaps_create_liabilities",
+      "relation_type": "associated_with",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.external_vulnerability",
+        "kind": "topic",
+        "slug": "external-vulnerability",
+        "title": "External vulnerability",
+        "href": "/topics/external-vulnerability"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef11",
+      "kind": "question",
+      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "title": "How much does the strategy rely on swaps and repos?",
+      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.repo_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-repo-liabilities",
+      "title": "Central-bank repo liabilities",
+      "href": "/indicators/central-bank-repo-liabilities"
+    },
+    {
+      "id": "ci.ef.swap_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-external-swap-liabilities",
+      "title": "Central-bank external swap liabilities",
+      "href": "/indicators/central-bank-external-swap-liabilities"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge"
+    },
+    {
+      "id": "pi.ef24",
+      "kind": "chart",
+      "slug": "official-financing-swaps-and-repos",
+      "title": "Official financing, swaps, and repos",
+      "href": "/charts/official-financing-swaps-and-repos"
+    },
+    {
+      "id": "pi.ef25",
+      "kind": "chart",
+      "slug": "swap-and-repo-liabilities-versus-nir",
+      "title": "Swap and repo liabilities versus NIR",
+      "href": "/charts/swap-and-repo-liabilities-versus-nir"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef11",
+      "kind": "question",
+      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "title": "How much does the strategy rely on swaps and repos?",
+      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "distance": 1
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability",
+      "distance": 1
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.swap_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-external-swap-liabilities",
+      "title": "Central-bank external swap liabilities",
+      "href": "/indicators/central-bank-external-swap-liabilities",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.repo_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-repo-liabilities",
+      "title": "Central-bank repo liabilities",
+      "href": "/indicators/central-bank-repo-liabilities",
+      "distance": 1
+    },
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
+      "distance": 2
+    },
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean",
+      "distance": 2
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 2,
+    "questions": 1,
+    "indicators": 2,
+    "charts": 3
+  }
+}

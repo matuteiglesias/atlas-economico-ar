@@ -1,0 +1,857 @@
+relations:
+- id: rel.headline_measures_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.headline_inflation
+  to: ns.inflation
+  relation_type: measurement_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+- id: rel.core_measures_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.core_inflation
+  to: ns.inflation
+  relation_type: measurement_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+- id: rel.expectations_associated_future_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.inflation_expectations
+  to: ns.inflation
+  relation_type: associated_with
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.inertia_contributes_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.inflation_inertia
+  to: ns.headline_inflation
+  relation_type: contributes_to
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.relative_prices_contribute_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.relative_price_adjustment
+  to: ns.headline_inflation
+  relation_type: contributes_to
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.pass_through_contributes_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.fx_pass_through
+  to: ns.headline_inflation
+  relation_type: contributes_to
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.demand_contributes_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.aggregate_demand_pressure
+  to: ns.headline_inflation
+  relation_type: contributes_to
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.fx_change_enables_pass_through
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.nominal_exchange_rate
+  to: ns.fx_pass_through
+  relation_type: economic_mechanism
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.credibility_conditions_pass_through
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.policy_credibility
+  to: ns.fx_pass_through
+  relation_type: constraint_on
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.credibility_expectations
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.policy_credibility
+  to: ns.inflation_expectations
+  relation_type: economic_mechanism
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.expectations_inertia
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.inflation_expectations
+  to: ns.inflation_inertia
+  relation_type: economic_mechanism
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.band_constrains_official_fx
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.exchange_rate_band
+  to: ns.nominal_exchange_rate
+  relation_type: constraint_on
+  epistemic_status: policy_framework_relation
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.parallel_compares_official
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.parallel_exchange_rate
+  to: ns.nominal_exchange_rate
+  relation_type: comparison
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+- id: rel.fx_gap_derived_official
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.fx_gap
+  to: ns.nominal_exchange_rate
+  relation_type: derived_from
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+- id: rel.fx_gap_derived_parallel
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.fx_gap
+  to: ns.parallel_exchange_rate
+  relation_type: derived_from
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+- id: rel.real_fx_derived_nominal
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.real_exchange_rate
+  to: ns.nominal_exchange_rate
+  relation_type: derived_from
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+- id: rel.policy_rate_affects_market_rate
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.policy_rate
+  to: ns.money_market_rate
+  relation_type: economic_mechanism
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.real_rate_derived_policy_rate
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.real_interest_rate
+  to: ns.policy_rate
+  relation_type: derived_from
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+- id: rel.real_rate_derived_expectations
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.real_interest_rate
+  to: ns.inflation_expectations
+  relation_type: derived_from
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+- id: rel.real_rate_constrains_demand
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.real_interest_rate
+  to: ns.aggregate_demand_pressure
+  relation_type: constraint_on
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.reserve_requirements_constrain_liquidity
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.reserve_requirements
+  to: ns.money_market_rate
+  relation_type: constraint_on
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.reserve_requirements_affect_base
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.reserve_requirements
+  to: ns.monetary_base
+  relation_type: economic_mechanism
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.money_demand_measured_m2
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.transactional_m2
+  to: ns.money_demand
+  relation_type: measurement_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+- id: rel.base_associated_money_demand
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.monetary_base
+  to: ns.money_demand
+  relation_type: associated_with
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.remonetization_component_money_demand
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.remonetization
+  to: ns.money_demand
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+- id: rel.m2_measures_remonetization
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.transactional_m2
+  to: ns.remonetization
+  relation_type: measurement_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+- id: rel.targeting_uses_base
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.monetary_targeting_framework
+  to: ns.monetary_base
+  relation_type: enables
+  epistemic_status: policy_framework_relation
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.targeting_uses_money_demand
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.monetary_targeting_framework
+  to: ns.money_demand
+  relation_type: associated_with
+  epistemic_status: policy_framework_relation
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.targeting_supports_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.monetary_targeting_framework
+  to: ns.inflation
+  relation_type: economic_mechanism
+  epistemic_status: policy_framework_relation
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.fx_ops_affect_fx
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.bcra_fx_operations
+  to: ns.nominal_exchange_rate
+  relation_type: economic_mechanism
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.fx_ops_affect_base
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.bcra_fx_operations
+  to: ns.monetary_base
+  relation_type: economic_mechanism
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.fx_ops_link_remonetization
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.bcra_fx_operations
+  to: ns.remonetization
+  relation_type: policy_tradeoff
+  epistemic_status: boundary_relation_requires_cross_slice_review
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.hedging_affects_parallel_fx
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.fx_hedging_demand
+  to: ns.parallel_exchange_rate
+  relation_type: economic_mechanism
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.hedging_affects_official_fx
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.fx_hedging_demand
+  to: ns.nominal_exchange_rate
+  relation_type: economic_mechanism
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.credibility_reduces_hedging
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.policy_credibility
+  to: ns.fx_hedging_demand
+  relation_type: economic_mechanism
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.fx_gap_agenda_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.fx_gap
+  to: ns.inflation
+  relation_type: agenda_related
+  epistemic_status: media_agenda_association_only
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    model_prior_used: true
+- id: rel.official_fx_agenda_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.nominal_exchange_rate
+  to: ns.inflation
+  relation_type: agenda_related
+  epistemic_status: media_agenda_association_only
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    model_prior_used: true
+- id: rel.rates_agenda_fx
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.policy_rate
+  to: ns.nominal_exchange_rate
+  relation_type: agenda_related
+  epistemic_status: media_agenda_association_only
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    model_prior_used: true
+- id: rel.rates_agenda_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.policy_rate
+  to: ns.inflation
+  relation_type: agenda_related
+  epistemic_status: media_agenda_association_only
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    model_prior_used: true
+- id: rel.bcra_ops_agenda_fx
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.bcra_fx_operations
+  to: ns.nominal_exchange_rate
+  relation_type: agenda_related
+  epistemic_status: media_agenda_association_only
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    model_prior_used: true
+- id: rel.bcra_ops_agenda_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.bcra_fx_operations
+  to: ns.inflation
+  relation_type: agenda_related
+  epistemic_status: media_agenda_association_only
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    model_prior_used: true
+- id: rel.real_fx_agenda_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.real_exchange_rate
+  to: ns.inflation
+  relation_type: agenda_related
+  epistemic_status: media_agenda_association_only
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    model_prior_used: true
+- id: rel.money_demand_inertia
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.money_demand
+  to: ns.inflation_inertia
+  relation_type: economic_mechanism
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.relative_prices_core_gap
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.relative_price_adjustment
+  to: ns.core_inflation
+  relation_type: associated_with
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.expectations_real_rate
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.real_interest_rate
+  to: ns.inflation_expectations
+  relation_type: derived_from
+  epistemic_status: construction_relation_requiring_direction_review
+  provenance:
+    model_prior_used: true
+- id: rel.market_rate_real_rate
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.real_interest_rate
+  to: ns.money_market_rate
+  relation_type: derived_from
+  epistemic_status: construction_relation_requiring_direction_review
+  provenance:
+    model_prior_used: true
+- id: rel.rate_volatility_credibility
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.money_market_rate
+  to: ns.policy_credibility
+  relation_type: associated_with
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.band_credibility
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.exchange_rate_band
+  to: ns.policy_credibility
+  relation_type: associated_with
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.fx_ops_band_credibility
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.bcra_fx_operations
+  to: ns.exchange_rate_band
+  relation_type: associated_with
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.remonetization_supports_framework
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.remonetization
+  to: ns.monetary_targeting_framework
+  relation_type: enables
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.money_demand_supports_fx_ops
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.money_demand
+  to: ns.bcra_fx_operations
+  relation_type: enables
+  epistemic_status: boundary_relation_requires_cross_slice_review
+  provenance:
+    imf_2026_refs:
+    - Figure 4
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: rel.real_fx_compares_nominal_fx
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  from: ns.real_exchange_rate
+  to: ns.nominal_exchange_rate
+  relation_type: comparison
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true

@@ -1,0 +1,191 @@
+{
+  "id": "q.ef11",
+  "kind": "question",
+  "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
+  "title": "How much does the strategy rely on swaps and repos?",
+  "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
+  "dek": "Separate durable reserve accumulation from temporary or secured official external financing.",
+  "intro": "Swaps and repos can be valuable liquidity bridges, especially during a difficult refinancing window. They also create liabilities and future repayment needs. Reading them alongside NIR helps avoid treating borrowed liquidity as equivalent to permanently stronger external buffers.",
+  "questionFamily": "financing_mix",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing"
+    },
+    {
+      "id": "ef.swap_repo_financing",
+      "kind": "topic",
+      "slug": "swap-and-repo-financing",
+      "title": "Swap and repo financing",
+      "href": "/topics/swap-and-repo-financing"
+    },
+    {
+      "id": "ef.refinancing_needs",
+      "kind": "topic",
+      "slug": "external-refinancing-needs",
+      "title": "External refinancing needs",
+      "href": "/topics/external-refinancing-needs"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.nir_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-nir",
+      "title": "Monthly change in NIR",
+      "href": "/indicators/monthly-change-in-nir"
+    },
+    {
+      "id": "ci.ef.nir_usd",
+      "kind": "indicator",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/indicators/net-international-reserves"
+    },
+    {
+      "id": "ci.ef.official_external_financing_usd",
+      "kind": "indicator",
+      "slug": "official-external-financing-flows",
+      "title": "Official external financing flows",
+      "href": "/indicators/official-external-financing-flows"
+    },
+    {
+      "id": "ci.ef.public_fx_debt_service_12m",
+      "kind": "indicator",
+      "slug": "public-sector-fx-debt-service-next-12-months",
+      "title": "Public-sector FX debt service next 12 months",
+      "href": "/indicators/public-sector-fx-debt-service-next-12-months"
+    },
+    {
+      "id": "ci.ef.repo_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-repo-liabilities",
+      "title": "Central-bank repo liabilities",
+      "href": "/indicators/central-bank-repo-liabilities"
+    },
+    {
+      "id": "ci.ef.swap_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-external-swap-liabilities",
+      "title": "Central-bank external swap liabilities",
+      "href": "/indicators/central-bank-external-swap-liabilities"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge"
+    },
+    {
+      "id": "pi.ef24",
+      "kind": "chart",
+      "slug": "official-financing-swaps-and-repos",
+      "title": "Official financing, swaps, and repos",
+      "href": "/charts/official-financing-swaps-and-repos"
+    },
+    {
+      "id": "pi.ef25",
+      "kind": "chart",
+      "slug": "swap-and-repo-liabilities-versus-nir",
+      "title": "Swap and repo liabilities versus NIR",
+      "href": "/charts/swap-and-repo-liabilities-versus-nir"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ef.refinancing_needs",
+      "kind": "topic",
+      "slug": "external-refinancing-needs",
+      "title": "External refinancing needs",
+      "href": "/topics/external-refinancing-needs",
+      "distance": 1
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing",
+      "distance": 1
+    },
+    {
+      "id": "ef.swap_repo_financing",
+      "kind": "topic",
+      "slug": "swap-and-repo-financing",
+      "title": "Swap and repo financing",
+      "href": "/topics/swap-and-repo-financing",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef24",
+      "kind": "chart",
+      "slug": "official-financing-swaps-and-repos",
+      "title": "Official financing, swaps, and repos",
+      "href": "/charts/official-financing-swaps-and-repos",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef25",
+      "kind": "chart",
+      "slug": "swap-and-repo-liabilities-versus-nir",
+      "title": "Swap and repo liabilities versus NIR",
+      "href": "/charts/swap-and-repo-liabilities-versus-nir",
+      "distance": 1
+    },
+    {
+      "id": "q.ef10",
+      "kind": "question",
+      "slug": "how-large-is-the-near-term-fx-maturity-wall",
+      "title": "How large is the near-term FX maturity wall?",
+      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
+      "distance": 2
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "topics": 3,
+    "indicators": 6,
+    "charts": 3
+  }
+}

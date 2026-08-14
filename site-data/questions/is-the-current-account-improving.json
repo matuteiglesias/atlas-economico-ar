@@ -1,0 +1,184 @@
+{
+  "id": "q.ef04",
+  "kind": "question",
+  "slug": "is-the-current-account-improving",
+  "title": "Is the current account improving?",
+  "href": "/questions/is-the-current-account-improving",
+  "dek": "Decompose the current account into goods, services, and income balances rather than relying on the headline total.",
+  "intro": "An improving current account can reflect stronger exports, weaker imports, lower service outflows, or changes in income payments. Those stories have different implications for sustainability, competitiveness, and growth, so the composition matters as much as the total.",
+  "questionFamily": "decomposition",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account"
+    },
+    {
+      "id": "ef.goods_trade_balance",
+      "kind": "topic",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/topics/goods-trade-balance"
+    },
+    {
+      "id": "ef.services_balance",
+      "kind": "topic",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/topics/services-balance"
+    },
+    {
+      "id": "ef.primary_income_balance",
+      "kind": "topic",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/topics/primary-income-balance"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.current_account_gdp",
+      "kind": "indicator",
+      "slug": "current-account-balance-as-share-of-gdp",
+      "title": "Current account balance as share of GDP",
+      "href": "/indicators/current-account-balance-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.current_account_usd",
+      "kind": "indicator",
+      "slug": "current-account-balance",
+      "title": "Current account balance",
+      "href": "/indicators/current-account-balance"
+    },
+    {
+      "id": "ci.ef.goods_balance_usd",
+      "kind": "indicator",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/indicators/goods-trade-balance"
+    },
+    {
+      "id": "ci.ef.primary_income_balance_usd",
+      "kind": "indicator",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/indicators/primary-income-balance"
+    },
+    {
+      "id": "ci.ef.services_balance_usd",
+      "kind": "indicator",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/indicators/services-balance"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef08",
+      "kind": "chart",
+      "slug": "current-account-balance-through-time",
+      "title": "Current-account balance through time",
+      "href": "/charts/current-account-balance-through-time"
+    },
+    {
+      "id": "pi.ef09",
+      "kind": "chart",
+      "slug": "current-account-component-decomposition",
+      "title": "Current-account component decomposition",
+      "href": "/charts/current-account-component-decomposition"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account",
+      "distance": 1
+    },
+    {
+      "id": "ef.goods_trade_balance",
+      "kind": "topic",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/topics/goods-trade-balance",
+      "distance": 1
+    },
+    {
+      "id": "ef.primary_income_balance",
+      "kind": "topic",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/topics/primary-income-balance",
+      "distance": 1
+    },
+    {
+      "id": "ef.services_balance",
+      "kind": "topic",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/topics/services-balance",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef08",
+      "kind": "chart",
+      "slug": "current-account-balance-through-time",
+      "title": "Current-account balance through time",
+      "href": "/charts/current-account-balance-through-time",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef09",
+      "kind": "chart",
+      "slug": "current-account-component-decomposition",
+      "title": "Current-account component decomposition",
+      "href": "/charts/current-account-component-decomposition",
+      "distance": 1
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "distance": 2
+    },
+    {
+      "id": "q.ef05",
+      "kind": "question",
+      "slug": "what-offsets-argentina-s-goods-surplus",
+      "title": "What offsets Argentina's goods surplus?",
+      "href": "/questions/what-offsets-argentina-s-goods-surplus",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "topics": 4,
+    "indicators": 5,
+    "charts": 2
+  }
+}

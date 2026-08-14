@@ -6,7 +6,7 @@
     "title": "External & Financial Constraint",
     "href": "/areas/external-financial-constraint",
     "regionId": "external_financial_constraint",
-    "text": "External & Financial Constraint Explain external buffers, reserve adequacy, financing, market access, sovereign risk, balance-of-payments pressure, and financial-sector depth/vulnerability."
+    "text": "External & Financial Constraint How reserves, external flows, debt obligations, market access, and the depth of domestic finance shape Argentina's capacity to absorb shocks and finance growth. Argentina's external constraint is not one number. Gross reserves can rise while usable buffers remain thin; a trade surplus can coexist with service and interest outflows; market access can improve while refinancing needs remain large. This area organizes those pieces into a common reading structure, separating stocks from flows and distinguishing temporary financing support from durable improvements in external resilience."
   },
   {
     "id": "fiscal_regime",
@@ -279,6 +279,276 @@
     "text": "FX hedging demand Private demand for foreign-currency exposure or protection against peso depreciation. Private demand for foreign-currency exposure or protection against peso depreciation. market"
   },
   {
+    "id": "ef.external_position",
+    "kind": "topic",
+    "slug": "external-position",
+    "title": "External position",
+    "href": "/topics/external-position",
+    "regionId": "external_financial_constraint",
+    "text": "External position Overall relationship between external flows, external liabilities, reserve buffers, and the capacity to meet foreign-currency obligations. Overall relationship between external flows, external liabilities, reserve buffers, and the capacity to meet foreign-currency obligations. core"
+  },
+  {
+    "id": "ef.gross_reserves",
+    "kind": "topic",
+    "slug": "gross-international-reserves",
+    "title": "Gross international reserves",
+    "href": "/topics/gross-international-reserves",
+    "regionId": "external_financial_constraint",
+    "text": "Gross international reserves The headline stock of reserve assets held by the central bank. Gross reserves are the most visible external-buffer measure, but they should not be read as if every dollar were equally available. Reserve requirements, swaps, repos, and other reserve-related liabilities can make the headline stock diverge substantially from the resources that are readily usable under stress. Headline foreign-currency reserve assets held by the central bank before subtracting reserve-related liabilities and encumbrances. core"
+  },
+  {
+    "id": "ef.net_international_reserves",
+    "kind": "topic",
+    "slug": "net-international-reserves",
+    "title": "Net international reserves",
+    "href": "/topics/net-international-reserves",
+    "regionId": "external_financial_constraint",
+    "text": "Net international reserves A net view of reserve buffers after subtracting specified reserve-related liabilities. NIR is useful because it makes explicit that reserve strength depends on both assets and liabilities. The exact definition matters: program measures, accounting measures, and alternative liquid-reserve concepts may differ, so the atlas keeps the measurement convention visible rather than collapsing them into one number. Reserve position after subtracting specified reserve-related liabilities, swaps, and other items under the relevant definition. core"
+  },
+  {
+    "id": "ef.liquid_reserve_buffers",
+    "kind": "topic",
+    "slug": "liquid-reserve-buffers",
+    "title": "Liquid reserve buffers",
+    "href": "/topics/liquid-reserve-buffers",
+    "regionId": "external_financial_constraint",
+    "text": "Liquid reserve buffers Reserve resources that are readily usable to absorb balance-of-payments pressure or meet foreign-currency obligations. Reserve resources that are readily usable to absorb balance-of-payments pressure or meet foreign-currency obligations. core"
+  },
+  {
+    "id": "ef.reserve_adequacy",
+    "kind": "topic",
+    "slug": "reserve-adequacy",
+    "title": "Reserve adequacy",
+    "href": "/topics/reserve-adequacy",
+    "regionId": "external_financial_constraint",
+    "text": "Reserve adequacy Whether external buffers are large enough relative to the obligations and shocks they may need to absorb. No single adequacy ratio is sufficient. Import coverage, near-term FX debt service, short-term liabilities, and the composition of reserves each answer a different question. The atlas therefore treats adequacy as a family of comparisons rather than a binary judgment. Assessment of reserve buffers relative to imports, external debt service, short-term liabilities, and other external risks. core"
+  },
+  {
+    "id": "ef.reserve_accumulation",
+    "kind": "topic",
+    "slug": "reserve-accumulation",
+    "title": "Reserve accumulation",
+    "href": "/topics/reserve-accumulation",
+    "regionId": "external_financial_constraint",
+    "text": "Reserve accumulation Change in usable reserve buffers over time, including the contribution of FX purchases and external financing flows. Change in usable reserve buffers over time, including the contribution of FX purchases and external financing flows. core"
+  },
+  {
+    "id": "ef.current_account",
+    "kind": "topic",
+    "slug": "current-account",
+    "title": "Current account",
+    "href": "/topics/current-account",
+    "regionId": "external_financial_constraint",
+    "text": "Current account The balance of goods, services, income, and transfers between Argentina and the rest of the world. A headline current-account balance can hide very different underlying stories. A strong goods surplus may be offset by tourism, other services, or interest payments. Decomposing those pieces helps distinguish a durable export improvement from a temporary compression of imports or a change in financing conditions. Balance of trade in goods and services, primary income, and secondary income with the rest of the world. core"
+  },
+  {
+    "id": "ef.goods_trade_balance",
+    "kind": "topic",
+    "slug": "goods-trade-balance",
+    "title": "Goods trade balance",
+    "href": "/topics/goods-trade-balance",
+    "regionId": "external_financial_constraint",
+    "text": "Goods trade balance Difference between merchandise exports and imports. Difference between merchandise exports and imports. component"
+  },
+  {
+    "id": "ef.services_balance",
+    "kind": "topic",
+    "slug": "services-balance",
+    "title": "Services balance",
+    "href": "/topics/services-balance",
+    "regionId": "external_financial_constraint",
+    "text": "Services balance Net exports of services, including travel and other service categories. Net exports of services, including travel and other service categories. component"
+  },
+  {
+    "id": "ef.primary_income_balance",
+    "kind": "topic",
+    "slug": "primary-income-balance",
+    "title": "Primary income balance",
+    "href": "/topics/primary-income-balance",
+    "regionId": "external_financial_constraint",
+    "text": "Primary income balance Net cross-border investment income and related income flows, including public-sector interest payments. Net cross-border investment income and related income flows, including public-sector interest payments. component"
+  },
+  {
+    "id": "ef.financial_account",
+    "kind": "topic",
+    "slug": "financial-account",
+    "title": "Financial account",
+    "href": "/topics/financial-account",
+    "regionId": "external_financial_constraint",
+    "text": "Financial account Cross-border financial flows involving private, public, and official-sector assets and liabilities. Cross-border financial flows involving private, public, and official-sector assets and liabilities. core"
+  },
+  {
+    "id": "ef.capital_inflows",
+    "kind": "topic",
+    "slug": "capital-inflows",
+    "title": "Capital inflows",
+    "href": "/topics/capital-inflows",
+    "regionId": "external_financial_constraint",
+    "text": "Capital inflows External financing entering the economy through debt, equity, direct investment, official financing, or other financial flows. External financing entering the economy through debt, equity, direct investment, official financing, or other financial flows. core"
+  },
+  {
+    "id": "ef.resident_fx_hedging",
+    "kind": "topic",
+    "slug": "resident-fx-hedging-and-dollarization-pressure",
+    "title": "Resident FX hedging and dollarization pressure",
+    "href": "/topics/resident-fx-hedging-and-dollarization-pressure",
+    "regionId": "external_financial_constraint",
+    "text": "Resident FX hedging and dollarization pressure Demand by residents to acquire foreign-currency assets or hedge peso exposure, affecting the financial account and reserve pressure. Demand by residents to acquire foreign-currency assets or hedge peso exposure, affecting the financial account and reserve pressure. mechanism"
+  },
+  {
+    "id": "ef.foreign_direct_investment",
+    "kind": "topic",
+    "slug": "foreign-direct-investment",
+    "title": "Foreign direct investment",
+    "href": "/topics/foreign-direct-investment",
+    "regionId": "external_financial_constraint",
+    "text": "Foreign direct investment Cross-border investment associated with lasting ownership or control of productive assets. Cross-border investment associated with lasting ownership or control of productive assets. component"
+  },
+  {
+    "id": "ef.market_access",
+    "kind": "topic",
+    "slug": "international-market-access",
+    "title": "International market access",
+    "href": "/topics/international-market-access",
+    "regionId": "external_financial_constraint",
+    "text": "International market access The ability to refinance and raise foreign-currency funding at terms that can be sustained over time. A successful bond issue is evidence of access, but not necessarily of durable access. The broader question is whether multiple issuers can return to markets repeatedly, whether maturities lengthen, and whether spreads fall enough for refinancing to stop depending on exceptional official or secured financing. Ability of sovereign, provincial, corporate, and financial issuers to obtain durable foreign-currency financing at sustainable terms. core"
+  },
+  {
+    "id": "ef.sovereign_risk",
+    "kind": "topic",
+    "slug": "sovereign-risk",
+    "title": "Sovereign risk",
+    "href": "/topics/sovereign-risk",
+    "regionId": "external_financial_constraint",
+    "text": "Sovereign risk Market assessment of the probability and severity of losses on sovereign obligations. Market assessment of the probability and severity of losses on sovereign obligations. core"
+  },
+  {
+    "id": "ef.sovereign_spreads",
+    "kind": "topic",
+    "slug": "sovereign-spreads",
+    "title": "Sovereign spreads",
+    "href": "/topics/sovereign-spreads",
+    "regionId": "external_financial_constraint",
+    "text": "Sovereign spreads The market premium investors demand to hold Argentine sovereign debt relative to a lower-risk benchmark. Spreads compress a large amount of information into one market price: debt sustainability, policy credibility, global risk appetite, refinancing pressure, and expected recovery values. They are therefore valuable state indicators, but should not be interpreted as a clean measure of any single causal mechanism. Yield premium on Argentine sovereign debt relative to a lower-risk benchmark. measurement"
+  },
+  {
+    "id": "ef.external_public_debt",
+    "kind": "topic",
+    "slug": "external-public-debt",
+    "title": "External public debt",
+    "href": "/topics/external-public-debt",
+    "regionId": "external_financial_constraint",
+    "text": "External public debt Public-sector obligations that create material foreign-currency financing needs. Public-sector obligations that create material foreign-currency financing needs. core"
+  },
+  {
+    "id": "ef.fx_debt_service",
+    "kind": "topic",
+    "slug": "foreign-currency-debt-service",
+    "title": "Foreign-currency debt service",
+    "href": "/topics/foreign-currency-debt-service",
+    "regionId": "external_financial_constraint",
+    "text": "Foreign-currency debt service Principal and interest payments that must be met in foreign currency over a defined horizon. Debt-service pressure is fundamentally a timing problem. A country can have a manageable debt ratio and still face a difficult year if large foreign-currency payments arrive before market access or reserve buffers are strong enough. Forward maturity views are therefore central to this area. Principal and interest payments due in foreign currency over a specified horizon. core"
+  },
+  {
+    "id": "ef.refinancing_needs",
+    "kind": "topic",
+    "slug": "external-refinancing-needs",
+    "title": "External refinancing needs",
+    "href": "/topics/external-refinancing-needs",
+    "regionId": "external_financial_constraint",
+    "text": "External refinancing needs Foreign-currency obligations that need to be rolled over, refinanced, or paid from other external resources. Foreign-currency obligations that need to be rolled over, refinanced, or paid from other external resources. core"
+  },
+  {
+    "id": "ef.official_external_financing",
+    "kind": "topic",
+    "slug": "official-external-financing",
+    "title": "Official external financing",
+    "href": "/topics/official-external-financing",
+    "regionId": "external_financial_constraint",
+    "text": "Official external financing Financing from multilateral institutions, foreign official creditors, and other official-sector arrangements. Financing from multilateral institutions, foreign official creditors, and other official-sector arrangements. component"
+  },
+  {
+    "id": "ef.swap_repo_financing",
+    "kind": "topic",
+    "slug": "swap-and-repo-financing",
+    "title": "Swap and repo financing",
+    "href": "/topics/swap-and-repo-financing",
+    "regionId": "external_financial_constraint",
+    "text": "Swap and repo financing Foreign-currency financing obtained through central-bank swaps, repos, and similar secured facilities. Foreign-currency financing obtained through central-bank swaps, repos, and similar secured facilities. component"
+  },
+  {
+    "id": "ef.fx_market_issuance",
+    "kind": "topic",
+    "slug": "fx-market-issuance",
+    "title": "FX market issuance",
+    "href": "/topics/fx-market-issuance",
+    "regionId": "external_financial_constraint",
+    "text": "FX market issuance Foreign-currency borrowing through domestic or international bond and loan markets by public and private issuers. Foreign-currency borrowing through domestic or international bond and loan markets by public and private issuers. component"
+  },
+  {
+    "id": "ef.financial_depth",
+    "kind": "topic",
+    "slug": "financial-depth",
+    "title": "Financial depth",
+    "href": "/topics/financial-depth",
+    "regionId": "external_financial_constraint",
+    "text": "Financial depth How much saving and financing the domestic financial system can intermediate relative to the economy. Argentina combines substantial resident wealth with unusually shallow domestic credit and capital markets. That gap matters because a deeper local financial system can reduce dependence on volatile external financing, but rapid credit expansion also creates prudential risks if underwriting and borrower incomes do not keep pace. Scale and diversity of domestic financial intermediation and capital markets relative to the size of the economy. core"
+  },
+  {
+    "id": "ef.private_credit",
+    "kind": "topic",
+    "slug": "private-sector-credit",
+    "title": "Private-sector credit",
+    "href": "/topics/private-sector-credit",
+    "regionId": "external_financial_constraint",
+    "text": "Private-sector credit Domestic bank and financial-system lending to households and firms. Credit deepening is potentially growth-enhancing in a financially shallow economy, but the speed and quality of expansion matter. The atlas reads credit growth together with non-performing loans, capitalization, liquidity, and the broader macro-financial environment. Credit extended by the domestic financial system to households and firms. core"
+  },
+  {
+    "id": "ef.credit_quality",
+    "kind": "topic",
+    "slug": "credit-quality",
+    "title": "Credit quality",
+    "href": "/topics/credit-quality",
+    "regionId": "external_financial_constraint",
+    "text": "Credit quality Capacity of borrowers to service debt, commonly monitored through arrears, non-performing loans, and provisioning. Capacity of borrowers to service debt, commonly monitored through arrears, non-performing loans, and provisioning. risk"
+  },
+  {
+    "id": "ef.fx_deposits",
+    "kind": "topic",
+    "slug": "foreign-currency-deposits",
+    "title": "Foreign-currency deposits",
+    "href": "/topics/foreign-currency-deposits",
+    "regionId": "external_financial_constraint",
+    "text": "Foreign-currency deposits Deposits denominated in foreign currency within the domestic financial system. Deposits denominated in foreign currency within the domestic financial system. component"
+  },
+  {
+    "id": "ef.domestic_capital_market_depth",
+    "kind": "topic",
+    "slug": "domestic-capital-market-depth",
+    "title": "Domestic capital-market depth",
+    "href": "/topics/domestic-capital-market-depth",
+    "regionId": "external_financial_constraint",
+    "text": "Domestic capital-market depth Capacity of local bond and securities markets to mobilize savings and provide financing beyond bank credit. Capacity of local bond and securities markets to mobilize savings and provide financing beyond bank credit. core"
+  },
+  {
+    "id": "ef.domestic_savings_mobilization",
+    "kind": "topic",
+    "slug": "domestic-savings-mobilization",
+    "title": "Domestic savings mobilization",
+    "href": "/topics/domestic-savings-mobilization",
+    "regionId": "external_financial_constraint",
+    "text": "Domestic savings mobilization The process of bringing resident savings into domestic financial intermediation and productive investment. Argentina's external financing constraint coexists with a large stock of resident assets held outside the domestic financial system. Mobilizing even part of those savings could deepen credit and capital markets, but doing so sustainably depends on confidence, legal certainty, macro stability, and credible financial institutions. Channeling resident savings, including dollar assets held outside the financial system, into domestic intermediation and investment. mechanism"
+  },
+  {
+    "id": "ef.external_vulnerability",
+    "kind": "topic",
+    "slug": "external-vulnerability",
+    "title": "External vulnerability",
+    "href": "/topics/external-vulnerability",
+    "regionId": "external_financial_constraint",
+    "text": "External vulnerability Exposure to abrupt capital-flow reversals, reserve losses, refinancing stress, or external shocks given available buffers and obligations. Exposure to abrupt capital-flow reversals, reserve losses, refinancing stress, or external shocks given available buffers and obligations. core"
+  },
+  {
     "id": "q.ns01",
     "kind": "question",
     "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
@@ -439,6 +709,186 @@
     "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
     "regionId": "nominal_stabilization",
     "text": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand? credibility"
+  },
+  {
+    "id": "q.ef01",
+    "kind": "question",
+    "slug": "how-strong-is-argentina-s-reserve-position",
+    "title": "How strong is Argentina's reserve position?",
+    "href": "/questions/how-strong-is-argentina-s-reserve-position",
+    "regionId": "external_financial_constraint",
+    "text": "How strong is Argentina's reserve position? Separate gross reserves, NIR, liquid buffers, and adequacy ratios before judging external strength. The same reserve headline can imply very different levels of resilience depending on what sits behind it. This question forces the reader to distinguish the accounting stock from net and liquid measures, then compare those buffers with the obligations they may need to cover. state_measurement"
+  },
+  {
+    "id": "q.ef02",
+    "kind": "question",
+    "slug": "are-reserves-rebuilding-fast-enough",
+    "title": "Are reserves rebuilding fast enough?",
+    "href": "/questions/are-reserves-rebuilding-fast-enough",
+    "regionId": "external_financial_constraint",
+    "text": "Are reserves rebuilding fast enough? Compare the pace of reserve accumulation with targets and near-term foreign-currency obligations. Reserve accumulation matters because time matters: rebuilding buffers slowly may still leave a difficult refinancing window exposed. The useful comparison is not simply whether reserves are rising, but whether they are rising quickly enough relative to the target path and the payment calendar ahead. target_gap"
+  },
+  {
+    "id": "q.ef03",
+    "kind": "question",
+    "slug": "what-is-driving-changes-in-reserves",
+    "title": "What is driving changes in reserves?",
+    "href": "/questions/what-is-driving-changes-in-reserves",
+    "regionId": "external_financial_constraint",
+    "text": "What is driving changes in reserves? Reconcile FX purchases, debt payments, official financing, and other flows with movements in gross and net reserves. Central-bank purchases do not translate one-for-one into reserve accumulation. Debt service, valuation changes, swaps, repos, and other transactions can produce large differences between the flow observed in the FX market and the change in reserve stocks. decomposition"
+  },
+  {
+    "id": "q.ef04",
+    "kind": "question",
+    "slug": "is-the-current-account-improving",
+    "title": "Is the current account improving?",
+    "href": "/questions/is-the-current-account-improving",
+    "regionId": "external_financial_constraint",
+    "text": "Is the current account improving? Decompose the current account into goods, services, and income balances rather than relying on the headline total. An improving current account can reflect stronger exports, weaker imports, lower service outflows, or changes in income payments. Those stories have different implications for sustainability, competitiveness, and growth, so the composition matters as much as the total. decomposition"
+  },
+  {
+    "id": "q.ef05",
+    "kind": "question",
+    "slug": "what-offsets-argentina-s-goods-surplus",
+    "title": "What offsets Argentina's goods surplus?",
+    "href": "/questions/what-offsets-argentina-s-goods-surplus",
+    "regionId": "external_financial_constraint",
+    "text": "What offsets Argentina's goods surplus? Show how services and primary-income outflows interact with the merchandise trade balance. Argentina can run a sizeable goods surplus without generating an equally large current-account surplus. Tourism, other service imports, and interest or investment-income payments can absorb a substantial share of trade earnings. accounting_bridge"
+  },
+  {
+    "id": "q.ef06",
+    "kind": "question",
+    "slug": "are-capital-inflows-durable",
+    "title": "Are capital inflows durable?",
+    "href": "/questions/are-capital-inflows-durable",
+    "regionId": "external_financial_constraint",
+    "text": "Are capital inflows durable? Distinguish FDI, private financial flows, public borrowing, and temporary financing when reading the financial account. External financing is not homogeneous. Longer-horizon direct investment, market debt, official disbursements, and reversals in resident hedging have different persistence and risk. The goal is to understand what kind of inflow is financing the external position. financing_quality"
+  },
+  {
+    "id": "q.ef07",
+    "kind": "question",
+    "slug": "has-fx-hedging-pressure-normalized",
+    "title": "Has FX hedging pressure normalized?",
+    "href": "/questions/has-fx-hedging-pressure-normalized",
+    "regionId": "external_financial_constraint",
+    "text": "Has FX hedging pressure normalized? Track private financial flows around stress episodes and compare them with the recovery in reserve buffers. Resident demand for foreign assets can change abruptly when political or macro uncertainty rises. Looking at the reversal of those flows helps distinguish a genuine normalization in portfolio behavior from reserve improvement driven mainly by exceptional financing. stress_normalization"
+  },
+  {
+    "id": "q.ef08",
+    "kind": "question",
+    "slug": "is-argentina-regaining-durable-market-access",
+    "title": "Is Argentina regaining durable market access?",
+    "href": "/questions/is-argentina-regaining-durable-market-access",
+    "regionId": "external_financial_constraint",
+    "text": "Is Argentina regaining durable market access? Read spreads, issuance volumes, issuer breadth, and maturity conditions together. Market access is stronger when financing becomes repeatable rather than exceptional. Falling spreads matter, but so do the number of issuers returning to market, the tenor of new debt, and whether refinancing can occur without relying on temporary official facilities. market_access"
+  },
+  {
+    "id": "q.ef09",
+    "kind": "question",
+    "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
+    "title": "Why can reserves rise while sovereign risk stays high?",
+    "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
+    "regionId": "external_financial_constraint",
+    "text": "Why can reserves rise while sovereign risk stays high? Put external buffers and market pricing side by side instead of assuming they must move together. Reserve accumulation is only one input into sovereign-risk pricing. Investors also care about the future debt-service schedule, fiscal and political credibility, the durability of market access, and global conditions. Divergence between reserves and spreads can therefore be informative rather than contradictory. joint_state"
+  },
+  {
+    "id": "q.ef10",
+    "kind": "question",
+    "slug": "how-large-is-the-near-term-fx-maturity-wall",
+    "title": "How large is the near-term FX maturity wall?",
+    "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
+    "regionId": "external_financial_constraint",
+    "text": "How large is the near-term FX maturity wall? Organize the next twelve months of principal and interest obligations by financing channel. The external constraint often becomes most concrete in the maturity calendar. A forward view shows when market redemptions, multilateral payments, and other foreign-currency obligations cluster, and therefore when reserve and refinancing buffers matter most. maturity_profile"
+  },
+  {
+    "id": "q.ef11",
+    "kind": "question",
+    "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
+    "title": "How much does the strategy rely on swaps and repos?",
+    "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
+    "regionId": "external_financial_constraint",
+    "text": "How much does the strategy rely on swaps and repos? Separate durable reserve accumulation from temporary or secured official external financing. Swaps and repos can be valuable liquidity bridges, especially during a difficult refinancing window. They also create liabilities and future repayment needs. Reading them alongside NIR helps avoid treating borrowed liquidity as equivalent to permanently stronger external buffers. financing_mix"
+  },
+  {
+    "id": "q.ef12",
+    "kind": "question",
+    "slug": "is-market-financing-broadening-beyond-the-sovereign",
+    "title": "Is market financing broadening beyond the sovereign?",
+    "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
+    "regionId": "external_financial_constraint",
+    "text": "Is market financing broadening beyond the sovereign? Compare public, provincial, and corporate FX issuance as Argentina re-enters credit markets. A broadening issuer base is a stronger signal than a single successful transaction. Corporate and provincial issuance can reveal whether investor appetite is extending beyond the sovereign and whether access is becoming a more normal financing channel. market_breadth"
+  },
+  {
+    "id": "q.ef13",
+    "kind": "question",
+    "slug": "is-the-external-debt-burden-becoming-easier-to-service",
+    "title": "Is the external debt burden becoming easier to service?",
+    "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service",
+    "regionId": "external_financial_constraint",
+    "text": "Is the external debt burden becoming easier to service? Compare debt stocks with GDP, reserves, and the forward debt-service profile. Debt sustainability is not captured by the dollar stock alone. The burden depends on the size of the economy, export capacity, interest costs, maturity structure, and the buffers available when payments fall due. sustainability"
+  },
+  {
+    "id": "q.ef14",
+    "kind": "question",
+    "slug": "is-private-credit-genuinely-deepening",
+    "title": "Is private credit genuinely deepening?",
+    "href": "/questions/is-private-credit-genuinely-deepening",
+    "regionId": "external_financial_constraint",
+    "text": "Is private credit genuinely deepening? Track credit relative to GDP and in real terms, not only nominal loan growth. In a high-inflation economy, nominal credit can grow rapidly without meaningfully deepening financial intermediation. Real growth and credit-to-GDP measures provide a cleaner view of whether households and firms are gaining access to a larger domestic financing system. financial_depth"
+  },
+  {
+    "id": "q.ef15",
+    "kind": "question",
+    "slug": "is-credit-quality-deteriorating-as-lending-expands",
+    "title": "Is credit quality deteriorating as lending expands?",
+    "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
+    "regionId": "external_financial_constraint",
+    "text": "Is credit quality deteriorating as lending expands? Read real credit growth together with NPLs and bank capital rather than treating expansion as unambiguously positive. Rapid deepening from a low base can be healthy, but it can also expose weaker borrowers or underwriting standards. Rising non-performing loans are therefore most informative when placed beside the pace of lending and the buffers held by banks. financial_risk"
+  },
+  {
+    "id": "q.ef16",
+    "kind": "question",
+    "slug": "what-does-the-rise-in-dollar-deposits-mean",
+    "title": "What does the rise in dollar deposits mean?",
+    "href": "/questions/what-does-the-rise-in-dollar-deposits-mean",
+    "regionId": "external_financial_constraint",
+    "text": "What does the rise in dollar deposits mean? Distinguish deeper domestic intermediation from the risks created by foreign-currency balance sheets. More FX deposits can bring resident savings into the domestic system and support financial depth. Their implications depend on how those funds are invested or lent, the currency exposure of borrowers, and the liquidity and capital position of banks. dollarization_finance"
+  },
+  {
+    "id": "q.ef17",
+    "kind": "question",
+    "slug": "how-shallow-is-argentina-s-financial-system",
+    "title": "How shallow is Argentina's financial system?",
+    "href": "/questions/how-shallow-is-argentina-s-financial-system",
+    "regionId": "external_financial_constraint",
+    "text": "How shallow is Argentina's financial system? Compare bank credit and domestic capital markets with the size of the economy and a transparent peer set. Financial depth is a structural constraint behind many short-run financing problems. A shallow domestic system leaves firms and the public sector more dependent on cash flow, inflationary finance, or external markets, while also limiting the transmission of savings into investment. structural_comparison"
+  },
+  {
+    "id": "q.ef18",
+    "kind": "question",
+    "slug": "could-resident-savings-relax-the-external-constraint",
+    "title": "Could resident savings relax the external constraint?",
+    "href": "/questions/could-resident-savings-relax-the-external-constraint",
+    "regionId": "external_financial_constraint",
+    "text": "Could resident savings relax the external constraint? Put assets held outside the domestic system beside the small scale of local credit and capital markets. Argentina's scarcity of domestic financing sits beside substantial resident wealth, much of it held in foreign currency or outside local intermediation. The interesting question is not whether those assets exist, but what institutional and macro conditions would allow them to finance productive activity. structural_mechanism"
+  },
+  {
+    "id": "q.ef19",
+    "kind": "question",
+    "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+    "title": "How does real appreciation interact with the external balance?",
+    "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+    "regionId": "external_financial_constraint",
+    "text": "How does real appreciation interact with the external balance? Read the REER, current account, and reserve accumulation together without reducing the relationship to a single causal claim. Real appreciation can support purchasing power while also changing incentives for imports, exports, and portfolio allocation. Its external effect depends on productivity, terms of trade, capital flows, and the policy regime, which is why the atlas treats it as a cross-slice relationship rather than a verdict. cross_slice_tradeoff"
+  },
+  {
+    "id": "q.ef20",
+    "kind": "question",
+    "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+    "title": "Are BCRA FX purchases strengthening the external position?",
+    "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
+    "regionId": "external_financial_constraint",
+    "text": "Are BCRA FX purchases strengthening the external position? Connect central-bank purchases with gross reserves, NIR, debt payments, and sovereign-risk indicators. Daily FX purchases are an important observable policy action, but the external outcome depends on what happens elsewhere on the balance sheet. This question follows the entire chain from intervention to reserve stocks and broader measures of external vulnerability. cross_slice_policy"
   },
   {
     "id": "ci.ns.cpi_monthly",
@@ -817,6 +1267,366 @@
     "href": "/indicators/bcra-net-fx-purchases",
     "regionId": "nominal_stabilization",
     "text": "BCRA net FX purchases usd daily"
+  },
+  {
+    "id": "ci.ef.gross_reserves_usd",
+    "kind": "indicator",
+    "slug": "gross-international-reserves",
+    "title": "Gross international reserves",
+    "href": "/indicators/gross-international-reserves",
+    "regionId": "external_financial_constraint",
+    "text": "Gross international reserves usd_billions daily"
+  },
+  {
+    "id": "ci.ef.nir_usd",
+    "kind": "indicator",
+    "slug": "net-international-reserves",
+    "title": "Net international reserves",
+    "href": "/indicators/net-international-reserves",
+    "regionId": "external_financial_constraint",
+    "text": "Net international reserves usd_billions monthly"
+  },
+  {
+    "id": "ci.ef.liquid_reserve_buffer_usd",
+    "kind": "indicator",
+    "slug": "liquid-reserve-buffer",
+    "title": "Liquid reserve buffer",
+    "href": "/indicators/liquid-reserve-buffer",
+    "regionId": "external_financial_constraint",
+    "text": "Liquid reserve buffer usd_billions monthly"
+  },
+  {
+    "id": "ci.ef.reserve_change_monthly",
+    "kind": "indicator",
+    "slug": "monthly-change-in-gross-reserves",
+    "title": "Monthly change in gross reserves",
+    "href": "/indicators/monthly-change-in-gross-reserves",
+    "regionId": "external_financial_constraint",
+    "text": "Monthly change in gross reserves usd_billions_change monthly"
+  },
+  {
+    "id": "ci.ef.nir_change_monthly",
+    "kind": "indicator",
+    "slug": "monthly-change-in-nir",
+    "title": "Monthly change in NIR",
+    "href": "/indicators/monthly-change-in-nir",
+    "regionId": "external_financial_constraint",
+    "text": "Monthly change in NIR usd_billions_change monthly"
+  },
+  {
+    "id": "ci.ef.reserve_accumulation_ytd",
+    "kind": "indicator",
+    "slug": "cumulative-reserve-accumulation-ytd",
+    "title": "Cumulative reserve accumulation YTD",
+    "href": "/indicators/cumulative-reserve-accumulation-ytd",
+    "regionId": "external_financial_constraint",
+    "text": "Cumulative reserve accumulation YTD usd_billions daily"
+  },
+  {
+    "id": "ci.ef.import_cover_months",
+    "kind": "indicator",
+    "slug": "reserve-import-coverage",
+    "title": "Reserve import coverage",
+    "href": "/indicators/reserve-import-coverage",
+    "regionId": "external_financial_constraint",
+    "text": "Reserve import coverage months_of_imports monthly"
+  },
+  {
+    "id": "ci.ef.nir_to_gross_ratio",
+    "kind": "indicator",
+    "slug": "nir-to-gross-reserves-ratio",
+    "title": "NIR-to-gross-reserves ratio",
+    "href": "/indicators/nir-to-gross-reserves-ratio",
+    "regionId": "external_financial_constraint",
+    "text": "NIR-to-gross-reserves ratio ratio monthly"
+  },
+  {
+    "id": "ci.ef.reserve_to_fx_service_ratio",
+    "kind": "indicator",
+    "slug": "reserves-relative-to-next-12m-fx-debt-service",
+    "title": "Reserves relative to next-12m FX debt service",
+    "href": "/indicators/reserves-relative-to-next-12m-fx-debt-service",
+    "regionId": "external_financial_constraint",
+    "text": "Reserves relative to next-12m FX debt service ratio monthly"
+  },
+  {
+    "id": "ci.ef.current_account_usd",
+    "kind": "indicator",
+    "slug": "current-account-balance",
+    "title": "Current account balance",
+    "href": "/indicators/current-account-balance",
+    "regionId": "external_financial_constraint",
+    "text": "Current account balance usd_billions quarterly"
+  },
+  {
+    "id": "ci.ef.current_account_gdp",
+    "kind": "indicator",
+    "slug": "current-account-balance-as-share-of-gdp",
+    "title": "Current account balance as share of GDP",
+    "href": "/indicators/current-account-balance-as-share-of-gdp",
+    "regionId": "external_financial_constraint",
+    "text": "Current account balance as share of GDP percent_gdp quarterly"
+  },
+  {
+    "id": "ci.ef.goods_balance_usd",
+    "kind": "indicator",
+    "slug": "goods-trade-balance",
+    "title": "Goods trade balance",
+    "href": "/indicators/goods-trade-balance",
+    "regionId": "external_financial_constraint",
+    "text": "Goods trade balance usd_billions monthly"
+  },
+  {
+    "id": "ci.ef.services_balance_usd",
+    "kind": "indicator",
+    "slug": "services-balance",
+    "title": "Services balance",
+    "href": "/indicators/services-balance",
+    "regionId": "external_financial_constraint",
+    "text": "Services balance usd_billions quarterly"
+  },
+  {
+    "id": "ci.ef.primary_income_balance_usd",
+    "kind": "indicator",
+    "slug": "primary-income-balance",
+    "title": "Primary income balance",
+    "href": "/indicators/primary-income-balance",
+    "regionId": "external_financial_constraint",
+    "text": "Primary income balance usd_billions quarterly"
+  },
+  {
+    "id": "ci.ef.financial_account_usd",
+    "kind": "indicator",
+    "slug": "financial-account-balance",
+    "title": "Financial account balance",
+    "href": "/indicators/financial-account-balance",
+    "regionId": "external_financial_constraint",
+    "text": "Financial account balance usd_billions quarterly"
+  },
+  {
+    "id": "ci.ef.fdi_net_usd",
+    "kind": "indicator",
+    "slug": "net-foreign-direct-investment-flows",
+    "title": "Net foreign direct investment flows",
+    "href": "/indicators/net-foreign-direct-investment-flows",
+    "regionId": "external_financial_constraint",
+    "text": "Net foreign direct investment flows usd_billions quarterly"
+  },
+  {
+    "id": "ci.ef.private_financial_flows_usd",
+    "kind": "indicator",
+    "slug": "net-private-financial-flows",
+    "title": "Net private financial flows",
+    "href": "/indicators/net-private-financial-flows",
+    "regionId": "external_financial_constraint",
+    "text": "Net private financial flows usd_billions quarterly"
+  },
+  {
+    "id": "ci.ef.public_financial_flows_usd",
+    "kind": "indicator",
+    "slug": "net-public-sector-financial-flows",
+    "title": "Net public-sector financial flows",
+    "href": "/indicators/net-public-sector-financial-flows",
+    "regionId": "external_financial_constraint",
+    "text": "Net public-sector financial flows usd_billions quarterly"
+  },
+  {
+    "id": "ci.ef.capital_inflows_usd",
+    "kind": "indicator",
+    "slug": "gross-identified-capital-inflows",
+    "title": "Gross identified capital inflows",
+    "href": "/indicators/gross-identified-capital-inflows",
+    "regionId": "external_financial_constraint",
+    "text": "Gross identified capital inflows usd_billions monthly"
+  },
+  {
+    "id": "ci.ef.external_debt_usd",
+    "kind": "indicator",
+    "slug": "total-external-debt",
+    "title": "Total external debt",
+    "href": "/indicators/total-external-debt",
+    "regionId": "external_financial_constraint",
+    "text": "Total external debt usd_billions quarterly"
+  },
+  {
+    "id": "ci.ef.external_debt_gdp",
+    "kind": "indicator",
+    "slug": "external-debt-as-share-of-gdp",
+    "title": "External debt as share of GDP",
+    "href": "/indicators/external-debt-as-share-of-gdp",
+    "regionId": "external_financial_constraint",
+    "text": "External debt as share of GDP percent_gdp quarterly"
+  },
+  {
+    "id": "ci.ef.public_fx_debt_service_12m",
+    "kind": "indicator",
+    "slug": "public-sector-fx-debt-service-next-12-months",
+    "title": "Public-sector FX debt service next 12 months",
+    "href": "/indicators/public-sector-fx-debt-service-next-12-months",
+    "regionId": "external_financial_constraint",
+    "text": "Public-sector FX debt service next 12 months usd_billions monthly"
+  },
+  {
+    "id": "ci.ef.market_fx_redemptions_12m",
+    "kind": "indicator",
+    "slug": "market-fx-redemptions-next-12-months",
+    "title": "Market FX redemptions next 12 months",
+    "href": "/indicators/market-fx-redemptions-next-12-months",
+    "regionId": "external_financial_constraint",
+    "text": "Market FX redemptions next 12 months usd_billions monthly"
+  },
+  {
+    "id": "ci.ef.imf_obligations_12m",
+    "kind": "indicator",
+    "slug": "imf-obligations-next-12-months",
+    "title": "IMF obligations next 12 months",
+    "href": "/indicators/imf-obligations-next-12-months",
+    "regionId": "external_financial_constraint",
+    "text": "IMF obligations next 12 months usd_billions monthly"
+  },
+  {
+    "id": "ci.ef.sovereign_spread_bps",
+    "kind": "indicator",
+    "slug": "sovereign-spread",
+    "title": "Sovereign spread",
+    "href": "/indicators/sovereign-spread",
+    "regionId": "external_financial_constraint",
+    "text": "Sovereign spread basis_points daily"
+  },
+  {
+    "id": "ci.ef.corporate_spread_bps",
+    "kind": "indicator",
+    "slug": "corporate-spread",
+    "title": "Corporate spread",
+    "href": "/indicators/corporate-spread",
+    "regionId": "external_financial_constraint",
+    "text": "Corporate spread basis_points daily"
+  },
+  {
+    "id": "ci.ef.public_fx_issuance_usd",
+    "kind": "indicator",
+    "slug": "public-and-provincial-fx-issuance",
+    "title": "Public and provincial FX issuance",
+    "href": "/indicators/public-and-provincial-fx-issuance",
+    "regionId": "external_financial_constraint",
+    "text": "Public and provincial FX issuance usd_billions monthly"
+  },
+  {
+    "id": "ci.ef.corporate_fx_issuance_usd",
+    "kind": "indicator",
+    "slug": "corporate-fx-issuance",
+    "title": "Corporate FX issuance",
+    "href": "/indicators/corporate-fx-issuance",
+    "regionId": "external_financial_constraint",
+    "text": "Corporate FX issuance usd_billions monthly"
+  },
+  {
+    "id": "ci.ef.official_external_financing_usd",
+    "kind": "indicator",
+    "slug": "official-external-financing-flows",
+    "title": "Official external financing flows",
+    "href": "/indicators/official-external-financing-flows",
+    "regionId": "external_financial_constraint",
+    "text": "Official external financing flows usd_billions monthly"
+  },
+  {
+    "id": "ci.ef.swap_liabilities_usd",
+    "kind": "indicator",
+    "slug": "central-bank-external-swap-liabilities",
+    "title": "Central-bank external swap liabilities",
+    "href": "/indicators/central-bank-external-swap-liabilities",
+    "regionId": "external_financial_constraint",
+    "text": "Central-bank external swap liabilities usd_billions monthly"
+  },
+  {
+    "id": "ci.ef.repo_liabilities_usd",
+    "kind": "indicator",
+    "slug": "central-bank-repo-liabilities",
+    "title": "Central-bank repo liabilities",
+    "href": "/indicators/central-bank-repo-liabilities",
+    "regionId": "external_financial_constraint",
+    "text": "Central-bank repo liabilities usd_billions monthly"
+  },
+  {
+    "id": "ci.ef.private_credit_gdp",
+    "kind": "indicator",
+    "slug": "private-sector-credit-as-share-of-gdp",
+    "title": "Private-sector credit as share of GDP",
+    "href": "/indicators/private-sector-credit-as-share-of-gdp",
+    "regionId": "external_financial_constraint",
+    "text": "Private-sector credit as share of GDP percent_gdp quarterly"
+  },
+  {
+    "id": "ci.ef.real_private_credit_growth",
+    "kind": "indicator",
+    "slug": "real-private-sector-credit-growth",
+    "title": "Real private-sector credit growth",
+    "href": "/indicators/real-private-sector-credit-growth",
+    "regionId": "external_financial_constraint",
+    "text": "Real private-sector credit growth percent_yoy_real monthly"
+  },
+  {
+    "id": "ci.ef.npl_ratio",
+    "kind": "indicator",
+    "slug": "non-performing-loans-ratio",
+    "title": "Non-performing loans ratio",
+    "href": "/indicators/non-performing-loans-ratio",
+    "regionId": "external_financial_constraint",
+    "text": "Non-performing loans ratio percent_loans monthly"
+  },
+  {
+    "id": "ci.ef.fx_deposits_usd",
+    "kind": "indicator",
+    "slug": "foreign-currency-deposits",
+    "title": "Foreign-currency deposits",
+    "href": "/indicators/foreign-currency-deposits",
+    "regionId": "external_financial_constraint",
+    "text": "Foreign-currency deposits usd_billions daily"
+  },
+  {
+    "id": "ci.ef.fx_deposit_share",
+    "kind": "indicator",
+    "slug": "foreign-currency-deposit-share",
+    "title": "Foreign-currency deposit share",
+    "href": "/indicators/foreign-currency-deposit-share",
+    "regionId": "external_financial_constraint",
+    "text": "Foreign-currency deposit share percent_deposits monthly"
+  },
+  {
+    "id": "ci.ef.bank_capital_ratio",
+    "kind": "indicator",
+    "slug": "bank-regulatory-capital-ratio",
+    "title": "Bank regulatory capital ratio",
+    "href": "/indicators/bank-regulatory-capital-ratio",
+    "regionId": "external_financial_constraint",
+    "text": "Bank regulatory capital ratio percent_rwa quarterly"
+  },
+  {
+    "id": "ci.ef.bank_liquidity_ratio",
+    "kind": "indicator",
+    "slug": "bank-liquid-assets-ratio",
+    "title": "Bank liquid-assets ratio",
+    "href": "/indicators/bank-liquid-assets-ratio",
+    "regionId": "external_financial_constraint",
+    "text": "Bank liquid-assets ratio percent_assets monthly"
+  },
+  {
+    "id": "ci.ef.assets_outside_system_gdp",
+    "kind": "indicator",
+    "slug": "resident-financial-assets-outside-the-domestic-financial-system",
+    "title": "Resident financial assets outside the domestic financial system",
+    "href": "/indicators/resident-financial-assets-outside-the-domestic-financial-system",
+    "regionId": "external_financial_constraint",
+    "text": "Resident financial assets outside the domestic financial system percent_gdp annual"
+  },
+  {
+    "id": "ci.ef.domestic_market_depth_gdp",
+    "kind": "indicator",
+    "slug": "domestic-capital-market-depth",
+    "title": "Domestic capital-market depth",
+    "href": "/indicators/domestic-capital-market-depth",
+    "regionId": "external_financial_constraint",
+    "text": "Domestic capital-market depth percent_gdp quarterly"
   },
   {
     "id": "pi.ns01",
@@ -1285,5 +2095,401 @@
     "href": "/charts/nominal-stabilization-state-map",
     "regionId": "nominal_stabilization",
     "text": "Nominal-stabilization state map A compact multi-indicator state vector for the slice; not a single causal index. A compact multi-indicator state vector for the slice; not a single causal index."
+  },
+  {
+    "id": "pi.ef01",
+    "kind": "chart",
+    "slug": "gross-reserves-nir-and-liquid-buffers",
+    "title": "Gross reserves, NIR, and liquid buffers",
+    "href": "/charts/gross-reserves-nir-and-liquid-buffers",
+    "regionId": "external_financial_constraint",
+    "text": "Gross reserves, NIR, and liquid buffers Separate headline reserve assets from net and readily usable reserve buffers. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Separate headline reserve assets from net and readily usable reserve buffers."
+  },
+  {
+    "id": "pi.ef02",
+    "kind": "chart",
+    "slug": "reserve-adequacy-dashboard",
+    "title": "Reserve adequacy dashboard",
+    "href": "/charts/reserve-adequacy-dashboard",
+    "regionId": "external_financial_constraint",
+    "text": "Reserve adequacy dashboard Show reserve strength against several obligations rather than relying on one headline stock. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show reserve strength against several obligations rather than relying on one headline stock."
+  },
+  {
+    "id": "pi.ef03",
+    "kind": "chart",
+    "slug": "nir-versus-program-target-path",
+    "title": "NIR versus program target path",
+    "href": "/charts/nir-versus-program-target-path",
+    "regionId": "external_financial_constraint",
+    "text": "NIR versus program target path Track whether usable reserves are converging toward the program path. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Track whether usable reserves are converging toward the program path."
+  },
+  {
+    "id": "pi.ef04",
+    "kind": "chart",
+    "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
+    "title": "Reserve accumulation versus next-12m FX debt service",
+    "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service",
+    "regionId": "external_financial_constraint",
+    "text": "Reserve accumulation versus next-12m FX debt service Compare reserve rebuilding with the scale of near-term foreign-currency obligations. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Compare reserve rebuilding with the scale of near-term foreign-currency obligations."
+  },
+  {
+    "id": "pi.ef05",
+    "kind": "chart",
+    "slug": "monthly-reserve-change-gross-versus-nir",
+    "title": "Monthly reserve change: gross versus NIR",
+    "href": "/charts/monthly-reserve-change-gross-versus-nir",
+    "regionId": "external_financial_constraint",
+    "text": "Monthly reserve change: gross versus NIR Reveal periods when headline reserves and the net reserve position move differently. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Reveal periods when headline reserves and the net reserve position move differently."
+  },
+  {
+    "id": "pi.ef06",
+    "kind": "chart",
+    "slug": "bcra-fx-purchases-versus-nir-accumulation",
+    "title": "BCRA FX purchases versus NIR accumulation",
+    "href": "/charts/bcra-fx-purchases-versus-nir-accumulation",
+    "regionId": "external_financial_constraint",
+    "text": "BCRA FX purchases versus NIR accumulation Compare central-bank FX purchases with the reserve metric most relevant to usable external buffers. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Compare central-bank FX purchases with the reserve metric most relevant to usable external buffers."
+  },
+  {
+    "id": "pi.ef07",
+    "kind": "chart",
+    "slug": "external-financing-and-debt-service-bridge",
+    "title": "External financing and debt-service bridge",
+    "href": "/charts/external-financing-and-debt-service-bridge",
+    "regionId": "external_financial_constraint",
+    "text": "External financing and debt-service bridge Show how financing inflows and debt payments help reconcile reserve changes. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show how financing inflows and debt payments help reconcile reserve changes."
+  },
+  {
+    "id": "pi.ef08",
+    "kind": "chart",
+    "slug": "current-account-balance-through-time",
+    "title": "Current-account balance through time",
+    "href": "/charts/current-account-balance-through-time",
+    "regionId": "external_financial_constraint",
+    "text": "Current-account balance through time Place the recent current-account position in a longer historical frame. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Place the recent current-account position in a longer historical frame."
+  },
+  {
+    "id": "pi.ef09",
+    "kind": "chart",
+    "slug": "current-account-component-decomposition",
+    "title": "Current-account component decomposition",
+    "href": "/charts/current-account-component-decomposition",
+    "regionId": "external_financial_constraint",
+    "text": "Current-account component decomposition Show which external-flow components are improving or weakening the current account. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show which external-flow components are improving or weakening the current account."
+  },
+  {
+    "id": "pi.ef10",
+    "kind": "chart",
+    "slug": "goods-surplus-versus-services-deficit",
+    "title": "Goods surplus versus services deficit",
+    "href": "/charts/goods-surplus-versus-services-deficit",
+    "regionId": "external_financial_constraint",
+    "text": "Goods surplus versus services deficit Make the offset between merchandise trade and services flows explicit. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Make the offset between merchandise trade and services flows explicit."
+  },
+  {
+    "id": "pi.ef11",
+    "kind": "chart",
+    "slug": "primary-income-drag-on-the-current-account",
+    "title": "Primary-income drag on the current account",
+    "href": "/charts/primary-income-drag-on-the-current-account",
+    "regionId": "external_financial_constraint",
+    "text": "Primary-income drag on the current account Show the role of interest and investment-income flows in the external balance. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show the role of interest and investment-income flows in the external balance."
+  },
+  {
+    "id": "pi.ef12",
+    "kind": "chart",
+    "slug": "financial-account-components",
+    "title": "Financial-account components",
+    "href": "/charts/financial-account-components",
+    "regionId": "external_financial_constraint",
+    "text": "Financial-account components Distinguish direct investment, private financial flows, and public flows. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Distinguish direct investment, private financial flows, and public flows."
+  },
+  {
+    "id": "pi.ef13",
+    "kind": "chart",
+    "slug": "capital-inflows-versus-current-account-financing-need",
+    "title": "Capital inflows versus current-account financing need",
+    "href": "/charts/capital-inflows-versus-current-account-financing-need",
+    "regionId": "external_financial_constraint",
+    "text": "Capital inflows versus current-account financing need Compare observed inflows with the external financing requirement implied by the current account. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Compare observed inflows with the external financing requirement implied by the current account."
+  },
+  {
+    "id": "pi.ef14",
+    "kind": "chart",
+    "slug": "fdi-versus-broader-capital-inflows",
+    "title": "FDI versus broader capital inflows",
+    "href": "/charts/fdi-versus-broader-capital-inflows",
+    "regionId": "external_financial_constraint",
+    "text": "FDI versus broader capital inflows Separate longer-horizon direct investment from the broader pool of external financing. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Separate longer-horizon direct investment from the broader pool of external financing."
+  },
+  {
+    "id": "pi.ef15",
+    "kind": "chart",
+    "slug": "private-financial-flows-around-the-2025-stress-episode",
+    "title": "Private financial flows around the 2025 stress episode",
+    "href": "/charts/private-financial-flows-around-the-2025-stress-episode",
+    "regionId": "external_financial_constraint",
+    "text": "Private financial flows around the 2025 stress episode Show the scale and reversal of private external-flow pressure around political stress. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show the scale and reversal of private external-flow pressure around political stress."
+  },
+  {
+    "id": "pi.ef16",
+    "kind": "chart",
+    "slug": "private-financial-flows-versus-reserve-accumulation",
+    "title": "Private financial flows versus reserve accumulation",
+    "href": "/charts/private-financial-flows-versus-reserve-accumulation",
+    "regionId": "external_financial_constraint",
+    "text": "Private financial flows versus reserve accumulation Compare private financial outflows with the evolution of net reserve buffers. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Compare private financial outflows with the evolution of net reserve buffers."
+  },
+  {
+    "id": "pi.ef17",
+    "kind": "chart",
+    "slug": "sovereign-spreads-through-the-market-re-entry-window",
+    "title": "Sovereign spreads through the market re-entry window",
+    "href": "/charts/sovereign-spreads-through-the-market-re-entry-window",
+    "regionId": "external_financial_constraint",
+    "text": "Sovereign spreads through the market re-entry window Track the price of sovereign risk as Argentina attempts to regain durable market access. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Track the price of sovereign risk as Argentina attempts to regain durable market access."
+  },
+  {
+    "id": "pi.ef18",
+    "kind": "chart",
+    "slug": "sovereign-and-corporate-spreads",
+    "title": "Sovereign and corporate spreads",
+    "href": "/charts/sovereign-and-corporate-spreads",
+    "regionId": "external_financial_constraint",
+    "text": "Sovereign and corporate spreads Compare sovereign risk with borrowing conditions faced by firms. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Compare sovereign risk with borrowing conditions faced by firms."
+  },
+  {
+    "id": "pi.ef19",
+    "kind": "chart",
+    "slug": "fx-issuance-volumes-by-issuer-type",
+    "title": "FX issuance volumes by issuer type",
+    "href": "/charts/fx-issuance-volumes-by-issuer-type",
+    "regionId": "external_financial_constraint",
+    "text": "FX issuance volumes by issuer type Show whether market access is broadening beyond isolated transactions. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show whether market access is broadening beyond isolated transactions."
+  },
+  {
+    "id": "pi.ef20",
+    "kind": "chart",
+    "slug": "reserve-accumulation-versus-sovereign-spreads",
+    "title": "Reserve accumulation versus sovereign spreads",
+    "href": "/charts/reserve-accumulation-versus-sovereign-spreads",
+    "regionId": "external_financial_constraint",
+    "text": "Reserve accumulation versus sovereign spreads Show whether stronger reserve buffers are being accompanied by lower sovereign risk. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show whether stronger reserve buffers are being accompanied by lower sovereign risk."
+  },
+  {
+    "id": "pi.ef21",
+    "kind": "chart",
+    "slug": "gross-reserves-versus-sovereign-spreads",
+    "title": "Gross reserves versus sovereign spreads",
+    "href": "/charts/gross-reserves-versus-sovereign-spreads",
+    "regionId": "external_financial_constraint",
+    "text": "Gross reserves versus sovereign spreads Contrast the headline reserve stock with market pricing of sovereign risk. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Contrast the headline reserve stock with market pricing of sovereign risk."
+  },
+  {
+    "id": "pi.ef22",
+    "kind": "chart",
+    "slug": "fx-debt-service-maturity-wall",
+    "title": "FX debt-service maturity wall",
+    "href": "/charts/fx-debt-service-maturity-wall",
+    "regionId": "external_financial_constraint",
+    "text": "FX debt-service maturity wall Make the near-term foreign-currency payment schedule visible by creditor and market category. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Make the near-term foreign-currency payment schedule visible by creditor and market category."
+  },
+  {
+    "id": "pi.ef23",
+    "kind": "chart",
+    "slug": "debt-service-versus-reserves",
+    "title": "Debt service versus reserves",
+    "href": "/charts/debt-service-versus-reserves",
+    "regionId": "external_financial_constraint",
+    "text": "Debt service versus reserves Compare the payment burden with both gross and net reserve buffers. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Compare the payment burden with both gross and net reserve buffers."
+  },
+  {
+    "id": "pi.ef24",
+    "kind": "chart",
+    "slug": "official-financing-swaps-and-repos",
+    "title": "Official financing, swaps, and repos",
+    "href": "/charts/official-financing-swaps-and-repos",
+    "regionId": "external_financial_constraint",
+    "text": "Official financing, swaps, and repos Show the composition and changing role of official and secured external financing. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show the composition and changing role of official and secured external financing."
+  },
+  {
+    "id": "pi.ef25",
+    "kind": "chart",
+    "slug": "swap-and-repo-liabilities-versus-nir",
+    "title": "Swap and repo liabilities versus NIR",
+    "href": "/charts/swap-and-repo-liabilities-versus-nir",
+    "regionId": "external_financial_constraint",
+    "text": "Swap and repo liabilities versus NIR Place reserve-linked liabilities beside the net reserve position. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Place reserve-linked liabilities beside the net reserve position."
+  },
+  {
+    "id": "pi.ef26",
+    "kind": "chart",
+    "slug": "market-issuance-cumulative-since-re-entry",
+    "title": "Market issuance cumulative since re-entry",
+    "href": "/charts/market-issuance-cumulative-since-re-entry",
+    "regionId": "external_financial_constraint",
+    "text": "Market issuance cumulative since re-entry Track the cumulative scale and breadth of new foreign-currency market financing. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Track the cumulative scale and breadth of new foreign-currency market financing."
+  },
+  {
+    "id": "pi.ef27",
+    "kind": "chart",
+    "slug": "external-debt-in-dollars-and-percent-of-gdp",
+    "title": "External debt in dollars and percent of GDP",
+    "href": "/charts/external-debt-in-dollars-and-percent-of-gdp",
+    "regionId": "external_financial_constraint",
+    "text": "External debt in dollars and percent of GDP Separate the nominal debt stock from its burden relative to the economy. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Separate the nominal debt stock from its burden relative to the economy."
+  },
+  {
+    "id": "pi.ef28",
+    "kind": "chart",
+    "slug": "reserve-coverage-of-external-debt-service",
+    "title": "Reserve coverage of external debt service",
+    "href": "/charts/reserve-coverage-of-external-debt-service",
+    "regionId": "external_financial_constraint",
+    "text": "Reserve coverage of external debt service Track whether reserve buffers are improving relative to imminent foreign-currency payments. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Track whether reserve buffers are improving relative to imminent foreign-currency payments."
+  },
+  {
+    "id": "pi.ef29",
+    "kind": "chart",
+    "slug": "private-credit-as-a-share-of-gdp",
+    "title": "Private credit as a share of GDP",
+    "href": "/charts/private-credit-as-a-share-of-gdp",
+    "regionId": "external_financial_constraint",
+    "text": "Private credit as a share of GDP Show how shallow domestic credit remains relative to the economy and peers. Show how shallow domestic credit remains relative to the economy and peers."
+  },
+  {
+    "id": "pi.ef30",
+    "kind": "chart",
+    "slug": "real-private-credit-growth",
+    "title": "Real private-credit growth",
+    "href": "/charts/real-private-credit-growth",
+    "regionId": "external_financial_constraint",
+    "text": "Real private-credit growth Show the pace of credit deepening and recent slowdowns after rapid expansion. Show the pace of credit deepening and recent slowdowns after rapid expansion."
+  },
+  {
+    "id": "pi.ef31",
+    "kind": "chart",
+    "slug": "real-credit-growth-versus-npl-ratio",
+    "title": "Real credit growth versus NPL ratio",
+    "href": "/charts/real-credit-growth-versus-npl-ratio",
+    "regionId": "external_financial_constraint",
+    "text": "Real credit growth versus NPL ratio Test whether faster credit expansion is being accompanied by weaker loan performance. Test whether faster credit expansion is being accompanied by weaker loan performance."
+  },
+  {
+    "id": "pi.ef32",
+    "kind": "chart",
+    "slug": "npl-ratio-through-the-credit-cycle",
+    "title": "NPL ratio through the credit cycle",
+    "href": "/charts/npl-ratio-through-the-credit-cycle",
+    "regionId": "external_financial_constraint",
+    "text": "NPL ratio through the credit cycle Place recent deterioration in credit quality in a longer-run context. Place recent deterioration in credit quality in a longer-run context."
+  },
+  {
+    "id": "pi.ef33",
+    "kind": "chart",
+    "slug": "fx-deposits-in-the-domestic-financial-system",
+    "title": "FX deposits in the domestic financial system",
+    "href": "/charts/fx-deposits-in-the-domestic-financial-system",
+    "regionId": "external_financial_constraint",
+    "text": "FX deposits in the domestic financial system Show the scale and share of dollar deposits as a component of domestic financial depth. Show the scale and share of dollar deposits as a component of domestic financial depth."
+  },
+  {
+    "id": "pi.ef34",
+    "kind": "chart",
+    "slug": "fx-deposits-versus-bank-liquidity",
+    "title": "FX deposits versus bank liquidity",
+    "href": "/charts/fx-deposits-versus-bank-liquidity",
+    "regionId": "external_financial_constraint",
+    "text": "FX deposits versus bank liquidity Place growing foreign-currency deposits beside system liquidity rather than treating dollarization as one-dimensional. Place growing foreign-currency deposits beside system liquidity rather than treating dollarization as one-dimensional."
+  },
+  {
+    "id": "pi.ef35",
+    "kind": "chart",
+    "slug": "bank-capital-and-npls",
+    "title": "Bank capital and NPLs",
+    "href": "/charts/bank-capital-and-npls",
+    "regionId": "external_financial_constraint",
+    "text": "Bank capital and NPLs Show whether rising credit risk is occurring inside a sufficiently capitalized banking system. Show whether rising credit risk is occurring inside a sufficiently capitalized banking system."
+  },
+  {
+    "id": "pi.ef36",
+    "kind": "chart",
+    "slug": "financial-depth-private-credit-and-domestic-markets",
+    "title": "Financial depth: private credit and domestic markets",
+    "href": "/charts/financial-depth-private-credit-and-domestic-markets",
+    "regionId": "external_financial_constraint",
+    "text": "Financial depth: private credit and domestic markets Compare bank intermediation and capital-market depth within one structural view. Compare bank intermediation and capital-market depth within one structural view."
+  },
+  {
+    "id": "pi.ef37",
+    "kind": "chart",
+    "slug": "financial-depth-versus-emerging-market-peers",
+    "title": "Financial depth versus emerging-market peers",
+    "href": "/charts/financial-depth-versus-emerging-market-peers",
+    "regionId": "external_financial_constraint",
+    "text": "Financial depth versus emerging-market peers Benchmark Argentina's shallow financial system against a transparent peer set. Benchmark Argentina's shallow financial system against a transparent peer set."
+  },
+  {
+    "id": "pi.ef38",
+    "kind": "chart",
+    "slug": "assets-outside-the-financial-system-versus-private-credit",
+    "title": "Assets outside the financial system versus private credit",
+    "href": "/charts/assets-outside-the-financial-system-versus-private-credit",
+    "regionId": "external_financial_constraint",
+    "text": "Assets outside the financial system versus private credit Show the coexistence of substantial resident savings with low domestic financial intermediation. Show the coexistence of substantial resident savings with low domestic financial intermediation."
+  },
+  {
+    "id": "pi.ef39",
+    "kind": "chart",
+    "slug": "domestic-capital-market-depth-versus-external-market-issuance",
+    "title": "Domestic capital-market depth versus external market issuance",
+    "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance",
+    "regionId": "external_financial_constraint",
+    "text": "Domestic capital-market depth versus external market issuance Contrast local savings mobilization with reliance on foreign-currency market financing. Contrast local savings mobilization with reliance on foreign-currency market financing."
+  },
+  {
+    "id": "pi.ef40",
+    "kind": "chart",
+    "slug": "reer-versus-current-account-balance",
+    "title": "REER versus current-account balance",
+    "href": "/charts/reer-versus-current-account-balance",
+    "regionId": "external_financial_constraint",
+    "text": "REER versus current-account balance Show the joint evolution of real exchange-rate valuation and the current-account balance without imposing causality. Show the joint evolution of real exchange-rate valuation and the current-account balance without imposing causality."
+  },
+  {
+    "id": "pi.ef41",
+    "kind": "chart",
+    "slug": "reer-versus-nir-accumulation",
+    "title": "REER versus NIR accumulation",
+    "href": "/charts/reer-versus-nir-accumulation",
+    "regionId": "external_financial_constraint",
+    "text": "REER versus NIR accumulation Show how real appreciation and reserve rebuilding have coexisted or diverged through the stabilization period. Show how real appreciation and reserve rebuilding have coexisted or diverged through the stabilization period."
+  },
+  {
+    "id": "pi.ef42",
+    "kind": "chart",
+    "slug": "bcra-fx-purchases-and-reserve-accumulation",
+    "title": "BCRA FX purchases and reserve accumulation",
+    "href": "/charts/bcra-fx-purchases-and-reserve-accumulation",
+    "regionId": "external_financial_constraint",
+    "text": "BCRA FX purchases and reserve accumulation Connect central-bank purchases to changes in gross and net reserve buffers. Connect central-bank purchases to changes in gross and net reserve buffers."
+  },
+  {
+    "id": "pi.ef43",
+    "kind": "chart",
+    "slug": "bcra-fx-purchases-versus-sovereign-spreads",
+    "title": "BCRA FX purchases versus sovereign spreads",
+    "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads",
+    "regionId": "external_financial_constraint",
+    "text": "BCRA FX purchases versus sovereign spreads Track whether reserve-building operations coincide with improving market-risk pricing. Track whether reserve-building operations coincide with improving market-risk pricing."
+  },
+  {
+    "id": "pi.ef44",
+    "kind": "chart",
+    "slug": "external-vulnerability-state-map",
+    "title": "External vulnerability state map",
+    "href": "/charts/external-vulnerability-state-map",
+    "regionId": "external_financial_constraint",
+    "text": "External vulnerability state map Summarize the external state across buffers, flow balance, market access, and near-term obligations. Summarize the external state across buffers, flow balance, market access, and near-term obligations."
   }
 ]

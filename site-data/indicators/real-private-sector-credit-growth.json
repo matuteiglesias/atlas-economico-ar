@@ -1,0 +1,128 @@
+{
+  "id": "ci.ef.real_private_credit_growth",
+  "kind": "indicator",
+  "slug": "real-private-sector-credit-growth",
+  "title": "Real private-sector credit growth",
+  "href": "/indicators/real-private-sector-credit-growth",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topic": {
+    "id": "ef.private_credit",
+    "kind": "topic",
+    "slug": "private-sector-credit",
+    "title": "Private-sector credit",
+    "href": "/topics/private-sector-credit"
+  },
+  "unitSemantics": "percent_yoy_real",
+  "frequency": "monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ef30",
+      "kind": "chart",
+      "slug": "real-private-credit-growth",
+      "title": "Real private-credit growth",
+      "href": "/charts/real-private-credit-growth"
+    },
+    {
+      "id": "pi.ef31",
+      "kind": "chart",
+      "slug": "real-credit-growth-versus-npl-ratio",
+      "title": "Real credit growth versus NPL ratio",
+      "href": "/charts/real-credit-growth-versus-npl-ratio"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ef.private_credit",
+      "kind": "topic",
+      "slug": "private-sector-credit",
+      "title": "Private-sector credit",
+      "href": "/topics/private-sector-credit",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef31",
+      "kind": "chart",
+      "slug": "real-credit-growth-versus-npl-ratio",
+      "title": "Real credit growth versus NPL ratio",
+      "href": "/charts/real-credit-growth-versus-npl-ratio",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef30",
+      "kind": "chart",
+      "slug": "real-private-credit-growth",
+      "title": "Real private-credit growth",
+      "href": "/charts/real-private-credit-growth",
+      "distance": 1
+    },
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": "/questions/how-shallow-is-argentina-s-financial-system",
+      "distance": 2
+    },
+    {
+      "id": "q.ef15",
+      "kind": "question",
+      "slug": "is-credit-quality-deteriorating-as-lending-expands",
+      "title": "Is credit quality deteriorating as lending expands?",
+      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
+      "distance": 2
+    },
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening",
+      "distance": 2
+    },
+    {
+      "id": "ef.credit_quality",
+      "kind": "topic",
+      "slug": "credit-quality",
+      "title": "Credit quality",
+      "href": "/topics/credit-quality",
+      "distance": 2
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 2,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 0
+  }
+}

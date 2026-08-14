@@ -1,0 +1,178 @@
+{
+  "id": "pi.ef23",
+  "kind": "chart",
+  "slug": "debt-service-versus-reserves",
+  "title": "Debt service versus reserves",
+  "href": "/charts/debt-service-versus-reserves",
+  "dek": "Compare the payment burden with both gross and net reserve buffers.",
+  "intro": "This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation.",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef10",
+      "kind": "question",
+      "slug": "how-large-is-the-near-term-fx-maturity-wall",
+      "title": "How large is the near-term FX maturity wall?",
+      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall"
+    },
+    {
+      "id": "q.ef13",
+      "kind": "question",
+      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
+      "title": "Is the external debt burden becoming easier to service?",
+      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ef.external_public_debt",
+      "kind": "topic",
+      "slug": "external-public-debt",
+      "title": "External public debt",
+      "href": "/topics/external-public-debt"
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service"
+    },
+    {
+      "id": "ef.refinancing_needs",
+      "kind": "topic",
+      "slug": "external-refinancing-needs",
+      "title": "External refinancing needs",
+      "href": "/topics/external-refinancing-needs"
+    },
+    {
+      "id": "ef.reserve_adequacy",
+      "kind": "topic",
+      "slug": "reserve-adequacy",
+      "title": "Reserve adequacy",
+      "href": "/topics/reserve-adequacy"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.public_fx_debt_service_12m",
+      "kind": "indicator",
+      "slug": "public-sector-fx-debt-service-next-12-months",
+      "title": "Public-sector FX debt service next 12 months",
+      "href": "/indicators/public-sector-fx-debt-service-next-12-months"
+    },
+    {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves"
+    },
+    {
+      "id": "ci.ef.nir_usd",
+      "kind": "indicator",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/indicators/net-international-reserves"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.ef.next_12m_fx_obligations"
+  ],
+  "chartSpec": {
+    "id": "cs.ef23",
+    "templateId": "multi_line_time_series",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ef10",
+      "kind": "question",
+      "slug": "how-large-is-the-near-term-fx-maturity-wall",
+      "title": "How large is the near-term FX maturity wall?",
+      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
+      "distance": 1
+    },
+    {
+      "id": "q.ef13",
+      "kind": "question",
+      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
+      "title": "Is the external debt burden becoming easier to service?",
+      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.nir_usd",
+      "kind": "indicator",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/indicators/net-international-reserves",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.public_fx_debt_service_12m",
+      "kind": "indicator",
+      "slug": "public-sector-fx-debt-service-next-12-months",
+      "title": "Public-sector FX debt service next 12 months",
+      "href": "/indicators/public-sector-fx-debt-service-next-12-months",
+      "distance": 1
+    },
+    {
+      "id": "ef.external_public_debt",
+      "kind": "topic",
+      "slug": "external-public-debt",
+      "title": "External public debt",
+      "href": "/topics/external-public-debt",
+      "distance": 2
+    },
+    {
+      "id": "ef.refinancing_needs",
+      "kind": "topic",
+      "slug": "external-refinancing-needs",
+      "title": "External refinancing needs",
+      "href": "/topics/external-refinancing-needs",
+      "distance": 2
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 2,
+    "topics": 4,
+    "indicators": 3
+  }
+}

@@ -1,0 +1,106 @@
+reference_frames:
+- id: rf.ef.end_2025
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: End-2025 external-position reset
+  reference_type: fixed_date
+  description: Reference immediately before the 2026 reserve-purchase and financing improvement.
+  provenance:
+    model_prior_used: true
+    imf_2026_refs:
+    - Figures 2, 6 and 7
+    - External sector annex
+- id: rf.ef.pre_midterm_2025_stress
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: Pre-midterm 2025 stress window
+  reference_type: event_window
+  description: Window capturing heightened resident hedging, reserve loss, and wider market stress.
+  provenance:
+    model_prior_used: true
+    imf_2026_refs:
+    - Figures 2, 6 and 7
+    - External sector annex
+- id: rf.ef.program_nir_target
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: Program NIR target path
+  reference_type: policy_target
+  description: Compare realized net international reserves with the program target path.
+  provenance:
+    model_prior_used: true
+    imf_2026_refs:
+    - Figures 2, 6 and 7
+    - External sector annex
+- id: rf.ef.next_12m_fx_obligations
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: Next 12 months of FX obligations
+  reference_type: forward_window
+  description: Forward-looking debt-service and refinancing horizon.
+  provenance:
+    model_prior_used: true
+    imf_2026_refs:
+    - Figures 2, 6 and 7
+    - External sector annex
+- id: rf.ef.market_reentry_2025_26
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: 2025-26 market re-entry window
+  reference_type: event_window
+  description: Track sovereign, provincial, and corporate financing as market access begins to normalize.
+  provenance:
+    model_prior_used: true
+    imf_2026_refs:
+    - Figures 2, 6 and 7
+    - External sector annex
+- id: rf.ef.peer_emerging_markets
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: Emerging-market peer comparison
+  reference_type: cross_section
+  description: Compare financial depth, spreads, reserve adequacy, or debt metrics with a selected peer set.
+  provenance:
+    model_prior_used: true
+    imf_2026_refs:
+    - Figures 2, 6 and 7
+    - External sector annex
+- id: rf.ef.pre_pandemic_2019
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: Pre-pandemic 2019 anchor
+  reference_type: fixed_date
+  description: Longer-run benchmark for external and financial-depth indicators.
+  provenance:
+    model_prior_used: true
+    imf_2026_refs:
+    - Figures 2, 6 and 7
+    - External sector annex

@@ -1,0 +1,171 @@
+{
+  "id": "pi.ef18",
+  "kind": "chart",
+  "slug": "sovereign-and-corporate-spreads",
+  "title": "Sovereign and corporate spreads",
+  "href": "/charts/sovereign-and-corporate-spreads",
+  "dek": "Compare sovereign risk with borrowing conditions faced by firms.",
+  "intro": "This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation.",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access"
+    },
+    {
+      "id": "q.ef12",
+      "kind": "question",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ef.capital_inflows",
+      "kind": "topic",
+      "slug": "capital-inflows",
+      "title": "Capital inflows",
+      "href": "/topics/capital-inflows"
+    },
+    {
+      "id": "ef.fx_market_issuance",
+      "kind": "topic",
+      "slug": "fx-market-issuance",
+      "title": "FX market issuance",
+      "href": "/topics/fx-market-issuance"
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access"
+    },
+    {
+      "id": "ef.sovereign_spreads",
+      "kind": "topic",
+      "slug": "sovereign-spreads",
+      "title": "Sovereign spreads",
+      "href": "/topics/sovereign-spreads"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.sovereign_spread_bps",
+      "kind": "indicator",
+      "slug": "sovereign-spread",
+      "title": "Sovereign spread",
+      "href": "/indicators/sovereign-spread"
+    },
+    {
+      "id": "ci.ef.corporate_spread_bps",
+      "kind": "indicator",
+      "slug": "corporate-spread",
+      "title": "Corporate spread",
+      "href": "/indicators/corporate-spread"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.ef.market_reentry_2025_26"
+  ],
+  "chartSpec": {
+    "id": "cs.ef18",
+    "templateId": "multi_line_time_series",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access",
+      "distance": 1
+    },
+    {
+      "id": "q.ef12",
+      "kind": "question",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.corporate_spread_bps",
+      "kind": "indicator",
+      "slug": "corporate-spread",
+      "title": "Corporate spread",
+      "href": "/indicators/corporate-spread",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.sovereign_spread_bps",
+      "kind": "indicator",
+      "slug": "sovereign-spread",
+      "title": "Sovereign spread",
+      "href": "/indicators/sovereign-spread",
+      "distance": 1
+    },
+    {
+      "id": "ef.capital_inflows",
+      "kind": "topic",
+      "slug": "capital-inflows",
+      "title": "Capital inflows",
+      "href": "/topics/capital-inflows",
+      "distance": 2
+    },
+    {
+      "id": "ef.fx_market_issuance",
+      "kind": "topic",
+      "slug": "fx-market-issuance",
+      "title": "FX market issuance",
+      "href": "/topics/fx-market-issuance",
+      "distance": 2
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access",
+      "distance": 2
+    },
+    {
+      "id": "ef.sovereign_spreads",
+      "kind": "topic",
+      "slug": "sovereign-spreads",
+      "title": "Sovereign spreads",
+      "href": "/topics/sovereign-spreads",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 2,
+    "topics": 4,
+    "indicators": 2
+  }
+}

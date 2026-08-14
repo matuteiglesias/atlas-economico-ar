@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "compiler_schema": "0.1",
+  "verticals_loaded": 2,
+  "inputs": [
+    "nominal_stabilization_vertical_v0_1",
+    "external_financial_constraint_vertical_v0_2"
+  ],
+  "compiled_counts": {
+    "region": 6,
+    "topic": 55,
+    "question": 38,
+    "indicator": 82,
+    "chart": 96
+  },
+  "graph": {
+    "nodes": 277,
+    "edges": 607
+  },
+  "notes": [
+    "Nominal Stabilization remains populated.",
+    "External & Financial Constraint becomes the second populated Area.",
+    "Cross-slice Nominal\u2194External relations and indicator references resolved under co-compilation.",
+    "Current compiler editorial-gap count remains intentionally noisy because it treats intro as missing for many entity kinds."
+  ]
+}

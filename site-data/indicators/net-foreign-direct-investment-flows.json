@@ -1,0 +1,128 @@
+{
+  "id": "ci.ef.fdi_net_usd",
+  "kind": "indicator",
+  "slug": "net-foreign-direct-investment-flows",
+  "title": "Net foreign direct investment flows",
+  "href": "/indicators/net-foreign-direct-investment-flows",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topic": {
+    "id": "ef.foreign_direct_investment",
+    "kind": "topic",
+    "slug": "foreign-direct-investment",
+    "title": "Foreign direct investment",
+    "href": "/topics/foreign-direct-investment"
+  },
+  "unitSemantics": "usd_billions",
+  "frequency": "quarterly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ef12",
+      "kind": "chart",
+      "slug": "financial-account-components",
+      "title": "Financial-account components",
+      "href": "/charts/financial-account-components"
+    },
+    {
+      "id": "pi.ef14",
+      "kind": "chart",
+      "slug": "fdi-versus-broader-capital-inflows",
+      "title": "FDI versus broader capital inflows",
+      "href": "/charts/fdi-versus-broader-capital-inflows"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ef.foreign_direct_investment",
+      "kind": "topic",
+      "slug": "foreign-direct-investment",
+      "title": "Foreign direct investment",
+      "href": "/topics/foreign-direct-investment",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef14",
+      "kind": "chart",
+      "slug": "fdi-versus-broader-capital-inflows",
+      "title": "FDI versus broader capital inflows",
+      "href": "/charts/fdi-versus-broader-capital-inflows",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef12",
+      "kind": "chart",
+      "slug": "financial-account-components",
+      "title": "Financial-account components",
+      "href": "/charts/financial-account-components",
+      "distance": 1
+    },
+    {
+      "id": "q.ef06",
+      "kind": "question",
+      "slug": "are-capital-inflows-durable",
+      "title": "Are capital inflows durable?",
+      "href": "/questions/are-capital-inflows-durable",
+      "distance": 2
+    },
+    {
+      "id": "ef.capital_inflows",
+      "kind": "topic",
+      "slug": "capital-inflows",
+      "title": "Capital inflows",
+      "href": "/topics/capital-inflows",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.capital_inflows_usd",
+      "kind": "indicator",
+      "slug": "gross-identified-capital-inflows",
+      "title": "Gross identified capital inflows",
+      "href": "/indicators/gross-identified-capital-inflows",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.private_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-private-financial-flows",
+      "title": "Net private financial flows",
+      "href": "/indicators/net-private-financial-flows",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.public_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-public-sector-financial-flows",
+      "title": "Net public-sector financial flows",
+      "href": "/indicators/net-public-sector-financial-flows",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 2,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 0
+  }
+}

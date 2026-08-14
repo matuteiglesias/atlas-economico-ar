@@ -1,0 +1,127 @@
+reference_frames:
+- id: rf.previous_period
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: Previous period
+  reference_type: dynamic_previous_period
+  description: Immediate momentum comparison.
+  provenance:
+    imf_2026_refs:
+    - Figures 1 and 4
+    model_prior_used: true
+- id: rf.same_period_previous_year
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: Same period previous year
+  reference_type: dynamic_yoy
+  description: Year-over-year comparison.
+  provenance:
+    imf_2026_refs:
+    - Figures 1 and 4
+    model_prior_used: true
+- id: rf.rolling_3m_annualized
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: Rolling 3-month annualized
+  reference_type: rolling_window
+  description: Short-run inflation/rate momentum.
+  provenance:
+    imf_2026_refs:
+    - Figures 1 and 4
+    model_prior_used: true
+- id: rf.trailing_12m
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: Trailing 12 months
+  reference_type: rolling_window
+  description: Annual cumulative or rolling comparison.
+  provenance:
+    imf_2026_refs:
+    - Figures 1 and 4
+    model_prior_used: true
+- id: rf.dec_2023_anchor
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: December 2023 anchor
+  reference_type: fixed_date
+  description: Start-of-stabilization reference.
+  provenance:
+    imf_2026_refs:
+    - Figures 1 and 4
+    model_prior_used: true
+- id: rf.apr_2025_fx_framework
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: April 2025 FX-framework anchor
+  reference_type: fixed_date
+  description: Reference around regime change / exchange-rate band.
+  provenance:
+    imf_2026_refs:
+    - Figures 1 and 4
+    model_prior_used: true
+- id: rf.jan_2026_fx_purchase_program
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: January 2026 FX-purchase-program anchor
+  reference_type: fixed_date
+  description: Reference for cumulative BCRA FX operations.
+  provenance:
+    imf_2026_refs:
+    - Figures 1 and 4
+    model_prior_used: true
+- id: rf.pre_election_2025_vs_post
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: 2025 pre-election vs post-election
+  reference_type: event_window
+  description: Compare stress episode and subsequent normalization.
+  provenance:
+    imf_2026_refs:
+    - Figures 1 and 4
+    model_prior_used: true
+- id: rf.historical_2017_present
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  label: 2017-present historical range
+  reference_type: historical_window
+  description: Long-run context for real rates, wages/real FX where available.
+  provenance:
+    imf_2026_refs:
+    - Figures 1 and 4
+    model_prior_used: true

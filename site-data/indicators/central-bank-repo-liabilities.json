@@ -1,0 +1,128 @@
+{
+  "id": "ci.ef.repo_liabilities_usd",
+  "kind": "indicator",
+  "slug": "central-bank-repo-liabilities",
+  "title": "Central-bank repo liabilities",
+  "href": "/indicators/central-bank-repo-liabilities",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topic": {
+    "id": "ef.swap_repo_financing",
+    "kind": "topic",
+    "slug": "swap-and-repo-financing",
+    "title": "Swap and repo financing",
+    "href": "/topics/swap-and-repo-financing"
+  },
+  "unitSemantics": "usd_billions",
+  "frequency": "monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ef24",
+      "kind": "chart",
+      "slug": "official-financing-swaps-and-repos",
+      "title": "Official financing, swaps, and repos",
+      "href": "/charts/official-financing-swaps-and-repos"
+    },
+    {
+      "id": "pi.ef25",
+      "kind": "chart",
+      "slug": "swap-and-repo-liabilities-versus-nir",
+      "title": "Swap and repo liabilities versus NIR",
+      "href": "/charts/swap-and-repo-liabilities-versus-nir"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ef.swap_repo_financing",
+      "kind": "topic",
+      "slug": "swap-and-repo-financing",
+      "title": "Swap and repo financing",
+      "href": "/topics/swap-and-repo-financing",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef24",
+      "kind": "chart",
+      "slug": "official-financing-swaps-and-repos",
+      "title": "Official financing, swaps, and repos",
+      "href": "/charts/official-financing-swaps-and-repos",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef25",
+      "kind": "chart",
+      "slug": "swap-and-repo-liabilities-versus-nir",
+      "title": "Swap and repo liabilities versus NIR",
+      "href": "/charts/swap-and-repo-liabilities-versus-nir",
+      "distance": 1
+    },
+    {
+      "id": "q.ef11",
+      "kind": "question",
+      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "title": "How much does the strategy rely on swaps and repos?",
+      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "distance": 2
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability",
+      "distance": 2
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.swap_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-external-swap-liabilities",
+      "title": "Central-bank external swap liabilities",
+      "href": "/indicators/central-bank-external-swap-liabilities",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.nir_usd",
+      "kind": "indicator",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/indicators/net-international-reserves",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 2,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 0
+  }
+}

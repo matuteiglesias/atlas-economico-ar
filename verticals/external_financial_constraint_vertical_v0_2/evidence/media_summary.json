@@ -1,0 +1,11 @@
+{
+  "rows": 115,
+  "lanes": {
+    "reserves": 50,
+    "debt": 45,
+    "external": 20
+  },
+  "date_min": "2025-08-29T13:19:00+00:00",
+  "date_max": "2026-08-14T01:55:00+00:00",
+  "interpretation": "Balanced research subset. Lane frequencies are not population agenda prevalence."
+}

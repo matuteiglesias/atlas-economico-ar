@@ -1,0 +1,198 @@
+{
+  "id": "q.ef03",
+  "kind": "question",
+  "slug": "what-is-driving-changes-in-reserves",
+  "title": "What is driving changes in reserves?",
+  "href": "/questions/what-is-driving-changes-in-reserves",
+  "dek": "Reconcile FX purchases, debt payments, official financing, and other flows with movements in gross and net reserves.",
+  "intro": "Central-bank purchases do not translate one-for-one into reserve accumulation. Debt service, valuation changes, swaps, repos, and other transactions can produce large differences between the flow observed in the FX market and the change in reserve stocks.",
+  "questionFamily": "decomposition",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation"
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service"
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing"
+    },
+    {
+      "id": "ef.net_international_reserves",
+      "kind": "topic",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/topics/net-international-reserves"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.nir_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-nir",
+      "title": "Monthly change in NIR",
+      "href": "/indicators/monthly-change-in-nir"
+    },
+    {
+      "id": "ci.ef.nir_usd",
+      "kind": "indicator",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/indicators/net-international-reserves"
+    },
+    {
+      "id": "ci.ef.official_external_financing_usd",
+      "kind": "indicator",
+      "slug": "official-external-financing-flows",
+      "title": "Official external financing flows",
+      "href": "/indicators/official-external-financing-flows"
+    },
+    {
+      "id": "ci.ef.public_fx_debt_service_12m",
+      "kind": "indicator",
+      "slug": "public-sector-fx-debt-service-next-12-months",
+      "title": "Public-sector FX debt service next 12 months",
+      "href": "/indicators/public-sector-fx-debt-service-next-12-months"
+    },
+    {
+      "id": "ci.ef.reserve_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/indicators/monthly-change-in-gross-reserves"
+    },
+    {
+      "id": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "indicator",
+      "slug": "bcra-net-fx-purchases",
+      "title": "BCRA net FX purchases",
+      "href": "/indicators/bcra-net-fx-purchases"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef05",
+      "kind": "chart",
+      "slug": "monthly-reserve-change-gross-versus-nir",
+      "title": "Monthly reserve change: gross versus NIR",
+      "href": "/charts/monthly-reserve-change-gross-versus-nir"
+    },
+    {
+      "id": "pi.ef06",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-nir-accumulation",
+      "title": "BCRA FX purchases versus NIR accumulation",
+      "href": "/charts/bcra-fx-purchases-versus-nir-accumulation"
+    },
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service",
+      "distance": 1
+    },
+    {
+      "id": "ef.net_international_reserves",
+      "kind": "topic",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/topics/net-international-reserves",
+      "distance": 1
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing",
+      "distance": 1
+    },
+    {
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef06",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-nir-accumulation",
+      "title": "BCRA FX purchases versus NIR accumulation",
+      "href": "/charts/bcra-fx-purchases-versus-nir-accumulation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef05",
+      "kind": "chart",
+      "slug": "monthly-reserve-change-gross-versus-nir",
+      "title": "Monthly reserve change: gross versus NIR",
+      "href": "/charts/monthly-reserve-change-gross-versus-nir",
+      "distance": 1
+    },
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "topics": 4,
+    "indicators": 6,
+    "charts": 3
+  }
+}

@@ -249,6 +249,246 @@
       "slice_id": "nominal_stabilization"
     },
     {
+      "id": "ef.external_position",
+      "kind": "topic",
+      "slug": "external-position",
+      "title": "External position",
+      "href": "/topics/external-position",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.gross_reserves",
+      "kind": "topic",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/topics/gross-international-reserves",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.net_international_reserves",
+      "kind": "topic",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/topics/net-international-reserves",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.liquid_reserve_buffers",
+      "kind": "topic",
+      "slug": "liquid-reserve-buffers",
+      "title": "Liquid reserve buffers",
+      "href": "/topics/liquid-reserve-buffers",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.reserve_adequacy",
+      "kind": "topic",
+      "slug": "reserve-adequacy",
+      "title": "Reserve adequacy",
+      "href": "/topics/reserve-adequacy",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.goods_trade_balance",
+      "kind": "topic",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/topics/goods-trade-balance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.services_balance",
+      "kind": "topic",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/topics/services-balance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.primary_income_balance",
+      "kind": "topic",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/topics/primary-income-balance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.financial_account",
+      "kind": "topic",
+      "slug": "financial-account",
+      "title": "Financial account",
+      "href": "/topics/financial-account",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.capital_inflows",
+      "kind": "topic",
+      "slug": "capital-inflows",
+      "title": "Capital inflows",
+      "href": "/topics/capital-inflows",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.resident_fx_hedging",
+      "kind": "topic",
+      "slug": "resident-fx-hedging-and-dollarization-pressure",
+      "title": "Resident FX hedging and dollarization pressure",
+      "href": "/topics/resident-fx-hedging-and-dollarization-pressure",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.foreign_direct_investment",
+      "kind": "topic",
+      "slug": "foreign-direct-investment",
+      "title": "Foreign direct investment",
+      "href": "/topics/foreign-direct-investment",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.sovereign_risk",
+      "kind": "topic",
+      "slug": "sovereign-risk",
+      "title": "Sovereign risk",
+      "href": "/topics/sovereign-risk",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.sovereign_spreads",
+      "kind": "topic",
+      "slug": "sovereign-spreads",
+      "title": "Sovereign spreads",
+      "href": "/topics/sovereign-spreads",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.external_public_debt",
+      "kind": "topic",
+      "slug": "external-public-debt",
+      "title": "External public debt",
+      "href": "/topics/external-public-debt",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.refinancing_needs",
+      "kind": "topic",
+      "slug": "external-refinancing-needs",
+      "title": "External refinancing needs",
+      "href": "/topics/external-refinancing-needs",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.swap_repo_financing",
+      "kind": "topic",
+      "slug": "swap-and-repo-financing",
+      "title": "Swap and repo financing",
+      "href": "/topics/swap-and-repo-financing",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.fx_market_issuance",
+      "kind": "topic",
+      "slug": "fx-market-issuance",
+      "title": "FX market issuance",
+      "href": "/topics/fx-market-issuance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.private_credit",
+      "kind": "topic",
+      "slug": "private-sector-credit",
+      "title": "Private-sector credit",
+      "href": "/topics/private-sector-credit",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.credit_quality",
+      "kind": "topic",
+      "slug": "credit-quality",
+      "title": "Credit quality",
+      "href": "/topics/credit-quality",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.fx_deposits",
+      "kind": "topic",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/topics/foreign-currency-deposits",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.domestic_capital_market_depth",
+      "kind": "topic",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/topics/domestic-capital-market-depth",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.domestic_savings_mobilization",
+      "kind": "topic",
+      "slug": "domestic-savings-mobilization",
+      "title": "Domestic savings mobilization",
+      "href": "/topics/domestic-savings-mobilization",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability",
+      "slice_id": "external_financial_constraint"
+    },
+    {
       "id": "q.ns01",
       "kind": "question",
       "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
@@ -391,6 +631,166 @@
       "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
       "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
       "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "q.ef01",
+      "kind": "question",
+      "slug": "how-strong-is-argentina-s-reserve-position",
+      "title": "How strong is Argentina's reserve position?",
+      "href": "/questions/how-strong-is-argentina-s-reserve-position",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef02",
+      "kind": "question",
+      "slug": "are-reserves-rebuilding-fast-enough",
+      "title": "Are reserves rebuilding fast enough?",
+      "href": "/questions/are-reserves-rebuilding-fast-enough",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef04",
+      "kind": "question",
+      "slug": "is-the-current-account-improving",
+      "title": "Is the current account improving?",
+      "href": "/questions/is-the-current-account-improving",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef05",
+      "kind": "question",
+      "slug": "what-offsets-argentina-s-goods-surplus",
+      "title": "What offsets Argentina's goods surplus?",
+      "href": "/questions/what-offsets-argentina-s-goods-surplus",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef06",
+      "kind": "question",
+      "slug": "are-capital-inflows-durable",
+      "title": "Are capital inflows durable?",
+      "href": "/questions/are-capital-inflows-durable",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef07",
+      "kind": "question",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "href": "/questions/has-fx-hedging-pressure-normalized",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef09",
+      "kind": "question",
+      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "title": "Why can reserves rise while sovereign risk stays high?",
+      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef10",
+      "kind": "question",
+      "slug": "how-large-is-the-near-term-fx-maturity-wall",
+      "title": "How large is the near-term FX maturity wall?",
+      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef11",
+      "kind": "question",
+      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "title": "How much does the strategy rely on swaps and repos?",
+      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef12",
+      "kind": "question",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef13",
+      "kind": "question",
+      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
+      "title": "Is the external debt burden becoming easier to service?",
+      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef15",
+      "kind": "question",
+      "slug": "is-credit-quality-deteriorating-as-lending-expands",
+      "title": "Is credit quality deteriorating as lending expands?",
+      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": "/questions/how-shallow-is-argentina-s-financial-system",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
+      "slice_id": "external_financial_constraint"
     },
     {
       "id": "ci.ns.cpi_monthly",
@@ -727,6 +1127,326 @@
       "title": "BCRA net FX purchases",
       "href": "/indicators/bcra-net-fx-purchases",
       "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.nir_usd",
+      "kind": "indicator",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/indicators/net-international-reserves",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.liquid_reserve_buffer_usd",
+      "kind": "indicator",
+      "slug": "liquid-reserve-buffer",
+      "title": "Liquid reserve buffer",
+      "href": "/indicators/liquid-reserve-buffer",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.reserve_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/indicators/monthly-change-in-gross-reserves",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.nir_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-nir",
+      "title": "Monthly change in NIR",
+      "href": "/indicators/monthly-change-in-nir",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.reserve_accumulation_ytd",
+      "kind": "indicator",
+      "slug": "cumulative-reserve-accumulation-ytd",
+      "title": "Cumulative reserve accumulation YTD",
+      "href": "/indicators/cumulative-reserve-accumulation-ytd",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.import_cover_months",
+      "kind": "indicator",
+      "slug": "reserve-import-coverage",
+      "title": "Reserve import coverage",
+      "href": "/indicators/reserve-import-coverage",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.nir_to_gross_ratio",
+      "kind": "indicator",
+      "slug": "nir-to-gross-reserves-ratio",
+      "title": "NIR-to-gross-reserves ratio",
+      "href": "/indicators/nir-to-gross-reserves-ratio",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.reserve_to_fx_service_ratio",
+      "kind": "indicator",
+      "slug": "reserves-relative-to-next-12m-fx-debt-service",
+      "title": "Reserves relative to next-12m FX debt service",
+      "href": "/indicators/reserves-relative-to-next-12m-fx-debt-service",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.current_account_usd",
+      "kind": "indicator",
+      "slug": "current-account-balance",
+      "title": "Current account balance",
+      "href": "/indicators/current-account-balance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.current_account_gdp",
+      "kind": "indicator",
+      "slug": "current-account-balance-as-share-of-gdp",
+      "title": "Current account balance as share of GDP",
+      "href": "/indicators/current-account-balance-as-share-of-gdp",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.goods_balance_usd",
+      "kind": "indicator",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/indicators/goods-trade-balance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.services_balance_usd",
+      "kind": "indicator",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/indicators/services-balance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.primary_income_balance_usd",
+      "kind": "indicator",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/indicators/primary-income-balance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.financial_account_usd",
+      "kind": "indicator",
+      "slug": "financial-account-balance",
+      "title": "Financial account balance",
+      "href": "/indicators/financial-account-balance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.fdi_net_usd",
+      "kind": "indicator",
+      "slug": "net-foreign-direct-investment-flows",
+      "title": "Net foreign direct investment flows",
+      "href": "/indicators/net-foreign-direct-investment-flows",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.private_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-private-financial-flows",
+      "title": "Net private financial flows",
+      "href": "/indicators/net-private-financial-flows",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.public_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-public-sector-financial-flows",
+      "title": "Net public-sector financial flows",
+      "href": "/indicators/net-public-sector-financial-flows",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.capital_inflows_usd",
+      "kind": "indicator",
+      "slug": "gross-identified-capital-inflows",
+      "title": "Gross identified capital inflows",
+      "href": "/indicators/gross-identified-capital-inflows",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.external_debt_usd",
+      "kind": "indicator",
+      "slug": "total-external-debt",
+      "title": "Total external debt",
+      "href": "/indicators/total-external-debt",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.external_debt_gdp",
+      "kind": "indicator",
+      "slug": "external-debt-as-share-of-gdp",
+      "title": "External debt as share of GDP",
+      "href": "/indicators/external-debt-as-share-of-gdp",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.public_fx_debt_service_12m",
+      "kind": "indicator",
+      "slug": "public-sector-fx-debt-service-next-12-months",
+      "title": "Public-sector FX debt service next 12 months",
+      "href": "/indicators/public-sector-fx-debt-service-next-12-months",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.market_fx_redemptions_12m",
+      "kind": "indicator",
+      "slug": "market-fx-redemptions-next-12-months",
+      "title": "Market FX redemptions next 12 months",
+      "href": "/indicators/market-fx-redemptions-next-12-months",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.imf_obligations_12m",
+      "kind": "indicator",
+      "slug": "imf-obligations-next-12-months",
+      "title": "IMF obligations next 12 months",
+      "href": "/indicators/imf-obligations-next-12-months",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.sovereign_spread_bps",
+      "kind": "indicator",
+      "slug": "sovereign-spread",
+      "title": "Sovereign spread",
+      "href": "/indicators/sovereign-spread",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.corporate_spread_bps",
+      "kind": "indicator",
+      "slug": "corporate-spread",
+      "title": "Corporate spread",
+      "href": "/indicators/corporate-spread",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.public_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "public-and-provincial-fx-issuance",
+      "title": "Public and provincial FX issuance",
+      "href": "/indicators/public-and-provincial-fx-issuance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.corporate_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "corporate-fx-issuance",
+      "title": "Corporate FX issuance",
+      "href": "/indicators/corporate-fx-issuance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.official_external_financing_usd",
+      "kind": "indicator",
+      "slug": "official-external-financing-flows",
+      "title": "Official external financing flows",
+      "href": "/indicators/official-external-financing-flows",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.swap_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-external-swap-liabilities",
+      "title": "Central-bank external swap liabilities",
+      "href": "/indicators/central-bank-external-swap-liabilities",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.repo_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-repo-liabilities",
+      "title": "Central-bank repo liabilities",
+      "href": "/indicators/central-bank-repo-liabilities",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.private_credit_gdp",
+      "kind": "indicator",
+      "slug": "private-sector-credit-as-share-of-gdp",
+      "title": "Private-sector credit as share of GDP",
+      "href": "/indicators/private-sector-credit-as-share-of-gdp",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.real_private_credit_growth",
+      "kind": "indicator",
+      "slug": "real-private-sector-credit-growth",
+      "title": "Real private-sector credit growth",
+      "href": "/indicators/real-private-sector-credit-growth",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.npl_ratio",
+      "kind": "indicator",
+      "slug": "non-performing-loans-ratio",
+      "title": "Non-performing loans ratio",
+      "href": "/indicators/non-performing-loans-ratio",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.fx_deposits_usd",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/indicators/foreign-currency-deposits",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.fx_deposit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposit-share",
+      "title": "Foreign-currency deposit share",
+      "href": "/indicators/foreign-currency-deposit-share",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.bank_capital_ratio",
+      "kind": "indicator",
+      "slug": "bank-regulatory-capital-ratio",
+      "title": "Bank regulatory capital ratio",
+      "href": "/indicators/bank-regulatory-capital-ratio",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.bank_liquidity_ratio",
+      "kind": "indicator",
+      "slug": "bank-liquid-assets-ratio",
+      "title": "Bank liquid-assets ratio",
+      "href": "/indicators/bank-liquid-assets-ratio",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.assets_outside_system_gdp",
+      "kind": "indicator",
+      "slug": "resident-financial-assets-outside-the-domestic-financial-system",
+      "title": "Resident financial assets outside the domestic financial system",
+      "href": "/indicators/resident-financial-assets-outside-the-domestic-financial-system",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "ci.ef.domestic_market_depth_gdp",
+      "kind": "indicator",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/indicators/domestic-capital-market-depth",
+      "slice_id": "external_financial_constraint"
     },
     {
       "id": "pi.ns01",
@@ -1143,6 +1863,358 @@
       "title": "Nominal-stabilization state map",
       "href": "/charts/nominal-stabilization-state-map",
       "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ef01",
+      "kind": "chart",
+      "slug": "gross-reserves-nir-and-liquid-buffers",
+      "title": "Gross reserves, NIR, and liquid buffers",
+      "href": "/charts/gross-reserves-nir-and-liquid-buffers",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef02",
+      "kind": "chart",
+      "slug": "reserve-adequacy-dashboard",
+      "title": "Reserve adequacy dashboard",
+      "href": "/charts/reserve-adequacy-dashboard",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef03",
+      "kind": "chart",
+      "slug": "nir-versus-program-target-path",
+      "title": "NIR versus program target path",
+      "href": "/charts/nir-versus-program-target-path",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef04",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
+      "title": "Reserve accumulation versus next-12m FX debt service",
+      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef05",
+      "kind": "chart",
+      "slug": "monthly-reserve-change-gross-versus-nir",
+      "title": "Monthly reserve change: gross versus NIR",
+      "href": "/charts/monthly-reserve-change-gross-versus-nir",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef06",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-nir-accumulation",
+      "title": "BCRA FX purchases versus NIR accumulation",
+      "href": "/charts/bcra-fx-purchases-versus-nir-accumulation",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef08",
+      "kind": "chart",
+      "slug": "current-account-balance-through-time",
+      "title": "Current-account balance through time",
+      "href": "/charts/current-account-balance-through-time",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef09",
+      "kind": "chart",
+      "slug": "current-account-component-decomposition",
+      "title": "Current-account component decomposition",
+      "href": "/charts/current-account-component-decomposition",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef10",
+      "kind": "chart",
+      "slug": "goods-surplus-versus-services-deficit",
+      "title": "Goods surplus versus services deficit",
+      "href": "/charts/goods-surplus-versus-services-deficit",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef11",
+      "kind": "chart",
+      "slug": "primary-income-drag-on-the-current-account",
+      "title": "Primary-income drag on the current account",
+      "href": "/charts/primary-income-drag-on-the-current-account",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef12",
+      "kind": "chart",
+      "slug": "financial-account-components",
+      "title": "Financial-account components",
+      "href": "/charts/financial-account-components",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef13",
+      "kind": "chart",
+      "slug": "capital-inflows-versus-current-account-financing-need",
+      "title": "Capital inflows versus current-account financing need",
+      "href": "/charts/capital-inflows-versus-current-account-financing-need",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef14",
+      "kind": "chart",
+      "slug": "fdi-versus-broader-capital-inflows",
+      "title": "FDI versus broader capital inflows",
+      "href": "/charts/fdi-versus-broader-capital-inflows",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef15",
+      "kind": "chart",
+      "slug": "private-financial-flows-around-the-2025-stress-episode",
+      "title": "Private financial flows around the 2025 stress episode",
+      "href": "/charts/private-financial-flows-around-the-2025-stress-episode",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef16",
+      "kind": "chart",
+      "slug": "private-financial-flows-versus-reserve-accumulation",
+      "title": "Private financial flows versus reserve accumulation",
+      "href": "/charts/private-financial-flows-versus-reserve-accumulation",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef17",
+      "kind": "chart",
+      "slug": "sovereign-spreads-through-the-market-re-entry-window",
+      "title": "Sovereign spreads through the market re-entry window",
+      "href": "/charts/sovereign-spreads-through-the-market-re-entry-window",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef18",
+      "kind": "chart",
+      "slug": "sovereign-and-corporate-spreads",
+      "title": "Sovereign and corporate spreads",
+      "href": "/charts/sovereign-and-corporate-spreads",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef19",
+      "kind": "chart",
+      "slug": "fx-issuance-volumes-by-issuer-type",
+      "title": "FX issuance volumes by issuer type",
+      "href": "/charts/fx-issuance-volumes-by-issuer-type",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef20",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-sovereign-spreads",
+      "title": "Reserve accumulation versus sovereign spreads",
+      "href": "/charts/reserve-accumulation-versus-sovereign-spreads",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef21",
+      "kind": "chart",
+      "slug": "gross-reserves-versus-sovereign-spreads",
+      "title": "Gross reserves versus sovereign spreads",
+      "href": "/charts/gross-reserves-versus-sovereign-spreads",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef22",
+      "kind": "chart",
+      "slug": "fx-debt-service-maturity-wall",
+      "title": "FX debt-service maturity wall",
+      "href": "/charts/fx-debt-service-maturity-wall",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef23",
+      "kind": "chart",
+      "slug": "debt-service-versus-reserves",
+      "title": "Debt service versus reserves",
+      "href": "/charts/debt-service-versus-reserves",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef24",
+      "kind": "chart",
+      "slug": "official-financing-swaps-and-repos",
+      "title": "Official financing, swaps, and repos",
+      "href": "/charts/official-financing-swaps-and-repos",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef25",
+      "kind": "chart",
+      "slug": "swap-and-repo-liabilities-versus-nir",
+      "title": "Swap and repo liabilities versus NIR",
+      "href": "/charts/swap-and-repo-liabilities-versus-nir",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef26",
+      "kind": "chart",
+      "slug": "market-issuance-cumulative-since-re-entry",
+      "title": "Market issuance cumulative since re-entry",
+      "href": "/charts/market-issuance-cumulative-since-re-entry",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef27",
+      "kind": "chart",
+      "slug": "external-debt-in-dollars-and-percent-of-gdp",
+      "title": "External debt in dollars and percent of GDP",
+      "href": "/charts/external-debt-in-dollars-and-percent-of-gdp",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef28",
+      "kind": "chart",
+      "slug": "reserve-coverage-of-external-debt-service",
+      "title": "Reserve coverage of external debt service",
+      "href": "/charts/reserve-coverage-of-external-debt-service",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef29",
+      "kind": "chart",
+      "slug": "private-credit-as-a-share-of-gdp",
+      "title": "Private credit as a share of GDP",
+      "href": "/charts/private-credit-as-a-share-of-gdp",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef30",
+      "kind": "chart",
+      "slug": "real-private-credit-growth",
+      "title": "Real private-credit growth",
+      "href": "/charts/real-private-credit-growth",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef31",
+      "kind": "chart",
+      "slug": "real-credit-growth-versus-npl-ratio",
+      "title": "Real credit growth versus NPL ratio",
+      "href": "/charts/real-credit-growth-versus-npl-ratio",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef32",
+      "kind": "chart",
+      "slug": "npl-ratio-through-the-credit-cycle",
+      "title": "NPL ratio through the credit cycle",
+      "href": "/charts/npl-ratio-through-the-credit-cycle",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef33",
+      "kind": "chart",
+      "slug": "fx-deposits-in-the-domestic-financial-system",
+      "title": "FX deposits in the domestic financial system",
+      "href": "/charts/fx-deposits-in-the-domestic-financial-system",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef34",
+      "kind": "chart",
+      "slug": "fx-deposits-versus-bank-liquidity",
+      "title": "FX deposits versus bank liquidity",
+      "href": "/charts/fx-deposits-versus-bank-liquidity",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef35",
+      "kind": "chart",
+      "slug": "bank-capital-and-npls",
+      "title": "Bank capital and NPLs",
+      "href": "/charts/bank-capital-and-npls",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef36",
+      "kind": "chart",
+      "slug": "financial-depth-private-credit-and-domestic-markets",
+      "title": "Financial depth: private credit and domestic markets",
+      "href": "/charts/financial-depth-private-credit-and-domestic-markets",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef37",
+      "kind": "chart",
+      "slug": "financial-depth-versus-emerging-market-peers",
+      "title": "Financial depth versus emerging-market peers",
+      "href": "/charts/financial-depth-versus-emerging-market-peers",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef38",
+      "kind": "chart",
+      "slug": "assets-outside-the-financial-system-versus-private-credit",
+      "title": "Assets outside the financial system versus private credit",
+      "href": "/charts/assets-outside-the-financial-system-versus-private-credit",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef39",
+      "kind": "chart",
+      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
+      "title": "Domestic capital-market depth versus external market issuance",
+      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef40",
+      "kind": "chart",
+      "slug": "reer-versus-current-account-balance",
+      "title": "REER versus current-account balance",
+      "href": "/charts/reer-versus-current-account-balance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef41",
+      "kind": "chart",
+      "slug": "reer-versus-nir-accumulation",
+      "title": "REER versus NIR accumulation",
+      "href": "/charts/reer-versus-nir-accumulation",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef42",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-reserve-accumulation",
+      "title": "BCRA FX purchases and reserve accumulation",
+      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef43",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-sovereign-spreads",
+      "title": "BCRA FX purchases versus sovereign spreads",
+      "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map",
+      "slice_id": "external_financial_constraint"
     }
   ],
   "edges": [
@@ -1511,6 +2583,314 @@
       "directed": true
     },
     {
+      "from": "ef.gross_reserves",
+      "to": "ef.external_position",
+      "kind": "relation:component_of",
+      "source_id": "rel.ef.gross_component_external",
+      "directed": true
+    },
+    {
+      "from": "ef.net_international_reserves",
+      "to": "ef.external_position",
+      "kind": "relation:measurement_of",
+      "source_id": "rel.ef.nir_measure_external",
+      "directed": true
+    },
+    {
+      "from": "ef.liquid_reserve_buffers",
+      "to": "ef.gross_reserves",
+      "kind": "relation:component_of",
+      "source_id": "rel.ef.liquid_component_reserves",
+      "directed": true
+    },
+    {
+      "from": "ef.reserve_adequacy",
+      "to": "ef.gross_reserves",
+      "kind": "relation:derived_from",
+      "source_id": "rel.ef.adequacy_uses_reserves",
+      "directed": true
+    },
+    {
+      "from": "ef.reserve_adequacy",
+      "to": "ef.net_international_reserves",
+      "kind": "relation:derived_from",
+      "source_id": "rel.ef.adequacy_uses_nir",
+      "directed": true
+    },
+    {
+      "from": "ef.reserve_adequacy",
+      "to": "ef.external_vulnerability",
+      "kind": "relation:constraint_on",
+      "source_id": "rel.ef.adequacy_constrains_vulnerability",
+      "directed": true
+    },
+    {
+      "from": "ef.reserve_accumulation",
+      "to": "ef.net_international_reserves",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.ef.accumulation_builds_nir",
+      "directed": true
+    },
+    {
+      "from": "ef.current_account",
+      "to": "ef.external_position",
+      "kind": "relation:component_of",
+      "source_id": "rel.ef.current_account_component_external",
+      "directed": true
+    },
+    {
+      "from": "ef.goods_trade_balance",
+      "to": "ef.current_account",
+      "kind": "relation:component_of",
+      "source_id": "rel.ef.goods_component_ca",
+      "directed": true
+    },
+    {
+      "from": "ef.services_balance",
+      "to": "ef.current_account",
+      "kind": "relation:component_of",
+      "source_id": "rel.ef.services_component_ca",
+      "directed": true
+    },
+    {
+      "from": "ef.primary_income_balance",
+      "to": "ef.current_account",
+      "kind": "relation:component_of",
+      "source_id": "rel.ef.income_component_ca",
+      "directed": true
+    },
+    {
+      "from": "ef.financial_account",
+      "to": "ef.external_position",
+      "kind": "relation:component_of",
+      "source_id": "rel.ef.financial_component_external",
+      "directed": true
+    },
+    {
+      "from": "ef.capital_inflows",
+      "to": "ef.financial_account",
+      "kind": "relation:component_of",
+      "source_id": "rel.ef.inflows_component_financial",
+      "directed": true
+    },
+    {
+      "from": "ef.foreign_direct_investment",
+      "to": "ef.capital_inflows",
+      "kind": "relation:component_of",
+      "source_id": "rel.ef.fdi_component_inflows",
+      "directed": true
+    },
+    {
+      "from": "ef.resident_fx_hedging",
+      "to": "ef.financial_account",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.ef.hedging_pressure_financial",
+      "directed": true
+    },
+    {
+      "from": "ef.resident_fx_hedging",
+      "to": "ef.reserve_accumulation",
+      "kind": "relation:constraint_on",
+      "source_id": "rel.ef.hedging_pressure_reserves",
+      "directed": true
+    },
+    {
+      "from": "ef.market_access",
+      "to": "ef.capital_inflows",
+      "kind": "relation:enables",
+      "source_id": "rel.ef.market_access_enables_inflows",
+      "directed": true
+    },
+    {
+      "from": "ef.sovereign_risk",
+      "to": "ef.sovereign_spreads",
+      "kind": "relation:measurement_of",
+      "source_id": "rel.ef.sovereign_risk_spreads",
+      "directed": true
+    },
+    {
+      "from": "ef.sovereign_spreads",
+      "to": "ef.market_access",
+      "kind": "relation:constraint_on",
+      "source_id": "rel.ef.spreads_constrain_access",
+      "directed": true
+    },
+    {
+      "from": "ef.external_public_debt",
+      "to": "ef.fx_debt_service",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.ef.debt_creates_service",
+      "directed": true
+    },
+    {
+      "from": "ef.fx_debt_service",
+      "to": "ef.refinancing_needs",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.ef.service_creates_refi",
+      "directed": true
+    },
+    {
+      "from": "ef.refinancing_needs",
+      "to": "ef.market_access",
+      "kind": "relation:constraint_on",
+      "source_id": "rel.ef.refi_constrains_access",
+      "directed": true
+    },
+    {
+      "from": "ef.fx_debt_service",
+      "to": "ef.reserve_accumulation",
+      "kind": "relation:constraint_on",
+      "source_id": "rel.ef.service_constrains_reserves",
+      "directed": true
+    },
+    {
+      "from": "ef.official_external_financing",
+      "to": "ef.liquid_reserve_buffers",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.ef.official_financing_enables_buffers",
+      "directed": true
+    },
+    {
+      "from": "ef.swap_repo_financing",
+      "to": "ef.official_external_financing",
+      "kind": "relation:component_of",
+      "source_id": "rel.ef.swaps_component_official",
+      "directed": true
+    },
+    {
+      "from": "ef.swap_repo_financing",
+      "to": "ef.external_vulnerability",
+      "kind": "relation:associated_with",
+      "source_id": "rel.ef.swaps_create_liabilities",
+      "directed": true
+    },
+    {
+      "from": "ef.fx_market_issuance",
+      "to": "ef.market_access",
+      "kind": "relation:associated_with",
+      "source_id": "rel.ef.issuance_enables_access",
+      "directed": true
+    },
+    {
+      "from": "ef.fx_market_issuance",
+      "to": "ef.refinancing_needs",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.ef.issuance_finances_refi",
+      "directed": true
+    },
+    {
+      "from": "ef.financial_depth",
+      "to": "ef.private_credit",
+      "kind": "relation:enables",
+      "source_id": "rel.ef.financial_depth_enables_credit",
+      "directed": true
+    },
+    {
+      "from": "ef.credit_quality",
+      "to": "ef.private_credit",
+      "kind": "relation:constraint_on",
+      "source_id": "rel.ef.credit_quality_constrains_credit",
+      "directed": true
+    },
+    {
+      "from": "ef.fx_deposits",
+      "to": "ef.financial_depth",
+      "kind": "relation:component_of",
+      "source_id": "rel.ef.fx_deposits_component_depth",
+      "directed": true
+    },
+    {
+      "from": "ef.domestic_capital_market_depth",
+      "to": "ef.financial_depth",
+      "kind": "relation:component_of",
+      "source_id": "rel.ef.capital_market_component_depth",
+      "directed": true
+    },
+    {
+      "from": "ef.domestic_savings_mobilization",
+      "to": "ef.financial_depth",
+      "kind": "relation:enables",
+      "source_id": "rel.ef.savings_enables_depth",
+      "directed": true
+    },
+    {
+      "from": "ef.domestic_savings_mobilization",
+      "to": "ef.domestic_capital_market_depth",
+      "kind": "relation:enables",
+      "source_id": "rel.ef.savings_enables_market",
+      "directed": true
+    },
+    {
+      "from": "ef.market_access",
+      "to": "ef.external_vulnerability",
+      "kind": "relation:constraint_on",
+      "source_id": "rel.ef.vulnerability_constrained_by_access",
+      "directed": true
+    },
+    {
+      "from": "ef.external_public_debt",
+      "to": "ef.external_vulnerability",
+      "kind": "relation:associated_with",
+      "source_id": "rel.ef.vulnerability_associated_debt",
+      "directed": true
+    },
+    {
+      "from": "ef.current_account",
+      "to": "ef.external_vulnerability",
+      "kind": "relation:associated_with",
+      "source_id": "rel.ef.vulnerability_associated_ca",
+      "directed": true
+    },
+    {
+      "from": "ns.bcra_fx_operations",
+      "to": "ef.reserve_accumulation",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.ef.bcra_ops_build_reserves",
+      "directed": true
+    },
+    {
+      "from": "ns.fx_hedging_demand",
+      "to": "ef.resident_fx_hedging",
+      "kind": "relation:associated_with",
+      "source_id": "rel.ef.fx_hedging_port",
+      "directed": true
+    },
+    {
+      "from": "ns.real_exchange_rate",
+      "to": "ef.current_account",
+      "kind": "relation:associated_with",
+      "source_id": "rel.ef.reer_current_account_port",
+      "directed": true
+    },
+    {
+      "from": "ns.real_exchange_rate",
+      "to": "ef.reserve_accumulation",
+      "kind": "relation:associated_with",
+      "source_id": "rel.ef.reer_reserves_port",
+      "directed": true
+    },
+    {
+      "from": "ns.policy_credibility",
+      "to": "ef.sovereign_spreads",
+      "kind": "relation:associated_with",
+      "source_id": "rel.ef.credibility_spreads_port",
+      "directed": true
+    },
+    {
+      "from": "ns.policy_credibility",
+      "to": "ef.market_access",
+      "kind": "relation:associated_with",
+      "source_id": "rel.ef.credibility_access_port",
+      "directed": true
+    },
+    {
+      "from": "ns.nominal_exchange_rate",
+      "to": "ef.external_position",
+      "kind": "relation:associated_with",
+      "source_id": "rel.ef.fx_level_external_port",
+      "directed": true
+    },
+    {
       "from": "q.ns01",
       "to": "ns.inflation",
       "kind": "question_mentions_topic",
@@ -1875,6 +3255,468 @@
       "directed": false
     },
     {
+      "from": "q.ef01",
+      "to": "ef.gross_reserves",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef01",
+      "directed": false
+    },
+    {
+      "from": "q.ef01",
+      "to": "ef.net_international_reserves",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef01",
+      "directed": false
+    },
+    {
+      "from": "q.ef01",
+      "to": "ef.liquid_reserve_buffers",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef01",
+      "directed": false
+    },
+    {
+      "from": "q.ef01",
+      "to": "ef.reserve_adequacy",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef01",
+      "directed": false
+    },
+    {
+      "from": "q.ef02",
+      "to": "ef.reserve_accumulation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef02",
+      "directed": false
+    },
+    {
+      "from": "q.ef02",
+      "to": "ef.net_international_reserves",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef02",
+      "directed": false
+    },
+    {
+      "from": "q.ef02",
+      "to": "ef.fx_debt_service",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef02",
+      "directed": false
+    },
+    {
+      "from": "q.ef02",
+      "to": "ef.reserve_adequacy",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef02",
+      "directed": false
+    },
+    {
+      "from": "q.ef03",
+      "to": "ef.reserve_accumulation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef03",
+      "directed": false
+    },
+    {
+      "from": "q.ef03",
+      "to": "ef.fx_debt_service",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef03",
+      "directed": false
+    },
+    {
+      "from": "q.ef03",
+      "to": "ef.official_external_financing",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef03",
+      "directed": false
+    },
+    {
+      "from": "q.ef03",
+      "to": "ef.net_international_reserves",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef03",
+      "directed": false
+    },
+    {
+      "from": "q.ef04",
+      "to": "ef.current_account",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef04",
+      "directed": false
+    },
+    {
+      "from": "q.ef04",
+      "to": "ef.goods_trade_balance",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef04",
+      "directed": false
+    },
+    {
+      "from": "q.ef04",
+      "to": "ef.services_balance",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef04",
+      "directed": false
+    },
+    {
+      "from": "q.ef04",
+      "to": "ef.primary_income_balance",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef04",
+      "directed": false
+    },
+    {
+      "from": "q.ef05",
+      "to": "ef.goods_trade_balance",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef05",
+      "directed": false
+    },
+    {
+      "from": "q.ef05",
+      "to": "ef.services_balance",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef05",
+      "directed": false
+    },
+    {
+      "from": "q.ef05",
+      "to": "ef.primary_income_balance",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef05",
+      "directed": false
+    },
+    {
+      "from": "q.ef05",
+      "to": "ef.current_account",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef05",
+      "directed": false
+    },
+    {
+      "from": "q.ef06",
+      "to": "ef.financial_account",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef06",
+      "directed": false
+    },
+    {
+      "from": "q.ef06",
+      "to": "ef.capital_inflows",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef06",
+      "directed": false
+    },
+    {
+      "from": "q.ef06",
+      "to": "ef.foreign_direct_investment",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef06",
+      "directed": false
+    },
+    {
+      "from": "q.ef06",
+      "to": "ef.external_position",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef06",
+      "directed": false
+    },
+    {
+      "from": "q.ef07",
+      "to": "ef.resident_fx_hedging",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef07",
+      "directed": false
+    },
+    {
+      "from": "q.ef07",
+      "to": "ef.financial_account",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef07",
+      "directed": false
+    },
+    {
+      "from": "q.ef07",
+      "to": "ef.reserve_accumulation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef07",
+      "directed": false
+    },
+    {
+      "from": "q.ef08",
+      "to": "ef.market_access",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef08",
+      "directed": false
+    },
+    {
+      "from": "q.ef08",
+      "to": "ef.sovereign_spreads",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef08",
+      "directed": false
+    },
+    {
+      "from": "q.ef08",
+      "to": "ef.fx_market_issuance",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef08",
+      "directed": false
+    },
+    {
+      "from": "q.ef09",
+      "to": "ef.reserve_accumulation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef09",
+      "directed": false
+    },
+    {
+      "from": "q.ef09",
+      "to": "ef.sovereign_spreads",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef09",
+      "directed": false
+    },
+    {
+      "from": "q.ef09",
+      "to": "ef.market_access",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef09",
+      "directed": false
+    },
+    {
+      "from": "q.ef09",
+      "to": "ef.external_vulnerability",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef09",
+      "directed": false
+    },
+    {
+      "from": "q.ef10",
+      "to": "ef.fx_debt_service",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef10",
+      "directed": false
+    },
+    {
+      "from": "q.ef10",
+      "to": "ef.refinancing_needs",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef10",
+      "directed": false
+    },
+    {
+      "from": "q.ef10",
+      "to": "ef.external_public_debt",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef10",
+      "directed": false
+    },
+    {
+      "from": "q.ef11",
+      "to": "ef.official_external_financing",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef11",
+      "directed": false
+    },
+    {
+      "from": "q.ef11",
+      "to": "ef.swap_repo_financing",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef11",
+      "directed": false
+    },
+    {
+      "from": "q.ef11",
+      "to": "ef.refinancing_needs",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef11",
+      "directed": false
+    },
+    {
+      "from": "q.ef12",
+      "to": "ef.fx_market_issuance",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef12",
+      "directed": false
+    },
+    {
+      "from": "q.ef12",
+      "to": "ef.market_access",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef12",
+      "directed": false
+    },
+    {
+      "from": "q.ef12",
+      "to": "ef.capital_inflows",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef12",
+      "directed": false
+    },
+    {
+      "from": "q.ef13",
+      "to": "ef.external_public_debt",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef13",
+      "directed": false
+    },
+    {
+      "from": "q.ef13",
+      "to": "ef.fx_debt_service",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef13",
+      "directed": false
+    },
+    {
+      "from": "q.ef13",
+      "to": "ef.reserve_adequacy",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef13",
+      "directed": false
+    },
+    {
+      "from": "q.ef14",
+      "to": "ef.private_credit",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef14",
+      "directed": false
+    },
+    {
+      "from": "q.ef14",
+      "to": "ef.financial_depth",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef14",
+      "directed": false
+    },
+    {
+      "from": "q.ef15",
+      "to": "ef.private_credit",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef15",
+      "directed": false
+    },
+    {
+      "from": "q.ef15",
+      "to": "ef.credit_quality",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef15",
+      "directed": false
+    },
+    {
+      "from": "q.ef16",
+      "to": "ef.fx_deposits",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef16",
+      "directed": false
+    },
+    {
+      "from": "q.ef16",
+      "to": "ef.financial_depth",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef16",
+      "directed": false
+    },
+    {
+      "from": "q.ef16",
+      "to": "ef.external_vulnerability",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef16",
+      "directed": false
+    },
+    {
+      "from": "q.ef17",
+      "to": "ef.financial_depth",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef17",
+      "directed": false
+    },
+    {
+      "from": "q.ef17",
+      "to": "ef.domestic_capital_market_depth",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef17",
+      "directed": false
+    },
+    {
+      "from": "q.ef17",
+      "to": "ef.private_credit",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef17",
+      "directed": false
+    },
+    {
+      "from": "q.ef18",
+      "to": "ef.domestic_savings_mobilization",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef18",
+      "directed": false
+    },
+    {
+      "from": "q.ef18",
+      "to": "ef.financial_depth",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef18",
+      "directed": false
+    },
+    {
+      "from": "q.ef18",
+      "to": "ef.market_access",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef18",
+      "directed": false
+    },
+    {
+      "from": "q.ef19",
+      "to": "ns.real_exchange_rate",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef19",
+      "directed": false
+    },
+    {
+      "from": "q.ef19",
+      "to": "ef.current_account",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef19",
+      "directed": false
+    },
+    {
+      "from": "q.ef19",
+      "to": "ef.reserve_accumulation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef19",
+      "directed": false
+    },
+    {
+      "from": "q.ef20",
+      "to": "ns.bcra_fx_operations",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef20",
+      "directed": false
+    },
+    {
+      "from": "q.ef20",
+      "to": "ef.reserve_accumulation",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef20",
+      "directed": false
+    },
+    {
+      "from": "q.ef20",
+      "to": "ef.external_vulnerability",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef20",
+      "directed": false
+    },
+    {
+      "from": "q.ef20",
+      "to": "ef.net_international_reserves",
+      "kind": "question_mentions_topic",
+      "source_id": "q.ef20",
+      "directed": false
+    },
+    {
       "from": "ci.ns.cpi_monthly",
       "to": "ns.headline_inflation",
       "kind": "indicator_measures_topic",
@@ -2166,6 +4008,286 @@
       "to": "ns.bcra_fx_operations",
       "kind": "indicator_measures_topic",
       "source_id": "ci.ns.bcra_fx_purchases_daily",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.gross_reserves_usd",
+      "to": "ef.gross_reserves",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.gross_reserves_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.nir_usd",
+      "to": "ef.net_international_reserves",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.nir_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.liquid_reserve_buffer_usd",
+      "to": "ef.liquid_reserve_buffers",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.liquid_reserve_buffer_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.reserve_change_monthly",
+      "to": "ef.reserve_accumulation",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.reserve_change_monthly",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.nir_change_monthly",
+      "to": "ef.reserve_accumulation",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.nir_change_monthly",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.reserve_accumulation_ytd",
+      "to": "ef.reserve_accumulation",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.reserve_accumulation_ytd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.import_cover_months",
+      "to": "ef.reserve_adequacy",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.import_cover_months",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.nir_to_gross_ratio",
+      "to": "ef.reserve_adequacy",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.nir_to_gross_ratio",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.reserve_to_fx_service_ratio",
+      "to": "ef.reserve_adequacy",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.reserve_to_fx_service_ratio",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.current_account_usd",
+      "to": "ef.current_account",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.current_account_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.current_account_gdp",
+      "to": "ef.current_account",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.current_account_gdp",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.goods_balance_usd",
+      "to": "ef.goods_trade_balance",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.goods_balance_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.services_balance_usd",
+      "to": "ef.services_balance",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.services_balance_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.primary_income_balance_usd",
+      "to": "ef.primary_income_balance",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.primary_income_balance_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.financial_account_usd",
+      "to": "ef.financial_account",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.financial_account_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.fdi_net_usd",
+      "to": "ef.foreign_direct_investment",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.fdi_net_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.private_financial_flows_usd",
+      "to": "ef.financial_account",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.private_financial_flows_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.public_financial_flows_usd",
+      "to": "ef.financial_account",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.public_financial_flows_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.capital_inflows_usd",
+      "to": "ef.capital_inflows",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.capital_inflows_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.external_debt_usd",
+      "to": "ef.external_public_debt",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.external_debt_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.external_debt_gdp",
+      "to": "ef.external_public_debt",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.external_debt_gdp",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.public_fx_debt_service_12m",
+      "to": "ef.fx_debt_service",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.public_fx_debt_service_12m",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.market_fx_redemptions_12m",
+      "to": "ef.refinancing_needs",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.market_fx_redemptions_12m",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.imf_obligations_12m",
+      "to": "ef.refinancing_needs",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.imf_obligations_12m",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.sovereign_spread_bps",
+      "to": "ef.sovereign_spreads",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.sovereign_spread_bps",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.corporate_spread_bps",
+      "to": "ef.market_access",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.corporate_spread_bps",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.public_fx_issuance_usd",
+      "to": "ef.fx_market_issuance",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.public_fx_issuance_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.corporate_fx_issuance_usd",
+      "to": "ef.fx_market_issuance",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.corporate_fx_issuance_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.official_external_financing_usd",
+      "to": "ef.official_external_financing",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.official_external_financing_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.swap_liabilities_usd",
+      "to": "ef.swap_repo_financing",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.swap_liabilities_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.repo_liabilities_usd",
+      "to": "ef.swap_repo_financing",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.repo_liabilities_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.private_credit_gdp",
+      "to": "ef.private_credit",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.private_credit_gdp",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.real_private_credit_growth",
+      "to": "ef.private_credit",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.real_private_credit_growth",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.npl_ratio",
+      "to": "ef.credit_quality",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.npl_ratio",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.fx_deposits_usd",
+      "to": "ef.fx_deposits",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.fx_deposits_usd",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.fx_deposit_share",
+      "to": "ef.fx_deposits",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.fx_deposit_share",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.bank_capital_ratio",
+      "to": "ef.credit_quality",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.bank_capital_ratio",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.bank_liquidity_ratio",
+      "to": "ef.credit_quality",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.bank_liquidity_ratio",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.assets_outside_system_gdp",
+      "to": "ef.domestic_savings_mobilization",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.assets_outside_system_gdp",
+      "directed": false
+    },
+    {
+      "from": "ci.ef.domestic_market_depth_gdp",
+      "to": "ef.domestic_capital_market_depth",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ef.domestic_market_depth_gdp",
       "directed": false
     },
     {
@@ -3265,6 +5387,1084 @@
       "to": "ci.ns.transactional_m2_projection_gap",
       "kind": "chart_uses_indicator",
       "source_id": "pi.ns52",
+      "directed": false
+    },
+    {
+      "from": "pi.ef01",
+      "to": "q.ef01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef01",
+      "directed": false
+    },
+    {
+      "from": "pi.ef01",
+      "to": "ci.ef.gross_reserves_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef01",
+      "directed": false
+    },
+    {
+      "from": "pi.ef01",
+      "to": "ci.ef.nir_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef01",
+      "directed": false
+    },
+    {
+      "from": "pi.ef01",
+      "to": "ci.ef.liquid_reserve_buffer_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef01",
+      "directed": false
+    },
+    {
+      "from": "pi.ef02",
+      "to": "q.ef01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef02",
+      "directed": false
+    },
+    {
+      "from": "pi.ef02",
+      "to": "q.ef13",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef02",
+      "directed": false
+    },
+    {
+      "from": "pi.ef02",
+      "to": "ci.ef.import_cover_months",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef02",
+      "directed": false
+    },
+    {
+      "from": "pi.ef02",
+      "to": "ci.ef.reserve_to_fx_service_ratio",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef02",
+      "directed": false
+    },
+    {
+      "from": "pi.ef02",
+      "to": "ci.ef.nir_to_gross_ratio",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef02",
+      "directed": false
+    },
+    {
+      "from": "pi.ef03",
+      "to": "q.ef02",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef03",
+      "directed": false
+    },
+    {
+      "from": "pi.ef03",
+      "to": "ci.ef.nir_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef03",
+      "directed": false
+    },
+    {
+      "from": "pi.ef04",
+      "to": "q.ef02",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef04",
+      "directed": false
+    },
+    {
+      "from": "pi.ef04",
+      "to": "q.ef10",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef04",
+      "directed": false
+    },
+    {
+      "from": "pi.ef04",
+      "to": "ci.ef.reserve_accumulation_ytd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef04",
+      "directed": false
+    },
+    {
+      "from": "pi.ef04",
+      "to": "ci.ef.public_fx_debt_service_12m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef04",
+      "directed": false
+    },
+    {
+      "from": "pi.ef05",
+      "to": "q.ef03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef05",
+      "directed": false
+    },
+    {
+      "from": "pi.ef05",
+      "to": "ci.ef.reserve_change_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef05",
+      "directed": false
+    },
+    {
+      "from": "pi.ef05",
+      "to": "ci.ef.nir_change_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef05",
+      "directed": false
+    },
+    {
+      "from": "pi.ef06",
+      "to": "q.ef03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef06",
+      "directed": false
+    },
+    {
+      "from": "pi.ef06",
+      "to": "q.ef20",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef06",
+      "directed": false
+    },
+    {
+      "from": "pi.ef06",
+      "to": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef06",
+      "directed": false
+    },
+    {
+      "from": "pi.ef06",
+      "to": "ci.ef.nir_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef06",
+      "directed": false
+    },
+    {
+      "from": "pi.ef07",
+      "to": "q.ef03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef07",
+      "directed": false
+    },
+    {
+      "from": "pi.ef07",
+      "to": "q.ef11",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef07",
+      "directed": false
+    },
+    {
+      "from": "pi.ef07",
+      "to": "ci.ef.official_external_financing_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef07",
+      "directed": false
+    },
+    {
+      "from": "pi.ef07",
+      "to": "ci.ef.public_fx_debt_service_12m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef07",
+      "directed": false
+    },
+    {
+      "from": "pi.ef07",
+      "to": "ci.ef.nir_change_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef07",
+      "directed": false
+    },
+    {
+      "from": "pi.ef08",
+      "to": "q.ef04",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef08",
+      "directed": false
+    },
+    {
+      "from": "pi.ef08",
+      "to": "ci.ef.current_account_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef08",
+      "directed": false
+    },
+    {
+      "from": "pi.ef08",
+      "to": "ci.ef.current_account_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef08",
+      "directed": false
+    },
+    {
+      "from": "pi.ef09",
+      "to": "q.ef04",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef09",
+      "directed": false
+    },
+    {
+      "from": "pi.ef09",
+      "to": "q.ef05",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef09",
+      "directed": false
+    },
+    {
+      "from": "pi.ef09",
+      "to": "ci.ef.goods_balance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef09",
+      "directed": false
+    },
+    {
+      "from": "pi.ef09",
+      "to": "ci.ef.services_balance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef09",
+      "directed": false
+    },
+    {
+      "from": "pi.ef09",
+      "to": "ci.ef.primary_income_balance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef09",
+      "directed": false
+    },
+    {
+      "from": "pi.ef09",
+      "to": "ci.ef.current_account_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef09",
+      "directed": false
+    },
+    {
+      "from": "pi.ef10",
+      "to": "q.ef05",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef10",
+      "directed": false
+    },
+    {
+      "from": "pi.ef10",
+      "to": "ci.ef.goods_balance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef10",
+      "directed": false
+    },
+    {
+      "from": "pi.ef10",
+      "to": "ci.ef.services_balance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef10",
+      "directed": false
+    },
+    {
+      "from": "pi.ef11",
+      "to": "q.ef05",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef11",
+      "directed": false
+    },
+    {
+      "from": "pi.ef11",
+      "to": "ci.ef.primary_income_balance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef11",
+      "directed": false
+    },
+    {
+      "from": "pi.ef11",
+      "to": "ci.ef.current_account_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef11",
+      "directed": false
+    },
+    {
+      "from": "pi.ef12",
+      "to": "q.ef06",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef12",
+      "directed": false
+    },
+    {
+      "from": "pi.ef12",
+      "to": "ci.ef.fdi_net_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef12",
+      "directed": false
+    },
+    {
+      "from": "pi.ef12",
+      "to": "ci.ef.private_financial_flows_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef12",
+      "directed": false
+    },
+    {
+      "from": "pi.ef12",
+      "to": "ci.ef.public_financial_flows_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef12",
+      "directed": false
+    },
+    {
+      "from": "pi.ef13",
+      "to": "q.ef06",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef13",
+      "directed": false
+    },
+    {
+      "from": "pi.ef13",
+      "to": "ci.ef.capital_inflows_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef13",
+      "directed": false
+    },
+    {
+      "from": "pi.ef13",
+      "to": "ci.ef.current_account_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef13",
+      "directed": false
+    },
+    {
+      "from": "pi.ef14",
+      "to": "q.ef06",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef14",
+      "directed": false
+    },
+    {
+      "from": "pi.ef14",
+      "to": "ci.ef.fdi_net_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef14",
+      "directed": false
+    },
+    {
+      "from": "pi.ef14",
+      "to": "ci.ef.capital_inflows_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef14",
+      "directed": false
+    },
+    {
+      "from": "pi.ef15",
+      "to": "q.ef07",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef15",
+      "directed": false
+    },
+    {
+      "from": "pi.ef15",
+      "to": "ci.ef.private_financial_flows_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef15",
+      "directed": false
+    },
+    {
+      "from": "pi.ef16",
+      "to": "q.ef07",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef16",
+      "directed": false
+    },
+    {
+      "from": "pi.ef16",
+      "to": "ci.ef.private_financial_flows_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef16",
+      "directed": false
+    },
+    {
+      "from": "pi.ef16",
+      "to": "ci.ef.nir_change_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef16",
+      "directed": false
+    },
+    {
+      "from": "pi.ef17",
+      "to": "q.ef08",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef17",
+      "directed": false
+    },
+    {
+      "from": "pi.ef17",
+      "to": "ci.ef.sovereign_spread_bps",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef17",
+      "directed": false
+    },
+    {
+      "from": "pi.ef18",
+      "to": "q.ef08",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef18",
+      "directed": false
+    },
+    {
+      "from": "pi.ef18",
+      "to": "q.ef12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef18",
+      "directed": false
+    },
+    {
+      "from": "pi.ef18",
+      "to": "ci.ef.sovereign_spread_bps",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef18",
+      "directed": false
+    },
+    {
+      "from": "pi.ef18",
+      "to": "ci.ef.corporate_spread_bps",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef18",
+      "directed": false
+    },
+    {
+      "from": "pi.ef19",
+      "to": "q.ef08",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef19",
+      "directed": false
+    },
+    {
+      "from": "pi.ef19",
+      "to": "q.ef12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef19",
+      "directed": false
+    },
+    {
+      "from": "pi.ef19",
+      "to": "ci.ef.public_fx_issuance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef19",
+      "directed": false
+    },
+    {
+      "from": "pi.ef19",
+      "to": "ci.ef.corporate_fx_issuance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef19",
+      "directed": false
+    },
+    {
+      "from": "pi.ef20",
+      "to": "q.ef09",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef20",
+      "directed": false
+    },
+    {
+      "from": "pi.ef20",
+      "to": "ci.ef.nir_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef20",
+      "directed": false
+    },
+    {
+      "from": "pi.ef20",
+      "to": "ci.ef.sovereign_spread_bps",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef20",
+      "directed": false
+    },
+    {
+      "from": "pi.ef21",
+      "to": "q.ef09",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef21",
+      "directed": false
+    },
+    {
+      "from": "pi.ef21",
+      "to": "ci.ef.gross_reserves_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef21",
+      "directed": false
+    },
+    {
+      "from": "pi.ef21",
+      "to": "ci.ef.sovereign_spread_bps",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef21",
+      "directed": false
+    },
+    {
+      "from": "pi.ef22",
+      "to": "q.ef10",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef22",
+      "directed": false
+    },
+    {
+      "from": "pi.ef22",
+      "to": "ci.ef.public_fx_debt_service_12m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef22",
+      "directed": false
+    },
+    {
+      "from": "pi.ef22",
+      "to": "ci.ef.market_fx_redemptions_12m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef22",
+      "directed": false
+    },
+    {
+      "from": "pi.ef22",
+      "to": "ci.ef.imf_obligations_12m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef22",
+      "directed": false
+    },
+    {
+      "from": "pi.ef23",
+      "to": "q.ef10",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef23",
+      "directed": false
+    },
+    {
+      "from": "pi.ef23",
+      "to": "q.ef13",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef23",
+      "directed": false
+    },
+    {
+      "from": "pi.ef23",
+      "to": "ci.ef.public_fx_debt_service_12m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef23",
+      "directed": false
+    },
+    {
+      "from": "pi.ef23",
+      "to": "ci.ef.gross_reserves_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef23",
+      "directed": false
+    },
+    {
+      "from": "pi.ef23",
+      "to": "ci.ef.nir_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef23",
+      "directed": false
+    },
+    {
+      "from": "pi.ef24",
+      "to": "q.ef11",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef24",
+      "directed": false
+    },
+    {
+      "from": "pi.ef24",
+      "to": "ci.ef.official_external_financing_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef24",
+      "directed": false
+    },
+    {
+      "from": "pi.ef24",
+      "to": "ci.ef.swap_liabilities_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef24",
+      "directed": false
+    },
+    {
+      "from": "pi.ef24",
+      "to": "ci.ef.repo_liabilities_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef24",
+      "directed": false
+    },
+    {
+      "from": "pi.ef25",
+      "to": "q.ef11",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef25",
+      "directed": false
+    },
+    {
+      "from": "pi.ef25",
+      "to": "ci.ef.swap_liabilities_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef25",
+      "directed": false
+    },
+    {
+      "from": "pi.ef25",
+      "to": "ci.ef.repo_liabilities_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef25",
+      "directed": false
+    },
+    {
+      "from": "pi.ef25",
+      "to": "ci.ef.nir_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef25",
+      "directed": false
+    },
+    {
+      "from": "pi.ef26",
+      "to": "q.ef12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef26",
+      "directed": false
+    },
+    {
+      "from": "pi.ef26",
+      "to": "ci.ef.public_fx_issuance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef26",
+      "directed": false
+    },
+    {
+      "from": "pi.ef26",
+      "to": "ci.ef.corporate_fx_issuance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef26",
+      "directed": false
+    },
+    {
+      "from": "pi.ef27",
+      "to": "q.ef13",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef27",
+      "directed": false
+    },
+    {
+      "from": "pi.ef27",
+      "to": "ci.ef.external_debt_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef27",
+      "directed": false
+    },
+    {
+      "from": "pi.ef27",
+      "to": "ci.ef.external_debt_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef27",
+      "directed": false
+    },
+    {
+      "from": "pi.ef28",
+      "to": "q.ef13",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef28",
+      "directed": false
+    },
+    {
+      "from": "pi.ef28",
+      "to": "ci.ef.reserve_to_fx_service_ratio",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef28",
+      "directed": false
+    },
+    {
+      "from": "pi.ef29",
+      "to": "q.ef14",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef29",
+      "directed": false
+    },
+    {
+      "from": "pi.ef29",
+      "to": "q.ef17",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef29",
+      "directed": false
+    },
+    {
+      "from": "pi.ef29",
+      "to": "ci.ef.private_credit_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef29",
+      "directed": false
+    },
+    {
+      "from": "pi.ef30",
+      "to": "q.ef14",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef30",
+      "directed": false
+    },
+    {
+      "from": "pi.ef30",
+      "to": "ci.ef.real_private_credit_growth",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef30",
+      "directed": false
+    },
+    {
+      "from": "pi.ef31",
+      "to": "q.ef15",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef31",
+      "directed": false
+    },
+    {
+      "from": "pi.ef31",
+      "to": "ci.ef.real_private_credit_growth",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef31",
+      "directed": false
+    },
+    {
+      "from": "pi.ef31",
+      "to": "ci.ef.npl_ratio",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef31",
+      "directed": false
+    },
+    {
+      "from": "pi.ef32",
+      "to": "q.ef15",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef32",
+      "directed": false
+    },
+    {
+      "from": "pi.ef32",
+      "to": "ci.ef.npl_ratio",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef32",
+      "directed": false
+    },
+    {
+      "from": "pi.ef33",
+      "to": "q.ef16",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef33",
+      "directed": false
+    },
+    {
+      "from": "pi.ef33",
+      "to": "ci.ef.fx_deposits_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef33",
+      "directed": false
+    },
+    {
+      "from": "pi.ef33",
+      "to": "ci.ef.fx_deposit_share",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef33",
+      "directed": false
+    },
+    {
+      "from": "pi.ef34",
+      "to": "q.ef16",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef34",
+      "directed": false
+    },
+    {
+      "from": "pi.ef34",
+      "to": "ci.ef.fx_deposit_share",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef34",
+      "directed": false
+    },
+    {
+      "from": "pi.ef34",
+      "to": "ci.ef.bank_liquidity_ratio",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef34",
+      "directed": false
+    },
+    {
+      "from": "pi.ef35",
+      "to": "q.ef15",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef35",
+      "directed": false
+    },
+    {
+      "from": "pi.ef35",
+      "to": "q.ef16",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef35",
+      "directed": false
+    },
+    {
+      "from": "pi.ef35",
+      "to": "ci.ef.bank_capital_ratio",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef35",
+      "directed": false
+    },
+    {
+      "from": "pi.ef35",
+      "to": "ci.ef.npl_ratio",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef35",
+      "directed": false
+    },
+    {
+      "from": "pi.ef36",
+      "to": "q.ef17",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef36",
+      "directed": false
+    },
+    {
+      "from": "pi.ef36",
+      "to": "ci.ef.private_credit_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef36",
+      "directed": false
+    },
+    {
+      "from": "pi.ef36",
+      "to": "ci.ef.domestic_market_depth_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef36",
+      "directed": false
+    },
+    {
+      "from": "pi.ef37",
+      "to": "q.ef17",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef37",
+      "directed": false
+    },
+    {
+      "from": "pi.ef37",
+      "to": "ci.ef.private_credit_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef37",
+      "directed": false
+    },
+    {
+      "from": "pi.ef37",
+      "to": "ci.ef.domestic_market_depth_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef37",
+      "directed": false
+    },
+    {
+      "from": "pi.ef38",
+      "to": "q.ef18",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef38",
+      "directed": false
+    },
+    {
+      "from": "pi.ef38",
+      "to": "ci.ef.assets_outside_system_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef38",
+      "directed": false
+    },
+    {
+      "from": "pi.ef38",
+      "to": "ci.ef.private_credit_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef38",
+      "directed": false
+    },
+    {
+      "from": "pi.ef39",
+      "to": "q.ef18",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef39",
+      "directed": false
+    },
+    {
+      "from": "pi.ef39",
+      "to": "q.ef12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef39",
+      "directed": false
+    },
+    {
+      "from": "pi.ef39",
+      "to": "ci.ef.domestic_market_depth_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef39",
+      "directed": false
+    },
+    {
+      "from": "pi.ef39",
+      "to": "ci.ef.public_fx_issuance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef39",
+      "directed": false
+    },
+    {
+      "from": "pi.ef39",
+      "to": "ci.ef.corporate_fx_issuance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef39",
+      "directed": false
+    },
+    {
+      "from": "pi.ef40",
+      "to": "q.ef19",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef40",
+      "directed": false
+    },
+    {
+      "from": "pi.ef40",
+      "to": "ci.ns.reer_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef40",
+      "directed": false
+    },
+    {
+      "from": "pi.ef40",
+      "to": "ci.ef.current_account_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef40",
+      "directed": false
+    },
+    {
+      "from": "pi.ef41",
+      "to": "q.ef19",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef41",
+      "directed": false
+    },
+    {
+      "from": "pi.ef41",
+      "to": "ci.ns.reer_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef41",
+      "directed": false
+    },
+    {
+      "from": "pi.ef41",
+      "to": "ci.ef.nir_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef41",
+      "directed": false
+    },
+    {
+      "from": "pi.ef42",
+      "to": "q.ef20",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef42",
+      "directed": false
+    },
+    {
+      "from": "pi.ef42",
+      "to": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef42",
+      "directed": false
+    },
+    {
+      "from": "pi.ef42",
+      "to": "ci.ef.nir_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef42",
+      "directed": false
+    },
+    {
+      "from": "pi.ef42",
+      "to": "ci.ef.gross_reserves_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef42",
+      "directed": false
+    },
+    {
+      "from": "pi.ef43",
+      "to": "q.ef20",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef43",
+      "directed": false
+    },
+    {
+      "from": "pi.ef43",
+      "to": "q.ef09",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef43",
+      "directed": false
+    },
+    {
+      "from": "pi.ef43",
+      "to": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef43",
+      "directed": false
+    },
+    {
+      "from": "pi.ef43",
+      "to": "ci.ef.sovereign_spread_bps",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef43",
+      "directed": false
+    },
+    {
+      "from": "pi.ef44",
+      "to": "q.ef01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef44",
+      "directed": false
+    },
+    {
+      "from": "pi.ef44",
+      "to": "q.ef08",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef44",
+      "directed": false
+    },
+    {
+      "from": "pi.ef44",
+      "to": "q.ef10",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef44",
+      "directed": false
+    },
+    {
+      "from": "pi.ef44",
+      "to": "q.ef19",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef44",
+      "directed": false
+    },
+    {
+      "from": "pi.ef44",
+      "to": "ci.ef.nir_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef44",
+      "directed": false
+    },
+    {
+      "from": "pi.ef44",
+      "to": "ci.ef.sovereign_spread_bps",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef44",
+      "directed": false
+    },
+    {
+      "from": "pi.ef44",
+      "to": "ci.ef.current_account_gdp",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef44",
+      "directed": false
+    },
+    {
+      "from": "pi.ef44",
+      "to": "ci.ef.public_fx_debt_service_12m",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef44",
       "directed": false
     }
   ]

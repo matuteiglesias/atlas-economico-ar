@@ -1,0 +1,128 @@
+{
+  "id": "ci.ef.official_external_financing_usd",
+  "kind": "indicator",
+  "slug": "official-external-financing-flows",
+  "title": "Official external financing flows",
+  "href": "/indicators/official-external-financing-flows",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topic": {
+    "id": "ef.official_external_financing",
+    "kind": "topic",
+    "slug": "official-external-financing",
+    "title": "Official external financing",
+    "href": "/topics/official-external-financing"
+  },
+  "unitSemantics": "usd_billions",
+  "frequency": "monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge"
+    },
+    {
+      "id": "pi.ef24",
+      "kind": "chart",
+      "slug": "official-financing-swaps-and-repos",
+      "title": "Official financing, swaps, and repos",
+      "href": "/charts/official-financing-swaps-and-repos"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef24",
+      "kind": "chart",
+      "slug": "official-financing-swaps-and-repos",
+      "title": "Official financing, swaps, and repos",
+      "href": "/charts/official-financing-swaps-and-repos",
+      "distance": 1
+    },
+    {
+      "id": "q.ef11",
+      "kind": "question",
+      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "title": "How much does the strategy rely on swaps and repos?",
+      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "distance": 2
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves",
+      "distance": 2
+    },
+    {
+      "id": "ef.liquid_reserve_buffers",
+      "kind": "topic",
+      "slug": "liquid-reserve-buffers",
+      "title": "Liquid reserve buffers",
+      "href": "/topics/liquid-reserve-buffers",
+      "distance": 2
+    },
+    {
+      "id": "ef.swap_repo_financing",
+      "kind": "topic",
+      "slug": "swap-and-repo-financing",
+      "title": "Swap and repo financing",
+      "href": "/topics/swap-and-repo-financing",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.swap_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-external-swap-liabilities",
+      "title": "Central-bank external swap liabilities",
+      "href": "/indicators/central-bank-external-swap-liabilities",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 2,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 0
+  }
+}

@@ -1,0 +1,671 @@
+concepts:
+- id: ef.external_position
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: External position
+  description: Overall relationship between external flows, external liabilities, reserve buffers, and the capacity to meet
+    foreign-currency obligations.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.gross_reserves
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Gross international reserves
+  description: Headline foreign-currency reserve assets held by the central bank before subtracting reserve-related liabilities
+    and encumbrances.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.net_international_reserves
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Net international reserves
+  description: Reserve position after subtracting specified reserve-related liabilities, swaps, and other items under the
+    relevant definition.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.liquid_reserve_buffers
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Liquid reserve buffers
+  description: Reserve resources that are readily usable to absorb balance-of-payments pressure or meet foreign-currency obligations.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.reserve_adequacy
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Reserve adequacy
+  description: Assessment of reserve buffers relative to imports, external debt service, short-term liabilities, and other
+    external risks.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.reserve_accumulation
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Reserve accumulation
+  description: Change in usable reserve buffers over time, including the contribution of FX purchases and external financing
+    flows.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.current_account
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Current account
+  description: Balance of trade in goods and services, primary income, and secondary income with the rest of the world.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.goods_trade_balance
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Goods trade balance
+  description: Difference between merchandise exports and imports.
+  role: component
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.services_balance
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Services balance
+  description: Net exports of services, including travel and other service categories.
+  role: component
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.primary_income_balance
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Primary income balance
+  description: Net cross-border investment income and related income flows, including public-sector interest payments.
+  role: component
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.financial_account
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Financial account
+  description: Cross-border financial flows involving private, public, and official-sector assets and liabilities.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.capital_inflows
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Capital inflows
+  description: External financing entering the economy through debt, equity, direct investment, official financing, or other
+    financial flows.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.resident_fx_hedging
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Resident FX hedging and dollarization pressure
+  description: Demand by residents to acquire foreign-currency assets or hedge peso exposure, affecting the financial account
+    and reserve pressure.
+  role: mechanism
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.foreign_direct_investment
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Foreign direct investment
+  description: Cross-border investment associated with lasting ownership or control of productive assets.
+  role: component
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.market_access
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: International market access
+  description: Ability of sovereign, provincial, corporate, and financial issuers to obtain durable foreign-currency financing
+    at sustainable terms.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.sovereign_risk
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Sovereign risk
+  description: Market assessment of the probability and severity of losses on sovereign obligations.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.sovereign_spreads
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Sovereign spreads
+  description: Yield premium on Argentine sovereign debt relative to a lower-risk benchmark.
+  role: measurement
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.external_public_debt
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: External public debt
+  description: Public-sector obligations that create material foreign-currency financing needs.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.fx_debt_service
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Foreign-currency debt service
+  description: Principal and interest payments due in foreign currency over a specified horizon.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.refinancing_needs
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: External refinancing needs
+  description: Foreign-currency obligations that need to be rolled over, refinanced, or paid from other external resources.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.official_external_financing
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Official external financing
+  description: Financing from multilateral institutions, foreign official creditors, and other official-sector arrangements.
+  role: component
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.swap_repo_financing
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Swap and repo financing
+  description: Foreign-currency financing obtained through central-bank swaps, repos, and similar secured facilities.
+  role: component
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.fx_market_issuance
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: FX market issuance
+  description: Foreign-currency borrowing through domestic or international bond and loan markets by public and private issuers.
+  role: component
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.financial_depth
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Financial depth
+  description: Scale and diversity of domestic financial intermediation and capital markets relative to the size of the economy.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.private_credit
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Private-sector credit
+  description: Credit extended by the domestic financial system to households and firms.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.credit_quality
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Credit quality
+  description: Capacity of borrowers to service debt, commonly monitored through arrears, non-performing loans, and provisioning.
+  role: risk
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.fx_deposits
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Foreign-currency deposits
+  description: Deposits denominated in foreign currency within the domestic financial system.
+  role: component
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.domestic_capital_market_depth
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Domestic capital-market depth
+  description: Capacity of local bond and securities markets to mobilize savings and provide financing beyond bank credit.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.domestic_savings_mobilization
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Domestic savings mobilization
+  description: Channeling resident savings, including dollar assets held outside the financial system, into domestic intermediation
+    and investment.
+  role: mechanism
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ef.external_vulnerability
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: External vulnerability
+  description: Exposure to abrupt capital-flow reversals, reserve losses, refinancing stress, or external shocks given available
+    buffers and obligations.
+  role: core
+  aliases: []
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables

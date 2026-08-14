@@ -1,0 +1,212 @@
+derived_indicators:
+- id: di.ns.cpi_3m_ann
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.cpi_3m_ann
+  input_indicator_ids:
+  - ci.ns.cpi_monthly
+  methodology: compound three monthly inflation rates and annualize
+  methodology_status: specified_v0_1_requires_series_binding_validation
+  provenance:
+    imf_2026_refs:
+    - Figure 4 / Figure 1
+    model_prior_used: true
+- id: di.ns.infl_acceleration
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.infl_acceleration
+  input_indicator_ids:
+  - ci.ns.cpi_monthly
+  methodology: current monthly inflation minus previous monthly inflation
+  methodology_status: specified_v0_1_requires_series_binding_validation
+  provenance:
+    imf_2026_refs:
+    - Figure 4 / Figure 1
+    model_prior_used: true
+- id: di.ns.infl_surprise
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.infl_surprise
+  input_indicator_ids:
+  - ci.ns.cpi_monthly
+  - ci.ns.infl_exp_1m
+  methodology: actual monthly inflation minus prior expectation
+  methodology_status: specified_v0_1_requires_series_binding_validation
+  provenance:
+    imf_2026_refs:
+    - Figure 4 / Figure 1
+    model_prior_used: true
+- id: di.ns.fx_gap_ccl
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.fx_gap_ccl
+  input_indicator_ids:
+  - ci.ns.ccl_fx
+  - ci.ns.official_fx
+  methodology: (CCL / official - 1) * 100
+  methodology_status: specified_v0_1_requires_series_binding_validation
+  provenance:
+    imf_2026_refs:
+    - Figure 4 / Figure 1
+    model_prior_used: true
+- id: di.ns.fx_gap_blue
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.fx_gap_blue
+  input_indicator_ids:
+  - ci.ns.blue_fx
+  - ci.ns.official_fx
+  methodology: (blue / official - 1) * 100
+  methodology_status: specified_v0_1_requires_series_binding_validation
+  provenance:
+    imf_2026_refs:
+    - Figure 4 / Figure 1
+    model_prior_used: true
+- id: di.ns.band_position
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.fx_band_position
+  input_indicator_ids:
+  - ci.ns.official_fx
+  - ci.ns.fx_band_lower
+  - ci.ns.fx_band_upper
+  methodology: (official-lower)/(upper-lower) * 100
+  methodology_status: specified_v0_1_requires_series_binding_validation
+  provenance:
+    imf_2026_refs:
+    - Figure 4 / Figure 1
+    model_prior_used: true
+- id: di.ns.reer_change_dec2023
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.reer_change_dec2023
+  input_indicator_ids:
+  - ci.ns.reer_index
+  methodology: percent change in REER relative to Dec-2023
+  methodology_status: specified_v0_1_requires_series_binding_validation
+  provenance:
+    imf_2026_refs:
+    - Figure 4 / Figure 1
+    model_prior_used: true
+- id: di.ns.real_rate_expost
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.tamar_real_expost
+  input_indicator_ids:
+  - ci.ns.tamar_nominal
+  - ci.ns.cpi_monthly
+  methodology: convert compatible nominal rate and realized inflation to an ex-post real annualized rate
+  methodology_status: specified_v0_1_requires_series_binding_validation
+  provenance:
+    imf_2026_refs:
+    - Figure 4 / Figure 1
+    model_prior_used: true
+- id: di.ns.real_rate_exante
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.tamar_real_exante
+  input_indicator_ids:
+  - ci.ns.tamar_nominal
+  - ci.ns.infl_exp_3m
+  methodology: nominal rate adjusted for compatible expected inflation horizon
+  methodology_status: specified_v0_1_requires_series_binding_validation
+  provenance:
+    imf_2026_refs:
+    - Figure 4 / Figure 1
+    model_prior_used: true
+- id: di.ns.m2_projection_gap
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.transactional_m2_projection_gap
+  input_indicator_ids:
+  - ci.ns.transactional_m2_nominal
+  methodology: (actual M2 - BCRA projected M2) / projected M2 * 100; projection input bound later
+  methodology_status: specified_v0_1_requires_series_binding_validation
+  provenance:
+    imf_2026_refs:
+    - Figure 4 / Figure 1
+    model_prior_used: true
+- id: di.ns.m2_to_gdp
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.m2_to_gdp
+  input_indicator_ids:
+  - ci.ns.transactional_m2_nominal
+  methodology: transactional M2 divided by compatible nominal GDP; GDP series bound later
+  methodology_status: specified_v0_1_requires_series_binding_validation
+  provenance:
+    imf_2026_refs:
+    - Figure 4 / Figure 1
+    model_prior_used: true
+- id: di.ns.fx_purchase_cumulative
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.bcra_fx_purchases_daily
+  input_indicator_ids:
+  - ci.ns.bcra_fx_purchases_daily
+  methodology: cumulative BCRA net FX purchases from selected reference-frame start
+  methodology_status: specified_v0_1_requires_series_binding_validation
+  provenance:
+    imf_2026_refs:
+    - Figure 4 / Figure 1
+    model_prior_used: true

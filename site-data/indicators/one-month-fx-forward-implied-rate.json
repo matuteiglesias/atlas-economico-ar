@@ -97,19 +97,19 @@
       "distance": 2
     },
     {
+      "id": "ef.resident_fx_hedging",
+      "kind": "topic",
+      "slug": "resident-fx-hedging-and-dollarization-pressure",
+      "title": "Resident FX hedging and dollarization pressure",
+      "href": "/topics/resident-fx-hedging-and-dollarization-pressure",
+      "distance": 2
+    },
+    {
       "id": "ci.ns.fx_forward_eoy",
       "kind": "indicator",
       "slug": "end-of-year-fx-forward-implied-rate",
       "title": "End-of-year FX forward/implied rate",
       "href": "/indicators/end-of-year-fx-forward-implied-rate",
-      "distance": 2
-    },
-    {
-      "id": "ci.ns.fx_band_upper",
-      "kind": "indicator",
-      "slug": "fx-band-upper-bound",
-      "title": "FX-band upper bound",
-      "href": "/indicators/fx-band-upper-bound",
       "distance": 2
     }
   ],

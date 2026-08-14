@@ -1,0 +1,210 @@
+{
+  "id": "ef.external_public_debt",
+  "kind": "topic",
+  "slug": "external-public-debt",
+  "title": "External public debt",
+  "href": "/topics/external-public-debt",
+  "dek": "Public-sector obligations that create material foreign-currency financing needs.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.debt_creates_service",
+      "relation_type": "contributes_to",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.fx_debt_service",
+        "kind": "topic",
+        "slug": "foreign-currency-debt-service",
+        "title": "Foreign-currency debt service",
+        "href": "/topics/foreign-currency-debt-service"
+      }
+    },
+    {
+      "relation_id": "rel.ef.vulnerability_associated_debt",
+      "relation_type": "associated_with",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.external_vulnerability",
+        "kind": "topic",
+        "slug": "external-vulnerability",
+        "title": "External vulnerability",
+        "href": "/topics/external-vulnerability"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef10",
+      "kind": "question",
+      "slug": "how-large-is-the-near-term-fx-maturity-wall",
+      "title": "How large is the near-term FX maturity wall?",
+      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall"
+    },
+    {
+      "id": "q.ef13",
+      "kind": "question",
+      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
+      "title": "Is the external debt burden becoming easier to service?",
+      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.external_debt_gdp",
+      "kind": "indicator",
+      "slug": "external-debt-as-share-of-gdp",
+      "title": "External debt as share of GDP",
+      "href": "/indicators/external-debt-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.external_debt_usd",
+      "kind": "indicator",
+      "slug": "total-external-debt",
+      "title": "Total external debt",
+      "href": "/indicators/total-external-debt"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef02",
+      "kind": "chart",
+      "slug": "reserve-adequacy-dashboard",
+      "title": "Reserve adequacy dashboard",
+      "href": "/charts/reserve-adequacy-dashboard"
+    },
+    {
+      "id": "pi.ef04",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
+      "title": "Reserve accumulation versus next-12m FX debt service",
+      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service"
+    },
+    {
+      "id": "pi.ef22",
+      "kind": "chart",
+      "slug": "fx-debt-service-maturity-wall",
+      "title": "FX debt-service maturity wall",
+      "href": "/charts/fx-debt-service-maturity-wall"
+    },
+    {
+      "id": "pi.ef23",
+      "kind": "chart",
+      "slug": "debt-service-versus-reserves",
+      "title": "Debt service versus reserves",
+      "href": "/charts/debt-service-versus-reserves"
+    },
+    {
+      "id": "pi.ef27",
+      "kind": "chart",
+      "slug": "external-debt-in-dollars-and-percent-of-gdp",
+      "title": "External debt in dollars and percent of GDP",
+      "href": "/charts/external-debt-in-dollars-and-percent-of-gdp"
+    },
+    {
+      "id": "pi.ef28",
+      "kind": "chart",
+      "slug": "reserve-coverage-of-external-debt-service",
+      "title": "Reserve coverage of external debt service",
+      "href": "/charts/reserve-coverage-of-external-debt-service"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef10",
+      "kind": "question",
+      "slug": "how-large-is-the-near-term-fx-maturity-wall",
+      "title": "How large is the near-term FX maturity wall?",
+      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
+      "distance": 1
+    },
+    {
+      "id": "q.ef13",
+      "kind": "question",
+      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
+      "title": "Is the external debt burden becoming easier to service?",
+      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service",
+      "distance": 1
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability",
+      "distance": 1
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.external_debt_gdp",
+      "kind": "indicator",
+      "slug": "external-debt-as-share-of-gdp",
+      "title": "External debt as share of GDP",
+      "href": "/indicators/external-debt-as-share-of-gdp",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.external_debt_usd",
+      "kind": "indicator",
+      "slug": "total-external-debt",
+      "title": "Total external debt",
+      "href": "/indicators/total-external-debt",
+      "distance": 1
+    },
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
+      "distance": 2
+    },
+    {
+      "id": "q.ef02",
+      "kind": "question",
+      "slug": "are-reserves-rebuilding-fast-enough",
+      "title": "Are reserves rebuilding fast enough?",
+      "href": "/questions/are-reserves-rebuilding-fast-enough",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 2,
+    "questions": 2,
+    "indicators": 2,
+    "charts": 7
+  }
+}

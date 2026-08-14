@@ -1,0 +1,1299 @@
+plot_intents:
+- id: pi.ef01
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Gross reserves, NIR, and liquid buffers
+  question_ids:
+  - q.ef01
+  canonical_indicator_ids:
+  - ci.ef.gross_reserves_usd
+  - ci.ef.nir_usd
+  - ci.ef.liquid_reserve_buffer_usd
+  reference_frame_ids:
+  - rf.ef.end_2025
+  purpose: Separate headline reserve assets from net and readily usable reserve buffers.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef02
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Reserve adequacy dashboard
+  question_ids:
+  - q.ef01
+  - q.ef13
+  canonical_indicator_ids:
+  - ci.ef.import_cover_months
+  - ci.ef.reserve_to_fx_service_ratio
+  - ci.ef.nir_to_gross_ratio
+  reference_frame_ids:
+  - rf.ef.peer_emerging_markets
+  purpose: Show reserve strength against several obligations rather than relying on one headline stock.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef03
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: NIR versus program target path
+  question_ids:
+  - q.ef02
+  canonical_indicator_ids:
+  - ci.ef.nir_usd
+  reference_frame_ids:
+  - rf.ef.program_nir_target
+  purpose: Track whether usable reserves are converging toward the program path.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef04
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Reserve accumulation versus next-12m FX debt service
+  question_ids:
+  - q.ef02
+  - q.ef10
+  canonical_indicator_ids:
+  - ci.ef.reserve_accumulation_ytd
+  - ci.ef.public_fx_debt_service_12m
+  reference_frame_ids:
+  - rf.ef.next_12m_fx_obligations
+  purpose: Compare reserve rebuilding with the scale of near-term foreign-currency obligations.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef05
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: 'Monthly reserve change: gross versus NIR'
+  question_ids:
+  - q.ef03
+  canonical_indicator_ids:
+  - ci.ef.reserve_change_monthly
+  - ci.ef.nir_change_monthly
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Reveal periods when headline reserves and the net reserve position move differently.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef06
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: BCRA FX purchases versus NIR accumulation
+  question_ids:
+  - q.ef03
+  - q.ef20
+  canonical_indicator_ids:
+  - ci.ns.bcra_fx_purchases_daily
+  - ci.ef.nir_usd
+  reference_frame_ids:
+  - rf.ef.end_2025
+  purpose: Compare central-bank FX purchases with the reserve metric most relevant to usable external buffers.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef07
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: External financing and debt-service bridge
+  question_ids:
+  - q.ef03
+  - q.ef11
+  canonical_indicator_ids:
+  - ci.ef.official_external_financing_usd
+  - ci.ef.public_fx_debt_service_12m
+  - ci.ef.nir_change_monthly
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Show how financing inflows and debt payments help reconcile reserve changes.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef08
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Current-account balance through time
+  question_ids:
+  - q.ef04
+  canonical_indicator_ids:
+  - ci.ef.current_account_usd
+  - ci.ef.current_account_gdp
+  reference_frame_ids:
+  - rf.ef.pre_pandemic_2019
+  purpose: Place the recent current-account position in a longer historical frame.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef09
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Current-account component decomposition
+  question_ids:
+  - q.ef04
+  - q.ef05
+  canonical_indicator_ids:
+  - ci.ef.goods_balance_usd
+  - ci.ef.services_balance_usd
+  - ci.ef.primary_income_balance_usd
+  - ci.ef.current_account_usd
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Show which external-flow components are improving or weakening the current account.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef10
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Goods surplus versus services deficit
+  question_ids:
+  - q.ef05
+  canonical_indicator_ids:
+  - ci.ef.goods_balance_usd
+  - ci.ef.services_balance_usd
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Make the offset between merchandise trade and services flows explicit.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef11
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Primary-income drag on the current account
+  question_ids:
+  - q.ef05
+  canonical_indicator_ids:
+  - ci.ef.primary_income_balance_usd
+  - ci.ef.current_account_usd
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Show the role of interest and investment-income flows in the external balance.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef12
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Financial-account components
+  question_ids:
+  - q.ef06
+  canonical_indicator_ids:
+  - ci.ef.fdi_net_usd
+  - ci.ef.private_financial_flows_usd
+  - ci.ef.public_financial_flows_usd
+  reference_frame_ids:
+  - rf.ef.pre_midterm_2025_stress
+  purpose: Distinguish direct investment, private financial flows, and public flows.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef13
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Capital inflows versus current-account financing need
+  question_ids:
+  - q.ef06
+  canonical_indicator_ids:
+  - ci.ef.capital_inflows_usd
+  - ci.ef.current_account_usd
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Compare observed inflows with the external financing requirement implied by the current account.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef14
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: FDI versus broader capital inflows
+  question_ids:
+  - q.ef06
+  canonical_indicator_ids:
+  - ci.ef.fdi_net_usd
+  - ci.ef.capital_inflows_usd
+  reference_frame_ids:
+  - rf.ef.pre_pandemic_2019
+  purpose: Separate longer-horizon direct investment from the broader pool of external financing.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef15
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Private financial flows around the 2025 stress episode
+  question_ids:
+  - q.ef07
+  canonical_indicator_ids:
+  - ci.ef.private_financial_flows_usd
+  reference_frame_ids:
+  - rf.ef.pre_midterm_2025_stress
+  purpose: Show the scale and reversal of private external-flow pressure around political stress.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef16
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Private financial flows versus reserve accumulation
+  question_ids:
+  - q.ef07
+  canonical_indicator_ids:
+  - ci.ef.private_financial_flows_usd
+  - ci.ef.nir_change_monthly
+  reference_frame_ids:
+  - rf.ef.pre_midterm_2025_stress
+  purpose: Compare private financial outflows with the evolution of net reserve buffers.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef17
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Sovereign spreads through the market re-entry window
+  question_ids:
+  - q.ef08
+  canonical_indicator_ids:
+  - ci.ef.sovereign_spread_bps
+  reference_frame_ids:
+  - rf.ef.market_reentry_2025_26
+  purpose: Track the price of sovereign risk as Argentina attempts to regain durable market access.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef18
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Sovereign and corporate spreads
+  question_ids:
+  - q.ef08
+  - q.ef12
+  canonical_indicator_ids:
+  - ci.ef.sovereign_spread_bps
+  - ci.ef.corporate_spread_bps
+  reference_frame_ids:
+  - rf.ef.market_reentry_2025_26
+  purpose: Compare sovereign risk with borrowing conditions faced by firms.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef19
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: FX issuance volumes by issuer type
+  question_ids:
+  - q.ef08
+  - q.ef12
+  canonical_indicator_ids:
+  - ci.ef.public_fx_issuance_usd
+  - ci.ef.corporate_fx_issuance_usd
+  reference_frame_ids:
+  - rf.ef.market_reentry_2025_26
+  purpose: Show whether market access is broadening beyond isolated transactions.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef20
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Reserve accumulation versus sovereign spreads
+  question_ids:
+  - q.ef09
+  canonical_indicator_ids:
+  - ci.ef.nir_usd
+  - ci.ef.sovereign_spread_bps
+  reference_frame_ids:
+  - rf.ef.end_2025
+  purpose: Show whether stronger reserve buffers are being accompanied by lower sovereign risk.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef21
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Gross reserves versus sovereign spreads
+  question_ids:
+  - q.ef09
+  canonical_indicator_ids:
+  - ci.ef.gross_reserves_usd
+  - ci.ef.sovereign_spread_bps
+  reference_frame_ids:
+  - rf.ef.pre_midterm_2025_stress
+  purpose: Contrast the headline reserve stock with market pricing of sovereign risk.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef22
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: FX debt-service maturity wall
+  question_ids:
+  - q.ef10
+  canonical_indicator_ids:
+  - ci.ef.public_fx_debt_service_12m
+  - ci.ef.market_fx_redemptions_12m
+  - ci.ef.imf_obligations_12m
+  reference_frame_ids:
+  - rf.ef.next_12m_fx_obligations
+  purpose: Make the near-term foreign-currency payment schedule visible by creditor and market category.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef23
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Debt service versus reserves
+  question_ids:
+  - q.ef10
+  - q.ef13
+  canonical_indicator_ids:
+  - ci.ef.public_fx_debt_service_12m
+  - ci.ef.gross_reserves_usd
+  - ci.ef.nir_usd
+  reference_frame_ids:
+  - rf.ef.next_12m_fx_obligations
+  purpose: Compare the payment burden with both gross and net reserve buffers.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef24
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Official financing, swaps, and repos
+  question_ids:
+  - q.ef11
+  canonical_indicator_ids:
+  - ci.ef.official_external_financing_usd
+  - ci.ef.swap_liabilities_usd
+  - ci.ef.repo_liabilities_usd
+  reference_frame_ids:
+  - rf.ef.end_2025
+  purpose: Show the composition and changing role of official and secured external financing.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef25
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Swap and repo liabilities versus NIR
+  question_ids:
+  - q.ef11
+  canonical_indicator_ids:
+  - ci.ef.swap_liabilities_usd
+  - ci.ef.repo_liabilities_usd
+  - ci.ef.nir_usd
+  reference_frame_ids:
+  - rf.ef.end_2025
+  purpose: Place reserve-linked liabilities beside the net reserve position.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef26
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Market issuance cumulative since re-entry
+  question_ids:
+  - q.ef12
+  canonical_indicator_ids:
+  - ci.ef.public_fx_issuance_usd
+  - ci.ef.corporate_fx_issuance_usd
+  reference_frame_ids:
+  - rf.ef.market_reentry_2025_26
+  purpose: Track the cumulative scale and breadth of new foreign-currency market financing.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef27
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: External debt in dollars and percent of GDP
+  question_ids:
+  - q.ef13
+  canonical_indicator_ids:
+  - ci.ef.external_debt_usd
+  - ci.ef.external_debt_gdp
+  reference_frame_ids:
+  - rf.ef.pre_pandemic_2019
+  purpose: Separate the nominal debt stock from its burden relative to the economy.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef28
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Reserve coverage of external debt service
+  question_ids:
+  - q.ef13
+  canonical_indicator_ids:
+  - ci.ef.reserve_to_fx_service_ratio
+  reference_frame_ids:
+  - rf.ef.next_12m_fx_obligations
+  purpose: Track whether reserve buffers are improving relative to imminent foreign-currency payments.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef29
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Private credit as a share of GDP
+  question_ids:
+  - q.ef14
+  - q.ef17
+  canonical_indicator_ids:
+  - ci.ef.private_credit_gdp
+  reference_frame_ids:
+  - rf.ef.peer_emerging_markets
+  purpose: Show how shallow domestic credit remains relative to the economy and peers.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef30
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Real private-credit growth
+  question_ids:
+  - q.ef14
+  canonical_indicator_ids:
+  - ci.ef.real_private_credit_growth
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Show the pace of credit deepening and recent slowdowns after rapid expansion.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef31
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Real credit growth versus NPL ratio
+  question_ids:
+  - q.ef15
+  canonical_indicator_ids:
+  - ci.ef.real_private_credit_growth
+  - ci.ef.npl_ratio
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Test whether faster credit expansion is being accompanied by weaker loan performance.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef32
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: NPL ratio through the credit cycle
+  question_ids:
+  - q.ef15
+  canonical_indicator_ids:
+  - ci.ef.npl_ratio
+  reference_frame_ids:
+  - rf.ef.pre_pandemic_2019
+  purpose: Place recent deterioration in credit quality in a longer-run context.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef33
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: FX deposits in the domestic financial system
+  question_ids:
+  - q.ef16
+  canonical_indicator_ids:
+  - ci.ef.fx_deposits_usd
+  - ci.ef.fx_deposit_share
+  reference_frame_ids:
+  - rf.ef.end_2025
+  purpose: Show the scale and share of dollar deposits as a component of domestic financial depth.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef34
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: FX deposits versus bank liquidity
+  question_ids:
+  - q.ef16
+  canonical_indicator_ids:
+  - ci.ef.fx_deposit_share
+  - ci.ef.bank_liquidity_ratio
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Place growing foreign-currency deposits beside system liquidity rather than treating dollarization as one-dimensional.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef35
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Bank capital and NPLs
+  question_ids:
+  - q.ef15
+  - q.ef16
+  canonical_indicator_ids:
+  - ci.ef.bank_capital_ratio
+  - ci.ef.npl_ratio
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Show whether rising credit risk is occurring inside a sufficiently capitalized banking system.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef36
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: 'Financial depth: private credit and domestic markets'
+  question_ids:
+  - q.ef17
+  canonical_indicator_ids:
+  - ci.ef.private_credit_gdp
+  - ci.ef.domestic_market_depth_gdp
+  reference_frame_ids:
+  - rf.ef.peer_emerging_markets
+  purpose: Compare bank intermediation and capital-market depth within one structural view.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef37
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Financial depth versus emerging-market peers
+  question_ids:
+  - q.ef17
+  canonical_indicator_ids:
+  - ci.ef.private_credit_gdp
+  - ci.ef.domestic_market_depth_gdp
+  reference_frame_ids:
+  - rf.ef.peer_emerging_markets
+  purpose: Benchmark Argentina's shallow financial system against a transparent peer set.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef38
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Assets outside the financial system versus private credit
+  question_ids:
+  - q.ef18
+  canonical_indicator_ids:
+  - ci.ef.assets_outside_system_gdp
+  - ci.ef.private_credit_gdp
+  reference_frame_ids:
+  - rf.ef.peer_emerging_markets
+  purpose: Show the coexistence of substantial resident savings with low domestic financial intermediation.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef39
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: Domestic capital-market depth versus external market issuance
+  question_ids:
+  - q.ef18
+  - q.ef12
+  canonical_indicator_ids:
+  - ci.ef.domestic_market_depth_gdp
+  - ci.ef.public_fx_issuance_usd
+  - ci.ef.corporate_fx_issuance_usd
+  reference_frame_ids:
+  - rf.ef.market_reentry_2025_26
+  purpose: Contrast local savings mobilization with reliance on foreign-currency market financing.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef40
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: REER versus current-account balance
+  question_ids:
+  - q.ef19
+  canonical_indicator_ids:
+  - ci.ns.reer_index
+  - ci.ef.current_account_gdp
+  reference_frame_ids:
+  - rf.ef.end_2025
+  purpose: Show the joint evolution of real exchange-rate valuation and the current-account balance without imposing causality.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef41
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: REER versus NIR accumulation
+  question_ids:
+  - q.ef19
+  canonical_indicator_ids:
+  - ci.ns.reer_index
+  - ci.ef.nir_usd
+  reference_frame_ids:
+  - rf.ef.end_2025
+  purpose: Show how real appreciation and reserve rebuilding have coexisted or diverged through the stabilization period.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef42
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: BCRA FX purchases and reserve accumulation
+  question_ids:
+  - q.ef20
+  canonical_indicator_ids:
+  - ci.ns.bcra_fx_purchases_daily
+  - ci.ef.nir_usd
+  - ci.ef.gross_reserves_usd
+  reference_frame_ids:
+  - rf.ef.end_2025
+  purpose: Connect central-bank purchases to changes in gross and net reserve buffers.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef43
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: BCRA FX purchases versus sovereign spreads
+  question_ids:
+  - q.ef20
+  - q.ef09
+  canonical_indicator_ids:
+  - ci.ns.bcra_fx_purchases_daily
+  - ci.ef.sovereign_spread_bps
+  reference_frame_ids:
+  - rf.ef.end_2025
+  purpose: Track whether reserve-building operations coincide with improving market-risk pricing.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: pi.ef44
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  title: External vulnerability state map
+  question_ids:
+  - q.ef01
+  - q.ef08
+  - q.ef10
+  - q.ef19
+  canonical_indicator_ids:
+  - ci.ef.nir_usd
+  - ci.ef.sovereign_spread_bps
+  - ci.ef.current_account_gdp
+  - ci.ef.public_fx_debt_service_12m
+  reference_frame_ids:
+  - rf.ef.end_2025
+  purpose: Summarize the external state across buffers, flow balance, market access, and near-term obligations.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables

@@ -1,0 +1,203 @@
+{
+  "id": "ef.fx_market_issuance",
+  "kind": "topic",
+  "slug": "fx-market-issuance",
+  "title": "FX market issuance",
+  "href": "/topics/fx-market-issuance",
+  "dek": "Foreign-currency borrowing through domestic or international bond and loan markets by public and private issuers.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.issuance_enables_access",
+      "relation_type": "associated_with",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.market_access",
+        "kind": "topic",
+        "slug": "international-market-access",
+        "title": "International market access",
+        "href": "/topics/international-market-access"
+      }
+    },
+    {
+      "relation_id": "rel.ef.issuance_finances_refi",
+      "relation_type": "contributes_to",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.refinancing_needs",
+        "kind": "topic",
+        "slug": "external-refinancing-needs",
+        "title": "External refinancing needs",
+        "href": "/topics/external-refinancing-needs"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access"
+    },
+    {
+      "id": "q.ef12",
+      "kind": "question",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.corporate_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "corporate-fx-issuance",
+      "title": "Corporate FX issuance",
+      "href": "/indicators/corporate-fx-issuance"
+    },
+    {
+      "id": "ci.ef.public_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "public-and-provincial-fx-issuance",
+      "title": "Public and provincial FX issuance",
+      "href": "/indicators/public-and-provincial-fx-issuance"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef17",
+      "kind": "chart",
+      "slug": "sovereign-spreads-through-the-market-re-entry-window",
+      "title": "Sovereign spreads through the market re-entry window",
+      "href": "/charts/sovereign-spreads-through-the-market-re-entry-window"
+    },
+    {
+      "id": "pi.ef18",
+      "kind": "chart",
+      "slug": "sovereign-and-corporate-spreads",
+      "title": "Sovereign and corporate spreads",
+      "href": "/charts/sovereign-and-corporate-spreads"
+    },
+    {
+      "id": "pi.ef19",
+      "kind": "chart",
+      "slug": "fx-issuance-volumes-by-issuer-type",
+      "title": "FX issuance volumes by issuer type",
+      "href": "/charts/fx-issuance-volumes-by-issuer-type"
+    },
+    {
+      "id": "pi.ef26",
+      "kind": "chart",
+      "slug": "market-issuance-cumulative-since-re-entry",
+      "title": "Market issuance cumulative since re-entry",
+      "href": "/charts/market-issuance-cumulative-since-re-entry"
+    },
+    {
+      "id": "pi.ef39",
+      "kind": "chart",
+      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
+      "title": "Domestic capital-market depth versus external market issuance",
+      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access",
+      "distance": 1
+    },
+    {
+      "id": "q.ef12",
+      "kind": "question",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
+      "distance": 1
+    },
+    {
+      "id": "ef.refinancing_needs",
+      "kind": "topic",
+      "slug": "external-refinancing-needs",
+      "title": "External refinancing needs",
+      "href": "/topics/external-refinancing-needs",
+      "distance": 1
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.corporate_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "corporate-fx-issuance",
+      "title": "Corporate FX issuance",
+      "href": "/indicators/corporate-fx-issuance",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.public_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "public-and-provincial-fx-issuance",
+      "title": "Public and provincial FX issuance",
+      "href": "/indicators/public-and-provincial-fx-issuance",
+      "distance": 1
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint",
+      "distance": 2
+    },
+    {
+      "id": "q.ef10",
+      "kind": "question",
+      "slug": "how-large-is-the-near-term-fx-maturity-wall",
+      "title": "How large is the near-term FX maturity wall?",
+      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 2,
+    "questions": 2,
+    "indicators": 2,
+    "charts": 6
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "counts": {
+    "concepts": 30,
+    "relations": 44,
+    "question_intents": 20,
+    "reference_frames": 7,
+    "canonical_indicators": 40,
+    "derived_indicators": 5,
+    "plot_intents": 44,
+    "chart_specs": 28
+  },
+  "duplicate_ids": {},
+  "unknown_references": [],
+  "questions_without_plots": [],
+  "cross_slice_topic_ports": [
+    "ns.bcra_fx_operations",
+    "ns.fx_hedging_demand",
+    "ns.nominal_exchange_rate",
+    "ns.policy_credibility",
+    "ns.real_exchange_rate"
+  ],
+  "cross_slice_indicator_ports": [
+    "ci.ns.bcra_fx_purchases_daily",
+    "ci.ns.reer_index"
+  ],
+  "notes": [
+    "Cross-slice refs are validated against known Nominal Stabilization v0.1 IDs.",
+    "Shared generic ReferenceFrames are referenced but not redefined to avoid duplicate-ID failure."
+  ]
+}

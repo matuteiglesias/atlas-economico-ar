@@ -1,0 +1,247 @@
+{
+  "id": "ef.financial_depth",
+  "kind": "topic",
+  "slug": "financial-depth",
+  "title": "Financial depth",
+  "href": "/topics/financial-depth",
+  "dek": "How much saving and financing the domestic financial system can intermediate relative to the economy.",
+  "intro": "Argentina combines substantial resident wealth with unusually shallow domestic credit and capital markets. That gap matters because a deeper local financial system can reduce dependence on volatile external financing, but rapid credit expansion also creates prudential risks if underwriting and borrower incomes do not keep pace.",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.fx_deposits_component_depth",
+      "relation_type": "component_of",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.fx_deposits",
+        "kind": "topic",
+        "slug": "foreign-currency-deposits",
+        "title": "Foreign-currency deposits",
+        "href": "/topics/foreign-currency-deposits"
+      }
+    },
+    {
+      "relation_id": "rel.ef.capital_market_component_depth",
+      "relation_type": "component_of",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.domestic_capital_market_depth",
+        "kind": "topic",
+        "slug": "domestic-capital-market-depth",
+        "title": "Domestic capital-market depth",
+        "href": "/topics/domestic-capital-market-depth"
+      }
+    },
+    {
+      "relation_id": "rel.ef.savings_enables_depth",
+      "relation_type": "enables",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.domestic_savings_mobilization",
+        "kind": "topic",
+        "slug": "domestic-savings-mobilization",
+        "title": "Domestic savings mobilization",
+        "href": "/topics/domestic-savings-mobilization"
+      }
+    },
+    {
+      "relation_id": "rel.ef.financial_depth_enables_credit",
+      "relation_type": "enables",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.private_credit",
+        "kind": "topic",
+        "slug": "private-sector-credit",
+        "title": "Private-sector credit",
+        "href": "/topics/private-sector-credit"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening"
+    },
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean"
+    },
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": "/questions/how-shallow-is-argentina-s-financial-system"
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint"
+    }
+  ],
+  "indicators": [],
+  "charts": [
+    {
+      "id": "pi.ef29",
+      "kind": "chart",
+      "slug": "private-credit-as-a-share-of-gdp",
+      "title": "Private credit as a share of GDP",
+      "href": "/charts/private-credit-as-a-share-of-gdp"
+    },
+    {
+      "id": "pi.ef30",
+      "kind": "chart",
+      "slug": "real-private-credit-growth",
+      "title": "Real private-credit growth",
+      "href": "/charts/real-private-credit-growth"
+    },
+    {
+      "id": "pi.ef33",
+      "kind": "chart",
+      "slug": "fx-deposits-in-the-domestic-financial-system",
+      "title": "FX deposits in the domestic financial system",
+      "href": "/charts/fx-deposits-in-the-domestic-financial-system"
+    },
+    {
+      "id": "pi.ef34",
+      "kind": "chart",
+      "slug": "fx-deposits-versus-bank-liquidity",
+      "title": "FX deposits versus bank liquidity",
+      "href": "/charts/fx-deposits-versus-bank-liquidity"
+    },
+    {
+      "id": "pi.ef35",
+      "kind": "chart",
+      "slug": "bank-capital-and-npls",
+      "title": "Bank capital and NPLs",
+      "href": "/charts/bank-capital-and-npls"
+    },
+    {
+      "id": "pi.ef36",
+      "kind": "chart",
+      "slug": "financial-depth-private-credit-and-domestic-markets",
+      "title": "Financial depth: private credit and domestic markets",
+      "href": "/charts/financial-depth-private-credit-and-domestic-markets"
+    },
+    {
+      "id": "pi.ef37",
+      "kind": "chart",
+      "slug": "financial-depth-versus-emerging-market-peers",
+      "title": "Financial depth versus emerging-market peers",
+      "href": "/charts/financial-depth-versus-emerging-market-peers"
+    },
+    {
+      "id": "pi.ef38",
+      "kind": "chart",
+      "slug": "assets-outside-the-financial-system-versus-private-credit",
+      "title": "Assets outside the financial system versus private credit",
+      "href": "/charts/assets-outside-the-financial-system-versus-private-credit"
+    },
+    {
+      "id": "pi.ef39",
+      "kind": "chart",
+      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
+      "title": "Domestic capital-market depth versus external market issuance",
+      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint",
+      "distance": 1
+    },
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": "/questions/how-shallow-is-argentina-s-financial-system",
+      "distance": 1
+    },
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening",
+      "distance": 1
+    },
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean",
+      "distance": 1
+    },
+    {
+      "id": "ef.domestic_capital_market_depth",
+      "kind": "topic",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/topics/domestic-capital-market-depth",
+      "distance": 1
+    },
+    {
+      "id": "ef.domestic_savings_mobilization",
+      "kind": "topic",
+      "slug": "domestic-savings-mobilization",
+      "title": "Domestic savings mobilization",
+      "href": "/topics/domestic-savings-mobilization",
+      "distance": 1
+    },
+    {
+      "id": "ef.fx_deposits",
+      "kind": "topic",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/topics/foreign-currency-deposits",
+      "distance": 1
+    },
+    {
+      "id": "ef.private_credit",
+      "kind": "topic",
+      "slug": "private-sector-credit",
+      "title": "Private-sector credit",
+      "href": "/topics/private-sector-credit",
+      "distance": 1
+    }
+  ],
+  "counts": {
+    "connections": 4,
+    "questions": 4,
+    "indicators": 0,
+    "charts": 9
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "id": "ef.liquid_reserve_buffers",
+  "kind": "topic",
+  "slug": "liquid-reserve-buffers",
+  "title": "Liquid reserve buffers",
+  "href": "/topics/liquid-reserve-buffers",
+  "dek": "Reserve resources that are readily usable to absorb balance-of-payments pressure or meet foreign-currency obligations.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.official_financing_enables_buffers",
+      "relation_type": "contributes_to",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.official_external_financing",
+        "kind": "topic",
+        "slug": "official-external-financing",
+        "title": "Official external financing",
+        "href": "/topics/official-external-financing"
+      }
+    },
+    {
+      "relation_id": "rel.ef.liquid_component_reserves",
+      "relation_type": "component_of",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.gross_reserves",
+        "kind": "topic",
+        "slug": "gross-international-reserves",
+        "title": "Gross international reserves",
+        "href": "/topics/gross-international-reserves"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef01",
+      "kind": "question",
+      "slug": "how-strong-is-argentina-s-reserve-position",
+      "title": "How strong is Argentina's reserve position?",
+      "href": "/questions/how-strong-is-argentina-s-reserve-position"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.liquid_reserve_buffer_usd",
+      "kind": "indicator",
+      "slug": "liquid-reserve-buffer",
+      "title": "Liquid reserve buffer",
+      "href": "/indicators/liquid-reserve-buffer"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef01",
+      "kind": "chart",
+      "slug": "gross-reserves-nir-and-liquid-buffers",
+      "title": "Gross reserves, NIR, and liquid buffers",
+      "href": "/charts/gross-reserves-nir-and-liquid-buffers"
+    },
+    {
+      "id": "pi.ef02",
+      "kind": "chart",
+      "slug": "reserve-adequacy-dashboard",
+      "title": "Reserve adequacy dashboard",
+      "href": "/charts/reserve-adequacy-dashboard"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef01",
+      "kind": "question",
+      "slug": "how-strong-is-argentina-s-reserve-position",
+      "title": "How strong is Argentina's reserve position?",
+      "href": "/questions/how-strong-is-argentina-s-reserve-position",
+      "distance": 1
+    },
+    {
+      "id": "ef.gross_reserves",
+      "kind": "topic",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/topics/gross-international-reserves",
+      "distance": 1
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.liquid_reserve_buffer_usd",
+      "kind": "indicator",
+      "slug": "liquid-reserve-buffer",
+      "title": "Liquid reserve buffer",
+      "href": "/indicators/liquid-reserve-buffer",
+      "distance": 1
+    },
+    {
+      "id": "q.ef11",
+      "kind": "question",
+      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "title": "How much does the strategy rely on swaps and repos?",
+      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "distance": 2
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves",
+      "distance": 2
+    },
+    {
+      "id": "ef.external_position",
+      "kind": "topic",
+      "slug": "external-position",
+      "title": "External position",
+      "href": "/topics/external-position",
+      "distance": 2
+    },
+    {
+      "id": "ef.net_international_reserves",
+      "kind": "topic",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/topics/net-international-reserves",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 2,
+    "questions": 1,
+    "indicators": 1,
+    "charts": 3
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "bundle_id": "nominal_stabilization_vertical_v0_1",
+  "version": "0.1",
+  "slice_id": "nominal_stabilization",
+  "status": "vertical_complete_candidate",
+  "series_registrations_omitted": true,
+  "counts": {
+    "concepts": 25,
+    "relations": 52,
+    "question_intents": 18,
+    "reference_frames": 9,
+    "canonical_indicators": 42,
+    "derived_indicators": 12,
+    "plot_intents": 52,
+    "chart_specs": 32
+  },
+  "curated_total": 242,
+  "validation_status": "PASS",
+  "files": [
+    "README.md",
+    "docs/BUILD_METHOD.md",
+    "docs/OPEN_DECISIONS.md",
+    "evidence/imf_evidence_map.yaml",
+    "evidence/media_nominal_subset.csv",
+    "evidence/media_summary.json",
+    "knowledge/canonical_indicators.yaml",
+    "knowledge/chart_specs.yaml",
+    "knowledge/concepts.yaml",
+    "knowledge/derived_indicators.yaml",
+    "knowledge/plot_intents.yaml",
+    "knowledge/question_intents.yaml",
+    "knowledge/reference_frames.yaml",
+    "knowledge/relations.yaml",
+    "validation/relation_edge_list.csv",
+    "validation/validation_report.json"
+  ]
+}

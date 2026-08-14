@@ -139,19 +139,19 @@
       "distance": 2
     },
     {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "distance": 2
+    },
+    {
       "id": "q.ns09",
       "kind": "question",
       "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
       "title": "How large is the gap between official and parallel exchange rates?",
       "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "distance": 2
-    },
-    {
-      "id": "q.ns05",
-      "kind": "question",
-      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
-      "title": "How much do exchange-rate movements pass through to domestic prices?",
-      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
       "distance": 2
     }
   ],

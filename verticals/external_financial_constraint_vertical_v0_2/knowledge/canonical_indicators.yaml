@@ -1,0 +1,1081 @@
+canonical_indicators:
+- id: ci.ef.gross_reserves_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Gross international reserves
+  concept_id: ef.gross_reserves
+  unit_semantics: usd_billions
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - gross international reserves
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.nir_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Net international reserves
+  concept_id: ef.net_international_reserves
+  unit_semantics: usd_billions
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - net international reserves
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.liquid_reserve_buffer_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Liquid reserve buffer
+  concept_id: ef.liquid_reserve_buffers
+  unit_semantics: usd_billions
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - liquid reserve buffer
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.reserve_change_monthly
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Monthly change in gross reserves
+  concept_id: ef.reserve_accumulation
+  unit_semantics: usd_billions_change
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - monthly change in gross reserves
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.nir_change_monthly
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Monthly change in NIR
+  concept_id: ef.reserve_accumulation
+  unit_semantics: usd_billions_change
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - monthly change in nir
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.reserve_accumulation_ytd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Cumulative reserve accumulation YTD
+  concept_id: ef.reserve_accumulation
+  unit_semantics: usd_billions
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - cumulative reserve accumulation ytd
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.import_cover_months
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Reserve import coverage
+  concept_id: ef.reserve_adequacy
+  unit_semantics: months_of_imports
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserve import coverage
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.nir_to_gross_ratio
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: NIR-to-gross-reserves ratio
+  concept_id: ef.reserve_adequacy
+  unit_semantics: ratio
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - nir-to-gross-reserves ratio
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.reserve_to_fx_service_ratio
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Reserves relative to next-12m FX debt service
+  concept_id: ef.reserve_adequacy
+  unit_semantics: ratio
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves relative to next-12m fx debt service
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.current_account_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Current account balance
+  concept_id: ef.current_account
+  unit_semantics: usd_billions
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - current account balance
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.current_account_gdp
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Current account balance as share of GDP
+  concept_id: ef.current_account
+  unit_semantics: percent_gdp
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - current account balance as share of gdp
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.goods_balance_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Goods trade balance
+  concept_id: ef.goods_trade_balance
+  unit_semantics: usd_billions
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - goods trade balance
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.services_balance_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Services balance
+  concept_id: ef.services_balance
+  unit_semantics: usd_billions
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - services balance
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.primary_income_balance_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Primary income balance
+  concept_id: ef.primary_income_balance
+  unit_semantics: usd_billions
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - primary income balance
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.financial_account_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Financial account balance
+  concept_id: ef.financial_account
+  unit_semantics: usd_billions
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - financial account balance
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.fdi_net_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Net foreign direct investment flows
+  concept_id: ef.foreign_direct_investment
+  unit_semantics: usd_billions
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - net foreign direct investment flows
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.private_financial_flows_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Net private financial flows
+  concept_id: ef.financial_account
+  unit_semantics: usd_billions
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - net private financial flows
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.public_financial_flows_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Net public-sector financial flows
+  concept_id: ef.financial_account
+  unit_semantics: usd_billions
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - net public-sector financial flows
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.capital_inflows_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Gross identified capital inflows
+  concept_id: ef.capital_inflows
+  unit_semantics: usd_billions
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - gross identified capital inflows
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.external_debt_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Total external debt
+  concept_id: ef.external_public_debt
+  unit_semantics: usd_billions
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - total external debt
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.external_debt_gdp
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: External debt as share of GDP
+  concept_id: ef.external_public_debt
+  unit_semantics: percent_gdp
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - external debt as share of gdp
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.public_fx_debt_service_12m
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Public-sector FX debt service next 12 months
+  concept_id: ef.fx_debt_service
+  unit_semantics: usd_billions
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - public-sector fx debt service next 12 months
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.market_fx_redemptions_12m
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Market FX redemptions next 12 months
+  concept_id: ef.refinancing_needs
+  unit_semantics: usd_billions
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - market fx redemptions next 12 months
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.imf_obligations_12m
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: IMF obligations next 12 months
+  concept_id: ef.refinancing_needs
+  unit_semantics: usd_billions
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - imf obligations next 12 months
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.sovereign_spread_bps
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Sovereign spread
+  concept_id: ef.sovereign_spreads
+  unit_semantics: basis_points
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - sovereign spread
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.corporate_spread_bps
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Corporate spread
+  concept_id: ef.market_access
+  unit_semantics: basis_points
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - corporate spread
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.public_fx_issuance_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Public and provincial FX issuance
+  concept_id: ef.fx_market_issuance
+  unit_semantics: usd_billions
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - public and provincial fx issuance
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.corporate_fx_issuance_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Corporate FX issuance
+  concept_id: ef.fx_market_issuance
+  unit_semantics: usd_billions
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - corporate fx issuance
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.official_external_financing_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Official external financing flows
+  concept_id: ef.official_external_financing
+  unit_semantics: usd_billions
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - official external financing flows
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.swap_liabilities_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Central-bank external swap liabilities
+  concept_id: ef.swap_repo_financing
+  unit_semantics: usd_billions
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - central-bank external swap liabilities
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.repo_liabilities_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Central-bank repo liabilities
+  concept_id: ef.swap_repo_financing
+  unit_semantics: usd_billions
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - central-bank repo liabilities
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.private_credit_gdp
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Private-sector credit as share of GDP
+  concept_id: ef.private_credit
+  unit_semantics: percent_gdp
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - private-sector credit as share of gdp
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.real_private_credit_growth
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Real private-sector credit growth
+  concept_id: ef.private_credit
+  unit_semantics: percent_yoy_real
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - real private-sector credit growth
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.npl_ratio
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Non-performing loans ratio
+  concept_id: ef.credit_quality
+  unit_semantics: percent_loans
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - non-performing loans ratio
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.fx_deposits_usd
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Foreign-currency deposits
+  concept_id: ef.fx_deposits
+  unit_semantics: usd_billions
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - foreign-currency deposits
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.fx_deposit_share
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Foreign-currency deposit share
+  concept_id: ef.fx_deposits
+  unit_semantics: percent_deposits
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - foreign-currency deposit share
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.bank_capital_ratio
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Bank regulatory capital ratio
+  concept_id: ef.credit_quality
+  unit_semantics: percent_rwa
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - bank regulatory capital ratio
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.bank_liquidity_ratio
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Bank liquid-assets ratio
+  concept_id: ef.credit_quality
+  unit_semantics: percent_assets
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - bank liquid-assets ratio
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.assets_outside_system_gdp
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Resident financial assets outside the domestic financial system
+  concept_id: ef.domestic_savings_mobilization
+  unit_semantics: percent_gdp
+  frequency: annual
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - resident financial assets outside the domestic financial system
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: ci.ef.domestic_market_depth_gdp
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  label: Domestic capital-market depth
+  concept_id: ef.domestic_capital_market_depth
+  unit_semantics: percent_gdp
+  frequency: quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - BCRA
+  - INDEC
+  - MECON
+  - IMF
+  - market data / official debt data as appropriate
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - domestic capital-market depth
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables

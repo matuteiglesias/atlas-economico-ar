@@ -1,0 +1,943 @@
+chart_specs:
+- id: cs.ef01
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef01
+  title: Gross reserves, NIR, and liquid buffers
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.gross_reserves_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.nir_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.liquid_reserve_buffer_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.end_2025
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef02
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef02
+  title: Reserve adequacy dashboard
+  template_id: small_multiple_metric_panel
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.import_cover_months
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.reserve_to_fx_service_ratio
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.nir_to_gross_ratio
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.peer_emerging_markets
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef03
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef03
+  title: NIR versus program target path
+  template_id: line_vs_target
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.nir_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.program_nir_target
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef04
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef04
+  title: Reserve accumulation versus next-12m FX debt service
+  template_id: dual_axis_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.reserve_accumulation_ytd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.public_fx_debt_service_12m
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.next_12m_fx_obligations
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef05
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef05
+  title: 'Monthly reserve change: gross versus NIR'
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.reserve_change_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.nir_change_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef06
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef06
+  title: BCRA FX purchases versus NIR accumulation
+  template_id: dual_axis_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ns.bcra_fx_purchases_daily
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.nir_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.end_2025
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef07
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef07
+  title: External financing and debt-service bridge
+  template_id: waterfall_or_flow_bridge
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.official_external_financing_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.public_fx_debt_service_12m
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.nir_change_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef08
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef08
+  title: Current-account balance through time
+  template_id: dual_measure_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.current_account_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.current_account_gdp
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.pre_pandemic_2019
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef09
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef09
+  title: Current-account component decomposition
+  template_id: stacked_contribution_with_total
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.goods_balance_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.services_balance_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.primary_income_balance_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.current_account_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef10
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef10
+  title: Goods surplus versus services deficit
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.goods_balance_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.services_balance_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef11
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef11
+  title: Primary-income drag on the current account
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.primary_income_balance_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.current_account_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef12
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef12
+  title: Financial-account components
+  template_id: stacked_flow_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.fdi_net_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.private_financial_flows_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.public_financial_flows_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.pre_midterm_2025_stress
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef13
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef13
+  title: Capital inflows versus current-account financing need
+  template_id: dual_axis_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.capital_inflows_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.current_account_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.trailing_12m
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef14
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef14
+  title: FDI versus broader capital inflows
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.fdi_net_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.capital_inflows_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.pre_pandemic_2019
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef15
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef15
+  title: Private financial flows around the 2025 stress episode
+  template_id: line_with_reference_event
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.private_financial_flows_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.pre_midterm_2025_stress
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef16
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef16
+  title: Private financial flows versus reserve accumulation
+  template_id: dual_axis_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.private_financial_flows_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.nir_change_monthly
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.pre_midterm_2025_stress
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef17
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef17
+  title: Sovereign spreads through the market re-entry window
+  template_id: line_with_reference_event
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.sovereign_spread_bps
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.market_reentry_2025_26
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef18
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef18
+  title: Sovereign and corporate spreads
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.sovereign_spread_bps
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.corporate_spread_bps
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.market_reentry_2025_26
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef19
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef19
+  title: FX issuance volumes by issuer type
+  template_id: stacked_or_grouped_bar_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.public_fx_issuance_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.corporate_fx_issuance_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.market_reentry_2025_26
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef20
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef20
+  title: Reserve accumulation versus sovereign spreads
+  template_id: dual_axis_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.nir_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.sovereign_spread_bps
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.end_2025
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef21
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef21
+  title: Gross reserves versus sovereign spreads
+  template_id: dual_axis_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.gross_reserves_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.sovereign_spread_bps
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.pre_midterm_2025_stress
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef22
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef22
+  title: FX debt-service maturity wall
+  template_id: maturity_wall
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.public_fx_debt_service_12m
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.market_fx_redemptions_12m
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.imf_obligations_12m
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.next_12m_fx_obligations
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef23
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef23
+  title: Debt service versus reserves
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.public_fx_debt_service_12m
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.gross_reserves_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.nir_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.next_12m_fx_obligations
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef24
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef24
+  title: Official financing, swaps, and repos
+  template_id: stacked_flow_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.official_external_financing_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.swap_liabilities_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.repo_liabilities_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.end_2025
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef25
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef25
+  title: Swap and repo liabilities versus NIR
+  template_id: multi_line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.swap_liabilities_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.repo_liabilities_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.nir_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.end_2025
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef26
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef26
+  title: Market issuance cumulative since re-entry
+  template_id: cumulative_line_or_area
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.public_fx_issuance_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.corporate_fx_issuance_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.market_reentry_2025_26
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef27
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef27
+  title: External debt in dollars and percent of GDP
+  template_id: dual_measure_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.external_debt_usd
+    technical_series_id: null
+    binding_status: DEFERRED
+  - canonical_indicator_id: ci.ef.external_debt_gdp
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.pre_pandemic_2019
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables
+- id: cs.ef28
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED/EXECUTABLE
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  plot_intent_id: pi.ef28
+  title: Reserve coverage of external debt service
+  template_id: line_time_series
+  indicator_bindings:
+  - canonical_indicator_id: ci.ef.reserve_to_fx_service_ratio
+    technical_series_id: null
+    binding_status: DEFERRED
+  reference_frame_ids:
+  - rf.ef.next_12m_fx_obligations
+  refresh_policy: on_new_underlying_observation
+  data_as_of_policy: latest_common_available_period
+  series_binding_policy: technical series deliberately omitted in v0.2; resolve in later global series-registry session
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 2, 6 and 7
+    - External BOP / debt tables

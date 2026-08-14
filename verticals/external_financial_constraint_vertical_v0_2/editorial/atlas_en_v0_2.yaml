@@ -1,0 +1,380 @@
+schema_version: '0.1'
+entities:
+  external_financial_constraint:
+    title: External & Financial Constraint
+    slug: external-financial-constraint
+    dek: How reserves, external flows, debt obligations, market access, and the depth of domestic finance shape Argentina's
+      capacity to absorb shocks and finance growth.
+    intro: Argentina's external constraint is not one number. Gross reserves can rise while usable buffers remain thin; a
+      trade surplus can coexist with service and interest outflows; market access can improve while refinancing needs remain
+      large. This area organizes those pieces into a common reading structure, separating stocks from flows and distinguishing
+      temporary financing support from durable improvements in external resilience.
+    featured: true
+    order: 20
+  nominal_stabilization:
+    title: Nominal Stabilization
+    slug: nominal-stabilization
+    dek: How prices, exchange rates, monetary conditions, and expectations interact during Argentina's stabilization process.
+    featured: true
+    order: 10
+  ns.inflation:
+    title: Inflation
+    slug: inflation
+    dek: How quickly the general level of prices is changing — and one of the central variables around which Argentina's stabilization
+      process is organized.
+    featured: true
+  q.ns04:
+    title: What is driving monthly inflation?
+    slug: what-is-driving-monthly-inflation
+    dek: Separate persistence from relative-price changes, demand conditions, interest rates, and exchange-rate pass-through.
+  pi.ns08:
+    title: Inflation-driver decomposition
+    slug: inflation-driver-decomposition
+    dek: A decomposition of monthly inflation into the mechanisms that may be sustaining or slowing the price process.
+  ef.gross_reserves:
+    title: Gross international reserves
+    dek: The headline stock of reserve assets held by the central bank.
+    intro: Gross reserves are the most visible external-buffer measure, but they should not be read as if every dollar were
+      equally available. Reserve requirements, swaps, repos, and other reserve-related liabilities can make the headline stock
+      diverge substantially from the resources that are readily usable under stress.
+  ef.net_international_reserves:
+    title: Net international reserves
+    dek: A net view of reserve buffers after subtracting specified reserve-related liabilities.
+    intro: 'NIR is useful because it makes explicit that reserve strength depends on both assets and liabilities. The exact
+      definition matters: program measures, accounting measures, and alternative liquid-reserve concepts may differ, so the
+      atlas keeps the measurement convention visible rather than collapsing them into one number.'
+  ef.reserve_adequacy:
+    title: Reserve adequacy
+    dek: Whether external buffers are large enough relative to the obligations and shocks they may need to absorb.
+    intro: No single adequacy ratio is sufficient. Import coverage, near-term FX debt service, short-term liabilities, and
+      the composition of reserves each answer a different question. The atlas therefore treats adequacy as a family of comparisons
+      rather than a binary judgment.
+  ef.current_account:
+    title: Current account
+    dek: The balance of goods, services, income, and transfers between Argentina and the rest of the world.
+    intro: A headline current-account balance can hide very different underlying stories. A strong goods surplus may be offset
+      by tourism, other services, or interest payments. Decomposing those pieces helps distinguish a durable export improvement
+      from a temporary compression of imports or a change in financing conditions.
+  ef.market_access:
+    title: International market access
+    dek: The ability to refinance and raise foreign-currency funding at terms that can be sustained over time.
+    intro: A successful bond issue is evidence of access, but not necessarily of durable access. The broader question is whether
+      multiple issuers can return to markets repeatedly, whether maturities lengthen, and whether spreads fall enough for
+      refinancing to stop depending on exceptional official or secured financing.
+  ef.sovereign_spreads:
+    title: Sovereign spreads
+    dek: The market premium investors demand to hold Argentine sovereign debt relative to a lower-risk benchmark.
+    intro: 'Spreads compress a large amount of information into one market price: debt sustainability, policy credibility,
+      global risk appetite, refinancing pressure, and expected recovery values. They are therefore valuable state indicators,
+      but should not be interpreted as a clean measure of any single causal mechanism.'
+  ef.fx_debt_service:
+    title: Foreign-currency debt service
+    dek: Principal and interest payments that must be met in foreign currency over a defined horizon.
+    intro: Debt-service pressure is fundamentally a timing problem. A country can have a manageable debt ratio and still face
+      a difficult year if large foreign-currency payments arrive before market access or reserve buffers are strong enough.
+      Forward maturity views are therefore central to this area.
+  ef.financial_depth:
+    title: Financial depth
+    dek: How much saving and financing the domestic financial system can intermediate relative to the economy.
+    intro: Argentina combines substantial resident wealth with unusually shallow domestic credit and capital markets. That
+      gap matters because a deeper local financial system can reduce dependence on volatile external financing, but rapid
+      credit expansion also creates prudential risks if underwriting and borrower incomes do not keep pace.
+  ef.private_credit:
+    title: Private-sector credit
+    dek: Domestic bank and financial-system lending to households and firms.
+    intro: Credit deepening is potentially growth-enhancing in a financially shallow economy, but the speed and quality of
+      expansion matter. The atlas reads credit growth together with non-performing loans, capitalization, liquidity, and the
+      broader macro-financial environment.
+  ef.domestic_savings_mobilization:
+    title: Domestic savings mobilization
+    dek: The process of bringing resident savings into domestic financial intermediation and productive investment.
+    intro: Argentina's external financing constraint coexists with a large stock of resident assets held outside the domestic
+      financial system. Mobilizing even part of those savings could deepen credit and capital markets, but doing so sustainably
+      depends on confidence, legal certainty, macro stability, and credible financial institutions.
+  q.ef01:
+    title: How strong is Argentina's reserve position?
+    dek: Separate gross reserves, NIR, liquid buffers, and adequacy ratios before judging external strength.
+    intro: The same reserve headline can imply very different levels of resilience depending on what sits behind it. This
+      question forces the reader to distinguish the accounting stock from net and liquid measures, then compare those buffers
+      with the obligations they may need to cover.
+  q.ef02:
+    title: Are reserves rebuilding fast enough?
+    dek: Compare the pace of reserve accumulation with targets and near-term foreign-currency obligations.
+    intro: 'Reserve accumulation matters because time matters: rebuilding buffers slowly may still leave a difficult refinancing
+      window exposed. The useful comparison is not simply whether reserves are rising, but whether they are rising quickly
+      enough relative to the target path and the payment calendar ahead.'
+  q.ef03:
+    title: What is driving changes in reserves?
+    dek: Reconcile FX purchases, debt payments, official financing, and other flows with movements in gross and net reserves.
+    intro: Central-bank purchases do not translate one-for-one into reserve accumulation. Debt service, valuation changes,
+      swaps, repos, and other transactions can produce large differences between the flow observed in the FX market and the
+      change in reserve stocks.
+  q.ef04:
+    title: Is the current account improving?
+    dek: Decompose the current account into goods, services, and income balances rather than relying on the headline total.
+    intro: An improving current account can reflect stronger exports, weaker imports, lower service outflows, or changes in
+      income payments. Those stories have different implications for sustainability, competitiveness, and growth, so the composition
+      matters as much as the total.
+  q.ef05:
+    title: What offsets Argentina's goods surplus?
+    dek: Show how services and primary-income outflows interact with the merchandise trade balance.
+    intro: Argentina can run a sizeable goods surplus without generating an equally large current-account surplus. Tourism,
+      other service imports, and interest or investment-income payments can absorb a substantial share of trade earnings.
+  q.ef06:
+    title: Are capital inflows durable?
+    dek: Distinguish FDI, private financial flows, public borrowing, and temporary financing when reading the financial account.
+    intro: External financing is not homogeneous. Longer-horizon direct investment, market debt, official disbursements, and
+      reversals in resident hedging have different persistence and risk. The goal is to understand what kind of inflow is
+      financing the external position.
+  q.ef07:
+    title: Has FX hedging pressure normalized?
+    dek: Track private financial flows around stress episodes and compare them with the recovery in reserve buffers.
+    intro: Resident demand for foreign assets can change abruptly when political or macro uncertainty rises. Looking at the
+      reversal of those flows helps distinguish a genuine normalization in portfolio behavior from reserve improvement driven
+      mainly by exceptional financing.
+  q.ef08:
+    title: Is Argentina regaining durable market access?
+    dek: Read spreads, issuance volumes, issuer breadth, and maturity conditions together.
+    intro: Market access is stronger when financing becomes repeatable rather than exceptional. Falling spreads matter, but
+      so do the number of issuers returning to market, the tenor of new debt, and whether refinancing can occur without relying
+      on temporary official facilities.
+  q.ef09:
+    title: Why can reserves rise while sovereign risk stays high?
+    dek: Put external buffers and market pricing side by side instead of assuming they must move together.
+    intro: Reserve accumulation is only one input into sovereign-risk pricing. Investors also care about the future debt-service
+      schedule, fiscal and political credibility, the durability of market access, and global conditions. Divergence between
+      reserves and spreads can therefore be informative rather than contradictory.
+  q.ef10:
+    title: How large is the near-term FX maturity wall?
+    dek: Organize the next twelve months of principal and interest obligations by financing channel.
+    intro: The external constraint often becomes most concrete in the maturity calendar. A forward view shows when market
+      redemptions, multilateral payments, and other foreign-currency obligations cluster, and therefore when reserve and refinancing
+      buffers matter most.
+  q.ef11:
+    title: How much does the strategy rely on swaps and repos?
+    dek: Separate durable reserve accumulation from temporary or secured official external financing.
+    intro: Swaps and repos can be valuable liquidity bridges, especially during a difficult refinancing window. They also
+      create liabilities and future repayment needs. Reading them alongside NIR helps avoid treating borrowed liquidity as
+      equivalent to permanently stronger external buffers.
+  q.ef12:
+    title: Is market financing broadening beyond the sovereign?
+    dek: Compare public, provincial, and corporate FX issuance as Argentina re-enters credit markets.
+    intro: A broadening issuer base is a stronger signal than a single successful transaction. Corporate and provincial issuance
+      can reveal whether investor appetite is extending beyond the sovereign and whether access is becoming a more normal
+      financing channel.
+  q.ef13:
+    title: Is the external debt burden becoming easier to service?
+    dek: Compare debt stocks with GDP, reserves, and the forward debt-service profile.
+    intro: Debt sustainability is not captured by the dollar stock alone. The burden depends on the size of the economy, export
+      capacity, interest costs, maturity structure, and the buffers available when payments fall due.
+  q.ef14:
+    title: Is private credit genuinely deepening?
+    dek: Track credit relative to GDP and in real terms, not only nominal loan growth.
+    intro: In a high-inflation economy, nominal credit can grow rapidly without meaningfully deepening financial intermediation.
+      Real growth and credit-to-GDP measures provide a cleaner view of whether households and firms are gaining access to
+      a larger domestic financing system.
+  q.ef15:
+    title: Is credit quality deteriorating as lending expands?
+    dek: Read real credit growth together with NPLs and bank capital rather than treating expansion as unambiguously positive.
+    intro: Rapid deepening from a low base can be healthy, but it can also expose weaker borrowers or underwriting standards.
+      Rising non-performing loans are therefore most informative when placed beside the pace of lending and the buffers held
+      by banks.
+  q.ef16:
+    title: What does the rise in dollar deposits mean?
+    dek: Distinguish deeper domestic intermediation from the risks created by foreign-currency balance sheets.
+    intro: More FX deposits can bring resident savings into the domestic system and support financial depth. Their implications
+      depend on how those funds are invested or lent, the currency exposure of borrowers, and the liquidity and capital position
+      of banks.
+  q.ef17:
+    title: How shallow is Argentina's financial system?
+    dek: Compare bank credit and domestic capital markets with the size of the economy and a transparent peer set.
+    intro: Financial depth is a structural constraint behind many short-run financing problems. A shallow domestic system
+      leaves firms and the public sector more dependent on cash flow, inflationary finance, or external markets, while also
+      limiting the transmission of savings into investment.
+  q.ef18:
+    title: Could resident savings relax the external constraint?
+    dek: Put assets held outside the domestic system beside the small scale of local credit and capital markets.
+    intro: Argentina's scarcity of domestic financing sits beside substantial resident wealth, much of it held in foreign
+      currency or outside local intermediation. The interesting question is not whether those assets exist, but what institutional
+      and macro conditions would allow them to finance productive activity.
+  q.ef19:
+    title: How does real appreciation interact with the external balance?
+    dek: Read the REER, current account, and reserve accumulation together without reducing the relationship to a single causal
+      claim.
+    intro: Real appreciation can support purchasing power while also changing incentives for imports, exports, and portfolio
+      allocation. Its external effect depends on productivity, terms of trade, capital flows, and the policy regime, which
+      is why the atlas treats it as a cross-slice relationship rather than a verdict.
+  q.ef20:
+    title: Are BCRA FX purchases strengthening the external position?
+    dek: Connect central-bank purchases with gross reserves, NIR, debt payments, and sovereign-risk indicators.
+    intro: Daily FX purchases are an important observable policy action, but the external outcome depends on what happens
+      elsewhere on the balance sheet. This question follows the entire chain from intervention to reserve stocks and broader
+      measures of external vulnerability.
+  pi.ef01:
+    title: Gross reserves, NIR, and liquid buffers
+    dek: Separate headline reserve assets from net and readily usable reserve buffers.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef02:
+    title: Reserve adequacy dashboard
+    dek: Show reserve strength against several obligations rather than relying on one headline stock.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef03:
+    title: NIR versus program target path
+    dek: Track whether usable reserves are converging toward the program path.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef04:
+    title: Reserve accumulation versus next-12m FX debt service
+    dek: Compare reserve rebuilding with the scale of near-term foreign-currency obligations.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef05:
+    title: 'Monthly reserve change: gross versus NIR'
+    dek: Reveal periods when headline reserves and the net reserve position move differently.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef06:
+    title: BCRA FX purchases versus NIR accumulation
+    dek: Compare central-bank FX purchases with the reserve metric most relevant to usable external buffers.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef07:
+    title: External financing and debt-service bridge
+    dek: Show how financing inflows and debt payments help reconcile reserve changes.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef08:
+    title: Current-account balance through time
+    dek: Place the recent current-account position in a longer historical frame.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef09:
+    title: Current-account component decomposition
+    dek: Show which external-flow components are improving or weakening the current account.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef10:
+    title: Goods surplus versus services deficit
+    dek: Make the offset between merchandise trade and services flows explicit.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef11:
+    title: Primary-income drag on the current account
+    dek: Show the role of interest and investment-income flows in the external balance.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef12:
+    title: Financial-account components
+    dek: Distinguish direct investment, private financial flows, and public flows.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef13:
+    title: Capital inflows versus current-account financing need
+    dek: Compare observed inflows with the external financing requirement implied by the current account.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef14:
+    title: FDI versus broader capital inflows
+    dek: Separate longer-horizon direct investment from the broader pool of external financing.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef15:
+    title: Private financial flows around the 2025 stress episode
+    dek: Show the scale and reversal of private external-flow pressure around political stress.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef16:
+    title: Private financial flows versus reserve accumulation
+    dek: Compare private financial outflows with the evolution of net reserve buffers.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef17:
+    title: Sovereign spreads through the market re-entry window
+    dek: Track the price of sovereign risk as Argentina attempts to regain durable market access.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef18:
+    title: Sovereign and corporate spreads
+    dek: Compare sovereign risk with borrowing conditions faced by firms.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef19:
+    title: FX issuance volumes by issuer type
+    dek: Show whether market access is broadening beyond isolated transactions.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef20:
+    title: Reserve accumulation versus sovereign spreads
+    dek: Show whether stronger reserve buffers are being accompanied by lower sovereign risk.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef21:
+    title: Gross reserves versus sovereign spreads
+    dek: Contrast the headline reserve stock with market pricing of sovereign risk.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef22:
+    title: FX debt-service maturity wall
+    dek: Make the near-term foreign-currency payment schedule visible by creditor and market category.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef23:
+    title: Debt service versus reserves
+    dek: Compare the payment burden with both gross and net reserve buffers.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef24:
+    title: Official financing, swaps, and repos
+    dek: Show the composition and changing role of official and secured external financing.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef25:
+    title: Swap and repo liabilities versus NIR
+    dek: Place reserve-linked liabilities beside the net reserve position.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef26:
+    title: Market issuance cumulative since re-entry
+    dek: Track the cumulative scale and breadth of new foreign-currency market financing.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef27:
+    title: External debt in dollars and percent of GDP
+    dek: Separate the nominal debt stock from its burden relative to the economy.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.
+  pi.ef28:
+    title: Reserve coverage of external debt service
+    dek: Track whether reserve buffers are improving relative to imminent foreign-currency payments.
+    intro: This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the
+      stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology
+      supports that interpretation.

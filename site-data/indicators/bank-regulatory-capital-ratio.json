@@ -1,0 +1,113 @@
+{
+  "id": "ci.ef.bank_capital_ratio",
+  "kind": "indicator",
+  "slug": "bank-regulatory-capital-ratio",
+  "title": "Bank regulatory capital ratio",
+  "href": "/indicators/bank-regulatory-capital-ratio",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topic": {
+    "id": "ef.credit_quality",
+    "kind": "topic",
+    "slug": "credit-quality",
+    "title": "Credit quality",
+    "href": "/topics/credit-quality"
+  },
+  "unitSemantics": "percent_rwa",
+  "frequency": "quarterly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ef35",
+      "kind": "chart",
+      "slug": "bank-capital-and-npls",
+      "title": "Bank capital and NPLs",
+      "href": "/charts/bank-capital-and-npls"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ef.credit_quality",
+      "kind": "topic",
+      "slug": "credit-quality",
+      "title": "Credit quality",
+      "href": "/topics/credit-quality",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef35",
+      "kind": "chart",
+      "slug": "bank-capital-and-npls",
+      "title": "Bank capital and NPLs",
+      "href": "/charts/bank-capital-and-npls",
+      "distance": 1
+    },
+    {
+      "id": "q.ef15",
+      "kind": "question",
+      "slug": "is-credit-quality-deteriorating-as-lending-expands",
+      "title": "Is credit quality deteriorating as lending expands?",
+      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
+      "distance": 2
+    },
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean",
+      "distance": 2
+    },
+    {
+      "id": "ef.private_credit",
+      "kind": "topic",
+      "slug": "private-sector-credit",
+      "title": "Private-sector credit",
+      "href": "/topics/private-sector-credit",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.bank_liquidity_ratio",
+      "kind": "indicator",
+      "slug": "bank-liquid-assets-ratio",
+      "title": "Bank liquid-assets ratio",
+      "href": "/indicators/bank-liquid-assets-ratio",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.npl_ratio",
+      "kind": "indicator",
+      "slug": "non-performing-loans-ratio",
+      "title": "Non-performing loans ratio",
+      "href": "/indicators/non-performing-loans-ratio",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 1,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 0
+  }
+}

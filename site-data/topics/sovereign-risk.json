@@ -1,0 +1,102 @@
+{
+  "id": "ef.sovereign_risk",
+  "kind": "topic",
+  "slug": "sovereign-risk",
+  "title": "Sovereign risk",
+  "href": "/topics/sovereign-risk",
+  "dek": "Market assessment of the probability and severity of losses on sovereign obligations.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.sovereign_risk_spreads",
+      "relation_type": "measurement_of",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.sovereign_spreads",
+        "kind": "topic",
+        "slug": "sovereign-spreads",
+        "title": "Sovereign spreads",
+        "href": "/topics/sovereign-spreads"
+      }
+    }
+  ],
+  "questions": [],
+  "indicators": [],
+  "charts": [],
+  "nearby": [
+    {
+      "id": "ef.sovereign_spreads",
+      "kind": "topic",
+      "slug": "sovereign-spreads",
+      "title": "Sovereign spreads",
+      "href": "/topics/sovereign-spreads",
+      "distance": 1
+    },
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access",
+      "distance": 2
+    },
+    {
+      "id": "q.ef09",
+      "kind": "question",
+      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "title": "Why can reserves rise while sovereign risk stays high?",
+      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "distance": 2
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access",
+      "distance": 2
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.sovereign_spread_bps",
+      "kind": "indicator",
+      "slug": "sovereign-spread",
+      "title": "Sovereign spread",
+      "href": "/indicators/sovereign-spread",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 1,
+    "questions": 0,
+    "indicators": 0,
+    "charts": 0
+  }
+}

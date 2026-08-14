@@ -1,0 +1,33 @@
+source_file: 1934-7685-002.2026.issue-105-en(1).pdf
+document: 'Argentina: Staff Report for the 2026 Article IV Consultation and Second
+  EFF Review'
+role: expert semantic/mechanism source; not sole ontology authority
+key_locations:
+- pdf_page: 2
+  topic: policy priorities
+  use: disinflation, external sustainability, growth; monetary/FX framework
+- pdf_page: 10
+  topic: recent developments
+  use: inflation expectations, uneven activity, inflation stall
+- pdf_page: 11
+  topic: inflation / pass-through footnote
+  use: pass-through decline, indexation effects
+- pdf_page: 12
+  topic: monetary and exchange-rate policies
+  use: FX band, daily reserve purchases, real appreciation
+- pdf_page: 21
+  topic: monetary policy stance
+  use: relative-price adjustment, supply shocks
+- pdf_page: 22
+  topic: nominal anchor / institutional framework
+  use: monetary targeting transition, exchange-rate flexibility, credibility
+- pdf_page: 46
+  topic: 'Figure 4: Inflation and Monetary Developments'
+  use: core measures, inflation drivers, real rates, reserve requirements, monetary
+    base, M2
+- pdf_page: 43
+  topic: 'Figure 1: Recent Market Developments'
+  use: exchange rates, FX purchases, spreads, BCRA/Treasury purchases, interest rates
+- pdf_page: 40
+  topic: BCRA balance sheet box
+  use: boundary port to external/financial constraint

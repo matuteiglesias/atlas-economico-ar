@@ -1,14 +1,14 @@
 {
   "counts": {
     "region": 6,
-    "topic": 25,
-    "question": 18,
-    "indicator": 42,
-    "chart": 52
+    "topic": 55,
+    "question": 38,
+    "indicator": 82,
+    "chart": 96
   },
   "graph": {
-    "nodes": 143,
-    "edges": 303
+    "nodes": 277,
+    "edges": 607
   },
-  "verticals_loaded": 1
+  "verticals_loaded": 2
 }

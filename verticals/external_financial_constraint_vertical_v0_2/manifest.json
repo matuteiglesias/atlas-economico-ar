@@ -1,0 +1,23 @@
+{
+  "bundle_id": "external_financial_constraint_vertical_v0_2",
+  "version": "0.2",
+  "slice_id": "external_financial_constraint",
+  "status": "agent_draft_ready_for_human_review",
+  "counts": {
+    "concepts": 30,
+    "relations": 44,
+    "question_intents": 20,
+    "reference_frames_vertical_specific": 7,
+    "canonical_indicators": 40,
+    "derived_indicators": 5,
+    "plot_intents": 44,
+    "chart_specs": 28,
+    "media_evidence_rows": 115
+  },
+  "compatibility": {
+    "compiler_schema": "0.1",
+    "designed_to_co_compile_with": "nominal_stabilization_vertical_v0_1"
+  },
+  "series_registration": "deferred",
+  "validation": "PASS"
+}

@@ -1,0 +1,164 @@
+{
+  "id": "pi.ef08",
+  "kind": "chart",
+  "slug": "current-account-balance-through-time",
+  "title": "Current-account balance through time",
+  "href": "/charts/current-account-balance-through-time",
+  "dek": "Place the recent current-account position in a longer historical frame.",
+  "intro": "This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation.",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef04",
+      "kind": "question",
+      "slug": "is-the-current-account-improving",
+      "title": "Is the current account improving?",
+      "href": "/questions/is-the-current-account-improving"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account"
+    },
+    {
+      "id": "ef.goods_trade_balance",
+      "kind": "topic",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/topics/goods-trade-balance"
+    },
+    {
+      "id": "ef.primary_income_balance",
+      "kind": "topic",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/topics/primary-income-balance"
+    },
+    {
+      "id": "ef.services_balance",
+      "kind": "topic",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/topics/services-balance"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.current_account_usd",
+      "kind": "indicator",
+      "slug": "current-account-balance",
+      "title": "Current account balance",
+      "href": "/indicators/current-account-balance"
+    },
+    {
+      "id": "ci.ef.current_account_gdp",
+      "kind": "indicator",
+      "slug": "current-account-balance-as-share-of-gdp",
+      "title": "Current account balance as share of GDP",
+      "href": "/indicators/current-account-balance-as-share-of-gdp"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.ef.pre_pandemic_2019"
+  ],
+  "chartSpec": {
+    "id": "cs.ef08",
+    "templateId": "dual_measure_time_series",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ef04",
+      "kind": "question",
+      "slug": "is-the-current-account-improving",
+      "title": "Is the current account improving?",
+      "href": "/questions/is-the-current-account-improving",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.current_account_usd",
+      "kind": "indicator",
+      "slug": "current-account-balance",
+      "title": "Current account balance",
+      "href": "/indicators/current-account-balance",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.current_account_gdp",
+      "kind": "indicator",
+      "slug": "current-account-balance-as-share-of-gdp",
+      "title": "Current account balance as share of GDP",
+      "href": "/indicators/current-account-balance-as-share-of-gdp",
+      "distance": 1
+    },
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account",
+      "distance": 2
+    },
+    {
+      "id": "ef.goods_trade_balance",
+      "kind": "topic",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/topics/goods-trade-balance",
+      "distance": 2
+    },
+    {
+      "id": "ef.primary_income_balance",
+      "kind": "topic",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/topics/primary-income-balance",
+      "distance": 2
+    },
+    {
+      "id": "ef.services_balance",
+      "kind": "topic",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/topics/services-balance",
+      "distance": 2
+    },
+    {
+      "id": "pi.ef13",
+      "kind": "chart",
+      "slug": "capital-inflows-versus-current-account-financing-need",
+      "title": "Capital inflows versus current-account financing need",
+      "href": "/charts/capital-inflows-versus-current-account-financing-need",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 4,
+    "indicators": 2
+  }
+}

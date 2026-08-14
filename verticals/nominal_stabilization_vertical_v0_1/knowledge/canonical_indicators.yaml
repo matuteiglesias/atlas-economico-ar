@@ -1,0 +1,1009 @@
+canonical_indicators:
+- id: ci.ns.cpi_monthly
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Monthly headline CPI inflation
+  concept_id: ns.headline_inflation
+  unit_semantics: percent_mom
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - monthly headline cpi inflation
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.cpi_yoy
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Headline CPI inflation, year-over-year
+  concept_id: ns.headline_inflation
+  unit_semantics: percent_yoy
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - headline cpi inflation, year-over-year
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.cpi_3m_ann
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Headline CPI, 3-month annualized
+  concept_id: ns.headline_inflation
+  unit_semantics: percent_annualized
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - headline cpi, 3-month annualized
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.core_monthly
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Core CPI inflation, monthly
+  concept_id: ns.core_inflation
+  unit_semantics: percent_mom
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - core cpi inflation, monthly
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.core_3m_ann
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Core CPI, 3-month annualized
+  concept_id: ns.core_inflation
+  unit_semantics: percent_annualized
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - core cpi, 3-month annualized
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.trimmed_cpi_3m_ann
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Trimmed CPI, 3-month annualized
+  concept_id: ns.core_inflation
+  unit_semantics: percent_annualized
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - trimmed cpi, 3-month annualized
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.trimmed_goods_3m_ann
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Trimmed goods inflation, 3-month annualized
+  concept_id: ns.core_inflation
+  unit_semantics: percent_annualized
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - trimmed goods inflation, 3-month annualized
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.trimmed_services_3m_ann
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Trimmed services inflation, 3-month annualized
+  concept_id: ns.core_inflation
+  unit_semantics: percent_annualized
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - trimmed services inflation, 3-month annualized
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.food_inflation_contribution
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Food contribution to monthly inflation
+  concept_id: ns.relative_price_adjustment
+  unit_semantics: percentage_points
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - food contribution to monthly inflation
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.regulated_inflation_contribution
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Regulated-price contribution to monthly inflation
+  concept_id: ns.relative_price_adjustment
+  unit_semantics: percentage_points
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - regulated-price contribution to monthly inflation
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.infl_exp_1m
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Expected inflation next month
+  concept_id: ns.inflation_expectations
+  unit_semantics: percent_mom
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - expected inflation next month
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.infl_exp_3m
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Expected inflation three months ahead
+  concept_id: ns.inflation_expectations
+  unit_semantics: percent
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - expected inflation three months ahead
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.infl_exp_eop
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Expected end-of-year inflation
+  concept_id: ns.inflation_expectations
+  unit_semantics: percent_yoy
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - expected end-of-year inflation
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.infl_surprise
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Inflation surprise vs prior expectation
+  concept_id: ns.inflation_expectations
+  unit_semantics: percentage_points
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - inflation surprise vs prior expectation
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.infl_acceleration
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Monthly inflation acceleration
+  concept_id: ns.inflation
+  unit_semantics: percentage_points_change
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - monthly inflation acceleration
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.official_fx
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Official ARS/USD exchange rate
+  concept_id: ns.nominal_exchange_rate
+  unit_semantics: ars_per_usd
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - official ars/usd exchange rate
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.ccl_fx
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: CCL exchange rate
+  concept_id: ns.parallel_exchange_rate
+  unit_semantics: ars_per_usd
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - ccl exchange rate
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.blue_fx
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Blue exchange rate
+  concept_id: ns.parallel_exchange_rate
+  unit_semantics: ars_per_usd
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - blue exchange rate
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.fx_gap_ccl
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: CCL-official FX gap
+  concept_id: ns.fx_gap
+  unit_semantics: percent
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - ccl-official fx gap
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.fx_gap_blue
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Blue-official FX gap
+  concept_id: ns.fx_gap
+  unit_semantics: percent
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - blue-official fx gap
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.fx_band_lower
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: FX-band lower bound
+  concept_id: ns.exchange_rate_band
+  unit_semantics: ars_per_usd
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - fx-band lower bound
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.fx_band_upper
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: FX-band upper bound
+  concept_id: ns.exchange_rate_band
+  unit_semantics: ars_per_usd
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - fx-band upper bound
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.fx_band_position
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Official FX position within band
+  concept_id: ns.exchange_rate_band
+  unit_semantics: percent_of_band
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - official fx position within band
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.official_fx_monthly_change
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Official FX monthly change
+  concept_id: ns.nominal_exchange_rate
+  unit_semantics: percent
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - official fx monthly change
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.reer_index
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Real effective exchange-rate index
+  concept_id: ns.real_exchange_rate
+  unit_semantics: index
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - real effective exchange-rate index
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.reer_change_dec2023
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: REER change since Dec-2023
+  concept_id: ns.real_exchange_rate
+  unit_semantics: percent
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - reer change since dec-2023
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.fx_forward_1m
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: One-month FX forward/implied rate
+  concept_id: ns.fx_hedging_demand
+  unit_semantics: ars_per_usd
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - one-month fx forward/implied rate
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.fx_forward_eoy
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: End-of-year FX forward/implied rate
+  concept_id: ns.fx_hedging_demand
+  unit_semantics: ars_per_usd
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - end-of-year fx forward/implied rate
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.policy_rate_nominal
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Nominal policy-relevant rate
+  concept_id: ns.policy_rate
+  unit_semantics: percent_annualized
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - nominal policy-relevant rate
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.money_market_rate
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Short money-market rate
+  concept_id: ns.money_market_rate
+  unit_semantics: percent_annualized
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - short money-market rate
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.tamar_nominal
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: TAMAR nominal rate
+  concept_id: ns.money_market_rate
+  unit_semantics: percent_annualized
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - tamar nominal rate
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.tamar_real_expost
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: TAMAR ex-post real rate
+  concept_id: ns.real_interest_rate
+  unit_semantics: percent_annualized
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - tamar ex-post real rate
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.tamar_real_exante
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: TAMAR ex-ante real rate
+  concept_id: ns.real_interest_rate
+  unit_semantics: percent_annualized
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - tamar ex-ante real rate
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.reserve_requirement_ratio
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Bank reserve requirement ratio
+  concept_id: ns.reserve_requirements
+  unit_semantics: percent
+  frequency: daily_or_monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - bank reserve requirement ratio
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.bcra_peso_deposits
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: BCRA peso deposits / reserve balances
+  concept_id: ns.reserve_requirements
+  unit_semantics: ars
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - bcra peso deposits / reserve balances
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.monetary_base_nominal
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Monetary base
+  concept_id: ns.monetary_base
+  unit_semantics: ars
+  frequency: daily_or_monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - monetary base
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.monetary_base_real
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Real monetary base
+  concept_id: ns.monetary_base
+  unit_semantics: real_index_or_ars
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - real monetary base
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.transactional_m2_nominal
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Private transactional M2
+  concept_id: ns.transactional_m2
+  unit_semantics: ars
+  frequency: daily_or_monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - private transactional m2
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.transactional_m2_real
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Real private transactional M2
+  concept_id: ns.transactional_m2
+  unit_semantics: real_ars_or_index
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - real private transactional m2
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.transactional_m2_projection_gap
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Transactional M2 gap vs BCRA projection
+  concept_id: ns.money_demand
+  unit_semantics: percent
+  frequency: monthly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - transactional m2 gap vs bcra projection
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.m2_to_gdp
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Transactional M2 to GDP
+  concept_id: ns.money_demand
+  unit_semantics: percent_of_gdp
+  frequency: monthly_or_quarterly
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - transactional m2 to gdp
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true
+- id: ci.ns.bcra_fx_purchases_daily
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: BCRA net FX purchases
+  concept_id: ns.bcra_fx_operations
+  unit_semantics: usd
+  frequency: daily
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provider_hint:
+  - INDEC
+  - BCRA
+  - MECON
+  - market data/open data as appropriate
+  provenance:
+    media_evidence_tags:
+    - bcra net fx purchases
+    imf_2026_refs:
+    - Figure 4 / Figure 1 / monetary policy section
+    model_prior_used: true

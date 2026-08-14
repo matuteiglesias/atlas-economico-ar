@@ -1,0 +1,137 @@
+{
+  "id": "ci.ef.current_account_gdp",
+  "kind": "indicator",
+  "slug": "current-account-balance-as-share-of-gdp",
+  "title": "Current account balance as share of GDP",
+  "href": "/indicators/current-account-balance-as-share-of-gdp",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topic": {
+    "id": "ef.current_account",
+    "kind": "topic",
+    "slug": "current-account",
+    "title": "Current account",
+    "href": "/topics/current-account"
+  },
+  "unitSemantics": "percent_gdp",
+  "frequency": "quarterly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ef08",
+      "kind": "chart",
+      "slug": "current-account-balance-through-time",
+      "title": "Current-account balance through time",
+      "href": "/charts/current-account-balance-through-time"
+    },
+    {
+      "id": "pi.ef40",
+      "kind": "chart",
+      "slug": "reer-versus-current-account-balance",
+      "title": "REER versus current-account balance",
+      "href": "/charts/reer-versus-current-account-balance"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [
+    "di.ef.current_account_gdp"
+  ],
+  "nearby": [
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef08",
+      "kind": "chart",
+      "slug": "current-account-balance-through-time",
+      "title": "Current-account balance through time",
+      "href": "/charts/current-account-balance-through-time",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef40",
+      "kind": "chart",
+      "slug": "reer-versus-current-account-balance",
+      "title": "REER versus current-account balance",
+      "href": "/charts/reer-versus-current-account-balance",
+      "distance": 1
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "distance": 2
+    },
+    {
+      "id": "q.ef10",
+      "kind": "question",
+      "slug": "how-large-is-the-near-term-fx-maturity-wall",
+      "title": "How large is the near-term FX maturity wall?",
+      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
+      "distance": 2
+    },
+    {
+      "id": "q.ef01",
+      "kind": "question",
+      "slug": "how-strong-is-argentina-s-reserve-position",
+      "title": "How strong is Argentina's reserve position?",
+      "href": "/questions/how-strong-is-argentina-s-reserve-position",
+      "distance": 2
+    },
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": "/questions/is-argentina-regaining-durable-market-access",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 3,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 1
+  }
+}

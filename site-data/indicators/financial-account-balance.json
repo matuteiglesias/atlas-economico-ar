@@ -1,0 +1,113 @@
+{
+  "id": "ci.ef.financial_account_usd",
+  "kind": "indicator",
+  "slug": "financial-account-balance",
+  "title": "Financial account balance",
+  "href": "/indicators/financial-account-balance",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topic": {
+    "id": "ef.financial_account",
+    "kind": "topic",
+    "slug": "financial-account",
+    "title": "Financial account",
+    "href": "/topics/financial-account"
+  },
+  "unitSemantics": "usd_billions",
+  "frequency": "quarterly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [],
+  "derivedAsInput": [],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ef.financial_account",
+      "kind": "topic",
+      "slug": "financial-account",
+      "title": "Financial account",
+      "href": "/topics/financial-account",
+      "distance": 1
+    },
+    {
+      "id": "q.ef06",
+      "kind": "question",
+      "slug": "are-capital-inflows-durable",
+      "title": "Are capital inflows durable?",
+      "href": "/questions/are-capital-inflows-durable",
+      "distance": 2
+    },
+    {
+      "id": "q.ef07",
+      "kind": "question",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "href": "/questions/has-fx-hedging-pressure-normalized",
+      "distance": 2
+    },
+    {
+      "id": "ef.capital_inflows",
+      "kind": "topic",
+      "slug": "capital-inflows",
+      "title": "Capital inflows",
+      "href": "/topics/capital-inflows",
+      "distance": 2
+    },
+    {
+      "id": "ef.external_position",
+      "kind": "topic",
+      "slug": "external-position",
+      "title": "External position",
+      "href": "/topics/external-position",
+      "distance": 2
+    },
+    {
+      "id": "ef.resident_fx_hedging",
+      "kind": "topic",
+      "slug": "resident-fx-hedging-and-dollarization-pressure",
+      "title": "Resident FX hedging and dollarization pressure",
+      "href": "/topics/resident-fx-hedging-and-dollarization-pressure",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.private_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-private-financial-flows",
+      "title": "Net private financial flows",
+      "href": "/indicators/net-private-financial-flows",
+      "distance": 2
+    },
+    {
+      "id": "ci.ef.public_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-public-sector-financial-flows",
+      "title": "Net public-sector financial flows",
+      "href": "/indicators/net-public-sector-financial-flows",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 0,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 0
+  }
+}

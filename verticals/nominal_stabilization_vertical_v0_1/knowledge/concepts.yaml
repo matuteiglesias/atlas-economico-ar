@@ -1,0 +1,451 @@
+concepts:
+- id: ns.inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Inflation
+  description: General sustained change in the domestic price level.
+  role: core
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - inflation
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.headline_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Headline inflation
+  description: Observed CPI inflation including all major CPI components.
+  role: core
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - headline inflation
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.core_inflation
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Core inflation
+  description: Underlying inflation measure designed to abstract from selected volatile or regulated components.
+  role: core
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - core inflation
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.inflation_expectations
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Inflation expectations
+  description: Expected future inflation across relevant horizons.
+  role: core
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - inflation expectations
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.inflation_inertia
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Inflation inertia
+  description: Persistence in price-setting dynamics linked to backward-looking adjustment, contracts, and expectations.
+  role: mechanism
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - inflation inertia
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.relative_price_adjustment
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Relative-price adjustment
+  description: Repricing of specific goods/services relative to the general price level after distortions or controls.
+  role: mechanism
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - relative-price adjustment
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.fx_pass_through
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: FX pass-through
+  description: Transmission from exchange-rate movements to domestic prices.
+  role: mechanism
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - fx pass-through
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.aggregate_demand_pressure
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Aggregate-demand pressure
+  description: Demand-side pressure on prices at the macro level.
+  role: mechanism
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - aggregate-demand pressure
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.nominal_exchange_rate
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Nominal exchange rate
+  description: Peso price of foreign currency in the relevant FX market.
+  role: core
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - nominal exchange rate
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.exchange_rate_band
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Exchange-rate band
+  description: Policy corridor defining lower and upper bounds for the official exchange rate.
+  role: policy_framework
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - exchange-rate band
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.parallel_exchange_rate
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Parallel exchange rate
+  description: Non-official or alternative market exchange-rate quotation such as CCL/MEP/blue.
+  role: market
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - parallel exchange rate
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.fx_gap
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: FX gap
+  description: Percentage wedge between a parallel exchange rate and the official exchange rate.
+  role: derived_concept
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - fx gap
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.real_exchange_rate
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Real exchange rate
+  description: Price-adjusted exchange-rate measure used to assess real appreciation/depreciation and competitiveness.
+  role: core
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - real exchange rate
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.policy_rate
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Policy interest rate
+  description: Interest-rate instrument or policy-relevant short rate used to characterize monetary stance.
+  role: policy
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - policy interest rate
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.money_market_rate
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Money-market rate
+  description: Short-term market interest rate reflecting liquidity conditions.
+  role: market
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - money-market rate
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.real_interest_rate
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Real interest rate
+  description: Nominal interest rate adjusted for actual or expected inflation.
+  role: derived_concept
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - real interest rate
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.reserve_requirements
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Reserve requirements
+  description: Regulatory reserve/liquidity requirements imposed on banks.
+  role: policy
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - reserve requirements
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.monetary_base
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Monetary base
+  description: Currency plus relevant central-bank reserve money liabilities.
+  role: measurement_concept
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - monetary base
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.transactional_m2
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Transactional M2
+  description: Private transactional broad-money aggregate used as an indicator of money demand.
+  role: measurement_concept
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - transactional m2
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.money_demand
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Money demand
+  description: Desired holdings of domestic monetary balances.
+  role: core
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - money demand
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.remonetization
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Remonetization
+  description: Recovery in the real demand for and holdings of domestic money after a low-monetization episode.
+  role: process
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - remonetization
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.monetary_targeting_framework
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Monetary targeting framework
+  description: Operational framework centered on monetary aggregates as targets or guides.
+  role: policy_framework
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - monetary targeting framework
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.policy_credibility
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: Policy credibility
+  description: Degree to which agents believe announced stabilization policy will be sustained and effective.
+  role: mechanism
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - policy credibility
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.bcra_fx_operations
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: BCRA FX operations
+  description: Central-bank purchases or sales of foreign currency affecting market liquidity and reserve accumulation.
+  role: boundary_port
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - bcra fx operations
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true
+- id: ns.fx_hedging_demand
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  label: FX hedging demand
+  description: Private demand for foreign-currency exposure or protection against peso depreciation.
+  role: market
+  aliases: []
+  provenance:
+    media_evidence_tags:
+    - fx hedging demand
+    imf_2026_refs:
+    - Figure 4 / monetary policy discussion
+    model_prior_used: true

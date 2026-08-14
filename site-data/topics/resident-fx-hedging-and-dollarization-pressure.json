@@ -1,0 +1,165 @@
+{
+  "id": "ef.resident_fx_hedging",
+  "kind": "topic",
+  "slug": "resident-fx-hedging-and-dollarization-pressure",
+  "title": "Resident FX hedging and dollarization pressure",
+  "href": "/topics/resident-fx-hedging-and-dollarization-pressure",
+  "dek": "Demand by residents to acquire foreign-currency assets or hedge peso exposure, affecting the financial account and reserve pressure.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.fx_hedging_port",
+      "relation_type": "associated_with",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.fx_hedging_demand",
+        "kind": "topic",
+        "slug": "fx-hedging-demand",
+        "title": "FX hedging demand",
+        "href": "/topics/fx-hedging-demand"
+      }
+    },
+    {
+      "relation_id": "rel.ef.hedging_pressure_financial",
+      "relation_type": "contributes_to",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.financial_account",
+        "kind": "topic",
+        "slug": "financial-account",
+        "title": "Financial account",
+        "href": "/topics/financial-account"
+      }
+    },
+    {
+      "relation_id": "rel.ef.hedging_pressure_reserves",
+      "relation_type": "constraint_on",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.reserve_accumulation",
+        "kind": "topic",
+        "slug": "reserve-accumulation",
+        "title": "Reserve accumulation",
+        "href": "/topics/reserve-accumulation"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef07",
+      "kind": "question",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "href": "/questions/has-fx-hedging-pressure-normalized"
+    }
+  ],
+  "indicators": [],
+  "charts": [
+    {
+      "id": "pi.ef15",
+      "kind": "chart",
+      "slug": "private-financial-flows-around-the-2025-stress-episode",
+      "title": "Private financial flows around the 2025 stress episode",
+      "href": "/charts/private-financial-flows-around-the-2025-stress-episode"
+    },
+    {
+      "id": "pi.ef16",
+      "kind": "chart",
+      "slug": "private-financial-flows-versus-reserve-accumulation",
+      "title": "Private financial flows versus reserve accumulation",
+      "href": "/charts/private-financial-flows-versus-reserve-accumulation"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef07",
+      "kind": "question",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "href": "/questions/has-fx-hedging-pressure-normalized",
+      "distance": 1
+    },
+    {
+      "id": "ef.financial_account",
+      "kind": "topic",
+      "slug": "financial-account",
+      "title": "Financial account",
+      "href": "/topics/financial-account",
+      "distance": 1
+    },
+    {
+      "id": "ns.fx_hedging_demand",
+      "kind": "topic",
+      "slug": "fx-hedging-demand",
+      "title": "FX hedging demand",
+      "href": "/topics/fx-hedging-demand",
+      "distance": 1
+    },
+    {
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation",
+      "distance": 1
+    },
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
+      "distance": 2
+    },
+    {
+      "id": "q.ef06",
+      "kind": "question",
+      "slug": "are-capital-inflows-durable",
+      "title": "Are capital inflows durable?",
+      "href": "/questions/are-capital-inflows-durable",
+      "distance": 2
+    },
+    {
+      "id": "q.ef02",
+      "kind": "question",
+      "slug": "are-reserves-rebuilding-fast-enough",
+      "title": "Are reserves rebuilding fast enough?",
+      "href": "/questions/are-reserves-rebuilding-fast-enough",
+      "distance": 2
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 3,
+    "questions": 1,
+    "indicators": 0,
+    "charts": 2
+  }
+}

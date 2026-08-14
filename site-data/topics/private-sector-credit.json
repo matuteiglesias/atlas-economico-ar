@@ -1,0 +1,224 @@
+{
+  "id": "ef.private_credit",
+  "kind": "topic",
+  "slug": "private-sector-credit",
+  "title": "Private-sector credit",
+  "href": "/topics/private-sector-credit",
+  "dek": "Domestic bank and financial-system lending to households and firms.",
+  "intro": "Credit deepening is potentially growth-enhancing in a financially shallow economy, but the speed and quality of expansion matter. The atlas reads credit growth together with non-performing loans, capitalization, liquidity, and the broader macro-financial environment.",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.financial_depth_enables_credit",
+      "relation_type": "enables",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.financial_depth",
+        "kind": "topic",
+        "slug": "financial-depth",
+        "title": "Financial depth",
+        "href": "/topics/financial-depth"
+      }
+    },
+    {
+      "relation_id": "rel.ef.credit_quality_constrains_credit",
+      "relation_type": "constraint_on",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.credit_quality",
+        "kind": "topic",
+        "slug": "credit-quality",
+        "title": "Credit quality",
+        "href": "/topics/credit-quality"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening"
+    },
+    {
+      "id": "q.ef15",
+      "kind": "question",
+      "slug": "is-credit-quality-deteriorating-as-lending-expands",
+      "title": "Is credit quality deteriorating as lending expands?",
+      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands"
+    },
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": "/questions/how-shallow-is-argentina-s-financial-system"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.private_credit_gdp",
+      "kind": "indicator",
+      "slug": "private-sector-credit-as-share-of-gdp",
+      "title": "Private-sector credit as share of GDP",
+      "href": "/indicators/private-sector-credit-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.real_private_credit_growth",
+      "kind": "indicator",
+      "slug": "real-private-sector-credit-growth",
+      "title": "Real private-sector credit growth",
+      "href": "/indicators/real-private-sector-credit-growth"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef29",
+      "kind": "chart",
+      "slug": "private-credit-as-a-share-of-gdp",
+      "title": "Private credit as a share of GDP",
+      "href": "/charts/private-credit-as-a-share-of-gdp"
+    },
+    {
+      "id": "pi.ef30",
+      "kind": "chart",
+      "slug": "real-private-credit-growth",
+      "title": "Real private-credit growth",
+      "href": "/charts/real-private-credit-growth"
+    },
+    {
+      "id": "pi.ef31",
+      "kind": "chart",
+      "slug": "real-credit-growth-versus-npl-ratio",
+      "title": "Real credit growth versus NPL ratio",
+      "href": "/charts/real-credit-growth-versus-npl-ratio"
+    },
+    {
+      "id": "pi.ef32",
+      "kind": "chart",
+      "slug": "npl-ratio-through-the-credit-cycle",
+      "title": "NPL ratio through the credit cycle",
+      "href": "/charts/npl-ratio-through-the-credit-cycle"
+    },
+    {
+      "id": "pi.ef35",
+      "kind": "chart",
+      "slug": "bank-capital-and-npls",
+      "title": "Bank capital and NPLs",
+      "href": "/charts/bank-capital-and-npls"
+    },
+    {
+      "id": "pi.ef36",
+      "kind": "chart",
+      "slug": "financial-depth-private-credit-and-domestic-markets",
+      "title": "Financial depth: private credit and domestic markets",
+      "href": "/charts/financial-depth-private-credit-and-domestic-markets"
+    },
+    {
+      "id": "pi.ef37",
+      "kind": "chart",
+      "slug": "financial-depth-versus-emerging-market-peers",
+      "title": "Financial depth versus emerging-market peers",
+      "href": "/charts/financial-depth-versus-emerging-market-peers"
+    },
+    {
+      "id": "pi.ef38",
+      "kind": "chart",
+      "slug": "assets-outside-the-financial-system-versus-private-credit",
+      "title": "Assets outside the financial system versus private credit",
+      "href": "/charts/assets-outside-the-financial-system-versus-private-credit"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": "/questions/how-shallow-is-argentina-s-financial-system",
+      "distance": 1
+    },
+    {
+      "id": "q.ef15",
+      "kind": "question",
+      "slug": "is-credit-quality-deteriorating-as-lending-expands",
+      "title": "Is credit quality deteriorating as lending expands?",
+      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
+      "distance": 1
+    },
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening",
+      "distance": 1
+    },
+    {
+      "id": "ef.credit_quality",
+      "kind": "topic",
+      "slug": "credit-quality",
+      "title": "Credit quality",
+      "href": "/topics/credit-quality",
+      "distance": 1
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.private_credit_gdp",
+      "kind": "indicator",
+      "slug": "private-sector-credit-as-share-of-gdp",
+      "title": "Private-sector credit as share of GDP",
+      "href": "/indicators/private-sector-credit-as-share-of-gdp",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.real_private_credit_growth",
+      "kind": "indicator",
+      "slug": "real-private-sector-credit-growth",
+      "title": "Real private-sector credit growth",
+      "href": "/indicators/real-private-sector-credit-growth",
+      "distance": 1
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 2,
+    "questions": 3,
+    "indicators": 2,
+    "charts": 8
+  }
+}

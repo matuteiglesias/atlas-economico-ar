@@ -38,6 +38,27 @@
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
   "charts": [
     {
+      "id": "pi.ef06",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-nir-accumulation",
+      "title": "BCRA FX purchases versus NIR accumulation",
+      "href": "/charts/bcra-fx-purchases-versus-nir-accumulation"
+    },
+    {
+      "id": "pi.ef42",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-reserve-accumulation",
+      "title": "BCRA FX purchases and reserve accumulation",
+      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation"
+    },
+    {
+      "id": "pi.ef43",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-sovereign-spreads",
+      "title": "BCRA FX purchases versus sovereign spreads",
+      "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads"
+    },
+    {
       "id": "pi.ns23",
       "kind": "chart",
       "slug": "bcra-daily-fx-purchases",
@@ -97,6 +118,30 @@
       "distance": 1
     },
     {
+      "id": "pi.ef42",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-reserve-accumulation",
+      "title": "BCRA FX purchases and reserve accumulation",
+      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef06",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-nir-accumulation",
+      "title": "BCRA FX purchases versus NIR accumulation",
+      "href": "/charts/bcra-fx-purchases-versus-nir-accumulation",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef43",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-sovereign-spreads",
+      "title": "BCRA FX purchases versus sovereign spreads",
+      "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads",
+      "distance": 1
+    },
+    {
       "id": "pi.ns26",
       "kind": "chart",
       "slug": "bcra-purchases-vs-monetary-base-growth",
@@ -119,34 +164,10 @@
       "title": "Cumulative BCRA FX purchases",
       "href": "/charts/cumulative-bcra-fx-purchases",
       "distance": 1
-    },
-    {
-      "id": "pi.ns40",
-      "kind": "chart",
-      "slug": "remonetization-vs-bcra-fx-purchases",
-      "title": "Remonetization vs BCRA FX purchases",
-      "href": "/charts/remonetization-vs-bcra-fx-purchases",
-      "distance": 1
-    },
-    {
-      "id": "q.ns11",
-      "kind": "question",
-      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
-      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
-      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
-      "distance": 2
-    },
-    {
-      "id": "q.ns16",
-      "kind": "question",
-      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
-      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
-      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
-      "distance": 2
     }
   ],
   "counts": {
-    "charts": 5,
+    "charts": 8,
     "derivedAsInput": 1,
     "derivedAsOutput": 1
   }

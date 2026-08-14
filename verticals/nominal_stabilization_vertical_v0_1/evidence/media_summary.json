@@ -1,0 +1,24 @@
+{
+  "source_file": "econ_headlines_500(2).csv",
+  "total_input_rows": 500,
+  "selected_nominal_rows": 260,
+  "lane_counts": {
+    "inflation": 90,
+    "fx": 80,
+    "reserves": 50,
+    "rates": 40
+  },
+  "theme_hit_counts_nonexclusive": {
+    "inflation_acceleration_deceleration": 11,
+    "inflation_expectations_forecasts": 11,
+    "fx_level_daily_quote": 47,
+    "fx_gap_parallel_markets": 25,
+    "fx_policy_intervention": 69,
+    "real_appreciation_or_expensive_in_usd": 4,
+    "rates_vs_inflation_or_fx": 21,
+    "carry_trade": 1,
+    "reserve_accumulation": 13
+  },
+  "selection_rule": "econ_lane in {inflation, fx, rates, reserves}",
+  "warning": "The 500-headline corpus was deliberately balanced by lane; counts are useful for semantic discovery, not population-frequency claims."
+}

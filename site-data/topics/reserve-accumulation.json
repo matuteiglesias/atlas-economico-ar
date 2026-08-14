@@ -1,0 +1,330 @@
+{
+  "id": "ef.reserve_accumulation",
+  "kind": "topic",
+  "slug": "reserve-accumulation",
+  "title": "Reserve accumulation",
+  "href": "/topics/reserve-accumulation",
+  "dek": "Change in usable reserve buffers over time, including the contribution of FX purchases and external financing flows.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.hedging_pressure_reserves",
+      "relation_type": "constraint_on",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.resident_fx_hedging",
+        "kind": "topic",
+        "slug": "resident-fx-hedging-and-dollarization-pressure",
+        "title": "Resident FX hedging and dollarization pressure",
+        "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
+      }
+    },
+    {
+      "relation_id": "rel.ef.service_constrains_reserves",
+      "relation_type": "constraint_on",
+      "direction": "incoming",
+      "entity": {
+        "id": "ef.fx_debt_service",
+        "kind": "topic",
+        "slug": "foreign-currency-debt-service",
+        "title": "Foreign-currency debt service",
+        "href": "/topics/foreign-currency-debt-service"
+      }
+    },
+    {
+      "relation_id": "rel.ef.bcra_ops_build_reserves",
+      "relation_type": "contributes_to",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.bcra_fx_operations",
+        "kind": "topic",
+        "slug": "bcra-fx-operations",
+        "title": "BCRA FX operations",
+        "href": "/topics/bcra-fx-operations"
+      }
+    },
+    {
+      "relation_id": "rel.ef.reer_reserves_port",
+      "relation_type": "associated_with",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.real_exchange_rate",
+        "kind": "topic",
+        "slug": "real-exchange-rate",
+        "title": "Real exchange rate",
+        "href": "/topics/real-exchange-rate"
+      }
+    },
+    {
+      "relation_id": "rel.ef.accumulation_builds_nir",
+      "relation_type": "contributes_to",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.net_international_reserves",
+        "kind": "topic",
+        "slug": "net-international-reserves",
+        "title": "Net international reserves",
+        "href": "/topics/net-international-reserves"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef02",
+      "kind": "question",
+      "slug": "are-reserves-rebuilding-fast-enough",
+      "title": "Are reserves rebuilding fast enough?",
+      "href": "/questions/are-reserves-rebuilding-fast-enough"
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves"
+    },
+    {
+      "id": "q.ef07",
+      "kind": "question",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "href": "/questions/has-fx-hedging-pressure-normalized"
+    },
+    {
+      "id": "q.ef09",
+      "kind": "question",
+      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "title": "Why can reserves rise while sovereign risk stays high?",
+      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high"
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance"
+    },
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.nir_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-nir",
+      "title": "Monthly change in NIR",
+      "href": "/indicators/monthly-change-in-nir"
+    },
+    {
+      "id": "ci.ef.reserve_accumulation_ytd",
+      "kind": "indicator",
+      "slug": "cumulative-reserve-accumulation-ytd",
+      "title": "Cumulative reserve accumulation YTD",
+      "href": "/indicators/cumulative-reserve-accumulation-ytd"
+    },
+    {
+      "id": "ci.ef.reserve_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/indicators/monthly-change-in-gross-reserves"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef03",
+      "kind": "chart",
+      "slug": "nir-versus-program-target-path",
+      "title": "NIR versus program target path",
+      "href": "/charts/nir-versus-program-target-path"
+    },
+    {
+      "id": "pi.ef04",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
+      "title": "Reserve accumulation versus next-12m FX debt service",
+      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service"
+    },
+    {
+      "id": "pi.ef05",
+      "kind": "chart",
+      "slug": "monthly-reserve-change-gross-versus-nir",
+      "title": "Monthly reserve change: gross versus NIR",
+      "href": "/charts/monthly-reserve-change-gross-versus-nir"
+    },
+    {
+      "id": "pi.ef06",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-nir-accumulation",
+      "title": "BCRA FX purchases versus NIR accumulation",
+      "href": "/charts/bcra-fx-purchases-versus-nir-accumulation"
+    },
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": "/charts/external-financing-and-debt-service-bridge"
+    },
+    {
+      "id": "pi.ef15",
+      "kind": "chart",
+      "slug": "private-financial-flows-around-the-2025-stress-episode",
+      "title": "Private financial flows around the 2025 stress episode",
+      "href": "/charts/private-financial-flows-around-the-2025-stress-episode"
+    },
+    {
+      "id": "pi.ef16",
+      "kind": "chart",
+      "slug": "private-financial-flows-versus-reserve-accumulation",
+      "title": "Private financial flows versus reserve accumulation",
+      "href": "/charts/private-financial-flows-versus-reserve-accumulation"
+    },
+    {
+      "id": "pi.ef20",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-sovereign-spreads",
+      "title": "Reserve accumulation versus sovereign spreads",
+      "href": "/charts/reserve-accumulation-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef21",
+      "kind": "chart",
+      "slug": "gross-reserves-versus-sovereign-spreads",
+      "title": "Gross reserves versus sovereign spreads",
+      "href": "/charts/gross-reserves-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef40",
+      "kind": "chart",
+      "slug": "reer-versus-current-account-balance",
+      "title": "REER versus current-account balance",
+      "href": "/charts/reer-versus-current-account-balance"
+    },
+    {
+      "id": "pi.ef41",
+      "kind": "chart",
+      "slug": "reer-versus-nir-accumulation",
+      "title": "REER versus NIR accumulation",
+      "href": "/charts/reer-versus-nir-accumulation"
+    },
+    {
+      "id": "pi.ef42",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-reserve-accumulation",
+      "title": "BCRA FX purchases and reserve accumulation",
+      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation"
+    },
+    {
+      "id": "pi.ef43",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-sovereign-spreads",
+      "title": "BCRA FX purchases versus sovereign spreads",
+      "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": "/charts/external-vulnerability-state-map"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
+      "distance": 1
+    },
+    {
+      "id": "q.ef02",
+      "kind": "question",
+      "slug": "are-reserves-rebuilding-fast-enough",
+      "title": "Are reserves rebuilding fast enough?",
+      "href": "/questions/are-reserves-rebuilding-fast-enough",
+      "distance": 1
+    },
+    {
+      "id": "q.ef07",
+      "kind": "question",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "href": "/questions/has-fx-hedging-pressure-normalized",
+      "distance": 1
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
+      "distance": 1
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves",
+      "distance": 1
+    },
+    {
+      "id": "q.ef09",
+      "kind": "question",
+      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "title": "Why can reserves rise while sovereign risk stays high?",
+      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "distance": 1
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations",
+      "distance": 1
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service",
+      "distance": 1
+    }
+  ],
+  "counts": {
+    "connections": 5,
+    "questions": 6,
+    "indicators": 3,
+    "charts": 14
+  }
+}

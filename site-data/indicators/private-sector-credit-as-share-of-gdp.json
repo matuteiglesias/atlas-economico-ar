@@ -1,0 +1,142 @@
+{
+  "id": "ci.ef.private_credit_gdp",
+  "kind": "indicator",
+  "slug": "private-sector-credit-as-share-of-gdp",
+  "title": "Private-sector credit as share of GDP",
+  "href": "/indicators/private-sector-credit-as-share-of-gdp",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "topic": {
+    "id": "ef.private_credit",
+    "kind": "topic",
+    "slug": "private-sector-credit",
+    "title": "Private-sector credit",
+    "href": "/topics/private-sector-credit"
+  },
+  "unitSemantics": "percent_gdp",
+  "frequency": "quarterly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ef29",
+      "kind": "chart",
+      "slug": "private-credit-as-a-share-of-gdp",
+      "title": "Private credit as a share of GDP",
+      "href": "/charts/private-credit-as-a-share-of-gdp"
+    },
+    {
+      "id": "pi.ef36",
+      "kind": "chart",
+      "slug": "financial-depth-private-credit-and-domestic-markets",
+      "title": "Financial depth: private credit and domestic markets",
+      "href": "/charts/financial-depth-private-credit-and-domestic-markets"
+    },
+    {
+      "id": "pi.ef37",
+      "kind": "chart",
+      "slug": "financial-depth-versus-emerging-market-peers",
+      "title": "Financial depth versus emerging-market peers",
+      "href": "/charts/financial-depth-versus-emerging-market-peers"
+    },
+    {
+      "id": "pi.ef38",
+      "kind": "chart",
+      "slug": "assets-outside-the-financial-system-versus-private-credit",
+      "title": "Assets outside the financial system versus private credit",
+      "href": "/charts/assets-outside-the-financial-system-versus-private-credit"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ef.private_credit",
+      "kind": "topic",
+      "slug": "private-sector-credit",
+      "title": "Private-sector credit",
+      "href": "/topics/private-sector-credit",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef38",
+      "kind": "chart",
+      "slug": "assets-outside-the-financial-system-versus-private-credit",
+      "title": "Assets outside the financial system versus private credit",
+      "href": "/charts/assets-outside-the-financial-system-versus-private-credit",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef37",
+      "kind": "chart",
+      "slug": "financial-depth-versus-emerging-market-peers",
+      "title": "Financial depth versus emerging-market peers",
+      "href": "/charts/financial-depth-versus-emerging-market-peers",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef36",
+      "kind": "chart",
+      "slug": "financial-depth-private-credit-and-domestic-markets",
+      "title": "Financial depth: private credit and domestic markets",
+      "href": "/charts/financial-depth-private-credit-and-domestic-markets",
+      "distance": 1
+    },
+    {
+      "id": "pi.ef29",
+      "kind": "chart",
+      "slug": "private-credit-as-a-share-of-gdp",
+      "title": "Private credit as a share of GDP",
+      "href": "/charts/private-credit-as-a-share-of-gdp",
+      "distance": 1
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": "/questions/could-resident-savings-relax-the-external-constraint",
+      "distance": 2
+    },
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": "/questions/how-shallow-is-argentina-s-financial-system",
+      "distance": 2
+    },
+    {
+      "id": "q.ef15",
+      "kind": "question",
+      "slug": "is-credit-quality-deteriorating-as-lending-expands",
+      "title": "Is credit quality deteriorating as lending expands?",
+      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 4,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 0
+  }
+}

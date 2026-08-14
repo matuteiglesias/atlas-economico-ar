@@ -1,0 +1,1558 @@
+plot_intents:
+- id: pi.ns01
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: 'Inflation momentum: monthly and 3-month annualized'
+  question_ids:
+  - q.ns01
+  canonical_indicator_ids:
+  - ci.ns.cpi_monthly
+  - ci.ns.cpi_3m_ann
+  reference_frame_ids:
+  - rf.rolling_3m_annualized
+  purpose: Show whether current inflation momentum is accelerating or decelerating.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns02
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Monthly inflation with acceleration markers
+  question_ids:
+  - q.ns01
+  canonical_indicator_ids:
+  - ci.ns.cpi_monthly
+  - ci.ns.infl_acceleration
+  reference_frame_ids:
+  - rf.previous_period
+  purpose: Make turning points in monthly inflation explicit.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns03
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: 'Headline inflation: monthly vs year-over-year'
+  question_ids:
+  - q.ns01
+  canonical_indicator_ids:
+  - ci.ns.cpi_monthly
+  - ci.ns.cpi_yoy
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Separate current pace from legacy annual inflation.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns04
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Disinflation since December 2023
+  question_ids:
+  - q.ns02
+  canonical_indicator_ids:
+  - ci.ns.cpi_monthly
+  - ci.ns.cpi_yoy
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  purpose: Show the stabilization path and recent stalls.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns05
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Headline vs core inflation
+  question_ids:
+  - q.ns03
+  canonical_indicator_ids:
+  - ci.ns.cpi_3m_ann
+  - ci.ns.core_3m_ann
+  reference_frame_ids:
+  - rf.rolling_3m_annualized
+  purpose: Test whether disinflation is broad-based.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns06
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Multiple measures of core inflation
+  question_ids:
+  - q.ns03
+  canonical_indicator_ids:
+  - ci.ns.core_3m_ann
+  - ci.ns.trimmed_cpi_3m_ann
+  - ci.ns.trimmed_goods_3m_ann
+  - ci.ns.trimmed_services_3m_ann
+  reference_frame_ids:
+  - rf.rolling_3m_annualized
+  purpose: Compare alternative underlying inflation measures.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns07
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Food and regulated prices as contributors to monthly inflation
+  question_ids:
+  - q.ns04
+  canonical_indicator_ids:
+  - ci.ns.food_inflation_contribution
+  - ci.ns.regulated_inflation_contribution
+  - ci.ns.cpi_monthly
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Separate relative-price shocks from aggregate inflation.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns08
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Inflation-driver decomposition
+  question_ids:
+  - q.ns04
+  canonical_indicator_ids:
+  - ci.ns.cpi_monthly
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Decompose monthly inflation into inertia, demand, rates and FX pass-through when model inputs are available.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns09
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Official FX change vs monthly inflation
+  question_ids:
+  - q.ns05
+  canonical_indicator_ids:
+  - ci.ns.official_fx_monthly_change
+  - ci.ns.cpi_monthly
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Visually inspect short-run co-movement without claiming causality.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns10
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Rolling FX pass-through estimate
+  question_ids:
+  - q.ns05
+  canonical_indicator_ids:
+  - ci.ns.official_fx_monthly_change
+  - ci.ns.cpi_monthly
+  reference_frame_ids:
+  - rf.historical_2017_present
+  purpose: Estimate how pass-through evolves over time with an explicitly documented model later.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns11
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Inflation expectations vs realized inflation
+  question_ids:
+  - q.ns06
+  canonical_indicator_ids:
+  - ci.ns.infl_exp_1m
+  - ci.ns.cpi_monthly
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Show expectation errors and anchoring.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns12
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Inflation surprise through time
+  question_ids:
+  - q.ns06
+  canonical_indicator_ids:
+  - ci.ns.infl_surprise
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Measure how frequently actual inflation surprises expectations.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns13
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Expected inflation path
+  question_ids:
+  - q.ns07
+  canonical_indicator_ids:
+  - ci.ns.infl_exp_1m
+  - ci.ns.infl_exp_3m
+  - ci.ns.infl_exp_eop
+  reference_frame_ids: []
+  purpose: Summarize near-term and year-end inflation expectations.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns14
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Inflation expectations fan / horizon curve
+  question_ids:
+  - q.ns07
+  canonical_indicator_ids:
+  - ci.ns.infl_exp_1m
+  - ci.ns.infl_exp_3m
+  - ci.ns.infl_exp_eop
+  reference_frame_ids: []
+  purpose: Show expectation term structure across horizons.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns15
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Official exchange rate within the band
+  question_ids:
+  - q.ns08
+  canonical_indicator_ids:
+  - ci.ns.official_fx
+  - ci.ns.fx_band_lower
+  - ci.ns.fx_band_upper
+  reference_frame_ids:
+  - rf.apr_2025_fx_framework
+  purpose: Track market rate relative to policy corridor.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns16
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Position inside FX band
+  question_ids:
+  - q.ns08
+  canonical_indicator_ids:
+  - ci.ns.fx_band_position
+  reference_frame_ids:
+  - rf.apr_2025_fx_framework
+  purpose: Normalize the exchange rate's location within the band to 0-100.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns17
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Official, CCL and blue exchange rates
+  question_ids:
+  - q.ns09
+  canonical_indicator_ids:
+  - ci.ns.official_fx
+  - ci.ns.ccl_fx
+  - ci.ns.blue_fx
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Show convergence/divergence across FX markets.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns18
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: 'FX gaps: CCL and blue'
+  question_ids:
+  - q.ns09
+  canonical_indicator_ids:
+  - ci.ns.fx_gap_ccl
+  - ci.ns.fx_gap_blue
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Show market segmentation and stress.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns19
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: FX gap around stress episodes
+  question_ids:
+  - q.ns09
+  canonical_indicator_ids:
+  - ci.ns.fx_gap_ccl
+  - ci.ns.fx_gap_blue
+  reference_frame_ids:
+  - rf.pre_election_2025_vs_post
+  purpose: Compare stress and normalization windows.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns20
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Real effective exchange rate since Dec-2023
+  question_ids:
+  - q.ns10
+  canonical_indicator_ids:
+  - ci.ns.reer_index
+  - ci.ns.reer_change_dec2023
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  purpose: Quantify real appreciation/depreciation during stabilization.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns21
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Nominal vs real exchange-rate movement
+  question_ids:
+  - q.ns10
+  canonical_indicator_ids:
+  - ci.ns.official_fx
+  - ci.ns.reer_index
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  purpose: Contrast nominal depreciation with real appreciation/depreciation.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns22
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Real exchange rate with major policy-regime markers
+  question_ids:
+  - q.ns10
+  canonical_indicator_ids:
+  - ci.ns.reer_index
+  reference_frame_ids:
+  - rf.apr_2025_fx_framework
+  purpose: Put real FX dynamics in institutional context.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns23
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: BCRA daily FX purchases
+  question_ids:
+  - q.ns11
+  canonical_indicator_ids:
+  - ci.ns.bcra_fx_purchases_daily
+  reference_frame_ids:
+  - rf.jan_2026_fx_purchase_program
+  purpose: Show daily intervention/purchase intensity.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns24
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Cumulative BCRA FX purchases
+  question_ids:
+  - q.ns11
+  canonical_indicator_ids:
+  - ci.ns.bcra_fx_purchases_daily
+  reference_frame_ids:
+  - rf.jan_2026_fx_purchase_program
+  purpose: Show cumulative purchase program progress.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns25
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: BCRA purchases vs official exchange rate
+  question_ids:
+  - q.ns11
+  canonical_indicator_ids:
+  - ci.ns.bcra_fx_purchases_daily
+  - ci.ns.official_fx
+  reference_frame_ids:
+  - rf.jan_2026_fx_purchase_program
+  purpose: Inspect coexistence of purchases and FX stability/appreciation.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns26
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: BCRA purchases vs monetary-base growth
+  question_ids:
+  - q.ns11
+  canonical_indicator_ids:
+  - ci.ns.bcra_fx_purchases_daily
+  - ci.ns.monetary_base_nominal
+  reference_frame_ids:
+  - rf.jan_2026_fx_purchase_program
+  purpose: Show monetary counterpart of FX operations.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns27
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Nominal rates vs expected inflation
+  question_ids:
+  - q.ns12
+  canonical_indicator_ids:
+  - ci.ns.tamar_nominal
+  - ci.ns.infl_exp_3m
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Show nominal return relative to expectations.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns28
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Ex-ante vs ex-post real rates
+  question_ids:
+  - q.ns12
+  canonical_indicator_ids:
+  - ci.ns.tamar_real_exante
+  - ci.ns.tamar_real_expost
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Distinguish realized and expected monetary tightness.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns29
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Real-rate regime since 2025
+  question_ids:
+  - q.ns12
+  canonical_indicator_ids:
+  - ci.ns.tamar_real_exante
+  reference_frame_ids:
+  - rf.apr_2025_fx_framework
+  purpose: Show periods of positive/negative real rates.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns30
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Money-market rate volatility
+  question_ids:
+  - q.ns13
+  canonical_indicator_ids:
+  - ci.ns.money_market_rate
+  reference_frame_ids:
+  - rf.pre_election_2025_vs_post
+  purpose: Show stress and subsequent normalization in short rates.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns31
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Policy-relevant rate vs money-market rate
+  question_ids:
+  - q.ns13
+  canonical_indicator_ids:
+  - ci.ns.policy_rate_nominal
+  - ci.ns.money_market_rate
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Track transmission and market segmentation.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns32
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Reserve requirements and BCRA peso deposits
+  question_ids:
+  - q.ns14
+  canonical_indicator_ids:
+  - ci.ns.reserve_requirement_ratio
+  - ci.ns.bcra_peso_deposits
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Show regulatory liquidity tightness.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns33
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Reserve requirement changes with money-market rates
+  question_ids:
+  - q.ns14
+  canonical_indicator_ids:
+  - ci.ns.reserve_requirement_ratio
+  - ci.ns.money_market_rate
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Inspect liquidity-rule changes and short rates.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns34
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Nominal monetary base
+  question_ids:
+  - q.ns15
+  canonical_indicator_ids:
+  - ci.ns.monetary_base_nominal
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  purpose: Show recovery in nominal base money.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns35
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Real monetary base
+  question_ids:
+  - q.ns15
+  canonical_indicator_ids:
+  - ci.ns.monetary_base_real
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  purpose: Show monetization after correcting for inflation.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns36
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Transactional M2 nominal and real
+  question_ids:
+  - q.ns15
+  canonical_indicator_ids:
+  - ci.ns.transactional_m2_nominal
+  - ci.ns.transactional_m2_real
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  purpose: Separate nominal expansion from real money-demand recovery.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns37
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Transactional M2 vs BCRA projection
+  question_ids:
+  - q.ns15
+  canonical_indicator_ids:
+  - ci.ns.transactional_m2_nominal
+  - ci.ns.transactional_m2_projection_gap
+  reference_frame_ids: []
+  purpose: Assess whether money demand is recovering as programmed.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns38
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: M2-to-GDP monetization ratio
+  question_ids:
+  - q.ns15
+  canonical_indicator_ids:
+  - ci.ns.m2_to_gdp
+  reference_frame_ids:
+  - rf.historical_2017_present
+  purpose: Show structural depth of domestic monetization.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns39
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Remonetization vs inflation
+  question_ids:
+  - q.ns16
+  canonical_indicator_ids:
+  - ci.ns.transactional_m2_real
+  - ci.ns.cpi_monthly
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  purpose: Show whether real money balances recover while inflation falls.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns40
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Remonetization vs BCRA FX purchases
+  question_ids:
+  - q.ns16
+  canonical_indicator_ids:
+  - ci.ns.transactional_m2_real
+  - ci.ns.bcra_fx_purchases_daily
+  reference_frame_ids:
+  - rf.jan_2026_fx_purchase_program
+  purpose: Visualize the policy complementarity/tradeoff highlighted by the program.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns41
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Monetary base vs transactional M2
+  question_ids:
+  - q.ns16
+  canonical_indicator_ids:
+  - ci.ns.monetary_base_real
+  - ci.ns.transactional_m2_real
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  purpose: Distinguish money supply from private money demand.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns42
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Monetary-base growth vs money-demand proxy
+  question_ids:
+  - q.ns17
+  canonical_indicator_ids:
+  - ci.ns.monetary_base_nominal
+  - ci.ns.transactional_m2_nominal
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Check consistency between operational aggregate and demand proxy.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns43
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: 'Monetization dashboard: base, M2, inflation'
+  question_ids:
+  - q.ns17
+  canonical_indicator_ids:
+  - ci.ns.monetary_base_real
+  - ci.ns.transactional_m2_real
+  - ci.ns.cpi_monthly
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  purpose: Compact view of monetary normalization.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns44
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: 'Credibility dashboard: inflation expectations, FX gap, real rates'
+  question_ids:
+  - q.ns18
+  canonical_indicator_ids:
+  - ci.ns.infl_exp_3m
+  - ci.ns.fx_gap_ccl
+  - ci.ns.tamar_real_exante
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Show multiple market signals of stabilization credibility.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns45
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: FX futures vs top of band
+  question_ids:
+  - q.ns18
+  canonical_indicator_ids:
+  - ci.ns.fx_forward_1m
+  - ci.ns.fx_band_upper
+  reference_frame_ids:
+  - rf.apr_2025_fx_framework
+  purpose: Show market-implied depreciation relative to policy corridor.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns46
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: End-of-year FX forward vs inflation expectation
+  question_ids:
+  - q.ns18
+  canonical_indicator_ids:
+  - ci.ns.fx_forward_eoy
+  - ci.ns.infl_exp_eop
+  reference_frame_ids: []
+  purpose: Compare nominal FX and inflation expectations over a common horizon.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns47
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: FX gap vs inflation expectations
+  question_ids:
+  - q.ns18
+  canonical_indicator_ids:
+  - ci.ns.fx_gap_ccl
+  - ci.ns.infl_exp_3m
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Inspect whether FX-market stress and inflation expectations move together.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns48
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Money-market volatility vs FX gap
+  question_ids:
+  - q.ns18
+  canonical_indicator_ids:
+  - ci.ns.money_market_rate
+  - ci.ns.fx_gap_ccl
+  reference_frame_ids:
+  - rf.pre_election_2025_vs_post
+  purpose: Compare two stress/credibility signals.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns49
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: 'Carry environment: real rates vs FX depreciation'
+  question_ids:
+  - q.ns12
+  canonical_indicator_ids:
+  - ci.ns.tamar_real_exante
+  - ci.ns.official_fx_monthly_change
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: Characterize incentives behind carry-trade narratives without prescribing investment.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns50
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Inflation vs FX depreciation since stabilization start
+  question_ids:
+  - q.ns05
+  canonical_indicator_ids:
+  - ci.ns.cpi_monthly
+  - ci.ns.official_fx_monthly_change
+  reference_frame_ids:
+  - rf.dec_2023_anchor
+  purpose: Longer view of co-movement and changing pass-through.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns51
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Core services vs core goods inflation
+  question_ids:
+  - q.ns03
+  canonical_indicator_ids:
+  - ci.ns.trimmed_services_3m_ann
+  - ci.ns.trimmed_goods_3m_ann
+  reference_frame_ids:
+  - rf.rolling_3m_annualized
+  purpose: Identify composition shifts in underlying inflation.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true
+- id: pi.ns52
+  version: '0.1'
+  status: proposed_v0_1
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: nominal_stabilization
+  title: Nominal-stabilization state map
+  question_ids:
+  - q.ns18
+  canonical_indicator_ids:
+  - ci.ns.cpi_3m_ann
+  - ci.ns.infl_exp_3m
+  - ci.ns.fx_gap_ccl
+  - ci.ns.tamar_real_exante
+  - ci.ns.transactional_m2_projection_gap
+  reference_frame_ids:
+  - rf.trailing_12m
+  purpose: A compact multi-indicator state vector for the slice; not a single causal index.
+  plot_status: candidate
+  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  provenance:
+    media_evidence_tags:
+    - inflation
+    - dollar
+    - rates
+    - BCRA
+    imf_2026_refs:
+    - Figure 4
+    - Figure 1
+    - Monetary and Exchange Rate Policies
+    model_prior_used: true

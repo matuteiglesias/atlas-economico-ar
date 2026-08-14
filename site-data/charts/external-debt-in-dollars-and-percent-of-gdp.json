@@ -1,0 +1,157 @@
+{
+  "id": "pi.ef27",
+  "kind": "chart",
+  "slug": "external-debt-in-dollars-and-percent-of-gdp",
+  "title": "External debt in dollars and percent of GDP",
+  "href": "/charts/external-debt-in-dollars-and-percent-of-gdp",
+  "dek": "Separate the nominal debt stock from its burden relative to the economy.",
+  "intro": "This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation.",
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef13",
+      "kind": "question",
+      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
+      "title": "Is the external debt burden becoming easier to service?",
+      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ef.external_public_debt",
+      "kind": "topic",
+      "slug": "external-public-debt",
+      "title": "External public debt",
+      "href": "/topics/external-public-debt"
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service"
+    },
+    {
+      "id": "ef.reserve_adequacy",
+      "kind": "topic",
+      "slug": "reserve-adequacy",
+      "title": "Reserve adequacy",
+      "href": "/topics/reserve-adequacy"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.external_debt_usd",
+      "kind": "indicator",
+      "slug": "total-external-debt",
+      "title": "Total external debt",
+      "href": "/indicators/total-external-debt"
+    },
+    {
+      "id": "ci.ef.external_debt_gdp",
+      "kind": "indicator",
+      "slug": "external-debt-as-share-of-gdp",
+      "title": "External debt as share of GDP",
+      "href": "/indicators/external-debt-as-share-of-gdp"
+    }
+  ],
+  "referenceFrameIds": [
+    "rf.ef.pre_pandemic_2019"
+  ],
+  "chartSpec": {
+    "id": "cs.ef27",
+    "templateId": "dual_measure_time_series",
+    "refreshPolicy": "on_new_underlying_observation",
+    "dataAsOfPolicy": "latest_common_available_period"
+  },
+  "nearby": [
+    {
+      "id": "q.ef13",
+      "kind": "question",
+      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
+      "title": "Is the external debt burden becoming easier to service?",
+      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.external_debt_gdp",
+      "kind": "indicator",
+      "slug": "external-debt-as-share-of-gdp",
+      "title": "External debt as share of GDP",
+      "href": "/indicators/external-debt-as-share-of-gdp",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.external_debt_usd",
+      "kind": "indicator",
+      "slug": "total-external-debt",
+      "title": "Total external debt",
+      "href": "/indicators/total-external-debt",
+      "distance": 1
+    },
+    {
+      "id": "ef.external_public_debt",
+      "kind": "topic",
+      "slug": "external-public-debt",
+      "title": "External public debt",
+      "href": "/topics/external-public-debt",
+      "distance": 2
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service",
+      "distance": 2
+    },
+    {
+      "id": "ef.reserve_adequacy",
+      "kind": "topic",
+      "slug": "reserve-adequacy",
+      "title": "Reserve adequacy",
+      "href": "/topics/reserve-adequacy",
+      "distance": 2
+    },
+    {
+      "id": "pi.ef23",
+      "kind": "chart",
+      "slug": "debt-service-versus-reserves",
+      "title": "Debt service versus reserves",
+      "href": "/charts/debt-service-versus-reserves",
+      "distance": 2
+    },
+    {
+      "id": "pi.ef02",
+      "kind": "chart",
+      "slug": "reserve-adequacy-dashboard",
+      "title": "Reserve adequacy dashboard",
+      "href": "/charts/reserve-adequacy-dashboard",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 3,
+    "indicators": 2
+  }
+}

@@ -1,0 +1,925 @@
+relations:
+- id: rel.ef.gross_component_external
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.gross_reserves
+  to: ef.external_position
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.nir_measure_external
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.net_international_reserves
+  to: ef.external_position
+  relation_type: measurement_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.liquid_component_reserves
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.liquid_reserve_buffers
+  to: ef.gross_reserves
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.adequacy_uses_reserves
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.reserve_adequacy
+  to: ef.gross_reserves
+  relation_type: derived_from
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.adequacy_uses_nir
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.reserve_adequacy
+  to: ef.net_international_reserves
+  relation_type: derived_from
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.adequacy_constrains_vulnerability
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.reserve_adequacy
+  to: ef.external_vulnerability
+  relation_type: constraint_on
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.accumulation_builds_nir
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.reserve_accumulation
+  to: ef.net_international_reserves
+  relation_type: contributes_to
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.current_account_component_external
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.current_account
+  to: ef.external_position
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.goods_component_ca
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.goods_trade_balance
+  to: ef.current_account
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.services_component_ca
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.services_balance
+  to: ef.current_account
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.income_component_ca
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.primary_income_balance
+  to: ef.current_account
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.financial_component_external
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.financial_account
+  to: ef.external_position
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.inflows_component_financial
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.capital_inflows
+  to: ef.financial_account
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.fdi_component_inflows
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.foreign_direct_investment
+  to: ef.capital_inflows
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.hedging_pressure_financial
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.resident_fx_hedging
+  to: ef.financial_account
+  relation_type: contributes_to
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.hedging_pressure_reserves
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.resident_fx_hedging
+  to: ef.reserve_accumulation
+  relation_type: constraint_on
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.market_access_enables_inflows
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.market_access
+  to: ef.capital_inflows
+  relation_type: enables
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.sovereign_risk_spreads
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.sovereign_risk
+  to: ef.sovereign_spreads
+  relation_type: measurement_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.spreads_constrain_access
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.sovereign_spreads
+  to: ef.market_access
+  relation_type: constraint_on
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.debt_creates_service
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.external_public_debt
+  to: ef.fx_debt_service
+  relation_type: contributes_to
+  epistemic_status: accounting_relation
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.service_creates_refi
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.fx_debt_service
+  to: ef.refinancing_needs
+  relation_type: contributes_to
+  epistemic_status: accounting_relation
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.refi_constrains_access
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.refinancing_needs
+  to: ef.market_access
+  relation_type: constraint_on
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.service_constrains_reserves
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.fx_debt_service
+  to: ef.reserve_accumulation
+  relation_type: constraint_on
+  epistemic_status: accounting_relation
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.official_financing_enables_buffers
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.official_external_financing
+  to: ef.liquid_reserve_buffers
+  relation_type: contributes_to
+  epistemic_status: accounting_relation
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.swaps_component_official
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.swap_repo_financing
+  to: ef.official_external_financing
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.swaps_create_liabilities
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.swap_repo_financing
+  to: ef.external_vulnerability
+  relation_type: associated_with
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.issuance_enables_access
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.fx_market_issuance
+  to: ef.market_access
+  relation_type: associated_with
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.issuance_finances_refi
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.fx_market_issuance
+  to: ef.refinancing_needs
+  relation_type: contributes_to
+  epistemic_status: accounting_relation
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.financial_depth_enables_credit
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.financial_depth
+  to: ef.private_credit
+  relation_type: enables
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.credit_quality_constrains_credit
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.credit_quality
+  to: ef.private_credit
+  relation_type: constraint_on
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.fx_deposits_component_depth
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.fx_deposits
+  to: ef.financial_depth
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.capital_market_component_depth
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.domestic_capital_market_depth
+  to: ef.financial_depth
+  relation_type: component_of
+  epistemic_status: definition_measurement_or_construction
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.savings_enables_depth
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.domestic_savings_mobilization
+  to: ef.financial_depth
+  relation_type: enables
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.savings_enables_market
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.domestic_savings_mobilization
+  to: ef.domestic_capital_market_depth
+  relation_type: enables
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.vulnerability_constrained_by_access
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.market_access
+  to: ef.external_vulnerability
+  relation_type: constraint_on
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.vulnerability_associated_debt
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.external_public_debt
+  to: ef.external_vulnerability
+  relation_type: associated_with
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.vulnerability_associated_ca
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ef.current_account
+  to: ef.external_vulnerability
+  relation_type: associated_with
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.bcra_ops_build_reserves
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ns.bcra_fx_operations
+  to: ef.reserve_accumulation
+  relation_type: contributes_to
+  epistemic_status: economic_mechanism_or_policy_transmission_hypothesis
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.fx_hedging_port
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ns.fx_hedging_demand
+  to: ef.resident_fx_hedging
+  relation_type: associated_with
+  epistemic_status: agenda_or_cross_slice_bridge
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.reer_current_account_port
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ns.real_exchange_rate
+  to: ef.current_account
+  relation_type: associated_with
+  epistemic_status: agenda_or_cross_slice_bridge
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.reer_reserves_port
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ns.real_exchange_rate
+  to: ef.reserve_accumulation
+  relation_type: associated_with
+  epistemic_status: agenda_or_cross_slice_bridge
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.credibility_spreads_port
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ns.policy_credibility
+  to: ef.sovereign_spreads
+  relation_type: associated_with
+  epistemic_status: agenda_or_cross_slice_bridge
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.credibility_access_port
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ns.policy_credibility
+  to: ef.market_access
+  relation_type: associated_with
+  epistemic_status: agenda_or_cross_slice_bridge
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7
+- id: rel.ef.fx_level_external_port
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-14'
+  updated_at: '2026-08-14'
+  review_state: agent_draft_ready_for_human_review
+  slice_id: external_financial_constraint
+  from: ns.nominal_exchange_rate
+  to: ef.external_position
+  relation_type: associated_with
+  epistemic_status: agenda_or_cross_slice_bridge
+  provenance:
+    model_prior_used: true
+    media_evidence_tags:
+    - reserves
+    - debt
+    - external
+    imf_2026_refs:
+    - External sector discussion
+    - Figures 1, 6 and 7

@@ -1,0 +1,177 @@
+{
+  "id": "ef.credit_quality",
+  "kind": "topic",
+  "slug": "credit-quality",
+  "title": "Credit quality",
+  "href": "/topics/credit-quality",
+  "dek": "Capacity of borrowers to service debt, commonly monitored through arrears, non-performing loans, and provisioning.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.ef.credit_quality_constrains_credit",
+      "relation_type": "constraint_on",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ef.private_credit",
+        "kind": "topic",
+        "slug": "private-sector-credit",
+        "title": "Private-sector credit",
+        "href": "/topics/private-sector-credit"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef15",
+      "kind": "question",
+      "slug": "is-credit-quality-deteriorating-as-lending-expands",
+      "title": "Is credit quality deteriorating as lending expands?",
+      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.bank_capital_ratio",
+      "kind": "indicator",
+      "slug": "bank-regulatory-capital-ratio",
+      "title": "Bank regulatory capital ratio",
+      "href": "/indicators/bank-regulatory-capital-ratio"
+    },
+    {
+      "id": "ci.ef.bank_liquidity_ratio",
+      "kind": "indicator",
+      "slug": "bank-liquid-assets-ratio",
+      "title": "Bank liquid-assets ratio",
+      "href": "/indicators/bank-liquid-assets-ratio"
+    },
+    {
+      "id": "ci.ef.npl_ratio",
+      "kind": "indicator",
+      "slug": "non-performing-loans-ratio",
+      "title": "Non-performing loans ratio",
+      "href": "/indicators/non-performing-loans-ratio"
+    }
+  ],
+  "charts": [
+    {
+      "id": "pi.ef31",
+      "kind": "chart",
+      "slug": "real-credit-growth-versus-npl-ratio",
+      "title": "Real credit growth versus NPL ratio",
+      "href": "/charts/real-credit-growth-versus-npl-ratio"
+    },
+    {
+      "id": "pi.ef32",
+      "kind": "chart",
+      "slug": "npl-ratio-through-the-credit-cycle",
+      "title": "NPL ratio through the credit cycle",
+      "href": "/charts/npl-ratio-through-the-credit-cycle"
+    },
+    {
+      "id": "pi.ef34",
+      "kind": "chart",
+      "slug": "fx-deposits-versus-bank-liquidity",
+      "title": "FX deposits versus bank liquidity",
+      "href": "/charts/fx-deposits-versus-bank-liquidity"
+    },
+    {
+      "id": "pi.ef35",
+      "kind": "chart",
+      "slug": "bank-capital-and-npls",
+      "title": "Bank capital and NPLs",
+      "href": "/charts/bank-capital-and-npls"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ef15",
+      "kind": "question",
+      "slug": "is-credit-quality-deteriorating-as-lending-expands",
+      "title": "Is credit quality deteriorating as lending expands?",
+      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
+      "distance": 1
+    },
+    {
+      "id": "ef.private_credit",
+      "kind": "topic",
+      "slug": "private-sector-credit",
+      "title": "Private-sector credit",
+      "href": "/topics/private-sector-credit",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.bank_liquidity_ratio",
+      "kind": "indicator",
+      "slug": "bank-liquid-assets-ratio",
+      "title": "Bank liquid-assets ratio",
+      "href": "/indicators/bank-liquid-assets-ratio",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.bank_capital_ratio",
+      "kind": "indicator",
+      "slug": "bank-regulatory-capital-ratio",
+      "title": "Bank regulatory capital ratio",
+      "href": "/indicators/bank-regulatory-capital-ratio",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.npl_ratio",
+      "kind": "indicator",
+      "slug": "non-performing-loans-ratio",
+      "title": "Non-performing loans ratio",
+      "href": "/indicators/non-performing-loans-ratio",
+      "distance": 1
+    },
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": "/questions/how-shallow-is-argentina-s-financial-system",
+      "distance": 2
+    },
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening",
+      "distance": 2
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 1,
+    "questions": 1,
+    "indicators": 3,
+    "charts": 4
+  }
+}
