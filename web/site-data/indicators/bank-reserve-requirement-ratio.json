@@ -1,0 +1,128 @@
+{
+  "id": "ci.ns.reserve_requirement_ratio",
+  "kind": "indicator",
+  "slug": "bank-reserve-requirement-ratio",
+  "title": "Bank reserve requirement ratio",
+  "href": "/indicators/bank-reserve-requirement-ratio",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topic": {
+    "id": "ns.reserve_requirements",
+    "kind": "topic",
+    "slug": "reserve-requirements",
+    "title": "Reserve requirements",
+    "href": "/topics/reserve-requirements"
+  },
+  "unitSemantics": "percent",
+  "frequency": "daily_or_monthly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ns32",
+      "kind": "chart",
+      "slug": "reserve-requirements-and-bcra-peso-deposits",
+      "title": "Reserve requirements and BCRA peso deposits",
+      "href": "/charts/reserve-requirements-and-bcra-peso-deposits"
+    },
+    {
+      "id": "pi.ns33",
+      "kind": "chart",
+      "slug": "reserve-requirement-changes-with-money-market-rates",
+      "title": "Reserve requirement changes with money-market rates",
+      "href": "/charts/reserve-requirement-changes-with-money-market-rates"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [],
+  "nearby": [
+    {
+      "id": "ns.reserve_requirements",
+      "kind": "topic",
+      "slug": "reserve-requirements",
+      "title": "Reserve requirements",
+      "href": "/topics/reserve-requirements",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns33",
+      "kind": "chart",
+      "slug": "reserve-requirement-changes-with-money-market-rates",
+      "title": "Reserve requirement changes with money-market rates",
+      "href": "/charts/reserve-requirement-changes-with-money-market-rates",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns32",
+      "kind": "chart",
+      "slug": "reserve-requirements-and-bcra-peso-deposits",
+      "title": "Reserve requirements and BCRA peso deposits",
+      "href": "/charts/reserve-requirements-and-bcra-peso-deposits",
+      "distance": 1
+    },
+    {
+      "id": "q.ns14",
+      "kind": "question",
+      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "title": "How tight are bank reserve requirements and liquidity conditions?",
+      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "distance": 2
+    },
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base",
+      "distance": 2
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "distance": 2
+    },
+    {
+      "id": "ci.ns.bcra_peso_deposits",
+      "kind": "indicator",
+      "slug": "bcra-peso-deposits-reserve-balances",
+      "title": "BCRA peso deposits / reserve balances",
+      "href": "/indicators/bcra-peso-deposits-reserve-balances",
+      "distance": 2
+    },
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 2,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 0
+  }
+}

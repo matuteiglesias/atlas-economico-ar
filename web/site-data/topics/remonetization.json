@@ -1,0 +1,184 @@
+{
+  "id": "ns.remonetization",
+  "kind": "topic",
+  "slug": "remonetization",
+  "title": "Remonetization",
+  "href": "/topics/remonetization",
+  "dek": "Recovery in the real demand for and holdings of domestic money after a low-monetization episode.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.m2_measures_remonetization",
+      "relation_type": "measurement_of",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.transactional_m2",
+        "kind": "topic",
+        "slug": "transactional-m2",
+        "title": "Transactional M2",
+        "href": "/topics/transactional-m2"
+      }
+    },
+    {
+      "relation_id": "rel.fx_ops_link_remonetization",
+      "relation_type": "policy_tradeoff",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.bcra_fx_operations",
+        "kind": "topic",
+        "slug": "bcra-fx-operations",
+        "title": "BCRA FX operations",
+        "href": "/topics/bcra-fx-operations"
+      }
+    },
+    {
+      "relation_id": "rel.remonetization_component_money_demand",
+      "relation_type": "component_of",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.money_demand",
+        "kind": "topic",
+        "slug": "money-demand",
+        "title": "Money demand",
+        "href": "/topics/money-demand"
+      }
+    },
+    {
+      "relation_id": "rel.remonetization_supports_framework",
+      "relation_type": "enables",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.monetary_targeting_framework",
+        "kind": "topic",
+        "slug": "monetary-targeting-framework",
+        "title": "Monetary targeting framework",
+        "href": "/topics/monetary-targeting-framework"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation"
+    }
+  ],
+  "indicators": [],
+  "charts": [
+    {
+      "id": "pi.ns39",
+      "kind": "chart",
+      "slug": "remonetization-vs-inflation",
+      "title": "Remonetization vs inflation",
+      "href": "/charts/remonetization-vs-inflation"
+    },
+    {
+      "id": "pi.ns40",
+      "kind": "chart",
+      "slug": "remonetization-vs-bcra-fx-purchases",
+      "title": "Remonetization vs BCRA FX purchases",
+      "href": "/charts/remonetization-vs-bcra-fx-purchases"
+    },
+    {
+      "id": "pi.ns41",
+      "kind": "chart",
+      "slug": "monetary-base-vs-transactional-m2",
+      "title": "Monetary base vs transactional M2",
+      "href": "/charts/monetary-base-vs-transactional-m2"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations",
+      "distance": 1
+    },
+    {
+      "id": "ns.monetary_targeting_framework",
+      "kind": "topic",
+      "slug": "monetary-targeting-framework",
+      "title": "Monetary targeting framework",
+      "href": "/topics/monetary-targeting-framework",
+      "distance": 1
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "distance": 1
+    },
+    {
+      "id": "ns.transactional_m2",
+      "kind": "topic",
+      "slug": "transactional-m2",
+      "title": "Transactional M2",
+      "href": "/topics/transactional-m2",
+      "distance": 1
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "distance": 2
+    },
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering",
+      "distance": 2
+    },
+    {
+      "id": "q.ns17",
+      "kind": "question",
+      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 4,
+    "questions": 1,
+    "indicators": 0,
+    "charts": 3
+  }
+}

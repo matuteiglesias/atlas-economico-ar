@@ -1,0 +1,130 @@
+{
+  "id": "ci.ns.fx_gap_blue",
+  "kind": "indicator",
+  "slug": "blue-official-fx-gap",
+  "title": "Blue-official FX gap",
+  "href": "/indicators/blue-official-fx-gap",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topic": {
+    "id": "ns.fx_gap",
+    "kind": "topic",
+    "slug": "fx-gap",
+    "title": "FX gap",
+    "href": "/topics/fx-gap"
+  },
+  "unitSemantics": "percent",
+  "frequency": "daily",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ns18",
+      "kind": "chart",
+      "slug": "fx-gaps-ccl-and-blue",
+      "title": "FX gaps: CCL and blue",
+      "href": "/charts/fx-gaps-ccl-and-blue"
+    },
+    {
+      "id": "pi.ns19",
+      "kind": "chart",
+      "slug": "fx-gap-around-stress-episodes",
+      "title": "FX gap around stress episodes",
+      "href": "/charts/fx-gap-around-stress-episodes"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [
+    "di.ns.fx_gap_blue"
+  ],
+  "nearby": [
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns19",
+      "kind": "chart",
+      "slug": "fx-gap-around-stress-episodes",
+      "title": "FX gap around stress episodes",
+      "href": "/charts/fx-gap-around-stress-episodes",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns18",
+      "kind": "chart",
+      "slug": "fx-gaps-ccl-and-blue",
+      "title": "FX gaps: CCL and blue",
+      "href": "/charts/fx-gaps-ccl-and-blue",
+      "distance": 1
+    },
+    {
+      "id": "q.ns09",
+      "kind": "question",
+      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "title": "How large is the gap between official and parallel exchange rates?",
+      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "distance": 2
+    },
+    {
+      "id": "q.ns18",
+      "kind": "question",
+      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "distance": 2
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 2
+    },
+    {
+      "id": "ns.parallel_exchange_rate",
+      "kind": "topic",
+      "slug": "parallel-exchange-rate",
+      "title": "Parallel exchange rate",
+      "href": "/topics/parallel-exchange-rate",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 2,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 1
+  }
+}

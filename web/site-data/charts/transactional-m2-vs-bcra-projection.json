@@ -1,0 +1,150 @@
+{
+  "id": "pi.ns37",
+  "kind": "chart",
+  "slug": "transactional-m2-vs-bcra-projection",
+  "title": "Transactional M2 vs BCRA projection",
+  "href": "/charts/transactional-m2-vs-bcra-projection",
+  "dek": "Assess whether money demand is recovering as programmed.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base"
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand"
+    },
+    {
+      "id": "ns.transactional_m2",
+      "kind": "topic",
+      "slug": "transactional-m2",
+      "title": "Transactional M2",
+      "href": "/topics/transactional-m2"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.transactional_m2_nominal",
+      "kind": "indicator",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/indicators/private-transactional-m2"
+    },
+    {
+      "id": "ci.ns.transactional_m2_projection_gap",
+      "kind": "indicator",
+      "slug": "transactional-m2-gap-vs-bcra-projection",
+      "title": "Transactional M2 gap vs BCRA projection",
+      "href": "/indicators/transactional-m2-gap-vs-bcra-projection"
+    }
+  ],
+  "referenceFrameIds": [],
+  "chartSpec": null,
+  "nearby": [
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.transactional_m2_nominal",
+      "kind": "indicator",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/indicators/private-transactional-m2",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.transactional_m2_projection_gap",
+      "kind": "indicator",
+      "slug": "transactional-m2-gap-vs-bcra-projection",
+      "title": "Transactional M2 gap vs BCRA projection",
+      "href": "/indicators/transactional-m2-gap-vs-bcra-projection",
+      "distance": 1
+    },
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base",
+      "distance": 2
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "distance": 2
+    },
+    {
+      "id": "ns.transactional_m2",
+      "kind": "topic",
+      "slug": "transactional-m2",
+      "title": "Transactional M2",
+      "href": "/topics/transactional-m2",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns38",
+      "kind": "chart",
+      "slug": "m2-to-gdp-monetization-ratio",
+      "title": "M2-to-GDP monetization ratio",
+      "href": "/charts/m2-to-gdp-monetization-ratio",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns42",
+      "kind": "chart",
+      "slug": "monetary-base-growth-vs-money-demand-proxy",
+      "title": "Monetary-base growth vs money-demand proxy",
+      "href": "/charts/monetary-base-growth-vs-money-demand-proxy",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 3,
+    "indicators": 2
+  }
+}

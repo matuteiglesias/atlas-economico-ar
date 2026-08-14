@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint",
+    "regionId": "external_financial_constraint",
+    "text": "External & Financial Constraint Explain external buffers, reserve adequacy, financing, market access, sovereign risk, balance-of-payments pressure, and financial-sector depth/vulnerability."
+  },
+  {
+    "id": "fiscal_regime",
+    "kind": "region",
+    "slug": "fiscal-regime",
+    "title": "Fiscal Regime",
+    "href": "/areas/fiscal-regime",
+    "regionId": "fiscal_regime",
+    "text": "Fiscal Regime Explain revenues, spending, balances, subsidies, pensions, public financing needs, and institutional durability of the fiscal anchor."
+  },
+  {
+    "id": "household_welfare",
+    "kind": "region",
+    "slug": "household-welfare",
+    "title": "Household Welfare",
+    "href": "/areas/household-welfare",
+    "regionId": "household_welfare",
+    "text": "Household Welfare Explain purchasing power, poverty, basic baskets, distribution, social benefits, and how macro/labor changes reach households."
+  },
+  {
+    "id": "labor_incomes",
+    "kind": "region",
+    "slug": "labor-incomes",
+    "title": "Labor & Incomes",
+    "href": "/areas/labor-incomes",
+    "regionId": "labor_incomes",
+    "text": "Labor & Incomes Explain employment quantity/quality, labor formalization, wages, real earnings, informality, and labor-market transmission from sectoral change."
+  },
+  {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization",
+    "regionId": "nominal_stabilization",
+    "text": "Nominal Stabilization How prices, exchange rates, monetary conditions, and expectations interact during Argentina's stabilization process."
+  },
+  {
+    "id": "real_economy",
+    "kind": "region",
+    "slug": "real-economy",
+    "title": "Real Economy",
+    "href": "/areas/real-economy",
+    "regionId": "real_economy",
+    "text": "Real Economy Explain output, demand, investment, consumption, sectoral performance, production structure, and the real-side consequences of stabilization and openness."
+  },
+  {
+    "id": "ns.inflation",
+    "kind": "topic",
+    "slug": "inflation",
+    "title": "Inflation",
+    "href": "/topics/inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Inflation How quickly the general level of prices is changing — and one of the central variables around which Argentina's stabilization process is organized. General sustained change in the domestic price level. core"
+  },
+  {
+    "id": "ns.headline_inflation",
+    "kind": "topic",
+    "slug": "headline-inflation",
+    "title": "Headline inflation",
+    "href": "/topics/headline-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Headline inflation Observed CPI inflation including all major CPI components. Observed CPI inflation including all major CPI components. core"
+  },
+  {
+    "id": "ns.core_inflation",
+    "kind": "topic",
+    "slug": "core-inflation",
+    "title": "Core inflation",
+    "href": "/topics/core-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Core inflation Underlying inflation measure designed to abstract from selected volatile or regulated components. Underlying inflation measure designed to abstract from selected volatile or regulated components. core"
+  },
+  {
+    "id": "ns.inflation_expectations",
+    "kind": "topic",
+    "slug": "inflation-expectations",
+    "title": "Inflation expectations",
+    "href": "/topics/inflation-expectations",
+    "regionId": "nominal_stabilization",
+    "text": "Inflation expectations Expected future inflation across relevant horizons. Expected future inflation across relevant horizons. core"
+  },
+  {
+    "id": "ns.inflation_inertia",
+    "kind": "topic",
+    "slug": "inflation-inertia",
+    "title": "Inflation inertia",
+    "href": "/topics/inflation-inertia",
+    "regionId": "nominal_stabilization",
+    "text": "Inflation inertia Persistence in price-setting dynamics linked to backward-looking adjustment, contracts, and expectations. Persistence in price-setting dynamics linked to backward-looking adjustment, contracts, and expectations. mechanism"
+  },
+  {
+    "id": "ns.relative_price_adjustment",
+    "kind": "topic",
+    "slug": "relative-price-adjustment",
+    "title": "Relative-price adjustment",
+    "href": "/topics/relative-price-adjustment",
+    "regionId": "nominal_stabilization",
+    "text": "Relative-price adjustment Repricing of specific goods/services relative to the general price level after distortions or controls. Repricing of specific goods/services relative to the general price level after distortions or controls. mechanism"
+  },
+  {
+    "id": "ns.fx_pass_through",
+    "kind": "topic",
+    "slug": "fx-pass-through",
+    "title": "FX pass-through",
+    "href": "/topics/fx-pass-through",
+    "regionId": "nominal_stabilization",
+    "text": "FX pass-through Transmission from exchange-rate movements to domestic prices. Transmission from exchange-rate movements to domestic prices. mechanism"
+  },
+  {
+    "id": "ns.aggregate_demand_pressure",
+    "kind": "topic",
+    "slug": "aggregate-demand-pressure",
+    "title": "Aggregate-demand pressure",
+    "href": "/topics/aggregate-demand-pressure",
+    "regionId": "nominal_stabilization",
+    "text": "Aggregate-demand pressure Demand-side pressure on prices at the macro level. Demand-side pressure on prices at the macro level. mechanism"
+  },
+  {
+    "id": "ns.nominal_exchange_rate",
+    "kind": "topic",
+    "slug": "nominal-exchange-rate",
+    "title": "Nominal exchange rate",
+    "href": "/topics/nominal-exchange-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Nominal exchange rate Peso price of foreign currency in the relevant FX market. Peso price of foreign currency in the relevant FX market. core"
+  },
+  {
+    "id": "ns.exchange_rate_band",
+    "kind": "topic",
+    "slug": "exchange-rate-band",
+    "title": "Exchange-rate band",
+    "href": "/topics/exchange-rate-band",
+    "regionId": "nominal_stabilization",
+    "text": "Exchange-rate band Policy corridor defining lower and upper bounds for the official exchange rate. Policy corridor defining lower and upper bounds for the official exchange rate. policy_framework"
+  },
+  {
+    "id": "ns.parallel_exchange_rate",
+    "kind": "topic",
+    "slug": "parallel-exchange-rate",
+    "title": "Parallel exchange rate",
+    "href": "/topics/parallel-exchange-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Parallel exchange rate Non-official or alternative market exchange-rate quotation such as CCL/MEP/blue. Non-official or alternative market exchange-rate quotation such as CCL/MEP/blue. market"
+  },
+  {
+    "id": "ns.fx_gap",
+    "kind": "topic",
+    "slug": "fx-gap",
+    "title": "FX gap",
+    "href": "/topics/fx-gap",
+    "regionId": "nominal_stabilization",
+    "text": "FX gap Percentage wedge between a parallel exchange rate and the official exchange rate. Percentage wedge between a parallel exchange rate and the official exchange rate. derived_concept"
+  },
+  {
+    "id": "ns.real_exchange_rate",
+    "kind": "topic",
+    "slug": "real-exchange-rate",
+    "title": "Real exchange rate",
+    "href": "/topics/real-exchange-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Real exchange rate Price-adjusted exchange-rate measure used to assess real appreciation/depreciation and competitiveness. Price-adjusted exchange-rate measure used to assess real appreciation/depreciation and competitiveness. core"
+  },
+  {
+    "id": "ns.policy_rate",
+    "kind": "topic",
+    "slug": "policy-interest-rate",
+    "title": "Policy interest rate",
+    "href": "/topics/policy-interest-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Policy interest rate Interest-rate instrument or policy-relevant short rate used to characterize monetary stance. Interest-rate instrument or policy-relevant short rate used to characterize monetary stance. policy"
+  },
+  {
+    "id": "ns.money_market_rate",
+    "kind": "topic",
+    "slug": "money-market-rate",
+    "title": "Money-market rate",
+    "href": "/topics/money-market-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Money-market rate Short-term market interest rate reflecting liquidity conditions. Short-term market interest rate reflecting liquidity conditions. market"
+  },
+  {
+    "id": "ns.real_interest_rate",
+    "kind": "topic",
+    "slug": "real-interest-rate",
+    "title": "Real interest rate",
+    "href": "/topics/real-interest-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Real interest rate Nominal interest rate adjusted for actual or expected inflation. Nominal interest rate adjusted for actual or expected inflation. derived_concept"
+  },
+  {
+    "id": "ns.reserve_requirements",
+    "kind": "topic",
+    "slug": "reserve-requirements",
+    "title": "Reserve requirements",
+    "href": "/topics/reserve-requirements",
+    "regionId": "nominal_stabilization",
+    "text": "Reserve requirements Regulatory reserve/liquidity requirements imposed on banks. Regulatory reserve/liquidity requirements imposed on banks. policy"
+  },
+  {
+    "id": "ns.monetary_base",
+    "kind": "topic",
+    "slug": "monetary-base",
+    "title": "Monetary base",
+    "href": "/topics/monetary-base",
+    "regionId": "nominal_stabilization",
+    "text": "Monetary base Currency plus relevant central-bank reserve money liabilities. Currency plus relevant central-bank reserve money liabilities. measurement_concept"
+  },
+  {
+    "id": "ns.transactional_m2",
+    "kind": "topic",
+    "slug": "transactional-m2",
+    "title": "Transactional M2",
+    "href": "/topics/transactional-m2",
+    "regionId": "nominal_stabilization",
+    "text": "Transactional M2 Private transactional broad-money aggregate used as an indicator of money demand. Private transactional broad-money aggregate used as an indicator of money demand. measurement_concept"
+  },
+  {
+    "id": "ns.money_demand",
+    "kind": "topic",
+    "slug": "money-demand",
+    "title": "Money demand",
+    "href": "/topics/money-demand",
+    "regionId": "nominal_stabilization",
+    "text": "Money demand Desired holdings of domestic monetary balances. Desired holdings of domestic monetary balances. core"
+  },
+  {
+    "id": "ns.remonetization",
+    "kind": "topic",
+    "slug": "remonetization",
+    "title": "Remonetization",
+    "href": "/topics/remonetization",
+    "regionId": "nominal_stabilization",
+    "text": "Remonetization Recovery in the real demand for and holdings of domestic money after a low-monetization episode. Recovery in the real demand for and holdings of domestic money after a low-monetization episode. process"
+  },
+  {
+    "id": "ns.monetary_targeting_framework",
+    "kind": "topic",
+    "slug": "monetary-targeting-framework",
+    "title": "Monetary targeting framework",
+    "href": "/topics/monetary-targeting-framework",
+    "regionId": "nominal_stabilization",
+    "text": "Monetary targeting framework Operational framework centered on monetary aggregates as targets or guides. Operational framework centered on monetary aggregates as targets or guides. policy_framework"
+  },
+  {
+    "id": "ns.policy_credibility",
+    "kind": "topic",
+    "slug": "policy-credibility",
+    "title": "Policy credibility",
+    "href": "/topics/policy-credibility",
+    "regionId": "nominal_stabilization",
+    "text": "Policy credibility Degree to which agents believe announced stabilization policy will be sustained and effective. Degree to which agents believe announced stabilization policy will be sustained and effective. mechanism"
+  },
+  {
+    "id": "ns.bcra_fx_operations",
+    "kind": "topic",
+    "slug": "bcra-fx-operations",
+    "title": "BCRA FX operations",
+    "href": "/topics/bcra-fx-operations",
+    "regionId": "nominal_stabilization",
+    "text": "BCRA FX operations Central-bank purchases or sales of foreign currency affecting market liquidity and reserve accumulation. Central-bank purchases or sales of foreign currency affecting market liquidity and reserve accumulation. boundary_port"
+  },
+  {
+    "id": "ns.fx_hedging_demand",
+    "kind": "topic",
+    "slug": "fx-hedging-demand",
+    "title": "FX hedging demand",
+    "href": "/topics/fx-hedging-demand",
+    "regionId": "nominal_stabilization",
+    "text": "FX hedging demand Private demand for foreign-currency exposure or protection against peso depreciation. Private demand for foreign-currency exposure or protection against peso depreciation. market"
+  },
+  {
+    "id": "q.ns01",
+    "kind": "question",
+    "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+    "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+    "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+    "regionId": "nominal_stabilization",
+    "text": "How fast is inflation running now, and is it accelerating or decelerating? direction_change"
+  },
+  {
+    "id": "q.ns02",
+    "kind": "question",
+    "slug": "has-the-disinflation-process-stalled-or-resumed",
+    "title": "Has the disinflation process stalled or resumed?",
+    "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
+    "regionId": "nominal_stabilization",
+    "text": "Has the disinflation process stalled or resumed? trend_regime"
+  },
+  {
+    "id": "q.ns03",
+    "kind": "question",
+    "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
+    "title": "Is disinflation broad-based across underlying inflation measures?",
+    "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
+    "regionId": "nominal_stabilization",
+    "text": "Is disinflation broad-based across underlying inflation measures? breadth"
+  },
+  {
+    "id": "q.ns04",
+    "kind": "question",
+    "slug": "what-is-driving-monthly-inflation",
+    "title": "What is driving monthly inflation?",
+    "href": "/questions/what-is-driving-monthly-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "What is driving monthly inflation? Separate persistence from relative-price changes, demand conditions, interest rates, and exchange-rate pass-through. decomposition"
+  },
+  {
+    "id": "q.ns05",
+    "kind": "question",
+    "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+    "title": "How much do exchange-rate movements pass through to domestic prices?",
+    "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+    "regionId": "nominal_stabilization",
+    "text": "How much do exchange-rate movements pass through to domestic prices? mechanism"
+  },
+  {
+    "id": "q.ns06",
+    "kind": "question",
+    "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+    "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+    "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Are inflation expectations leading, lagging, or validating realized inflation? expectations"
+  },
+  {
+    "id": "q.ns07",
+    "kind": "question",
+    "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+    "title": "What inflation path does the market expect over the next months and year-end?",
+    "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+    "regionId": "nominal_stabilization",
+    "text": "What inflation path does the market expect over the next months and year-end? forecast"
+  },
+  {
+    "id": "q.ns08",
+    "kind": "question",
+    "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
+    "title": "Where is the official exchange rate inside the policy band?",
+    "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band",
+    "regionId": "nominal_stabilization",
+    "text": "Where is the official exchange rate inside the policy band? policy_monitoring"
+  },
+  {
+    "id": "q.ns09",
+    "kind": "question",
+    "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+    "title": "How large is the gap between official and parallel exchange rates?",
+    "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+    "regionId": "nominal_stabilization",
+    "text": "How large is the gap between official and parallel exchange rates? comparison"
+  },
+  {
+    "id": "q.ns10",
+    "kind": "question",
+    "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+    "title": "How much has the peso appreciated or depreciated in real terms?",
+    "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+    "regionId": "nominal_stabilization",
+    "text": "How much has the peso appreciated or depreciated in real terms? historical_comparison"
+  },
+  {
+    "id": "q.ns11",
+    "kind": "question",
+    "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+    "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+    "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+    "regionId": "nominal_stabilization",
+    "text": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions? policy_transmission"
+  },
+  {
+    "id": "q.ns12",
+    "kind": "question",
+    "slug": "are-interest-rates-restrictive-in-real-terms",
+    "title": "Are interest rates restrictive in real terms?",
+    "href": "/questions/are-interest-rates-restrictive-in-real-terms",
+    "regionId": "nominal_stabilization",
+    "text": "Are interest rates restrictive in real terms? policy_stance"
+  },
+  {
+    "id": "q.ns13",
+    "kind": "question",
+    "slug": "has-short-term-interest-rate-volatility-normalized",
+    "title": "Has short-term interest-rate volatility normalized?",
+    "href": "/questions/has-short-term-interest-rate-volatility-normalized",
+    "regionId": "nominal_stabilization",
+    "text": "Has short-term interest-rate volatility normalized? market_functioning"
+  },
+  {
+    "id": "q.ns14",
+    "kind": "question",
+    "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+    "title": "How tight are bank reserve requirements and liquidity conditions?",
+    "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+    "regionId": "nominal_stabilization",
+    "text": "How tight are bank reserve requirements and liquidity conditions? liquidity"
+  },
+  {
+    "id": "q.ns15",
+    "kind": "question",
+    "slug": "is-domestic-money-demand-recovering",
+    "title": "Is domestic money demand recovering?",
+    "href": "/questions/is-domestic-money-demand-recovering",
+    "regionId": "nominal_stabilization",
+    "text": "Is domestic money demand recovering? monetization"
+  },
+  {
+    "id": "q.ns16",
+    "kind": "question",
+    "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+    "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+    "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation? policy_tradeoff"
+  },
+  {
+    "id": "q.ns17",
+    "kind": "question",
+    "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+    "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+    "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+    "regionId": "nominal_stabilization",
+    "text": "Is monetary-base growth consistent with the monetary-targeting framework? program_consistency"
+  },
+  {
+    "id": "q.ns18",
+    "kind": "question",
+    "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+    "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+    "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+    "regionId": "nominal_stabilization",
+    "text": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand? credibility"
+  },
+  {
+    "id": "ci.ns.cpi_monthly",
+    "kind": "indicator",
+    "slug": "monthly-headline-cpi-inflation",
+    "title": "Monthly headline CPI inflation",
+    "href": "/indicators/monthly-headline-cpi-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Monthly headline CPI inflation percent_mom monthly"
+  },
+  {
+    "id": "ci.ns.cpi_yoy",
+    "kind": "indicator",
+    "slug": "headline-cpi-inflation-year-over-year",
+    "title": "Headline CPI inflation, year-over-year",
+    "href": "/indicators/headline-cpi-inflation-year-over-year",
+    "regionId": "nominal_stabilization",
+    "text": "Headline CPI inflation, year-over-year percent_yoy monthly"
+  },
+  {
+    "id": "ci.ns.cpi_3m_ann",
+    "kind": "indicator",
+    "slug": "headline-cpi-3-month-annualized",
+    "title": "Headline CPI, 3-month annualized",
+    "href": "/indicators/headline-cpi-3-month-annualized",
+    "regionId": "nominal_stabilization",
+    "text": "Headline CPI, 3-month annualized percent_annualized monthly"
+  },
+  {
+    "id": "ci.ns.core_monthly",
+    "kind": "indicator",
+    "slug": "core-cpi-inflation-monthly",
+    "title": "Core CPI inflation, monthly",
+    "href": "/indicators/core-cpi-inflation-monthly",
+    "regionId": "nominal_stabilization",
+    "text": "Core CPI inflation, monthly percent_mom monthly"
+  },
+  {
+    "id": "ci.ns.core_3m_ann",
+    "kind": "indicator",
+    "slug": "core-cpi-3-month-annualized",
+    "title": "Core CPI, 3-month annualized",
+    "href": "/indicators/core-cpi-3-month-annualized",
+    "regionId": "nominal_stabilization",
+    "text": "Core CPI, 3-month annualized percent_annualized monthly"
+  },
+  {
+    "id": "ci.ns.trimmed_cpi_3m_ann",
+    "kind": "indicator",
+    "slug": "trimmed-cpi-3-month-annualized",
+    "title": "Trimmed CPI, 3-month annualized",
+    "href": "/indicators/trimmed-cpi-3-month-annualized",
+    "regionId": "nominal_stabilization",
+    "text": "Trimmed CPI, 3-month annualized percent_annualized monthly"
+  },
+  {
+    "id": "ci.ns.trimmed_goods_3m_ann",
+    "kind": "indicator",
+    "slug": "trimmed-goods-inflation-3-month-annualized",
+    "title": "Trimmed goods inflation, 3-month annualized",
+    "href": "/indicators/trimmed-goods-inflation-3-month-annualized",
+    "regionId": "nominal_stabilization",
+    "text": "Trimmed goods inflation, 3-month annualized percent_annualized monthly"
+  },
+  {
+    "id": "ci.ns.trimmed_services_3m_ann",
+    "kind": "indicator",
+    "slug": "trimmed-services-inflation-3-month-annualized",
+    "title": "Trimmed services inflation, 3-month annualized",
+    "href": "/indicators/trimmed-services-inflation-3-month-annualized",
+    "regionId": "nominal_stabilization",
+    "text": "Trimmed services inflation, 3-month annualized percent_annualized monthly"
+  },
+  {
+    "id": "ci.ns.food_inflation_contribution",
+    "kind": "indicator",
+    "slug": "food-contribution-to-monthly-inflation",
+    "title": "Food contribution to monthly inflation",
+    "href": "/indicators/food-contribution-to-monthly-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Food contribution to monthly inflation percentage_points monthly"
+  },
+  {
+    "id": "ci.ns.regulated_inflation_contribution",
+    "kind": "indicator",
+    "slug": "regulated-price-contribution-to-monthly-inflation",
+    "title": "Regulated-price contribution to monthly inflation",
+    "href": "/indicators/regulated-price-contribution-to-monthly-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Regulated-price contribution to monthly inflation percentage_points monthly"
+  },
+  {
+    "id": "ci.ns.infl_exp_1m",
+    "kind": "indicator",
+    "slug": "expected-inflation-next-month",
+    "title": "Expected inflation next month",
+    "href": "/indicators/expected-inflation-next-month",
+    "regionId": "nominal_stabilization",
+    "text": "Expected inflation next month percent_mom monthly"
+  },
+  {
+    "id": "ci.ns.infl_exp_3m",
+    "kind": "indicator",
+    "slug": "expected-inflation-three-months-ahead",
+    "title": "Expected inflation three months ahead",
+    "href": "/indicators/expected-inflation-three-months-ahead",
+    "regionId": "nominal_stabilization",
+    "text": "Expected inflation three months ahead percent monthly"
+  },
+  {
+    "id": "ci.ns.infl_exp_eop",
+    "kind": "indicator",
+    "slug": "expected-end-of-year-inflation",
+    "title": "Expected end-of-year inflation",
+    "href": "/indicators/expected-end-of-year-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Expected end-of-year inflation percent_yoy monthly"
+  },
+  {
+    "id": "ci.ns.infl_surprise",
+    "kind": "indicator",
+    "slug": "inflation-surprise-vs-prior-expectation",
+    "title": "Inflation surprise vs prior expectation",
+    "href": "/indicators/inflation-surprise-vs-prior-expectation",
+    "regionId": "nominal_stabilization",
+    "text": "Inflation surprise vs prior expectation percentage_points monthly"
+  },
+  {
+    "id": "ci.ns.infl_acceleration",
+    "kind": "indicator",
+    "slug": "monthly-inflation-acceleration",
+    "title": "Monthly inflation acceleration",
+    "href": "/indicators/monthly-inflation-acceleration",
+    "regionId": "nominal_stabilization",
+    "text": "Monthly inflation acceleration percentage_points_change monthly"
+  },
+  {
+    "id": "ci.ns.official_fx",
+    "kind": "indicator",
+    "slug": "official-ars-usd-exchange-rate",
+    "title": "Official ARS/USD exchange rate",
+    "href": "/indicators/official-ars-usd-exchange-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Official ARS/USD exchange rate ars_per_usd daily"
+  },
+  {
+    "id": "ci.ns.ccl_fx",
+    "kind": "indicator",
+    "slug": "ccl-exchange-rate",
+    "title": "CCL exchange rate",
+    "href": "/indicators/ccl-exchange-rate",
+    "regionId": "nominal_stabilization",
+    "text": "CCL exchange rate ars_per_usd daily"
+  },
+  {
+    "id": "ci.ns.blue_fx",
+    "kind": "indicator",
+    "slug": "blue-exchange-rate",
+    "title": "Blue exchange rate",
+    "href": "/indicators/blue-exchange-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Blue exchange rate ars_per_usd daily"
+  },
+  {
+    "id": "ci.ns.fx_gap_ccl",
+    "kind": "indicator",
+    "slug": "ccl-official-fx-gap",
+    "title": "CCL-official FX gap",
+    "href": "/indicators/ccl-official-fx-gap",
+    "regionId": "nominal_stabilization",
+    "text": "CCL-official FX gap percent daily"
+  },
+  {
+    "id": "ci.ns.fx_gap_blue",
+    "kind": "indicator",
+    "slug": "blue-official-fx-gap",
+    "title": "Blue-official FX gap",
+    "href": "/indicators/blue-official-fx-gap",
+    "regionId": "nominal_stabilization",
+    "text": "Blue-official FX gap percent daily"
+  },
+  {
+    "id": "ci.ns.fx_band_lower",
+    "kind": "indicator",
+    "slug": "fx-band-lower-bound",
+    "title": "FX-band lower bound",
+    "href": "/indicators/fx-band-lower-bound",
+    "regionId": "nominal_stabilization",
+    "text": "FX-band lower bound ars_per_usd daily"
+  },
+  {
+    "id": "ci.ns.fx_band_upper",
+    "kind": "indicator",
+    "slug": "fx-band-upper-bound",
+    "title": "FX-band upper bound",
+    "href": "/indicators/fx-band-upper-bound",
+    "regionId": "nominal_stabilization",
+    "text": "FX-band upper bound ars_per_usd daily"
+  },
+  {
+    "id": "ci.ns.fx_band_position",
+    "kind": "indicator",
+    "slug": "official-fx-position-within-band",
+    "title": "Official FX position within band",
+    "href": "/indicators/official-fx-position-within-band",
+    "regionId": "nominal_stabilization",
+    "text": "Official FX position within band percent_of_band daily"
+  },
+  {
+    "id": "ci.ns.official_fx_monthly_change",
+    "kind": "indicator",
+    "slug": "official-fx-monthly-change",
+    "title": "Official FX monthly change",
+    "href": "/indicators/official-fx-monthly-change",
+    "regionId": "nominal_stabilization",
+    "text": "Official FX monthly change percent monthly"
+  },
+  {
+    "id": "ci.ns.reer_index",
+    "kind": "indicator",
+    "slug": "real-effective-exchange-rate-index",
+    "title": "Real effective exchange-rate index",
+    "href": "/indicators/real-effective-exchange-rate-index",
+    "regionId": "nominal_stabilization",
+    "text": "Real effective exchange-rate index index monthly"
+  },
+  {
+    "id": "ci.ns.reer_change_dec2023",
+    "kind": "indicator",
+    "slug": "reer-change-since-dec-2023",
+    "title": "REER change since Dec-2023",
+    "href": "/indicators/reer-change-since-dec-2023",
+    "regionId": "nominal_stabilization",
+    "text": "REER change since Dec-2023 percent monthly"
+  },
+  {
+    "id": "ci.ns.fx_forward_1m",
+    "kind": "indicator",
+    "slug": "one-month-fx-forward-implied-rate",
+    "title": "One-month FX forward/implied rate",
+    "href": "/indicators/one-month-fx-forward-implied-rate",
+    "regionId": "nominal_stabilization",
+    "text": "One-month FX forward/implied rate ars_per_usd daily"
+  },
+  {
+    "id": "ci.ns.fx_forward_eoy",
+    "kind": "indicator",
+    "slug": "end-of-year-fx-forward-implied-rate",
+    "title": "End-of-year FX forward/implied rate",
+    "href": "/indicators/end-of-year-fx-forward-implied-rate",
+    "regionId": "nominal_stabilization",
+    "text": "End-of-year FX forward/implied rate ars_per_usd daily"
+  },
+  {
+    "id": "ci.ns.policy_rate_nominal",
+    "kind": "indicator",
+    "slug": "nominal-policy-relevant-rate",
+    "title": "Nominal policy-relevant rate",
+    "href": "/indicators/nominal-policy-relevant-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Nominal policy-relevant rate percent_annualized daily"
+  },
+  {
+    "id": "ci.ns.money_market_rate",
+    "kind": "indicator",
+    "slug": "short-money-market-rate",
+    "title": "Short money-market rate",
+    "href": "/indicators/short-money-market-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Short money-market rate percent_annualized daily"
+  },
+  {
+    "id": "ci.ns.tamar_nominal",
+    "kind": "indicator",
+    "slug": "tamar-nominal-rate",
+    "title": "TAMAR nominal rate",
+    "href": "/indicators/tamar-nominal-rate",
+    "regionId": "nominal_stabilization",
+    "text": "TAMAR nominal rate percent_annualized daily"
+  },
+  {
+    "id": "ci.ns.tamar_real_expost",
+    "kind": "indicator",
+    "slug": "tamar-ex-post-real-rate",
+    "title": "TAMAR ex-post real rate",
+    "href": "/indicators/tamar-ex-post-real-rate",
+    "regionId": "nominal_stabilization",
+    "text": "TAMAR ex-post real rate percent_annualized monthly"
+  },
+  {
+    "id": "ci.ns.tamar_real_exante",
+    "kind": "indicator",
+    "slug": "tamar-ex-ante-real-rate",
+    "title": "TAMAR ex-ante real rate",
+    "href": "/indicators/tamar-ex-ante-real-rate",
+    "regionId": "nominal_stabilization",
+    "text": "TAMAR ex-ante real rate percent_annualized monthly"
+  },
+  {
+    "id": "ci.ns.reserve_requirement_ratio",
+    "kind": "indicator",
+    "slug": "bank-reserve-requirement-ratio",
+    "title": "Bank reserve requirement ratio",
+    "href": "/indicators/bank-reserve-requirement-ratio",
+    "regionId": "nominal_stabilization",
+    "text": "Bank reserve requirement ratio percent daily_or_monthly"
+  },
+  {
+    "id": "ci.ns.bcra_peso_deposits",
+    "kind": "indicator",
+    "slug": "bcra-peso-deposits-reserve-balances",
+    "title": "BCRA peso deposits / reserve balances",
+    "href": "/indicators/bcra-peso-deposits-reserve-balances",
+    "regionId": "nominal_stabilization",
+    "text": "BCRA peso deposits / reserve balances ars daily"
+  },
+  {
+    "id": "ci.ns.monetary_base_nominal",
+    "kind": "indicator",
+    "slug": "monetary-base",
+    "title": "Monetary base",
+    "href": "/indicators/monetary-base",
+    "regionId": "nominal_stabilization",
+    "text": "Monetary base ars daily_or_monthly"
+  },
+  {
+    "id": "ci.ns.monetary_base_real",
+    "kind": "indicator",
+    "slug": "real-monetary-base",
+    "title": "Real monetary base",
+    "href": "/indicators/real-monetary-base",
+    "regionId": "nominal_stabilization",
+    "text": "Real monetary base real_index_or_ars monthly"
+  },
+  {
+    "id": "ci.ns.transactional_m2_nominal",
+    "kind": "indicator",
+    "slug": "private-transactional-m2",
+    "title": "Private transactional M2",
+    "href": "/indicators/private-transactional-m2",
+    "regionId": "nominal_stabilization",
+    "text": "Private transactional M2 ars daily_or_monthly"
+  },
+  {
+    "id": "ci.ns.transactional_m2_real",
+    "kind": "indicator",
+    "slug": "real-private-transactional-m2",
+    "title": "Real private transactional M2",
+    "href": "/indicators/real-private-transactional-m2",
+    "regionId": "nominal_stabilization",
+    "text": "Real private transactional M2 real_ars_or_index monthly"
+  },
+  {
+    "id": "ci.ns.transactional_m2_projection_gap",
+    "kind": "indicator",
+    "slug": "transactional-m2-gap-vs-bcra-projection",
+    "title": "Transactional M2 gap vs BCRA projection",
+    "href": "/indicators/transactional-m2-gap-vs-bcra-projection",
+    "regionId": "nominal_stabilization",
+    "text": "Transactional M2 gap vs BCRA projection percent monthly"
+  },
+  {
+    "id": "ci.ns.m2_to_gdp",
+    "kind": "indicator",
+    "slug": "transactional-m2-to-gdp",
+    "title": "Transactional M2 to GDP",
+    "href": "/indicators/transactional-m2-to-gdp",
+    "regionId": "nominal_stabilization",
+    "text": "Transactional M2 to GDP percent_of_gdp monthly_or_quarterly"
+  },
+  {
+    "id": "ci.ns.bcra_fx_purchases_daily",
+    "kind": "indicator",
+    "slug": "bcra-net-fx-purchases",
+    "title": "BCRA net FX purchases",
+    "href": "/indicators/bcra-net-fx-purchases",
+    "regionId": "nominal_stabilization",
+    "text": "BCRA net FX purchases usd daily"
+  },
+  {
+    "id": "pi.ns01",
+    "kind": "chart",
+    "slug": "inflation-momentum-monthly-and-3-month-annualized",
+    "title": "Inflation momentum: monthly and 3-month annualized",
+    "href": "/charts/inflation-momentum-monthly-and-3-month-annualized",
+    "regionId": "nominal_stabilization",
+    "text": "Inflation momentum: monthly and 3-month annualized Show whether current inflation momentum is accelerating or decelerating. Show whether current inflation momentum is accelerating or decelerating."
+  },
+  {
+    "id": "pi.ns02",
+    "kind": "chart",
+    "slug": "monthly-inflation-with-acceleration-markers",
+    "title": "Monthly inflation with acceleration markers",
+    "href": "/charts/monthly-inflation-with-acceleration-markers",
+    "regionId": "nominal_stabilization",
+    "text": "Monthly inflation with acceleration markers Make turning points in monthly inflation explicit. Make turning points in monthly inflation explicit."
+  },
+  {
+    "id": "pi.ns03",
+    "kind": "chart",
+    "slug": "headline-inflation-monthly-vs-year-over-year",
+    "title": "Headline inflation: monthly vs year-over-year",
+    "href": "/charts/headline-inflation-monthly-vs-year-over-year",
+    "regionId": "nominal_stabilization",
+    "text": "Headline inflation: monthly vs year-over-year Separate current pace from legacy annual inflation. Separate current pace from legacy annual inflation."
+  },
+  {
+    "id": "pi.ns04",
+    "kind": "chart",
+    "slug": "disinflation-since-december-2023",
+    "title": "Disinflation since December 2023",
+    "href": "/charts/disinflation-since-december-2023",
+    "regionId": "nominal_stabilization",
+    "text": "Disinflation since December 2023 Show the stabilization path and recent stalls. Show the stabilization path and recent stalls."
+  },
+  {
+    "id": "pi.ns05",
+    "kind": "chart",
+    "slug": "headline-vs-core-inflation",
+    "title": "Headline vs core inflation",
+    "href": "/charts/headline-vs-core-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Headline vs core inflation Test whether disinflation is broad-based. Test whether disinflation is broad-based."
+  },
+  {
+    "id": "pi.ns06",
+    "kind": "chart",
+    "slug": "multiple-measures-of-core-inflation",
+    "title": "Multiple measures of core inflation",
+    "href": "/charts/multiple-measures-of-core-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Multiple measures of core inflation Compare alternative underlying inflation measures. Compare alternative underlying inflation measures."
+  },
+  {
+    "id": "pi.ns07",
+    "kind": "chart",
+    "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
+    "title": "Food and regulated prices as contributors to monthly inflation",
+    "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Food and regulated prices as contributors to monthly inflation Separate relative-price shocks from aggregate inflation. Separate relative-price shocks from aggregate inflation."
+  },
+  {
+    "id": "pi.ns08",
+    "kind": "chart",
+    "slug": "inflation-driver-decomposition",
+    "title": "Inflation-driver decomposition",
+    "href": "/charts/inflation-driver-decomposition",
+    "regionId": "nominal_stabilization",
+    "text": "Inflation-driver decomposition A decomposition of monthly inflation into the mechanisms that may be sustaining or slowing the price process. Decompose monthly inflation into inertia, demand, rates and FX pass-through when model inputs are available."
+  },
+  {
+    "id": "pi.ns09",
+    "kind": "chart",
+    "slug": "official-fx-change-vs-monthly-inflation",
+    "title": "Official FX change vs monthly inflation",
+    "href": "/charts/official-fx-change-vs-monthly-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Official FX change vs monthly inflation Visually inspect short-run co-movement without claiming causality. Visually inspect short-run co-movement without claiming causality."
+  },
+  {
+    "id": "pi.ns10",
+    "kind": "chart",
+    "slug": "rolling-fx-pass-through-estimate",
+    "title": "Rolling FX pass-through estimate",
+    "href": "/charts/rolling-fx-pass-through-estimate",
+    "regionId": "nominal_stabilization",
+    "text": "Rolling FX pass-through estimate Estimate how pass-through evolves over time with an explicitly documented model later. Estimate how pass-through evolves over time with an explicitly documented model later."
+  },
+  {
+    "id": "pi.ns11",
+    "kind": "chart",
+    "slug": "inflation-expectations-vs-realized-inflation",
+    "title": "Inflation expectations vs realized inflation",
+    "href": "/charts/inflation-expectations-vs-realized-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Inflation expectations vs realized inflation Show expectation errors and anchoring. Show expectation errors and anchoring."
+  },
+  {
+    "id": "pi.ns12",
+    "kind": "chart",
+    "slug": "inflation-surprise-through-time",
+    "title": "Inflation surprise through time",
+    "href": "/charts/inflation-surprise-through-time",
+    "regionId": "nominal_stabilization",
+    "text": "Inflation surprise through time Measure how frequently actual inflation surprises expectations. Measure how frequently actual inflation surprises expectations."
+  },
+  {
+    "id": "pi.ns13",
+    "kind": "chart",
+    "slug": "expected-inflation-path",
+    "title": "Expected inflation path",
+    "href": "/charts/expected-inflation-path",
+    "regionId": "nominal_stabilization",
+    "text": "Expected inflation path Summarize near-term and year-end inflation expectations. Summarize near-term and year-end inflation expectations."
+  },
+  {
+    "id": "pi.ns14",
+    "kind": "chart",
+    "slug": "inflation-expectations-fan-horizon-curve",
+    "title": "Inflation expectations fan / horizon curve",
+    "href": "/charts/inflation-expectations-fan-horizon-curve",
+    "regionId": "nominal_stabilization",
+    "text": "Inflation expectations fan / horizon curve Show expectation term structure across horizons. Show expectation term structure across horizons."
+  },
+  {
+    "id": "pi.ns15",
+    "kind": "chart",
+    "slug": "official-exchange-rate-within-the-band",
+    "title": "Official exchange rate within the band",
+    "href": "/charts/official-exchange-rate-within-the-band",
+    "regionId": "nominal_stabilization",
+    "text": "Official exchange rate within the band Track market rate relative to policy corridor. Track market rate relative to policy corridor."
+  },
+  {
+    "id": "pi.ns16",
+    "kind": "chart",
+    "slug": "position-inside-fx-band",
+    "title": "Position inside FX band",
+    "href": "/charts/position-inside-fx-band",
+    "regionId": "nominal_stabilization",
+    "text": "Position inside FX band Normalize the exchange rate's location within the band to 0-100. Normalize the exchange rate's location within the band to 0-100."
+  },
+  {
+    "id": "pi.ns17",
+    "kind": "chart",
+    "slug": "official-ccl-and-blue-exchange-rates",
+    "title": "Official, CCL and blue exchange rates",
+    "href": "/charts/official-ccl-and-blue-exchange-rates",
+    "regionId": "nominal_stabilization",
+    "text": "Official, CCL and blue exchange rates Show convergence/divergence across FX markets. Show convergence/divergence across FX markets."
+  },
+  {
+    "id": "pi.ns18",
+    "kind": "chart",
+    "slug": "fx-gaps-ccl-and-blue",
+    "title": "FX gaps: CCL and blue",
+    "href": "/charts/fx-gaps-ccl-and-blue",
+    "regionId": "nominal_stabilization",
+    "text": "FX gaps: CCL and blue Show market segmentation and stress. Show market segmentation and stress."
+  },
+  {
+    "id": "pi.ns19",
+    "kind": "chart",
+    "slug": "fx-gap-around-stress-episodes",
+    "title": "FX gap around stress episodes",
+    "href": "/charts/fx-gap-around-stress-episodes",
+    "regionId": "nominal_stabilization",
+    "text": "FX gap around stress episodes Compare stress and normalization windows. Compare stress and normalization windows."
+  },
+  {
+    "id": "pi.ns20",
+    "kind": "chart",
+    "slug": "real-effective-exchange-rate-since-dec-2023",
+    "title": "Real effective exchange rate since Dec-2023",
+    "href": "/charts/real-effective-exchange-rate-since-dec-2023",
+    "regionId": "nominal_stabilization",
+    "text": "Real effective exchange rate since Dec-2023 Quantify real appreciation/depreciation during stabilization. Quantify real appreciation/depreciation during stabilization."
+  },
+  {
+    "id": "pi.ns21",
+    "kind": "chart",
+    "slug": "nominal-vs-real-exchange-rate-movement",
+    "title": "Nominal vs real exchange-rate movement",
+    "href": "/charts/nominal-vs-real-exchange-rate-movement",
+    "regionId": "nominal_stabilization",
+    "text": "Nominal vs real exchange-rate movement Contrast nominal depreciation with real appreciation/depreciation. Contrast nominal depreciation with real appreciation/depreciation."
+  },
+  {
+    "id": "pi.ns22",
+    "kind": "chart",
+    "slug": "real-exchange-rate-with-major-policy-regime-markers",
+    "title": "Real exchange rate with major policy-regime markers",
+    "href": "/charts/real-exchange-rate-with-major-policy-regime-markers",
+    "regionId": "nominal_stabilization",
+    "text": "Real exchange rate with major policy-regime markers Put real FX dynamics in institutional context. Put real FX dynamics in institutional context."
+  },
+  {
+    "id": "pi.ns23",
+    "kind": "chart",
+    "slug": "bcra-daily-fx-purchases",
+    "title": "BCRA daily FX purchases",
+    "href": "/charts/bcra-daily-fx-purchases",
+    "regionId": "nominal_stabilization",
+    "text": "BCRA daily FX purchases Show daily intervention/purchase intensity. Show daily intervention/purchase intensity."
+  },
+  {
+    "id": "pi.ns24",
+    "kind": "chart",
+    "slug": "cumulative-bcra-fx-purchases",
+    "title": "Cumulative BCRA FX purchases",
+    "href": "/charts/cumulative-bcra-fx-purchases",
+    "regionId": "nominal_stabilization",
+    "text": "Cumulative BCRA FX purchases Show cumulative purchase program progress. Show cumulative purchase program progress."
+  },
+  {
+    "id": "pi.ns25",
+    "kind": "chart",
+    "slug": "bcra-purchases-vs-official-exchange-rate",
+    "title": "BCRA purchases vs official exchange rate",
+    "href": "/charts/bcra-purchases-vs-official-exchange-rate",
+    "regionId": "nominal_stabilization",
+    "text": "BCRA purchases vs official exchange rate Inspect coexistence of purchases and FX stability/appreciation. Inspect coexistence of purchases and FX stability/appreciation."
+  },
+  {
+    "id": "pi.ns26",
+    "kind": "chart",
+    "slug": "bcra-purchases-vs-monetary-base-growth",
+    "title": "BCRA purchases vs monetary-base growth",
+    "href": "/charts/bcra-purchases-vs-monetary-base-growth",
+    "regionId": "nominal_stabilization",
+    "text": "BCRA purchases vs monetary-base growth Show monetary counterpart of FX operations. Show monetary counterpart of FX operations."
+  },
+  {
+    "id": "pi.ns27",
+    "kind": "chart",
+    "slug": "nominal-rates-vs-expected-inflation",
+    "title": "Nominal rates vs expected inflation",
+    "href": "/charts/nominal-rates-vs-expected-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Nominal rates vs expected inflation Show nominal return relative to expectations. Show nominal return relative to expectations."
+  },
+  {
+    "id": "pi.ns28",
+    "kind": "chart",
+    "slug": "ex-ante-vs-ex-post-real-rates",
+    "title": "Ex-ante vs ex-post real rates",
+    "href": "/charts/ex-ante-vs-ex-post-real-rates",
+    "regionId": "nominal_stabilization",
+    "text": "Ex-ante vs ex-post real rates Distinguish realized and expected monetary tightness. Distinguish realized and expected monetary tightness."
+  },
+  {
+    "id": "pi.ns29",
+    "kind": "chart",
+    "slug": "real-rate-regime-since-2025",
+    "title": "Real-rate regime since 2025",
+    "href": "/charts/real-rate-regime-since-2025",
+    "regionId": "nominal_stabilization",
+    "text": "Real-rate regime since 2025 Show periods of positive/negative real rates. Show periods of positive/negative real rates."
+  },
+  {
+    "id": "pi.ns30",
+    "kind": "chart",
+    "slug": "money-market-rate-volatility",
+    "title": "Money-market rate volatility",
+    "href": "/charts/money-market-rate-volatility",
+    "regionId": "nominal_stabilization",
+    "text": "Money-market rate volatility Show stress and subsequent normalization in short rates. Show stress and subsequent normalization in short rates."
+  },
+  {
+    "id": "pi.ns31",
+    "kind": "chart",
+    "slug": "policy-relevant-rate-vs-money-market-rate",
+    "title": "Policy-relevant rate vs money-market rate",
+    "href": "/charts/policy-relevant-rate-vs-money-market-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Policy-relevant rate vs money-market rate Track transmission and market segmentation. Track transmission and market segmentation."
+  },
+  {
+    "id": "pi.ns32",
+    "kind": "chart",
+    "slug": "reserve-requirements-and-bcra-peso-deposits",
+    "title": "Reserve requirements and BCRA peso deposits",
+    "href": "/charts/reserve-requirements-and-bcra-peso-deposits",
+    "regionId": "nominal_stabilization",
+    "text": "Reserve requirements and BCRA peso deposits Show regulatory liquidity tightness. Show regulatory liquidity tightness."
+  },
+  {
+    "id": "pi.ns33",
+    "kind": "chart",
+    "slug": "reserve-requirement-changes-with-money-market-rates",
+    "title": "Reserve requirement changes with money-market rates",
+    "href": "/charts/reserve-requirement-changes-with-money-market-rates",
+    "regionId": "nominal_stabilization",
+    "text": "Reserve requirement changes with money-market rates Inspect liquidity-rule changes and short rates. Inspect liquidity-rule changes and short rates."
+  },
+  {
+    "id": "pi.ns34",
+    "kind": "chart",
+    "slug": "nominal-monetary-base",
+    "title": "Nominal monetary base",
+    "href": "/charts/nominal-monetary-base",
+    "regionId": "nominal_stabilization",
+    "text": "Nominal monetary base Show recovery in nominal base money. Show recovery in nominal base money."
+  },
+  {
+    "id": "pi.ns35",
+    "kind": "chart",
+    "slug": "real-monetary-base",
+    "title": "Real monetary base",
+    "href": "/charts/real-monetary-base",
+    "regionId": "nominal_stabilization",
+    "text": "Real monetary base Show monetization after correcting for inflation. Show monetization after correcting for inflation."
+  },
+  {
+    "id": "pi.ns36",
+    "kind": "chart",
+    "slug": "transactional-m2-nominal-and-real",
+    "title": "Transactional M2 nominal and real",
+    "href": "/charts/transactional-m2-nominal-and-real",
+    "regionId": "nominal_stabilization",
+    "text": "Transactional M2 nominal and real Separate nominal expansion from real money-demand recovery. Separate nominal expansion from real money-demand recovery."
+  },
+  {
+    "id": "pi.ns37",
+    "kind": "chart",
+    "slug": "transactional-m2-vs-bcra-projection",
+    "title": "Transactional M2 vs BCRA projection",
+    "href": "/charts/transactional-m2-vs-bcra-projection",
+    "regionId": "nominal_stabilization",
+    "text": "Transactional M2 vs BCRA projection Assess whether money demand is recovering as programmed. Assess whether money demand is recovering as programmed."
+  },
+  {
+    "id": "pi.ns38",
+    "kind": "chart",
+    "slug": "m2-to-gdp-monetization-ratio",
+    "title": "M2-to-GDP monetization ratio",
+    "href": "/charts/m2-to-gdp-monetization-ratio",
+    "regionId": "nominal_stabilization",
+    "text": "M2-to-GDP monetization ratio Show structural depth of domestic monetization. Show structural depth of domestic monetization."
+  },
+  {
+    "id": "pi.ns39",
+    "kind": "chart",
+    "slug": "remonetization-vs-inflation",
+    "title": "Remonetization vs inflation",
+    "href": "/charts/remonetization-vs-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Remonetization vs inflation Show whether real money balances recover while inflation falls. Show whether real money balances recover while inflation falls."
+  },
+  {
+    "id": "pi.ns40",
+    "kind": "chart",
+    "slug": "remonetization-vs-bcra-fx-purchases",
+    "title": "Remonetization vs BCRA FX purchases",
+    "href": "/charts/remonetization-vs-bcra-fx-purchases",
+    "regionId": "nominal_stabilization",
+    "text": "Remonetization vs BCRA FX purchases Visualize the policy complementarity/tradeoff highlighted by the program. Visualize the policy complementarity/tradeoff highlighted by the program."
+  },
+  {
+    "id": "pi.ns41",
+    "kind": "chart",
+    "slug": "monetary-base-vs-transactional-m2",
+    "title": "Monetary base vs transactional M2",
+    "href": "/charts/monetary-base-vs-transactional-m2",
+    "regionId": "nominal_stabilization",
+    "text": "Monetary base vs transactional M2 Distinguish money supply from private money demand. Distinguish money supply from private money demand."
+  },
+  {
+    "id": "pi.ns42",
+    "kind": "chart",
+    "slug": "monetary-base-growth-vs-money-demand-proxy",
+    "title": "Monetary-base growth vs money-demand proxy",
+    "href": "/charts/monetary-base-growth-vs-money-demand-proxy",
+    "regionId": "nominal_stabilization",
+    "text": "Monetary-base growth vs money-demand proxy Check consistency between operational aggregate and demand proxy. Check consistency between operational aggregate and demand proxy."
+  },
+  {
+    "id": "pi.ns43",
+    "kind": "chart",
+    "slug": "monetization-dashboard-base-m2-inflation",
+    "title": "Monetization dashboard: base, M2, inflation",
+    "href": "/charts/monetization-dashboard-base-m2-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Monetization dashboard: base, M2, inflation Compact view of monetary normalization. Compact view of monetary normalization."
+  },
+  {
+    "id": "pi.ns44",
+    "kind": "chart",
+    "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+    "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
+    "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+    "regionId": "nominal_stabilization",
+    "text": "Credibility dashboard: inflation expectations, FX gap, real rates Show multiple market signals of stabilization credibility. Show multiple market signals of stabilization credibility."
+  },
+  {
+    "id": "pi.ns45",
+    "kind": "chart",
+    "slug": "fx-futures-vs-top-of-band",
+    "title": "FX futures vs top of band",
+    "href": "/charts/fx-futures-vs-top-of-band",
+    "regionId": "nominal_stabilization",
+    "text": "FX futures vs top of band Show market-implied depreciation relative to policy corridor. Show market-implied depreciation relative to policy corridor."
+  },
+  {
+    "id": "pi.ns46",
+    "kind": "chart",
+    "slug": "end-of-year-fx-forward-vs-inflation-expectation",
+    "title": "End-of-year FX forward vs inflation expectation",
+    "href": "/charts/end-of-year-fx-forward-vs-inflation-expectation",
+    "regionId": "nominal_stabilization",
+    "text": "End-of-year FX forward vs inflation expectation Compare nominal FX and inflation expectations over a common horizon. Compare nominal FX and inflation expectations over a common horizon."
+  },
+  {
+    "id": "pi.ns47",
+    "kind": "chart",
+    "slug": "fx-gap-vs-inflation-expectations",
+    "title": "FX gap vs inflation expectations",
+    "href": "/charts/fx-gap-vs-inflation-expectations",
+    "regionId": "nominal_stabilization",
+    "text": "FX gap vs inflation expectations Inspect whether FX-market stress and inflation expectations move together. Inspect whether FX-market stress and inflation expectations move together."
+  },
+  {
+    "id": "pi.ns48",
+    "kind": "chart",
+    "slug": "money-market-volatility-vs-fx-gap",
+    "title": "Money-market volatility vs FX gap",
+    "href": "/charts/money-market-volatility-vs-fx-gap",
+    "regionId": "nominal_stabilization",
+    "text": "Money-market volatility vs FX gap Compare two stress/credibility signals. Compare two stress/credibility signals."
+  },
+  {
+    "id": "pi.ns49",
+    "kind": "chart",
+    "slug": "carry-environment-real-rates-vs-fx-depreciation",
+    "title": "Carry environment: real rates vs FX depreciation",
+    "href": "/charts/carry-environment-real-rates-vs-fx-depreciation",
+    "regionId": "nominal_stabilization",
+    "text": "Carry environment: real rates vs FX depreciation Characterize incentives behind carry-trade narratives without prescribing investment. Characterize incentives behind carry-trade narratives without prescribing investment."
+  },
+  {
+    "id": "pi.ns50",
+    "kind": "chart",
+    "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
+    "title": "Inflation vs FX depreciation since stabilization start",
+    "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start",
+    "regionId": "nominal_stabilization",
+    "text": "Inflation vs FX depreciation since stabilization start Longer view of co-movement and changing pass-through. Longer view of co-movement and changing pass-through."
+  },
+  {
+    "id": "pi.ns51",
+    "kind": "chart",
+    "slug": "core-services-vs-core-goods-inflation",
+    "title": "Core services vs core goods inflation",
+    "href": "/charts/core-services-vs-core-goods-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Core services vs core goods inflation Identify composition shifts in underlying inflation. Identify composition shifts in underlying inflation."
+  },
+  {
+    "id": "pi.ns52",
+    "kind": "chart",
+    "slug": "nominal-stabilization-state-map",
+    "title": "Nominal-stabilization state map",
+    "href": "/charts/nominal-stabilization-state-map",
+    "regionId": "nominal_stabilization",
+    "text": "Nominal-stabilization state map A compact multi-indicator state vector for the slice; not a single causal index. A compact multi-indicator state vector for the slice; not a single causal index."
+  }
+]

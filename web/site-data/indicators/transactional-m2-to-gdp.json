@@ -1,0 +1,123 @@
+{
+  "id": "ci.ns.m2_to_gdp",
+  "kind": "indicator",
+  "slug": "transactional-m2-to-gdp",
+  "title": "Transactional M2 to GDP",
+  "href": "/indicators/transactional-m2-to-gdp",
+  "dek": null,
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "topic": {
+    "id": "ns.money_demand",
+    "kind": "topic",
+    "slug": "money-demand",
+    "title": "Money demand",
+    "href": "/topics/money-demand"
+  },
+  "unitSemantics": "percent_of_gdp",
+  "frequency": "monthly_or_quarterly",
+  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "charts": [
+    {
+      "id": "pi.ns38",
+      "kind": "chart",
+      "slug": "m2-to-gdp-monetization-ratio",
+      "title": "M2-to-GDP monetization ratio",
+      "href": "/charts/m2-to-gdp-monetization-ratio"
+    }
+  ],
+  "derivedAsInput": [],
+  "derivedAsOutput": [
+    "di.ns.m2_to_gdp"
+  ],
+  "nearby": [
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "distance": 1
+    },
+    {
+      "id": "pi.ns38",
+      "kind": "chart",
+      "slug": "m2-to-gdp-monetization-ratio",
+      "title": "M2-to-GDP monetization ratio",
+      "href": "/charts/m2-to-gdp-monetization-ratio",
+      "distance": 1
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "distance": 2
+    },
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering",
+      "distance": 2
+    },
+    {
+      "id": "q.ns17",
+      "kind": "question",
+      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "distance": 2
+    },
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "distance": 2
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations",
+      "distance": 2
+    },
+    {
+      "id": "ns.inflation_inertia",
+      "kind": "topic",
+      "slug": "inflation-inertia",
+      "title": "Inflation inertia",
+      "href": "/topics/inflation-inertia",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "charts": 1,
+    "derivedAsInput": 0,
+    "derivedAsOutput": 1
+  }
+}

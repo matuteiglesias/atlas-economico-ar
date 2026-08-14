@@ -1,0 +1,193 @@
+{
+  "id": "ns.fx_pass_through",
+  "kind": "topic",
+  "slug": "fx-pass-through",
+  "title": "FX pass-through",
+  "href": "/topics/fx-pass-through",
+  "dek": "Transmission from exchange-rate movements to domestic prices.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "connections": [
+    {
+      "relation_id": "rel.fx_change_enables_pass_through",
+      "relation_type": "economic_mechanism",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.nominal_exchange_rate",
+        "kind": "topic",
+        "slug": "nominal-exchange-rate",
+        "title": "Nominal exchange rate",
+        "href": "/topics/nominal-exchange-rate"
+      }
+    },
+    {
+      "relation_id": "rel.credibility_conditions_pass_through",
+      "relation_type": "constraint_on",
+      "direction": "incoming",
+      "entity": {
+        "id": "ns.policy_credibility",
+        "kind": "topic",
+        "slug": "policy-credibility",
+        "title": "Policy credibility",
+        "href": "/topics/policy-credibility"
+      }
+    },
+    {
+      "relation_id": "rel.pass_through_contributes_inflation",
+      "relation_type": "contributes_to",
+      "direction": "outgoing",
+      "entity": {
+        "id": "ns.headline_inflation",
+        "kind": "topic",
+        "slug": "headline-inflation",
+        "title": "Headline inflation",
+        "href": "/topics/headline-inflation"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns04",
+      "kind": "question",
+      "slug": "what-is-driving-monthly-inflation",
+      "title": "What is driving monthly inflation?",
+      "href": "/questions/what-is-driving-monthly-inflation"
+    },
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices"
+    }
+  ],
+  "indicators": [],
+  "charts": [
+    {
+      "id": "pi.ns07",
+      "kind": "chart",
+      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "title": "Food and regulated prices as contributors to monthly inflation",
+      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation"
+    },
+    {
+      "id": "pi.ns08",
+      "kind": "chart",
+      "slug": "inflation-driver-decomposition",
+      "title": "Inflation-driver decomposition",
+      "href": "/charts/inflation-driver-decomposition"
+    },
+    {
+      "id": "pi.ns09",
+      "kind": "chart",
+      "slug": "official-fx-change-vs-monthly-inflation",
+      "title": "Official FX change vs monthly inflation",
+      "href": "/charts/official-fx-change-vs-monthly-inflation"
+    },
+    {
+      "id": "pi.ns10",
+      "kind": "chart",
+      "slug": "rolling-fx-pass-through-estimate",
+      "title": "Rolling FX pass-through estimate",
+      "href": "/charts/rolling-fx-pass-through-estimate"
+    },
+    {
+      "id": "pi.ns50",
+      "kind": "chart",
+      "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
+      "title": "Inflation vs FX depreciation since stabilization start",
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start"
+    }
+  ],
+  "nearby": [
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "distance": 1
+    },
+    {
+      "id": "q.ns04",
+      "kind": "question",
+      "slug": "what-is-driving-monthly-inflation",
+      "title": "What is driving monthly inflation?",
+      "href": "/questions/what-is-driving-monthly-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "distance": 1
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility",
+      "distance": 1
+    },
+    {
+      "id": "q.ns06",
+      "kind": "question",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "distance": 2
+    },
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized",
+      "distance": 2
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "connections": 3,
+    "questions": 2,
+    "indicators": 0,
+    "charts": 5
+  }
+}
