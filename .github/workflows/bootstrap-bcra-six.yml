@@ -63,9 +63,9 @@ jobs:
           PY
       - name: Commit authentic evidence and deterministic publication
         run: |
-          rm -rf bootstrap_fix bootstrap_payload.zip bootstrap_payload.part-* .github/workflows/bootstrap-bcra-six.yml
+          rm -rf bootstrap_fix bootstrap_payload.zip bootstrap_payload.part-*
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+          git add -A -- . ':(exclude).github/workflows/**'
           git commit -m "Materialize six-Series BCRA expansion"
           git push origin HEAD:feature/bcra-six-series-expansion
