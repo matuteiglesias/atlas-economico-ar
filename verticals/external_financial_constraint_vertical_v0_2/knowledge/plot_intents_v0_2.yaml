@@ -7,13 +7,13 @@ plot_intents:
   updated_at: '2026-08-15'
   review_state: agent_draft_ready_for_human_review
   slice_id: external_financial_constraint
-  title: Goods trade balance through time
+  title: Goods trade balance
   question_ids:
   - q.ef04
   canonical_indicator_ids:
   - ci.ef.goods_balance_usd
   reference_frame_ids: []
-  purpose: Show whether merchandise trade is generating or absorbing foreign currency over time.
+  purpose: Track whether merchandise trade is generating or absorbing foreign currency over time.
   plot_status: candidate
   series_binding_status: REGISTERED
   provenance:
