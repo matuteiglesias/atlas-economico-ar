@@ -7,9 +7,10 @@ const search = JSON.parse(await readFile(path.resolve(root, "site-data/search-in
 const routes = ["/", "/atlas", ...search.map((item) => item.href)];
 const uniqueRoutes = new Set(routes);
 const missing = [];
+const expectedRoutes = 282;
 
-if (uniqueRoutes.size !== 279) {
-  console.error(`Route contract verification failed: expected 279 unique routes, found ${uniqueRoutes.size}.`);
+if (uniqueRoutes.size !== expectedRoutes) {
+  console.error(`Route contract verification failed: expected ${expectedRoutes} unique routes, found ${uniqueRoutes.size}.`);
   process.exit(1);
 }
 for (const route of uniqueRoutes) {
