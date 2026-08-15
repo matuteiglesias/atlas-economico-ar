@@ -36,7 +36,7 @@ class FigureKernelTests(unittest.TestCase):
         specs = materialize.load_specs()
         expected = {
             'pi.ns53': 'ci.ns.cpi_monthly',
-            'pi.ns22': 'ci.ns.reer_index',
+            'pi.ns54': 'ci.ns.reer_index',
             'pi.ef45': 'ci.ef.goods_balance_usd',
         }
         self.assertEqual({spec['plot_intent_id'] for spec in specs}, set(expected))
