@@ -26,7 +26,7 @@ make validate-series
 ```
 
 `capture-seed-series` is intentionally networked. It calls only the official
-Datos Argentina `/series` endpoint, requesting provider values as CSV with
+Datos Argentina `/series/` endpoint, requesting provider values as CSV with
 native IDs and provider metadata separately.
 
 A successful capture writes:
@@ -55,12 +55,17 @@ lags differ across official series.
 
 ## Troubleshooting locally
 
-First test the provider outside Python:
+First test the provider outside Python. The canonical endpoint includes the
+trailing slash after `series/`:
 
 ```bash
 curl -v --connect-timeout 20 \
-  'https://apis.datos.gob.ar/series/api/series?ids=145.3_INGNACUAL_DICI_M_38&format=csv&header=ids&sort=desc&limit=3'
+  'https://apis.datos.gob.ar/series/api/series/?ids=145.3_INGNACUAL_DICI_M_38&format=csv&header=ids&sort=desc&limit=3'
 ```
+
+If the slash is omitted, the service currently responds with an HTTP 301 to the
+same request at `/series/`; that redirect is not a provider or connectivity
+failure.
 
 Then inspect proxy variables if a tunnel error appears:
 
