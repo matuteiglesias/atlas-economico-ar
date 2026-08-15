@@ -1,0 +1,22 @@
+schema_version: '0.2'
+status: active_seed_specs
+chart_specs:
+  - id: cs.seed.monthly_headline_inflation
+    plot_intent_id: pi.ns53
+    renderer: timeseries_line
+    frame_id: rf.last_5y
+
+  - id: cs.seed.real_exchange_rate
+    plot_intent_id: pi.ns22
+    renderer: timeseries_line
+    frame_id: rf.last_5y
+    annotations:
+      - date: '2023-12-01'
+        label: December 2023
+
+  - id: cs.seed.goods_trade_balance
+    plot_intent_id: pi.ef45
+    renderer: timeseries_bar
+    frame_id: rf.last_5y
+    overrides:
+      zero_baseline: true
