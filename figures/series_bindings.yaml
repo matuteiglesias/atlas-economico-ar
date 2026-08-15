@@ -1,0 +1,20 @@
+schema_version: '0.2'
+status: active_seed_bindings
+
+series_bindings:
+  - series_id: series.ar.datosgob.ipc_headline_mom_national
+    canonical_indicator_id: ci.ns.cpi_monthly
+    normalization:
+      kind: scale
+      factor: 100
+
+  - series_id: series.ar.datosgob.itcrm_monthly
+    canonical_indicator_id: ci.ns.reer_index
+    normalization:
+      kind: identity
+
+  - series_id: series.ar.datosgob.goods_trade_balance
+    canonical_indicator_id: ci.ef.goods_balance_usd
+    normalization:
+      kind: scale
+      factor: 0.001
