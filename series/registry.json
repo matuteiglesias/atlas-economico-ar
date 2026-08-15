@@ -1,0 +1,34 @@
+{
+  "schema_version": "0.1",
+  "provider": {
+    "id": "datos_argentina",
+    "base_url": "https://apis.datos.gob.ar/series/api/series/",
+    "documentation": "https://datosgobar.github.io/series-tiempo-ar-api/"
+  },
+  "series": [
+    {
+      "id": "series.ar.datosgob.ipc_headline_mom_national",
+      "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+      "canonical_indicator_id": "ci.ns.cpi_monthly",
+      "label": "IPC nacional - variación mensual",
+      "expected_frequency": "monthly",
+      "freshness_warning_days": 75
+    },
+    {
+      "id": "series.ar.datosgob.itcrm_monthly",
+      "provider_series_id": "116.3_TCRMA_0_M_36",
+      "canonical_indicator_id": "ci.ns.reer_index",
+      "label": "Índice de Tipo de Cambio Real Multilateral",
+      "expected_frequency": "monthly",
+      "freshness_warning_days": 75
+    },
+    {
+      "id": "series.ar.datosgob.goods_trade_balance",
+      "provider_series_id": "74.3_ISC_0_M_19",
+      "canonical_indicator_id": "ci.ef.goods_balance_usd",
+      "label": "Saldo comercial de bienes",
+      "expected_frequency": "monthly",
+      "freshness_warning_days": 75
+    }
+  ]
+}

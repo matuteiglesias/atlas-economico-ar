@@ -1,0 +1,45 @@
+name: Series integrity
+
+on:
+  pull_request:
+    paths:
+      - "series/**"
+      - "Makefile"
+      - ".github/workflows/series-integrity.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "series/**"
+      - "Makefile"
+      - ".github/workflows/series-integrity.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: series-integrity-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run capture unit tests
+        run: make test-series
+
+      - name: Validate checked-in captures offline
+        run: make validate-series
+
+      - name: Compile Python sources
+        run: python -m compileall -q series

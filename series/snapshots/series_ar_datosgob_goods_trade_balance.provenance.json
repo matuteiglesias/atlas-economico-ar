@@ -1,0 +1,40 @@
+{
+  "canonical_indicator_id": "ci.ef.goods_balance_usd",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 75,
+    "latest_observation": "2026-06-01",
+    "state": "fresh",
+    "warning_days": 75
+  },
+  "provider": "datos_argentina",
+  "provider_metadata": {
+    "description": "Saldo comercial. En millones de dólares.",
+    "frequency": "R/P1M",
+    "time_index_end": "2026-06-01",
+    "time_index_start": "1992-01-01",
+    "title": "ica_saldo_comercial",
+    "units": "Millones de dólares"
+  },
+  "provider_series_id": "74.3_ISC_0_M_19",
+  "raw": {
+    "metadata_path": "series/raw/datos_argentina/series_ar_datosgob_goods_trade_balance.metadata.json",
+    "metadata_sha256": "74bedb6c363ba0e4706b506de23daf2634c6717649d2272758bb87611172c46b",
+    "values_path": "series/raw/datos_argentina/series_ar_datosgob_goods_trade_balance.csv",
+    "values_sha256": "d13dc161aec65927d860417415d37ade4ecfefe3f566c5b6d775fc2bc38ac132"
+  },
+  "requests": {
+    "metadata": "https://apis.datos.gob.ar/series/api/series/?ids=74.3_ISC_0_M_19&format=json&metadata=only",
+    "values": "https://apis.datos.gob.ar/series/api/series/?ids=74.3_ISC_0_M_19&format=csv&header=ids&sort=asc&limit=1000&start=0"
+  },
+  "retrieved_at": "2026-08-15T20:23:19.241720Z",
+  "schema_version": "0.1",
+  "series_id": "series.ar.datosgob.goods_trade_balance",
+  "snapshot": {
+    "first_observation": "1992-01-01",
+    "latest_observation": "2026-06-01",
+    "observation_rows": 414,
+    "path": "series/snapshots/series_ar_datosgob_goods_trade_balance.csv",
+    "sha256": "a47b7cef102d7ca2706dac42449ba84c899c15cfb36ce10f2d60dd952a038cd7"
+  }
+}
