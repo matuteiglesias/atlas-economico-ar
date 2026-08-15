@@ -4,8 +4,14 @@ import path from "node:path";
 const root = process.cwd();
 const chartRoot = path.resolve(root, "site-data/charts");
 const publicRoot = path.resolve(root, "public");
+const manifest = JSON.parse(await readFile(path.resolve(root, "site-data/manifest.json"), "utf8"));
+const expectedArtifacts = manifest.plotArtifacts;
 const artifacts = [];
 const errors = [];
+
+if (!Number.isInteger(expectedArtifacts) || expectedArtifacts < 0) {
+  errors.push("site-data manifest has invalid plotArtifacts count");
+}
 
 for (const file of await readdir(chartRoot)) {
   if (!file.endsWith(".json")) continue;
@@ -14,7 +20,9 @@ for (const file of await readdir(chartRoot)) {
   artifacts.push({ id: page.id, artifact: page.artifact });
 }
 
-if (artifacts.length !== 3) errors.push(`expected exactly 3 materialized chart pages; found ${artifacts.length}`);
+if (Number.isInteger(expectedArtifacts) && artifacts.length !== expectedArtifacts) {
+  errors.push(`manifest declares ${expectedArtifacts} materialized chart pages; found ${artifacts.length}`);
+}
 
 for (const { id, artifact } of artifacts) {
   for (const field of ["svg", "png"]) {
