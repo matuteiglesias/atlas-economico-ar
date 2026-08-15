@@ -231,7 +231,61 @@
       "kind": "chart",
       "slug": "official-fx-change-vs-monthly-inflation",
       "title": "Official FX change vs monthly inflation",
-      "href": "/charts/official-fx-change-vs-monthly-inflation"
+      "href": "/charts/official-fx-change-vs-monthly-inflation",
+      "artifact": {
+        "chartSpecId": "cs.bcra.fx_change_vs_inflation",
+        "frameId": "rf.last_12m",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/official-fx-change-vs-monthly-inflation.svg",
+        "png": "/plots/official-fx-change-vs-monthly-inflation.png",
+        "altText": "Official FX change vs monthly inflation. Official FX monthly change; Monthly headline CPI inflation. Last 12 months. Data through 2026-08-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.official_fx_monthly_change",
+          "ci.ns.cpi_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.wholesale_fx",
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "5,145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns10",
@@ -287,7 +341,60 @@
       "kind": "chart",
       "slug": "nominal-vs-real-exchange-rate-movement",
       "title": "Nominal vs real exchange-rate movement",
-      "href": "/charts/nominal-vs-real-exchange-rate-movement"
+      "href": "/charts/nominal-vs-real-exchange-rate-movement",
+      "artifact": {
+        "chartSpecId": "cs.bcra.nominal_vs_real_fx",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-14",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/nominal-vs-real-exchange-rate-movement.svg",
+        "png": "/plots/nominal-vs-real-exchange-rate-movement.png",
+        "altText": "Nominal vs real exchange-rate movement. Official ARS/USD exchange rate; Real effective exchange-rate index. Since Dec 2023. Data through 2026-08-14. At least one source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.official_fx",
+          "ci.ns.reer_index"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.wholesale_fx",
+          "series.ar.datosgob.itcrm_monthly"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
+          "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "5,116.3_TCRMA_0_M_36",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          },
+          {
+            "seriesId": "series.ar.datosgob.itcrm_monthly",
+            "provider": "datos_argentina",
+            "providerSeriesId": "116.3_TCRMA_0_M_36",
+            "sourceUnit": "Índice 17-Dic-2015=100",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns22",
@@ -301,7 +408,49 @@
       "kind": "chart",
       "slug": "bcra-daily-fx-purchases",
       "title": "BCRA daily FX purchases",
-      "href": "/charts/bcra-daily-fx-purchases"
+      "href": "/charts/bcra-daily-fx-purchases",
+      "artifact": {
+        "chartSpecId": "cs.bcra.daily_fx_purchases",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_bar",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-daily-fx-purchases.svg",
+        "png": "/plots/bcra-daily-fx-purchases.png",
+        "altText": "BCRA daily FX purchases. BCRA net FX purchases. Since Jan 2026. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "78",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns24",
@@ -315,7 +464,61 @@
       "kind": "chart",
       "slug": "bcra-purchases-vs-official-exchange-rate",
       "title": "BCRA purchases vs official exchange rate",
-      "href": "/charts/bcra-purchases-vs-official-exchange-rate"
+      "href": "/charts/bcra-purchases-vs-official-exchange-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_fx",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-14",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-purchases-vs-official-exchange-rate.svg",
+        "png": "/plots/bcra-purchases-vs-official-exchange-rate.png",
+        "altText": "BCRA purchases vs official exchange rate. BCRA net FX purchases; Official ARS/USD exchange rate. Since Jan 2026. Data through 2026-08-14.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ns.official_fx"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.wholesale_fx"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,5",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns26",
@@ -336,7 +539,61 @@
       "kind": "chart",
       "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
       "title": "Inflation vs FX depreciation since stabilization start",
-      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start"
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start",
+      "artifact": {
+        "chartSpecId": "cs.bcra.inflation_vs_fx_change",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/inflation-vs-fx-depreciation-since-stabilization-start.svg",
+        "png": "/plots/inflation-vs-fx-depreciation-since-stabilization-start.png",
+        "altText": "Inflation vs FX depreciation since stabilization start. Monthly headline CPI inflation; Official FX monthly change. Since Dec 2023. Data through 2026-08-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.official_fx_monthly_change"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national",
+          "series.ar.bcra.wholesale_fx"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,5",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          },
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns54",
@@ -352,7 +609,7 @@
         "generatedAt": "2026-08-15T21:20:00Z",
         "svg": "/plots/real-effective-exchange-rate.svg",
         "png": "/plots/real-effective-exchange-rate.png",
-        "altText": "Real effective exchange rate, Real effective exchange-rate index, Last 5 years, data through 2024-12-01. Markers: Dec 2023. The source snapshot is flagged stale.",
+        "altText": "Real effective exchange rate. Real effective exchange-rate index. Last 5 years. Data through 2024-12-01. Markers: Dec 2023. At least one source snapshot is flagged stale.",
         "freshnessState": "stale_warning",
         "indicatorIds": [
           "ci.ns.reer_index"
@@ -370,7 +627,177 @@
           "normalization": {
             "kind": "identity"
           }
-        }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.itcrm_monthly",
+            "provider": "datos_argentina",
+            "providerSeriesId": "116.3_TCRMA_0_M_36",
+            "sourceUnit": "Índice 17-Dic-2015=100",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns55",
+      "kind": "chart",
+      "slug": "official-wholesale-exchange-rate",
+      "title": "Official wholesale exchange rate",
+      "href": "/charts/official-wholesale-exchange-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra.official_fx",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-14",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/official-wholesale-exchange-rate.svg",
+        "png": "/plots/official-wholesale-exchange-rate.png",
+        "altText": "Official wholesale exchange rate. Official ARS/USD exchange rate. Last 5 years. Data through 2026-08-14.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.official_fx"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.wholesale_fx"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "5",
+          "sourceUnit": "Exchange rate ars to usd",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns57",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan 2026",
+      "href": "/charts/cumulative-bcra-fx-purchases-since-jan-2026",
+      "artifact": {
+        "chartSpecId": "cs.bcra.cumulative_fx_purchases",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/cumulative-bcra-fx-purchases-since-jan-2026.svg",
+        "png": "/plots/cumulative-bcra-fx-purchases-since-jan-2026.png",
+        "altText": "Cumulative BCRA FX purchases since Jan 2026. Cumulative BCRA FX purchases since Jan-2026. Since Jan 2026. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_cumulative"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "78",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns59",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-the-monetary-base",
+      "title": "BCRA FX purchases and the monetary base",
+      "href": "/charts/bcra-fx-purchases-and-the-monetary-base",
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_base",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-fx-purchases-and-the-monetary-base.svg",
+        "png": "/plots/bcra-fx-purchases-and-the-monetary-base.png",
+        "altText": "BCRA FX purchases and the monetary base. BCRA net FX purchases; Monetary base. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ns.monetary_base_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.monetary_base_total"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,15",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          }
+        ]
       }
     }
   ],
@@ -444,6 +871,6 @@
     "connections": 12,
     "questions": 5,
     "indicators": 2,
-    "charts": 17
+    "charts": 20
   }
 }

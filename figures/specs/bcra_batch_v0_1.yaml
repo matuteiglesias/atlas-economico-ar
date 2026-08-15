@@ -1,0 +1,33 @@
+schema_version: '0.2'
+status: active_bcra_batch_v0_1
+chart_specs:
+  - {id: cs.bcra.official_fx, plot_intent_id: pi.ns55, renderer: timeseries_line, frame_id: rf.last_5y}
+  - {id: cs.bcra.fx_change_vs_inflation, plot_intent_id: pi.ns09, renderer: timeseries_line, frame_id: rf.last_12m}
+  - id: cs.bcra.daily_fx_purchases
+    plot_intent_id: pi.ns23
+    renderer: timeseries_bar
+    frame_id: rf.since_jan_2026
+    overrides: {zero_baseline: true}
+  - {id: cs.bcra.cumulative_fx_purchases, plot_intent_id: pi.ns57, renderer: timeseries_line, frame_id: rf.since_jan_2026}
+  - {id: cs.bcra.purchases_vs_fx, plot_intent_id: pi.ns25, renderer: timeseries_line, frame_id: rf.since_jan_2026}
+  - {id: cs.bcra.purchases_vs_base, plot_intent_id: pi.ns59, renderer: timeseries_line, frame_id: rf.since_jan_2026}
+  - {id: cs.bcra.baibar, plot_intent_id: pi.ns60, renderer: timeseries_line, frame_id: rf.last_12m}
+  - {id: cs.bcra.monetary_base, plot_intent_id: pi.ns34, renderer: timeseries_line, frame_id: rf.last_5y}
+  - {id: cs.bcra.base_vs_m2, plot_intent_id: pi.ns58, renderer: timeseries_line, frame_id: rf.last_5y}
+  - {id: cs.bcra.inflation_vs_fx_change, plot_intent_id: pi.ns50, renderer: timeseries_line, frame_id: rf.since_dec_2023}
+  - {id: cs.bcra.transactional_m2, plot_intent_id: pi.ns56, renderer: timeseries_line, frame_id: rf.last_5y}
+  - {id: cs.bcra.nominal_vs_real_fx, plot_intent_id: pi.ns21, renderer: timeseries_line, frame_id: rf.since_dec_2023}
+  - {id: cs.bcra.real_monetary_base, plot_intent_id: pi.ns35, renderer: timeseries_line, frame_id: rf.since_dec_2023}
+  - {id: cs.bcra.m2_nominal_real, plot_intent_id: pi.ns36, renderer: timeseries_line, frame_id: rf.since_dec_2023}
+  - {id: cs.bcra.real_m2_vs_inflation, plot_intent_id: pi.ns39, renderer: timeseries_line, frame_id: rf.since_dec_2023}
+  - {id: cs.bcra.real_m2_vs_purchases, plot_intent_id: pi.ns40, renderer: timeseries_line, frame_id: rf.since_jan_2026}
+  - {id: cs.bcra.real_base_vs_real_m2, plot_intent_id: pi.ns41, renderer: timeseries_line, frame_id: rf.since_dec_2023}
+  - {id: cs.bcra.monetization_dashboard, plot_intent_id: pi.ns43, renderer: timeseries_line, frame_id: rf.since_dec_2023}
+  - {id: cs.bcra.gross_reserves, plot_intent_id: pi.ef46, renderer: timeseries_line, frame_id: rf.last_5y}
+  - id: cs.bcra.reserve_change_monthly
+    plot_intent_id: pi.ef47
+    renderer: timeseries_bar
+    frame_id: rf.last_5y
+    overrides: {zero_baseline: true}
+  - {id: cs.bcra.reserve_ytd, plot_intent_id: pi.ef48, renderer: timeseries_line, frame_id: rf.since_jan_2026}
+  - {id: cs.bcra.purchases_vs_reserves, plot_intent_id: pi.ef49, renderer: timeseries_line, frame_id: rf.since_jan_2026}

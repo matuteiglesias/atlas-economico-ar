@@ -101,7 +101,61 @@
       "kind": "chart",
       "slug": "official-fx-change-vs-monthly-inflation",
       "title": "Official FX change vs monthly inflation",
-      "href": "/charts/official-fx-change-vs-monthly-inflation"
+      "href": "/charts/official-fx-change-vs-monthly-inflation",
+      "artifact": {
+        "chartSpecId": "cs.bcra.fx_change_vs_inflation",
+        "frameId": "rf.last_12m",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/official-fx-change-vs-monthly-inflation.svg",
+        "png": "/plots/official-fx-change-vs-monthly-inflation.png",
+        "altText": "Official FX change vs monthly inflation. Official FX monthly change; Monthly headline CPI inflation. Last 12 months. Data through 2026-08-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.official_fx_monthly_change",
+          "ci.ns.cpi_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.wholesale_fx",
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "5,145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns10",
@@ -115,7 +169,61 @@
       "kind": "chart",
       "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
       "title": "Inflation vs FX depreciation since stabilization start",
-      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start"
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start",
+      "artifact": {
+        "chartSpecId": "cs.bcra.inflation_vs_fx_change",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/inflation-vs-fx-depreciation-since-stabilization-start.svg",
+        "png": "/plots/inflation-vs-fx-depreciation-since-stabilization-start.png",
+        "altText": "Inflation vs FX depreciation since stabilization start. Monthly headline CPI inflation; Official FX monthly change. Since Dec 2023. Data through 2026-08-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.official_fx_monthly_change"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national",
+          "series.ar.bcra.wholesale_fx"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,5",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          },
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          }
+        ]
+      }
     }
   ],
   "nearby": [

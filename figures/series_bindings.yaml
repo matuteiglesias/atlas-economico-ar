@@ -18,3 +18,37 @@ series_bindings:
     normalization:
       kind: scale
       factor: 0.001
+
+  - series_id: series.ar.bcra.gross_international_reserves
+    canonical_indicator_id: ci.ef.gross_reserves_usd
+    normalization:
+      kind: scale
+      factor: 0.001
+
+  - series_id: series.ar.bcra.wholesale_fx
+    canonical_indicator_id: ci.ns.official_fx
+    normalization:
+      kind: identity
+
+  - series_id: series.ar.bcra.baibar_rate
+    canonical_indicator_id: ci.ns.money_market_rate
+    normalization:
+      kind: identity
+
+  - series_id: series.ar.bcra.monetary_base_total
+    canonical_indicator_id: ci.ns.monetary_base_nominal
+    normalization:
+      kind: scale
+      factor: 1000000
+
+  - series_id: series.ar.bcra.fx_purchases_reserve_factor
+    canonical_indicator_id: ci.ns.bcra_fx_purchases_daily
+    normalization:
+      kind: scale
+      factor: 1000000
+
+  - series_id: series.ar.bcra.transactional_m2_private
+    canonical_indicator_id: ci.ns.transactional_m2_nominal
+    normalization:
+      kind: scale
+      factor: 1000000

@@ -18,9 +18,11 @@
     "svg": "plot-artifacts/svg/goods-trade-balance.svg",
     "png": "plot-artifacts/png/goods-trade-balance.png"
   },
-  "alt_text": "Goods trade balance, Goods trade balance, Last 5 years, data through 2026-06-01.",
+  "alt_text": "Goods trade balance. Goods trade balance. Last 5 years. Data through 2026-06-01.",
   "renderer": "timeseries_bar",
-  "unit_semantics": "usd_billions",
+  "unit_semantics": [
+    "usd_billions"
+  ],
   "freshness_state": "fresh",
   "source": {
     "provider": "datos_argentina",
@@ -30,5 +32,18 @@
       "kind": "scale",
       "factor": 0.001
     }
-  }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.datosgob.goods_trade_balance",
+      "provider": "datos_argentina",
+      "provider_series_id": "74.3_ISC_0_M_19",
+      "source_unit": "Millones de dólares",
+      "normalization": {
+        "kind": "scale",
+        "factor": 0.001
+      },
+      "snapshot_sha256": "a47b7cef102d7ca2706dac42449ba84c899c15cfb36ce10f2d60dd952a038cd7"
+    }
+  ]
 }

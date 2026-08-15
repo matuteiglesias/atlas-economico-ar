@@ -18,9 +18,11 @@
     "svg": "plot-artifacts/svg/real-effective-exchange-rate.svg",
     "png": "plot-artifacts/png/real-effective-exchange-rate.png"
   },
-  "alt_text": "Real effective exchange rate, Real effective exchange-rate index, Last 5 years, data through 2024-12-01. Markers: Dec 2023. The source snapshot is flagged stale.",
+  "alt_text": "Real effective exchange rate. Real effective exchange-rate index. Last 5 years. Data through 2024-12-01. Markers: Dec 2023. At least one source snapshot is flagged stale.",
   "renderer": "timeseries_line",
-  "unit_semantics": "index",
+  "unit_semantics": [
+    "index"
+  ],
   "freshness_state": "stale_warning",
   "source": {
     "provider": "datos_argentina",
@@ -29,5 +31,17 @@
     "normalization": {
       "kind": "identity"
     }
-  }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.datosgob.itcrm_monthly",
+      "provider": "datos_argentina",
+      "provider_series_id": "116.3_TCRMA_0_M_36",
+      "source_unit": "Índice 17-Dic-2015=100",
+      "normalization": {
+        "kind": "identity"
+      },
+      "snapshot_sha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+    }
+  ]
 }

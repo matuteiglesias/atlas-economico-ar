@@ -109,7 +109,7 @@
         "generatedAt": "2026-08-15T21:20:00Z",
         "svg": "/plots/monthly-headline-inflation.svg",
         "png": "/plots/monthly-headline-inflation.png",
-        "altText": "Monthly headline inflation, Monthly headline CPI inflation, Last 5 years, data through 2026-07-01.",
+        "altText": "Monthly headline inflation. Monthly headline CPI inflation. Last 5 years. Data through 2026-07-01.",
         "freshnessState": "fresh",
         "indicatorIds": [
           "ci.ns.cpi_monthly"
@@ -128,7 +128,20 @@
             "kind": "scale",
             "factor": 100
           }
-        }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
       }
     }
   ],
@@ -180,7 +193,7 @@
         "generatedAt": "2026-08-15T21:20:00Z",
         "svg": "/plots/monthly-headline-inflation.svg",
         "png": "/plots/monthly-headline-inflation.png",
-        "altText": "Monthly headline inflation, Monthly headline CPI inflation, Last 5 years, data through 2026-07-01.",
+        "altText": "Monthly headline inflation. Monthly headline CPI inflation. Last 5 years. Data through 2026-07-01.",
         "freshnessState": "fresh",
         "indicatorIds": [
           "ci.ns.cpi_monthly"
@@ -199,7 +212,20 @@
             "kind": "scale",
             "factor": 100
           }
-        }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
       }
     },
     {

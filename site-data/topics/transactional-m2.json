@@ -83,21 +83,172 @@
       "kind": "chart",
       "slug": "nominal-monetary-base",
       "title": "Nominal monetary base",
-      "href": "/charts/nominal-monetary-base"
+      "href": "/charts/nominal-monetary-base",
+      "artifact": {
+        "chartSpecId": "cs.bcra.monetary_base",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/nominal-monetary-base.svg",
+        "png": "/plots/nominal-monetary-base.png",
+        "altText": "Nominal monetary base. Monetary base. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "15",
+          "sourceUnit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns35",
       "kind": "chart",
       "slug": "real-monetary-base",
       "title": "Real monetary base",
-      "href": "/charts/real-monetary-base"
+      "href": "/charts/real-monetary-base",
+      "artifact": {
+        "chartSpecId": "cs.bcra.real_monetary_base",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/real-monetary-base.svg",
+        "png": "/plots/real-monetary-base.png",
+        "altText": "Real monetary base. Real monetary base. Since Dec 2023. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_real"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total",
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns36",
       "kind": "chart",
       "slug": "transactional-m2-nominal-and-real",
       "title": "Transactional M2 nominal and real",
-      "href": "/charts/transactional-m2-nominal-and-real"
+      "href": "/charts/transactional-m2-nominal-and-real",
+      "artifact": {
+        "chartSpecId": "cs.bcra.m2_nominal_real",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/transactional-m2-nominal-and-real.svg",
+        "png": "/plots/transactional-m2-nominal-and-real.png",
+        "altText": "Transactional M2 nominal and real. Private transactional M2; Real private transactional M2. Since Dec 2023. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.transactional_m2_nominal",
+          "ci.ns.transactional_m2_real"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.transactional_m2_private",
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns37",
@@ -118,21 +269,212 @@
       "kind": "chart",
       "slug": "remonetization-vs-inflation",
       "title": "Remonetization vs inflation",
-      "href": "/charts/remonetization-vs-inflation"
+      "href": "/charts/remonetization-vs-inflation",
+      "artifact": {
+        "chartSpecId": "cs.bcra.real_m2_vs_inflation",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/remonetization-vs-inflation.svg",
+        "png": "/plots/remonetization-vs-inflation.png",
+        "altText": "Remonetization vs inflation. Real private transactional M2; Monthly headline CPI inflation. Since Dec 2023. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.transactional_m2_real",
+          "ci.ns.cpi_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.transactional_m2_private",
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns40",
       "kind": "chart",
       "slug": "remonetization-vs-bcra-fx-purchases",
       "title": "Remonetization vs BCRA FX purchases",
-      "href": "/charts/remonetization-vs-bcra-fx-purchases"
+      "href": "/charts/remonetization-vs-bcra-fx-purchases",
+      "artifact": {
+        "chartSpecId": "cs.bcra.real_m2_vs_purchases",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/remonetization-vs-bcra-fx-purchases.svg",
+        "png": "/plots/remonetization-vs-bcra-fx-purchases.png",
+        "altText": "Remonetization vs BCRA FX purchases. Real private transactional M2; BCRA net FX purchases. Since Jan 2026. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.transactional_m2_real",
+          "ci.ns.bcra_fx_purchases_daily"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.transactional_m2_private",
+          "series.ar.datosgob.ipc_headline_mom_national",
+          "series.ar.bcra.fx_purchases_reserve_factor"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          },
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns41",
       "kind": "chart",
       "slug": "monetary-base-vs-transactional-m2",
       "title": "Monetary base vs transactional M2",
-      "href": "/charts/monetary-base-vs-transactional-m2"
+      "href": "/charts/monetary-base-vs-transactional-m2",
+      "artifact": {
+        "chartSpecId": "cs.bcra.real_base_vs_real_m2",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monetary-base-vs-transactional-m2.svg",
+        "png": "/plots/monetary-base-vs-transactional-m2.png",
+        "altText": "Monetary base vs transactional M2. Real monetary base; Real private transactional M2. Since Dec 2023. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_real",
+          "ci.ns.transactional_m2_real"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total",
+          "series.ar.datosgob.ipc_headline_mom_national",
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          },
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns42",
@@ -146,7 +488,187 @@
       "kind": "chart",
       "slug": "monetization-dashboard-base-m2-inflation",
       "title": "Monetization dashboard: base, M2, inflation",
-      "href": "/charts/monetization-dashboard-base-m2-inflation"
+      "href": "/charts/monetization-dashboard-base-m2-inflation",
+      "artifact": {
+        "chartSpecId": "cs.bcra.monetization_dashboard",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monetization-dashboard-base-m2-inflation.svg",
+        "png": "/plots/monetization-dashboard-base-m2-inflation.png",
+        "altText": "Monetization dashboard: base, M2, inflation. Real monetary base; Real private transactional M2; Monthly headline CPI inflation. Since Dec 2023. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_real",
+          "ci.ns.transactional_m2_real",
+          "ci.ns.cpi_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total",
+          "series.ar.datosgob.ipc_headline_mom_national",
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          },
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns56",
+      "kind": "chart",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/charts/private-transactional-m2",
+      "artifact": {
+        "chartSpecId": "cs.bcra.transactional_m2",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/private-transactional-m2.svg",
+        "png": "/plots/private-transactional-m2.png",
+        "altText": "Private transactional M2. Private transactional M2. Last 5 years. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.transactional_m2_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "197",
+          "sourceUnit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns58",
+      "kind": "chart",
+      "slug": "monetary-base-and-transactional-m2",
+      "title": "Monetary base and transactional M2",
+      "href": "/charts/monetary-base-and-transactional-m2",
+      "artifact": {
+        "chartSpecId": "cs.bcra.base_vs_m2",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monetary-base-and-transactional-m2.svg",
+        "png": "/plots/monetary-base-and-transactional-m2.png",
+        "altText": "Monetary base and transactional M2. Monetary base; Private transactional M2. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_nominal",
+          "ci.ns.transactional_m2_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total",
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "15,197",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          },
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
     }
   ],
   "nearby": [
@@ -219,6 +741,6 @@
     "connections": 2,
     "questions": 1,
     "indicators": 2,
-    "charts": 10
+    "charts": 12
   }
 }

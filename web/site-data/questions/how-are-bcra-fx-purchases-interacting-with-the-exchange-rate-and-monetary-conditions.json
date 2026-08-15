@@ -59,6 +59,13 @@
   ],
   "indicators": [
     {
+      "id": "ci.ns.bcra_fx_purchases_cumulative",
+      "kind": "indicator",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan-2026",
+      "href": "/indicators/cumulative-bcra-fx-purchases-since-jan-2026"
+    },
+    {
       "id": "ci.ns.bcra_fx_purchases_daily",
       "kind": "indicator",
       "slug": "bcra-net-fx-purchases",
@@ -86,7 +93,49 @@
       "kind": "chart",
       "slug": "bcra-daily-fx-purchases",
       "title": "BCRA daily FX purchases",
-      "href": "/charts/bcra-daily-fx-purchases"
+      "href": "/charts/bcra-daily-fx-purchases",
+      "artifact": {
+        "chartSpecId": "cs.bcra.daily_fx_purchases",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_bar",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-daily-fx-purchases.svg",
+        "png": "/plots/bcra-daily-fx-purchases.png",
+        "altText": "BCRA daily FX purchases. BCRA net FX purchases. Since Jan 2026. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "78",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns24",
@@ -100,7 +149,61 @@
       "kind": "chart",
       "slug": "bcra-purchases-vs-official-exchange-rate",
       "title": "BCRA purchases vs official exchange rate",
-      "href": "/charts/bcra-purchases-vs-official-exchange-rate"
+      "href": "/charts/bcra-purchases-vs-official-exchange-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_fx",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-14",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-purchases-vs-official-exchange-rate.svg",
+        "png": "/plots/bcra-purchases-vs-official-exchange-rate.png",
+        "altText": "BCRA purchases vs official exchange rate. BCRA net FX purchases; Official ARS/USD exchange rate. Since Jan 2026. Data through 2026-08-14.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ns.official_fx"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.wholesale_fx"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,5",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns26",
@@ -108,6 +211,117 @@
       "slug": "bcra-purchases-vs-monetary-base-growth",
       "title": "BCRA purchases vs monetary-base growth",
       "href": "/charts/bcra-purchases-vs-monetary-base-growth"
+    },
+    {
+      "id": "pi.ns57",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan 2026",
+      "href": "/charts/cumulative-bcra-fx-purchases-since-jan-2026",
+      "artifact": {
+        "chartSpecId": "cs.bcra.cumulative_fx_purchases",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/cumulative-bcra-fx-purchases-since-jan-2026.svg",
+        "png": "/plots/cumulative-bcra-fx-purchases-since-jan-2026.png",
+        "altText": "Cumulative BCRA FX purchases since Jan 2026. Cumulative BCRA FX purchases since Jan-2026. Since Jan 2026. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_cumulative"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "78",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns59",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-the-monetary-base",
+      "title": "BCRA FX purchases and the monetary base",
+      "href": "/charts/bcra-fx-purchases-and-the-monetary-base",
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_base",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-fx-purchases-and-the-monetary-base.svg",
+        "png": "/plots/bcra-fx-purchases-and-the-monetary-base.png",
+        "altText": "BCRA FX purchases and the monetary base. BCRA net FX purchases; Monetary base. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ns.monetary_base_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.monetary_base_total"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,15",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          }
+        ]
+      }
     }
   ],
   "nearby": [
@@ -149,7 +363,112 @@
       "slug": "bcra-daily-fx-purchases",
       "title": "BCRA daily FX purchases",
       "href": "/charts/bcra-daily-fx-purchases",
-      "distance": 1
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.daily_fx_purchases",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_bar",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-daily-fx-purchases.svg",
+        "png": "/plots/bcra-daily-fx-purchases.png",
+        "altText": "BCRA daily FX purchases. BCRA net FX purchases. Since Jan 2026. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "78",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns59",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-the-monetary-base",
+      "title": "BCRA FX purchases and the monetary base",
+      "href": "/charts/bcra-fx-purchases-and-the-monetary-base",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_base",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-fx-purchases-and-the-monetary-base.svg",
+        "png": "/plots/bcra-fx-purchases-and-the-monetary-base.png",
+        "altText": "BCRA FX purchases and the monetary base. BCRA net FX purchases; Monetary base. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ns.monetary_base_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.monetary_base_total"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,15",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns26",
@@ -165,20 +484,66 @@
       "slug": "bcra-purchases-vs-official-exchange-rate",
       "title": "BCRA purchases vs official exchange rate",
       "href": "/charts/bcra-purchases-vs-official-exchange-rate",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns24",
-      "kind": "chart",
-      "slug": "cumulative-bcra-fx-purchases",
-      "title": "Cumulative BCRA FX purchases",
-      "href": "/charts/cumulative-bcra-fx-purchases",
-      "distance": 1
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_fx",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-14",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-purchases-vs-official-exchange-rate.svg",
+        "png": "/plots/bcra-purchases-vs-official-exchange-rate.png",
+        "altText": "BCRA purchases vs official exchange rate. BCRA net FX purchases; Official ARS/USD exchange rate. Since Jan 2026. Data through 2026-08-14.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ns.official_fx"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.wholesale_fx"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,5",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          }
+        ]
+      }
     }
   ],
   "counts": {
     "topics": 4,
-    "indicators": 3,
-    "charts": 4
+    "indicators": 4,
+    "charts": 6
   }
 }

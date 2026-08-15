@@ -63,7 +63,60 @@
       "kind": "chart",
       "slug": "nominal-vs-real-exchange-rate-movement",
       "title": "Nominal vs real exchange-rate movement",
-      "href": "/charts/nominal-vs-real-exchange-rate-movement"
+      "href": "/charts/nominal-vs-real-exchange-rate-movement",
+      "artifact": {
+        "chartSpecId": "cs.bcra.nominal_vs_real_fx",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-14",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/nominal-vs-real-exchange-rate-movement.svg",
+        "png": "/plots/nominal-vs-real-exchange-rate-movement.png",
+        "altText": "Nominal vs real exchange-rate movement. Official ARS/USD exchange rate; Real effective exchange-rate index. Since Dec 2023. Data through 2026-08-14. At least one source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.official_fx",
+          "ci.ns.reer_index"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.wholesale_fx",
+          "series.ar.datosgob.itcrm_monthly"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
+          "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "5,116.3_TCRMA_0_M_36",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          },
+          {
+            "seriesId": "series.ar.datosgob.itcrm_monthly",
+            "provider": "datos_argentina",
+            "providerSeriesId": "116.3_TCRMA_0_M_36",
+            "sourceUnit": "Índice 17-Dic-2015=100",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns22",
@@ -86,7 +139,7 @@
         "generatedAt": "2026-08-15T21:20:00Z",
         "svg": "/plots/real-effective-exchange-rate.svg",
         "png": "/plots/real-effective-exchange-rate.png",
-        "altText": "Real effective exchange rate, Real effective exchange-rate index, Last 5 years, data through 2024-12-01. Markers: Dec 2023. The source snapshot is flagged stale.",
+        "altText": "Real effective exchange rate. Real effective exchange-rate index. Last 5 years. Data through 2024-12-01. Markers: Dec 2023. At least one source snapshot is flagged stale.",
         "freshnessState": "stale_warning",
         "indicatorIds": [
           "ci.ns.reer_index"
@@ -104,7 +157,19 @@
           "normalization": {
             "kind": "identity"
           }
-        }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.itcrm_monthly",
+            "provider": "datos_argentina",
+            "providerSeriesId": "116.3_TCRMA_0_M_36",
+            "sourceUnit": "Índice 17-Dic-2015=100",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+          }
+        ]
       }
     }
   ],
@@ -127,7 +192,60 @@
       "slug": "nominal-vs-real-exchange-rate-movement",
       "title": "Nominal vs real exchange-rate movement",
       "href": "/charts/nominal-vs-real-exchange-rate-movement",
-      "distance": 1
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.nominal_vs_real_fx",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-14",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/nominal-vs-real-exchange-rate-movement.svg",
+        "png": "/plots/nominal-vs-real-exchange-rate-movement.png",
+        "altText": "Nominal vs real exchange-rate movement. Official ARS/USD exchange rate; Real effective exchange-rate index. Since Dec 2023. Data through 2026-08-14. At least one source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.official_fx",
+          "ci.ns.reer_index"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.wholesale_fx",
+          "series.ar.datosgob.itcrm_monthly"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
+          "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "5,116.3_TCRMA_0_M_36",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          },
+          {
+            "seriesId": "series.ar.datosgob.itcrm_monthly",
+            "provider": "datos_argentina",
+            "providerSeriesId": "116.3_TCRMA_0_M_36",
+            "sourceUnit": "Índice 17-Dic-2015=100",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns54",
@@ -144,7 +262,7 @@
         "generatedAt": "2026-08-15T21:20:00Z",
         "svg": "/plots/real-effective-exchange-rate.svg",
         "png": "/plots/real-effective-exchange-rate.png",
-        "altText": "Real effective exchange rate, Real effective exchange-rate index, Last 5 years, data through 2024-12-01. Markers: Dec 2023. The source snapshot is flagged stale.",
+        "altText": "Real effective exchange rate. Real effective exchange-rate index. Last 5 years. Data through 2024-12-01. Markers: Dec 2023. At least one source snapshot is flagged stale.",
         "freshnessState": "stale_warning",
         "indicatorIds": [
           "ci.ns.reer_index"
@@ -162,7 +280,19 @@
           "normalization": {
             "kind": "identity"
           }
-        }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.itcrm_monthly",
+            "provider": "datos_argentina",
+            "providerSeriesId": "116.3_TCRMA_0_M_36",
+            "sourceUnit": "Índice 17-Dic-2015=100",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+          }
+        ]
       }
     },
     {

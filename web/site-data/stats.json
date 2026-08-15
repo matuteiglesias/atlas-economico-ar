@@ -3,13 +3,13 @@
     "region": 6,
     "topic": 55,
     "question": 38,
-    "indicator": 82,
-    "chart": 99
+    "indicator": 83,
+    "chart": 109
   },
   "graph": {
-    "nodes": 280,
-    "edges": 613
+    "nodes": 291,
+    "edges": 639
   },
   "verticals_loaded": 2,
-  "plot_artifacts": 3
+  "plot_artifacts": 25
 }

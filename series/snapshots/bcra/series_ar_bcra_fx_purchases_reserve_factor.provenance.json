@@ -1,0 +1,61 @@
+{
+  "canonical_indicator_id": "ci.ns.bcra_fx_purchases_daily",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 4,
+    "latest_observation": "2026-08-11",
+    "state": "fresh",
+    "warning_days": 10
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Series.xlsm",
+    "currency": "ME",
+    "description": "International Reserves variation explanatory factors-Foreign Exchange Purchases",
+    "frequency": "daily",
+    "series_type": "Daily flows",
+    "time_index_end": "2026-08-11",
+    "time_index_start": "2003-01-02",
+    "title": "International Reserves variation explanatory factors-Foreign Exchange Purchases",
+    "units": "Millons USD"
+  },
+  "provider_series_id": "78",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_fx_purchases_reserve_factor.catalog.json",
+    "catalog_sha256": "dceb83f7ada92d541f75fc5aeb72eae57cf5ccf80b41b4c54d9600c5f4c029af",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_fx_purchases_reserve_factor.methodology.json",
+    "methodology_sha256": "40f872766196d49ef40fe105054c173cd4654d05cd789dba58beed92823ef467",
+    "values_pages": [
+      {
+        "observation_rows": 3000,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_fx_purchases_reserve_factor.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/78?limit=3000&offset=0",
+        "sha256": "b4bef7c0d769efee4a0fa5c33d78df97dc700a98ccc849ffa353955fc21b0485"
+      },
+      {
+        "observation_rows": 2787,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_fx_purchases_reserve_factor.values.page-0001.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/78?limit=3000&offset=3000",
+        "sha256": "106597e5e9101ddba05c614cbe3e1eaea97d82db344b71b28a2acdbe675a855b"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=78&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/78",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/78?limit=3000&offset=0",
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/78?limit=3000&offset=3000"
+    ]
+  },
+  "retrieved_at": "2026-08-15T23:17:37.469427Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.fx_purchases_reserve_factor",
+  "snapshot": {
+    "first_observation": "2003-01-02",
+    "latest_observation": "2026-08-11",
+    "observation_rows": 5787,
+    "path": "series/snapshots/bcra/series_ar_bcra_fx_purchases_reserve_factor.csv",
+    "sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+  }
+}

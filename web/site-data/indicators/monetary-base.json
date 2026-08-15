@@ -49,7 +49,49 @@
       "kind": "chart",
       "slug": "nominal-monetary-base",
       "title": "Nominal monetary base",
-      "href": "/charts/nominal-monetary-base"
+      "href": "/charts/nominal-monetary-base",
+      "artifact": {
+        "chartSpecId": "cs.bcra.monetary_base",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/nominal-monetary-base.svg",
+        "png": "/plots/nominal-monetary-base.png",
+        "altText": "Nominal monetary base. Monetary base. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "15",
+          "sourceUnit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns42",
@@ -57,9 +99,135 @@
       "slug": "monetary-base-growth-vs-money-demand-proxy",
       "title": "Monetary-base growth vs money-demand proxy",
       "href": "/charts/monetary-base-growth-vs-money-demand-proxy"
+    },
+    {
+      "id": "pi.ns58",
+      "kind": "chart",
+      "slug": "monetary-base-and-transactional-m2",
+      "title": "Monetary base and transactional M2",
+      "href": "/charts/monetary-base-and-transactional-m2",
+      "artifact": {
+        "chartSpecId": "cs.bcra.base_vs_m2",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monetary-base-and-transactional-m2.svg",
+        "png": "/plots/monetary-base-and-transactional-m2.png",
+        "altText": "Monetary base and transactional M2. Monetary base; Private transactional M2. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_nominal",
+          "ci.ns.transactional_m2_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total",
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "15,197",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          },
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns59",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-the-monetary-base",
+      "title": "BCRA FX purchases and the monetary base",
+      "href": "/charts/bcra-fx-purchases-and-the-monetary-base",
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_base",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-fx-purchases-and-the-monetary-base.svg",
+        "png": "/plots/bcra-fx-purchases-and-the-monetary-base.png",
+        "altText": "BCRA FX purchases and the monetary base. BCRA net FX purchases; Monetary base. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ns.monetary_base_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.monetary_base_total"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,15",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          }
+        ]
+      }
     }
   ],
-  "derivedAsInput": [],
+  "derivedAsInput": [
+    "di.ns.monetary_base_real_v0_2"
+  ],
   "derivedAsOutput": [],
   "nearby": [
     {
@@ -71,12 +239,138 @@
       "distance": 1
     },
     {
+      "id": "pi.ns59",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-the-monetary-base",
+      "title": "BCRA FX purchases and the monetary base",
+      "href": "/charts/bcra-fx-purchases-and-the-monetary-base",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_base",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-fx-purchases-and-the-monetary-base.svg",
+        "png": "/plots/bcra-fx-purchases-and-the-monetary-base.png",
+        "altText": "BCRA FX purchases and the monetary base. BCRA net FX purchases; Monetary base. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ns.monetary_base_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.monetary_base_total"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,15",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ns26",
       "kind": "chart",
       "slug": "bcra-purchases-vs-monetary-base-growth",
       "title": "BCRA purchases vs monetary-base growth",
       "href": "/charts/bcra-purchases-vs-monetary-base-growth",
       "distance": 1
+    },
+    {
+      "id": "pi.ns58",
+      "kind": "chart",
+      "slug": "monetary-base-and-transactional-m2",
+      "title": "Monetary base and transactional M2",
+      "href": "/charts/monetary-base-and-transactional-m2",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.base_vs_m2",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monetary-base-and-transactional-m2.svg",
+        "png": "/plots/monetary-base-and-transactional-m2.png",
+        "altText": "Monetary base and transactional M2. Monetary base; Private transactional M2. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_nominal",
+          "ci.ns.transactional_m2_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total",
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "15,197",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          },
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns42",
@@ -92,7 +386,49 @@
       "slug": "nominal-monetary-base",
       "title": "Nominal monetary base",
       "href": "/charts/nominal-monetary-base",
-      "distance": 1
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.monetary_base",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/nominal-monetary-base.svg",
+        "png": "/plots/nominal-monetary-base.png",
+        "altText": "Nominal monetary base. Monetary base. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "15",
+          "sourceUnit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          }
+        ]
+      }
     },
     {
       "id": "q.ns11",
@@ -109,27 +445,11 @@
       "title": "Is domestic money demand recovering?",
       "href": "/questions/is-domestic-money-demand-recovering",
       "distance": 2
-    },
-    {
-      "id": "q.ns17",
-      "kind": "question",
-      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
-      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
-      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
-      "distance": 2
-    },
-    {
-      "id": "q.ns16",
-      "kind": "question",
-      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
-      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
-      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
-      "distance": 2
     }
   ],
   "counts": {
-    "charts": 3,
-    "derivedAsInput": 0,
+    "charts": 5,
+    "derivedAsInput": 1,
     "derivedAsOutput": 0
   }
 }

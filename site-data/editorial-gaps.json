@@ -1120,6 +1120,17 @@
       ]
     },
     {
+      "id": "ci.ns.bcra_fx_purchases_cumulative",
+      "kind": "indicator",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan-2026",
+      "href": "/indicators/cumulative-bcra-fx-purchases-since-jan-2026",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
       "id": "ci.ef.gross_reserves_usd",
       "kind": "indicator",
       "slug": "gross-international-reserves",
@@ -2100,6 +2111,66 @@
       ]
     },
     {
+      "id": "pi.ns55",
+      "kind": "chart",
+      "slug": "official-wholesale-exchange-rate",
+      "title": "Official wholesale exchange rate",
+      "href": "/charts/official-wholesale-exchange-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns56",
+      "kind": "chart",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/charts/private-transactional-m2",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns57",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan 2026",
+      "href": "/charts/cumulative-bcra-fx-purchases-since-jan-2026",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns58",
+      "kind": "chart",
+      "slug": "monetary-base-and-transactional-m2",
+      "title": "Monetary base and transactional M2",
+      "href": "/charts/monetary-base-and-transactional-m2",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns59",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-the-monetary-base",
+      "title": "BCRA FX purchases and the monetary base",
+      "href": "/charts/bcra-fx-purchases-and-the-monetary-base",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns60",
+      "kind": "chart",
+      "slug": "baibar-interbank-rate",
+      "title": "BAIBAR interbank rate",
+      "href": "/charts/baibar-interbank-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
       "id": "pi.ef29",
       "kind": "chart",
       "slug": "private-credit-as-a-share-of-gdp",
@@ -2268,7 +2339,47 @@
       "missing": [
         "intro"
       ]
+    },
+    {
+      "id": "pi.ef46",
+      "kind": "chart",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/charts/gross-international-reserves",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ef47",
+      "kind": "chart",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/charts/monthly-change-in-gross-reserves",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ef48",
+      "kind": "chart",
+      "slug": "reserve-accumulation-year-to-date",
+      "title": "Reserve accumulation year to date",
+      "href": "/charts/reserve-accumulation-year-to-date",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ef49",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-gross-reserves",
+      "title": "BCRA FX purchases and gross reserves",
+      "href": "/charts/bcra-fx-purchases-and-gross-reserves",
+      "missing": [
+        "intro"
+      ]
     }
   ],
-  "count": 217
+  "count": 228
 }

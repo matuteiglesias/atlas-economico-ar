@@ -124,6 +124,117 @@
       "slug": "external-vulnerability-state-map",
       "title": "External vulnerability state map",
       "href": "/charts/external-vulnerability-state-map"
+    },
+    {
+      "id": "pi.ef46",
+      "kind": "chart",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/charts/gross-international-reserves",
+      "artifact": {
+        "chartSpecId": "cs.bcra.gross_reserves",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/gross-international-reserves.svg",
+        "png": "/plots/gross-international-reserves.png",
+        "altText": "Gross international reserves. Gross international reserves. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.gross_reserves_usd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "1",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ef49",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-gross-reserves",
+      "title": "BCRA FX purchases and gross reserves",
+      "href": "/charts/bcra-fx-purchases-and-gross-reserves",
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_reserves",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-fx-purchases-and-gross-reserves.svg",
+        "png": "/plots/bcra-fx-purchases-and-gross-reserves.png",
+        "altText": "BCRA FX purchases and gross reserves. BCRA net FX purchases; Gross international reserves. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ef.gross_reserves_usd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,1",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
     }
   ],
   "nearby": [
@@ -196,6 +307,6 @@
     "connections": 3,
     "questions": 1,
     "indicators": 1,
-    "charts": 6
+    "charts": 8
   }
 }

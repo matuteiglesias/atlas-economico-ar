@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ef46",
+  "chart_spec_id": "cs.bcra.gross_reserves",
+  "frame_id": "rf.last_5y",
+  "data_as_of": "2026-08-12",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ef.gross_reserves_usd"
+  ],
+  "series_ids": [
+    "series.ar.bcra.gross_international_reserves"
+  ],
+  "snapshot_sha256": {
+    "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/gross-international-reserves.svg",
+    "png": "plot-artifacts/png/gross-international-reserves.png"
+  },
+  "alt_text": "Gross international reserves. Gross international reserves. Last 5 years. Data through 2026-08-12.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "usd_billions"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "bcra_monetarias_v4",
+    "provider_series_id": "1",
+    "source_unit": "Millons USD",
+    "normalization": {
+      "kind": "scale",
+      "factor": 0.001
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.bcra.gross_international_reserves",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "1",
+      "source_unit": "Millons USD",
+      "normalization": {
+        "kind": "scale",
+        "factor": 0.001
+      },
+      "snapshot_sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+    }
+  ]
+}

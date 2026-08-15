@@ -100,7 +100,138 @@
       "kind": "chart",
       "slug": "monetization-dashboard-base-m2-inflation",
       "title": "Monetization dashboard: base, M2, inflation",
-      "href": "/charts/monetization-dashboard-base-m2-inflation"
+      "href": "/charts/monetization-dashboard-base-m2-inflation",
+      "artifact": {
+        "chartSpecId": "cs.bcra.monetization_dashboard",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monetization-dashboard-base-m2-inflation.svg",
+        "png": "/plots/monetization-dashboard-base-m2-inflation.png",
+        "altText": "Monetization dashboard: base, M2, inflation. Real monetary base; Real private transactional M2; Monthly headline CPI inflation. Since Dec 2023. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_real",
+          "ci.ns.transactional_m2_real",
+          "ci.ns.cpi_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total",
+          "series.ar.datosgob.ipc_headline_mom_national",
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          },
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns58",
+      "kind": "chart",
+      "slug": "monetary-base-and-transactional-m2",
+      "title": "Monetary base and transactional M2",
+      "href": "/charts/monetary-base-and-transactional-m2",
+      "artifact": {
+        "chartSpecId": "cs.bcra.base_vs_m2",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monetary-base-and-transactional-m2.svg",
+        "png": "/plots/monetary-base-and-transactional-m2.png",
+        "altText": "Monetary base and transactional M2. Monetary base; Private transactional M2. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_nominal",
+          "ci.ns.transactional_m2_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total",
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "15,197",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          },
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
     }
   ],
   "nearby": [
@@ -129,6 +260,69 @@
       "distance": 1
     },
     {
+      "id": "pi.ns58",
+      "kind": "chart",
+      "slug": "monetary-base-and-transactional-m2",
+      "title": "Monetary base and transactional M2",
+      "href": "/charts/monetary-base-and-transactional-m2",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.base_vs_m2",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monetary-base-and-transactional-m2.svg",
+        "png": "/plots/monetary-base-and-transactional-m2.png",
+        "altText": "Monetary base and transactional M2. Monetary base; Private transactional M2. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_nominal",
+          "ci.ns.transactional_m2_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total",
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "15,197",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          },
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ns42",
       "kind": "chart",
       "slug": "monetary-base-growth-vs-money-demand-proxy",
@@ -142,7 +336,76 @@
       "slug": "monetization-dashboard-base-m2-inflation",
       "title": "Monetization dashboard: base, M2, inflation",
       "href": "/charts/monetization-dashboard-base-m2-inflation",
-      "distance": 1
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.monetization_dashboard",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monetization-dashboard-base-m2-inflation.svg",
+        "png": "/plots/monetization-dashboard-base-m2-inflation.png",
+        "altText": "Monetization dashboard: base, M2, inflation. Real monetary base; Real private transactional M2; Monthly headline CPI inflation. Since Dec 2023. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_real",
+          "ci.ns.transactional_m2_real",
+          "ci.ns.cpi_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total",
+          "series.ar.datosgob.ipc_headline_mom_national",
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          },
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
     },
     {
       "id": "q.ns11",
@@ -159,19 +422,11 @@
       "title": "Is domestic money demand recovering?",
       "href": "/questions/is-domestic-money-demand-recovering",
       "distance": 2
-    },
-    {
-      "id": "q.ns16",
-      "kind": "question",
-      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
-      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
-      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
-      "distance": 2
     }
   ],
   "counts": {
     "topics": 3,
     "indicators": 5,
-    "charts": 2
+    "charts": 3
   }
 }

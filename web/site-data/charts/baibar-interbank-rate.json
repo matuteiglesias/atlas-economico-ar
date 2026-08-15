@@ -1,0 +1,176 @@
+{
+  "id": "pi.ns60",
+  "kind": "chart",
+  "slug": "baibar-interbank-rate",
+  "title": "BAIBAR interbank rate",
+  "href": "/charts/baibar-interbank-rate",
+  "dek": "Track the short-term interbank money-market rate directly; volatility is not inferred from the level alone.",
+  "intro": null,
+  "region": {
+    "id": "nominal_stabilization",
+    "kind": "region",
+    "slug": "nominal-stabilization",
+    "title": "Nominal Stabilization",
+    "href": "/areas/nominal-stabilization"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate"
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate"
+    }
+  ],
+  "referenceFrameIds": [],
+  "chartSpec": null,
+  "nearby": [
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate",
+      "distance": 1
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "distance": 2
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns30",
+      "kind": "chart",
+      "slug": "money-market-rate-volatility",
+      "title": "Money-market rate volatility",
+      "href": "/charts/money-market-rate-volatility",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns48",
+      "kind": "chart",
+      "slug": "money-market-volatility-vs-fx-gap",
+      "title": "Money-market volatility vs FX gap",
+      "href": "/charts/money-market-volatility-vs-fx-gap",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns31",
+      "kind": "chart",
+      "slug": "policy-relevant-rate-vs-money-market-rate",
+      "title": "Policy-relevant rate vs money-market rate",
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate",
+      "distance": 2
+    },
+    {
+      "id": "pi.ns33",
+      "kind": "chart",
+      "slug": "reserve-requirement-changes-with-money-market-rates",
+      "title": "Reserve requirement changes with money-market rates",
+      "href": "/charts/reserve-requirement-changes-with-money-market-rates",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 2,
+    "indicators": 1
+  },
+  "artifact": {
+    "chartSpecId": "cs.bcra.baibar",
+    "frameId": "rf.last_12m",
+    "renderer": "timeseries_line",
+    "dataAsOf": "2026-08-13",
+    "generatedAt": "2026-08-15T21:20:00Z",
+    "svg": "/plots/baibar-interbank-rate.svg",
+    "png": "/plots/baibar-interbank-rate.png",
+    "altText": "BAIBAR interbank rate. Short money-market rate. Last 12 months. Data through 2026-08-13.",
+    "freshnessState": "fresh",
+    "indicatorIds": [
+      "ci.ns.money_market_rate"
+    ],
+    "seriesIds": [
+      "series.ar.bcra.baibar_rate"
+    ],
+    "snapshotSha256": {
+      "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+    },
+    "source": {
+      "provider": "bcra_monetarias_v4",
+      "providerSeriesId": "11",
+      "sourceUnit": "Nominal annual interest rate",
+      "normalization": {
+        "kind": "identity"
+      }
+    },
+    "sources": [
+      {
+        "seriesId": "series.ar.bcra.baibar_rate",
+        "provider": "bcra_monetarias_v4",
+        "providerSeriesId": "11",
+        "sourceUnit": "Nominal annual interest rate",
+        "normalization": {
+          "kind": "identity"
+        },
+        "snapshotSha256": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+      }
+    ]
+  }
+}

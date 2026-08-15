@@ -134,12 +134,67 @@
       "distance": 2
     },
     {
-      "id": "pi.ns42",
+      "id": "pi.ns58",
       "kind": "chart",
-      "slug": "monetary-base-growth-vs-money-demand-proxy",
-      "title": "Monetary-base growth vs money-demand proxy",
-      "href": "/charts/monetary-base-growth-vs-money-demand-proxy",
-      "distance": 2
+      "slug": "monetary-base-and-transactional-m2",
+      "title": "Monetary base and transactional M2",
+      "href": "/charts/monetary-base-and-transactional-m2",
+      "distance": 2,
+      "artifact": {
+        "chartSpecId": "cs.bcra.base_vs_m2",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monetary-base-and-transactional-m2.svg",
+        "png": "/plots/monetary-base-and-transactional-m2.png",
+        "altText": "Monetary base and transactional M2. Monetary base; Private transactional M2. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_nominal",
+          "ci.ns.transactional_m2_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total",
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "15,197",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          },
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
     }
   ],
   "counts": {

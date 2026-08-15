@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ns50",
+  "chart_spec_id": "cs.bcra.inflation_vs_fx_change",
+  "frame_id": "rf.since_dec_2023",
+  "data_as_of": "2026-08-01",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ns.cpi_monthly",
+    "ci.ns.official_fx_monthly_change"
+  ],
+  "series_ids": [
+    "series.ar.datosgob.ipc_headline_mom_national",
+    "series.ar.bcra.wholesale_fx"
+  ],
+  "snapshot_sha256": {
+    "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+    "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/inflation-vs-fx-depreciation-since-stabilization-start.svg",
+    "png": "plot-artifacts/png/inflation-vs-fx-depreciation-since-stabilization-start.png"
+  },
+  "alt_text": "Inflation vs FX depreciation since stabilization start. Monthly headline CPI inflation; Official FX monthly change. Since Dec 2023. Data through 2026-08-01.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "percent_mom",
+    "percent"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "multiple",
+    "provider_series_id": "145.3_INGNACUAL_DICI_M_38,5",
+    "source_unit": null,
+    "normalization": {
+      "kind": "composite"
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+      "provider": "datos_argentina",
+      "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+      "source_unit": "Variación intermensual",
+      "normalization": {
+        "kind": "scale",
+        "factor": 100
+      },
+      "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+    },
+    {
+      "series_id": "series.ar.bcra.wholesale_fx",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "5",
+      "source_unit": "Exchange rate ars to usd",
+      "normalization": {
+        "kind": "identity"
+      },
+      "snapshot_sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+    }
+  ]
+}

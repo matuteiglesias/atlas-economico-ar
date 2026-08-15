@@ -1,0 +1,32 @@
+derived_indicators:
+- id: di.ef.reserve_change_monthly_v0_2
+  version: '0.2'
+  status: active_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  output_indicator_id: ci.ef.reserve_change_monthly
+  input_indicator_ids:
+  - ci.ef.gross_reserves_usd
+  methodology: Use the final available gross-reserves observation in each calendar month and subtract the previous month-end stock.
+  methodology_status: implemented_v0_2
+  provenance:
+    model_prior_used: false
+
+- id: di.ef.reserve_accumulation_ytd_v0_2
+  version: '0.2'
+  status: active_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  output_indicator_id: ci.ef.reserve_accumulation_ytd
+  input_indicator_ids:
+  - ci.ef.gross_reserves_usd
+  methodology: For each daily observation, subtract the final available gross-reserves observation of the prior calendar year.
+  methodology_status: implemented_v0_2
+  provenance:
+    model_prior_used: false

@@ -113,28 +113,167 @@
       "distance": 2
     },
     {
+      "id": "pi.ns58",
+      "kind": "chart",
+      "slug": "monetary-base-and-transactional-m2",
+      "title": "Monetary base and transactional M2",
+      "href": "/charts/monetary-base-and-transactional-m2",
+      "distance": 2,
+      "artifact": {
+        "chartSpecId": "cs.bcra.base_vs_m2",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monetary-base-and-transactional-m2.svg",
+        "png": "/plots/monetary-base-and-transactional-m2.png",
+        "altText": "Monetary base and transactional M2. Monetary base; Private transactional M2. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_nominal",
+          "ci.ns.transactional_m2_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total",
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "15,197",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          },
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ns34",
       "kind": "chart",
       "slug": "nominal-monetary-base",
       "title": "Nominal monetary base",
       "href": "/charts/nominal-monetary-base",
-      "distance": 2
+      "distance": 2,
+      "artifact": {
+        "chartSpecId": "cs.bcra.monetary_base",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/nominal-monetary-base.svg",
+        "png": "/plots/nominal-monetary-base.png",
+        "altText": "Nominal monetary base. Monetary base. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.monetary_base_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.monetary_base_total"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "15",
+          "sourceUnit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.monetary_base_total",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "15",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          }
+        ]
+      }
     },
     {
-      "id": "pi.ns35",
+      "id": "pi.ns56",
       "kind": "chart",
-      "slug": "real-monetary-base",
-      "title": "Real monetary base",
-      "href": "/charts/real-monetary-base",
-      "distance": 2
-    },
-    {
-      "id": "pi.ns36",
-      "kind": "chart",
-      "slug": "transactional-m2-nominal-and-real",
-      "title": "Transactional M2 nominal and real",
-      "href": "/charts/transactional-m2-nominal-and-real",
-      "distance": 2
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/charts/private-transactional-m2",
+      "distance": 2,
+      "artifact": {
+        "chartSpecId": "cs.bcra.transactional_m2",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/private-transactional-m2.svg",
+        "png": "/plots/private-transactional-m2.png",
+        "altText": "Private transactional M2. Private transactional M2. Last 5 years. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.transactional_m2_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.transactional_m2_private"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "197",
+          "sourceUnit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.transactional_m2_private",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "197",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+          }
+        ]
+      }
     }
   ],
   "counts": {

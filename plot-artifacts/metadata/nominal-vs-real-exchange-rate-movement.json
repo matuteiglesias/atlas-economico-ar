@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ns21",
+  "chart_spec_id": "cs.bcra.nominal_vs_real_fx",
+  "frame_id": "rf.since_dec_2023",
+  "data_as_of": "2026-08-14",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ns.official_fx",
+    "ci.ns.reer_index"
+  ],
+  "series_ids": [
+    "series.ar.bcra.wholesale_fx",
+    "series.ar.datosgob.itcrm_monthly"
+  ],
+  "snapshot_sha256": {
+    "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
+    "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/nominal-vs-real-exchange-rate-movement.svg",
+    "png": "plot-artifacts/png/nominal-vs-real-exchange-rate-movement.png"
+  },
+  "alt_text": "Nominal vs real exchange-rate movement. Official ARS/USD exchange rate; Real effective exchange-rate index. Since Dec 2023. Data through 2026-08-14. At least one source snapshot is flagged stale.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "ars_per_usd",
+    "index"
+  ],
+  "freshness_state": "stale_warning",
+  "source": {
+    "provider": "multiple",
+    "provider_series_id": "5,116.3_TCRMA_0_M_36",
+    "source_unit": null,
+    "normalization": {
+      "kind": "composite"
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.bcra.wholesale_fx",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "5",
+      "source_unit": "Exchange rate ars to usd",
+      "normalization": {
+        "kind": "identity"
+      },
+      "snapshot_sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+    },
+    {
+      "series_id": "series.ar.datosgob.itcrm_monthly",
+      "provider": "datos_argentina",
+      "provider_series_id": "116.3_TCRMA_0_M_36",
+      "source_unit": "Índice 17-Dic-2015=100",
+      "normalization": {
+        "kind": "identity"
+      },
+      "snapshot_sha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+    }
+  ]
+}

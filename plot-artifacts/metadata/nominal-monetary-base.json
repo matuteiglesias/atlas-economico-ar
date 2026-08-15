@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ns34",
+  "chart_spec_id": "cs.bcra.monetary_base",
+  "frame_id": "rf.last_5y",
+  "data_as_of": "2026-08-12",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ns.monetary_base_nominal"
+  ],
+  "series_ids": [
+    "series.ar.bcra.monetary_base_total"
+  ],
+  "snapshot_sha256": {
+    "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/nominal-monetary-base.svg",
+    "png": "plot-artifacts/png/nominal-monetary-base.png"
+  },
+  "alt_text": "Nominal monetary base. Monetary base. Last 5 years. Data through 2026-08-12.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "ars"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "bcra_monetarias_v4",
+    "provider_series_id": "15",
+    "source_unit": "Millons pesos",
+    "normalization": {
+      "kind": "scale",
+      "factor": 1000000
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.bcra.monetary_base_total",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "15",
+      "source_unit": "Millons pesos",
+      "normalization": {
+        "kind": "scale",
+        "factor": 1000000
+      },
+      "snapshot_sha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+    }
+  ]
+}

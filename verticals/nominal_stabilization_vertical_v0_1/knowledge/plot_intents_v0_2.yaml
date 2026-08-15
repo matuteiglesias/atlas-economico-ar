@@ -8,18 +8,13 @@ plot_intents:
   review_state: agent_draft_ready_for_human_review
   slice_id: nominal_stabilization
   title: Monthly headline inflation
-  question_ids:
-  - q.ns01
-  canonical_indicator_ids:
-  - ci.ns.cpi_monthly
+  question_ids: [q.ns01]
+  canonical_indicator_ids: [ci.ns.cpi_monthly]
   reference_frame_ids: []
   purpose: Track the recent path of headline monthly inflation in canonical percent units.
   plot_status: candidate
   series_binding_status: REGISTERED
-  provenance:
-    model_prior_used: false
-    media_evidence_tags:
-    - inflation
+  provenance: {model_prior_used: false, media_evidence_tags: [inflation]}
 
 - id: pi.ns54
   version: '0.2'
@@ -30,16 +25,112 @@ plot_intents:
   review_state: agent_draft_ready_for_human_review
   slice_id: nominal_stabilization
   title: Real effective exchange rate
-  question_ids:
-  - q.ns10
-  canonical_indicator_ids:
-  - ci.ns.reer_index
+  question_ids: [q.ns10]
+  canonical_indicator_ids: [ci.ns.reer_index]
   reference_frame_ids: []
   purpose: Track the multilateral real exchange-rate index and place the December 2023 shift in temporal context.
   plot_status: candidate
   series_binding_status: REGISTERED
-  provenance:
-    model_prior_used: false
-    media_evidence_tags:
-    - exchange rate
-    - real exchange rate
+  provenance: {model_prior_used: false, media_evidence_tags: [exchange rate, real exchange rate]}
+
+- id: pi.ns55
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  title: Official wholesale exchange rate
+  question_ids: [q.ns08]
+  canonical_indicator_ids: [ci.ns.official_fx]
+  reference_frame_ids: []
+  purpose: Track the BCRA wholesale ARS/USD reference rate directly.
+  plot_status: active_v0_2
+  series_binding_status: REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [exchange rate, BCRA]}
+
+- id: pi.ns56
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  title: Private transactional M2
+  question_ids: [q.ns15]
+  canonical_indicator_ids: [ci.ns.transactional_m2_nominal]
+  reference_frame_ids: []
+  purpose: Track the nominal stock of private transactional M2.
+  plot_status: active_v0_2
+  series_binding_status: REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [money demand, M2, BCRA]}
+
+- id: pi.ns57
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  title: Cumulative BCRA FX purchases since Jan 2026
+  question_ids: [q.ns11]
+  canonical_indicator_ids: [ci.ns.bcra_fx_purchases_cumulative]
+  reference_frame_ids: []
+  purpose: Accumulate the registered daily BCRA FX-purchase flow from the start of 2026.
+  plot_status: active_v0_2
+  series_binding_status: DERIVED_FROM_REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [BCRA, reserves, exchange rate]}
+
+- id: pi.ns58
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  title: Monetary base and transactional M2
+  question_ids: [q.ns15, q.ns17]
+  canonical_indicator_ids: [ci.ns.monetary_base_nominal, ci.ns.transactional_m2_nominal]
+  reference_frame_ids: []
+  purpose: Compare the two nominal monetary stocks without implying that their levels are interchangeable.
+  plot_status: active_v0_2
+  series_binding_status: REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [monetary base, M2, BCRA]}
+
+- id: pi.ns59
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  title: BCRA FX purchases and the monetary base
+  question_ids: [q.ns11]
+  canonical_indicator_ids: [ci.ns.bcra_fx_purchases_daily, ci.ns.monetary_base_nominal]
+  reference_frame_ids: []
+  purpose: Place daily FX-purchase flows beside the nominal monetary-base stock, using separate axes and no implicit resampling.
+  plot_status: active_v0_2
+  series_binding_status: REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [BCRA, reserves, monetary base]}
+
+- id: pi.ns60
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  title: BAIBAR interbank rate
+  question_ids: [q.ns13]
+  canonical_indicator_ids: [ci.ns.money_market_rate]
+  reference_frame_ids: []
+  purpose: Track the short-term interbank money-market rate directly; volatility is not inferred from the level alone.
+  plot_status: active_v0_2
+  series_binding_status: REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [rates, money market, BCRA]}

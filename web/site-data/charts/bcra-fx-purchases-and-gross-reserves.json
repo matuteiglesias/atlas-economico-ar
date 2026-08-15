@@ -1,0 +1,233 @@
+{
+  "id": "pi.ef49",
+  "kind": "chart",
+  "slug": "bcra-fx-purchases-and-gross-reserves",
+  "title": "BCRA FX purchases and gross reserves",
+  "href": "/charts/bcra-fx-purchases-and-gross-reserves",
+  "dek": "Place daily FX-purchase flows beside the gross reserve stock, using separate axes and no causal claim.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves"
+    },
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability"
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service"
+    },
+    {
+      "id": "ef.net_international_reserves",
+      "kind": "topic",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/topics/net-international-reserves"
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing"
+    },
+    {
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation"
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "indicator",
+      "slug": "bcra-net-fx-purchases",
+      "title": "BCRA net FX purchases",
+      "href": "/indicators/bcra-net-fx-purchases"
+    },
+    {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves"
+    }
+  ],
+  "referenceFrameIds": [],
+  "chartSpec": null,
+  "nearby": [
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
+      "distance": 1
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves",
+      "distance": 1
+    },
+    {
+      "id": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "indicator",
+      "slug": "bcra-net-fx-purchases",
+      "title": "BCRA net FX purchases",
+      "href": "/indicators/bcra-net-fx-purchases",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves",
+      "distance": 1
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations",
+      "distance": 2
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability",
+      "distance": 2
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service",
+      "distance": 2
+    },
+    {
+      "id": "ef.gross_reserves",
+      "kind": "topic",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/topics/gross-international-reserves",
+      "distance": 2
+    }
+  ],
+  "counts": {
+    "questions": 2,
+    "topics": 6,
+    "indicators": 2
+  },
+  "artifact": {
+    "chartSpecId": "cs.bcra.purchases_vs_reserves",
+    "frameId": "rf.since_jan_2026",
+    "renderer": "timeseries_line",
+    "dataAsOf": "2026-08-12",
+    "generatedAt": "2026-08-15T21:20:00Z",
+    "svg": "/plots/bcra-fx-purchases-and-gross-reserves.svg",
+    "png": "/plots/bcra-fx-purchases-and-gross-reserves.png",
+    "altText": "BCRA FX purchases and gross reserves. BCRA net FX purchases; Gross international reserves. Since Jan 2026. Data through 2026-08-12.",
+    "freshnessState": "fresh",
+    "indicatorIds": [
+      "ci.ns.bcra_fx_purchases_daily",
+      "ci.ef.gross_reserves_usd"
+    ],
+    "seriesIds": [
+      "series.ar.bcra.fx_purchases_reserve_factor",
+      "series.ar.bcra.gross_international_reserves"
+    ],
+    "snapshotSha256": {
+      "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+      "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+    },
+    "source": {
+      "provider": "multiple",
+      "providerSeriesId": "78,1",
+      "sourceUnit": null,
+      "normalization": {
+        "kind": "composite"
+      }
+    },
+    "sources": [
+      {
+        "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+        "provider": "bcra_monetarias_v4",
+        "providerSeriesId": "78",
+        "sourceUnit": "Millons USD",
+        "normalization": {
+          "kind": "scale",
+          "factor": 1000000
+        },
+        "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+      },
+      {
+        "seriesId": "series.ar.bcra.gross_international_reserves",
+        "provider": "bcra_monetarias_v4",
+        "providerSeriesId": "1",
+        "sourceUnit": "Millons USD",
+        "normalization": {
+          "kind": "scale",
+          "factor": 0.001
+        },
+        "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+      }
+    ]
+  }
+}

@@ -123,7 +123,7 @@
         "generatedAt": "2026-08-15T21:20:00Z",
         "svg": "/plots/goods-trade-balance.svg",
         "png": "/plots/goods-trade-balance.png",
-        "altText": "Goods trade balance, Goods trade balance, Last 5 years, data through 2026-06-01.",
+        "altText": "Goods trade balance. Goods trade balance. Last 5 years. Data through 2026-06-01.",
         "freshnessState": "fresh",
         "indicatorIds": [
           "ci.ef.goods_balance_usd"
@@ -142,7 +142,20 @@
             "kind": "scale",
             "factor": 0.001
           }
-        }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.goods_trade_balance",
+            "provider": "datos_argentina",
+            "providerSeriesId": "74.3_ISC_0_M_19",
+            "sourceUnit": "Millones de dólares",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "a47b7cef102d7ca2706dac42449ba84c899c15cfb36ce10f2d60dd952a038cd7"
+          }
+        ]
       }
     }
   ],
@@ -210,7 +223,7 @@
         "generatedAt": "2026-08-15T21:20:00Z",
         "svg": "/plots/goods-trade-balance.svg",
         "png": "/plots/goods-trade-balance.png",
-        "altText": "Goods trade balance, Goods trade balance, Last 5 years, data through 2026-06-01.",
+        "altText": "Goods trade balance. Goods trade balance. Last 5 years. Data through 2026-06-01.",
         "freshnessState": "fresh",
         "indicatorIds": [
           "ci.ef.goods_balance_usd"
@@ -229,7 +242,20 @@
             "kind": "scale",
             "factor": 0.001
           }
-        }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.goods_trade_balance",
+            "provider": "datos_argentina",
+            "providerSeriesId": "74.3_ISC_0_M_19",
+            "sourceUnit": "Millones de dólares",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "a47b7cef102d7ca2706dac42449ba84c899c15cfb36ce10f2d60dd952a038cd7"
+          }
+        ]
       }
     },
     {

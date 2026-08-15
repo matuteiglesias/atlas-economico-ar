@@ -1,0 +1,66 @@
+derived_indicators:
+- id: di.ns.official_fx_monthly_change_v0_2
+  version: '0.2'
+  status: active_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.official_fx_monthly_change
+  input_indicator_ids:
+  - ci.ns.official_fx
+  methodology: Use the final available wholesale FX observation in each calendar month and compute (end_t / end_t-1 - 1) * 100.
+  methodology_status: implemented_v0_2
+  provenance:
+    model_prior_used: false
+
+- id: di.ns.fx_purchase_cumulative_v0_2
+  version: '0.2'
+  status: active_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.bcra_fx_purchases_cumulative
+  input_indicator_ids:
+  - ci.ns.bcra_fx_purchases_daily
+  methodology: Cumulative sum of daily BCRA FX-purchase flows beginning 2026-01-01.
+  methodology_status: implemented_v0_2
+  provenance:
+    model_prior_used: false
+
+- id: di.ns.monetary_base_real_v0_2
+  version: '0.2'
+  status: active_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.monetary_base_real
+  input_indicator_ids:
+  - ci.ns.monetary_base_nominal
+  - ci.ns.cpi_monthly
+  methodology: Take the final daily monetary-base observation per month; reconstruct a CPI price index from monthly inflation; deflate the stock and rebase the real balance to Dec-2023=100.
+  methodology_status: implemented_v0_2
+  provenance:
+    model_prior_used: false
+
+- id: di.ns.transactional_m2_real_v0_2
+  version: '0.2'
+  status: active_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  output_indicator_id: ci.ns.transactional_m2_real
+  input_indicator_ids:
+  - ci.ns.transactional_m2_nominal
+  - ci.ns.cpi_monthly
+  methodology: Take the final daily transactional-M2 observation per month; reconstruct a CPI price index from monthly inflation; deflate the stock and rebase the real balance to Dec-2023=100.
+  methodology_status: implemented_v0_2
+  provenance:
+    model_prior_used: false

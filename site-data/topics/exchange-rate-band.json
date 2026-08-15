@@ -117,6 +117,53 @@
       "slug": "fx-futures-vs-top-of-band",
       "title": "FX futures vs top of band",
       "href": "/charts/fx-futures-vs-top-of-band"
+    },
+    {
+      "id": "pi.ns55",
+      "kind": "chart",
+      "slug": "official-wholesale-exchange-rate",
+      "title": "Official wholesale exchange rate",
+      "href": "/charts/official-wholesale-exchange-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra.official_fx",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-14",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/official-wholesale-exchange-rate.svg",
+        "png": "/plots/official-wholesale-exchange-rate.png",
+        "altText": "Official wholesale exchange rate. Official ARS/USD exchange rate. Last 5 years. Data through 2026-08-14.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.official_fx"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.wholesale_fx"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "5",
+          "sourceUnit": "Exchange rate ars to usd",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          }
+        ]
+      }
     }
   ],
   "nearby": [
@@ -189,6 +236,6 @@
     "connections": 3,
     "questions": 1,
     "indicators": 3,
-    "charts": 3
+    "charts": 4
   }
 }

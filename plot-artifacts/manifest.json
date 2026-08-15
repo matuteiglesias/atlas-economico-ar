@@ -1,7 +1,1297 @@
 {
   "schema_version": "0.2",
-  "artifact_count": 3,
+  "artifact_count": 25,
   "artifacts": [
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns55",
+      "chart_spec_id": "cs.bcra.official_fx",
+      "frame_id": "rf.last_5y",
+      "data_as_of": "2026-08-14",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.official_fx"
+      ],
+      "series_ids": [
+        "series.ar.bcra.wholesale_fx"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/official-wholesale-exchange-rate.svg",
+        "png": "plot-artifacts/png/official-wholesale-exchange-rate.png"
+      },
+      "alt_text": "Official wholesale exchange rate. Official ARS/USD exchange rate. Last 5 years. Data through 2026-08-14.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "ars_per_usd"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "5",
+        "source_unit": "Exchange rate ars to usd",
+        "normalization": {
+          "kind": "identity"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.wholesale_fx",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "5",
+          "source_unit": "Exchange rate ars to usd",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns09",
+      "chart_spec_id": "cs.bcra.fx_change_vs_inflation",
+      "frame_id": "rf.last_12m",
+      "data_as_of": "2026-08-01",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.official_fx_monthly_change",
+        "ci.ns.cpi_monthly"
+      ],
+      "series_ids": [
+        "series.ar.bcra.wholesale_fx",
+        "series.ar.datosgob.ipc_headline_mom_national"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/official-fx-change-vs-monthly-inflation.svg",
+        "png": "plot-artifacts/png/official-fx-change-vs-monthly-inflation.png"
+      },
+      "alt_text": "Official FX change vs monthly inflation. Official FX monthly change; Monthly headline CPI inflation. Last 12 months. Data through 2026-08-01.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "percent",
+        "percent_mom"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "5,145.3_INGNACUAL_DICI_M_38",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.wholesale_fx",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "5",
+          "source_unit": "Exchange rate ars to usd",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns23",
+      "chart_spec_id": "cs.bcra.daily_fx_purchases",
+      "frame_id": "rf.since_jan_2026",
+      "data_as_of": "2026-08-11",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.bcra_fx_purchases_daily"
+      ],
+      "series_ids": [
+        "series.ar.bcra.fx_purchases_reserve_factor"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/bcra-daily-fx-purchases.svg",
+        "png": "plot-artifacts/png/bcra-daily-fx-purchases.png"
+      },
+      "alt_text": "BCRA daily FX purchases. BCRA net FX purchases. Since Jan 2026. Data through 2026-08-11.",
+      "renderer": "timeseries_bar",
+      "unit_semantics": [
+        "usd"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "78",
+        "source_unit": "Millons USD",
+        "normalization": {
+          "kind": "scale",
+          "factor": 1000000
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.fx_purchases_reserve_factor",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "78",
+          "source_unit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns57",
+      "chart_spec_id": "cs.bcra.cumulative_fx_purchases",
+      "frame_id": "rf.since_jan_2026",
+      "data_as_of": "2026-08-11",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.bcra_fx_purchases_cumulative"
+      ],
+      "series_ids": [
+        "series.ar.bcra.fx_purchases_reserve_factor"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/cumulative-bcra-fx-purchases-since-jan-2026.svg",
+        "png": "plot-artifacts/png/cumulative-bcra-fx-purchases-since-jan-2026.png"
+      },
+      "alt_text": "Cumulative BCRA FX purchases since Jan 2026. Cumulative BCRA FX purchases since Jan-2026. Since Jan 2026. Data through 2026-08-11.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "usd"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "78",
+        "source_unit": "Millons USD",
+        "normalization": {
+          "kind": "scale",
+          "factor": 1000000
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.fx_purchases_reserve_factor",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "78",
+          "source_unit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns25",
+      "chart_spec_id": "cs.bcra.purchases_vs_fx",
+      "frame_id": "rf.since_jan_2026",
+      "data_as_of": "2026-08-14",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.bcra_fx_purchases_daily",
+        "ci.ns.official_fx"
+      ],
+      "series_ids": [
+        "series.ar.bcra.fx_purchases_reserve_factor",
+        "series.ar.bcra.wholesale_fx"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+        "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/bcra-purchases-vs-official-exchange-rate.svg",
+        "png": "plot-artifacts/png/bcra-purchases-vs-official-exchange-rate.png"
+      },
+      "alt_text": "BCRA purchases vs official exchange rate. BCRA net FX purchases; Official ARS/USD exchange rate. Since Jan 2026. Data through 2026-08-14.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "usd",
+        "ars_per_usd"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "78,5",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.fx_purchases_reserve_factor",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "78",
+          "source_unit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        {
+          "series_id": "series.ar.bcra.wholesale_fx",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "5",
+          "source_unit": "Exchange rate ars to usd",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns59",
+      "chart_spec_id": "cs.bcra.purchases_vs_base",
+      "frame_id": "rf.since_jan_2026",
+      "data_as_of": "2026-08-12",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.bcra_fx_purchases_daily",
+        "ci.ns.monetary_base_nominal"
+      ],
+      "series_ids": [
+        "series.ar.bcra.fx_purchases_reserve_factor",
+        "series.ar.bcra.monetary_base_total"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+        "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/bcra-fx-purchases-and-the-monetary-base.svg",
+        "png": "plot-artifacts/png/bcra-fx-purchases-and-the-monetary-base.png"
+      },
+      "alt_text": "BCRA FX purchases and the monetary base. BCRA net FX purchases; Monetary base. Since Jan 2026. Data through 2026-08-12.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "usd",
+        "ars"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "78,15",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.fx_purchases_reserve_factor",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "78",
+          "source_unit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        {
+          "series_id": "series.ar.bcra.monetary_base_total",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "15",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns60",
+      "chart_spec_id": "cs.bcra.baibar",
+      "frame_id": "rf.last_12m",
+      "data_as_of": "2026-08-13",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.money_market_rate"
+      ],
+      "series_ids": [
+        "series.ar.bcra.baibar_rate"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/baibar-interbank-rate.svg",
+        "png": "plot-artifacts/png/baibar-interbank-rate.png"
+      },
+      "alt_text": "BAIBAR interbank rate. Short money-market rate. Last 12 months. Data through 2026-08-13.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "percent_annualized"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "11",
+        "source_unit": "Nominal annual interest rate",
+        "normalization": {
+          "kind": "identity"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.baibar_rate",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "11",
+          "source_unit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns34",
+      "chart_spec_id": "cs.bcra.monetary_base",
+      "frame_id": "rf.last_5y",
+      "data_as_of": "2026-08-12",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.monetary_base_nominal"
+      ],
+      "series_ids": [
+        "series.ar.bcra.monetary_base_total"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/nominal-monetary-base.svg",
+        "png": "plot-artifacts/png/nominal-monetary-base.png"
+      },
+      "alt_text": "Nominal monetary base. Monetary base. Last 5 years. Data through 2026-08-12.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "ars"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "15",
+        "source_unit": "Millons pesos",
+        "normalization": {
+          "kind": "scale",
+          "factor": 1000000
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.monetary_base_total",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "15",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns58",
+      "chart_spec_id": "cs.bcra.base_vs_m2",
+      "frame_id": "rf.last_5y",
+      "data_as_of": "2026-08-12",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.monetary_base_nominal",
+        "ci.ns.transactional_m2_nominal"
+      ],
+      "series_ids": [
+        "series.ar.bcra.monetary_base_total",
+        "series.ar.bcra.transactional_m2_private"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+        "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/monetary-base-and-transactional-m2.svg",
+        "png": "plot-artifacts/png/monetary-base-and-transactional-m2.png"
+      },
+      "alt_text": "Monetary base and transactional M2. Monetary base; Private transactional M2. Last 5 years. Data through 2026-08-12.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "ars",
+        "ars"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "15,197",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.monetary_base_total",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "15",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        {
+          "series_id": "series.ar.bcra.transactional_m2_private",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "197",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns50",
+      "chart_spec_id": "cs.bcra.inflation_vs_fx_change",
+      "frame_id": "rf.since_dec_2023",
+      "data_as_of": "2026-08-01",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.cpi_monthly",
+        "ci.ns.official_fx_monthly_change"
+      ],
+      "series_ids": [
+        "series.ar.datosgob.ipc_headline_mom_national",
+        "series.ar.bcra.wholesale_fx"
+      ],
+      "snapshot_sha256": {
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+        "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/inflation-vs-fx-depreciation-since-stabilization-start.svg",
+        "png": "plot-artifacts/png/inflation-vs-fx-depreciation-since-stabilization-start.png"
+      },
+      "alt_text": "Inflation vs FX depreciation since stabilization start. Monthly headline CPI inflation; Official FX monthly change. Since Dec 2023. Data through 2026-08-01.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "percent_mom",
+        "percent"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "145.3_INGNACUAL_DICI_M_38,5",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        {
+          "series_id": "series.ar.bcra.wholesale_fx",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "5",
+          "source_unit": "Exchange rate ars to usd",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns56",
+      "chart_spec_id": "cs.bcra.transactional_m2",
+      "frame_id": "rf.last_5y",
+      "data_as_of": "2026-08-11",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.transactional_m2_nominal"
+      ],
+      "series_ids": [
+        "series.ar.bcra.transactional_m2_private"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/private-transactional-m2.svg",
+        "png": "plot-artifacts/png/private-transactional-m2.png"
+      },
+      "alt_text": "Private transactional M2. Private transactional M2. Last 5 years. Data through 2026-08-11.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "ars"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "197",
+        "source_unit": "Millons pesos",
+        "normalization": {
+          "kind": "scale",
+          "factor": 1000000
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.transactional_m2_private",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "197",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns21",
+      "chart_spec_id": "cs.bcra.nominal_vs_real_fx",
+      "frame_id": "rf.since_dec_2023",
+      "data_as_of": "2026-08-14",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.official_fx",
+        "ci.ns.reer_index"
+      ],
+      "series_ids": [
+        "series.ar.bcra.wholesale_fx",
+        "series.ar.datosgob.itcrm_monthly"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
+        "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/nominal-vs-real-exchange-rate-movement.svg",
+        "png": "plot-artifacts/png/nominal-vs-real-exchange-rate-movement.png"
+      },
+      "alt_text": "Nominal vs real exchange-rate movement. Official ARS/USD exchange rate; Real effective exchange-rate index. Since Dec 2023. Data through 2026-08-14. At least one source snapshot is flagged stale.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "ars_per_usd",
+        "index"
+      ],
+      "freshness_state": "stale_warning",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "5,116.3_TCRMA_0_M_36",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.wholesale_fx",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "5",
+          "source_unit": "Exchange rate ars to usd",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        {
+          "series_id": "series.ar.datosgob.itcrm_monthly",
+          "provider": "datos_argentina",
+          "provider_series_id": "116.3_TCRMA_0_M_36",
+          "source_unit": "Índice 17-Dic-2015=100",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns35",
+      "chart_spec_id": "cs.bcra.real_monetary_base",
+      "frame_id": "rf.since_dec_2023",
+      "data_as_of": "2026-07-01",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.monetary_base_real"
+      ],
+      "series_ids": [
+        "series.ar.bcra.monetary_base_total",
+        "series.ar.datosgob.ipc_headline_mom_national"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/real-monetary-base.svg",
+        "png": "plot-artifacts/png/real-monetary-base.png"
+      },
+      "alt_text": "Real monetary base. Real monetary base. Since Dec 2023. Data through 2026-07-01.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "real_index_or_ars"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "15,145.3_INGNACUAL_DICI_M_38",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.monetary_base_total",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "15",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns36",
+      "chart_spec_id": "cs.bcra.m2_nominal_real",
+      "frame_id": "rf.since_dec_2023",
+      "data_as_of": "2026-08-11",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.transactional_m2_nominal",
+        "ci.ns.transactional_m2_real"
+      ],
+      "series_ids": [
+        "series.ar.bcra.transactional_m2_private",
+        "series.ar.datosgob.ipc_headline_mom_national"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9",
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/transactional-m2-nominal-and-real.svg",
+        "png": "plot-artifacts/png/transactional-m2-nominal-and-real.png"
+      },
+      "alt_text": "Transactional M2 nominal and real. Private transactional M2; Real private transactional M2. Since Dec 2023. Data through 2026-08-11.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "ars",
+        "real_ars_or_index"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "197,145.3_INGNACUAL_DICI_M_38",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.transactional_m2_private",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "197",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns39",
+      "chart_spec_id": "cs.bcra.real_m2_vs_inflation",
+      "frame_id": "rf.since_dec_2023",
+      "data_as_of": "2026-07-01",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.transactional_m2_real",
+        "ci.ns.cpi_monthly"
+      ],
+      "series_ids": [
+        "series.ar.bcra.transactional_m2_private",
+        "series.ar.datosgob.ipc_headline_mom_national"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9",
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/remonetization-vs-inflation.svg",
+        "png": "plot-artifacts/png/remonetization-vs-inflation.png"
+      },
+      "alt_text": "Remonetization vs inflation. Real private transactional M2; Monthly headline CPI inflation. Since Dec 2023. Data through 2026-07-01.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "real_ars_or_index",
+        "percent_mom"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "197,145.3_INGNACUAL_DICI_M_38",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.transactional_m2_private",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "197",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns40",
+      "chart_spec_id": "cs.bcra.real_m2_vs_purchases",
+      "frame_id": "rf.since_jan_2026",
+      "data_as_of": "2026-08-11",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.transactional_m2_real",
+        "ci.ns.bcra_fx_purchases_daily"
+      ],
+      "series_ids": [
+        "series.ar.bcra.transactional_m2_private",
+        "series.ar.datosgob.ipc_headline_mom_national",
+        "series.ar.bcra.fx_purchases_reserve_factor"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9",
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+        "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/remonetization-vs-bcra-fx-purchases.svg",
+        "png": "plot-artifacts/png/remonetization-vs-bcra-fx-purchases.png"
+      },
+      "alt_text": "Remonetization vs BCRA FX purchases. Real private transactional M2; BCRA net FX purchases. Since Jan 2026. Data through 2026-08-11.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "real_ars_or_index",
+        "usd"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "197,145.3_INGNACUAL_DICI_M_38,78",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.transactional_m2_private",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "197",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        {
+          "series_id": "series.ar.bcra.fx_purchases_reserve_factor",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "78",
+          "source_unit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns41",
+      "chart_spec_id": "cs.bcra.real_base_vs_real_m2",
+      "frame_id": "rf.since_dec_2023",
+      "data_as_of": "2026-07-01",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.monetary_base_real",
+        "ci.ns.transactional_m2_real"
+      ],
+      "series_ids": [
+        "series.ar.bcra.monetary_base_total",
+        "series.ar.datosgob.ipc_headline_mom_national",
+        "series.ar.bcra.transactional_m2_private"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+        "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/monetary-base-vs-transactional-m2.svg",
+        "png": "plot-artifacts/png/monetary-base-vs-transactional-m2.png"
+      },
+      "alt_text": "Monetary base vs transactional M2. Real monetary base; Real private transactional M2. Since Dec 2023. Data through 2026-07-01.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "real_index_or_ars",
+        "real_ars_or_index"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "15,145.3_INGNACUAL_DICI_M_38,197",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.monetary_base_total",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "15",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        {
+          "series_id": "series.ar.bcra.transactional_m2_private",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "197",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns43",
+      "chart_spec_id": "cs.bcra.monetization_dashboard",
+      "frame_id": "rf.since_dec_2023",
+      "data_as_of": "2026-07-01",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.monetary_base_real",
+        "ci.ns.transactional_m2_real",
+        "ci.ns.cpi_monthly"
+      ],
+      "series_ids": [
+        "series.ar.bcra.monetary_base_total",
+        "series.ar.datosgob.ipc_headline_mom_national",
+        "series.ar.bcra.transactional_m2_private"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+        "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/monetization-dashboard-base-m2-inflation.svg",
+        "png": "plot-artifacts/png/monetization-dashboard-base-m2-inflation.png"
+      },
+      "alt_text": "Monetization dashboard: base, M2, inflation. Real monetary base; Real private transactional M2; Monthly headline CPI inflation. Since Dec 2023. Data through 2026-07-01.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "real_index_or_ars",
+        "real_ars_or_index",
+        "percent_mom"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "15,145.3_INGNACUAL_DICI_M_38,197",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.monetary_base_total",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "15",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        {
+          "series_id": "series.ar.bcra.transactional_m2_private",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "197",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ef46",
+      "chart_spec_id": "cs.bcra.gross_reserves",
+      "frame_id": "rf.last_5y",
+      "data_as_of": "2026-08-12",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ef.gross_reserves_usd"
+      ],
+      "series_ids": [
+        "series.ar.bcra.gross_international_reserves"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/gross-international-reserves.svg",
+        "png": "plot-artifacts/png/gross-international-reserves.png"
+      },
+      "alt_text": "Gross international reserves. Gross international reserves. Last 5 years. Data through 2026-08-12.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "usd_billions"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "1",
+        "source_unit": "Millons USD",
+        "normalization": {
+          "kind": "scale",
+          "factor": 0.001
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.gross_international_reserves",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "1",
+          "source_unit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          },
+          "snapshot_sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ef47",
+      "chart_spec_id": "cs.bcra.reserve_change_monthly",
+      "frame_id": "rf.last_5y",
+      "data_as_of": "2026-08-01",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ef.reserve_change_monthly"
+      ],
+      "series_ids": [
+        "series.ar.bcra.gross_international_reserves"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/monthly-change-in-gross-reserves.svg",
+        "png": "plot-artifacts/png/monthly-change-in-gross-reserves.png"
+      },
+      "alt_text": "Monthly change in gross reserves. Monthly change in gross reserves. Last 5 years. Data through 2026-08-01.",
+      "renderer": "timeseries_bar",
+      "unit_semantics": [
+        "usd_billions_change"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "1",
+        "source_unit": "Millons USD",
+        "normalization": {
+          "kind": "scale",
+          "factor": 0.001
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.gross_international_reserves",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "1",
+          "source_unit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          },
+          "snapshot_sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ef48",
+      "chart_spec_id": "cs.bcra.reserve_ytd",
+      "frame_id": "rf.since_jan_2026",
+      "data_as_of": "2026-08-12",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ef.reserve_accumulation_ytd"
+      ],
+      "series_ids": [
+        "series.ar.bcra.gross_international_reserves"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/reserve-accumulation-year-to-date.svg",
+        "png": "plot-artifacts/png/reserve-accumulation-year-to-date.png"
+      },
+      "alt_text": "Reserve accumulation year to date. Cumulative reserve accumulation YTD. Since Jan 2026. Data through 2026-08-12.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "usd_billions"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "1",
+        "source_unit": "Millons USD",
+        "normalization": {
+          "kind": "scale",
+          "factor": 0.001
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.gross_international_reserves",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "1",
+          "source_unit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          },
+          "snapshot_sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ef49",
+      "chart_spec_id": "cs.bcra.purchases_vs_reserves",
+      "frame_id": "rf.since_jan_2026",
+      "data_as_of": "2026-08-12",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.bcra_fx_purchases_daily",
+        "ci.ef.gross_reserves_usd"
+      ],
+      "series_ids": [
+        "series.ar.bcra.fx_purchases_reserve_factor",
+        "series.ar.bcra.gross_international_reserves"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+        "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/bcra-fx-purchases-and-gross-reserves.svg",
+        "png": "plot-artifacts/png/bcra-fx-purchases-and-gross-reserves.png"
+      },
+      "alt_text": "BCRA FX purchases and gross reserves. BCRA net FX purchases; Gross international reserves. Since Jan 2026. Data through 2026-08-12.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "usd",
+        "usd_billions"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "78,1",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.fx_purchases_reserve_factor",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "78",
+          "source_unit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        {
+          "series_id": "series.ar.bcra.gross_international_reserves",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "1",
+          "source_unit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          },
+          "snapshot_sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        }
+      ]
+    },
     {
       "schema_version": "0.2",
       "plot_intent_id": "pi.ns53",
@@ -22,9 +1312,11 @@
         "svg": "plot-artifacts/svg/monthly-headline-inflation.svg",
         "png": "plot-artifacts/png/monthly-headline-inflation.png"
       },
-      "alt_text": "Monthly headline inflation, Monthly headline CPI inflation, Last 5 years, data through 2026-07-01.",
+      "alt_text": "Monthly headline inflation. Monthly headline CPI inflation. Last 5 years. Data through 2026-07-01.",
       "renderer": "timeseries_line",
-      "unit_semantics": "percent_mom",
+      "unit_semantics": [
+        "percent_mom"
+      ],
       "freshness_state": "fresh",
       "source": {
         "provider": "datos_argentina",
@@ -34,7 +1326,20 @@
           "kind": "scale",
           "factor": 100
         }
-      }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        }
+      ]
     },
     {
       "schema_version": "0.2",
@@ -56,9 +1361,11 @@
         "svg": "plot-artifacts/svg/real-effective-exchange-rate.svg",
         "png": "plot-artifacts/png/real-effective-exchange-rate.png"
       },
-      "alt_text": "Real effective exchange rate, Real effective exchange-rate index, Last 5 years, data through 2024-12-01. Markers: Dec 2023. The source snapshot is flagged stale.",
+      "alt_text": "Real effective exchange rate. Real effective exchange-rate index. Last 5 years. Data through 2024-12-01. Markers: Dec 2023. At least one source snapshot is flagged stale.",
       "renderer": "timeseries_line",
-      "unit_semantics": "index",
+      "unit_semantics": [
+        "index"
+      ],
       "freshness_state": "stale_warning",
       "source": {
         "provider": "datos_argentina",
@@ -67,7 +1374,19 @@
         "normalization": {
           "kind": "identity"
         }
-      }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.datosgob.itcrm_monthly",
+          "provider": "datos_argentina",
+          "provider_series_id": "116.3_TCRMA_0_M_36",
+          "source_unit": "Índice 17-Dic-2015=100",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+        }
+      ]
     },
     {
       "schema_version": "0.2",
@@ -89,9 +1408,11 @@
         "svg": "plot-artifacts/svg/goods-trade-balance.svg",
         "png": "plot-artifacts/png/goods-trade-balance.png"
       },
-      "alt_text": "Goods trade balance, Goods trade balance, Last 5 years, data through 2026-06-01.",
+      "alt_text": "Goods trade balance. Goods trade balance. Last 5 years. Data through 2026-06-01.",
       "renderer": "timeseries_bar",
-      "unit_semantics": "usd_billions",
+      "unit_semantics": [
+        "usd_billions"
+      ],
       "freshness_state": "fresh",
       "source": {
         "provider": "datos_argentina",
@@ -101,7 +1422,20 @@
           "kind": "scale",
           "factor": 0.001
         }
-      }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.datosgob.goods_trade_balance",
+          "provider": "datos_argentina",
+          "provider_series_id": "74.3_ISC_0_M_19",
+          "source_unit": "Millones de dólares",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          },
+          "snapshot_sha256": "a47b7cef102d7ca2706dac42449ba84c899c15cfb36ce10f2d60dd952a038cd7"
+        }
+      ]
     }
   ]
 }

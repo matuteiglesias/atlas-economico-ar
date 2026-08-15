@@ -1,0 +1,61 @@
+{
+  "canonical_indicator_id": "ci.ns.official_fx",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 1,
+    "latest_observation": "2026-08-14",
+    "state": "fresh",
+    "warning_days": 10
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Main variables",
+    "currency": "ML",
+    "description": "Wholesale Exchange Rate",
+    "frequency": "daily",
+    "series_type": "Exchange rate",
+    "time_index_end": "2026-08-14",
+    "time_index_start": "2002-03-04",
+    "title": "Wholesale Exchange Rate",
+    "units": "Exchange rate ars to usd"
+  },
+  "provider_series_id": "5",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_wholesale_fx.catalog.json",
+    "catalog_sha256": "4eb75df3084df78cfa272c02c59df0e84ae74ac54e70e8f32730998839a6bcd9",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_wholesale_fx.methodology.json",
+    "methodology_sha256": "4984f33c5bbe943f787a16ea4187fa5ad7508b14af959d28f5ba9af6761ad628",
+    "values_pages": [
+      {
+        "observation_rows": 3000,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_wholesale_fx.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/5?limit=3000&offset=0",
+        "sha256": "6a2901d52ccd1b1ab45c7a7d419ddf3151021dfb8fe1b9559b18d9aeeb0ba387"
+      },
+      {
+        "observation_rows": 2992,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_wholesale_fx.values.page-0001.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/5?limit=3000&offset=3000",
+        "sha256": "e07422d9f9d2271a5a7ebc06a316c82d6ea2ce893b6b4319c8e0f1b4ce776414"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=5&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/5",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/5?limit=3000&offset=0",
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/5?limit=3000&offset=3000"
+    ]
+  },
+  "retrieved_at": "2026-08-15T23:17:37.469427Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.wholesale_fx",
+  "snapshot": {
+    "first_observation": "2002-03-04",
+    "latest_observation": "2026-08-14",
+    "observation_rows": 5992,
+    "path": "series/snapshots/bcra/series_ar_bcra_wholesale_fx.csv",
+    "sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+  }
+}

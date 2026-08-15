@@ -1269,6 +1269,15 @@
     "text": "BCRA net FX purchases usd daily"
   },
   {
+    "id": "ci.ns.bcra_fx_purchases_cumulative",
+    "kind": "indicator",
+    "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+    "title": "Cumulative BCRA FX purchases since Jan-2026",
+    "href": "/indicators/cumulative-bcra-fx-purchases-since-jan-2026",
+    "regionId": "nominal_stabilization",
+    "text": "Cumulative BCRA FX purchases since Jan-2026 usd daily"
+  },
+  {
     "id": "ci.ef.gross_reserves_usd",
     "kind": "indicator",
     "slug": "gross-international-reserves",
@@ -2115,6 +2124,60 @@
     "text": "Real effective exchange rate Track the multilateral real exchange-rate index and place the December 2023 shift in temporal context. Track the multilateral real exchange-rate index and place the December 2023 shift in temporal context."
   },
   {
+    "id": "pi.ns55",
+    "kind": "chart",
+    "slug": "official-wholesale-exchange-rate",
+    "title": "Official wholesale exchange rate",
+    "href": "/charts/official-wholesale-exchange-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Official wholesale exchange rate Track the BCRA wholesale ARS/USD reference rate directly. Track the BCRA wholesale ARS/USD reference rate directly."
+  },
+  {
+    "id": "pi.ns56",
+    "kind": "chart",
+    "slug": "private-transactional-m2",
+    "title": "Private transactional M2",
+    "href": "/charts/private-transactional-m2",
+    "regionId": "nominal_stabilization",
+    "text": "Private transactional M2 Track the nominal stock of private transactional M2. Track the nominal stock of private transactional M2."
+  },
+  {
+    "id": "pi.ns57",
+    "kind": "chart",
+    "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+    "title": "Cumulative BCRA FX purchases since Jan 2026",
+    "href": "/charts/cumulative-bcra-fx-purchases-since-jan-2026",
+    "regionId": "nominal_stabilization",
+    "text": "Cumulative BCRA FX purchases since Jan 2026 Accumulate the registered daily BCRA FX-purchase flow from the start of 2026. Accumulate the registered daily BCRA FX-purchase flow from the start of 2026."
+  },
+  {
+    "id": "pi.ns58",
+    "kind": "chart",
+    "slug": "monetary-base-and-transactional-m2",
+    "title": "Monetary base and transactional M2",
+    "href": "/charts/monetary-base-and-transactional-m2",
+    "regionId": "nominal_stabilization",
+    "text": "Monetary base and transactional M2 Compare the two nominal monetary stocks without implying that their levels are interchangeable. Compare the two nominal monetary stocks without implying that their levels are interchangeable."
+  },
+  {
+    "id": "pi.ns59",
+    "kind": "chart",
+    "slug": "bcra-fx-purchases-and-the-monetary-base",
+    "title": "BCRA FX purchases and the monetary base",
+    "href": "/charts/bcra-fx-purchases-and-the-monetary-base",
+    "regionId": "nominal_stabilization",
+    "text": "BCRA FX purchases and the monetary base Place daily FX-purchase flows beside the nominal monetary-base stock, using separate axes and no implicit resampling. Place daily FX-purchase flows beside the nominal monetary-base stock, using separate axes and no implicit resampling."
+  },
+  {
+    "id": "pi.ns60",
+    "kind": "chart",
+    "slug": "baibar-interbank-rate",
+    "title": "BAIBAR interbank rate",
+    "href": "/charts/baibar-interbank-rate",
+    "regionId": "nominal_stabilization",
+    "text": "BAIBAR interbank rate Track the short-term interbank money-market rate directly; volatility is not inferred from the level alone. Track the short-term interbank money-market rate directly; volatility is not inferred from the level alone."
+  },
+  {
     "id": "pi.ef01",
     "kind": "chart",
     "slug": "gross-reserves-nir-and-liquid-buffers",
@@ -2518,5 +2581,41 @@
     "href": "/charts/goods-trade-balance",
     "regionId": "external_financial_constraint",
     "text": "Goods trade balance Track whether merchandise trade is generating or absorbing foreign currency over time. Track whether merchandise trade is generating or absorbing foreign currency over time."
+  },
+  {
+    "id": "pi.ef46",
+    "kind": "chart",
+    "slug": "gross-international-reserves",
+    "title": "Gross international reserves",
+    "href": "/charts/gross-international-reserves",
+    "regionId": "external_financial_constraint",
+    "text": "Gross international reserves Track the BCRA headline reserve stock in USD billions. Track the BCRA headline reserve stock in USD billions."
+  },
+  {
+    "id": "pi.ef47",
+    "kind": "chart",
+    "slug": "monthly-change-in-gross-reserves",
+    "title": "Monthly change in gross reserves",
+    "href": "/charts/monthly-change-in-gross-reserves",
+    "regionId": "external_financial_constraint",
+    "text": "Monthly change in gross reserves Show month-end changes in the gross international-reserve stock. Show month-end changes in the gross international-reserve stock."
+  },
+  {
+    "id": "pi.ef48",
+    "kind": "chart",
+    "slug": "reserve-accumulation-year-to-date",
+    "title": "Reserve accumulation year to date",
+    "href": "/charts/reserve-accumulation-year-to-date",
+    "regionId": "external_financial_constraint",
+    "text": "Reserve accumulation year to date Measure the current reserve stock against the final available observation of the prior calendar year. Measure the current reserve stock against the final available observation of the prior calendar year."
+  },
+  {
+    "id": "pi.ef49",
+    "kind": "chart",
+    "slug": "bcra-fx-purchases-and-gross-reserves",
+    "title": "BCRA FX purchases and gross reserves",
+    "href": "/charts/bcra-fx-purchases-and-gross-reserves",
+    "regionId": "external_financial_constraint",
+    "text": "BCRA FX purchases and gross reserves Place daily FX-purchase flows beside the gross reserve stock, using separate axes and no causal claim. Place daily FX-purchase flows beside the gross reserve stock, using separate axes and no causal claim."
   }
 ]

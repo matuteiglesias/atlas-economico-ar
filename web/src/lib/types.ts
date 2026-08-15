@@ -1,5 +1,14 @@
 export type EntityKind = "region" | "topic" | "question" | "indicator" | "chart";
 
+export interface PlotArtifactSourceRef {
+  seriesId: string;
+  provider: string;
+  providerSeriesId: string;
+  sourceUnit?: string | null;
+  normalization: { kind: string; factor?: number };
+  snapshotSha256: string;
+}
+
 export interface PlotArtifactRef {
   chartSpecId: string;
   frameId: string;
@@ -19,6 +28,7 @@ export interface PlotArtifactRef {
     sourceUnit?: string | null;
     normalization: { kind: string; factor?: number };
   };
+  sources?: PlotArtifactSourceRef[];
 }
 
 export interface EntityLink {

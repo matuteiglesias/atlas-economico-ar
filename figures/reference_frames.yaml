@@ -21,6 +21,20 @@ reference_frames:
       start: '2017-01-01'
       end: latest
 
+  - id: rf.since_dec_2023
+    label: Since Dec 2023
+    kind: fixed
+    window:
+      start: '2023-12-01'
+      end: latest
+
+  - id: rf.since_jan_2026
+    label: Since Jan 2026
+    kind: fixed
+    window:
+      start: '2026-01-01'
+      end: latest
+
   - id: rf.full_history
     label: Full available history
     kind: available_history

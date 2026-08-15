@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ns58",
+  "chart_spec_id": "cs.bcra.base_vs_m2",
+  "frame_id": "rf.last_5y",
+  "data_as_of": "2026-08-12",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ns.monetary_base_nominal",
+    "ci.ns.transactional_m2_nominal"
+  ],
+  "series_ids": [
+    "series.ar.bcra.monetary_base_total",
+    "series.ar.bcra.transactional_m2_private"
+  ],
+  "snapshot_sha256": {
+    "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+    "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/monetary-base-and-transactional-m2.svg",
+    "png": "plot-artifacts/png/monetary-base-and-transactional-m2.png"
+  },
+  "alt_text": "Monetary base and transactional M2. Monetary base; Private transactional M2. Last 5 years. Data through 2026-08-12.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "ars",
+    "ars"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "multiple",
+    "provider_series_id": "15,197",
+    "source_unit": null,
+    "normalization": {
+      "kind": "composite"
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.bcra.monetary_base_total",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "15",
+      "source_unit": "Millons pesos",
+      "normalization": {
+        "kind": "scale",
+        "factor": 1000000
+      },
+      "snapshot_sha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+    },
+    {
+      "series_id": "series.ar.bcra.transactional_m2_private",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "197",
+      "source_unit": "Millons pesos",
+      "normalization": {
+        "kind": "scale",
+        "factor": 1000000
+      },
+      "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+    }
+  ]
+}

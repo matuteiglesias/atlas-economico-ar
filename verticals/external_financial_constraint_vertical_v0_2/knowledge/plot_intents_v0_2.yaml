@@ -8,16 +8,78 @@ plot_intents:
   review_state: agent_draft_ready_for_human_review
   slice_id: external_financial_constraint
   title: Goods trade balance
-  question_ids:
-  - q.ef04
-  canonical_indicator_ids:
-  - ci.ef.goods_balance_usd
+  question_ids: [q.ef04]
+  canonical_indicator_ids: [ci.ef.goods_balance_usd]
   reference_frame_ids: []
   purpose: Track whether merchandise trade is generating or absorbing foreign currency over time.
   plot_status: candidate
   series_binding_status: REGISTERED
-  provenance:
-    model_prior_used: false
-    media_evidence_tags:
-    - external
-    - trade
+  provenance: {model_prior_used: false, media_evidence_tags: [external, trade]}
+
+- id: pi.ef46
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  title: Gross international reserves
+  question_ids: [q.ef01]
+  canonical_indicator_ids: [ci.ef.gross_reserves_usd]
+  reference_frame_ids: []
+  purpose: Track the BCRA headline reserve stock in USD billions.
+  plot_status: active_v0_2
+  series_binding_status: REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [reserves, BCRA, external]}
+
+- id: pi.ef47
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  title: Monthly change in gross reserves
+  question_ids: [q.ef03]
+  canonical_indicator_ids: [ci.ef.reserve_change_monthly]
+  reference_frame_ids: []
+  purpose: Show month-end changes in the gross international-reserve stock.
+  plot_status: active_v0_2
+  series_binding_status: DERIVED_FROM_REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [reserves, BCRA, external]}
+
+- id: pi.ef48
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  title: Reserve accumulation year to date
+  question_ids: [q.ef03]
+  canonical_indicator_ids: [ci.ef.reserve_accumulation_ytd]
+  reference_frame_ids: []
+  purpose: Measure the current reserve stock against the final available observation of the prior calendar year.
+  plot_status: active_v0_2
+  series_binding_status: DERIVED_FROM_REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [reserves, BCRA, external]}
+
+- id: pi.ef49
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  title: BCRA FX purchases and gross reserves
+  question_ids: [q.ef03, q.ef20]
+  canonical_indicator_ids: [ci.ns.bcra_fx_purchases_daily, ci.ef.gross_reserves_usd]
+  reference_frame_ids: []
+  purpose: Place daily FX-purchase flows beside the gross reserve stock, using separate axes and no causal claim.
+  plot_status: active_v0_2
+  series_binding_status: REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [reserves, BCRA, external]}
