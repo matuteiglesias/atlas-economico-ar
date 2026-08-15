@@ -1,0 +1,26 @@
+schema_version: '0.2'
+reference_frames:
+  - id: rf.last_12m
+    label: Last 12 months
+    kind: relative
+    window:
+      lookback: P12M
+      end: latest
+
+  - id: rf.last_5y
+    label: Last 5 years
+    kind: relative
+    window:
+      lookback: P5Y
+      end: latest
+
+  - id: rf.since_2017
+    label: 2017 to latest
+    kind: fixed
+    window:
+      start: '2017-01-01'
+      end: latest
+
+  - id: rf.full_history
+    label: Full available history
+    kind: available_history

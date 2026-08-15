@@ -1,0 +1,57 @@
+schema_version: '0.2'
+status: contract_examples_only
+
+series_bindings:
+  - series_id: series.ar.datosgob.ipc_headline_mom_national
+    canonical_indicator_id: ci.ns.cpi_monthly
+    normalization:
+      kind: scale
+      factor: 100
+    note: Provider representation is a fractional monthly change; canonical representation is percent MoM.
+
+  - series_id: series.ar.datosgob.itcrm_monthly
+    canonical_indicator_id: ci.ns.reer_index
+    normalization:
+      kind: identity
+    note: Provider index representation already matches the canonical measurement unit.
+
+  - series_id: series.ar.datosgob.goods_trade_balance
+    canonical_indicator_id: ci.ef.goods_balance_usd
+    normalization:
+      kind: scale
+      factor: 0.001
+    note: Provider representation is USD millions; canonical representation is USD billions.
+
+chart_specs:
+  - id: cs.example.line
+    plot_intent_id: pi.example.line
+    renderer: timeseries_line
+    frame_id: rf.last_12m
+    annotations:
+      - date: '2023-12-01'
+        label: December 2023
+
+  - id: cs.example.bar
+    plot_intent_id: pi.example.bar
+    renderer: timeseries_bar
+    frame_id: rf.last_5y
+    overrides:
+      zero_baseline: true
+
+plot_artifact_shape:
+  schema_version: '0.2'
+  plot_intent_id: pi.example.line
+  chart_spec_id: cs.example.line
+  frame_id: rf.last_12m
+  data_as_of: '2026-07-01'
+  generated_at: '2026-08-15T00:00:00Z'
+  indicator_ids:
+    - ci.example
+  series_ids:
+    - series.example
+  snapshot_sha256:
+    series.example: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  outputs:
+    svg: plot-artifacts/svg/example.svg
+    png: plot-artifacts/png/example.png
+  alt_text: Contract-only example of a materialized time-series figure.

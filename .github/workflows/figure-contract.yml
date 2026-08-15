@@ -1,0 +1,46 @@
+name: Figure contract
+
+on:
+  pull_request:
+    paths:
+      - 'figures/**'
+      - '.github/workflows/figure-contract.yml'
+      - 'verticals/nominal_stabilization_vertical_v0_1/knowledge/chart_specs.yaml'
+      - 'verticals/external_financial_constraint_vertical_v0_2/knowledge/chart_specs.yaml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'figures/**'
+      - '.github/workflows/figure-contract.yml'
+      - 'verticals/nominal_stabilization_vertical_v0_1/knowledge/chart_specs.yaml'
+      - 'verticals/external_financial_constraint_vertical_v0_2/knowledge/chart_specs.yaml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install contract dependency
+        run: python -m pip install 'PyYAML>=6.0,<7'
+
+      - name: Validate Figure Grammar contract
+        run: python figures/validate_contract.py
+
+      - name: Run Figure Grammar guardrail tests
+        run: python -m unittest discover -s figures/tests -p 'test_*.py'
+
+      - name: Compile validator sources
+        run: python -m compileall -q figures
