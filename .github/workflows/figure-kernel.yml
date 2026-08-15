@@ -1,0 +1,78 @@
+name: Figure kernel
+
+on:
+  pull_request:
+    paths:
+      - 'figures/**'
+      - 'series/**'
+      - 'plot-artifacts/**'
+      - 'verticals/nominal_stabilization_vertical_v0_1/knowledge/plot_intents_v0_2.yaml'
+      - 'verticals/external_financial_constraint_vertical_v0_2/knowledge/plot_intents_v0_2.yaml'
+      - '.github/workflows/figure-kernel.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'figures/**'
+      - 'series/**'
+      - 'plot-artifacts/**'
+      - 'verticals/nominal_stabilization_vertical_v0_1/knowledge/plot_intents_v0_2.yaml'
+      - 'verticals/external_financial_constraint_vertical_v0_2/knowledge/plot_intents_v0_2.yaml'
+      - '.github/workflows/figure-kernel.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: figure-kernel-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install figure dependencies
+        run: python -m pip install 'PyYAML>=6.0,<7' 'matplotlib>=3.8,<4'
+
+      - name: Validate Figure Grammar contract
+        run: python figures/validate_contract.py
+
+      - name: Run Figure Kernel tests
+        run: python -m unittest discover -s figures/kernel_tests -p 'test_*.py'
+
+      - name: Materialize exactly three real figures
+        env:
+          SOURCE_DATE_EPOCH: '1786828800'
+        run: python figures/materialize.py
+
+      - name: Verify artifact freeze
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path('plot-artifacts')
+          manifest = json.loads((root / 'manifest.json').read_text())
+          assert manifest['artifact_count'] == 3
+          assert len(list((root / 'svg').glob('*.svg'))) == 3
+          assert len(list((root / 'png').glob('*.png'))) == 3
+          assert len(list((root / 'metadata').glob('*.json'))) == 3
+          print('PASS: exactly 3 SVG + 3 PNG + 3 metadata artifacts')
+          PY
+
+      - name: Upload visual QA bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: figure-kernel-v0.2-preview
+          path: plot-artifacts/
+          if-no-files-found: error
+          retention-days: 30
