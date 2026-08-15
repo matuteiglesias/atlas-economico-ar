@@ -9,9 +9,11 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "sync:data": "node scripts/sync-site-data.mjs",
+    "sync:plots": "node scripts/sync-plots.mjs",
     "verify:data": "node scripts/verify-data.mjs",
+    "verify:plots": "node scripts/verify-plots.mjs",
     "verify:routes": "node scripts/verify-routes.mjs",
-    "check": "pnpm verify:data && pnpm lint && pnpm typecheck && pnpm build && pnpm verify:routes"
+    "check": "pnpm verify:data && pnpm verify:plots && pnpm lint && pnpm typecheck && pnpm build && pnpm verify:routes"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

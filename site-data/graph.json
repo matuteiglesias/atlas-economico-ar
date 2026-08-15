@@ -1865,6 +1865,22 @@
       "slice_id": "nominal_stabilization"
     },
     {
+      "id": "pi.ns53",
+      "kind": "chart",
+      "slug": "monthly-headline-inflation",
+      "title": "Monthly headline inflation",
+      "href": "/charts/monthly-headline-inflation",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns54",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate",
+      "title": "Real effective exchange rate",
+      "href": "/charts/real-effective-exchange-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
       "id": "pi.ef01",
       "kind": "chart",
       "slug": "gross-reserves-nir-and-liquid-buffers",
@@ -2214,6 +2230,14 @@
       "slug": "external-vulnerability-state-map",
       "title": "External vulnerability state map",
       "href": "/charts/external-vulnerability-state-map",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef45",
+      "kind": "chart",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/charts/goods-trade-balance",
       "slice_id": "external_financial_constraint"
     }
   ],
@@ -5390,6 +5414,34 @@
       "directed": false
     },
     {
+      "from": "pi.ns53",
+      "to": "q.ns01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns53",
+      "directed": false
+    },
+    {
+      "from": "pi.ns53",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns53",
+      "directed": false
+    },
+    {
+      "from": "pi.ns54",
+      "to": "q.ns10",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns54",
+      "directed": false
+    },
+    {
+      "from": "pi.ns54",
+      "to": "ci.ns.reer_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns54",
+      "directed": false
+    },
+    {
       "from": "pi.ef01",
       "to": "q.ef01",
       "kind": "chart_answers_question",
@@ -6465,6 +6517,20 @@
       "to": "ci.ef.public_fx_debt_service_12m",
       "kind": "chart_uses_indicator",
       "source_id": "pi.ef44",
+      "directed": false
+    },
+    {
+      "from": "pi.ef45",
+      "to": "q.ef04",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef45",
+      "directed": false
+    },
+    {
+      "from": "pi.ef45",
+      "to": "ci.ef.goods_balance_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef45",
       "directed": false
     }
   ]

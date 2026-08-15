@@ -2097,6 +2097,24 @@
     "text": "Nominal-stabilization state map A compact multi-indicator state vector for the slice; not a single causal index. A compact multi-indicator state vector for the slice; not a single causal index."
   },
   {
+    "id": "pi.ns53",
+    "kind": "chart",
+    "slug": "monthly-headline-inflation",
+    "title": "Monthly headline inflation",
+    "href": "/charts/monthly-headline-inflation",
+    "regionId": "nominal_stabilization",
+    "text": "Monthly headline inflation Track the recent path of headline monthly inflation in canonical percent units. Track the recent path of headline monthly inflation in canonical percent units."
+  },
+  {
+    "id": "pi.ns54",
+    "kind": "chart",
+    "slug": "real-effective-exchange-rate",
+    "title": "Real effective exchange rate",
+    "href": "/charts/real-effective-exchange-rate",
+    "regionId": "nominal_stabilization",
+    "text": "Real effective exchange rate Track the multilateral real exchange-rate index and place the December 2023 shift in temporal context. Track the multilateral real exchange-rate index and place the December 2023 shift in temporal context."
+  },
+  {
     "id": "pi.ef01",
     "kind": "chart",
     "slug": "gross-reserves-nir-and-liquid-buffers",
@@ -2491,5 +2509,14 @@
     "href": "/charts/external-vulnerability-state-map",
     "regionId": "external_financial_constraint",
     "text": "External vulnerability state map Summarize the external state across buffers, flow balance, market access, and near-term obligations. Summarize the external state across buffers, flow balance, market access, and near-term obligations."
+  },
+  {
+    "id": "pi.ef45",
+    "kind": "chart",
+    "slug": "goods-trade-balance",
+    "title": "Goods trade balance",
+    "href": "/charts/goods-trade-balance",
+    "regionId": "external_financial_constraint",
+    "text": "Goods trade balance Track whether merchandise trade is generating or absorbing foreign currency over time. Track whether merchandise trade is generating or absorbing foreign currency over time."
   }
 ]

@@ -17,7 +17,7 @@
     "topics": 25,
     "questions": 18,
     "indicators": 42,
-    "charts": 52,
+    "charts": 54,
     "relations": 52
   },
   "topics": [
@@ -833,6 +833,42 @@
       "href": "/charts/money-market-volatility-vs-fx-gap"
     },
     {
+      "id": "pi.ns53",
+      "kind": "chart",
+      "slug": "monthly-headline-inflation",
+      "title": "Monthly headline inflation",
+      "href": "/charts/monthly-headline-inflation",
+      "artifact": {
+        "chartSpecId": "cs.seed.monthly_headline_inflation",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monthly-headline-inflation.svg",
+        "png": "/plots/monthly-headline-inflation.png",
+        "altText": "Monthly headline inflation, Monthly headline CPI inflation, Last 5 years, data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "datos_argentina",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          }
+        }
+      }
+    },
+    {
       "id": "pi.ns02",
       "kind": "chart",
       "slug": "monthly-inflation-with-acceleration-markers",
@@ -908,6 +944,41 @@
       "slug": "position-inside-fx-band",
       "title": "Position inside FX band",
       "href": "/charts/position-inside-fx-band"
+    },
+    {
+      "id": "pi.ns54",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate",
+      "title": "Real effective exchange rate",
+      "href": "/charts/real-effective-exchange-rate",
+      "artifact": {
+        "chartSpecId": "cs.seed.real_exchange_rate",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2024-12-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/real-effective-exchange-rate.svg",
+        "png": "/plots/real-effective-exchange-rate.png",
+        "altText": "Real effective exchange rate, Real effective exchange-rate index, Last 5 years, data through 2024-12-01. Markers: Dec 2023. The source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.reer_index"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.itcrm_monthly"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+        },
+        "source": {
+          "provider": "datos_argentina",
+          "providerSeriesId": "116.3_TCRMA_0_M_36",
+          "sourceUnit": "Índice 17-Dic-2015=100",
+          "normalization": {
+            "kind": "identity"
+          }
+        }
+      }
     },
     {
       "id": "pi.ns20",
@@ -990,6 +1061,83 @@
   "localGraph": {
     "nodes": [
       {
+        "id": "ns.reserve_requirements",
+        "kind": "topic",
+        "slug": "reserve-requirements",
+        "title": "Reserve requirements",
+        "href": "/topics/reserve-requirements"
+      },
+      {
+        "id": "ns.fx_hedging_demand",
+        "kind": "topic",
+        "slug": "fx-hedging-demand",
+        "title": "FX hedging demand",
+        "href": "/topics/fx-hedging-demand"
+      },
+      {
+        "id": "ns.inflation",
+        "kind": "topic",
+        "slug": "inflation",
+        "title": "Inflation",
+        "href": "/topics/inflation"
+      },
+      {
+        "id": "ns.remonetization",
+        "kind": "topic",
+        "slug": "remonetization",
+        "title": "Remonetization",
+        "href": "/topics/remonetization"
+      },
+      {
+        "id": "ns.bcra_fx_operations",
+        "kind": "topic",
+        "slug": "bcra-fx-operations",
+        "title": "BCRA FX operations",
+        "href": "/topics/bcra-fx-operations"
+      },
+      {
+        "id": "ns.policy_credibility",
+        "kind": "topic",
+        "slug": "policy-credibility",
+        "title": "Policy credibility",
+        "href": "/topics/policy-credibility"
+      },
+      {
+        "id": "ns.fx_pass_through",
+        "kind": "topic",
+        "slug": "fx-pass-through",
+        "title": "FX pass-through",
+        "href": "/topics/fx-pass-through"
+      },
+      {
+        "id": "ns.money_market_rate",
+        "kind": "topic",
+        "slug": "money-market-rate",
+        "title": "Money-market rate",
+        "href": "/topics/money-market-rate"
+      },
+      {
+        "id": "ns.inflation_inertia",
+        "kind": "topic",
+        "slug": "inflation-inertia",
+        "title": "Inflation inertia",
+        "href": "/topics/inflation-inertia"
+      },
+      {
+        "id": "ns.real_exchange_rate",
+        "kind": "topic",
+        "slug": "real-exchange-rate",
+        "title": "Real exchange rate",
+        "href": "/topics/real-exchange-rate"
+      },
+      {
+        "id": "ns.aggregate_demand_pressure",
+        "kind": "topic",
+        "slug": "aggregate-demand-pressure",
+        "title": "Aggregate-demand pressure",
+        "href": "/topics/aggregate-demand-pressure"
+      },
+      {
         "id": "ns.monetary_targeting_framework",
         "kind": "topic",
         "slug": "monetary-targeting-framework",
@@ -1004,130 +1152,18 @@
         "href": "/topics/relative-price-adjustment"
       },
       {
-        "id": "ns.real_interest_rate",
-        "kind": "topic",
-        "slug": "real-interest-rate",
-        "title": "Real interest rate",
-        "href": "/topics/real-interest-rate"
-      },
-      {
-        "id": "ns.policy_credibility",
-        "kind": "topic",
-        "slug": "policy-credibility",
-        "title": "Policy credibility",
-        "href": "/topics/policy-credibility"
-      },
-      {
-        "id": "ns.bcra_fx_operations",
-        "kind": "topic",
-        "slug": "bcra-fx-operations",
-        "title": "BCRA FX operations",
-        "href": "/topics/bcra-fx-operations"
-      },
-      {
-        "id": "ns.remonetization",
-        "kind": "topic",
-        "slug": "remonetization",
-        "title": "Remonetization",
-        "href": "/topics/remonetization"
-      },
-      {
-        "id": "ns.inflation_expectations",
-        "kind": "topic",
-        "slug": "inflation-expectations",
-        "title": "Inflation expectations",
-        "href": "/topics/inflation-expectations"
-      },
-      {
-        "id": "ns.inflation_inertia",
-        "kind": "topic",
-        "slug": "inflation-inertia",
-        "title": "Inflation inertia",
-        "href": "/topics/inflation-inertia"
-      },
-      {
-        "id": "ns.inflation",
-        "kind": "topic",
-        "slug": "inflation",
-        "title": "Inflation",
-        "href": "/topics/inflation"
-      },
-      {
-        "id": "ns.money_market_rate",
-        "kind": "topic",
-        "slug": "money-market-rate",
-        "title": "Money-market rate",
-        "href": "/topics/money-market-rate"
-      },
-      {
-        "id": "ns.aggregate_demand_pressure",
-        "kind": "topic",
-        "slug": "aggregate-demand-pressure",
-        "title": "Aggregate-demand pressure",
-        "href": "/topics/aggregate-demand-pressure"
-      },
-      {
-        "id": "ns.fx_pass_through",
-        "kind": "topic",
-        "slug": "fx-pass-through",
-        "title": "FX pass-through",
-        "href": "/topics/fx-pass-through"
-      },
-      {
-        "id": "ns.exchange_rate_band",
-        "kind": "topic",
-        "slug": "exchange-rate-band",
-        "title": "Exchange-rate band",
-        "href": "/topics/exchange-rate-band"
-      },
-      {
-        "id": "ns.fx_hedging_demand",
-        "kind": "topic",
-        "slug": "fx-hedging-demand",
-        "title": "FX hedging demand",
-        "href": "/topics/fx-hedging-demand"
-      },
-      {
-        "id": "ns.nominal_exchange_rate",
-        "kind": "topic",
-        "slug": "nominal-exchange-rate",
-        "title": "Nominal exchange rate",
-        "href": "/topics/nominal-exchange-rate"
-      },
-      {
-        "id": "ns.real_exchange_rate",
-        "kind": "topic",
-        "slug": "real-exchange-rate",
-        "title": "Real exchange rate",
-        "href": "/topics/real-exchange-rate"
-      },
-      {
-        "id": "ns.transactional_m2",
-        "kind": "topic",
-        "slug": "transactional-m2",
-        "title": "Transactional M2",
-        "href": "/topics/transactional-m2"
-      },
-      {
-        "id": "ns.fx_gap",
-        "kind": "topic",
-        "slug": "fx-gap",
-        "title": "FX gap",
-        "href": "/topics/fx-gap"
-      },
-      {
-        "id": "ns.monetary_base",
-        "kind": "topic",
-        "slug": "monetary-base",
-        "title": "Monetary base",
-        "href": "/topics/monetary-base"
-      },
-      {
         "id": "ns.policy_rate",
         "kind": "topic",
         "slug": "policy-interest-rate",
         "title": "Policy interest rate",
         "href": "/topics/policy-interest-rate"
+      },
+      {
+        "id": "ns.real_interest_rate",
+        "kind": "topic",
+        "slug": "real-interest-rate",
+        "title": "Real interest rate",
+        "href": "/topics/real-interest-rate"
       },
       {
         "id": "ns.core_inflation",
@@ -1137,18 +1173,18 @@
         "href": "/topics/core-inflation"
       },
       {
-        "id": "ns.headline_inflation",
+        "id": "ns.fx_gap",
         "kind": "topic",
-        "slug": "headline-inflation",
-        "title": "Headline inflation",
-        "href": "/topics/headline-inflation"
+        "slug": "fx-gap",
+        "title": "FX gap",
+        "href": "/topics/fx-gap"
       },
       {
-        "id": "ns.reserve_requirements",
+        "id": "ns.parallel_exchange_rate",
         "kind": "topic",
-        "slug": "reserve-requirements",
-        "title": "Reserve requirements",
-        "href": "/topics/reserve-requirements"
+        "slug": "parallel-exchange-rate",
+        "title": "Parallel exchange rate",
+        "href": "/topics/parallel-exchange-rate"
       },
       {
         "id": "ns.money_demand",
@@ -1158,11 +1194,46 @@
         "href": "/topics/money-demand"
       },
       {
-        "id": "ns.parallel_exchange_rate",
+        "id": "ns.transactional_m2",
         "kind": "topic",
-        "slug": "parallel-exchange-rate",
-        "title": "Parallel exchange rate",
-        "href": "/topics/parallel-exchange-rate"
+        "slug": "transactional-m2",
+        "title": "Transactional M2",
+        "href": "/topics/transactional-m2"
+      },
+      {
+        "id": "ns.exchange_rate_band",
+        "kind": "topic",
+        "slug": "exchange-rate-band",
+        "title": "Exchange-rate band",
+        "href": "/topics/exchange-rate-band"
+      },
+      {
+        "id": "ns.headline_inflation",
+        "kind": "topic",
+        "slug": "headline-inflation",
+        "title": "Headline inflation",
+        "href": "/topics/headline-inflation"
+      },
+      {
+        "id": "ns.inflation_expectations",
+        "kind": "topic",
+        "slug": "inflation-expectations",
+        "title": "Inflation expectations",
+        "href": "/topics/inflation-expectations"
+      },
+      {
+        "id": "ns.monetary_base",
+        "kind": "topic",
+        "slug": "monetary-base",
+        "title": "Monetary base",
+        "href": "/topics/monetary-base"
+      },
+      {
+        "id": "ns.nominal_exchange_rate",
+        "kind": "topic",
+        "slug": "nominal-exchange-rate",
+        "title": "Nominal exchange rate",
+        "href": "/topics/nominal-exchange-rate"
       }
     ],
     "edges": [

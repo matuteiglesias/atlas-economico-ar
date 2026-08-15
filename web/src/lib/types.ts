@@ -1,5 +1,26 @@
 export type EntityKind = "region" | "topic" | "question" | "indicator" | "chart";
 
+export interface PlotArtifactRef {
+  chartSpecId: string;
+  frameId: string;
+  renderer: string;
+  dataAsOf: string;
+  generatedAt: string;
+  svg: string;
+  png: string;
+  altText: string;
+  freshnessState: string;
+  indicatorIds: string[];
+  seriesIds: string[];
+  snapshotSha256: Record<string, string>;
+  source: {
+    provider: string;
+    providerSeriesId: string;
+    sourceUnit?: string | null;
+    normalization: { kind: string; factor?: number };
+  };
+}
+
 export interface EntityLink {
   id?: string;
   kind?: EntityKind;
@@ -7,6 +28,7 @@ export interface EntityLink {
   title: string;
   href: string;
   distance?: number;
+  artifact?: PlotArtifactRef;
 }
 
 export interface Region extends EntityLink {

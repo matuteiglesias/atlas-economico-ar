@@ -111,6 +111,42 @@
       "distance": 2
     },
     {
+      "id": "pi.ns54",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate",
+      "title": "Real effective exchange rate",
+      "href": "/charts/real-effective-exchange-rate",
+      "distance": 2,
+      "artifact": {
+        "chartSpecId": "cs.seed.real_exchange_rate",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2024-12-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/real-effective-exchange-rate.svg",
+        "png": "/plots/real-effective-exchange-rate.png",
+        "altText": "Real effective exchange rate, Real effective exchange-rate index, Last 5 years, data through 2024-12-01. Markers: Dec 2023. The source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.reer_index"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.itcrm_monthly"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+        },
+        "source": {
+          "provider": "datos_argentina",
+          "providerSeriesId": "116.3_TCRMA_0_M_36",
+          "sourceUnit": "Índice 17-Dic-2015=100",
+          "normalization": {
+            "kind": "identity"
+          }
+        }
+      }
+    },
+    {
       "id": "pi.ns20",
       "kind": "chart",
       "slug": "real-effective-exchange-rate-since-dec-2023",
@@ -124,14 +160,6 @@
       "slug": "reer-versus-current-account-balance",
       "title": "REER versus current-account balance",
       "href": "/charts/reer-versus-current-account-balance",
-      "distance": 2
-    },
-    {
-      "id": "pi.ef41",
-      "kind": "chart",
-      "slug": "reer-versus-nir-accumulation",
-      "title": "REER versus NIR accumulation",
-      "href": "/charts/reer-versus-nir-accumulation",
       "distance": 2
     }
   ],

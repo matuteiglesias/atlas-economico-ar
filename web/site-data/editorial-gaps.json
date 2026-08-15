@@ -2080,6 +2080,26 @@
       ]
     },
     {
+      "id": "pi.ns53",
+      "kind": "chart",
+      "slug": "monthly-headline-inflation",
+      "title": "Monthly headline inflation",
+      "href": "/charts/monthly-headline-inflation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns54",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate",
+      "title": "Real effective exchange rate",
+      "href": "/charts/real-effective-exchange-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
       "id": "pi.ef29",
       "kind": "chart",
       "slug": "private-credit-as-a-share-of-gdp",
@@ -2238,7 +2258,17 @@
       "missing": [
         "intro"
       ]
+    },
+    {
+      "id": "pi.ef45",
+      "kind": "chart",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/charts/goods-trade-balance",
+      "missing": [
+        "intro"
+      ]
     }
   ],
-  "count": 214
+  "count": 217
 }
