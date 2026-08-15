@@ -86,6 +86,7 @@ def request_bytes(url: str, *, attempts: int = 3, timeout: int = 30) -> HttpResp
                 )
         except HTTPError as exc:
             last_error = exc
+            # Retry rate limits and transient server failures only.
             if exc.code != 429 and not 500 <= exc.code < 600:
                 raise CaptureError(f"HTTP {exc.code} for {url}") from exc
         except (URLError, OSError) as exc:
@@ -109,6 +110,8 @@ def _parse_csv_page(payload: bytes, provider_series_id: str) -> tuple[list[str],
         raise CaptureError("Provider returned an empty CSV response") from exc
     if len(header) < 2:
         raise CaptureError(f"Unexpected CSV header: {header!r}")
+    # The API documents the first column as indice_tiempo. Be tolerant of
+    # harmless naming drift, but require the requested provider id as a column.
     if provider_series_id not in header:
         raise CaptureError(
             f"CSV does not contain requested series id {provider_series_id!r}: {header!r}"
@@ -117,42 +120,31 @@ def _parse_csv_page(payload: bytes, provider_series_id: str) -> tuple[list[str],
     return header, rows
 
 
-def fetch_all_csv(base_url: str, provider_series_id: str) -> tuple[bytes, list[str]]:
-    """Fetch all pages and return one canonical raw CSV plus request URLs."""
-    start = 0
-    combined_header: list[str] | None = None
-    combined_rows: list[list[str]] = []
-    urls: list[str] = []
+def fetch_csv(base_url: str, provider_series_id: str) -> tuple[bytes, str]:
+    """Fetch one complete raw CSV response for a seed monthly Series.
 
-    while True:
-        url = build_url(
-            base_url,
-            ids=provider_series_id,
-            format="csv",
-            header="ids",
-            sort="asc",
-            limit=PAGE_SIZE,
-            start=start,
+    The seed milestone intentionally refuses to synthesize a "raw" file from
+    multiple HTTP pages. If a Series reaches the API page limit, extend the
+    capture format first so each provider response can remain individually
+    preserved and hashed.
+    """
+    url = build_url(
+        base_url,
+        ids=provider_series_id,
+        format="csv",
+        header="ids",
+        sort="asc",
+        limit=PAGE_SIZE,
+        start=0,
+    )
+    response = request_bytes(url)
+    _, rows = _parse_csv_page(response.body, provider_series_id)
+    if len(rows) >= PAGE_SIZE:
+        raise CaptureError(
+            f"{provider_series_id} reached the {PAGE_SIZE}-row API page limit; "
+            "refuse to merge pages into a synthetic raw capture"
         )
-        response = request_bytes(url)
-        urls.append(response.url)
-        header, rows = _parse_csv_page(response.body, provider_series_id)
-        if combined_header is None:
-            combined_header = header
-        elif header != combined_header:
-            raise CaptureError("CSV header changed between API pages")
-        combined_rows.extend(rows)
-        if len(rows) < PAGE_SIZE:
-            break
-        start += PAGE_SIZE
-
-    if combined_header is None:
-        raise CaptureError("No CSV header returned")
-    out = io.StringIO(newline="")
-    writer = csv.writer(out, lineterminator="\n")
-    writer.writerow(combined_header)
-    writer.writerows(combined_rows)
-    return out.getvalue().encode("utf-8"), urls
+    return response.body, response.url
 
 
 def fetch_metadata(base_url: str, provider_series_id: str) -> tuple[bytes, str]:
@@ -163,6 +155,8 @@ def fetch_metadata(base_url: str, provider_series_id: str) -> tuple[bytes, str]:
         metadata="only",
     )
     response = request_bytes(url)
+    # Reject HTML error pages or other unexpected payloads before persisting them
+    # as provider metadata.
     try:
         json.loads(response.body.decode("utf-8"))
     except (UnicodeDecodeError, json.JSONDecodeError) as exc:
@@ -193,6 +187,8 @@ def parse_provider_csv(payload: bytes, provider_series_id: str) -> list[tuple[st
             raise CaptureError("Provider dates are not strictly increasing")
         seen.add(parsed_date)
         previous = parsed_date
+        # Preserve missing observations as an empty value. Numeric observations
+        # are normalized only lexically, with no economic transformation.
         if raw_value:
             try:
                 float(raw_value)
@@ -275,7 +271,7 @@ def capture_one(
     base_url = provider["base_url"]
     stem = safe_filename(internal_id)
 
-    raw_csv, csv_urls = fetch_all_csv(base_url, provider_id)
+    raw_csv, csv_url = fetch_csv(base_url, provider_id)
     raw_metadata, metadata_url = fetch_metadata(base_url, provider_id)
     observations = parse_provider_csv(raw_csv, provider_id)
     normalized = normalized_csv(
@@ -313,7 +309,7 @@ def capture_one(
         "provider_series_id": provider_id,
         "retrieved_at": retrieved_at.isoformat().replace("+00:00", "Z"),
         "requests": {
-            "values": csv_urls,
+            "values": csv_url,
             "metadata": metadata_url,
         },
         "raw": {
