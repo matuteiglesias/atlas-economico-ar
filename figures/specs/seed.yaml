@@ -7,12 +7,12 @@ chart_specs:
     frame_id: rf.last_5y
 
   - id: cs.seed.real_exchange_rate
-    plot_intent_id: pi.ns22
+    plot_intent_id: pi.ns54
     renderer: timeseries_line
     frame_id: rf.last_5y
     annotations:
       - date: '2023-12-01'
-        label: December 2023
+        label: Dec 2023
 
   - id: cs.seed.goods_trade_balance
     plot_intent_id: pi.ef45
