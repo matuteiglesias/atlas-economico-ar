@@ -2,7 +2,7 @@
   "schema_version": "0.1",
   "provider": {
     "id": "datos_argentina",
-    "base_url": "https://apis.datos.gob.ar/series/api/series",
+    "base_url": "https://apis.datos.gob.ar/series/api/series/",
     "documentation": "https://datosgobar.github.io/series-tiempo-ar-api/"
   },
   "series": [
