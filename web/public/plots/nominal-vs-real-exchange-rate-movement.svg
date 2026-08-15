@@ -1467,7 +1467,7 @@ z
      <path d="M 78.084 103.625297 
 L 87.084 103.625297 
 L 96.084 103.625297 
-" style="fill: none; stroke: #1f77b4; stroke-width: 2; stroke-linecap: square"/>
+" style="fill: none; stroke: #ff7f0e; stroke-width: 2; stroke-linecap: square"/>
     </g>
     <g id="text_15">
      <!-- Real effective exchange-rate index -->
@@ -1784,7 +1784,7 @@ L 249.537042 355.452488
 L 268.123993 366.699708 
 L 287.330509 379.5642 
 L 305.917459 390.632727 
-" clip-path="url(#p5151405195)" style="fill: none; stroke: #1f77b4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#p5151405195)" style="fill: none; stroke: #ff7f0e; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="patch_6">
     <path d="M 69.984 405.504 

@@ -1110,7 +1110,7 @@ z
      <path d="M 78.084 103.625297 
 L 87.084 103.625297 
 L 96.084 103.625297 
-" style="fill: none; stroke: #1f77b4; stroke-width: 2; stroke-linecap: square"/>
+" style="fill: none; stroke: #ff7f0e; stroke-width: 2; stroke-linecap: square"/>
     </g>
     <g id="text_17">
      <!-- Monthly headline CPI inflation -->
@@ -1474,7 +1474,7 @@ L 631.656235 377.215501
 L 651.110445 382.579647 
 L 671.213129 385.845005 
 L 690.66734 383.028926 
-" clip-path="url(#p5151405195)" style="fill: none; stroke: #1f77b4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#p5151405195)" style="fill: none; stroke: #ff7f0e; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="patch_6">
     <path d="M 69.984 405.504 

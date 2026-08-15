@@ -1112,7 +1112,7 @@ z
      <path d="M 534.387656 103.625297 
 L 543.387656 103.625297 
 L 552.387656 103.625297 
-" style="fill: none; stroke: #1f77b4; stroke-width: 2; stroke-linecap: square"/>
+" style="fill: none; stroke: #ff7f0e; stroke-width: 2; stroke-linecap: square"/>
     </g>
     <g id="text_15">
      <!-- BCRA net FX purchases -->
@@ -1599,7 +1599,7 @@ L 679.649129 381.687601
 L 687.912787 383.085277 
 L 690.66734 358.765714 
 L 690.66734 358.765714 
-" clip-path="url(#p5151405195)" style="fill: none; stroke: #1f77b4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#p5151405195)" style="fill: none; stroke: #ff7f0e; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="patch_6">
     <path d="M 69.984 405.504 

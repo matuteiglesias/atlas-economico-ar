@@ -1305,7 +1305,7 @@ z
      <path d="M 78.084 103.625297 
 L 87.084 103.625297 
 L 96.084 103.625297 
-" style="fill: none; stroke: #1f77b4; stroke-width: 2; stroke-linecap: square"/>
+" style="fill: none; stroke: #ff7f0e; stroke-width: 2; stroke-linecap: square"/>
     </g>
     <g id="text_17">
      <!-- Monetary base -->
@@ -1672,7 +1672,7 @@ L 685.158235 123.192295
 L 687.912787 119.099366 
 L 690.66734 107.33942 
 L 690.66734 107.33942 
-" clip-path="url(#p5151405195)" style="fill: none; stroke: #1f77b4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#p5151405195)" style="fill: none; stroke: #ff7f0e; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="patch_6">
     <path d="M 69.984 405.504 

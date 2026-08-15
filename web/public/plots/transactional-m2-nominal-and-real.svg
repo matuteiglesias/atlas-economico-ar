@@ -1495,7 +1495,7 @@ z
      <path d="M 78.084 103.625297 
 L 87.084 103.625297 
 L 96.084 103.625297 
-" style="fill: none; stroke: #1f77b4; stroke-width: 2; stroke-linecap: square"/>
+" style="fill: none; stroke: #ff7f0e; stroke-width: 2; stroke-linecap: square"/>
     </g>
     <g id="text_15">
      <!-- Real private transactional M2 -->
@@ -1937,7 +1937,7 @@ L 608.635419 226.190849
 L 627.279038 232.756131 
 L 646.54411 169.054833 
 L 665.187728 197.395163 
-" clip-path="url(#p5151405195)" style="fill: none; stroke: #1f77b4; stroke-width: 2; stroke-linecap: square"/>
+" clip-path="url(#p5151405195)" style="fill: none; stroke: #ff7f0e; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="patch_6">
     <path d="M 69.984 405.504 
