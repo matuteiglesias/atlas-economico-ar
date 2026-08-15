@@ -53,6 +53,13 @@ provider metadata, first/latest observations, and a freshness assessment.
 Freshness is a warning rather than an integrity failure because publication
 lags differ across official series.
 
+`make validate-series` is intentionally stronger than a hash check: it rebuilds
+each normalized snapshot from the byte-preserved raw provider CSV and requires
+an exact byte-for-byte match. It also freezes the exact three-Series file set,
+checks provenance paths and hashes, first/latest observations, freshness
+thresholds, provider unit/frequency metadata presence, and requires
+`economic_transform=none` at this acquisition boundary.
+
 ## Troubleshooting locally
 
 First test the provider outside Python. The canonical endpoint includes the
@@ -91,13 +98,19 @@ snapshots to exist.
 
 ## GitHub Actions
 
-`.github/workflows/capture-seed-series.yml` is manual-only
-(`workflow_dispatch`). It performs the same capture and validation on a GitHub
-hosted runner and uploads `series/raw/` + `series/snapshots/` as a workflow
-artifact. It does not commit or publish the data automatically.
+Two workflows deliberately have different responsibilities:
 
-After the workflow is merged to the default branch, use **Actions → Capture
-seed economic series → Run workflow**. Download the resulting
+- `.github/workflows/series-integrity.yml` is offline CI. On relevant pull
+  requests and pushes to `main` it runs the unit tests, validates the checked-in
+  captures, and compiles the Python sources. It never contacts an economic data
+  provider.
+- `.github/workflows/capture-seed-series.yml` is manual-only
+  (`workflow_dispatch`). It performs a fresh network capture and validation on a
+  GitHub-hosted runner and uploads `series/raw/` + `series/snapshots/` as a
+  workflow artifact. It does not commit or publish the data automatically.
+
+After the manual workflow is merged to the default branch, use **Actions →
+Capture seed economic series → Run workflow**. Download the resulting
 `authentic-seed-series` artifact, inspect it, and only then commit approved
 snapshots.
 
