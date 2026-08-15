@@ -11,6 +11,8 @@ from typing import Any
 
 import matplotlib
 matplotlib.use('Agg')
+matplotlib.rcParams['svg.hashsalt'] = 'atlas-figure-kernel-v0.2'
+matplotlib.rcParams['font.family'] = 'DejaVu Sans'
 import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
 import yaml
