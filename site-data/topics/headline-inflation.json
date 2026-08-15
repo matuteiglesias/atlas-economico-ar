@@ -260,6 +260,42 @@
       "slug": "nominal-stabilization-state-map",
       "title": "Nominal-stabilization state map",
       "href": "/charts/nominal-stabilization-state-map"
+    },
+    {
+      "id": "pi.ns53",
+      "kind": "chart",
+      "slug": "monthly-headline-inflation",
+      "title": "Monthly headline inflation",
+      "href": "/charts/monthly-headline-inflation",
+      "artifact": {
+        "chartSpecId": "cs.seed.monthly_headline_inflation",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monthly-headline-inflation.svg",
+        "png": "/plots/monthly-headline-inflation.png",
+        "altText": "Monthly headline inflation, Monthly headline CPI inflation, Last 5 years, data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "datos_argentina",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          }
+        }
+      }
     }
   ],
   "nearby": [
@@ -332,6 +368,6 @@
     "connections": 5,
     "questions": 4,
     "indicators": 3,
-    "charts": 17
+    "charts": 18
   }
 }

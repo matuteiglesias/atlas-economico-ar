@@ -337,6 +337,41 @@
       "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
       "title": "Inflation vs FX depreciation since stabilization start",
       "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start"
+    },
+    {
+      "id": "pi.ns54",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate",
+      "title": "Real effective exchange rate",
+      "href": "/charts/real-effective-exchange-rate",
+      "artifact": {
+        "chartSpecId": "cs.seed.real_exchange_rate",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2024-12-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/real-effective-exchange-rate.svg",
+        "png": "/plots/real-effective-exchange-rate.png",
+        "altText": "Real effective exchange rate, Real effective exchange-rate index, Last 5 years, data through 2024-12-01. Markers: Dec 2023. The source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.reer_index"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.itcrm_monthly"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+        },
+        "source": {
+          "provider": "datos_argentina",
+          "providerSeriesId": "116.3_TCRMA_0_M_36",
+          "sourceUnit": "Índice 17-Dic-2015=100",
+          "normalization": {
+            "kind": "identity"
+          }
+        }
+      }
     }
   ],
   "nearby": [
@@ -409,6 +444,6 @@
     "connections": 12,
     "questions": 5,
     "indicators": 2,
-    "charts": 16
+    "charts": 17
   }
 }

@@ -108,6 +108,42 @@
       "slug": "current-account-component-decomposition",
       "title": "Current-account component decomposition",
       "href": "/charts/current-account-component-decomposition"
+    },
+    {
+      "id": "pi.ef45",
+      "kind": "chart",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/charts/goods-trade-balance",
+      "artifact": {
+        "chartSpecId": "cs.seed.goods_trade_balance",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_bar",
+        "dataAsOf": "2026-06-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/goods-trade-balance.svg",
+        "png": "/plots/goods-trade-balance.png",
+        "altText": "Goods trade balance, Goods trade balance, Last 5 years, data through 2026-06-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.goods_balance_usd"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.goods_trade_balance"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.goods_trade_balance": "a47b7cef102d7ca2706dac42449ba84c899c15cfb36ce10f2d60dd952a038cd7"
+        },
+        "source": {
+          "provider": "datos_argentina",
+          "providerSeriesId": "74.3_ISC_0_M_19",
+          "sourceUnit": "Millones de dólares",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        }
+      }
     }
   ],
   "nearby": [
@@ -160,25 +196,54 @@
       "distance": 1
     },
     {
+      "id": "pi.ef45",
+      "kind": "chart",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/charts/goods-trade-balance",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.seed.goods_trade_balance",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_bar",
+        "dataAsOf": "2026-06-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/goods-trade-balance.svg",
+        "png": "/plots/goods-trade-balance.png",
+        "altText": "Goods trade balance, Goods trade balance, Last 5 years, data through 2026-06-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.goods_balance_usd"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.goods_trade_balance"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.goods_trade_balance": "a47b7cef102d7ca2706dac42449ba84c899c15cfb36ce10f2d60dd952a038cd7"
+        },
+        "source": {
+          "provider": "datos_argentina",
+          "providerSeriesId": "74.3_ISC_0_M_19",
+          "sourceUnit": "Millones de dólares",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        }
+      }
+    },
+    {
       "id": "q.ef19",
       "kind": "question",
       "slug": "how-does-real-appreciation-interact-with-the-external-balance",
       "title": "How does real appreciation interact with the external balance?",
       "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
       "distance": 2
-    },
-    {
-      "id": "q.ef05",
-      "kind": "question",
-      "slug": "what-offsets-argentina-s-goods-surplus",
-      "title": "What offsets Argentina's goods surplus?",
-      "href": "/questions/what-offsets-argentina-s-goods-surplus",
-      "distance": 2
     }
   ],
   "counts": {
     "topics": 4,
     "indicators": 5,
-    "charts": 2
+    "charts": 3
   }
 }

@@ -12,12 +12,14 @@
     "topic": 55,
     "question": 38,
     "indicator": 82,
-    "chart": 96
+    "chart": 99
   },
   "graph": {
-    "nodes": 277,
-    "edges": 607
+    "nodes": 280,
+    "edges": 613
   },
-  "editorialGaps": 214,
-  "seriesBindingsRequired": 82
+  "editorialGaps": 217,
+  "seriesBindingsRequired": 82,
+  "publicationSchemaVersion": "0.2",
+  "plotArtifacts": 3
 }
