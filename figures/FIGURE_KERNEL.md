@@ -21,19 +21,19 @@ Exactly three figures are materialized:
    - `ci.ns.cpi_monthly`
    - `timeseries_line`
    - `rf.last_5y`
-2. `pi.ns22` — Real exchange rate with major policy-regime markers
+2. `pi.ns54` — Real effective exchange rate
    - `ci.ns.reer_index`
    - `timeseries_line`
    - `rf.last_5y`
    - inline December 2023 marker
    - preserves the source `stale_warning`
-3. `pi.ef45` — Goods trade balance through time
+3. `pi.ef45` — Goods trade balance
    - `ci.ef.goods_balance_usd`
    - `timeseries_bar`
    - `rf.last_5y`
    - explicit zero baseline
 
-The existing PlotIntent inventory did not contain honest single-measurement intents for monthly headline inflation or the goods trade balance. Rather than partially materializing multi-measure intents, Phase 3 adds one small v0.2 PlotIntent addition file to each relevant vertical. These are semantic additions, not frontend or renderer aliases.
+The v0.1 PlotIntent inventory did not contain sufficiently clean single-measure publication intents for these three seed views. Rather than partially materializing multi-measure or legacy-framing intents, Phase 3 adds three narrow v0.2 PlotIntents through two per-vertical addition files. This is selective semantic migration, not a renderer alias or a mass rewrite of the existing inventory.
 
 ## Renderers
 
