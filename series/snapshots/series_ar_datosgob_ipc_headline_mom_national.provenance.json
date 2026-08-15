@@ -1,0 +1,40 @@
+{
+  "canonical_indicator_id": "ci.ns.cpi_monthly",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 45,
+    "latest_observation": "2026-07-01",
+    "state": "fresh",
+    "warning_days": 75
+  },
+  "provider": "datos_argentina",
+  "provider_metadata": {
+    "description": "IPC. Tasa de variación mensual. Nivel General. Nacional. Base dic 2016.",
+    "frequency": "R/P1M",
+    "time_index_end": "2026-07-01",
+    "time_index_start": "2017-01-01",
+    "title": "ipc_ng_nacional_tasa_variacion_mensual",
+    "units": "Variación intermensual"
+  },
+  "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+  "raw": {
+    "metadata_path": "series/raw/datos_argentina/series_ar_datosgob_ipc_headline_mom_national.metadata.json",
+    "metadata_sha256": "69be50b2fdfe8305dfc43f0ce8a5b0937a4fd09394b48c18cb1d792886ab6098",
+    "values_path": "series/raw/datos_argentina/series_ar_datosgob_ipc_headline_mom_national.csv",
+    "values_sha256": "2e63f79bfef0fa5de2763707f422e31c91ddcaf9727d52bf6cf2341a2dc64ebf"
+  },
+  "requests": {
+    "metadata": "https://apis.datos.gob.ar/series/api/series/?ids=145.3_INGNACUAL_DICI_M_38&format=json&metadata=only",
+    "values": "https://apis.datos.gob.ar/series/api/series/?ids=145.3_INGNACUAL_DICI_M_38&format=csv&header=ids&sort=asc&limit=1000&start=0"
+  },
+  "retrieved_at": "2026-08-15T20:23:19.241720Z",
+  "schema_version": "0.1",
+  "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+  "snapshot": {
+    "first_observation": "2017-01-01",
+    "latest_observation": "2026-07-01",
+    "observation_rows": 115,
+    "path": "series/snapshots/series_ar_datosgob_ipc_headline_mom_national.csv",
+    "sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+  }
+}

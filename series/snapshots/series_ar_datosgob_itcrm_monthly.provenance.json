@@ -1,0 +1,40 @@
+{
+  "canonical_indicator_id": "ci.ns.reer_index",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 622,
+    "latest_observation": "2024-12-01",
+    "state": "stale_warning",
+    "warning_days": 75
+  },
+  "provider": "datos_argentina",
+  "provider_metadata": {
+    "description": "Índice de Tipo de Cambio Real Multilateral",
+    "frequency": "R/P1M",
+    "time_index_end": "2024-12-01",
+    "time_index_start": "1997-01-01",
+    "title": "tipo_cambio_real_multilateral_actual",
+    "units": "Índice 17-Dic-2015=100"
+  },
+  "provider_series_id": "116.3_TCRMA_0_M_36",
+  "raw": {
+    "metadata_path": "series/raw/datos_argentina/series_ar_datosgob_itcrm_monthly.metadata.json",
+    "metadata_sha256": "8251f9e9328925304a668c6c9131bea88d3521c7eecad6cb4dbcb63cb331503e",
+    "values_path": "series/raw/datos_argentina/series_ar_datosgob_itcrm_monthly.csv",
+    "values_sha256": "e0b6d7c0c595deabec2f2e1e0052e9c522f3e2931fe04ca807fd581b42e308b7"
+  },
+  "requests": {
+    "metadata": "https://apis.datos.gob.ar/series/api/series/?ids=116.3_TCRMA_0_M_36&format=json&metadata=only",
+    "values": "https://apis.datos.gob.ar/series/api/series/?ids=116.3_TCRMA_0_M_36&format=csv&header=ids&sort=asc&limit=1000&start=0"
+  },
+  "retrieved_at": "2026-08-15T20:23:19.241720Z",
+  "schema_version": "0.1",
+  "series_id": "series.ar.datosgob.itcrm_monthly",
+  "snapshot": {
+    "first_observation": "1997-01-01",
+    "latest_observation": "2024-12-01",
+    "observation_rows": 336,
+    "path": "series/snapshots/series_ar_datosgob_itcrm_monthly.csv",
+    "sha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
+  }
+}
