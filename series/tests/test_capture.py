@@ -17,15 +17,15 @@ class CaptureUnitTests(unittest.TestCase):
     def test_parse_provider_csv_and_normalize_without_transform(self):
         payload = (
             "indice_tiempo,145.3_INGNACUAL_DICI_M_38\n"
-            "2026-01-01,2.9\n"
-            "2026-02-01,2.4\n"
+            "2026-01-01,0.029\n"
+            "2026-02-01,0.024\n"
         ).encode()
         observations = capture.parse_provider_csv(
             payload, "145.3_INGNACUAL_DICI_M_38"
         )
         self.assertEqual(
             observations,
-            [("2026-01-01", "2.9"), ("2026-02-01", "2.4")],
+            [("2026-01-01", "0.029"), ("2026-02-01", "0.024")],
         )
         normalized = capture.normalized_csv(
             observations,
@@ -33,9 +33,10 @@ class CaptureUnitTests(unittest.TestCase):
             provider_series_id="145.3_INGNACUAL_DICI_M_38",
         ).decode()
         self.assertIn(
-            "2026-02-01,2.4,series.test,145.3_INGNACUAL_DICI_M_38",
+            "2026-02-01,0.024,series.test,145.3_INGNACUAL_DICI_M_38",
             normalized,
         )
+        self.assertNotIn("2.4,series.test", normalized)
 
     def test_duplicate_dates_are_rejected(self):
         payload = (
