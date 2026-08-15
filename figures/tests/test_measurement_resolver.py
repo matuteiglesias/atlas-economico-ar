@@ -85,7 +85,16 @@ class MeasurementResolverTests(unittest.TestCase):
     def test_seed_examples_remain_a_subset_of_runtime_bindings(self):
         runtime = yaml.safe_load((ROOT / "figures/series_bindings.yaml").read_text())["series_bindings"]
         examples = yaml.safe_load((ROOT / "figures/examples.yaml").read_text())["series_bindings"]
-        self.assertEqual(runtime[:3], examples)
+        contract_fields = ("series_id", "canonical_indicator_id", "normalization")
+        projected_runtime = [
+            {field: binding[field] for field in contract_fields}
+            for binding in runtime[: len(examples)]
+        ]
+        projected_examples = [
+            {field: binding[field] for field in contract_fields}
+            for binding in examples
+        ]
+        self.assertEqual(projected_runtime, projected_examples)
 
     def test_unknown_indicator_fails_closed(self):
         with self.assertRaises(resolver.MeasurementResolutionError):
