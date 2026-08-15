@@ -24,7 +24,7 @@ The development server is available at `http://localhost:3000`. Changes to `site
 pnpm check
 ```
 
-This verifies the compiled data contract, runs ESLint and TypeScript, creates the production static export, and confirms that all 145 public routes exist. The deployable output is written to `web/out/` and can be hosted by any static-file server.
+This verifies the compiled data contract, runs ESLint and TypeScript, creates the production static export, and confirms that all 279 public routes exist. The deployable output is written to `web/out/` and can be hosted by any static-file server.
 
 Individual commands are also available:
 
