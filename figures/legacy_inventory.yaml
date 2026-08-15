@@ -1,0 +1,18 @@
+schema_version: '0.2'
+legacy_chart_specs:
+  - path: verticals/nominal_stabilization_vertical_v0_1/knowledge/chart_specs.yaml
+    status: candidate_inventory
+    source_version: '0.1'
+    migration_policy: selective_on_real_figure
+
+  - path: verticals/external_financial_constraint_vertical_v0_2/knowledge/chart_specs.yaml
+    status: candidate_inventory
+    source_version: '0.2'
+    migration_policy: selective_on_real_figure
+
+rules:
+  - legacy_specs_are_not_v0_2_runtime_contracts
+  - do_not_mass_migrate
+  - inspect_candidate_only_when_plot_becomes_measurement_ready
+  - preserve_plot_intent_identity_when_migrating
+  - add_renderer_capability_only_for_a_real_approved_figure

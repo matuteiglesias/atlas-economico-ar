@@ -1,0 +1,42 @@
+schema_version: '0.2'
+renderers:
+  - id: timeseries_line
+    status: contract_only
+    input_shape: time_series
+    capabilities:
+      - one_or_more_series
+      - temporal_frame
+      - inline_annotations
+      - svg_output
+      - png_output
+    responsibilities:
+      - draw_resolved_canonical_values
+      - apply_visual_frame
+      - format_axes_and_labels
+    forbidden_responsibilities:
+      - network_fetch
+      - series_binding_resolution
+      - economic_transformation
+      - implicit_resampling
+      - semantic_mutation
+
+  - id: timeseries_bar
+    status: contract_only
+    input_shape: time_series
+    capabilities:
+      - one_or_more_series
+      - temporal_frame
+      - inline_annotations
+      - optional_zero_baseline
+      - svg_output
+      - png_output
+    responsibilities:
+      - draw_resolved_canonical_values
+      - apply_visual_frame
+      - format_axes_and_labels
+    forbidden_responsibilities:
+      - network_fetch
+      - series_binding_resolution
+      - economic_transformation
+      - implicit_resampling
+      - semantic_mutation
