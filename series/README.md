@@ -27,7 +27,7 @@ make validate-series
 
 `capture-seed-series` is intentionally networked. It calls only the official
 Datos Argentina `/series` endpoint, requesting provider values as CSV with
-native IDs and full provider metadata separately.
+native IDs and provider metadata separately.
 
 A successful capture writes:
 
@@ -41,9 +41,10 @@ series/
     <series>.provenance.json
 ```
 
-The raw responses are preserved byte-for-byte (apart from deterministic
-reassembly if the values endpoint requires pagination). The normalized snapshot
-contains only `date`, `value`, the Atlas technical `series_id`, and the native
+The raw provider responses are preserved byte-for-byte. The seed capture deliberately
+fails if a Series reaches the API page limit rather than merging multiple HTTP
+responses into a synthetic "raw" file. The normalized snapshot contains only
+`date`, `value`, the Atlas technical `series_id`, and the native
 `provider_series_id`. No percent changes, rebasing, unit conversion, collapsing,
 or other economic transformation is performed.
 
