@@ -131,6 +131,10 @@ def generated_at() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00', 'Z')
 
 
+def human_month(iso_date: str) -> str:
+    return datetime.strptime(iso_date, '%Y-%m-%d').strftime('%b %Y')
+
+
 def apply_publication_style(ax) -> None:
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
@@ -144,7 +148,16 @@ def draw_annotations(ax, annotations: list[dict[str, Any]]) -> None:
         when = date.fromisoformat(ann['date'])
         ax.axvline(when, linewidth=1.0, alpha=0.55, linestyle='--')
         ymax = ax.get_ylim()[1]
-        ax.text(when, ymax, ann['label'], rotation=90, va='top', ha='right', fontsize=9, alpha=0.75)
+        ax.annotate(
+            ann['label'],
+            xy=(when, ymax),
+            xytext=(6, -6),
+            textcoords='offset points',
+            ha='left',
+            va='top',
+            fontsize=9,
+            alpha=0.75,
+        )
 
 
 def render_figure(*, spec: dict[str, Any], intent: dict[str, Any], measurement: ResolvedMeasurement, frame: dict[str, Any], output_root: Path, stamp: str) -> dict[str, Any]:
@@ -174,16 +187,20 @@ def render_figure(*, spec: dict[str, Any], intent: dict[str, Any], measurement: 
     if annotations:
         draw_annotations(ax, annotations)
 
+    unit_label = UNIT_LABELS.get(
+        measurement.unit_semantics,
+        measurement.unit_semantics.replace('_', ' '),
+    )
     ax.xaxis.set_major_locator(mdates.YearLocator())
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
     ax.margins(x=0.015)
-    ax.set_ylabel(UNIT_LABELS.get(measurement.unit_semantics, measurement.unit_semantics.replace('_', ' ')))
+    ax.set_ylabel(unit_label)
 
     fig.suptitle(intent['title'], x=0.09, y=0.96, ha='left', fontsize=18, fontweight='bold')
-    fig.text(0.09, 0.90, intent.get('purpose', ''), ha='left', fontsize=10.5, alpha=0.8)
+    fig.text(0.09, 0.90, f"{frame['label']} · {unit_label}", ha='left', fontsize=10.5, alpha=0.8)
     source_name = 'Datos Argentina' if measurement.provider == 'datos_argentina' else measurement.provider
     stale = ' · source snapshot flagged stale' if measurement.freshness_state != 'fresh' else ''
-    footer = f'Source: {source_name} · {measurement.provider_series_id} · data through {measurement.data_as_of}{stale}'
+    footer = f'Source: {source_name} · data through {human_month(measurement.data_as_of)}{stale}'
     fig.text(0.09, 0.035, footer, ha='left', fontsize=8.5, alpha=0.72)
     fig.subplots_adjust(left=0.09, right=0.97, top=0.83, bottom=0.12)
 
@@ -244,23 +261,39 @@ def materialize(output_root: Path = DEFAULT_OUTPUT) -> list[dict[str, Any]]:
         frame = frames.get(spec['frame_id'])
         if frame is None:
             raise MaterializationError(f"unknown ReferenceFrame {spec['frame_id']}")
-        artifacts.append(render_figure(spec=spec, intent=intent, measurement=measurement, frame=frame, output_root=output_root, stamp=stamp))
+        artifacts.append(
+            render_figure(
+                spec=spec,
+                intent=intent,
+                measurement=measurement,
+                frame=frame,
+                output_root=output_root,
+                stamp=stamp,
+            )
+        )
 
     if len(artifacts) != 3:
         raise MaterializationError(f'Phase 3 freeze requires exactly three artifacts, found {len(artifacts)}')
     manifest = {'schema_version': '0.2', 'artifact_count': 3, 'artifacts': artifacts}
     output_root.mkdir(parents=True, exist_ok=True)
-    (output_root / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    (output_root / 'manifest.json').write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+    )
     return artifacts
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description='Materialize the three Figure Kernel v0.2 seed figures offline.')
+    parser = argparse.ArgumentParser(
+        description='Materialize the three Figure Kernel v0.2 seed figures offline.'
+    )
     parser.add_argument('--output-root', type=Path, default=DEFAULT_OUTPUT)
     args = parser.parse_args()
     artifacts = materialize(args.output_root)
     for artifact in artifacts:
-        print(f"{artifact['plot_intent_id']} -> {artifact['outputs']['svg']} / {artifact['outputs']['png']}")
+        print(
+            f"{artifact['plot_intent_id']} -> "
+            f"{artifact['outputs']['svg']} / {artifact['outputs']['png']}"
+        )
     print(f'PASS: materialized {len(artifacts)} real PlotArtifacts.')
     return 0
 
