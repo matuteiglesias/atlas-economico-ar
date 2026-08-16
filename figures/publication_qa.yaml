@@ -1,0 +1,27 @@
+schema_version: '0.1'
+default_status: publish
+reviews:
+  - plot_intent_id: pi.ns31
+    status: historical
+    note: Valid historical comparison only. The BCRA policy-rate input ends on 2025-07-10 and must not be presented as evidence of the current policy stance.
+
+  - plot_intent_id: pi.ns63
+    status: historical
+    note: Valid policy-rate history through 2025-07-10; retain as historical evidence rather than a current-state chart.
+
+  - plot_intent_id: pi.ns64
+    status: quarantine
+    note: Five-year nominal ARS bank reserve balances are dominated by nominal price-level drift and are weak as a primary analytical figure.
+
+  - plot_intent_id: pi.ns58
+    status: quarantine
+    note: Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the common-base real-index comparison for analytical publication.
+    preferred_plot_intent_id: pi.ns41
+
+  - plot_intent_id: pi.ns59
+    status: quarantine
+    note: Daily USD FX-purchase flows against the ARS monetary-base stock are not matched economic quantities and invite misleading same-day co-movement reading.
+
+  - plot_intent_id: pi.ef49
+    status: quarantine
+    note: Daily FX-purchase flows against the gross-reserves stock create a flow-stock mismatch; a future replacement should compare matched cumulative or period-change quantities.
