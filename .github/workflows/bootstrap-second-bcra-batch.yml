@@ -31,7 +31,11 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Stage second-batch production changes
-        run: python scripts/bootstrap_second_bcra_batch.py
+        run: |
+          python scripts/bootstrap_second_bcra_batch.py
+          # append_once strips indentation from the first payload line; repair
+          # the one list marker that lives under reference_frames:.
+          sed -i 's/^- id: rf.policy_rate_2023_12_to_2025_07/  - id: rf.policy_rate_2023_12_to_2025_07/' figures/reference_frames.yaml
 
       - name: Capture six authentic BCRA Series
         run: |
