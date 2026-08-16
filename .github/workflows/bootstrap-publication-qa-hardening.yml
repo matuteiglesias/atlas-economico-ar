@@ -1,0 +1,255 @@
+name: Bootstrap publication QA hardening
+
+on:
+  push:
+    branches:
+      - feature/publication-qa-hardening-v0-1
+
+permissions:
+  contents: write
+
+jobs:
+  harden:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: feature/publication-qa-hardening-v0-1
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install 'PyYAML>=6.0,<7' 'matplotlib>=3.8,<4'
+      - uses: pnpm/action-setup@v4
+        with: {version: 10.28.1}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+      - working-directory: web
+        run: pnpm install --frozen-lockfile
+
+      - name: Apply bounded publication-QA changes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          ROOT = Path('.')
+
+          def replace_once(rel, old, new):
+              path = ROOT / rel
+              text = path.read_text(encoding='utf-8')
+              if new in text:
+                  return
+              if old not in text:
+                  raise SystemExit(f'{rel}: replacement anchor not found')
+              path.write_text(text.replace(old, new, 1), encoding='utf-8')
+
+          # 1) Editorial frame: inflation momentum is a stabilization-regime figure.
+          replace_once(
+              'figures/specs/bcra_batch_v0_2.yaml',
+              '  - {id: cs.bcra2.inflation_momentum, plot_intent_id: pi.ns01, renderer: timeseries_line, frame_id: rf.last_5y}\n',
+              '  - {id: cs.bcra2.inflation_momentum, plot_intent_id: pi.ns01, renderer: timeseries_line, frame_id: rf.since_dec_2023}\n',
+          )
+
+          # 2) Policy-rate history is a true step process, without adding a renderer primitive.
+          replace_once(
+              'figures/specs/bcra_batch_v0_2.yaml',
+              '  - {id: cs.bcra2.policy_rate, plot_intent_id: pi.ns63, renderer: timeseries_line, frame_id: rf.policy_rate_2023_12_to_2025_07}\n',
+              '  - {id: cs.bcra2.policy_rate, plot_intent_id: pi.ns63, renderer: timeseries_line, frame_id: rf.policy_rate_2023_12_to_2025_07, overrides: {step: true}}\n',
+          )
+          replace_once(
+              'figures/validate_contract.py',
+              '    require(set(overrides) <= {"zero_baseline"}, f"{source}: only zero_baseline override exists in v0.2")\n    if "zero_baseline" in overrides:\n        require(isinstance(overrides["zero_baseline"], bool), f"{source}: zero_baseline must be boolean")\n',
+              '    require(set(overrides) <= {"zero_baseline", "step"}, f"{source}: only zero_baseline/step overrides exist in v0.2")\n    if "zero_baseline" in overrides:\n        require(isinstance(overrides["zero_baseline"], bool), f"{source}: zero_baseline must be boolean")\n    if "step" in overrides:\n        require(isinstance(overrides["step"], bool), f"{source}: step must be boolean")\n        require(spec["renderer"] == "timeseries_line", f"{source}: step is only valid for timeseries_line")\n',
+          )
+          replace_once(
+              'figures/materialize.py',
+              '        for index, (measurement, dates, values, _, family) in enumerate(prepared):\n            kwargs = {"color": series_color(index)} if palette else {}\n            (line,) = axes[family].plot(\n                dates, values, linewidth=2.0, label=measurement.indicator_label, **kwargs\n            )\n',
+              '        for index, (measurement, dates, values, _, family) in enumerate(prepared):\n            kwargs = {"color": series_color(index)} if palette else {}\n            if spec.get("overrides", {}).get("step"):\n                kwargs["drawstyle"] = "steps-post"\n            (line,) = axes[family].plot(\n                dates, values, linewidth=2.0, label=measurement.indicator_label, **kwargs\n            )\n',
+          )
+          replace_once(
+              'figures/renderers.yaml',
+              '      - inline_annotations\n      - svg_output\n',
+              '      - inline_annotations\n      - optional_step_geometry\n      - svg_output\n',
+          )
+          replace_once(
+              'figures/CONTRACT.md',
+              'The initial supported override is intentionally tiny:\n\n```yaml\noverrides:\n  zero_baseline: true\n```\n',
+              'The supported overrides remain intentionally tiny:\n\n```yaml\noverrides:\n  zero_baseline: true\n  step: false\n```\n\n`step: true` is valid only for `timeseries_line` and requests step-post geometry for a genuinely discrete setting process such as a policy-rate history. It does not create a new renderer primitive or alter the measurement.\n',
+          )
+
+          # 3) Kernel tests freeze the human-QA frame and geometry decisions.
+          replace_once(
+              'figures/kernel_tests/test_materializer.py',
+              '        for index, spec in enumerate(specs):\n            validate_contract.validate_chart_spec(\n                spec, frame_ids, renderer_ids, f"active.chart_specs[{index}]"\n            )\n',
+              '        for index, spec in enumerate(specs):\n            validate_contract.validate_chart_spec(\n                spec, frame_ids, renderer_ids, f"active.chart_specs[{index}]"\n            )\n        by_intent = {spec["plot_intent_id"]: spec for spec in specs}\n        self.assertEqual(by_intent["pi.ns01"]["frame_id"], "rf.since_dec_2023")\n        self.assertTrue(by_intent["pi.ns63"]["overrides"]["step"])\n',
+          )
+
+          # 4) Publication compiler joins the editorial overlay after materialization.
+          replace_once(
+              'scripts/build-publication.py',
+              'ARTIFACT_MANIFEST = ROOT / "plot-artifacts/manifest.json"\nPUBLICATION_SCHEMA_VERSION = "0.2"\nEXPECTED_CHARTS = 115\nEXPECTED_INDICATORS = 83\nEXPECTED_ARTIFACTS = 35\n',
+              'ARTIFACT_MANIFEST = ROOT / "plot-artifacts/manifest.json"\nPUBLICATION_QA = ROOT / "figures/publication_qa.yaml"\nPUBLICATION_SCHEMA_VERSION = "0.2"\nEXPECTED_CHARTS = 115\nEXPECTED_INDICATORS = 83\nEXPECTED_ARTIFACTS = 35\nEXPECTED_PROMINENT_ARTIFACTS = 31\nEXPECTED_QUARANTINED_ARTIFACTS = 4\nEXPECTED_HISTORICAL_ARTIFACTS = 2\n',
+          )
+          replace_once(
+              'scripts/build-publication.py',
+              'def public_artifact(artifact: dict[str, Any]) -> dict[str, Any]:\n',
+              'def load_publication_qa(path: Path) -> dict[str, dict[str, Any]]:\n    doc = load_yaml(path) or {}\n    if str(doc.get("schema_version")) != "0.1" or doc.get("default_status") != "publish":\n        raise PublicationError("publication QA policy contract mismatch")\n    reviews = doc.get("reviews")\n    if not isinstance(reviews, list):\n        raise PublicationError("publication QA reviews must be a list")\n    result: dict[str, dict[str, Any]] = {}\n    for review in reviews:\n        pid = review.get("plot_intent_id") if isinstance(review, dict) else None\n        if not isinstance(pid, str) or pid in result:\n            raise PublicationError(f"invalid/duplicate publication QA review: {pid!r}")\n        result[pid] = review\n    return result\n\n\ndef public_artifact(artifact: dict[str, Any], review: dict[str, Any] | None = None) -> dict[str, Any]:\n',
+          )
+          replace_once(
+              'scripts/build-publication.py',
+              '    return public\n\n\ndef load_artifacts(path: Path) -> dict[str, dict[str, Any]]:\n    doc = json.loads(path.read_text(encoding="utf-8"))\n',
+              '    if review is not None:\n        public["publicationStatus"] = review["status"]\n        public["qaNote"] = review["note"]\n        if review.get("preferred_plot_intent_id"):\n            public["preferredPlotIntentId"] = review["preferred_plot_intent_id"]\n    return public\n\n\ndef load_artifacts(path: Path) -> dict[str, dict[str, Any]]:\n    doc = json.loads(path.read_text(encoding="utf-8"))\n    qa = load_publication_qa(PUBLICATION_QA)\n',
+          )
+          replace_once(
+              'scripts/build-publication.py',
+              '        result[pid] = public_artifact(artifact)\n    return result\n',
+              '        result[pid] = public_artifact(artifact, qa.get(pid))\n    missing_reviews = sorted(set(qa) - set(result))\n    if missing_reviews:\n        raise PublicationError(f"publication QA reviews lack PlotArtifacts: {missing_reviews}")\n    return result\n',
+          )
+          replace_once(
+              'scripts/build-publication.py',
+              '    manifest_path = out / "manifest.json"\n    manifest = json.loads(manifest_path.read_text())\n    manifest["publicationSchemaVersion"] = PUBLICATION_SCHEMA_VERSION\n    manifest["plotArtifacts"] = len(artifacts)\n    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n")\n\n    stats_path = out / "stats.json"\n    stats = json.loads(stats_path.read_text())\n    stats["plot_artifacts"] = len(artifacts)\n    stats_path.write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\\n")\n',
+              '    quarantined = sum(artifact.get("publicationStatus") == "quarantine" for artifact in artifacts.values())\n    historical = sum(artifact.get("publicationStatus") == "historical" for artifact in artifacts.values())\n    prominent = len(artifacts) - quarantined\n\n    manifest_path = out / "manifest.json"\n    manifest = json.loads(manifest_path.read_text())\n    manifest["publicationSchemaVersion"] = PUBLICATION_SCHEMA_VERSION\n    manifest["plotArtifacts"] = len(artifacts)\n    manifest["prominentPlotArtifacts"] = prominent\n    manifest["quarantinedPlotArtifacts"] = quarantined\n    manifest["historicalPlotArtifacts"] = historical\n    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\\n")\n\n    stats_path = out / "stats.json"\n    stats = json.loads(stats_path.read_text())\n    stats["plot_artifacts"] = len(artifacts)\n    stats["prominent_plot_artifacts"] = prominent\n    stats["quarantined_plot_artifacts"] = quarantined\n    stats["historical_plot_artifacts"] = historical\n    stats_path.write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\\n")\n',
+          )
+          replace_once(
+              'scripts/build-publication.py',
+              '    if stats["plot_artifacts"] != EXPECTED_ARTIFACTS:\n        raise PublicationError("PlotArtifact count mismatch")\n',
+              '    if stats["plot_artifacts"] != EXPECTED_ARTIFACTS:\n        raise PublicationError("PlotArtifact count mismatch")\n    if stats["prominent_plot_artifacts"] != EXPECTED_PROMINENT_ARTIFACTS:\n        raise PublicationError("prominent PlotArtifact count mismatch")\n    if stats["quarantined_plot_artifacts"] != EXPECTED_QUARANTINED_ARTIFACTS:\n        raise PublicationError("quarantined PlotArtifact count mismatch")\n    if stats["historical_plot_artifacts"] != EXPECTED_HISTORICAL_ARTIFACTS:\n        raise PublicationError("historical PlotArtifact count mismatch")\n',
+          )
+          replace_once(
+              'scripts/build-publication.py',
+              '        f"{stats[\'counts\'][\'indicator\']} indicators, {stats[\'plot_artifacts\']} PlotArtifacts)"\n',
+              '        f"{stats[\'counts\'][\'indicator\']} indicators, {stats[\'plot_artifacts\']} PlotArtifacts; "\n        f"{stats[\'prominent_plot_artifacts\']} prominent / {stats[\'quarantined_plot_artifacts\']} quarantined)"\n',
+          )
+
+          # 5) Frontend knows publication status but remains a static consumer.
+          replace_once(
+              'web/src/lib/types.ts',
+              '  freshnessState: string;\n  indicatorIds: string[];\n',
+              '  freshnessState: string;\n  publicationStatus?: "historical" | "quarantine";\n  qaNote?: string;\n  preferredPlotIntentId?: string;\n  indicatorIds: string[];\n',
+          )
+          replace_once(
+              'web/src/components/charts.tsx',
+              'export function GenericChartPlaceholder() { return <div className="generic-chart"><span /><span /><span /><span /></div>; }\n\nexport function ChartPreview',
+              'export function GenericChartPlaceholder() { return <div className="generic-chart"><span /><span /><span /><span /></div>; }\n\nexport function isProminentChart(item: EntityLink) {\n  return item.artifact?.publicationStatus !== "quarantine";\n}\n\nexport function ChartPreview',
+          )
+          replace_once(
+              'web/src/components/charts.tsx',
+              'function artifactCaption(artifact: PlotArtifactRef) {\n  const stale = artifact.freshnessState === "stale_warning" ? " · stale source snapshot" : "";\n  return `Data through ${artifact.dataAsOf}${stale}`;\n}\n',
+              'function artifactCaption(artifact: PlotArtifactRef) {\n  if (artifact.publicationStatus === "quarantine") {\n    return `Editorial QA: quarantined${artifact.qaNote ? ` · ${artifact.qaNote}` : ""}`;\n  }\n  const stale = artifact.freshnessState === "stale_warning" ? " · stale source snapshot" : "";\n  const historical = artifact.publicationStatus === "historical" ? "Historical evidence · " : "";\n  return `${historical}Data through ${artifact.dataAsOf}${stale}`;\n}\n',
+          )
+          replace_once(
+              'web/src/components/entity-page.tsx',
+              'import { ChartCard } from "./charts";\n',
+              'import { ChartCard, isProminentChart } from "./charts";\n',
+          )
+          replace_once(
+              'web/src/components/entity-page.tsx',
+              '  const charts = page.charts ?? [];\n  const groups =',
+              '  const charts = page.charts ?? [];\n  const prominentCharts = charts.filter(isProminentChart);\n  const groups =',
+          )
+          replace_once(
+              'web/src/components/entity-page.tsx',
+              'charts.slice(0, 3).map((chart)',
+              'prominentCharts.slice(0, 3).map((chart)',
+          )
+          # Same source expression appears twice; patch the remaining indicator occurrence.
+          replace_once(
+              'web/src/components/entity-page.tsx',
+              'charts.slice(0, 3).map((chart)',
+              'prominentCharts.slice(0, 3).map((chart)',
+          )
+          replace_once(
+              'web/src/app/topics/[slug]/page.tsx',
+              'import { ChartCard } from "@/components/charts";\n',
+              'import { ChartCard, isProminentChart } from "@/components/charts";\n',
+          )
+          replace_once(
+              'web/src/app/topics/[slug]/page.tsx',
+              '  const navigation = await getNavigation();\n  const charts = slug === "inflation" ? featuredCharts : topic.charts.slice(0, 3);\n',
+              '  const navigation = await getNavigation();\n  const prominentCharts = topic.charts.filter(isProminentChart);\n  const charts = slug === "inflation" ? featuredCharts : prominentCharts.slice(0, 3);\n',
+          )
+          replace_once(
+              'web/src/app/topics/[slug]/page.tsx',
+              '<Section id="charts" title="See it in the data" count={topic.charts.length}>',
+              '<Section id="charts" title="See it in the data" count={prominentCharts.length}>',
+          )
+          replace_once(
+              'web/src/app/areas/[slug]/page.tsx',
+              'import { ChartCard } from "@/components/charts";\n',
+              'import { ChartCard, isProminentChart } from "@/components/charts";\n',
+          )
+          replace_once(
+              'web/src/app/areas/[slug]/page.tsx',
+              '  const { slug } = await params; const area = await getRegion(slug).catch(() => notFound()); const navigation = await getNavigation();\n',
+              '  const { slug } = await params; const area = await getRegion(slug).catch(() => notFound()); const navigation = await getNavigation();\n  const prominentCharts = area.charts.filter(isProminentChart);\n',
+          )
+          replace_once(
+              'web/src/app/areas/[slug]/page.tsx',
+              'area.charts.slice(0, 3).map((chart)',
+              'prominentCharts.slice(0, 3).map((chart)',
+          )
+          replace_once(
+              'web/src/app/page.tsx',
+              'import { ChartCard } from "@/components/charts";\n',
+              'import { ChartCard, isProminentChart } from "@/components/charts";\n',
+          )
+          replace_once(
+              'web/src/app/page.tsx',
+              '  const navigation = await getNavigation(); const area = await getRegion("nominal-stabilization");\n',
+              '  const navigation = await getNavigation(); const area = await getRegion("nominal-stabilization"); const prominentCharts = area.charts.filter(isProminentChart);\n',
+          )
+          replace_once(
+              'web/src/app/page.tsx',
+              'area.charts.slice(0, 3).map((chart)',
+              'prominentCharts.slice(0, 3).map((chart)',
+          )
+          PY
+
+      - name: Validate QA policy, measurement semantics and figure contract
+        run: |
+          python figures/validate_publication_qa.py
+          python figures/validate_contract.py
+          python -m unittest discover -s series/tests -p 'test_*.py'
+          python -m unittest discover -s figures/tests -p 'test_*.py'
+          python -m unittest discover -s figures/kernel_tests -p 'test_*.py'
+
+      - name: Build complete hardened Atlas
+        env: {SOURCE_DATE_EPOCH: '1786828800'}
+        run: make build-atlas
+
+      - name: Verify publication-QA closure
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          stats = json.loads(Path('site-data/stats.json').read_text())
+          manifest = json.loads(Path('site-data/manifest.json').read_text())
+          assert stats['plot_artifacts'] == 35, stats
+          assert stats['prominent_plot_artifacts'] == 31, stats
+          assert stats['quarantined_plot_artifacts'] == 4, stats
+          assert stats['historical_plot_artifacts'] == 2, stats
+          assert manifest['prominentPlotArtifacts'] == 31, manifest
+          charts = {}
+          for path in Path('site-data/charts').glob('*.json'):
+              item = json.loads(path.read_text())
+              charts[item['id']] = item
+          assert charts['pi.ns58']['artifact']['publicationStatus'] == 'quarantine'
+          assert charts['pi.ns64']['artifact']['publicationStatus'] == 'quarantine'
+          assert charts['pi.ns59']['artifact']['publicationStatus'] == 'quarantine'
+          assert charts['pi.ef49']['artifact']['publicationStatus'] == 'quarantine'
+          assert charts['pi.ns31']['artifact']['publicationStatus'] == 'historical'
+          assert charts['pi.ns63']['artifact']['publicationStatus'] == 'historical'
+          assert charts['pi.ns01']['artifact']['frameId'] == 'rf.since_dec_2023'
+          print('PASS: 31 prominent, 4 quarantined, 2 historical; QA frame/geometry contract active')
+          PY
+
+      - name: Persist production hardening and regenerated outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- . ':(exclude).github/workflows/bootstrap-publication-qa-hardening.yml'
+          git commit -m "Apply first human publication QA hardening pass"
+          git push origin HEAD:feature/publication-qa-hardening-v0-1
