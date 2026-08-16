@@ -57,13 +57,13 @@ jobs:
           stats = json.loads(Path('site-data/stats.json').read_text())
           manifest = json.loads(Path('site-data/manifest.json').read_text())
           assert stats['counts']['indicator'] == 83, stats
-          assert stats['counts']['chart'] == 109, stats
-          assert stats['graph']['nodes'] == 291, stats
-          assert stats['plot_artifacts'] == 25, stats
-          assert manifest['plotArtifacts'] == 25, manifest
-          assert len(list(Path('web/public/plots').glob('*.svg'))) == 25
-          assert len(list(Path('web/public/plots').glob('*.png'))) == 25
-          print('PASS: 109 charts, 83 indicators, 25 PlotArtifacts')
+          assert stats['counts']['chart'] == 115, stats
+          assert stats['graph']['nodes'] == 297, stats
+          assert stats['plot_artifacts'] == 35, stats
+          assert manifest['plotArtifacts'] == 35, manifest
+          assert len(list(Path('web/public/plots').glob('*.svg'))) == 35
+          assert len(list(Path('web/public/plots').glob('*.png'))) == 35
+          print('PASS: 115 charts, 83 indicators, 35 PlotArtifacts')
           PY
       - uses: actions/upload-artifact@v4
         with:
