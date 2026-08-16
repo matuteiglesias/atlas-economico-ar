@@ -1,0 +1,75 @@
+name: Harden framed figure data-as-of semantics
+
+on:
+  push:
+    branches:
+      - feature/bcra-second-six-series-expansion
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: feature/bcra-second-six-series-expansion
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: python -m pip install 'PyYAML>=6.0,<7' 'matplotlib>=3.8,<4'
+      - uses: pnpm/action-setup@v4
+        with: {version: 10.28.1}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+      - working-directory: web
+        run: pnpm install --frozen-lockfile
+
+      - name: Apply generic visible-data cutoff fix
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('figures/materialize.py')
+          text = path.read_text()
+          old = '    data_as_of = max(m.data_as_of for m in measurements)\n'
+          new = (
+              '    # Publication data_as_of describes the observations actually visible in the figure,\n'
+              '    # not the newest underlying snapshot. This matters for fixed historical frames.\n'
+              '    data_as_of = max(max(dates) for _, dates, _, _, _ in prepared).isoformat()\n'
+          )
+          if old not in text:
+              raise SystemExit('materialize.py data_as_of anchor not found')
+          path.write_text(text.replace(old, new, 1))
+
+          test = Path('figures/kernel_tests/test_materializer.py')
+          text = test.read_text()
+          anchor = '            for artifact in artifacts:\n                validate_contract.validate_plot_artifact(artifact, frame_ids)\n'
+          replacement = anchor + (
+              '\n            by_intent = {artifact["plot_intent_id"]: artifact for artifact in artifacts}\n'
+              '            self.assertEqual(by_intent["pi.ns31"]["data_as_of"], "2025-07-10")\n'
+              '            self.assertEqual(by_intent["pi.ns63"]["data_as_of"], "2025-07-10")\n'
+          )
+          if anchor not in text:
+              raise SystemExit('materializer test anchor not found')
+          test.write_text(text.replace(anchor, replacement, 1))
+          PY
+
+      - name: Verify figure kernel and full publication
+        env: {SOURCE_DATE_EPOCH: '1786828800'}
+        run: |
+          python -m unittest discover -s figures/kernel_tests -p 'test_*.py'
+          make build-atlas
+
+      - name: Persist generic fix and regenerated publication
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- . ':(exclude).github/workflows/**'
+          git commit -m "Report data-as-of from visible figure observations"
+          git push origin HEAD:feature/bcra-second-six-series-expansion
