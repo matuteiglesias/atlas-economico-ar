@@ -7,6 +7,13 @@ reference_frames:
       lookback: P12M
       end: latest
 
+  - id: rf.last_18m
+    label: Last 18 months
+    kind: relative
+    window:
+      lookback: P18M
+      end: latest
+
   - id: rf.last_5y
     label: Last 5 years
     kind: relative
