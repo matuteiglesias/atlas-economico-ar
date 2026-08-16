@@ -53,6 +53,10 @@ class FigureKernelTests(unittest.TestCase):
             for artifact in artifacts:
                 validate_contract.validate_plot_artifact(artifact, frame_ids)
 
+            by_intent = {artifact["plot_intent_id"]: artifact for artifact in artifacts}
+            self.assertEqual(by_intent["pi.ns31"]["data_as_of"], "2025-07-10")
+            self.assertEqual(by_intent["pi.ns63"]["data_as_of"], "2025-07-10")
+
 
 if __name__ == "__main__":
     unittest.main()

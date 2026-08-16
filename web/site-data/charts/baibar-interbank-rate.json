@@ -170,11 +170,11 @@
         "chartSpecId": "cs.bcra2.policy_vs_baibar",
         "frameId": "rf.policy_rate_2023_12_to_2025_07",
         "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-13",
+        "dataAsOf": "2025-07-10",
         "generatedAt": "2026-08-15T21:20:00Z",
         "svg": "/plots/policy-relevant-rate-vs-money-market-rate.svg",
         "png": "/plots/policy-relevant-rate-vs-money-market-rate.png",
-        "altText": "Policy-relevant rate vs money-market rate. Nominal policy-relevant rate; Short money-market rate. Dec 2023–Jul 2025 policy-rate window. Data through 2026-08-13. At least one source snapshot is flagged stale.",
+        "altText": "Policy-relevant rate vs money-market rate. Nominal policy-relevant rate; Short money-market rate. Dec 2023–Jul 2025 policy-rate window. Data through 2025-07-10. At least one source snapshot is flagged stale.",
         "freshnessState": "stale_warning",
         "indicatorIds": [
           "ci.ns.policy_rate_nominal",

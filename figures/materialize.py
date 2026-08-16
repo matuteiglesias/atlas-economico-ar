@@ -283,7 +283,9 @@ def render_figure(
     unit_summary = " · ".join(dict.fromkeys(label for _, _, _, label, _ in prepared))
     fig.text(0.09, 0.90, f"{frame['label']} · {unit_summary}", ha="left", fontsize=10.2, alpha=0.8)
     providers = sorted({source["provider"] for m in measurements for source in m.sources})
-    data_as_of = max(m.data_as_of for m in measurements)
+    # Publication data_as_of describes the observations actually visible in the figure,
+    # not the newest underlying snapshot. This matters for fixed historical frames.
+    data_as_of = max(max(dates) for _, dates, _, _, _ in prepared).isoformat()
     stale = any(m.freshness_state != "fresh" for m in measurements)
     source_name = ", ".join("BCRA" if p == "bcra_monetarias_v4" else "Datos Argentina" if p == "datos_argentina" else p for p in providers)
     footer = f"Source: {source_name} · data through {human_date(data_as_of)}"
