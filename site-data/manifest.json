@@ -21,5 +21,8 @@
   "editorialGaps": 234,
   "seriesBindingsRequired": 82,
   "publicationSchemaVersion": "0.2",
-  "plotArtifacts": 35
+  "plotArtifacts": 35,
+  "prominentPlotArtifacts": 31,
+  "quarantinedPlotArtifacts": 4,
+  "historicalPlotArtifacts": 2
 }

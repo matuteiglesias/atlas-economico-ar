@@ -101,7 +101,9 @@
             },
             "snapshotSha256": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
           }
-        ]
+        ],
+        "publicationStatus": "historical",
+        "qaNote": "Valid historical comparison only. The BCRA policy-rate input ends on 2025-07-10 and must not be presented as evidence of the current policy stance."
       }
     },
     {
@@ -299,7 +301,9 @@
             },
             "snapshotSha256": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
           }
-        ]
+        ],
+        "publicationStatus": "historical",
+        "qaNote": "Valid historical comparison only. The BCRA policy-rate input ends on 2025-07-10 and must not be presented as evidence of the current policy stance."
       }
     },
     {

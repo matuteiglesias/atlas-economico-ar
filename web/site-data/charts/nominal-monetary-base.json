@@ -172,7 +172,9 @@
             },
             "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "Daily USD FX-purchase flows against the ARS monetary-base stock are not matched economic quantities and invite misleading same-day co-movement reading."
       }
     },
     {

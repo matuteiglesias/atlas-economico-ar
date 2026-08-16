@@ -19,6 +19,9 @@ export interface PlotArtifactRef {
   png: string;
   altText: string;
   freshnessState: string;
+  publicationStatus?: "historical" | "quarantine";
+  qaNote?: string;
+  preferredPlotIntentId?: string;
   indicatorIds: string[];
   seriesIds: string[];
   snapshotSha256: Record<string, string>;

@@ -257,13 +257,13 @@
   },
   "artifact": {
     "chartSpecId": "cs.bcra2.inflation_momentum",
-    "frameId": "rf.last_5y",
+    "frameId": "rf.last_18m",
     "renderer": "timeseries_line",
     "dataAsOf": "2026-07-01",
     "generatedAt": "2026-08-15T21:20:00Z",
     "svg": "/plots/inflation-momentum-monthly-and-3-month-annualized.svg",
     "png": "/plots/inflation-momentum-monthly-and-3-month-annualized.png",
-    "altText": "Inflation momentum: monthly and 3-month annualized. Monthly headline CPI inflation; Headline CPI, 3-month annualized. Last 5 years. Data through 2026-07-01.",
+    "altText": "Inflation momentum: monthly and 3-month annualized. Monthly headline CPI inflation; Headline CPI, 3-month annualized. Last 18 months. Data through 2026-07-01.",
     "freshnessState": "fresh",
     "indicatorIds": [
       "ci.ns.cpi_monthly",

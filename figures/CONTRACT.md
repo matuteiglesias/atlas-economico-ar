@@ -201,12 +201,15 @@ annotations: []
 overrides: {}
 ```
 
-The initial supported override is intentionally tiny:
+The supported overrides remain intentionally tiny:
 
 ```yaml
 overrides:
   zero_baseline: true
+  step: false
 ```
+
+`step: true` is valid only for `timeseries_line` and requests step-post geometry for a genuinely discrete setting process such as a policy-rate history. It does not create a new renderer primitive or alter the measurement.
 
 A ChartSpec MUST NOT repeat information already owned elsewhere, including:
 

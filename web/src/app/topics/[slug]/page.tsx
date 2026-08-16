@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { ChartCard } from "@/components/charts";
+import { ChartCard, isProminentChart } from "@/components/charts";
 import { EntityHeader, QuestionRow, Section, WhyItMatters } from "@/components/content";
 import { Breadcrumbs, ContextRail, ExploreRail, SiteHeader } from "@/components/shell";
 import { getNavigation, getTopic, getTopicSlugs } from "@/lib/site-data";
@@ -26,7 +26,8 @@ export default async function Topic({ params }: { params: Promise<{ slug: string
   const { slug } = await params;
   const topic = await getTopic(slug).catch(() => notFound());
   const navigation = await getNavigation();
-  const charts = slug === "inflation" ? featuredCharts : topic.charts.slice(0, 3);
+  const prominentCharts = topic.charts.filter(isProminentChart);
+  const charts = slug === "inflation" ? featuredCharts : prominentCharts.slice(0, 3);
 
   return <><SiteHeader /><div className="page-grid">
     <ExploreRail navigation={navigation} activeRegion={topic.region.slug} />
@@ -35,7 +36,7 @@ export default async function Topic({ params }: { params: Promise<{ slug: string
       <Section id="questions" title="Questions people ask" count={topic.questions.length}>
         <div>{topic.questions.slice(0, 6).map((question) => <QuestionRow key={question.href} item={question} />)}</div>
       </Section>
-      <Section id="charts" title="See it in the data" count={topic.charts.length}>
+      <Section id="charts" title="See it in the data" count={prominentCharts.length}>
         <div className="chart-grid">{charts.map((chart) => <ChartCard key={chart.href} item={chart} />)}</div>
       </Section>
       {slug === "inflation" && <WhyItMatters />}

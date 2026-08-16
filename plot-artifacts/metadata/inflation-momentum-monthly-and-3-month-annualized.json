@@ -2,7 +2,7 @@
   "schema_version": "0.2",
   "plot_intent_id": "pi.ns01",
   "chart_spec_id": "cs.bcra2.inflation_momentum",
-  "frame_id": "rf.last_5y",
+  "frame_id": "rf.last_18m",
   "data_as_of": "2026-07-01",
   "generated_at": "2026-08-15T21:20:00Z",
   "indicator_ids": [
@@ -19,7 +19,7 @@
     "svg": "plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg",
     "png": "plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png"
   },
-  "alt_text": "Inflation momentum: monthly and 3-month annualized. Monthly headline CPI inflation; Headline CPI, 3-month annualized. Last 5 years. Data through 2026-07-01.",
+  "alt_text": "Inflation momentum: monthly and 3-month annualized. Monthly headline CPI inflation; Headline CPI, 3-month annualized. Last 18 months. Data through 2026-07-01.",
   "renderer": "timeseries_line",
   "unit_semantics": [
     "percent_mom",
