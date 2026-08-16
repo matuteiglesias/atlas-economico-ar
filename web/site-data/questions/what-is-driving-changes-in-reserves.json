@@ -59,6 +59,13 @@
   ],
   "indicators": [
     {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves"
+    },
+    {
       "id": "ci.ef.nir_change_monthly",
       "kind": "indicator",
       "slug": "monthly-change-in-nir",
@@ -85,6 +92,13 @@
       "slug": "public-sector-fx-debt-service-next-12-months",
       "title": "Public-sector FX debt service next 12 months",
       "href": "/indicators/public-sector-fx-debt-service-next-12-months"
+    },
+    {
+      "id": "ci.ef.reserve_accumulation_ytd",
+      "kind": "indicator",
+      "slug": "cumulative-reserve-accumulation-ytd",
+      "title": "Cumulative reserve accumulation YTD",
+      "href": "/indicators/cumulative-reserve-accumulation-ytd"
     },
     {
       "id": "ci.ef.reserve_change_monthly",
@@ -122,6 +136,166 @@
       "slug": "external-financing-and-debt-service-bridge",
       "title": "External financing and debt-service bridge",
       "href": "/charts/external-financing-and-debt-service-bridge"
+    },
+    {
+      "id": "pi.ef47",
+      "kind": "chart",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/charts/monthly-change-in-gross-reserves",
+      "artifact": {
+        "chartSpecId": "cs.bcra.reserve_change_monthly",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_bar",
+        "dataAsOf": "2026-08-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monthly-change-in-gross-reserves.svg",
+        "png": "/plots/monthly-change-in-gross-reserves.png",
+        "altText": "Monthly change in gross reserves. Monthly change in gross reserves. Last 5 years. Data through 2026-08-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.reserve_change_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "1",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ef48",
+      "kind": "chart",
+      "slug": "reserve-accumulation-year-to-date",
+      "title": "Reserve accumulation year to date",
+      "href": "/charts/reserve-accumulation-year-to-date",
+      "artifact": {
+        "chartSpecId": "cs.bcra.reserve_ytd",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/reserve-accumulation-year-to-date.svg",
+        "png": "/plots/reserve-accumulation-year-to-date.png",
+        "altText": "Reserve accumulation year to date. Cumulative reserve accumulation YTD. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.reserve_accumulation_ytd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "1",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ef49",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-gross-reserves",
+      "title": "BCRA FX purchases and gross reserves",
+      "href": "/charts/bcra-fx-purchases-and-gross-reserves",
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_reserves",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-fx-purchases-and-gross-reserves.svg",
+        "png": "/plots/bcra-fx-purchases-and-gross-reserves.png",
+        "altText": "BCRA FX purchases and gross reserves. BCRA net FX purchases; Gross international reserves. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ef.gross_reserves_usd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,1",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
     }
   ],
   "nearby": [
@@ -158,6 +332,69 @@
       "distance": 1
     },
     {
+      "id": "pi.ef49",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-gross-reserves",
+      "title": "BCRA FX purchases and gross reserves",
+      "href": "/charts/bcra-fx-purchases-and-gross-reserves",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_reserves",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-fx-purchases-and-gross-reserves.svg",
+        "png": "/plots/bcra-fx-purchases-and-gross-reserves.png",
+        "altText": "BCRA FX purchases and gross reserves. BCRA net FX purchases; Gross international reserves. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ef.gross_reserves_usd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,1",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ef06",
       "kind": "chart",
       "slug": "bcra-fx-purchases-versus-nir-accumulation",
@@ -174,25 +411,59 @@
       "distance": 1
     },
     {
-      "id": "pi.ef05",
+      "id": "pi.ef47",
       "kind": "chart",
-      "slug": "monthly-reserve-change-gross-versus-nir",
-      "title": "Monthly reserve change: gross versus NIR",
-      "href": "/charts/monthly-reserve-change-gross-versus-nir",
-      "distance": 1
-    },
-    {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "distance": 2
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/charts/monthly-change-in-gross-reserves",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.reserve_change_monthly",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_bar",
+        "dataAsOf": "2026-08-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monthly-change-in-gross-reserves.svg",
+        "png": "/plots/monthly-change-in-gross-reserves.png",
+        "altText": "Monthly change in gross reserves. Monthly change in gross reserves. Last 5 years. Data through 2026-08-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.reserve_change_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "1",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
     }
   ],
   "counts": {
     "topics": 4,
-    "indicators": 6,
-    "charts": 3
+    "indicators": 8,
+    "charts": 6
   }
 }

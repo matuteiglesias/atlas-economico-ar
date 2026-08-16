@@ -1,0 +1,1 @@
+{"status":200,"metadata":{"resultset":{"count":1,"offset":0,"limit":1}},"results":[{"idVariable":1,"descripcion":"BCRA's international Reserves","categoria":"Main variables","tipoSerie":"Stocks","periodicidad":"D","unidadExpresion":"Millons USD","moneda":"ME","primerFechaInformada":"1996-01-03","ultFechaInformada":"2026-08-12","ultValorInformado":49628.00000000000}]}

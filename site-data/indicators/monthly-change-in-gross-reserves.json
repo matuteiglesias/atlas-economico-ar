@@ -43,10 +43,61 @@
       "slug": "monthly-reserve-change-gross-versus-nir",
       "title": "Monthly reserve change: gross versus NIR",
       "href": "/charts/monthly-reserve-change-gross-versus-nir"
+    },
+    {
+      "id": "pi.ef47",
+      "kind": "chart",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/charts/monthly-change-in-gross-reserves",
+      "artifact": {
+        "chartSpecId": "cs.bcra.reserve_change_monthly",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_bar",
+        "dataAsOf": "2026-08-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monthly-change-in-gross-reserves.svg",
+        "png": "/plots/monthly-change-in-gross-reserves.png",
+        "altText": "Monthly change in gross reserves. Monthly change in gross reserves. Last 5 years. Data through 2026-08-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.reserve_change_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "1",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
     }
   ],
   "derivedAsInput": [],
-  "derivedAsOutput": [],
+  "derivedAsOutput": [
+    "di.ef.reserve_change_monthly_v0_2"
+  ],
   "nearby": [
     {
       "id": "ef.reserve_accumulation",
@@ -55,6 +106,56 @@
       "title": "Reserve accumulation",
       "href": "/topics/reserve-accumulation",
       "distance": 1
+    },
+    {
+      "id": "pi.ef47",
+      "kind": "chart",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/charts/monthly-change-in-gross-reserves",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.reserve_change_monthly",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_bar",
+        "dataAsOf": "2026-08-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monthly-change-in-gross-reserves.svg",
+        "png": "/plots/monthly-change-in-gross-reserves.png",
+        "altText": "Monthly change in gross reserves. Monthly change in gross reserves. Last 5 years. Data through 2026-08-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.reserve_change_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "1",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ef05",
@@ -103,19 +204,11 @@
       "title": "What is driving changes in reserves?",
       "href": "/questions/what-is-driving-changes-in-reserves",
       "distance": 2
-    },
-    {
-      "id": "q.ef09",
-      "kind": "question",
-      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "title": "Why can reserves rise while sovereign risk stays high?",
-      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "distance": 2
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 2,
     "derivedAsInput": 0,
-    "derivedAsOutput": 0
+    "derivedAsOutput": 1
   }
 }

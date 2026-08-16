@@ -1,0 +1,68 @@
+{
+  "canonical_indicator_id": "ci.ef.gross_reserves_usd",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 3,
+    "latest_observation": "2026-08-12",
+    "state": "fresh",
+    "warning_days": 10
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Main variables",
+    "currency": "ME",
+    "description": "BCRA's international Reserves",
+    "frequency": "daily",
+    "series_type": "Stocks",
+    "time_index_end": "2026-08-12",
+    "time_index_start": "1996-01-03",
+    "title": "BCRA's international Reserves",
+    "units": "Millons USD"
+  },
+  "provider_series_id": "1",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_gross_international_reserves.catalog.json",
+    "catalog_sha256": "2a8efca1a961906f54a34d3b2f245242d5765e2afcaf17356ca4d8d9190f0104",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_gross_international_reserves.methodology.json",
+    "methodology_sha256": "21fafe1234acc2754aa64b61dcf00940bb98fc5ef9094ed657a641a3bc7db9af",
+    "values_pages": [
+      {
+        "observation_rows": 3000,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_gross_international_reserves.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/1?limit=3000&offset=0",
+        "sha256": "cf7e53623828a3436f7db48b97c95083d4e1a9b3bd401c2e8bcd5d5109805c25"
+      },
+      {
+        "observation_rows": 3000,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_gross_international_reserves.values.page-0001.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/1?limit=3000&offset=3000",
+        "sha256": "ec5d38419ca2c07fa157427ba5bdc6aa97cca78745d756f37d4c52991ceef952"
+      },
+      {
+        "observation_rows": 1535,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_gross_international_reserves.values.page-0002.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/1?limit=3000&offset=6000",
+        "sha256": "688e7666e497dcdfcb87df534a989ecb3bb8fd55f38c983d5309b80dea8c717d"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=1&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/1",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/1?limit=3000&offset=0",
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/1?limit=3000&offset=3000",
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/1?limit=3000&offset=6000"
+    ]
+  },
+  "retrieved_at": "2026-08-15T23:17:37.469427Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.gross_international_reserves",
+  "snapshot": {
+    "first_observation": "1996-01-03",
+    "latest_observation": "2026-08-12",
+    "observation_rows": 7535,
+    "path": "series/snapshots/bcra/series_ar_bcra_gross_international_reserves.csv",
+    "sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+  }
+}

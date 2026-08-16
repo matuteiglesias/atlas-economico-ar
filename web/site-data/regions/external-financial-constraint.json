@@ -17,7 +17,7 @@
     "topics": 30,
     "questions": 20,
     "indicators": 40,
-    "charts": 45,
+    "charts": 49,
     "relations": 37
   },
   "topics": [
@@ -672,6 +672,68 @@
       "href": "/charts/bank-capital-and-npls"
     },
     {
+      "id": "pi.ef49",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-gross-reserves",
+      "title": "BCRA FX purchases and gross reserves",
+      "href": "/charts/bcra-fx-purchases-and-gross-reserves",
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_reserves",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-fx-purchases-and-gross-reserves.svg",
+        "png": "/plots/bcra-fx-purchases-and-gross-reserves.png",
+        "altText": "BCRA FX purchases and gross reserves. BCRA net FX purchases; Gross international reserves. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ef.gross_reserves_usd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,1",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ef42",
       "kind": "chart",
       "slug": "bcra-fx-purchases-and-reserve-accumulation",
@@ -825,7 +887,7 @@
         "generatedAt": "2026-08-15T21:20:00Z",
         "svg": "/plots/goods-trade-balance.svg",
         "png": "/plots/goods-trade-balance.png",
-        "altText": "Goods trade balance, Goods trade balance, Last 5 years, data through 2026-06-01.",
+        "altText": "Goods trade balance. Goods trade balance. Last 5 years. Data through 2026-06-01.",
         "freshnessState": "fresh",
         "indicatorIds": [
           "ci.ef.goods_balance_usd"
@@ -844,7 +906,69 @@
             "kind": "scale",
             "factor": 0.001
           }
-        }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.goods_trade_balance",
+            "provider": "datos_argentina",
+            "providerSeriesId": "74.3_ISC_0_M_19",
+            "sourceUnit": "Millones de dólares",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "a47b7cef102d7ca2706dac42449ba84c899c15cfb36ce10f2d60dd952a038cd7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ef46",
+      "kind": "chart",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/charts/gross-international-reserves",
+      "artifact": {
+        "chartSpecId": "cs.bcra.gross_reserves",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/gross-international-reserves.svg",
+        "png": "/plots/gross-international-reserves.png",
+        "altText": "Gross international reserves. Gross international reserves. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.gross_reserves_usd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "1",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
       }
     },
     {
@@ -867,6 +991,55 @@
       "slug": "market-issuance-cumulative-since-re-entry",
       "title": "Market issuance cumulative since re-entry",
       "href": "/charts/market-issuance-cumulative-since-re-entry"
+    },
+    {
+      "id": "pi.ef47",
+      "kind": "chart",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/charts/monthly-change-in-gross-reserves",
+      "artifact": {
+        "chartSpecId": "cs.bcra.reserve_change_monthly",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_bar",
+        "dataAsOf": "2026-08-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monthly-change-in-gross-reserves.svg",
+        "png": "/plots/monthly-change-in-gross-reserves.png",
+        "altText": "Monthly change in gross reserves. Monthly change in gross reserves. Last 5 years. Data through 2026-08-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.reserve_change_monthly"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "1",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ef05",
@@ -967,6 +1140,55 @@
       "href": "/charts/reserve-accumulation-versus-sovereign-spreads"
     },
     {
+      "id": "pi.ef48",
+      "kind": "chart",
+      "slug": "reserve-accumulation-year-to-date",
+      "title": "Reserve accumulation year to date",
+      "href": "/charts/reserve-accumulation-year-to-date",
+      "artifact": {
+        "chartSpecId": "cs.bcra.reserve_ytd",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/reserve-accumulation-year-to-date.svg",
+        "png": "/plots/reserve-accumulation-year-to-date.png",
+        "altText": "Reserve accumulation year to date. Cumulative reserve accumulation YTD. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.reserve_accumulation_ytd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "1",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ef02",
       "kind": "chart",
       "slug": "reserve-adequacy-dashboard",
@@ -1005,172 +1227,11 @@
   "localGraph": {
     "nodes": [
       {
-        "id": "ef.goods_trade_balance",
-        "kind": "topic",
-        "slug": "goods-trade-balance",
-        "title": "Goods trade balance",
-        "href": "/topics/goods-trade-balance"
-      },
-      {
-        "id": "ef.financial_account",
-        "kind": "topic",
-        "slug": "financial-account",
-        "title": "Financial account",
-        "href": "/topics/financial-account"
-      },
-      {
-        "id": "ef.domestic_capital_market_depth",
-        "kind": "topic",
-        "slug": "domestic-capital-market-depth",
-        "title": "Domestic capital-market depth",
-        "href": "/topics/domestic-capital-market-depth"
-      },
-      {
-        "id": "ef.resident_fx_hedging",
-        "kind": "topic",
-        "slug": "resident-fx-hedging-and-dollarization-pressure",
-        "title": "Resident FX hedging and dollarization pressure",
-        "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
-      },
-      {
-        "id": "ef.external_vulnerability",
-        "kind": "topic",
-        "slug": "external-vulnerability",
-        "title": "External vulnerability",
-        "href": "/topics/external-vulnerability"
-      },
-      {
-        "id": "ef.reserve_adequacy",
-        "kind": "topic",
-        "slug": "reserve-adequacy",
-        "title": "Reserve adequacy",
-        "href": "/topics/reserve-adequacy"
-      },
-      {
-        "id": "ef.reserve_accumulation",
-        "kind": "topic",
-        "slug": "reserve-accumulation",
-        "title": "Reserve accumulation",
-        "href": "/topics/reserve-accumulation"
-      },
-      {
-        "id": "ef.current_account",
-        "kind": "topic",
-        "slug": "current-account",
-        "title": "Current account",
-        "href": "/topics/current-account"
-      },
-      {
-        "id": "ef.capital_inflows",
-        "kind": "topic",
-        "slug": "capital-inflows",
-        "title": "Capital inflows",
-        "href": "/topics/capital-inflows"
-      },
-      {
-        "id": "ef.sovereign_risk",
-        "kind": "topic",
-        "slug": "sovereign-risk",
-        "title": "Sovereign risk",
-        "href": "/topics/sovereign-risk"
-      },
-      {
-        "id": "ef.official_external_financing",
-        "kind": "topic",
-        "slug": "official-external-financing",
-        "title": "Official external financing",
-        "href": "/topics/official-external-financing"
-      },
-      {
-        "id": "ef.sovereign_spreads",
-        "kind": "topic",
-        "slug": "sovereign-spreads",
-        "title": "Sovereign spreads",
-        "href": "/topics/sovereign-spreads"
-      },
-      {
-        "id": "ef.fx_debt_service",
-        "kind": "topic",
-        "slug": "foreign-currency-debt-service",
-        "title": "Foreign-currency debt service",
-        "href": "/topics/foreign-currency-debt-service"
-      },
-      {
-        "id": "ef.net_international_reserves",
-        "kind": "topic",
-        "slug": "net-international-reserves",
-        "title": "Net international reserves",
-        "href": "/topics/net-international-reserves"
-      },
-      {
-        "id": "ef.credit_quality",
-        "kind": "topic",
-        "slug": "credit-quality",
-        "title": "Credit quality",
-        "href": "/topics/credit-quality"
-      },
-      {
-        "id": "ef.external_position",
-        "kind": "topic",
-        "slug": "external-position",
-        "title": "External position",
-        "href": "/topics/external-position"
-      },
-      {
-        "id": "ef.market_access",
-        "kind": "topic",
-        "slug": "international-market-access",
-        "title": "International market access",
-        "href": "/topics/international-market-access"
-      },
-      {
         "id": "ef.external_public_debt",
         "kind": "topic",
         "slug": "external-public-debt",
         "title": "External public debt",
         "href": "/topics/external-public-debt"
-      },
-      {
-        "id": "ef.private_credit",
-        "kind": "topic",
-        "slug": "private-sector-credit",
-        "title": "Private-sector credit",
-        "href": "/topics/private-sector-credit"
-      },
-      {
-        "id": "ef.domestic_savings_mobilization",
-        "kind": "topic",
-        "slug": "domestic-savings-mobilization",
-        "title": "Domestic savings mobilization",
-        "href": "/topics/domestic-savings-mobilization"
-      },
-      {
-        "id": "ef.gross_reserves",
-        "kind": "topic",
-        "slug": "gross-international-reserves",
-        "title": "Gross international reserves",
-        "href": "/topics/gross-international-reserves"
-      },
-      {
-        "id": "ef.foreign_direct_investment",
-        "kind": "topic",
-        "slug": "foreign-direct-investment",
-        "title": "Foreign direct investment",
-        "href": "/topics/foreign-direct-investment"
-      },
-      {
-        "id": "ef.swap_repo_financing",
-        "kind": "topic",
-        "slug": "swap-and-repo-financing",
-        "title": "Swap and repo financing",
-        "href": "/topics/swap-and-repo-financing"
-      },
-      {
-        "id": "ef.primary_income_balance",
-        "kind": "topic",
-        "slug": "primary-income-balance",
-        "title": "Primary income balance",
-        "href": "/topics/primary-income-balance"
       },
       {
         "id": "ef.fx_market_issuance",
@@ -1180,11 +1241,11 @@
         "href": "/topics/fx-market-issuance"
       },
       {
-        "id": "ef.services_balance",
+        "id": "ef.domestic_savings_mobilization",
         "kind": "topic",
-        "slug": "services-balance",
-        "title": "Services balance",
-        "href": "/topics/services-balance"
+        "slug": "domestic-savings-mobilization",
+        "title": "Domestic savings mobilization",
+        "href": "/topics/domestic-savings-mobilization"
       },
       {
         "id": "ef.fx_deposits",
@@ -1201,6 +1262,13 @@
         "href": "/topics/financial-depth"
       },
       {
+        "id": "ef.financial_account",
+        "kind": "topic",
+        "slug": "financial-account",
+        "title": "Financial account",
+        "href": "/topics/financial-account"
+      },
+      {
         "id": "ef.refinancing_needs",
         "kind": "topic",
         "slug": "external-refinancing-needs",
@@ -1208,11 +1276,165 @@
         "href": "/topics/external-refinancing-needs"
       },
       {
+        "id": "ef.swap_repo_financing",
+        "kind": "topic",
+        "slug": "swap-and-repo-financing",
+        "title": "Swap and repo financing",
+        "href": "/topics/swap-and-repo-financing"
+      },
+      {
+        "id": "ef.external_position",
+        "kind": "topic",
+        "slug": "external-position",
+        "title": "External position",
+        "href": "/topics/external-position"
+      },
+      {
+        "id": "ef.resident_fx_hedging",
+        "kind": "topic",
+        "slug": "resident-fx-hedging-and-dollarization-pressure",
+        "title": "Resident FX hedging and dollarization pressure",
+        "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
+      },
+      {
+        "id": "ef.primary_income_balance",
+        "kind": "topic",
+        "slug": "primary-income-balance",
+        "title": "Primary income balance",
+        "href": "/topics/primary-income-balance"
+      },
+      {
+        "id": "ef.gross_reserves",
+        "kind": "topic",
+        "slug": "gross-international-reserves",
+        "title": "Gross international reserves",
+        "href": "/topics/gross-international-reserves"
+      },
+      {
+        "id": "ef.sovereign_spreads",
+        "kind": "topic",
+        "slug": "sovereign-spreads",
+        "title": "Sovereign spreads",
+        "href": "/topics/sovereign-spreads"
+      },
+      {
+        "id": "ef.reserve_adequacy",
+        "kind": "topic",
+        "slug": "reserve-adequacy",
+        "title": "Reserve adequacy",
+        "href": "/topics/reserve-adequacy"
+      },
+      {
+        "id": "ef.credit_quality",
+        "kind": "topic",
+        "slug": "credit-quality",
+        "title": "Credit quality",
+        "href": "/topics/credit-quality"
+      },
+      {
+        "id": "ef.market_access",
+        "kind": "topic",
+        "slug": "international-market-access",
+        "title": "International market access",
+        "href": "/topics/international-market-access"
+      },
+      {
+        "id": "ef.official_external_financing",
+        "kind": "topic",
+        "slug": "official-external-financing",
+        "title": "Official external financing",
+        "href": "/topics/official-external-financing"
+      },
+      {
+        "id": "ef.current_account",
+        "kind": "topic",
+        "slug": "current-account",
+        "title": "Current account",
+        "href": "/topics/current-account"
+      },
+      {
+        "id": "ef.capital_inflows",
+        "kind": "topic",
+        "slug": "capital-inflows",
+        "title": "Capital inflows",
+        "href": "/topics/capital-inflows"
+      },
+      {
+        "id": "ef.reserve_accumulation",
+        "kind": "topic",
+        "slug": "reserve-accumulation",
+        "title": "Reserve accumulation",
+        "href": "/topics/reserve-accumulation"
+      },
+      {
+        "id": "ef.services_balance",
+        "kind": "topic",
+        "slug": "services-balance",
+        "title": "Services balance",
+        "href": "/topics/services-balance"
+      },
+      {
+        "id": "ef.foreign_direct_investment",
+        "kind": "topic",
+        "slug": "foreign-direct-investment",
+        "title": "Foreign direct investment",
+        "href": "/topics/foreign-direct-investment"
+      },
+      {
+        "id": "ef.external_vulnerability",
+        "kind": "topic",
+        "slug": "external-vulnerability",
+        "title": "External vulnerability",
+        "href": "/topics/external-vulnerability"
+      },
+      {
+        "id": "ef.private_credit",
+        "kind": "topic",
+        "slug": "private-sector-credit",
+        "title": "Private-sector credit",
+        "href": "/topics/private-sector-credit"
+      },
+      {
+        "id": "ef.net_international_reserves",
+        "kind": "topic",
+        "slug": "net-international-reserves",
+        "title": "Net international reserves",
+        "href": "/topics/net-international-reserves"
+      },
+      {
+        "id": "ef.domestic_capital_market_depth",
+        "kind": "topic",
+        "slug": "domestic-capital-market-depth",
+        "title": "Domestic capital-market depth",
+        "href": "/topics/domestic-capital-market-depth"
+      },
+      {
+        "id": "ef.fx_debt_service",
+        "kind": "topic",
+        "slug": "foreign-currency-debt-service",
+        "title": "Foreign-currency debt service",
+        "href": "/topics/foreign-currency-debt-service"
+      },
+      {
+        "id": "ef.goods_trade_balance",
+        "kind": "topic",
+        "slug": "goods-trade-balance",
+        "title": "Goods trade balance",
+        "href": "/topics/goods-trade-balance"
+      },
+      {
         "id": "ef.liquid_reserve_buffers",
         "kind": "topic",
         "slug": "liquid-reserve-buffers",
         "title": "Liquid reserve buffers",
         "href": "/topics/liquid-reserve-buffers"
+      },
+      {
+        "id": "ef.sovereign_risk",
+        "kind": "topic",
+        "slug": "sovereign-risk",
+        "title": "Sovereign risk",
+        "href": "/topics/sovereign-risk"
       }
     ],
     "edges": [

@@ -43,10 +43,61 @@
       "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
       "title": "Reserve accumulation versus next-12m FX debt service",
       "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service"
+    },
+    {
+      "id": "pi.ef48",
+      "kind": "chart",
+      "slug": "reserve-accumulation-year-to-date",
+      "title": "Reserve accumulation year to date",
+      "href": "/charts/reserve-accumulation-year-to-date",
+      "artifact": {
+        "chartSpecId": "cs.bcra.reserve_ytd",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/reserve-accumulation-year-to-date.svg",
+        "png": "/plots/reserve-accumulation-year-to-date.png",
+        "altText": "Reserve accumulation year to date. Cumulative reserve accumulation YTD. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.reserve_accumulation_ytd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "1",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
     }
   ],
   "derivedAsInput": [],
-  "derivedAsOutput": [],
+  "derivedAsOutput": [
+    "di.ef.reserve_accumulation_ytd_v0_2"
+  ],
   "nearby": [
     {
       "id": "ef.reserve_accumulation",
@@ -63,6 +114,56 @@
       "title": "Reserve accumulation versus next-12m FX debt service",
       "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service",
       "distance": 1
+    },
+    {
+      "id": "pi.ef48",
+      "kind": "chart",
+      "slug": "reserve-accumulation-year-to-date",
+      "title": "Reserve accumulation year to date",
+      "href": "/charts/reserve-accumulation-year-to-date",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra.reserve_ytd",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/reserve-accumulation-year-to-date.svg",
+        "png": "/plots/reserve-accumulation-year-to-date.png",
+        "altText": "Reserve accumulation year to date. Cumulative reserve accumulation YTD. Since Jan 2026. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.reserve_accumulation_ytd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.gross_international_reserves"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "1",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.gross_international_reserves",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+          }
+        ]
+      }
     },
     {
       "id": "q.ef20",
@@ -103,19 +204,11 @@
       "title": "How large is the near-term FX maturity wall?",
       "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
       "distance": 2
-    },
-    {
-      "id": "q.ef03",
-      "kind": "question",
-      "slug": "what-is-driving-changes-in-reserves",
-      "title": "What is driving changes in reserves?",
-      "href": "/questions/what-is-driving-changes-in-reserves",
-      "distance": 2
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 2,
     "derivedAsInput": 0,
-    "derivedAsOutput": 0
+    "derivedAsOutput": 1
   }
 }

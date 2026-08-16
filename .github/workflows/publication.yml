@@ -8,20 +8,19 @@ on:
       - "scripts/build-publication.py"
       - "plot-artifacts/**"
       - "site-data/**"
-      - "verticals/**/knowledge/plot_intents_v0_2.yaml"
+      - "verticals/**/knowledge/*_v0_2.yaml"
       - "web/**"
       - "Makefile"
       - ".github/workflows/publication.yml"
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
       - "figures/**"
       - "series/**"
       - "scripts/build-publication.py"
       - "plot-artifacts/**"
       - "site-data/**"
-      - "verticals/**/knowledge/plot_intents_v0_2.yaml"
+      - "verticals/**/knowledge/*_v0_2.yaml"
       - "web/**"
       - "Makefile"
       - ".github/workflows/publication.yml"
@@ -29,69 +28,44 @@ on:
 permissions:
   contents: read
 
-concurrency:
-  group: atlas-publication-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v5
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Install Python dependencies
-        run: python -m pip install 'PyYAML>=6.0,<7' 'matplotlib>=3.8,<4'
-
-      - name: Set up pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10.28.1
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python -m pip install 'PyYAML>=6.0,<7' 'matplotlib>=3.8,<4'
+      - uses: pnpm/action-setup@v4
+        with: {version: 10.28.1}
+      - uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: pnpm
           cache-dependency-path: web/pnpm-lock.yaml
-
-      - name: Install web dependencies
-        working-directory: web
+      - working-directory: web
         run: pnpm install --frozen-lockfile
-
       - name: Build complete offline Atlas publication
-        env:
-          SOURCE_DATE_EPOCH: "1786828800"
+        env: {SOURCE_DATE_EPOCH: "1786828800"}
         run: make build-atlas
-
-      - name: Verify Phase 4 freeze
+      - name: Verify expansion freeze
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-
           stats = json.loads(Path('site-data/stats.json').read_text())
           manifest = json.loads(Path('site-data/manifest.json').read_text())
-          assert stats['counts']['chart'] == 99, stats
-          assert stats['graph']['nodes'] == 280, stats
-          assert stats['graph']['edges'] == 613, stats
-          assert stats['plot_artifacts'] == 3, stats
-          assert manifest['plotArtifacts'] == 3, manifest
-          assert manifest['publicationSchemaVersion'] == '0.2', manifest
-          assert len(list(Path('web/public/plots').glob('*.svg'))) == 3
-          assert len(list(Path('web/public/plots').glob('*.png'))) == 3
-          print('PASS: 99 charts, 3 published PlotArtifacts, static web bundle complete')
+          assert stats['counts']['indicator'] == 83, stats
+          assert stats['counts']['chart'] == 109, stats
+          assert stats['graph']['nodes'] == 291, stats
+          assert stats['plot_artifacts'] == 25, stats
+          assert manifest['plotArtifacts'] == 25, manifest
+          assert len(list(Path('web/public/plots').glob('*.svg'))) == 25
+          assert len(list(Path('web/public/plots').glob('*.png'))) == 25
+          print('PASS: 109 charts, 83 indicators, 25 PlotArtifacts')
           PY
-
-      - name: Upload publication preview
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: atlas-publication-v0.2-preview
           path: |

@@ -103,6 +103,54 @@
       "distance": 2
     },
     {
+      "id": "pi.ns60",
+      "kind": "chart",
+      "slug": "baibar-interbank-rate",
+      "title": "BAIBAR interbank rate",
+      "href": "/charts/baibar-interbank-rate",
+      "distance": 2,
+      "artifact": {
+        "chartSpecId": "cs.bcra.baibar",
+        "frameId": "rf.last_12m",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-13",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/baibar-interbank-rate.svg",
+        "png": "/plots/baibar-interbank-rate.png",
+        "altText": "BAIBAR interbank rate. Short money-market rate. Last 12 months. Data through 2026-08-13.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.money_market_rate"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.baibar_rate"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "11",
+          "sourceUnit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.baibar_rate",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "11",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ns48",
       "kind": "chart",
       "slug": "money-market-volatility-vs-fx-gap",

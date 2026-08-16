@@ -1,0 +1,20 @@
+canonical_indicators:
+- id: ci.ns.bcra_fx_purchases_cumulative
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-15'
+  updated_at: '2026-08-15'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  label: Cumulative BCRA FX purchases since Jan-2026
+  concept_id: ns.bcra_fx_operations
+  unit_semantics: usd
+  frequency: daily
+  series_binding_status: DERIVED_FROM_REGISTERED
+  provider_hint:
+  - BCRA
+  provenance:
+    model_prior_used: false
+    notes:
+    - Cumulative sum of the registered BCRA foreign-exchange-purchases reserve variation factor from 2026-01-01.

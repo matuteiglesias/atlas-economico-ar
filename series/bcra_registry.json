@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.1",
+  "provider": {
+    "id": "bcra_monetarias_v4",
+    "base_url": "https://api.bcra.gob.ar/estadisticas/v4.0",
+    "documentation": "https://www.bcra.gob.ar/apis-banco-central/",
+    "adapter": "bcra_monetarias_v4"
+  },
+  "series": [
+    {
+      "id": "series.ar.bcra.gross_international_reserves",
+      "provider_series_id": "1",
+      "canonical_indicator_id": "ci.ef.gross_reserves_usd",
+      "label": "BCRA international reserves",
+      "expected_frequency": "daily",
+      "freshness_warning_days": 10,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.wholesale_fx",
+      "provider_series_id": "5",
+      "canonical_indicator_id": "ci.ns.official_fx",
+      "label": "BCRA wholesale exchange rate",
+      "expected_frequency": "daily",
+      "freshness_warning_days": 10,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.baibar_rate",
+      "provider_series_id": "11",
+      "canonical_indicator_id": "ci.ns.money_market_rate",
+      "label": "BAIBAR interbank rate",
+      "expected_frequency": "daily",
+      "freshness_warning_days": 10,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.monetary_base_total",
+      "provider_series_id": "15",
+      "canonical_indicator_id": "ci.ns.monetary_base_nominal",
+      "label": "Monetary base total",
+      "expected_frequency": "daily",
+      "freshness_warning_days": 10,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.fx_purchases_reserve_factor",
+      "provider_series_id": "78",
+      "canonical_indicator_id": "ci.ns.bcra_fx_purchases_daily",
+      "label": "Foreign exchange purchases - reserve variation factor",
+      "expected_frequency": "daily",
+      "freshness_warning_days": 10,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.transactional_m2_private",
+      "provider_series_id": "197",
+      "canonical_indicator_id": "ci.ns.transactional_m2_nominal",
+      "label": "Private sector transactional M2",
+      "expected_frequency": "daily",
+      "freshness_warning_days": 10,
+      "snapshot_subdir": "bcra"
+    }
+  ]
+}

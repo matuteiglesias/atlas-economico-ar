@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ns55",
+  "chart_spec_id": "cs.bcra.official_fx",
+  "frame_id": "rf.last_5y",
+  "data_as_of": "2026-08-14",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ns.official_fx"
+  ],
+  "series_ids": [
+    "series.ar.bcra.wholesale_fx"
+  ],
+  "snapshot_sha256": {
+    "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/official-wholesale-exchange-rate.svg",
+    "png": "plot-artifacts/png/official-wholesale-exchange-rate.png"
+  },
+  "alt_text": "Official wholesale exchange rate. Official ARS/USD exchange rate. Last 5 years. Data through 2026-08-14.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "ars_per_usd"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "bcra_monetarias_v4",
+    "provider_series_id": "5",
+    "source_unit": "Exchange rate ars to usd",
+    "normalization": {
+      "kind": "identity"
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.bcra.wholesale_fx",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "5",
+      "source_unit": "Exchange rate ars to usd",
+      "normalization": {
+        "kind": "identity"
+      },
+      "snapshot_sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+    }
+  ]
+}

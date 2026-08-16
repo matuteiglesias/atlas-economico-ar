@@ -1,0 +1,68 @@
+{
+  "canonical_indicator_id": "ci.ns.monetary_base_nominal",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 3,
+    "latest_observation": "2026-08-12",
+    "state": "fresh",
+    "warning_days": 10
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Main variables",
+    "currency": "ML",
+    "description": "Monetary Base - Total ",
+    "frequency": "daily",
+    "series_type": "Stocks",
+    "time_index_end": "2026-08-12",
+    "time_index_start": "1996-01-02",
+    "title": "Monetary Base - Total ",
+    "units": "Millons pesos"
+  },
+  "provider_series_id": "15",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_monetary_base_total.catalog.json",
+    "catalog_sha256": "306d16b04963afaf805eb14f095cf2e019c9625fe071cade432713f7d96954fe",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_monetary_base_total.methodology.json",
+    "methodology_sha256": "6bd66cc616b17cc796f805986983f4088abc0d3b162e10261c5d2d0f08964e1f",
+    "values_pages": [
+      {
+        "observation_rows": 3000,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_monetary_base_total.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/15?limit=3000&offset=0",
+        "sha256": "d5eb130b1605b18d4ffa9e1e05a73e636759cad2043429561464bc77bf23afae"
+      },
+      {
+        "observation_rows": 3000,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_monetary_base_total.values.page-0001.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/15?limit=3000&offset=3000",
+        "sha256": "37b94ff86248e84ca251ae19f281106b85d53f9a8f40c17b3a868ffae80a8ac6"
+      },
+      {
+        "observation_rows": 1536,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_monetary_base_total.values.page-0002.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/15?limit=3000&offset=6000",
+        "sha256": "9ea939ee87c7f2e33abc03fef3f1f57b2dce44e61f8d3ad646c0c05ea10b79e7"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=15&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/15",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/15?limit=3000&offset=0",
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/15?limit=3000&offset=3000",
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/15?limit=3000&offset=6000"
+    ]
+  },
+  "retrieved_at": "2026-08-15T23:17:37.469427Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.monetary_base_total",
+  "snapshot": {
+    "first_observation": "1996-01-02",
+    "latest_observation": "2026-08-12",
+    "observation_rows": 7536,
+    "path": "series/snapshots/bcra/series_ar_bcra_monetary_base_total.csv",
+    "sha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+  }
+}

@@ -155,5 +155,73 @@
     "questions": 1,
     "topics": 4,
     "indicators": 2
+  },
+  "artifact": {
+    "chartSpecId": "cs.bcra.real_base_vs_real_m2",
+    "frameId": "rf.since_dec_2023",
+    "renderer": "timeseries_line",
+    "dataAsOf": "2026-07-01",
+    "generatedAt": "2026-08-15T21:20:00Z",
+    "svg": "/plots/monetary-base-vs-transactional-m2.svg",
+    "png": "/plots/monetary-base-vs-transactional-m2.png",
+    "altText": "Monetary base vs transactional M2. Real monetary base; Real private transactional M2. Since Dec 2023. Data through 2026-07-01.",
+    "freshnessState": "fresh",
+    "indicatorIds": [
+      "ci.ns.monetary_base_real",
+      "ci.ns.transactional_m2_real"
+    ],
+    "seriesIds": [
+      "series.ar.bcra.monetary_base_total",
+      "series.ar.datosgob.ipc_headline_mom_national",
+      "series.ar.bcra.transactional_m2_private"
+    ],
+    "snapshotSha256": {
+      "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
+      "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+      "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+    },
+    "source": {
+      "provider": "multiple",
+      "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
+      "sourceUnit": null,
+      "normalization": {
+        "kind": "composite"
+      }
+    },
+    "sources": [
+      {
+        "seriesId": "series.ar.bcra.monetary_base_total",
+        "provider": "bcra_monetarias_v4",
+        "providerSeriesId": "15",
+        "sourceUnit": "Millons pesos",
+        "normalization": {
+          "kind": "scale",
+          "factor": 1000000
+        },
+        "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+      },
+      {
+        "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+        "provider": "datos_argentina",
+        "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+        "sourceUnit": "Variación intermensual",
+        "normalization": {
+          "kind": "scale",
+          "factor": 100
+        },
+        "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+      },
+      {
+        "seriesId": "series.ar.bcra.transactional_m2_private",
+        "provider": "bcra_monetarias_v4",
+        "providerSeriesId": "197",
+        "sourceUnit": "Millons pesos",
+        "normalization": {
+          "kind": "scale",
+          "factor": 1000000
+        },
+        "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+      }
+    ]
   }
 }

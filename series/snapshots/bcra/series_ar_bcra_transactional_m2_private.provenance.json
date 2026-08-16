@@ -1,0 +1,54 @@
+{
+  "canonical_indicator_id": "ci.ns.transactional_m2_nominal",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 4,
+    "latest_observation": "2026-08-11",
+    "state": "fresh",
+    "warning_days": 10
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Series.xlsm",
+    "currency": "ML",
+    "description": "Stock of private sector transactional M2 (in Pesos)",
+    "frequency": "daily",
+    "series_type": "Stocks",
+    "time_index_end": "2026-08-11",
+    "time_index_start": "2021-01-04",
+    "title": "Stock of private sector transactional M2 (in Pesos)",
+    "units": "Millons pesos"
+  },
+  "provider_series_id": "197",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_transactional_m2_private.catalog.json",
+    "catalog_sha256": "b30f592a61a17a2dc7ddef8c4971e05d00519bee836e99776436d7f394d3566d",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_transactional_m2_private.methodology.json",
+    "methodology_sha256": "2b2a5a27cab7e9007fa7cc9a81a1a6f6084fc1b079eb7c80b29b032c9eaa3929",
+    "values_pages": [
+      {
+        "observation_rows": 1362,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_transactional_m2_private.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/197?limit=3000&offset=0",
+        "sha256": "761f5c347ee682a0d55679aa77aebef161a7705f8d96c9bf334eb802a70cd360"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=197&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/197",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/197?limit=3000&offset=0"
+    ]
+  },
+  "retrieved_at": "2026-08-15T23:17:37.469427Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.transactional_m2_private",
+  "snapshot": {
+    "first_observation": "2021-01-04",
+    "latest_observation": "2026-08-11",
+    "observation_rows": 1362,
+    "path": "series/snapshots/bcra/series_ar_bcra_transactional_m2_private.csv",
+    "sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+  }
+}

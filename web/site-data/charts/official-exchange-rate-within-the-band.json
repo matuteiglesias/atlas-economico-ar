@@ -138,7 +138,61 @@
       "slug": "bcra-purchases-vs-official-exchange-rate",
       "title": "BCRA purchases vs official exchange rate",
       "href": "/charts/bcra-purchases-vs-official-exchange-rate",
-      "distance": 2
+      "distance": 2,
+      "artifact": {
+        "chartSpecId": "cs.bcra.purchases_vs_fx",
+        "frameId": "rf.since_jan_2026",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-14",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-purchases-vs-official-exchange-rate.svg",
+        "png": "/plots/bcra-purchases-vs-official-exchange-rate.png",
+        "altText": "BCRA purchases vs official exchange rate. BCRA net FX purchases; Official ARS/USD exchange rate. Since Jan 2026. Data through 2026-08-14.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ns.official_fx"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_purchases_reserve_factor",
+          "series.ar.bcra.wholesale_fx"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "78,5",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "78",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+          },
+          {
+            "seriesId": "series.ar.bcra.wholesale_fx",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "5",
+            "sourceUnit": "Exchange rate ars to usd",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns45",

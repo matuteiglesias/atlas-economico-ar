@@ -1129,6 +1129,14 @@
       "slice_id": "nominal_stabilization"
     },
     {
+      "id": "ci.ns.bcra_fx_purchases_cumulative",
+      "kind": "indicator",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan-2026",
+      "href": "/indicators/cumulative-bcra-fx-purchases-since-jan-2026",
+      "slice_id": "nominal_stabilization"
+    },
+    {
       "id": "ci.ef.gross_reserves_usd",
       "kind": "indicator",
       "slug": "gross-international-reserves",
@@ -1881,6 +1889,54 @@
       "slice_id": "nominal_stabilization"
     },
     {
+      "id": "pi.ns55",
+      "kind": "chart",
+      "slug": "official-wholesale-exchange-rate",
+      "title": "Official wholesale exchange rate",
+      "href": "/charts/official-wholesale-exchange-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns56",
+      "kind": "chart",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/charts/private-transactional-m2",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns57",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan 2026",
+      "href": "/charts/cumulative-bcra-fx-purchases-since-jan-2026",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns58",
+      "kind": "chart",
+      "slug": "monetary-base-and-transactional-m2",
+      "title": "Monetary base and transactional M2",
+      "href": "/charts/monetary-base-and-transactional-m2",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns59",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-the-monetary-base",
+      "title": "BCRA FX purchases and the monetary base",
+      "href": "/charts/bcra-fx-purchases-and-the-monetary-base",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns60",
+      "kind": "chart",
+      "slug": "baibar-interbank-rate",
+      "title": "BAIBAR interbank rate",
+      "href": "/charts/baibar-interbank-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
       "id": "pi.ef01",
       "kind": "chart",
       "slug": "gross-reserves-nir-and-liquid-buffers",
@@ -2238,6 +2294,38 @@
       "slug": "goods-trade-balance",
       "title": "Goods trade balance",
       "href": "/charts/goods-trade-balance",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef46",
+      "kind": "chart",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/charts/gross-international-reserves",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef47",
+      "kind": "chart",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/charts/monthly-change-in-gross-reserves",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef48",
+      "kind": "chart",
+      "slug": "reserve-accumulation-year-to-date",
+      "title": "Reserve accumulation year to date",
+      "href": "/charts/reserve-accumulation-year-to-date",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef49",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-gross-reserves",
+      "title": "BCRA FX purchases and gross reserves",
+      "href": "/charts/bcra-fx-purchases-and-gross-reserves",
       "slice_id": "external_financial_constraint"
     }
   ],
@@ -4035,6 +4123,13 @@
       "directed": false
     },
     {
+      "from": "ci.ns.bcra_fx_purchases_cumulative",
+      "to": "ns.bcra_fx_operations",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.ns.bcra_fx_purchases_cumulative",
+      "directed": false
+    },
+    {
       "from": "ci.ef.gross_reserves_usd",
       "to": "ef.gross_reserves",
       "kind": "indicator_measures_topic",
@@ -5442,6 +5537,111 @@
       "directed": false
     },
     {
+      "from": "pi.ns55",
+      "to": "q.ns08",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns55",
+      "directed": false
+    },
+    {
+      "from": "pi.ns55",
+      "to": "ci.ns.official_fx",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns55",
+      "directed": false
+    },
+    {
+      "from": "pi.ns56",
+      "to": "q.ns15",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns56",
+      "directed": false
+    },
+    {
+      "from": "pi.ns56",
+      "to": "ci.ns.transactional_m2_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns56",
+      "directed": false
+    },
+    {
+      "from": "pi.ns57",
+      "to": "q.ns11",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns57",
+      "directed": false
+    },
+    {
+      "from": "pi.ns57",
+      "to": "ci.ns.bcra_fx_purchases_cumulative",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns57",
+      "directed": false
+    },
+    {
+      "from": "pi.ns58",
+      "to": "q.ns15",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns58",
+      "directed": false
+    },
+    {
+      "from": "pi.ns58",
+      "to": "q.ns17",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns58",
+      "directed": false
+    },
+    {
+      "from": "pi.ns58",
+      "to": "ci.ns.monetary_base_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns58",
+      "directed": false
+    },
+    {
+      "from": "pi.ns58",
+      "to": "ci.ns.transactional_m2_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns58",
+      "directed": false
+    },
+    {
+      "from": "pi.ns59",
+      "to": "q.ns11",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns59",
+      "directed": false
+    },
+    {
+      "from": "pi.ns59",
+      "to": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns59",
+      "directed": false
+    },
+    {
+      "from": "pi.ns59",
+      "to": "ci.ns.monetary_base_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns59",
+      "directed": false
+    },
+    {
+      "from": "pi.ns60",
+      "to": "q.ns13",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns60",
+      "directed": false
+    },
+    {
+      "from": "pi.ns60",
+      "to": "ci.ns.money_market_rate",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns60",
+      "directed": false
+    },
+    {
       "from": "pi.ef01",
       "to": "q.ef01",
       "kind": "chart_answers_question",
@@ -6531,6 +6731,76 @@
       "to": "ci.ef.goods_balance_usd",
       "kind": "chart_uses_indicator",
       "source_id": "pi.ef45",
+      "directed": false
+    },
+    {
+      "from": "pi.ef46",
+      "to": "q.ef01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef46",
+      "directed": false
+    },
+    {
+      "from": "pi.ef46",
+      "to": "ci.ef.gross_reserves_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef46",
+      "directed": false
+    },
+    {
+      "from": "pi.ef47",
+      "to": "q.ef03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef47",
+      "directed": false
+    },
+    {
+      "from": "pi.ef47",
+      "to": "ci.ef.reserve_change_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef47",
+      "directed": false
+    },
+    {
+      "from": "pi.ef48",
+      "to": "q.ef03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef48",
+      "directed": false
+    },
+    {
+      "from": "pi.ef48",
+      "to": "ci.ef.reserve_accumulation_ytd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef48",
+      "directed": false
+    },
+    {
+      "from": "pi.ef49",
+      "to": "q.ef03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef49",
+      "directed": false
+    },
+    {
+      "from": "pi.ef49",
+      "to": "q.ef20",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef49",
+      "directed": false
+    },
+    {
+      "from": "pi.ef49",
+      "to": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef49",
+      "directed": false
+    },
+    {
+      "from": "pi.ef49",
+      "to": "ci.ef.gross_reserves_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef49",
       "directed": false
     }
   ]

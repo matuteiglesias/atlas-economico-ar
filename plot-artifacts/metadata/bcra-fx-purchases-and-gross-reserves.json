@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ef49",
+  "chart_spec_id": "cs.bcra.purchases_vs_reserves",
+  "frame_id": "rf.since_jan_2026",
+  "data_as_of": "2026-08-12",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ns.bcra_fx_purchases_daily",
+    "ci.ef.gross_reserves_usd"
+  ],
+  "series_ids": [
+    "series.ar.bcra.fx_purchases_reserve_factor",
+    "series.ar.bcra.gross_international_reserves"
+  ],
+  "snapshot_sha256": {
+    "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
+    "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/bcra-fx-purchases-and-gross-reserves.svg",
+    "png": "plot-artifacts/png/bcra-fx-purchases-and-gross-reserves.png"
+  },
+  "alt_text": "BCRA FX purchases and gross reserves. BCRA net FX purchases; Gross international reserves. Since Jan 2026. Data through 2026-08-12.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "usd",
+    "usd_billions"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "multiple",
+    "provider_series_id": "78,1",
+    "source_unit": null,
+    "normalization": {
+      "kind": "composite"
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.bcra.fx_purchases_reserve_factor",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "78",
+      "source_unit": "Millons USD",
+      "normalization": {
+        "kind": "scale",
+        "factor": 1000000
+      },
+      "snapshot_sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+    },
+    {
+      "series_id": "series.ar.bcra.gross_international_reserves",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "1",
+      "source_unit": "Millons USD",
+      "normalization": {
+        "kind": "scale",
+        "factor": 0.001
+      },
+      "snapshot_sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+    }
+  ]
+}

@@ -18,9 +18,11 @@
     "svg": "plot-artifacts/svg/monthly-headline-inflation.svg",
     "png": "plot-artifacts/png/monthly-headline-inflation.png"
   },
-  "alt_text": "Monthly headline inflation, Monthly headline CPI inflation, Last 5 years, data through 2026-07-01.",
+  "alt_text": "Monthly headline inflation. Monthly headline CPI inflation. Last 5 years. Data through 2026-07-01.",
   "renderer": "timeseries_line",
-  "unit_semantics": "percent_mom",
+  "unit_semantics": [
+    "percent_mom"
+  ],
   "freshness_state": "fresh",
   "source": {
     "provider": "datos_argentina",
@@ -30,5 +32,18 @@
       "kind": "scale",
       "factor": 100
     }
-  }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+      "provider": "datos_argentina",
+      "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+      "source_unit": "Variación intermensual",
+      "normalization": {
+        "kind": "scale",
+        "factor": 100
+      },
+      "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+    }
+  ]
 }

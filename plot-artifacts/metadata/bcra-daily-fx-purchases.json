@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ns23",
+  "chart_spec_id": "cs.bcra.daily_fx_purchases",
+  "frame_id": "rf.since_jan_2026",
+  "data_as_of": "2026-08-11",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ns.bcra_fx_purchases_daily"
+  ],
+  "series_ids": [
+    "series.ar.bcra.fx_purchases_reserve_factor"
+  ],
+  "snapshot_sha256": {
+    "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/bcra-daily-fx-purchases.svg",
+    "png": "plot-artifacts/png/bcra-daily-fx-purchases.png"
+  },
+  "alt_text": "BCRA daily FX purchases. BCRA net FX purchases. Since Jan 2026. Data through 2026-08-11.",
+  "renderer": "timeseries_bar",
+  "unit_semantics": [
+    "usd"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "bcra_monetarias_v4",
+    "provider_series_id": "78",
+    "source_unit": "Millons USD",
+    "normalization": {
+      "kind": "scale",
+      "factor": 1000000
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.bcra.fx_purchases_reserve_factor",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "78",
+      "source_unit": "Millons USD",
+      "normalization": {
+        "kind": "scale",
+        "factor": 1000000
+      },
+      "snapshot_sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+    }
+  ]
+}
