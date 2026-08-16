@@ -30,7 +30,7 @@ class FigureKernelTests(unittest.TestCase):
                 spec, frame_ids, renderer_ids, f"active.chart_specs[{index}]"
             )
         by_intent = {spec["plot_intent_id"]: spec for spec in specs}
-        self.assertEqual(by_intent["pi.ns01"]["frame_id"], "rf.since_dec_2023")
+        self.assertEqual(by_intent["pi.ns01"]["frame_id"], "rf.last_18m")
         self.assertTrue(by_intent["pi.ns63"]["overrides"]["step"])
 
     def test_every_active_intent_is_measurement_ready(self):
@@ -57,6 +57,7 @@ class FigureKernelTests(unittest.TestCase):
                 validate_contract.validate_plot_artifact(artifact, frame_ids)
 
             by_intent = {artifact["plot_intent_id"]: artifact for artifact in artifacts}
+            self.assertEqual(by_intent["pi.ns01"]["frame_id"], "rf.last_18m")
             self.assertEqual(by_intent["pi.ns31"]["data_as_of"], "2025-07-10")
             self.assertEqual(by_intent["pi.ns63"]["data_as_of"], "2025-07-10")
 
