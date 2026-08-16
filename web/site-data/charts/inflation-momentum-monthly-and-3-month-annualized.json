@@ -123,7 +123,61 @@
       "slug": "disinflation-since-december-2023",
       "title": "Disinflation since December 2023",
       "href": "/charts/disinflation-since-december-2023",
-      "distance": 2
+      "distance": 2,
+      "artifact": {
+        "chartSpecId": "cs.bcra2.disinflation_since_dec2023",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-31",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/disinflation-since-december-2023.svg",
+        "png": "/plots/disinflation-since-december-2023.png",
+        "altText": "Disinflation since December 2023. Monthly headline CPI inflation; Headline CPI inflation, year-over-year. Since Dec 2023. Data through 2026-07-31.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.cpi_yoy"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national",
+          "series.ar.bcra.cpi_yoy"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+          "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          },
+          {
+            "seriesId": "series.ar.bcra.cpi_yoy",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "28",
+            "sourceUnit": "In percentage",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns07",
@@ -139,12 +193,109 @@
       "slug": "headline-inflation-monthly-vs-year-over-year",
       "title": "Headline inflation: monthly vs year-over-year",
       "href": "/charts/headline-inflation-monthly-vs-year-over-year",
-      "distance": 2
+      "distance": 2,
+      "artifact": {
+        "chartSpecId": "cs.bcra2.inflation_monthly_yoy",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-31",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/headline-inflation-monthly-vs-year-over-year.svg",
+        "png": "/plots/headline-inflation-monthly-vs-year-over-year.png",
+        "altText": "Headline inflation: monthly vs year-over-year. Monthly headline CPI inflation; Headline CPI inflation, year-over-year. Last 5 years. Data through 2026-07-31.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.cpi_yoy"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national",
+          "series.ar.bcra.cpi_yoy"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+          "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          },
+          {
+            "seriesId": "series.ar.bcra.cpi_yoy",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "28",
+            "sourceUnit": "In percentage",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+          }
+        ]
+      }
     }
   ],
   "counts": {
     "questions": 1,
     "topics": 2,
     "indicators": 2
+  },
+  "artifact": {
+    "chartSpecId": "cs.bcra2.inflation_momentum",
+    "frameId": "rf.last_5y",
+    "renderer": "timeseries_line",
+    "dataAsOf": "2026-07-01",
+    "generatedAt": "2026-08-15T21:20:00Z",
+    "svg": "/plots/inflation-momentum-monthly-and-3-month-annualized.svg",
+    "png": "/plots/inflation-momentum-monthly-and-3-month-annualized.png",
+    "altText": "Inflation momentum: monthly and 3-month annualized. Monthly headline CPI inflation; Headline CPI, 3-month annualized. Last 5 years. Data through 2026-07-01.",
+    "freshnessState": "fresh",
+    "indicatorIds": [
+      "ci.ns.cpi_monthly",
+      "ci.ns.cpi_3m_ann"
+    ],
+    "seriesIds": [
+      "series.ar.datosgob.ipc_headline_mom_national"
+    ],
+    "snapshotSha256": {
+      "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+    },
+    "source": {
+      "provider": "datos_argentina",
+      "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+      "sourceUnit": "Variación intermensual",
+      "normalization": {
+        "kind": "scale",
+        "factor": 100
+      }
+    },
+    "sources": [
+      {
+        "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+        "provider": "datos_argentina",
+        "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+        "sourceUnit": "Variación intermensual",
+        "normalization": {
+          "kind": "scale",
+          "factor": 100
+        },
+        "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+      }
+    ]
   }
 }

@@ -1937,6 +1937,46 @@
       "slice_id": "nominal_stabilization"
     },
     {
+      "id": "pi.ns61",
+      "kind": "chart",
+      "slug": "tamar-private-bank-rate",
+      "title": "TAMAR private-bank rate",
+      "href": "/charts/tamar-private-bank-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns62",
+      "kind": "chart",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/charts/tamar-ex-post-real-rate",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns63",
+      "kind": "chart",
+      "slug": "bcra-policy-rate-history",
+      "title": "BCRA policy rate history",
+      "href": "/charts/bcra-policy-rate-history",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns64",
+      "kind": "chart",
+      "slug": "bank-reserve-balances-at-the-bcra",
+      "title": "Bank reserve balances at the BCRA",
+      "href": "/charts/bank-reserve-balances-at-the-bcra",
+      "slice_id": "nominal_stabilization"
+    },
+    {
+      "id": "pi.ns65",
+      "kind": "chart",
+      "slug": "monthly-inflation-and-acceleration",
+      "title": "Monthly inflation and acceleration",
+      "href": "/charts/monthly-inflation-and-acceleration",
+      "slice_id": "nominal_stabilization"
+    },
+    {
       "id": "pi.ef01",
       "kind": "chart",
       "slug": "gross-reserves-nir-and-liquid-buffers",
@@ -2326,6 +2366,14 @@
       "slug": "bcra-fx-purchases-and-gross-reserves",
       "title": "BCRA FX purchases and gross reserves",
       "href": "/charts/bcra-fx-purchases-and-gross-reserves",
+      "slice_id": "external_financial_constraint"
+    },
+    {
+      "id": "pi.ef50",
+      "kind": "chart",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/charts/foreign-currency-deposits",
       "slice_id": "external_financial_constraint"
     }
   ],
@@ -5642,6 +5690,90 @@
       "directed": false
     },
     {
+      "from": "pi.ns61",
+      "to": "q.ns12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns61",
+      "directed": false
+    },
+    {
+      "from": "pi.ns61",
+      "to": "ci.ns.tamar_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns61",
+      "directed": false
+    },
+    {
+      "from": "pi.ns62",
+      "to": "q.ns12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns62",
+      "directed": false
+    },
+    {
+      "from": "pi.ns62",
+      "to": "ci.ns.tamar_real_expost",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns62",
+      "directed": false
+    },
+    {
+      "from": "pi.ns63",
+      "to": "q.ns12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns63",
+      "directed": false
+    },
+    {
+      "from": "pi.ns63",
+      "to": "q.ns13",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns63",
+      "directed": false
+    },
+    {
+      "from": "pi.ns63",
+      "to": "ci.ns.policy_rate_nominal",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns63",
+      "directed": false
+    },
+    {
+      "from": "pi.ns64",
+      "to": "q.ns14",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns64",
+      "directed": false
+    },
+    {
+      "from": "pi.ns64",
+      "to": "ci.ns.bcra_peso_deposits",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns64",
+      "directed": false
+    },
+    {
+      "from": "pi.ns65",
+      "to": "q.ns01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ns65",
+      "directed": false
+    },
+    {
+      "from": "pi.ns65",
+      "to": "ci.ns.cpi_monthly",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns65",
+      "directed": false
+    },
+    {
+      "from": "pi.ns65",
+      "to": "ci.ns.infl_acceleration",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ns65",
+      "directed": false
+    },
+    {
       "from": "pi.ef01",
       "to": "q.ef01",
       "kind": "chart_answers_question",
@@ -6801,6 +6933,20 @@
       "to": "ci.ef.gross_reserves_usd",
       "kind": "chart_uses_indicator",
       "source_id": "pi.ef49",
+      "directed": false
+    },
+    {
+      "from": "pi.ef50",
+      "to": "q.ef16",
+      "kind": "chart_answers_question",
+      "source_id": "pi.ef50",
+      "directed": false
+    },
+    {
+      "from": "pi.ef50",
+      "to": "ci.ef.fx_deposits_usd",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.ef50",
       "directed": false
     }
   ]

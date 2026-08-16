@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ns64",
+  "chart_spec_id": "cs.bcra2.reserve_balances",
+  "frame_id": "rf.last_5y",
+  "data_as_of": "2026-08-12",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ns.bcra_peso_deposits"
+  ],
+  "series_ids": [
+    "series.ar.bcra.peso_deposits_at_bcra"
+  ],
+  "snapshot_sha256": {
+    "series.ar.bcra.peso_deposits_at_bcra": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/bank-reserve-balances-at-the-bcra.svg",
+    "png": "plot-artifacts/png/bank-reserve-balances-at-the-bcra.png"
+  },
+  "alt_text": "Bank reserve balances at the BCRA. BCRA peso deposits / reserve balances. Last 5 years. Data through 2026-08-12.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "ars"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "bcra_monetarias_v4",
+    "provider_series_id": "19",
+    "source_unit": "Millons pesos",
+    "normalization": {
+      "kind": "scale",
+      "factor": 1000000
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.bcra.peso_deposits_at_bcra",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "19",
+      "source_unit": "Millons pesos",
+      "normalization": {
+        "kind": "scale",
+        "factor": 1000000
+      },
+      "snapshot_sha256": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
+    }
+  ]
+}

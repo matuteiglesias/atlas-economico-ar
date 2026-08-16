@@ -56,6 +56,7 @@ class ResolvedMeasurement:
     source_unit: str | None
     source_description: str | None
     normalization: dict[str, Any]
+    binding_role: str
     snapshot_path: str
     snapshot_sha256: str
     freshness_state: str
@@ -82,6 +83,7 @@ class ResolvedMeasurement:
             "source_unit": self.source_unit,
             "source_description": self.source_description,
             "normalization": self.normalization,
+            "binding_role": self.binding_role,
             "snapshot_path": self.snapshot_path,
             "snapshot_sha256": self.snapshot_sha256,
             "freshness_state": self.freshness_state,
@@ -152,10 +154,14 @@ def load_indicator_catalog(paths: tuple[Path, ...] = INDICATOR_PATHS) -> dict[st
 
 def validate_binding(binding: dict[str, Any], source: str) -> None:
     required = {"series_id", "canonical_indicator_id", "normalization"}
-    if set(binding) != required:
+    allowed = required | {"role"}
+    if not required <= set(binding) or not set(binding) <= allowed:
         raise MeasurementResolutionError(
-            f"{source}: expected exactly {sorted(required)}, got {sorted(binding)}"
+            f"{source}: expected {sorted(required)} plus optional role, got {sorted(binding)}"
         )
+    role = binding.get("role", "primary")
+    if role not in {"primary", "alternate"}:
+        raise MeasurementResolutionError(f"{source}: role must be primary or alternate")
     normalization = binding["normalization"]
     if not isinstance(normalization, dict) or normalization.get("kind") not in ALLOWED_NORMALIZATIONS:
         raise MeasurementResolutionError(f"{source}: unsupported normalization")
@@ -302,6 +308,7 @@ def resolve_binding(
         source_unit=meta.get("units"),
         source_description=meta.get("description"),
         normalization=binding["normalization"],
+        binding_role=binding.get("role", "primary"),
         snapshot_path=str(snapshot.relative_to(ROOT)),
         snapshot_sha256=actual_sha,
         freshness_state=provenance.get("freshness", {}).get("state", "unknown"),
@@ -310,19 +317,33 @@ def resolve_binding(
     )
 
 
-def resolve_all() -> tuple[ResolvedMeasurement, ...]:
+def resolve_all_bindings() -> tuple[ResolvedMeasurement, ...]:
     bindings = load_bindings()
     registry = load_series_registry()
     indicators = load_indicator_catalog()
     return tuple(resolve_binding(binding, registry=registry, indicators=indicators) for binding in bindings)
 
 
+def resolve_all() -> tuple[ResolvedMeasurement, ...]:
+    """Return publication-primary measurements only."""
+    return tuple(item for item in resolve_all_bindings() if item.binding_role == "primary")
+
+
+def resolve_series(series_id: str) -> ResolvedMeasurement:
+    matches = [item for item in resolve_all_bindings() if item.series_id == series_id]
+    if not matches:
+        raise MeasurementResolutionError(f"no SeriesBinding for {series_id}")
+    if len(matches) != 1:
+        raise MeasurementResolutionError(f"ambiguous SeriesBinding for {series_id}: {len(matches)}")
+    return matches[0]
+
+
 def resolve_indicator(indicator_id: str) -> ResolvedMeasurement:
     matches = [item for item in resolve_all() if item.indicator_id == indicator_id]
     if not matches:
-        raise MeasurementResolutionError(f"no SeriesBinding for {indicator_id}")
+        raise MeasurementResolutionError(f"no primary SeriesBinding for {indicator_id}")
     if len(matches) != 1:
-        raise MeasurementResolutionError(f"ambiguous SeriesBinding for {indicator_id}: {len(matches)}")
+        raise MeasurementResolutionError(f"ambiguous primary SeriesBinding for {indicator_id}: {len(matches)}")
     return matches[0]
 
 

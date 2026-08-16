@@ -32,7 +32,7 @@ PLOT_INTENT_PATHS = (
     ROOT / "verticals/external_financial_constraint_vertical_v0_2/knowledge/plot_intents_v0_2.yaml",
 )
 ALLOWED_RENDERERS = {"timeseries_line", "timeseries_bar"}
-EXPECTED_ARTIFACTS = 25
+EXPECTED_ARTIFACTS = 35
 
 
 class MaterializationError(RuntimeError):
@@ -155,9 +155,10 @@ def apply_style(ax) -> None:
 
 
 DISPLAY_UNITS: dict[str, tuple[str, float, str]] = {
-    "percent_mom": ("Monthly change (%)", 1.0, "percent"),
+    "percent_mom": ("Monthly change (%)", 1.0, "percent_mom"),
+    "percent_yoy": ("Year-over-year (%)", 1.0, "percent_yoy"),
     "percent": ("Change (%)", 1.0, "percent"),
-    "percentage_points_change": ("Percentage points", 1.0, "percent"),
+    "percentage_points_change": ("Change in monthly inflation (pp)", 1.0, "percentage_points"),
     "percent_annualized": ("Annual rate (%)", 1.0, "percent"),
     "index": ("Index", 1.0, "index"),
     "real_index_or_ars": ("Real index (Dec 2023=100)", 1.0, "real_index"),
@@ -282,7 +283,9 @@ def render_figure(
     unit_summary = " · ".join(dict.fromkeys(label for _, _, _, label, _ in prepared))
     fig.text(0.09, 0.90, f"{frame['label']} · {unit_summary}", ha="left", fontsize=10.2, alpha=0.8)
     providers = sorted({source["provider"] for m in measurements for source in m.sources})
-    data_as_of = max(m.data_as_of for m in measurements)
+    # Publication data_as_of describes the observations actually visible in the figure,
+    # not the newest underlying snapshot. This matters for fixed historical frames.
+    data_as_of = max(max(dates) for _, dates, _, _, _ in prepared).isoformat()
     stale = any(m.freshness_state != "fresh" for m in measurements)
     source_name = ", ".join("BCRA" if p == "bcra_monetarias_v4" else "Datos Argentina" if p == "datos_argentina" else p for p in providers)
     footer = f"Source: {source_name} · data through {human_date(data_as_of)}"

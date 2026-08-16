@@ -1,0 +1,54 @@
+{
+  "canonical_indicator_id": "ci.ns.policy_rate_nominal",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 402,
+    "latest_observation": "2025-07-10",
+    "state": "stale_warning",
+    "warning_days": 10
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Series.xlsm",
+    "currency": "ML",
+    "description": "Interest Rates-Monetary policy rate",
+    "frequency": "daily",
+    "series_type": "Interest rates",
+    "time_index_end": "2025-07-10",
+    "time_index_start": "2015-12-16",
+    "title": "Interest Rates-Monetary policy rate",
+    "units": "Nominal annual interest rate"
+  },
+  "provider_series_id": "160",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_policy_rate.catalog.json",
+    "catalog_sha256": "772f484f4a3289fb503664ac90795040fa4a1d0226aa1de9efa6887830a5620a",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_policy_rate.methodology.json",
+    "methodology_sha256": "4c9856ecb9d7cecb3cdc9c3b2ad02e91e7cf438b3f96d71945e7976435d603c3",
+    "values_pages": [
+      {
+        "observation_rows": 2329,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_policy_rate.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/160?limit=3000&offset=0",
+        "sha256": "b96177d7579c7348c71c35af89dee522ee3c571ac0913489bf66d802a4eadbef"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=160&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/160",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/160?limit=3000&offset=0"
+    ]
+  },
+  "retrieved_at": "2026-08-16T12:17:51.931530Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.policy_rate",
+  "snapshot": {
+    "first_observation": "2015-12-16",
+    "latest_observation": "2025-07-10",
+    "observation_rows": 2329,
+    "path": "series/snapshots/bcra/series_ar_bcra_policy_rate.csv",
+    "sha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+  }
+}

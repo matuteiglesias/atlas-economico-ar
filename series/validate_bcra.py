@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline integrity validation for the frozen six-Series BCRA expansion batch."""
+"""Offline integrity validation for the frozen twelve-Series BCRA tranche."""
 from __future__ import annotations
 
 import csv
@@ -157,14 +157,14 @@ def validate_one(entry: dict[str, Any], provider_id: str) -> list[str]:
 def main() -> int:
     registry = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
     entries = registry.get("series", [])
-    if len(entries) != 6:
-        raise ValidationError(f"BCRA batch freeze requires exactly 6 Series, found {len(entries)}")
+    if len(entries) != 12:
+        raise ValidationError(f"BCRA tranche freeze requires exactly 12 Series, found {len(entries)}")
     if registry.get("provider", {}).get("id") != "bcra_monetarias_v4":
         raise ValidationError("BCRA batch provider mismatch")
-    if len({entry["provider_series_id"] for entry in entries}) != 6:
+    if len({entry["provider_series_id"] for entry in entries}) != 12:
         raise ValidationError("duplicate BCRA provider id")
-    if len({entry["canonical_indicator_id"] for entry in entries}) != 6:
-        raise ValidationError("BCRA batch must bind six distinct CanonicalIndicators")
+    if len({entry["canonical_indicator_id"] for entry in entries}) != 12:
+        raise ValidationError("BCRA tranche must map twelve distinct CanonicalIndicators")
 
     warnings: list[str] = []
     for entry in entries:
@@ -189,7 +189,7 @@ def main() -> int:
             f"extras={sorted(map(str, actual-expected))}"
         )
 
-    print("PASS: validated 6 authentic BCRA Series captures offline.")
+    print("PASS: validated 12 authentic BCRA Series captures offline.")
     for warning in warnings:
         print(f"WARNING: {warning}")
     return 0

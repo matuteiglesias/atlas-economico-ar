@@ -38,3 +38,10 @@ reference_frames:
   - id: rf.full_history
     label: Full available history
     kind: available_history
+
+  - id: rf.policy_rate_2023_12_to_2025_07
+    label: Dec 2023–Jul 2025 policy-rate window
+    kind: fixed
+    window:
+      start: '2023-12-01'
+      end: '2025-07-10'

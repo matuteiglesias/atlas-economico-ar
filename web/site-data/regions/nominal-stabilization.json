@@ -17,7 +17,7 @@
     "topics": 25,
     "questions": 18,
     "indicators": 43,
-    "charts": 60,
+    "charts": 65,
     "relations": 52
   },
   "topics": [
@@ -677,6 +677,55 @@
       }
     },
     {
+      "id": "pi.ns64",
+      "kind": "chart",
+      "slug": "bank-reserve-balances-at-the-bcra",
+      "title": "Bank reserve balances at the BCRA",
+      "href": "/charts/bank-reserve-balances-at-the-bcra",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.reserve_balances",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bank-reserve-balances-at-the-bcra.svg",
+        "png": "/plots/bank-reserve-balances-at-the-bcra.png",
+        "altText": "Bank reserve balances at the BCRA. BCRA peso deposits / reserve balances. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_peso_deposits"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.peso_deposits_at_bcra"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.peso_deposits_at_bcra": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "19",
+          "sourceUnit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.peso_deposits_at_bcra",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "19",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ns23",
       "kind": "chart",
       "slug": "bcra-daily-fx-purchases",
@@ -783,6 +832,53 @@
               "factor": 1000000
             },
             "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns63",
+      "kind": "chart",
+      "slug": "bcra-policy-rate-history",
+      "title": "BCRA policy rate history",
+      "href": "/charts/bcra-policy-rate-history",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.policy_rate",
+        "frameId": "rf.policy_rate_2023_12_to_2025_07",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2025-07-10",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-policy-rate-history.svg",
+        "png": "/plots/bcra-policy-rate-history.png",
+        "altText": "BCRA policy rate history. Nominal policy-relevant rate. Dec 2023–Jul 2025 policy-rate window. Data through 2025-07-10. At least one source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.policy_rate_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.policy_rate"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "160",
+          "sourceUnit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.policy_rate",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "160",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
           }
         ]
       }
@@ -937,7 +1033,61 @@
       "kind": "chart",
       "slug": "disinflation-since-december-2023",
       "title": "Disinflation since December 2023",
-      "href": "/charts/disinflation-since-december-2023"
+      "href": "/charts/disinflation-since-december-2023",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.disinflation_since_dec2023",
+        "frameId": "rf.since_dec_2023",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-31",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/disinflation-since-december-2023.svg",
+        "png": "/plots/disinflation-since-december-2023.png",
+        "altText": "Disinflation since December 2023. Monthly headline CPI inflation; Headline CPI inflation, year-over-year. Since Dec 2023. Data through 2026-07-31.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.cpi_yoy"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national",
+          "series.ar.bcra.cpi_yoy"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+          "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          },
+          {
+            "seriesId": "series.ar.bcra.cpi_yoy",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "28",
+            "sourceUnit": "In percentage",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns46",
@@ -1000,7 +1150,61 @@
       "kind": "chart",
       "slug": "headline-inflation-monthly-vs-year-over-year",
       "title": "Headline inflation: monthly vs year-over-year",
-      "href": "/charts/headline-inflation-monthly-vs-year-over-year"
+      "href": "/charts/headline-inflation-monthly-vs-year-over-year",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.inflation_monthly_yoy",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-31",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/headline-inflation-monthly-vs-year-over-year.svg",
+        "png": "/plots/headline-inflation-monthly-vs-year-over-year.png",
+        "altText": "Headline inflation: monthly vs year-over-year. Monthly headline CPI inflation; Headline CPI inflation, year-over-year. Last 5 years. Data through 2026-07-31.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.cpi_yoy"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national",
+          "series.ar.bcra.cpi_yoy"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+          "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          },
+          {
+            "seriesId": "series.ar.bcra.cpi_yoy",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "28",
+            "sourceUnit": "In percentage",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns05",
@@ -1028,7 +1232,50 @@
       "kind": "chart",
       "slug": "inflation-momentum-monthly-and-3-month-annualized",
       "title": "Inflation momentum: monthly and 3-month annualized",
-      "href": "/charts/inflation-momentum-monthly-and-3-month-annualized"
+      "href": "/charts/inflation-momentum-monthly-and-3-month-annualized",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.inflation_momentum",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/inflation-momentum-monthly-and-3-month-annualized.svg",
+        "png": "/plots/inflation-momentum-monthly-and-3-month-annualized.png",
+        "altText": "Inflation momentum: monthly and 3-month annualized. Monthly headline CPI inflation; Headline CPI, 3-month annualized. Last 5 years. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.cpi_3m_ann"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "datos_argentina",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns12",
@@ -1396,6 +1643,56 @@
       }
     },
     {
+      "id": "pi.ns65",
+      "kind": "chart",
+      "slug": "monthly-inflation-and-acceleration",
+      "title": "Monthly inflation and acceleration",
+      "href": "/charts/monthly-inflation-and-acceleration",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.inflation_acceleration",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monthly-inflation-and-acceleration.svg",
+        "png": "/plots/monthly-inflation-and-acceleration.png",
+        "altText": "Monthly inflation and acceleration. Monthly headline CPI inflation; Monthly inflation acceleration. Last 5 years. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.infl_acceleration"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "datos_argentina",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ns02",
       "kind": "chart",
       "slug": "monthly-inflation-with-acceleration-markers",
@@ -1659,7 +1956,60 @@
       "kind": "chart",
       "slug": "policy-relevant-rate-vs-money-market-rate",
       "title": "Policy-relevant rate vs money-market rate",
-      "href": "/charts/policy-relevant-rate-vs-money-market-rate"
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.policy_vs_baibar",
+        "frameId": "rf.policy_rate_2023_12_to_2025_07",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2025-07-10",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/policy-relevant-rate-vs-money-market-rate.svg",
+        "png": "/plots/policy-relevant-rate-vs-money-market-rate.png",
+        "altText": "Policy-relevant rate vs money-market rate. Nominal policy-relevant rate; Short money-market rate. Dec 2023–Jul 2025 policy-rate window. Data through 2025-07-10. At least one source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.policy_rate_nominal",
+          "ci.ns.money_market_rate"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.policy_rate",
+          "series.ar.bcra.baibar_rate"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af",
+          "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "160,11",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.policy_rate",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "160",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+          },
+          {
+            "seriesId": "series.ar.bcra.baibar_rate",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "11",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns16",
@@ -2005,6 +2355,113 @@
       "href": "/charts/rolling-fx-pass-through-estimate"
     },
     {
+      "id": "pi.ns62",
+      "kind": "chart",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/charts/tamar-ex-post-real-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.tamar_real_expost",
+        "frameId": "rf.last_12m",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/tamar-ex-post-real-rate.svg",
+        "png": "/plots/tamar-ex-post-real-rate.png",
+        "altText": "TAMAR ex-post real rate. TAMAR ex-post real rate. Last 12 months. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.tamar_real_expost"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.tamar_private_banks_apr",
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "44,145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.tamar_private_banks_apr",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "44",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns61",
+      "kind": "chart",
+      "slug": "tamar-private-bank-rate",
+      "title": "TAMAR private-bank rate",
+      "href": "/charts/tamar-private-bank-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.tamar",
+        "frameId": "rf.last_12m",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-13",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/tamar-private-bank-rate.svg",
+        "png": "/plots/tamar-private-bank-rate.png",
+        "altText": "TAMAR private-bank rate. TAMAR nominal rate. Last 12 months. Data through 2026-08-13.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.tamar_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.tamar_private_banks_apr"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "44",
+          "sourceUnit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.tamar_private_banks_apr",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "44",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ns36",
       "kind": "chart",
       "slug": "transactional-m2-nominal-and-real",
@@ -2077,11 +2534,11 @@
   "localGraph": {
     "nodes": [
       {
-        "id": "ns.policy_credibility",
+        "id": "ns.money_demand",
         "kind": "topic",
-        "slug": "policy-credibility",
-        "title": "Policy credibility",
-        "href": "/topics/policy-credibility"
+        "slug": "money-demand",
+        "title": "Money demand",
+        "href": "/topics/money-demand"
       },
       {
         "id": "ns.monetary_targeting_framework",
@@ -2091,11 +2548,88 @@
         "href": "/topics/monetary-targeting-framework"
       },
       {
-        "id": "ns.inflation_expectations",
+        "id": "ns.real_interest_rate",
         "kind": "topic",
-        "slug": "inflation-expectations",
-        "title": "Inflation expectations",
-        "href": "/topics/inflation-expectations"
+        "slug": "real-interest-rate",
+        "title": "Real interest rate",
+        "href": "/topics/real-interest-rate"
+      },
+      {
+        "id": "ns.nominal_exchange_rate",
+        "kind": "topic",
+        "slug": "nominal-exchange-rate",
+        "title": "Nominal exchange rate",
+        "href": "/topics/nominal-exchange-rate"
+      },
+      {
+        "id": "ns.relative_price_adjustment",
+        "kind": "topic",
+        "slug": "relative-price-adjustment",
+        "title": "Relative-price adjustment",
+        "href": "/topics/relative-price-adjustment"
+      },
+      {
+        "id": "ns.money_market_rate",
+        "kind": "topic",
+        "slug": "money-market-rate",
+        "title": "Money-market rate",
+        "href": "/topics/money-market-rate"
+      },
+      {
+        "id": "ns.fx_hedging_demand",
+        "kind": "topic",
+        "slug": "fx-hedging-demand",
+        "title": "FX hedging demand",
+        "href": "/topics/fx-hedging-demand"
+      },
+      {
+        "id": "ns.fx_gap",
+        "kind": "topic",
+        "slug": "fx-gap",
+        "title": "FX gap",
+        "href": "/topics/fx-gap"
+      },
+      {
+        "id": "ns.transactional_m2",
+        "kind": "topic",
+        "slug": "transactional-m2",
+        "title": "Transactional M2",
+        "href": "/topics/transactional-m2"
+      },
+      {
+        "id": "ns.core_inflation",
+        "kind": "topic",
+        "slug": "core-inflation",
+        "title": "Core inflation",
+        "href": "/topics/core-inflation"
+      },
+      {
+        "id": "ns.real_exchange_rate",
+        "kind": "topic",
+        "slug": "real-exchange-rate",
+        "title": "Real exchange rate",
+        "href": "/topics/real-exchange-rate"
+      },
+      {
+        "id": "ns.aggregate_demand_pressure",
+        "kind": "topic",
+        "slug": "aggregate-demand-pressure",
+        "title": "Aggregate-demand pressure",
+        "href": "/topics/aggregate-demand-pressure"
+      },
+      {
+        "id": "ns.policy_rate",
+        "kind": "topic",
+        "slug": "policy-interest-rate",
+        "title": "Policy interest rate",
+        "href": "/topics/policy-interest-rate"
+      },
+      {
+        "id": "ns.exchange_rate_band",
+        "kind": "topic",
+        "slug": "exchange-rate-band",
+        "title": "Exchange-rate band",
+        "href": "/topics/exchange-rate-band"
       },
       {
         "id": "ns.reserve_requirements",
@@ -2112,81 +2646,11 @@
         "href": "/topics/bcra-fx-operations"
       },
       {
-        "id": "ns.aggregate_demand_pressure",
+        "id": "ns.inflation_expectations",
         "kind": "topic",
-        "slug": "aggregate-demand-pressure",
-        "title": "Aggregate-demand pressure",
-        "href": "/topics/aggregate-demand-pressure"
-      },
-      {
-        "id": "ns.headline_inflation",
-        "kind": "topic",
-        "slug": "headline-inflation",
-        "title": "Headline inflation",
-        "href": "/topics/headline-inflation"
-      },
-      {
-        "id": "ns.real_interest_rate",
-        "kind": "topic",
-        "slug": "real-interest-rate",
-        "title": "Real interest rate",
-        "href": "/topics/real-interest-rate"
-      },
-      {
-        "id": "ns.inflation_inertia",
-        "kind": "topic",
-        "slug": "inflation-inertia",
-        "title": "Inflation inertia",
-        "href": "/topics/inflation-inertia"
-      },
-      {
-        "id": "ns.remonetization",
-        "kind": "topic",
-        "slug": "remonetization",
-        "title": "Remonetization",
-        "href": "/topics/remonetization"
-      },
-      {
-        "id": "ns.policy_rate",
-        "kind": "topic",
-        "slug": "policy-interest-rate",
-        "title": "Policy interest rate",
-        "href": "/topics/policy-interest-rate"
-      },
-      {
-        "id": "ns.core_inflation",
-        "kind": "topic",
-        "slug": "core-inflation",
-        "title": "Core inflation",
-        "href": "/topics/core-inflation"
-      },
-      {
-        "id": "ns.parallel_exchange_rate",
-        "kind": "topic",
-        "slug": "parallel-exchange-rate",
-        "title": "Parallel exchange rate",
-        "href": "/topics/parallel-exchange-rate"
-      },
-      {
-        "id": "ns.relative_price_adjustment",
-        "kind": "topic",
-        "slug": "relative-price-adjustment",
-        "title": "Relative-price adjustment",
-        "href": "/topics/relative-price-adjustment"
-      },
-      {
-        "id": "ns.transactional_m2",
-        "kind": "topic",
-        "slug": "transactional-m2",
-        "title": "Transactional M2",
-        "href": "/topics/transactional-m2"
-      },
-      {
-        "id": "ns.fx_hedging_demand",
-        "kind": "topic",
-        "slug": "fx-hedging-demand",
-        "title": "FX hedging demand",
-        "href": "/topics/fx-hedging-demand"
+        "slug": "inflation-expectations",
+        "title": "Inflation expectations",
+        "href": "/topics/inflation-expectations"
       },
       {
         "id": "ns.monetary_base",
@@ -2196,25 +2660,11 @@
         "href": "/topics/monetary-base"
       },
       {
-        "id": "ns.money_market_rate",
+        "id": "ns.inflation",
         "kind": "topic",
-        "slug": "money-market-rate",
-        "title": "Money-market rate",
-        "href": "/topics/money-market-rate"
-      },
-      {
-        "id": "ns.exchange_rate_band",
-        "kind": "topic",
-        "slug": "exchange-rate-band",
-        "title": "Exchange-rate band",
-        "href": "/topics/exchange-rate-band"
-      },
-      {
-        "id": "ns.nominal_exchange_rate",
-        "kind": "topic",
-        "slug": "nominal-exchange-rate",
-        "title": "Nominal exchange rate",
-        "href": "/topics/nominal-exchange-rate"
+        "slug": "inflation",
+        "title": "Inflation",
+        "href": "/topics/inflation"
       },
       {
         "id": "ns.fx_pass_through",
@@ -2224,32 +2674,39 @@
         "href": "/topics/fx-pass-through"
       },
       {
-        "id": "ns.inflation",
+        "id": "ns.headline_inflation",
         "kind": "topic",
-        "slug": "inflation",
-        "title": "Inflation",
-        "href": "/topics/inflation"
+        "slug": "headline-inflation",
+        "title": "Headline inflation",
+        "href": "/topics/headline-inflation"
       },
       {
-        "id": "ns.money_demand",
+        "id": "ns.remonetization",
         "kind": "topic",
-        "slug": "money-demand",
-        "title": "Money demand",
-        "href": "/topics/money-demand"
+        "slug": "remonetization",
+        "title": "Remonetization",
+        "href": "/topics/remonetization"
       },
       {
-        "id": "ns.fx_gap",
+        "id": "ns.parallel_exchange_rate",
         "kind": "topic",
-        "slug": "fx-gap",
-        "title": "FX gap",
-        "href": "/topics/fx-gap"
+        "slug": "parallel-exchange-rate",
+        "title": "Parallel exchange rate",
+        "href": "/topics/parallel-exchange-rate"
       },
       {
-        "id": "ns.real_exchange_rate",
+        "id": "ns.inflation_inertia",
         "kind": "topic",
-        "slug": "real-exchange-rate",
-        "title": "Real exchange rate",
-        "href": "/topics/real-exchange-rate"
+        "slug": "inflation-inertia",
+        "title": "Inflation inertia",
+        "href": "/topics/inflation-inertia"
+      },
+      {
+        "id": "ns.policy_credibility",
+        "kind": "topic",
+        "slug": "policy-credibility",
+        "title": "Policy credibility",
+        "href": "/topics/policy-credibility"
       }
     ],
     "edges": [

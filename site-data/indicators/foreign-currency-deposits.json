@@ -43,6 +43,55 @@
       "slug": "fx-deposits-in-the-domestic-financial-system",
       "title": "FX deposits in the domestic financial system",
       "href": "/charts/fx-deposits-in-the-domestic-financial-system"
+    },
+    {
+      "id": "pi.ef50",
+      "kind": "chart",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/charts/foreign-currency-deposits",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.fx_deposits",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/foreign-currency-deposits.svg",
+        "png": "/plots/foreign-currency-deposits.png",
+        "altText": "Foreign-currency deposits. Foreign-currency deposits. Last 5 years. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.fx_deposits_usd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_deposits_private_sector"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "108",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_deposits_private_sector",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "108",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+          }
+        ]
+      }
     }
   ],
   "derivedAsInput": [
@@ -57,6 +106,56 @@
       "title": "Foreign-currency deposits",
       "href": "/topics/foreign-currency-deposits",
       "distance": 1
+    },
+    {
+      "id": "pi.ef50",
+      "kind": "chart",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/charts/foreign-currency-deposits",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra2.fx_deposits",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/foreign-currency-deposits.svg",
+        "png": "/plots/foreign-currency-deposits.png",
+        "altText": "Foreign-currency deposits. Foreign-currency deposits. Last 5 years. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.fx_deposits_usd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_deposits_private_sector"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "108",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_deposits_private_sector",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "108",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ef33",
@@ -92,7 +191,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 2,
     "derivedAsInput": 1,
     "derivedAsOutput": 0
   }

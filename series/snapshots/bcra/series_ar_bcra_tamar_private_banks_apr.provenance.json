@@ -1,0 +1,54 @@
+{
+  "canonical_indicator_id": "ci.ns.tamar_nominal",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 3,
+    "latest_observation": "2026-08-13",
+    "state": "fresh",
+    "warning_days": 10
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Main variables",
+    "currency": "ML",
+    "description": "TAMAR Rate in Pesos at Private Banks (APR %)",
+    "frequency": "daily",
+    "series_type": "Interest rates",
+    "time_index_end": "2026-08-13",
+    "time_index_start": "2024-10-01",
+    "title": "TAMAR Rate in Pesos at Private Banks (APR %)",
+    "units": "Nominal annual interest rate"
+  },
+  "provider_series_id": "44",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_tamar_private_banks_apr.catalog.json",
+    "catalog_sha256": "30807696e6cf9a6eca06f0acc6817995c7c79e93584aaa9b67c078f52367688c",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_tamar_private_banks_apr.methodology.json",
+    "methodology_sha256": "18bde5b430f4bd79c695346671519d8e79b01ef0bb1e9f2044d1ed1df7f47826",
+    "values_pages": [
+      {
+        "observation_rows": 449,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_tamar_private_banks_apr.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/44?limit=3000&offset=0",
+        "sha256": "30e2ef219746892c0eacfe9e8d3b1e807ec1d5f3cf28c7c60b02d8c1fb51992b"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=44&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/44",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/44?limit=3000&offset=0"
+    ]
+  },
+  "retrieved_at": "2026-08-16T12:17:51.931530Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.tamar_private_banks_apr",
+  "snapshot": {
+    "first_observation": "2024-10-01",
+    "latest_observation": "2026-08-13",
+    "observation_rows": 449,
+    "path": "series/snapshots/bcra/series_ar_bcra_tamar_private_banks_apr.csv",
+    "sha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+  }
+}

@@ -60,6 +60,60 @@
       "expected_frequency": "daily",
       "freshness_warning_days": 10,
       "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.peso_deposits_at_bcra",
+      "provider_series_id": "19",
+      "canonical_indicator_id": "ci.ns.bcra_peso_deposits",
+      "label": "Banks' peso deposits with the BCRA",
+      "expected_frequency": "daily",
+      "freshness_warning_days": 10,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.cpi_monthly",
+      "provider_series_id": "27",
+      "canonical_indicator_id": "ci.ns.cpi_monthly",
+      "label": "BCRA monthly inflation",
+      "expected_frequency": "monthly",
+      "freshness_warning_days": 75,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.cpi_yoy",
+      "provider_series_id": "28",
+      "canonical_indicator_id": "ci.ns.cpi_yoy",
+      "label": "BCRA year-on-year inflation",
+      "expected_frequency": "monthly",
+      "freshness_warning_days": 75,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.tamar_private_banks_apr",
+      "provider_series_id": "44",
+      "canonical_indicator_id": "ci.ns.tamar_nominal",
+      "label": "TAMAR private banks APR",
+      "expected_frequency": "daily",
+      "freshness_warning_days": 10,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.fx_deposits_private_sector",
+      "provider_series_id": "108",
+      "canonical_indicator_id": "ci.ef.fx_deposits_usd",
+      "label": "Private-sector foreign-currency deposits",
+      "expected_frequency": "daily",
+      "freshness_warning_days": 10,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.policy_rate",
+      "provider_series_id": "160",
+      "canonical_indicator_id": "ci.ns.policy_rate_nominal",
+      "label": "BCRA monetary policy rate",
+      "expected_frequency": "daily",
+      "freshness_warning_days": 10,
+      "snapshot_subdir": "bcra"
     }
   ]
 }

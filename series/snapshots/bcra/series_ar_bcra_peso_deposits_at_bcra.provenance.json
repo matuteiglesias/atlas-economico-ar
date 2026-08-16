@@ -1,0 +1,68 @@
+{
+  "canonical_indicator_id": "ci.ns.bcra_peso_deposits",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 4,
+    "latest_observation": "2026-08-12",
+    "state": "fresh",
+    "warning_days": 10
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Main variables",
+    "currency": "ML",
+    "description": "Banks’ Deposits in Current Accounts in Pesos with the BCRA",
+    "frequency": "daily",
+    "series_type": "Stocks",
+    "time_index_end": "2026-08-12",
+    "time_index_start": "2001-06-01",
+    "title": "Banks’ Deposits in Current Accounts in Pesos with the BCRA",
+    "units": "Millons pesos"
+  },
+  "provider_series_id": "19",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_peso_deposits_at_bcra.catalog.json",
+    "catalog_sha256": "e4401a59fd41df8761781378025db588a356b035627eeeb9551c111d642c00ed",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_peso_deposits_at_bcra.methodology.json",
+    "methodology_sha256": "8961c6789fa54ab6f5e02f0bedc26d0d4604987a08855861cc806fee251f81dd",
+    "values_pages": [
+      {
+        "observation_rows": 3000,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_peso_deposits_at_bcra.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/19?limit=3000&offset=0",
+        "sha256": "25e665d536e3e84df9688d8e12ad9e87baf942d3d27b837418b314550d9bf917"
+      },
+      {
+        "observation_rows": 3000,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_peso_deposits_at_bcra.values.page-0001.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/19?limit=3000&offset=3000",
+        "sha256": "4fd64de8b398c9a2ec23139cb69383288367e8a4a649606d4b26a8cb82d700de"
+      },
+      {
+        "observation_rows": 184,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_peso_deposits_at_bcra.values.page-0002.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/19?limit=3000&offset=6000",
+        "sha256": "60e50bf6c5966ff9e78c7d7219afeed9fa2679058e00e5010c9b434cfefc8198"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=19&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/19",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/19?limit=3000&offset=0",
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/19?limit=3000&offset=3000",
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/19?limit=3000&offset=6000"
+    ]
+  },
+  "retrieved_at": "2026-08-16T12:17:51.931530Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.peso_deposits_at_bcra",
+  "snapshot": {
+    "first_observation": "2001-06-01",
+    "latest_observation": "2026-08-12",
+    "observation_rows": 6184,
+    "path": "series/snapshots/bcra/series_ar_bcra_peso_deposits_at_bcra.csv",
+    "sha256": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
+  }
+}

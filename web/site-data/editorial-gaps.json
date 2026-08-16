@@ -2171,6 +2171,56 @@
       ]
     },
     {
+      "id": "pi.ns61",
+      "kind": "chart",
+      "slug": "tamar-private-bank-rate",
+      "title": "TAMAR private-bank rate",
+      "href": "/charts/tamar-private-bank-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns62",
+      "kind": "chart",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/charts/tamar-ex-post-real-rate",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns63",
+      "kind": "chart",
+      "slug": "bcra-policy-rate-history",
+      "title": "BCRA policy rate history",
+      "href": "/charts/bcra-policy-rate-history",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns64",
+      "kind": "chart",
+      "slug": "bank-reserve-balances-at-the-bcra",
+      "title": "Bank reserve balances at the BCRA",
+      "href": "/charts/bank-reserve-balances-at-the-bcra",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ns65",
+      "kind": "chart",
+      "slug": "monthly-inflation-and-acceleration",
+      "title": "Monthly inflation and acceleration",
+      "href": "/charts/monthly-inflation-and-acceleration",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
       "id": "pi.ef29",
       "kind": "chart",
       "slug": "private-credit-as-a-share-of-gdp",
@@ -2379,7 +2429,17 @@
       "missing": [
         "intro"
       ]
+    },
+    {
+      "id": "pi.ef50",
+      "kind": "chart",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/charts/foreign-currency-deposits",
+      "missing": [
+        "intro"
+      ]
     }
   ],
-  "count": 228
+  "count": 234
 }

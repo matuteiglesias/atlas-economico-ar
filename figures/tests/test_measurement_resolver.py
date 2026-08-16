@@ -17,8 +17,8 @@ class MeasurementResolverTests(unittest.TestCase):
     def setUpClass(cls):
         cls.measurements = {item.indicator_id: item for item in resolver.resolve_all()}
 
-    def test_nine_direct_measurements_resolve(self):
-        self.assertEqual(len(self.measurements), 9)
+    def test_fourteen_primary_direct_measurements_resolve(self):
+        self.assertEqual(len(self.measurements), 14)
         expected = {
             "ci.ns.cpi_monthly",
             "ci.ns.reer_index",
@@ -29,6 +29,11 @@ class MeasurementResolverTests(unittest.TestCase):
             "ci.ns.monetary_base_nominal",
             "ci.ns.bcra_fx_purchases_daily",
             "ci.ns.transactional_m2_nominal",
+            "ci.ns.cpi_yoy",
+            "ci.ns.tamar_nominal",
+            "ci.ns.policy_rate_nominal",
+            "ci.ns.bcra_peso_deposits",
+            "ci.ef.fx_deposits_usd",
         }
         self.assertEqual(set(self.measurements), expected)
 
@@ -57,10 +62,23 @@ class MeasurementResolverTests(unittest.TestCase):
         )
         self.assertEqual(self.measurements["ci.ns.official_fx"].normalization, {"kind": "identity"})
 
-    def test_all_bcra_sources_are_fresh(self):
+    def test_bcra_primary_freshness_is_explicit(self):
         bcra = [m for m in self.measurements.values() if m.provider == "bcra_monetarias_v4"]
-        self.assertEqual(len(bcra), 6)
-        self.assertTrue(all(m.freshness_state == "fresh" for m in bcra))
+        self.assertEqual(len(bcra), 11)
+        policy = self.measurements["ci.ns.policy_rate_nominal"]
+        self.assertEqual(policy.freshness_state, "stale_warning")
+        self.assertTrue(
+            all(m.freshness_state == "fresh" for m in bcra if m.indicator_id != "ci.ns.policy_rate_nominal")
+        )
+
+    def test_bcra_monthly_cpi_is_authenticated_alternate(self):
+        primary = resolver.resolve_indicator("ci.ns.cpi_monthly")
+        alternate = resolver.resolve_series("series.ar.bcra.cpi_monthly")
+        self.assertEqual(primary.provider, "datos_argentina")
+        self.assertEqual(primary.binding_role, "primary")
+        self.assertEqual(alternate.indicator_id, "ci.ns.cpi_monthly")
+        self.assertEqual(alternate.provider, "bcra_monetarias_v4")
+        self.assertEqual(alternate.binding_role, "alternate")
 
     def test_derived_products_are_resolvable(self):
         expected = {
@@ -70,6 +88,9 @@ class MeasurementResolverTests(unittest.TestCase):
             "ci.ns.bcra_fx_purchases_cumulative": "daily",
             "ci.ns.monetary_base_real": "monthly",
             "ci.ns.transactional_m2_real": "monthly",
+            "ci.ns.cpi_3m_ann": "monthly",
+            "ci.ns.infl_acceleration": "monthly",
+            "ci.ns.tamar_real_expost": "monthly",
         }
         for indicator_id, frequency in expected.items():
             item = resolve_measurement(indicator_id)

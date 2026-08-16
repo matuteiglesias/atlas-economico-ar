@@ -2178,6 +2178,51 @@
     "text": "BAIBAR interbank rate Track the short-term interbank money-market rate directly; volatility is not inferred from the level alone. Track the short-term interbank money-market rate directly; volatility is not inferred from the level alone."
   },
   {
+    "id": "pi.ns61",
+    "kind": "chart",
+    "slug": "tamar-private-bank-rate",
+    "title": "TAMAR private-bank rate",
+    "href": "/charts/tamar-private-bank-rate",
+    "regionId": "nominal_stabilization",
+    "text": "TAMAR private-bank rate Track the TAMAR nominal annual rate directly without requiring an expectations series. Track the TAMAR nominal annual rate directly without requiring an expectations series."
+  },
+  {
+    "id": "pi.ns62",
+    "kind": "chart",
+    "slug": "tamar-ex-post-real-rate",
+    "title": "TAMAR ex-post real rate",
+    "href": "/charts/tamar-ex-post-real-rate",
+    "regionId": "nominal_stabilization",
+    "text": "TAMAR ex-post real rate Compare the TAMAR annual return with realized monthly CPI inflation on an explicit annualized real-rate basis. Compare the TAMAR annual return with realized monthly CPI inflation on an explicit annualized real-rate basis."
+  },
+  {
+    "id": "pi.ns63",
+    "kind": "chart",
+    "slug": "bcra-policy-rate-history",
+    "title": "BCRA policy rate history",
+    "href": "/charts/bcra-policy-rate-history",
+    "regionId": "nominal_stabilization",
+    "text": "BCRA policy rate history Preserve the observed BCRA policy-rate history through the final provider observation without implying that the discontinued series is current. Preserve the observed BCRA policy-rate history through the final provider observation without implying that the discontinued series is current."
+  },
+  {
+    "id": "pi.ns64",
+    "kind": "chart",
+    "slug": "bank-reserve-balances-at-the-bcra",
+    "title": "Bank reserve balances at the BCRA",
+    "href": "/charts/bank-reserve-balances-at-the-bcra",
+    "regionId": "nominal_stabilization",
+    "text": "Bank reserve balances at the BCRA Track banks' peso deposit balances held at the BCRA directly, without inferring a reserve-requirement ratio. Track banks' peso deposit balances held at the BCRA directly, without inferring a reserve-requirement ratio."
+  },
+  {
+    "id": "pi.ns65",
+    "kind": "chart",
+    "slug": "monthly-inflation-and-acceleration",
+    "title": "Monthly inflation and acceleration",
+    "href": "/charts/monthly-inflation-and-acceleration",
+    "regionId": "nominal_stabilization",
+    "text": "Monthly inflation and acceleration Show the monthly inflation rate together with its month-to-month change in percentage points. Show the monthly inflation rate together with its month-to-month change in percentage points."
+  },
+  {
     "id": "pi.ef01",
     "kind": "chart",
     "slug": "gross-reserves-nir-and-liquid-buffers",
@@ -2617,5 +2662,14 @@
     "href": "/charts/bcra-fx-purchases-and-gross-reserves",
     "regionId": "external_financial_constraint",
     "text": "BCRA FX purchases and gross reserves Place daily FX-purchase flows beside the gross reserve stock, using separate axes and no causal claim. Place daily FX-purchase flows beside the gross reserve stock, using separate axes and no causal claim."
+  },
+  {
+    "id": "pi.ef50",
+    "kind": "chart",
+    "slug": "foreign-currency-deposits",
+    "title": "Foreign-currency deposits",
+    "href": "/charts/foreign-currency-deposits",
+    "regionId": "external_financial_constraint",
+    "text": "Foreign-currency deposits Track the private-sector foreign-currency deposit stock directly in USD billions; the deposit share remains a separate unresolved measurement. Track the private-sector foreign-currency deposit stock directly in USD billions; the deposit share remains a separate unresolved measurement."
   }
 ]

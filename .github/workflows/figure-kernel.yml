@@ -44,11 +44,11 @@ jobs:
           from pathlib import Path
           root = Path('plot-artifacts')
           manifest = json.loads((root / 'manifest.json').read_text())
-          assert manifest['artifact_count'] == 25
-          assert len(list((root / 'svg').glob('*.svg'))) == 25
-          assert len(list((root / 'png').glob('*.png'))) == 25
-          assert len(list((root / 'metadata').glob('*.json'))) == 25
-          print('PASS: exactly 25 published figure artifacts')
+          assert manifest['artifact_count'] == 35
+          assert len(list((root / 'svg').glob('*.svg'))) == 35
+          assert len(list((root / 'png').glob('*.png'))) == 35
+          assert len(list((root / 'metadata').glob('*.json'))) == 35
+          print('PASS: exactly 35 published figure artifacts')
           PY
       - uses: actions/upload-artifact@v4
         with:

@@ -43,6 +43,53 @@
       "slug": "nominal-rates-vs-expected-inflation",
       "title": "Nominal rates vs expected inflation",
       "href": "/charts/nominal-rates-vs-expected-inflation"
+    },
+    {
+      "id": "pi.ns61",
+      "kind": "chart",
+      "slug": "tamar-private-bank-rate",
+      "title": "TAMAR private-bank rate",
+      "href": "/charts/tamar-private-bank-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.tamar",
+        "frameId": "rf.last_12m",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-13",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/tamar-private-bank-rate.svg",
+        "png": "/plots/tamar-private-bank-rate.png",
+        "altText": "TAMAR private-bank rate. TAMAR nominal rate. Last 12 months. Data through 2026-08-13.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.tamar_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.tamar_private_banks_apr"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "44",
+          "sourceUnit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.tamar_private_banks_apr",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "44",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+          }
+        ]
+      }
     }
   ],
   "derivedAsInput": [
@@ -66,6 +113,54 @@
       "title": "Nominal rates vs expected inflation",
       "href": "/charts/nominal-rates-vs-expected-inflation",
       "distance": 1
+    },
+    {
+      "id": "pi.ns61",
+      "kind": "chart",
+      "slug": "tamar-private-bank-rate",
+      "title": "TAMAR private-bank rate",
+      "href": "/charts/tamar-private-bank-rate",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra2.tamar",
+        "frameId": "rf.last_12m",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-13",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/tamar-private-bank-rate.svg",
+        "png": "/plots/tamar-private-bank-rate.png",
+        "altText": "TAMAR private-bank rate. TAMAR nominal rate. Last 12 months. Data through 2026-08-13.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.tamar_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.tamar_private_banks_apr"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "44",
+          "sourceUnit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.tamar_private_banks_apr",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "44",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+          }
+        ]
+      }
     },
     {
       "id": "q.ns12",
@@ -106,18 +201,10 @@
       "title": "Policy credibility",
       "href": "/topics/policy-credibility",
       "distance": 2
-    },
-    {
-      "id": "ns.policy_rate",
-      "kind": "topic",
-      "slug": "policy-interest-rate",
-      "title": "Policy interest rate",
-      "href": "/topics/policy-interest-rate",
-      "distance": 2
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 2,
     "derivedAsInput": 2,
     "derivedAsOutput": 0
   }

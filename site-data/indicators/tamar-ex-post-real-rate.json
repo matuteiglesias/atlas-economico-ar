@@ -43,6 +43,66 @@
       "slug": "ex-ante-vs-ex-post-real-rates",
       "title": "Ex-ante vs ex-post real rates",
       "href": "/charts/ex-ante-vs-ex-post-real-rates"
+    },
+    {
+      "id": "pi.ns62",
+      "kind": "chart",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/charts/tamar-ex-post-real-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.tamar_real_expost",
+        "frameId": "rf.last_12m",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/tamar-ex-post-real-rate.svg",
+        "png": "/plots/tamar-ex-post-real-rate.png",
+        "altText": "TAMAR ex-post real rate. TAMAR ex-post real rate. Last 12 months. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.tamar_real_expost"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.tamar_private_banks_apr",
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "44,145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.tamar_private_banks_apr",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "44",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
     }
   ],
   "derivedAsInput": [],
@@ -65,6 +125,67 @@
       "title": "Ex-ante vs ex-post real rates",
       "href": "/charts/ex-ante-vs-ex-post-real-rates",
       "distance": 1
+    },
+    {
+      "id": "pi.ns62",
+      "kind": "chart",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/charts/tamar-ex-post-real-rate",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra2.tamar_real_expost",
+        "frameId": "rf.last_12m",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/tamar-ex-post-real-rate.svg",
+        "png": "/plots/tamar-ex-post-real-rate.png",
+        "altText": "TAMAR ex-post real rate. TAMAR ex-post real rate. Last 12 months. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.tamar_real_expost"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.tamar_private_banks_apr",
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "44,145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.tamar_private_banks_apr",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "44",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
     },
     {
       "id": "q.ns12",
@@ -105,18 +226,10 @@
       "title": "Policy interest rate",
       "href": "/topics/policy-interest-rate",
       "distance": 2
-    },
-    {
-      "id": "ci.ns.tamar_real_exante",
-      "kind": "indicator",
-      "slug": "tamar-ex-ante-real-rate",
-      "title": "TAMAR ex-ante real rate",
-      "href": "/indicators/tamar-ex-ante-real-rate",
-      "distance": 2
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 2,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }
