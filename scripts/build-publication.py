@@ -25,10 +25,14 @@ VERTICALS = (
 )
 EDITORIAL = ROOT / "verticals/external_financial_constraint_vertical_v0_2/editorial/atlas_en_v0_2.yaml"
 ARTIFACT_MANIFEST = ROOT / "plot-artifacts/manifest.json"
+PUBLICATION_QA = ROOT / "figures/publication_qa.yaml"
 PUBLICATION_SCHEMA_VERSION = "0.2"
 EXPECTED_CHARTS = 115
 EXPECTED_INDICATORS = 83
 EXPECTED_ARTIFACTS = 35
+EXPECTED_PROMINENT_ARTIFACTS = 31
+EXPECTED_QUARANTINED_ARTIFACTS = 4
+EXPECTED_HISTORICAL_ARTIFACTS = 2
 
 
 class PublicationError(RuntimeError):
@@ -57,7 +61,23 @@ def load_vertical_with_additions(root: Path) -> dict[str, list[dict[str, Any]]]:
     return vertical
 
 
-def public_artifact(artifact: dict[str, Any]) -> dict[str, Any]:
+def load_publication_qa(path: Path) -> dict[str, dict[str, Any]]:
+    doc = load_yaml(path) or {}
+    if str(doc.get("schema_version")) != "0.1" or doc.get("default_status") != "publish":
+        raise PublicationError("publication QA policy contract mismatch")
+    reviews = doc.get("reviews")
+    if not isinstance(reviews, list):
+        raise PublicationError("publication QA reviews must be a list")
+    result: dict[str, dict[str, Any]] = {}
+    for review in reviews:
+        pid = review.get("plot_intent_id") if isinstance(review, dict) else None
+        if not isinstance(pid, str) or pid in result:
+            raise PublicationError(f"invalid/duplicate publication QA review: {pid!r}")
+        result[pid] = review
+    return result
+
+
+def public_artifact(artifact: dict[str, Any], review: dict[str, Any] | None = None) -> dict[str, Any]:
     outputs = artifact.get("outputs") or {}
     svg, png = Path(str(outputs.get("svg", ""))), Path(str(outputs.get("png", "")))
     if svg.suffix != ".svg" or png.suffix != ".png":
@@ -94,11 +114,17 @@ def public_artifact(artifact: dict[str, Any]) -> dict[str, Any]:
             }
             for source in artifact["sources"]
         ]
+    if review is not None:
+        public["publicationStatus"] = review["status"]
+        public["qaNote"] = review["note"]
+        if review.get("preferred_plot_intent_id"):
+            public["preferredPlotIntentId"] = review["preferred_plot_intent_id"]
     return public
 
 
 def load_artifacts(path: Path) -> dict[str, dict[str, Any]]:
     doc = json.loads(path.read_text(encoding="utf-8"))
+    qa = load_publication_qa(PUBLICATION_QA)
     artifacts = doc.get("artifacts")
     if str(doc.get("schema_version")) != PUBLICATION_SCHEMA_VERSION:
         raise PublicationError("PlotArtifact schema mismatch")
@@ -116,7 +142,10 @@ def load_artifacts(path: Path) -> dict[str, dict[str, Any]]:
         for output in artifact["outputs"].values():
             if not (ROOT / output).is_file():
                 raise PublicationError(f"{pid}: artifact output missing: {output}")
-        result[pid] = public_artifact(artifact)
+        result[pid] = public_artifact(artifact, qa.get(pid))
+    missing_reviews = sorted(set(qa) - set(result))
+    if missing_reviews:
+        raise PublicationError(f"publication QA reviews lack PlotArtifacts: {missing_reviews}")
     return result
 
 
@@ -146,15 +175,25 @@ def join_artifacts(out: Path, artifacts: dict[str, dict[str, Any]]) -> None:
             attach_artifact_refs(page, artifacts)
             path.write_text(json.dumps(page, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    quarantined = sum(artifact.get("publicationStatus") == "quarantine" for artifact in artifacts.values())
+    historical = sum(artifact.get("publicationStatus") == "historical" for artifact in artifacts.values())
+    prominent = len(artifacts) - quarantined
+
     manifest_path = out / "manifest.json"
     manifest = json.loads(manifest_path.read_text())
     manifest["publicationSchemaVersion"] = PUBLICATION_SCHEMA_VERSION
     manifest["plotArtifacts"] = len(artifacts)
+    manifest["prominentPlotArtifacts"] = prominent
+    manifest["quarantinedPlotArtifacts"] = quarantined
+    manifest["historicalPlotArtifacts"] = historical
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
 
     stats_path = out / "stats.json"
     stats = json.loads(stats_path.read_text())
     stats["plot_artifacts"] = len(artifacts)
+    stats["prominent_plot_artifacts"] = prominent
+    stats["quarantined_plot_artifacts"] = quarantined
+    stats["historical_plot_artifacts"] = historical
     stats_path.write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n")
 
 
@@ -179,6 +218,12 @@ def build(output: Path) -> dict[str, Any]:
         )
     if stats["plot_artifacts"] != EXPECTED_ARTIFACTS:
         raise PublicationError("PlotArtifact count mismatch")
+    if stats["prominent_plot_artifacts"] != EXPECTED_PROMINENT_ARTIFACTS:
+        raise PublicationError("prominent PlotArtifact count mismatch")
+    if stats["quarantined_plot_artifacts"] != EXPECTED_QUARANTINED_ARTIFACTS:
+        raise PublicationError("quarantined PlotArtifact count mismatch")
+    if stats["historical_plot_artifacts"] != EXPECTED_HISTORICAL_ARTIFACTS:
+        raise PublicationError("historical PlotArtifact count mismatch")
     shutil.rmtree(output, ignore_errors=True)
     build_dir.replace(output)
     return manifest
@@ -193,7 +238,8 @@ def main() -> int:
     stats = json.loads((output / "stats.json").read_text())
     print(
         f"PASS: publication compiled ({stats['counts']['chart']} charts, "
-        f"{stats['counts']['indicator']} indicators, {stats['plot_artifacts']} PlotArtifacts)"
+        f"{stats['counts']['indicator']} indicators, {stats['plot_artifacts']} PlotArtifacts; "
+        f"{stats['prominent_plot_artifacts']} prominent / {stats['quarantined_plot_artifacts']} quarantined)"
     )
     return 0
 

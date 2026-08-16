@@ -11,5 +11,8 @@
     "edges": 653
   },
   "verticals_loaded": 2,
-  "plot_artifacts": 35
+  "plot_artifacts": 35,
+  "prominent_plot_artifacts": 31,
+  "quarantined_plot_artifacts": 4,
+  "historical_plot_artifacts": 2
 }

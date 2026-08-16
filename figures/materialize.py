@@ -260,6 +260,8 @@ def render_figure(
     else:
         for index, (measurement, dates, values, _, family) in enumerate(prepared):
             kwargs = {"color": series_color(index)} if palette else {}
+            if spec.get("overrides", {}).get("step"):
+                kwargs["drawstyle"] = "steps-post"
             (line,) = axes[family].plot(
                 dates, values, linewidth=2.0, label=measurement.indicator_label, **kwargs
             )

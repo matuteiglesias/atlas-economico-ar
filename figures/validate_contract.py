@@ -182,9 +182,12 @@ def validate_chart_spec(spec: dict[str, Any], frame_ids: set[str], renderer_ids:
         require(isinstance(annotation["label"], str) and annotation["label"].strip(), f"{ann_source}: label required")
     overrides = spec.get("overrides", {})
     require(isinstance(overrides, dict), f"{source}: overrides must be a mapping")
-    require(set(overrides) <= {"zero_baseline"}, f"{source}: only zero_baseline override exists in v0.2")
+    require(set(overrides) <= {"zero_baseline", "step"}, f"{source}: only zero_baseline/step overrides exist in v0.2")
     if "zero_baseline" in overrides:
         require(isinstance(overrides["zero_baseline"], bool), f"{source}: zero_baseline must be boolean")
+    if "step" in overrides:
+        require(isinstance(overrides["step"], bool), f"{source}: step must be boolean")
+        require(spec["renderer"] == "timeseries_line", f"{source}: step is only valid for timeseries_line")
 
 
 def validate_plot_artifact(artifact: dict[str, Any], frame_ids: set[str], source: str = "plot_artifact") -> None:

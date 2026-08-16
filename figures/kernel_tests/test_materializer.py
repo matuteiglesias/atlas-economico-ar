@@ -29,6 +29,9 @@ class FigureKernelTests(unittest.TestCase):
             validate_contract.validate_chart_spec(
                 spec, frame_ids, renderer_ids, f"active.chart_specs[{index}]"
             )
+        by_intent = {spec["plot_intent_id"]: spec for spec in specs}
+        self.assertEqual(by_intent["pi.ns01"]["frame_id"], "rf.since_dec_2023")
+        self.assertTrue(by_intent["pi.ns63"]["overrides"]["step"])
 
     def test_every_active_intent_is_measurement_ready(self):
         intents = materialize.load_plot_intents()

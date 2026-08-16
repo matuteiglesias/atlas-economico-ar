@@ -221,7 +221,10 @@
             },
             "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the common-base real-index comparison for analytical publication.",
+        "preferredPlotIntentId": "pi.ns41"
       }
     }
   ],
@@ -300,7 +303,10 @@
             },
             "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the common-base real-index comparison for analytical publication.",
+        "preferredPlotIntentId": "pi.ns41"
       }
     },
     {

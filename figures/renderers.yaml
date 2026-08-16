@@ -7,6 +7,7 @@ renderers:
       - one_or_more_series
       - temporal_frame
       - inline_annotations
+      - optional_step_geometry
       - svg_output
       - png_output
     responsibilities:
