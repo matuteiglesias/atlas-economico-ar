@@ -24,10 +24,13 @@ class BCRAFXPurchaseSemanticsTests(unittest.TestCase):
 
         values: list[Decimal] = []
         with SNAPSHOT.open(encoding="utf-8", newline="") as handle:
-            for row in csv.reader(handle):
-                if not row:
-                    continue
-                values.append(Decimal(row[1]))
+            rows = csv.DictReader(handle)
+            self.assertEqual(
+                rows.fieldnames,
+                ["date", "value", "series_id", "provider_series_id"],
+            )
+            for row in rows:
+                values.append(Decimal(row["value"]))
 
         self.assertTrue(values)
         self.assertLess(min(values), Decimal("0"), "historical BCRA sales must remain negative")
