@@ -1,7 +1,7 @@
 schema_version: '0.2'
 status: active_bcra_batch_v0_2
 chart_specs:
-  - {id: cs.bcra2.inflation_momentum, plot_intent_id: pi.ns01, renderer: timeseries_line, frame_id: rf.since_dec_2023}
+  - {id: cs.bcra2.inflation_momentum, plot_intent_id: pi.ns01, renderer: timeseries_line, frame_id: rf.last_18m}
   - {id: cs.bcra2.inflation_monthly_yoy, plot_intent_id: pi.ns03, renderer: timeseries_line, frame_id: rf.last_5y}
   - {id: cs.bcra2.disinflation_since_dec2023, plot_intent_id: pi.ns04, renderer: timeseries_line, frame_id: rf.since_dec_2023}
   - {id: cs.bcra2.policy_vs_baibar, plot_intent_id: pi.ns31, renderer: timeseries_line, frame_id: rf.policy_rate_2023_12_to_2025_07}
