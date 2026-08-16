@@ -135,7 +135,60 @@
       "kind": "chart",
       "slug": "policy-relevant-rate-vs-money-market-rate",
       "title": "Policy-relevant rate vs money-market rate",
-      "href": "/charts/policy-relevant-rate-vs-money-market-rate"
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.policy_vs_baibar",
+        "frameId": "rf.policy_rate_2023_12_to_2025_07",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-13",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/policy-relevant-rate-vs-money-market-rate.svg",
+        "png": "/plots/policy-relevant-rate-vs-money-market-rate.png",
+        "altText": "Policy-relevant rate vs money-market rate. Nominal policy-relevant rate; Short money-market rate. Dec 2023–Jul 2025 policy-rate window. Data through 2026-08-13. At least one source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.policy_rate_nominal",
+          "ci.ns.money_market_rate"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.policy_rate",
+          "series.ar.bcra.baibar_rate"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af",
+          "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "160,11",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.policy_rate",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "160",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+          },
+          {
+            "seriesId": "series.ar.bcra.baibar_rate",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "11",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns32",
@@ -239,6 +292,149 @@
           }
         ]
       }
+    },
+    {
+      "id": "pi.ns61",
+      "kind": "chart",
+      "slug": "tamar-private-bank-rate",
+      "title": "TAMAR private-bank rate",
+      "href": "/charts/tamar-private-bank-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.tamar",
+        "frameId": "rf.last_12m",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-13",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/tamar-private-bank-rate.svg",
+        "png": "/plots/tamar-private-bank-rate.png",
+        "altText": "TAMAR private-bank rate. TAMAR nominal rate. Last 12 months. Data through 2026-08-13.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.tamar_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.tamar_private_banks_apr"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "44",
+          "sourceUnit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.tamar_private_banks_apr",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "44",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns63",
+      "kind": "chart",
+      "slug": "bcra-policy-rate-history",
+      "title": "BCRA policy rate history",
+      "href": "/charts/bcra-policy-rate-history",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.policy_rate",
+        "frameId": "rf.policy_rate_2023_12_to_2025_07",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2025-07-10",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-policy-rate-history.svg",
+        "png": "/plots/bcra-policy-rate-history.png",
+        "altText": "BCRA policy rate history. Nominal policy-relevant rate. Dec 2023–Jul 2025 policy-rate window. Data through 2025-07-10. At least one source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.policy_rate_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.policy_rate"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "160",
+          "sourceUnit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.policy_rate",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "160",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns64",
+      "kind": "chart",
+      "slug": "bank-reserve-balances-at-the-bcra",
+      "title": "Bank reserve balances at the BCRA",
+      "href": "/charts/bank-reserve-balances-at-the-bcra",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.reserve_balances",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-12",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bank-reserve-balances-at-the-bcra.svg",
+        "png": "/plots/bank-reserve-balances-at-the-bcra.png",
+        "altText": "Bank reserve balances at the BCRA. BCRA peso deposits / reserve balances. Last 5 years. Data through 2026-08-12.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.bcra_peso_deposits"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.peso_deposits_at_bcra"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.peso_deposits_at_bcra": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "19",
+          "sourceUnit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.peso_deposits_at_bcra",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "19",
+            "sourceUnit": "Millons pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000000
+            },
+            "snapshotSha256": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
+          }
+        ]
+      }
     }
   ],
   "nearby": [
@@ -311,6 +507,6 @@
     "connections": 4,
     "questions": 3,
     "indicators": 2,
-    "charts": 12
+    "charts": 15
   }
 }

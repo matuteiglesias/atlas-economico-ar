@@ -1,0 +1,54 @@
+{
+  "canonical_indicator_id": "ci.ns.cpi_monthly",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 16,
+    "latest_observation": "2026-07-31",
+    "state": "fresh",
+    "warning_days": 75
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Main variables",
+    "currency": "ML",
+    "description": "Monthly Inflation",
+    "frequency": "monthly",
+    "series_type": "Change",
+    "time_index_end": "2026-07-31",
+    "time_index_start": "1943-03-31",
+    "title": "Monthly Inflation",
+    "units": "In percentage"
+  },
+  "provider_series_id": "27",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_cpi_monthly.catalog.json",
+    "catalog_sha256": "7556c54d377c2827b992d6fbf5910cae3436e0ff80878333d320299bcf74d05d",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_cpi_monthly.methodology.json",
+    "methodology_sha256": "427f2de5c550b2c22e4f9729d8313932210b3884728d00005be90e890e757f75",
+    "values_pages": [
+      {
+        "observation_rows": 1001,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_cpi_monthly.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/27?limit=3000&offset=0",
+        "sha256": "65135607622b09f952c0e3c87103c2145539422ee0718a799b48b478d7d6adbc"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=27&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/27",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/27?limit=3000&offset=0"
+    ]
+  },
+  "retrieved_at": "2026-08-16T12:17:51.931530Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.cpi_monthly",
+  "snapshot": {
+    "first_observation": "1943-03-31",
+    "latest_observation": "2026-07-31",
+    "observation_rows": 1001,
+    "path": "series/snapshots/bcra/series_ar_bcra_cpi_monthly.csv",
+    "sha256": "583a4c1f45b43946b21b6ebda3b3ba0d6cb323f72b27468d9b43380930e325cf"
+  }
+}

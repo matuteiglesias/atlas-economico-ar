@@ -52,3 +52,14 @@ The command is read-only and network-free. It verifies snapshot hashes and prove
 ## Phase boundary
 
 This phase produces **zero charts and zero PlotArtifacts**. Phase 3 may import this resolver and add the two frozen renderer primitives without changing the measurement semantics.
+
+## Primary and alternate Series
+
+A CanonicalIndicator may now have provider redundancy without becoming ambiguous.
+`SeriesBinding.role` defaults to `primary`; an explicit `alternate` remains fully
+resolvable by Series id but is excluded from `resolve_indicator()` publication
+selection. The first real case is monthly CPI: Datos Argentina remains primary
+and BCRA variable 27 is retained as an authenticated alternate for QA.
+
+This is source selection, not economic transformation: alternate observations
+still use only the normal `identity` / `scale` representation normalization.

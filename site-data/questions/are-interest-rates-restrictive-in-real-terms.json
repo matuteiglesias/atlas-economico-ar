@@ -66,6 +66,13 @@
       "href": "/indicators/official-fx-monthly-change"
     },
     {
+      "id": "ci.ns.policy_rate_nominal",
+      "kind": "indicator",
+      "slug": "nominal-policy-relevant-rate",
+      "title": "Nominal policy-relevant rate",
+      "href": "/indicators/nominal-policy-relevant-rate"
+    },
+    {
       "id": "ci.ns.tamar_nominal",
       "kind": "indicator",
       "slug": "tamar-nominal-rate",
@@ -115,6 +122,160 @@
       "slug": "carry-environment-real-rates-vs-fx-depreciation",
       "title": "Carry environment: real rates vs FX depreciation",
       "href": "/charts/carry-environment-real-rates-vs-fx-depreciation"
+    },
+    {
+      "id": "pi.ns61",
+      "kind": "chart",
+      "slug": "tamar-private-bank-rate",
+      "title": "TAMAR private-bank rate",
+      "href": "/charts/tamar-private-bank-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.tamar",
+        "frameId": "rf.last_12m",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-13",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/tamar-private-bank-rate.svg",
+        "png": "/plots/tamar-private-bank-rate.png",
+        "altText": "TAMAR private-bank rate. TAMAR nominal rate. Last 12 months. Data through 2026-08-13.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.tamar_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.tamar_private_banks_apr"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "44",
+          "sourceUnit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.tamar_private_banks_apr",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "44",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns62",
+      "kind": "chart",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/charts/tamar-ex-post-real-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.tamar_real_expost",
+        "frameId": "rf.last_12m",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/tamar-ex-post-real-rate.svg",
+        "png": "/plots/tamar-ex-post-real-rate.png",
+        "altText": "TAMAR ex-post real rate. TAMAR ex-post real rate. Last 12 months. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.tamar_real_expost"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.tamar_private_banks_apr",
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "44,145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.tamar_private_banks_apr",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "44",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ns63",
+      "kind": "chart",
+      "slug": "bcra-policy-rate-history",
+      "title": "BCRA policy rate history",
+      "href": "/charts/bcra-policy-rate-history",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.policy_rate",
+        "frameId": "rf.policy_rate_2023_12_to_2025_07",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2025-07-10",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-policy-rate-history.svg",
+        "png": "/plots/bcra-policy-rate-history.png",
+        "altText": "BCRA policy rate history. Nominal policy-relevant rate. Dec 2023–Jul 2025 policy-rate window. Data through 2025-07-10. At least one source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.policy_rate_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.policy_rate"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "160",
+          "sourceUnit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.policy_rate",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "160",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+          }
+        ]
+      }
     }
   ],
   "nearby": [
@@ -141,6 +302,54 @@
       "title": "Real interest rate",
       "href": "/topics/real-interest-rate",
       "distance": 1
+    },
+    {
+      "id": "pi.ns63",
+      "kind": "chart",
+      "slug": "bcra-policy-rate-history",
+      "title": "BCRA policy rate history",
+      "href": "/charts/bcra-policy-rate-history",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra2.policy_rate",
+        "frameId": "rf.policy_rate_2023_12_to_2025_07",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2025-07-10",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-policy-rate-history.svg",
+        "png": "/plots/bcra-policy-rate-history.png",
+        "altText": "BCRA policy rate history. Nominal policy-relevant rate. Dec 2023–Jul 2025 policy-rate window. Data through 2025-07-10. At least one source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.policy_rate_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.policy_rate"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "160",
+          "sourceUnit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.policy_rate",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "160",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns49",
@@ -173,19 +382,11 @@
       "title": "Real-rate regime since 2025",
       "href": "/charts/real-rate-regime-since-2025",
       "distance": 1
-    },
-    {
-      "id": "q.ns06",
-      "kind": "question",
-      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "distance": 2
     }
   ],
   "counts": {
     "topics": 3,
-    "indicators": 5,
-    "charts": 4
+    "indicators": 6,
+    "charts": 7
   }
 }

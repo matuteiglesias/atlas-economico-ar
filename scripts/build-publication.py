@@ -26,9 +26,9 @@ VERTICALS = (
 EDITORIAL = ROOT / "verticals/external_financial_constraint_vertical_v0_2/editorial/atlas_en_v0_2.yaml"
 ARTIFACT_MANIFEST = ROOT / "plot-artifacts/manifest.json"
 PUBLICATION_SCHEMA_VERSION = "0.2"
-EXPECTED_CHARTS = 109
+EXPECTED_CHARTS = 115
 EXPECTED_INDICATORS = 83
-EXPECTED_ARTIFACTS = 25
+EXPECTED_ARTIFACTS = 35
 
 
 class PublicationError(RuntimeError):

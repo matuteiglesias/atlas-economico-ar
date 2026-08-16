@@ -4,12 +4,12 @@
     "topic": 55,
     "question": 38,
     "indicator": 83,
-    "chart": 109
+    "chart": 115
   },
   "graph": {
-    "nodes": 291,
-    "edges": 639
+    "nodes": 297,
+    "edges": 653
   },
   "verticals_loaded": 2,
-  "plot_artifacts": 25
+  "plot_artifacts": 35
 }

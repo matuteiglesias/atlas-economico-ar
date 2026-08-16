@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ns04",
+  "chart_spec_id": "cs.bcra2.disinflation_since_dec2023",
+  "frame_id": "rf.since_dec_2023",
+  "data_as_of": "2026-07-31",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ns.cpi_monthly",
+    "ci.ns.cpi_yoy"
+  ],
+  "series_ids": [
+    "series.ar.datosgob.ipc_headline_mom_national",
+    "series.ar.bcra.cpi_yoy"
+  ],
+  "snapshot_sha256": {
+    "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+    "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/disinflation-since-december-2023.svg",
+    "png": "plot-artifacts/png/disinflation-since-december-2023.png"
+  },
+  "alt_text": "Disinflation since December 2023. Monthly headline CPI inflation; Headline CPI inflation, year-over-year. Since Dec 2023. Data through 2026-07-31.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "percent_mom",
+    "percent_yoy"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "multiple",
+    "provider_series_id": "145.3_INGNACUAL_DICI_M_38,28",
+    "source_unit": null,
+    "normalization": {
+      "kind": "composite"
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+      "provider": "datos_argentina",
+      "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+      "source_unit": "Variación intermensual",
+      "normalization": {
+        "kind": "scale",
+        "factor": 100
+      },
+      "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+    },
+    {
+      "series_id": "series.ar.bcra.cpi_yoy",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "28",
+      "source_unit": "In percentage",
+      "normalization": {
+        "kind": "identity"
+      },
+      "snapshot_sha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "canonical_indicator_id": "ci.ef.fx_deposits_usd",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 5,
+    "latest_observation": "2026-08-11",
+    "state": "fresh",
+    "warning_days": 10
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Series.xlsm",
+    "currency": "ME",
+    "description": "Foreign Currency Deposits (in Foreign Currency)-Private Sector",
+    "frequency": "daily",
+    "series_type": "Stocks",
+    "time_index_end": "2026-08-11",
+    "time_index_start": "2002-12-31",
+    "title": "Foreign Currency Deposits (in Foreign Currency)-Private Sector",
+    "units": "Millons USD"
+  },
+  "provider_series_id": "108",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_fx_deposits_private_sector.catalog.json",
+    "catalog_sha256": "e9cbbf80ac90e8e9e6b455442fa1f63751b1580283038e1daf1c5729782b3c9f",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_fx_deposits_private_sector.methodology.json",
+    "methodology_sha256": "3867f01335cd10316f94406ba5b9928030b2081dc0452be5b18556b0656ab222",
+    "values_pages": [
+      {
+        "observation_rows": 3000,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_fx_deposits_private_sector.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/108?limit=3000&offset=0",
+        "sha256": "bae9b638b2ab6aa5ba349afd17a48ce22f93f60bb12a6b7663f42ab282b646a9"
+      },
+      {
+        "observation_rows": 2787,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_fx_deposits_private_sector.values.page-0001.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/108?limit=3000&offset=3000",
+        "sha256": "dad72bc9392eebfdf03a88bc152f93fe647d240190cfa84f5b1fefe50921dcbf"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=108&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/108",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/108?limit=3000&offset=0",
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/108?limit=3000&offset=3000"
+    ]
+  },
+  "retrieved_at": "2026-08-16T12:17:51.931530Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.fx_deposits_private_sector",
+  "snapshot": {
+    "first_observation": "2002-12-31",
+    "latest_observation": "2026-08-11",
+    "observation_rows": 5787,
+    "path": "series/snapshots/bcra/series_ar_bcra_fx_deposits_private_sector.csv",
+    "sha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+  }
+}

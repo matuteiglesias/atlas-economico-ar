@@ -142,7 +142,60 @@
       "kind": "chart",
       "slug": "policy-relevant-rate-vs-money-market-rate",
       "title": "Policy-relevant rate vs money-market rate",
-      "href": "/charts/policy-relevant-rate-vs-money-market-rate"
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.policy_vs_baibar",
+        "frameId": "rf.policy_rate_2023_12_to_2025_07",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-13",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/policy-relevant-rate-vs-money-market-rate.svg",
+        "png": "/plots/policy-relevant-rate-vs-money-market-rate.png",
+        "altText": "Policy-relevant rate vs money-market rate. Nominal policy-relevant rate; Short money-market rate. Dec 2023–Jul 2025 policy-rate window. Data through 2026-08-13. At least one source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.policy_rate_nominal",
+          "ci.ns.money_market_rate"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.policy_rate",
+          "series.ar.bcra.baibar_rate"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af",
+          "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "160,11",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.policy_rate",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "160",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+          },
+          {
+            "seriesId": "series.ar.bcra.baibar_rate",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "11",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns44",
@@ -232,6 +285,53 @@
           }
         ]
       }
+    },
+    {
+      "id": "pi.ns63",
+      "kind": "chart",
+      "slug": "bcra-policy-rate-history",
+      "title": "BCRA policy rate history",
+      "href": "/charts/bcra-policy-rate-history",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.policy_rate",
+        "frameId": "rf.policy_rate_2023_12_to_2025_07",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2025-07-10",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/bcra-policy-rate-history.svg",
+        "png": "/plots/bcra-policy-rate-history.png",
+        "altText": "BCRA policy rate history. Nominal policy-relevant rate. Dec 2023–Jul 2025 policy-rate window. Data through 2025-07-10. At least one source snapshot is flagged stale.",
+        "freshnessState": "stale_warning",
+        "indicatorIds": [
+          "ci.ns.policy_rate_nominal"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.policy_rate"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "160",
+          "sourceUnit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.policy_rate",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "160",
+            "sourceUnit": "Nominal annual interest rate",
+            "normalization": {
+              "kind": "identity"
+            },
+            "snapshotSha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+          }
+        ]
+      }
     }
   ],
   "nearby": [
@@ -304,6 +404,6 @@
     "connections": 7,
     "questions": 2,
     "indicators": 0,
-    "charts": 9
+    "charts": 10
   }
 }

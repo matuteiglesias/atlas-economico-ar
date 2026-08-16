@@ -1,0 +1,1 @@
+{"status":200,"metadata":{"resultset":{"count":1,"offset":0,"limit":1}},"results":[{"idVariable":27,"descripcion":"Monthly Inflation","categoria":"Main variables","tipoSerie":"Change","periodicidad":"M","unidadExpresion":"In percentage","moneda":"ML","primerFechaInformada":"1943-03-31","ultFechaInformada":"2026-07-31","ultValorInformado":2.10000000000}]}

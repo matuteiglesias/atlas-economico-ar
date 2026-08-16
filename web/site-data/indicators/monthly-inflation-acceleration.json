@@ -43,6 +43,56 @@
       "slug": "monthly-inflation-with-acceleration-markers",
       "title": "Monthly inflation with acceleration markers",
       "href": "/charts/monthly-inflation-with-acceleration-markers"
+    },
+    {
+      "id": "pi.ns65",
+      "kind": "chart",
+      "slug": "monthly-inflation-and-acceleration",
+      "title": "Monthly inflation and acceleration",
+      "href": "/charts/monthly-inflation-and-acceleration",
+      "artifact": {
+        "chartSpecId": "cs.bcra2.inflation_acceleration",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monthly-inflation-and-acceleration.svg",
+        "png": "/plots/monthly-inflation-and-acceleration.png",
+        "altText": "Monthly inflation and acceleration. Monthly headline CPI inflation; Monthly inflation acceleration. Last 5 years. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.infl_acceleration"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "datos_argentina",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
     }
   ],
   "derivedAsInput": [],
@@ -57,6 +107,57 @@
       "title": "Inflation",
       "href": "/topics/inflation",
       "distance": 1
+    },
+    {
+      "id": "pi.ns65",
+      "kind": "chart",
+      "slug": "monthly-inflation-and-acceleration",
+      "title": "Monthly inflation and acceleration",
+      "href": "/charts/monthly-inflation-and-acceleration",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra2.inflation_acceleration",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/monthly-inflation-and-acceleration.svg",
+        "png": "/plots/monthly-inflation-and-acceleration.png",
+        "altText": "Monthly inflation and acceleration. Monthly headline CPI inflation; Monthly inflation acceleration. Last 5 years. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.infl_acceleration"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "datos_argentina",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns02",
@@ -105,18 +206,10 @@
       "title": "What inflation path does the market expect over the next months and year-end?",
       "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
       "distance": 2
-    },
-    {
-      "id": "ns.bcra_fx_operations",
-      "kind": "topic",
-      "slug": "bcra-fx-operations",
-      "title": "BCRA FX operations",
-      "href": "/topics/bcra-fx-operations",
-      "distance": 2
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 2,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

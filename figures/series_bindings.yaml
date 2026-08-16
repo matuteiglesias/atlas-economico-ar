@@ -52,3 +52,36 @@ series_bindings:
     normalization:
       kind: scale
       factor: 1000000
+
+  - series_id: series.ar.bcra.peso_deposits_at_bcra
+    canonical_indicator_id: ci.ns.bcra_peso_deposits
+    normalization:
+      kind: scale
+      factor: 1000000
+
+  - series_id: series.ar.bcra.cpi_monthly
+    canonical_indicator_id: ci.ns.cpi_monthly
+    role: alternate
+    normalization:
+      kind: identity
+
+  - series_id: series.ar.bcra.cpi_yoy
+    canonical_indicator_id: ci.ns.cpi_yoy
+    normalization:
+      kind: identity
+
+  - series_id: series.ar.bcra.tamar_private_banks_apr
+    canonical_indicator_id: ci.ns.tamar_nominal
+    normalization:
+      kind: identity
+
+  - series_id: series.ar.bcra.fx_deposits_private_sector
+    canonical_indicator_id: ci.ef.fx_deposits_usd
+    normalization:
+      kind: scale
+      factor: 0.001
+
+  - series_id: series.ar.bcra.policy_rate
+    canonical_indicator_id: ci.ns.policy_rate_nominal
+    normalization:
+      kind: identity

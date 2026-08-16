@@ -1,0 +1,54 @@
+{
+  "canonical_indicator_id": "ci.ns.cpi_yoy",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 16,
+    "latest_observation": "2026-07-31",
+    "state": "fresh",
+    "warning_days": 75
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Main variables",
+    "currency": "ML",
+    "description": "Year-on-Year Inflation",
+    "frequency": "monthly",
+    "series_type": "Change",
+    "time_index_end": "2026-07-31",
+    "time_index_start": "1944-01-31",
+    "title": "Year-on-Year Inflation",
+    "units": "In percentage"
+  },
+  "provider_series_id": "28",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_cpi_yoy.catalog.json",
+    "catalog_sha256": "54e74af8e25058c47c9b3adf0e88a988b2ef52baf3af5ef216bd8b5255f2d64a",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_cpi_yoy.methodology.json",
+    "methodology_sha256": "5f23b307a2d944b122d465ea373d253a3b21156780260088a4af245b6e83fe81",
+    "values_pages": [
+      {
+        "observation_rows": 991,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_cpi_yoy.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/28?limit=3000&offset=0",
+        "sha256": "e157c62ca53ae04adf289c769cf93dfe394072a9dad4a75f6e7f773ccead0d0b"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=28&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/28",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/28?limit=3000&offset=0"
+    ]
+  },
+  "retrieved_at": "2026-08-16T12:17:51.931530Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.cpi_yoy",
+  "snapshot": {
+    "first_observation": "1944-01-31",
+    "latest_observation": "2026-07-31",
+    "observation_rows": 991,
+    "path": "series/snapshots/bcra/series_ar_bcra_cpi_yoy.csv",
+    "sha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+  }
+}

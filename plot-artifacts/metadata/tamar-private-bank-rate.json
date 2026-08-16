@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ns61",
+  "chart_spec_id": "cs.bcra2.tamar",
+  "frame_id": "rf.last_12m",
+  "data_as_of": "2026-08-13",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ns.tamar_nominal"
+  ],
+  "series_ids": [
+    "series.ar.bcra.tamar_private_banks_apr"
+  ],
+  "snapshot_sha256": {
+    "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/tamar-private-bank-rate.svg",
+    "png": "plot-artifacts/png/tamar-private-bank-rate.png"
+  },
+  "alt_text": "TAMAR private-bank rate. TAMAR nominal rate. Last 12 months. Data through 2026-08-13.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "percent_annualized"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "bcra_monetarias_v4",
+    "provider_series_id": "44",
+    "source_unit": "Nominal annual interest rate",
+    "normalization": {
+      "kind": "identity"
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.bcra.tamar_private_banks_apr",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "44",
+      "source_unit": "Nominal annual interest rate",
+      "normalization": {
+        "kind": "identity"
+      },
+      "snapshot_sha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+    }
+  ]
+}

@@ -134,3 +134,88 @@ plot_intents:
   plot_status: active_v0_2
   series_binding_status: REGISTERED
   provenance: {model_prior_used: false, media_evidence_tags: [rates, money market, BCRA]}
+
+- id: pi.ns61
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-16'
+  updated_at: '2026-08-16'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  title: TAMAR private-bank rate
+  question_ids: [q.ns12]
+  canonical_indicator_ids: [ci.ns.tamar_nominal]
+  reference_frame_ids: []
+  purpose: Track the TAMAR nominal annual rate directly without requiring an expectations series.
+  plot_status: active_v0_2
+  series_binding_status: REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [rates, TAMAR, BCRA]}
+
+- id: pi.ns62
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-16'
+  updated_at: '2026-08-16'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  title: TAMAR ex-post real rate
+  question_ids: [q.ns12]
+  canonical_indicator_ids: [ci.ns.tamar_real_expost]
+  reference_frame_ids: []
+  purpose: Compare the TAMAR annual return with realized monthly CPI inflation on an explicit annualized real-rate basis.
+  plot_status: active_v0_2
+  series_binding_status: DERIVED_FROM_REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [rates, inflation, TAMAR]}
+
+- id: pi.ns63
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-16'
+  updated_at: '2026-08-16'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  title: BCRA policy rate history
+  question_ids: [q.ns12, q.ns13]
+  canonical_indicator_ids: [ci.ns.policy_rate_nominal]
+  reference_frame_ids: []
+  purpose: Preserve the observed BCRA policy-rate history through the final provider observation without implying that the discontinued series is current.
+  plot_status: active_v0_2
+  series_binding_status: REGISTERED_STALE
+  provenance: {model_prior_used: false, media_evidence_tags: [policy rate, BCRA]}
+
+- id: pi.ns64
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-16'
+  updated_at: '2026-08-16'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  title: Bank reserve balances at the BCRA
+  question_ids: [q.ns14]
+  canonical_indicator_ids: [ci.ns.bcra_peso_deposits]
+  reference_frame_ids: []
+  purpose: Track banks' peso deposit balances held at the BCRA directly, without inferring a reserve-requirement ratio.
+  plot_status: active_v0_2
+  series_binding_status: REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [bank liquidity, BCRA]}
+
+- id: pi.ns65
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-16'
+  updated_at: '2026-08-16'
+  review_state: implementation_ready
+  slice_id: nominal_stabilization
+  title: Monthly inflation and acceleration
+  question_ids: [q.ns01]
+  canonical_indicator_ids: [ci.ns.cpi_monthly, ci.ns.infl_acceleration]
+  reference_frame_ids: []
+  purpose: Show the monthly inflation rate together with its month-to-month change in percentage points.
+  plot_status: active_v0_2
+  series_binding_status: DERIVED_FROM_REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [inflation, acceleration]}

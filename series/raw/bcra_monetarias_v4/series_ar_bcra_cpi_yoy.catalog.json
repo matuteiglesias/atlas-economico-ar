@@ -1,0 +1,1 @@
+{"status":200,"metadata":{"resultset":{"count":1,"offset":0,"limit":1}},"results":[{"idVariable":28,"descripcion":"Year-on-Year Inflation","categoria":"Main variables","tipoSerie":"Change","periodicidad":"M","unidadExpresion":"In percentage","moneda":"ML","primerFechaInformada":"1944-01-31","ultFechaInformada":"2026-07-31","ultValorInformado":33.80000000000}]}

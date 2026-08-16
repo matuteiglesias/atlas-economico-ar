@@ -224,6 +224,62 @@ def real_stock_index(
     )
 
 
+def _month_ordinal(month: str) -> int:
+    year, value = (int(part) for part in month.split("-"))
+    return year * 12 + value
+
+
+def rolling_three_month_annualized(
+    item: FigureMeasurement, output_id: str, label: str, unit: str
+) -> FigureMeasurement:
+    monthly = month_end_values(item)
+    months = sorted(monthly)
+    observations: list[Observation] = []
+    for index in range(2, len(months)):
+        window = months[index - 2:index + 1]
+        if any(_month_ordinal(b) - _month_ordinal(a) != 1 for a, b in zip(window, window[1:])):
+            continue
+        gross = Decimal("1")
+        for month in window:
+            gross *= Decimal("1") + monthly[month] / Decimal("100")
+        observations.append(
+            Observation(f"{window[-1]}-01", (gross ** 4 - Decimal("1")) * Decimal("100"))
+        )
+    if not observations:
+        raise DerivedResolutionError(f"{output_id}: no contiguous 3-month windows")
+    return FigureMeasurement(
+        output_id, label, unit, "monthly", tuple(observations),
+        item.series_ids, dict(item.snapshot_sha256), item.sources,
+        item.freshness_state, observations[-1].date,
+        f"compound_three_months_annualized:{item.indicator_id}",
+    )
+
+
+def tamar_real_expost(
+    tamar: FigureMeasurement, cpi: FigureMeasurement, output_id: str, label: str, unit: str
+) -> FigureMeasurement:
+    tamar_month = month_end_values(tamar)
+    cpi_month = month_end_values(cpi)
+    common = sorted(set(tamar_month) & set(cpi_month))
+    observations: list[Observation] = []
+    for month in common:
+        inflation_gross = Decimal("1") + cpi_month[month] / Decimal("100")
+        nominal_gross = Decimal("1") + tamar_month[month] / Decimal("100")
+        if inflation_gross <= 0 or nominal_gross <= 0:
+            continue
+        realized_annual_inflation_gross = inflation_gross ** 12
+        real_rate = (nominal_gross / realized_annual_inflation_gross - Decimal("1")) * Decimal("100")
+        observations.append(Observation(f"{month}-01", real_rate))
+    if not observations:
+        raise DerivedResolutionError(f"{output_id}: no common TAMAR/CPI months")
+    series_ids, hashes, sources, freshness = combine_lineage(tamar, cpi)
+    return FigureMeasurement(
+        output_id, label, unit, "monthly", tuple(observations),
+        series_ids, hashes, sources, freshness, observations[-1].date,
+        "tamar_apr_deflated_by_realized_monthly_cpi_annualized",
+    )
+
+
 def resolve_measurement(indicator_id: str) -> FigureMeasurement:
     try:
         return from_direct(resolve_direct(indicator_id))
@@ -236,6 +292,22 @@ def resolve_measurement(indicator_id: str) -> FigureMeasurement:
     meta = indicators[indicator_id]
     label = meta["label"]
 
+    if indicator_id == "ci.ns.cpi_3m_ann":
+        return rolling_three_month_annualized(
+            resolve_measurement("ci.ns.cpi_monthly"),
+            indicator_id, label, meta["unit_semantics"],
+        )
+    if indicator_id == "ci.ns.infl_acceleration":
+        return monthly_difference(
+            resolve_measurement("ci.ns.cpi_monthly"),
+            indicator_id, label, meta["unit_semantics"],
+        )
+    if indicator_id == "ci.ns.tamar_real_expost":
+        return tamar_real_expost(
+            resolve_measurement("ci.ns.tamar_nominal"),
+            resolve_measurement("ci.ns.cpi_monthly"),
+            indicator_id, label, meta["unit_semantics"],
+        )
     if indicator_id == "ci.ns.official_fx_monthly_change":
         return monthly_change(
             resolve_measurement("ci.ns.official_fx"),

@@ -1,6 +1,6 @@
 {
   "schema_version": "0.2",
-  "artifact_count": 25,
+  "artifact_count": 35,
   "artifacts": [
     {
       "schema_version": "0.2",
@@ -1289,6 +1289,545 @@
             "factor": 0.001
           },
           "snapshot_sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns01",
+      "chart_spec_id": "cs.bcra2.inflation_momentum",
+      "frame_id": "rf.last_5y",
+      "data_as_of": "2026-07-01",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.cpi_monthly",
+        "ci.ns.cpi_3m_ann"
+      ],
+      "series_ids": [
+        "series.ar.datosgob.ipc_headline_mom_national"
+      ],
+      "snapshot_sha256": {
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg",
+        "png": "plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png"
+      },
+      "alt_text": "Inflation momentum: monthly and 3-month annualized. Monthly headline CPI inflation; Headline CPI, 3-month annualized. Last 5 years. Data through 2026-07-01.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "percent_mom",
+        "percent_annualized"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "datos_argentina",
+        "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+        "source_unit": "Variación intermensual",
+        "normalization": {
+          "kind": "scale",
+          "factor": 100
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns03",
+      "chart_spec_id": "cs.bcra2.inflation_monthly_yoy",
+      "frame_id": "rf.last_5y",
+      "data_as_of": "2026-07-31",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.cpi_monthly",
+        "ci.ns.cpi_yoy"
+      ],
+      "series_ids": [
+        "series.ar.datosgob.ipc_headline_mom_national",
+        "series.ar.bcra.cpi_yoy"
+      ],
+      "snapshot_sha256": {
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+        "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/headline-inflation-monthly-vs-year-over-year.svg",
+        "png": "plot-artifacts/png/headline-inflation-monthly-vs-year-over-year.png"
+      },
+      "alt_text": "Headline inflation: monthly vs year-over-year. Monthly headline CPI inflation; Headline CPI inflation, year-over-year. Last 5 years. Data through 2026-07-31.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "percent_mom",
+        "percent_yoy"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "145.3_INGNACUAL_DICI_M_38,28",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        {
+          "series_id": "series.ar.bcra.cpi_yoy",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "28",
+          "source_unit": "In percentage",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns04",
+      "chart_spec_id": "cs.bcra2.disinflation_since_dec2023",
+      "frame_id": "rf.since_dec_2023",
+      "data_as_of": "2026-07-31",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.cpi_monthly",
+        "ci.ns.cpi_yoy"
+      ],
+      "series_ids": [
+        "series.ar.datosgob.ipc_headline_mom_national",
+        "series.ar.bcra.cpi_yoy"
+      ],
+      "snapshot_sha256": {
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
+        "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/disinflation-since-december-2023.svg",
+        "png": "plot-artifacts/png/disinflation-since-december-2023.png"
+      },
+      "alt_text": "Disinflation since December 2023. Monthly headline CPI inflation; Headline CPI inflation, year-over-year. Since Dec 2023. Data through 2026-07-31.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "percent_mom",
+        "percent_yoy"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "145.3_INGNACUAL_DICI_M_38,28",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        {
+          "series_id": "series.ar.bcra.cpi_yoy",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "28",
+          "source_unit": "In percentage",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns31",
+      "chart_spec_id": "cs.bcra2.policy_vs_baibar",
+      "frame_id": "rf.policy_rate_2023_12_to_2025_07",
+      "data_as_of": "2026-08-13",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.policy_rate_nominal",
+        "ci.ns.money_market_rate"
+      ],
+      "series_ids": [
+        "series.ar.bcra.policy_rate",
+        "series.ar.bcra.baibar_rate"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af",
+        "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/policy-relevant-rate-vs-money-market-rate.svg",
+        "png": "plot-artifacts/png/policy-relevant-rate-vs-money-market-rate.png"
+      },
+      "alt_text": "Policy-relevant rate vs money-market rate. Nominal policy-relevant rate; Short money-market rate. Dec 2023–Jul 2025 policy-rate window. Data through 2026-08-13. At least one source snapshot is flagged stale.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "percent_annualized",
+        "percent_annualized"
+      ],
+      "freshness_state": "stale_warning",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "160,11",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.policy_rate",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "160",
+          "source_unit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+        },
+        {
+          "series_id": "series.ar.bcra.baibar_rate",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "11",
+          "source_unit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns61",
+      "chart_spec_id": "cs.bcra2.tamar",
+      "frame_id": "rf.last_12m",
+      "data_as_of": "2026-08-13",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.tamar_nominal"
+      ],
+      "series_ids": [
+        "series.ar.bcra.tamar_private_banks_apr"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/tamar-private-bank-rate.svg",
+        "png": "plot-artifacts/png/tamar-private-bank-rate.png"
+      },
+      "alt_text": "TAMAR private-bank rate. TAMAR nominal rate. Last 12 months. Data through 2026-08-13.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "percent_annualized"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "44",
+        "source_unit": "Nominal annual interest rate",
+        "normalization": {
+          "kind": "identity"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.tamar_private_banks_apr",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "44",
+          "source_unit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns62",
+      "chart_spec_id": "cs.bcra2.tamar_real_expost",
+      "frame_id": "rf.last_12m",
+      "data_as_of": "2026-07-01",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.tamar_real_expost"
+      ],
+      "series_ids": [
+        "series.ar.bcra.tamar_private_banks_apr",
+        "series.ar.datosgob.ipc_headline_mom_national"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2",
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/tamar-ex-post-real-rate.svg",
+        "png": "plot-artifacts/png/tamar-ex-post-real-rate.png"
+      },
+      "alt_text": "TAMAR ex-post real rate. TAMAR ex-post real rate. Last 12 months. Data through 2026-07-01.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "percent_annualized"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "multiple",
+        "provider_series_id": "44,145.3_INGNACUAL_DICI_M_38",
+        "source_unit": null,
+        "normalization": {
+          "kind": "composite"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.tamar_private_banks_apr",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "44",
+          "source_unit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+        },
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns63",
+      "chart_spec_id": "cs.bcra2.policy_rate",
+      "frame_id": "rf.policy_rate_2023_12_to_2025_07",
+      "data_as_of": "2025-07-10",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.policy_rate_nominal"
+      ],
+      "series_ids": [
+        "series.ar.bcra.policy_rate"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/bcra-policy-rate-history.svg",
+        "png": "plot-artifacts/png/bcra-policy-rate-history.png"
+      },
+      "alt_text": "BCRA policy rate history. Nominal policy-relevant rate. Dec 2023–Jul 2025 policy-rate window. Data through 2025-07-10. At least one source snapshot is flagged stale.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "percent_annualized"
+      ],
+      "freshness_state": "stale_warning",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "160",
+        "source_unit": "Nominal annual interest rate",
+        "normalization": {
+          "kind": "identity"
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.policy_rate",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "160",
+          "source_unit": "Nominal annual interest rate",
+          "normalization": {
+            "kind": "identity"
+          },
+          "snapshot_sha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns64",
+      "chart_spec_id": "cs.bcra2.reserve_balances",
+      "frame_id": "rf.last_5y",
+      "data_as_of": "2026-08-12",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.bcra_peso_deposits"
+      ],
+      "series_ids": [
+        "series.ar.bcra.peso_deposits_at_bcra"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.peso_deposits_at_bcra": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/bank-reserve-balances-at-the-bcra.svg",
+        "png": "plot-artifacts/png/bank-reserve-balances-at-the-bcra.png"
+      },
+      "alt_text": "Bank reserve balances at the BCRA. BCRA peso deposits / reserve balances. Last 5 years. Data through 2026-08-12.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "ars"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "19",
+        "source_unit": "Millons pesos",
+        "normalization": {
+          "kind": "scale",
+          "factor": 1000000
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.peso_deposits_at_bcra",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "19",
+          "source_unit": "Millons pesos",
+          "normalization": {
+            "kind": "scale",
+            "factor": 1000000
+          },
+          "snapshot_sha256": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ns65",
+      "chart_spec_id": "cs.bcra2.inflation_acceleration",
+      "frame_id": "rf.last_5y",
+      "data_as_of": "2026-07-01",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ns.cpi_monthly",
+        "ci.ns.infl_acceleration"
+      ],
+      "series_ids": [
+        "series.ar.datosgob.ipc_headline_mom_national"
+      ],
+      "snapshot_sha256": {
+        "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/monthly-inflation-and-acceleration.svg",
+        "png": "plot-artifacts/png/monthly-inflation-and-acceleration.png"
+      },
+      "alt_text": "Monthly inflation and acceleration. Monthly headline CPI inflation; Monthly inflation acceleration. Last 5 years. Data through 2026-07-01.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "percent_mom",
+        "percentage_points_change"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "datos_argentina",
+        "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+        "source_unit": "Variación intermensual",
+        "normalization": {
+          "kind": "scale",
+          "factor": 100
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+          "provider": "datos_argentina",
+          "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+          "source_unit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          },
+          "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        }
+      ]
+    },
+    {
+      "schema_version": "0.2",
+      "plot_intent_id": "pi.ef50",
+      "chart_spec_id": "cs.bcra2.fx_deposits",
+      "frame_id": "rf.last_5y",
+      "data_as_of": "2026-08-11",
+      "generated_at": "2026-08-15T21:20:00Z",
+      "indicator_ids": [
+        "ci.ef.fx_deposits_usd"
+      ],
+      "series_ids": [
+        "series.ar.bcra.fx_deposits_private_sector"
+      ],
+      "snapshot_sha256": {
+        "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+      },
+      "outputs": {
+        "svg": "plot-artifacts/svg/foreign-currency-deposits.svg",
+        "png": "plot-artifacts/png/foreign-currency-deposits.png"
+      },
+      "alt_text": "Foreign-currency deposits. Foreign-currency deposits. Last 5 years. Data through 2026-08-11.",
+      "renderer": "timeseries_line",
+      "unit_semantics": [
+        "usd_billions"
+      ],
+      "freshness_state": "fresh",
+      "source": {
+        "provider": "bcra_monetarias_v4",
+        "provider_series_id": "108",
+        "source_unit": "Millons USD",
+        "normalization": {
+          "kind": "scale",
+          "factor": 0.001
+        }
+      },
+      "sources": [
+        {
+          "series_id": "series.ar.bcra.fx_deposits_private_sector",
+          "provider": "bcra_monetarias_v4",
+          "provider_series_id": "108",
+          "source_unit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          },
+          "snapshot_sha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
         }
       ]
     },

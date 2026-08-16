@@ -131,7 +131,50 @@
       "slug": "inflation-momentum-monthly-and-3-month-annualized",
       "title": "Inflation momentum: monthly and 3-month annualized",
       "href": "/charts/inflation-momentum-monthly-and-3-month-annualized",
-      "distance": 2
+      "distance": 2,
+      "artifact": {
+        "chartSpecId": "cs.bcra2.inflation_momentum",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-07-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/inflation-momentum-monthly-and-3-month-annualized.svg",
+        "png": "/plots/inflation-momentum-monthly-and-3-month-annualized.png",
+        "altText": "Inflation momentum: monthly and 3-month annualized. Monthly headline CPI inflation; Headline CPI, 3-month annualized. Last 5 years. Data through 2026-07-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.cpi_3m_ann"
+        ],
+        "seriesIds": [
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "datos_argentina",
+          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": "Variación intermensual",
+          "normalization": {
+            "kind": "scale",
+            "factor": 100
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ns06",
