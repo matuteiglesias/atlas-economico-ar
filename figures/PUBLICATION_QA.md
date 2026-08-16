@@ -42,7 +42,7 @@ Quarantined:
 
 Bounded fixes:
 
-- `pi.ns01` inflation momentum moves from five years to the stabilization regime (`rf.since_dec_2023`).
+- `pi.ns01` inflation momentum moves from five years to `rf.last_18m`. The first visual-QA candidate used `rf.since_dec_2023`, but the 2024 annualized spike still compressed the 2025–26 variation; the final 18-month frame matches the current-momentum question better.
 - `pi.ns63` uses step geometry because the policy-rate series is a policy setting process, not a continuously interpolated signal.
 - BCRA variable 78 receives a regression test proving that source signs are preserved: its official methodology covers both sales and purchases and the historical snapshot contains both negative and positive observations.
 
