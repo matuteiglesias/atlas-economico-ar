@@ -1,4 +1,4 @@
-name: BCRA frontier scout
+name: BCRA third-batch bootstrap
 
 on:
   pull_request:
@@ -6,30 +6,71 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  scout:
+  bootstrap:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install --disable-pip-version-check pyyaml
-      - name: Recompute frontier and fetch full BCRA catalog
+      - run: python -m pip install --disable-pip-version-check 'PyYAML>=6.0,<7' 'matplotlib>=3.8,<4'
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.28.1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+      - working-directory: web
+        run: pnpm install --frozen-lockfile
+      - name: Capture, verify, materialize and push the bounded tranche
+        env:
+          SOURCE_DATE_EPOCH: '1786828800'
         run: |
-          python scripts/scout-bcra-frontier.py
-          python scripts/dump-bcra-catalog.py
-      - uses: actions/upload-artifact@v4
-        with:
-          name: bcra-frontier-scout
-          path: frontier-scout/
-          if-no-files-found: error
-      - name: Pack checkout for exact local inspection
-        run: tar --exclude=.git -czf /tmp/atlas-source.tgz .
-      - uses: actions/upload-artifact@v4
-        with:
-          name: atlas-source-snapshot
-          path: /tmp/atlas-source.tgz
-          if-no-files-found: error
+          set -euo pipefail
+          if [ -f series/BCRA_BATCH_V0_3.md ]; then
+            echo 'Third BCRA tranche already bootstrapped on this branch.'
+            exit 0
+          fi
+
+          python scripts/apply-bcra-third-batch.py
+          python series/capture_bcra.py \
+            --only 882 --only 893 --only 904 \
+            --only 981 --only 992 --only 1003
+
+          make test-series
+          make validate-series
+          python figures/validate_contract.py
+          python figures/validate_publication_qa.py
+          python -m unittest discover -s figures/kernel_tests -p 'test_*.py'
+          make build-atlas
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          stats = json.loads(Path('site-data/stats.json').read_text())
+          manifest = json.loads(Path('site-data/manifest.json').read_text())
+          print('publication stats:', json.dumps(stats, indent=2))
+          assert stats['counts']['indicator'] == 90, stats
+          assert stats['counts']['chart'] == 119, stats
+          assert stats['graph']['nodes'] == 308, stats
+          assert stats['plot_artifacts'] == 41, stats
+          assert stats['prominent_plot_artifacts'] == 37, stats
+          assert stats['quarantined_plot_artifacts'] == 4, stats
+          assert stats['historical_plot_artifacts'] == 2, stats
+          assert manifest['plotArtifacts'] == 41, manifest
+          PY
+
+          git config user.name 'atlas-population-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add -A
+          git commit -m 'Expand Atlas with third six-Series BCRA tranche'
+          git push origin HEAD:${{ github.head_ref || github.ref_name }}
