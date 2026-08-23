@@ -1,5 +1,6 @@
 slice_id: "external_financial_constraint"
 title: "External & Financial Constraint"
+populated: true
 mission: "Explain external buffers, reserve adequacy, financing, market access, sovereign risk, balance-of-payments pressure, and financial-sector depth/vulnerability."
 core_scope:
   - "gross reserves vs NIR vs liquid buffers"
