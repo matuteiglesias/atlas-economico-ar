@@ -29,60 +29,19 @@ jobs:
           cache-dependency-path: web/pnpm-lock.yaml
       - working-directory: web
         run: pnpm install --frozen-lockfile
-      - name: Make undeclared region activation fail closed
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          from textwrap import dedent
-
-          path = Path("econ_knowledge_compiler_v0_1/src/econ_knowledge_compiler/compiler.py")
-          text = path.read_text(encoding="utf-8")
-          old = dedent('''\
-              # Regions exist because scope says they exist, even before a vertical is populated.
-              # Canonical scope can declare publication activation explicitly; the legacy
-              # content-derived fallback is retained for older compiler fixtures/bundles.
-              populated_slices = {x.get("slice_id") for x in raws["concepts"] if x.get("slice_id")}
-              for sid, sraw in scope.get("slices", {}).items():
-                  rr = dict(sraw)
-                  rr["id"] = sid
-                  declared_populated = rr.get("populated")
-                  if declared_populated is not None and not isinstance(declared_populated, bool):
-                      raise ValueError(f"Region {sid}: populated must be boolean when declared")
-                  ent = _make_entity("region", rr, editorial)
-                  ent["populated"] = declared_populated if declared_populated is not None else sid in populated_slices
-                  entities[sid] = ent
-          ''')
-          new = dedent('''\
-              # Regions exist because scope says they exist, even before a vertical is activated.
-              # Activation is explicit publication metadata. Missing metadata fails closed:
-              # semantic richness must never activate a public region by itself.
-              for sid, sraw in scope.get("slices", {}).items():
-                  rr = dict(sraw)
-                  rr["id"] = sid
-                  declared_populated = rr.get("populated", False)
-                  if not isinstance(declared_populated, bool):
-                      raise ValueError(f"Region {sid}: populated must be boolean")
-                  ent = _make_entity("region", rr, editorial)
-                  ent["populated"] = declared_populated
-                  entities[sid] = ent
-          ''')
-          if text.count(old) != 1:
-              raise SystemExit("compiler activation block did not match exactly once")
-          path.write_text(text.replace(old, new), encoding="utf-8")
-          PY
       - name: Test publication contracts
         run: make test-publication
       - name: Build canonical publication snapshot
         env: {SOURCE_DATE_EPOCH: "1786828800"}
         run: make build-atlas
-      - name: Commit source and generated publication data
+      - name: Commit generated publication data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add econ_knowledge_compiler_v0_1/src/econ_knowledge_compiler/compiler.py site-data web/site-data
+          git add site-data web/site-data
           if git diff --cached --quiet; then
             echo "Canonical publication snapshot already current."
             exit 0
           fi
-          git commit -m "Fail closed on region activation and refresh publication snapshot"
+          git commit -m "Refresh publication snapshot for region firewall"
           git push origin HEAD:feat/region-activation-firewall
