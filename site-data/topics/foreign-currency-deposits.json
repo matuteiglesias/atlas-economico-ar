@@ -5,7 +5,6 @@
   "title": "Foreign-currency deposits",
   "href": "/topics/foreign-currency-deposits",
   "dek": "Deposits denominated in foreign currency within the domestic financial system.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -120,7 +119,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "108,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -256,7 +254,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "992,1003",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -322,7 +319,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -406,7 +402,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -494,14 +489,6 @@
       "title": "Total private-sector deposits, ARS equivalent",
       "href": "/indicators/total-private-sector-deposits-ars-equivalent",
       "distance": 1
-    },
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint",
-      "distance": 2
     }
   ],
   "counts": {

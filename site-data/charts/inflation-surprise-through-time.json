@@ -5,7 +5,6 @@
   "title": "Inflation surprise through time",
   "href": "/charts/inflation-surprise-through-time",
   "dek": "Measure how frequently actual inflation surprises expectations.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -26,15 +25,7 @@
       "href": "/areas/nominal-stabilization"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ns06",
-      "kind": "question",
-      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ns.headline_inflation",
@@ -71,14 +62,6 @@
   },
   "nearby": [
     {
-      "id": "q.ns06",
-      "kind": "question",
-      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "distance": 1
-    },
-    {
       "id": "ci.ns.infl_surprise",
       "kind": "indicator",
       "slug": "inflation-surprise-vs-prior-expectation",
@@ -112,7 +95,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 2,
     "indicators": 1
   }

@@ -26,15 +26,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef07",
-      "kind": "question",
-      "slug": "has-fx-hedging-pressure-normalized",
-      "title": "Has FX hedging pressure normalized?",
-      "href": "/questions/has-fx-hedging-pressure-normalized"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.financial_account",
@@ -77,14 +69,6 @@
     "dataAsOfPolicy": "latest_common_available_period"
   },
   "nearby": [
-    {
-      "id": "q.ef07",
-      "kind": "question",
-      "slug": "has-fx-hedging-pressure-normalized",
-      "title": "Has FX hedging pressure normalized?",
-      "href": "/questions/has-fx-hedging-pressure-normalized",
-      "distance": 1
-    },
     {
       "id": "ci.ef.private_financial_flows_usd",
       "kind": "indicator",
@@ -135,7 +119,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 3,
     "indicators": 1
   }

@@ -33,13 +33,6 @@
       "slug": "is-the-current-account-improving",
       "title": "Is the current account improving?",
       "href": "/questions/is-the-current-account-improving"
-    },
-    {
-      "id": "q.ef05",
-      "kind": "question",
-      "slug": "what-offsets-argentina-s-goods-surplus",
-      "title": "What offsets Argentina's goods surplus?",
-      "href": "/questions/what-offsets-argentina-s-goods-surplus"
     }
   ],
   "topics": [
@@ -121,14 +114,6 @@
       "distance": 1
     },
     {
-      "id": "q.ef05",
-      "kind": "question",
-      "slug": "what-offsets-argentina-s-goods-surplus",
-      "title": "What offsets Argentina's goods surplus?",
-      "href": "/questions/what-offsets-argentina-s-goods-surplus",
-      "distance": 1
-    },
-    {
       "id": "ci.ef.current_account_usd",
       "kind": "indicator",
       "slug": "current-account-balance",
@@ -178,7 +163,7 @@
     }
   ],
   "counts": {
-    "questions": 2,
+    "questions": 1,
     "topics": 4,
     "indicators": 4
   }

@@ -5,7 +5,6 @@
   "title": "TAMAR private-bank rate",
   "href": "/charts/tamar-private-bank-rate",
   "dek": "Track the TAMAR nominal annual rate directly without requiring an expectations series.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -68,7 +67,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns12",

@@ -4,8 +4,6 @@
   "slug": "is-domestic-money-demand-recovering",
   "title": "Is domestic money demand recovering?",
   "href": "/questions/is-domestic-money-demand-recovering",
-  "dek": null,
-  "intro": null,
   "questionFamily": "monetization",
   "region": {
     "id": "nominal_stabilization",
@@ -174,7 +172,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -236,7 +233,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -361,7 +357,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -461,7 +456,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -626,7 +620,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -662,5 +655,59 @@
     "topics": 3,
     "indicators": 6,
     "charts": 7
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 7,
+      "linkedIndicators": 6,
+      "materializedPlotArtifacts": 5,
+      "prominentPlotArtifacts": 4,
+      "quarantinedPlotArtifacts": 1,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ns34",
+        "pi.ns35",
+        "pi.ns36",
+        "pi.ns56",
+        "pi.ns58"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ns34",
+        "pi.ns35",
+        "pi.ns36",
+        "pi.ns56"
+      ],
+      "hasDek": false,
+      "hasIntro": false,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "monetization",
+        "topicIds": [
+          "ns.monetary_base",
+          "ns.money_demand",
+          "ns.transactional_m2"
+        ],
+        "indicatorIds": [
+          "ci.ns.m2_to_gdp",
+          "ci.ns.monetary_base_nominal",
+          "ci.ns.monetary_base_real",
+          "ci.ns.transactional_m2_nominal",
+          "ci.ns.transactional_m2_projection_gap",
+          "ci.ns.transactional_m2_real"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns34",
+          "pi.ns35",
+          "pi.ns36",
+          "pi.ns56"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

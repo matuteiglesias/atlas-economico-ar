@@ -5,7 +5,6 @@
   "title": "Inflation-driver decomposition",
   "href": "/charts/inflation-driver-decomposition",
   "dek": "A decomposition of monthly inflation into the mechanisms that may be sustaining or slowing the price process.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -26,15 +25,7 @@
       "href": "/areas/nominal-stabilization"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ns04",
-      "kind": "question",
-      "slug": "what-is-driving-monthly-inflation",
-      "title": "What is driving monthly inflation?",
-      "href": "/questions/what-is-driving-monthly-inflation"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ns.aggregate_demand_pressure",
@@ -91,14 +82,6 @@
     "dataAsOfPolicy": "latest_common_available_period"
   },
   "nearby": [
-    {
-      "id": "q.ns04",
-      "kind": "question",
-      "slug": "what-is-driving-monthly-inflation",
-      "title": "What is driving monthly inflation?",
-      "href": "/questions/what-is-driving-monthly-inflation",
-      "distance": 1
-    },
     {
       "id": "ci.ns.cpi_monthly",
       "kind": "indicator",
@@ -179,7 +162,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -211,7 +193,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 5,
     "indicators": 1
   }

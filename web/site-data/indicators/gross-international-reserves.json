@@ -4,8 +4,6 @@
   "slug": "gross-international-reserves",
   "title": "Gross international reserves",
   "href": "/indicators/gross-international-reserves",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -145,7 +143,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,1",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -228,7 +225,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,1",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -342,14 +338,6 @@
       "title": "Gross reserves, NIR, and liquid buffers",
       "href": "/charts/gross-reserves-nir-and-liquid-buffers",
       "distance": 1
-    },
-    {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "distance": 2
     }
   ],
   "counts": {

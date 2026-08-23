@@ -4,8 +4,6 @@
   "slug": "foreign-currency-deposit-share",
   "title": "Foreign-currency deposit share",
   "href": "/indicators/foreign-currency-deposit-share",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -70,7 +68,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "108,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -154,7 +151,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -257,7 +253,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -344,7 +339,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "108,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

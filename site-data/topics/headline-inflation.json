@@ -5,7 +5,6 @@
   "title": "Headline inflation",
   "href": "/topics/headline-inflation",
   "dek": "Observed CPI inflation including all major CPI components.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -95,27 +94,6 @@
       "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
       "title": "How fast is inflation running now, and is it accelerating or decelerating?",
       "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating"
-    },
-    {
-      "id": "q.ns03",
-      "kind": "question",
-      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
-      "title": "Is disinflation broad-based across underlying inflation measures?",
-      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures"
-    },
-    {
-      "id": "q.ns04",
-      "kind": "question",
-      "slug": "what-is-driving-monthly-inflation",
-      "title": "What is driving monthly inflation?",
-      "href": "/questions/what-is-driving-monthly-inflation"
-    },
-    {
-      "id": "q.ns06",
-      "kind": "question",
-      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation"
     }
   ],
   "indicators": [
@@ -230,7 +208,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -291,7 +268,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -380,7 +356,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -462,7 +437,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -527,7 +501,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -600,7 +573,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,5",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -746,35 +718,11 @@
   ],
   "nearby": [
     {
-      "id": "q.ns06",
-      "kind": "question",
-      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "distance": 1
-    },
-    {
       "id": "q.ns01",
       "kind": "question",
       "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
       "title": "How fast is inflation running now, and is it accelerating or decelerating?",
       "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
-      "distance": 1
-    },
-    {
-      "id": "q.ns03",
-      "kind": "question",
-      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
-      "title": "Is disinflation broad-based across underlying inflation measures?",
-      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
-      "distance": 1
-    },
-    {
-      "id": "q.ns04",
-      "kind": "question",
-      "slug": "what-is-driving-monthly-inflation",
-      "title": "What is driving monthly inflation?",
-      "href": "/questions/what-is-driving-monthly-inflation",
       "distance": 1
     },
     {
@@ -812,7 +760,7 @@
   ],
   "counts": {
     "connections": 5,
-    "questions": 4,
+    "questions": 1,
     "indicators": 3,
     "charts": 19
   }

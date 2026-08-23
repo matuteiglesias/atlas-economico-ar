@@ -5,7 +5,6 @@
   "title": "Domestic capital-market depth versus external market issuance",
   "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance",
   "dek": "Contrast local savings mobilization with reliance on foreign-currency market financing.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -26,22 +25,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint"
-    },
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.capital_inflows",
@@ -105,24 +89,7 @@
   "referenceFrameIds": [
     "rf.ef.market_reentry_2025_26"
   ],
-  "chartSpec": null,
   "nearby": [
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint",
-      "distance": 1
-    },
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
-      "distance": 1
-    },
     {
       "id": "ci.ef.corporate_fx_issuance_usd",
       "kind": "indicator",
@@ -173,7 +140,7 @@
     }
   ],
   "counts": {
-    "questions": 2,
+    "questions": 0,
     "topics": 5,
     "indicators": 3
   }

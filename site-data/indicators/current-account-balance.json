@@ -4,8 +4,6 @@
   "slug": "current-account-balance",
   "title": "Current account balance",
   "href": "/indicators/current-account-balance",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -110,22 +108,6 @@
       "title": "Primary-income drag on the current account",
       "href": "/charts/primary-income-drag-on-the-current-account",
       "distance": 1
-    },
-    {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable",
-      "distance": 2
-    },
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "distance": 2
     },
     {
       "id": "q.ef04",

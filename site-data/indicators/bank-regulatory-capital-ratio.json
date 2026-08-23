@@ -4,8 +4,6 @@
   "slug": "bank-regulatory-capital-ratio",
   "title": "Bank regulatory capital ratio",
   "href": "/indicators/bank-regulatory-capital-ratio",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -63,14 +61,6 @@
       "title": "Bank capital and NPLs",
       "href": "/charts/bank-capital-and-npls",
       "distance": 1
-    },
-    {
-      "id": "q.ef15",
-      "kind": "question",
-      "slug": "is-credit-quality-deteriorating-as-lending-expands",
-      "title": "Is credit quality deteriorating as lending expands?",
-      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
-      "distance": 2
     },
     {
       "id": "q.ef16",

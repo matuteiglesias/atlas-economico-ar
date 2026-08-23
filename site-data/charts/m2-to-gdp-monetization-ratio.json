@@ -5,7 +5,6 @@
   "title": "M2-to-GDP monetization ratio",
   "href": "/charts/m2-to-gdp-monetization-ratio",
   "dek": "Show structural depth of domestic monetization.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -70,7 +69,6 @@
   "referenceFrameIds": [
     "rf.historical_2017_present"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns15",
@@ -144,7 +142,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

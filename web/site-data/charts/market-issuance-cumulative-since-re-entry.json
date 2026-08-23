@@ -26,15 +26,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.capital_inflows",
@@ -84,14 +76,6 @@
     "dataAsOfPolicy": "latest_common_available_period"
   },
   "nearby": [
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
-      "distance": 1
-    },
     {
       "id": "ci.ef.corporate_fx_issuance_usd",
       "kind": "indicator",
@@ -150,7 +134,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 3,
     "indicators": 2
   }

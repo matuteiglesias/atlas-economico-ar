@@ -5,7 +5,6 @@
   "title": "Liquid reserve buffers",
   "href": "/topics/liquid-reserve-buffers",
   "dek": "Reserve resources that are readily usable to absorb balance-of-payments pressure or meet foreign-currency obligations.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -174,14 +173,6 @@
       "title": "Liquid reserve buffer",
       "href": "/indicators/liquid-reserve-buffer",
       "distance": 1
-    },
-    {
-      "id": "q.ef11",
-      "kind": "question",
-      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "title": "How much does the strategy rely on swaps and repos?",
-      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "distance": 2
     },
     {
       "id": "q.ef03",

@@ -64,22 +64,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef08",
-      "kind": "question",
-      "slug": "is-argentina-regaining-durable-market-access",
-      "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access"
-    },
-    {
-      "id": "q.ef09",
-      "kind": "question",
-      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "title": "Why can reserves rise while sovereign risk stays high?",
-      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high"
-    }
-  ],
+  "questions": [],
   "indicators": [
     {
       "id": "ci.ef.sovereign_spread_bps",
@@ -142,22 +127,6 @@
   ],
   "nearby": [
     {
-      "id": "q.ef08",
-      "kind": "question",
-      "slug": "is-argentina-regaining-durable-market-access",
-      "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access",
-      "distance": 1
-    },
-    {
-      "id": "q.ef09",
-      "kind": "question",
-      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "title": "Why can reserves rise while sovereign risk stays high?",
-      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "distance": 1
-    },
-    {
       "id": "ef.market_access",
       "kind": "topic",
       "slug": "international-market-access",
@@ -190,14 +159,6 @@
       "distance": 1
     },
     {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint",
-      "distance": 2
-    },
-    {
       "id": "q.ns13",
       "kind": "question",
       "slug": "has-short-term-interest-rate-volatility-normalized",
@@ -208,7 +169,7 @@
   ],
   "counts": {
     "connections": 3,
-    "questions": 2,
+    "questions": 0,
     "indicators": 1,
     "charts": 7
   }

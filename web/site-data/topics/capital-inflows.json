@@ -5,7 +5,6 @@
   "title": "Capital inflows",
   "href": "/topics/capital-inflows",
   "dek": "External financing entering the economy through debt, equity, direct investment, official financing, or other financial flows.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -64,22 +63,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable"
-    },
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign"
-    }
-  ],
+  "questions": [],
   "indicators": [
     {
       "id": "ci.ef.capital_inflows_usd",
@@ -142,22 +126,6 @@
   ],
   "nearby": [
     {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable",
-      "distance": 1
-    },
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
-      "distance": 1
-    },
-    {
       "id": "ef.financial_account",
       "kind": "topic",
       "slug": "financial-account",
@@ -188,27 +156,11 @@
       "title": "Gross identified capital inflows",
       "href": "/indicators/gross-identified-capital-inflows",
       "distance": 1
-    },
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint",
-      "distance": 2
-    },
-    {
-      "id": "q.ef07",
-      "kind": "question",
-      "slug": "has-fx-hedging-pressure-normalized",
-      "title": "Has FX hedging pressure normalized?",
-      "href": "/questions/has-fx-hedging-pressure-normalized",
-      "distance": 2
     }
   ],
   "counts": {
     "connections": 3,
-    "questions": 2,
+    "questions": 0,
     "indicators": 1,
     "charts": 7
   }

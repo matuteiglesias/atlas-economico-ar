@@ -5,7 +5,6 @@
   "title": "Remonetization vs BCRA FX purchases",
   "href": "/charts/remonetization-vs-bcra-fx-purchases",
   "dek": "Visualize the policy complementarity/tradeoff highlighted by the program.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -84,7 +83,6 @@
   "referenceFrameIds": [
     "rf.jan_2026_fx_purchase_program"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns16",
@@ -183,7 +181,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

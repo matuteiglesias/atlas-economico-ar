@@ -5,7 +5,6 @@
   "title": "Foreign direct investment",
   "href": "/topics/foreign-direct-investment",
   "dek": "Cross-border investment associated with lasting ownership or control of productive assets.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -40,15 +39,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable"
-    }
-  ],
+  "questions": [],
   "indicators": [
     {
       "id": "ci.ef.fdi_net_usd",
@@ -83,14 +74,6 @@
   ],
   "nearby": [
     {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable",
-      "distance": 1
-    },
-    {
       "id": "ef.capital_inflows",
       "kind": "topic",
       "slug": "capital-inflows",
@@ -105,14 +88,6 @@
       "title": "Net foreign direct investment flows",
       "href": "/indicators/net-foreign-direct-investment-flows",
       "distance": 1
-    },
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
-      "distance": 2
     },
     {
       "id": "ef.external_position",
@@ -149,7 +124,7 @@
   ],
   "counts": {
     "connections": 1,
-    "questions": 1,
+    "questions": 0,
     "indicators": 1,
     "charts": 3
   }

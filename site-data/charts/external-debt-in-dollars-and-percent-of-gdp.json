@@ -26,15 +26,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef13",
-      "kind": "question",
-      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
-      "title": "Is the external debt burden becoming easier to service?",
-      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.external_public_debt",
@@ -84,14 +76,6 @@
     "dataAsOfPolicy": "latest_common_available_period"
   },
   "nearby": [
-    {
-      "id": "q.ef13",
-      "kind": "question",
-      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
-      "title": "Is the external debt burden becoming easier to service?",
-      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service",
-      "distance": 1
-    },
     {
       "id": "ci.ef.external_debt_gdp",
       "kind": "indicator",
@@ -150,7 +134,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 3,
     "indicators": 2
   }

@@ -5,7 +5,6 @@
   "title": "NPL ratio through the credit cycle",
   "href": "/charts/npl-ratio-through-the-credit-cycle",
   "dek": "Place recent deterioration in credit quality in a longer-run context.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -26,15 +25,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef15",
-      "kind": "question",
-      "slug": "is-credit-quality-deteriorating-as-lending-expands",
-      "title": "Is credit quality deteriorating as lending expands?",
-      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.credit_quality",
@@ -63,16 +54,7 @@
   "referenceFrameIds": [
     "rf.ef.pre_pandemic_2019"
   ],
-  "chartSpec": null,
   "nearby": [
-    {
-      "id": "q.ef15",
-      "kind": "question",
-      "slug": "is-credit-quality-deteriorating-as-lending-expands",
-      "title": "Is credit quality deteriorating as lending expands?",
-      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
-      "distance": 1
-    },
     {
       "id": "ci.ef.npl_ratio",
       "kind": "indicator",
@@ -115,7 +97,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 2,
     "indicators": 1
   }

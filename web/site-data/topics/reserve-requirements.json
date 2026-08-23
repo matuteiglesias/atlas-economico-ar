@@ -5,7 +5,6 @@
   "title": "Reserve requirements",
   "href": "/topics/reserve-requirements",
   "dek": "Regulatory reserve/liquidity requirements imposed on banks.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -52,15 +51,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ns14",
-      "kind": "question",
-      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "title": "How tight are bank reserve requirements and liquidity conditions?",
-      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions"
-    }
-  ],
+  "questions": [],
   "indicators": [
     {
       "id": "ci.ns.bcra_peso_deposits",
@@ -146,14 +137,6 @@
   ],
   "nearby": [
     {
-      "id": "q.ns14",
-      "kind": "question",
-      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "title": "How tight are bank reserve requirements and liquidity conditions?",
-      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "distance": 1
-    },
-    {
       "id": "ns.monetary_base",
       "kind": "topic",
       "slug": "monetary-base",
@@ -212,7 +195,7 @@
   ],
   "counts": {
     "connections": 2,
-    "questions": 1,
+    "questions": 0,
     "indicators": 2,
     "charts": 3
   }

@@ -5,7 +5,6 @@
   "title": "Core services vs core goods inflation",
   "href": "/charts/core-services-vs-core-goods-inflation",
   "dek": "Identify composition shifts in underlying inflation.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -26,15 +25,7 @@
       "href": "/areas/nominal-stabilization"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ns03",
-      "kind": "question",
-      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
-      "title": "Is disinflation broad-based across underlying inflation measures?",
-      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ns.core_inflation",
@@ -70,16 +61,7 @@
   "referenceFrameIds": [
     "rf.rolling_3m_annualized"
   ],
-  "chartSpec": null,
   "nearby": [
-    {
-      "id": "q.ns03",
-      "kind": "question",
-      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
-      "title": "Is disinflation broad-based across underlying inflation measures?",
-      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
-      "distance": 1
-    },
     {
       "id": "ci.ns.trimmed_goods_3m_ann",
       "kind": "indicator",
@@ -130,7 +112,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 2,
     "indicators": 2
   }

@@ -5,7 +5,6 @@
   "title": "Reserve accumulation",
   "href": "/topics/reserve-accumulation",
   "dek": "Change in usable reserve buffers over time, including the contribution of FX purchases and external financing flows.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -90,46 +89,11 @@
   ],
   "questions": [
     {
-      "id": "q.ef02",
-      "kind": "question",
-      "slug": "are-reserves-rebuilding-fast-enough",
-      "title": "Are reserves rebuilding fast enough?",
-      "href": "/questions/are-reserves-rebuilding-fast-enough"
-    },
-    {
       "id": "q.ef03",
       "kind": "question",
       "slug": "what-is-driving-changes-in-reserves",
       "title": "What is driving changes in reserves?",
       "href": "/questions/what-is-driving-changes-in-reserves"
-    },
-    {
-      "id": "q.ef07",
-      "kind": "question",
-      "slug": "has-fx-hedging-pressure-normalized",
-      "title": "Has FX hedging pressure normalized?",
-      "href": "/questions/has-fx-hedging-pressure-normalized"
-    },
-    {
-      "id": "q.ef09",
-      "kind": "question",
-      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "title": "Why can reserves rise while sovereign risk stays high?",
-      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high"
-    },
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance"
-    },
-    {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position"
     }
   ],
   "indicators": [
@@ -383,7 +347,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,1",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -419,51 +382,11 @@
   ],
   "nearby": [
     {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "distance": 1
-    },
-    {
-      "id": "q.ef02",
-      "kind": "question",
-      "slug": "are-reserves-rebuilding-fast-enough",
-      "title": "Are reserves rebuilding fast enough?",
-      "href": "/questions/are-reserves-rebuilding-fast-enough",
-      "distance": 1
-    },
-    {
-      "id": "q.ef07",
-      "kind": "question",
-      "slug": "has-fx-hedging-pressure-normalized",
-      "title": "Has FX hedging pressure normalized?",
-      "href": "/questions/has-fx-hedging-pressure-normalized",
-      "distance": 1
-    },
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "distance": 1
-    },
-    {
       "id": "q.ef03",
       "kind": "question",
       "slug": "what-is-driving-changes-in-reserves",
       "title": "What is driving changes in reserves?",
       "href": "/questions/what-is-driving-changes-in-reserves",
-      "distance": 1
-    },
-    {
-      "id": "q.ef09",
-      "kind": "question",
-      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "title": "Why can reserves rise while sovereign risk stays high?",
-      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
       "distance": 1
     },
     {
@@ -485,7 +408,7 @@
   ],
   "counts": {
     "connections": 5,
-    "questions": 6,
+    "questions": 1,
     "indicators": 3,
     "charts": 17
   }

@@ -5,7 +5,6 @@
   "title": "Disinflation since December 2023",
   "href": "/charts/disinflation-since-december-2023",
   "dek": "Show the stabilization path and recent stalls.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -179,7 +178,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

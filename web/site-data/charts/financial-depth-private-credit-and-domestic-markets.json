@@ -5,7 +5,6 @@
   "title": "Financial depth: private credit and domestic markets",
   "href": "/charts/financial-depth-private-credit-and-domestic-markets",
   "dek": "Compare bank intermediation and capital-market depth within one structural view.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -77,7 +76,6 @@
   "referenceFrameIds": [
     "rf.ef.peer_emerging_markets"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ef17",

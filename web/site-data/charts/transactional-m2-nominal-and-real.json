@@ -5,7 +5,6 @@
   "title": "Transactional M2 nominal and real",
   "href": "/charts/transactional-m2-nominal-and-real",
   "dek": "Separate nominal expansion from real money-demand recovery.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -77,7 +76,6 @@
   "referenceFrameIds": [
     "rf.dec_2023_anchor"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns15",
@@ -167,7 +165,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -232,7 +229,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

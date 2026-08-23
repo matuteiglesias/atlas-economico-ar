@@ -26,15 +26,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef08",
-      "kind": "question",
-      "slug": "is-argentina-regaining-durable-market-access",
-      "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.fx_market_issuance",
@@ -77,14 +69,6 @@
     "dataAsOfPolicy": "latest_common_available_period"
   },
   "nearby": [
-    {
-      "id": "q.ef08",
-      "kind": "question",
-      "slug": "is-argentina-regaining-durable-market-access",
-      "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access",
-      "distance": 1
-    },
     {
       "id": "ci.ef.sovereign_spread_bps",
       "kind": "indicator",
@@ -143,7 +127,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 3,
     "indicators": 1
   }

@@ -5,7 +5,6 @@
   "title": "Bank capital and NPLs",
   "href": "/charts/bank-capital-and-npls",
   "dek": "Show whether rising credit risk is occurring inside a sufficiently capitalized banking system.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -27,13 +26,6 @@
     }
   ],
   "questions": [
-    {
-      "id": "q.ef15",
-      "kind": "question",
-      "slug": "is-credit-quality-deteriorating-as-lending-expands",
-      "title": "Is credit quality deteriorating as lending expands?",
-      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands"
-    },
     {
       "id": "q.ef16",
       "kind": "question",
@@ -98,16 +90,7 @@
   "referenceFrameIds": [
     "rf.trailing_12m"
   ],
-  "chartSpec": null,
   "nearby": [
-    {
-      "id": "q.ef15",
-      "kind": "question",
-      "slug": "is-credit-quality-deteriorating-as-lending-expands",
-      "title": "Is credit quality deteriorating as lending expands?",
-      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
-      "distance": 1
-    },
     {
       "id": "q.ef16",
       "kind": "question",
@@ -166,7 +149,7 @@
     }
   ],
   "counts": {
-    "questions": 2,
+    "questions": 1,
     "topics": 5,
     "indicators": 2
   }

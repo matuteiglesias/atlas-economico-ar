@@ -5,7 +5,6 @@
   "title": "Private deposits by currency",
   "href": "/charts/private-deposits-by-currency",
   "dek": "Separate peso and foreign-currency components of private deposits using provider-consistent ARS-equivalent stocks.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -75,7 +74,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ef16",
@@ -214,7 +212,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "992,1003",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

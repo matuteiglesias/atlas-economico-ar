@@ -4,8 +4,6 @@
   "slug": "blue-exchange-rate",
   "title": "Blue exchange rate",
   "href": "/indicators/blue-exchange-rate",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -65,14 +63,6 @@
       "title": "Official, CCL and blue exchange rates",
       "href": "/charts/official-ccl-and-blue-exchange-rates",
       "distance": 1
-    },
-    {
-      "id": "q.ns09",
-      "kind": "question",
-      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "title": "How large is the gap between official and parallel exchange rates?",
-      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "distance": 2
     },
     {
       "id": "ns.fx_gap",

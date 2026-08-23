@@ -5,7 +5,6 @@
   "title": "Private credit by currency",
   "href": "/charts/private-credit-by-currency",
   "dek": "Separate peso and foreign-currency components of private credit using provider-consistent ARS-equivalent stocks.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -68,7 +67,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ef14",
@@ -146,7 +144,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -231,7 +228,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -301,7 +297,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "893,904",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

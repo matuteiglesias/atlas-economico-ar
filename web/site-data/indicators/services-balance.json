@@ -4,8 +4,6 @@
   "slug": "services-balance",
   "title": "Services balance",
   "href": "/indicators/services-balance",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -85,14 +83,6 @@
       "slug": "is-the-current-account-improving",
       "title": "Is the current account improving?",
       "href": "/questions/is-the-current-account-improving",
-      "distance": 2
-    },
-    {
-      "id": "q.ef05",
-      "kind": "question",
-      "slug": "what-offsets-argentina-s-goods-surplus",
-      "title": "What offsets Argentina's goods surplus?",
-      "href": "/questions/what-offsets-argentina-s-goods-surplus",
       "distance": 2
     },
     {

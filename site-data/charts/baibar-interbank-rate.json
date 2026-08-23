@@ -5,7 +5,6 @@
   "title": "BAIBAR interbank rate",
   "href": "/charts/baibar-interbank-rate",
   "dek": "Track the short-term interbank money-market rate directly; volatility is not inferred from the level alone.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -61,7 +60,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns13",
@@ -193,7 +191,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "160,11",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

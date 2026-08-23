@@ -4,8 +4,6 @@
   "slug": "transactional-m2-to-gdp",
   "title": "Transactional M2 to GDP",
   "href": "/indicators/transactional-m2-to-gdp",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",

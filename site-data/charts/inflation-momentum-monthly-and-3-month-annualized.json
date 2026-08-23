@@ -5,7 +5,6 @@
   "title": "Inflation momentum: monthly and 3-month annualized",
   "href": "/charts/inflation-momentum-monthly-and-3-month-annualized",
   "dek": "Show whether current inflation momentum is accelerating or decelerating.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -149,7 +148,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -219,7 +217,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

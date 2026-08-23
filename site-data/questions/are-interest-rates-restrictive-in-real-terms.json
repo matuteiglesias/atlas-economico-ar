@@ -4,8 +4,6 @@
   "slug": "are-interest-rates-restrictive-in-real-terms",
   "title": "Are interest rates restrictive in real terms?",
   "href": "/questions/are-interest-rates-restrictive-in-real-terms",
-  "dek": null,
-  "intro": null,
   "questionFamily": "policy_stance",
   "region": {
     "id": "nominal_stabilization",
@@ -200,7 +198,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "44,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -392,5 +389,55 @@
     "topics": 3,
     "indicators": 6,
     "charts": 7
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 7,
+      "linkedIndicators": 6,
+      "materializedPlotArtifacts": 3,
+      "prominentPlotArtifacts": 3,
+      "quarantinedPlotArtifacts": 0,
+      "historicalPlotArtifacts": 1,
+      "materializedPlotIntentIds": [
+        "pi.ns61",
+        "pi.ns62",
+        "pi.ns63"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ns61",
+        "pi.ns62",
+        "pi.ns63"
+      ],
+      "hasDek": false,
+      "hasIntro": false,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "policy_stance",
+        "topicIds": [
+          "ns.inflation_expectations",
+          "ns.policy_rate",
+          "ns.real_interest_rate"
+        ],
+        "indicatorIds": [
+          "ci.ns.infl_exp_3m",
+          "ci.ns.official_fx_monthly_change",
+          "ci.ns.policy_rate_nominal",
+          "ci.ns.tamar_nominal",
+          "ci.ns.tamar_real_exante",
+          "ci.ns.tamar_real_expost"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns61",
+          "pi.ns62",
+          "pi.ns63"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

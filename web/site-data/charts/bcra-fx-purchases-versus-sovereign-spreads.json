@@ -5,7 +5,6 @@
   "title": "BCRA FX purchases versus sovereign spreads",
   "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads",
   "dek": "Track whether reserve-building operations coincide with improving market-risk pricing.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -26,22 +25,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position"
-    },
-    {
-      "id": "q.ef09",
-      "kind": "question",
-      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "title": "Why can reserves rise while sovereign risk stays high?",
-      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.external_vulnerability",
@@ -105,24 +89,7 @@
   "referenceFrameIds": [
     "rf.ef.end_2025"
   ],
-  "chartSpec": null,
   "nearby": [
-    {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "distance": 1
-    },
-    {
-      "id": "q.ef09",
-      "kind": "question",
-      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "title": "Why can reserves rise while sovereign risk stays high?",
-      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "distance": 1
-    },
     {
       "id": "ci.ns.bcra_fx_purchases_daily",
       "kind": "indicator",
@@ -173,7 +140,7 @@
     }
   ],
   "counts": {
-    "questions": 2,
+    "questions": 0,
     "topics": 6,
     "indicators": 2
   }

@@ -26,22 +26,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef08",
-      "kind": "question",
-      "slug": "is-argentina-regaining-durable-market-access",
-      "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access"
-    },
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.capital_inflows",
@@ -99,22 +84,6 @@
   },
   "nearby": [
     {
-      "id": "q.ef08",
-      "kind": "question",
-      "slug": "is-argentina-regaining-durable-market-access",
-      "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access",
-      "distance": 1
-    },
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
-      "distance": 1
-    },
-    {
       "id": "ci.ef.corporate_spread_bps",
       "kind": "indicator",
       "slug": "corporate-spread",
@@ -164,7 +133,7 @@
     }
   ],
   "counts": {
-    "questions": 2,
+    "questions": 0,
     "topics": 4,
     "indicators": 2
   }

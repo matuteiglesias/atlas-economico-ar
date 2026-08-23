@@ -5,7 +5,6 @@
   "title": "Inflation",
   "href": "/topics/inflation",
   "dek": "How quickly the general level of prices is changing — and one of the central variables around which Argentina's stabilization process is organized.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -159,13 +158,6 @@
       "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices"
     },
     {
-      "id": "q.ns07",
-      "kind": "question",
-      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
-      "title": "What inflation path does the market expect over the next months and year-end?",
-      "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end"
-    },
-    {
       "id": "q.ns16",
       "kind": "question",
       "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
@@ -271,7 +263,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -332,7 +323,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -393,7 +383,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -475,7 +464,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -539,7 +527,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -614,7 +601,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -687,7 +673,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,5",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -851,14 +836,6 @@
       "distance": 1
     },
     {
-      "id": "q.ns07",
-      "kind": "question",
-      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
-      "title": "What inflation path does the market expect over the next months and year-end?",
-      "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
-      "distance": 1
-    },
-    {
       "id": "ns.bcra_fx_operations",
       "kind": "topic",
       "slug": "bcra-fx-operations",
@@ -885,7 +862,7 @@
   ],
   "counts": {
     "connections": 9,
-    "questions": 5,
+    "questions": 4,
     "indicators": 1,
     "charts": 14
   }

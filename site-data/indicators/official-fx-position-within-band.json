@@ -4,8 +4,6 @@
   "slug": "official-fx-position-within-band",
   "title": "Official FX position within band",
   "href": "/indicators/official-fx-position-within-band",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",

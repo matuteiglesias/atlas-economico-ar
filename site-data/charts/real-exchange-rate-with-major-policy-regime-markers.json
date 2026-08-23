@@ -5,7 +5,6 @@
   "title": "Real exchange rate with major policy-regime markers",
   "href": "/charts/real-exchange-rate-with-major-policy-regime-markers",
   "dek": "Put real FX dynamics in institutional context.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -134,7 +133,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,116.3_TCRMA_0_M_36",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

@@ -4,8 +4,6 @@
   "slug": "food-contribution-to-monthly-inflation",
   "title": "Food contribution to monthly inflation",
   "href": "/indicators/food-contribution-to-monthly-inflation",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -63,14 +61,6 @@
       "title": "Food and regulated prices as contributors to monthly inflation",
       "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation",
       "distance": 1
-    },
-    {
-      "id": "q.ns04",
-      "kind": "question",
-      "slug": "what-is-driving-monthly-inflation",
-      "title": "What is driving monthly inflation?",
-      "href": "/questions/what-is-driving-monthly-inflation",
-      "distance": 2
     },
     {
       "id": "ns.core_inflation",

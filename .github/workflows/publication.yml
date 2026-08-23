@@ -5,6 +5,7 @@ on:
     paths:
       - "figures/**"
       - "series/**"
+      - "publication/**"
       - "scripts/build-publication.py"
       - "plot-artifacts/**"
       - "site-data/**"
@@ -17,6 +18,7 @@ on:
     paths:
       - "figures/**"
       - "series/**"
+      - "publication/**"
       - "scripts/build-publication.py"
       - "plot-artifacts/**"
       - "site-data/**"
@@ -52,6 +54,8 @@ jobs:
         run: make validate-figure-curation
       - name: Test figure curation
         run: make test-figures
+      - name: Test question publication contract
+        run: make test-publication
       - name: Build complete offline Atlas publication
         env: {SOURCE_DATE_EPOCH: "1786828800"}
         run: make build-atlas
@@ -65,6 +69,9 @@ jobs:
           assert stats['counts']['indicator'] == 90, stats
           assert stats['counts']['chart'] == 119, stats
           assert stats['graph']['nodes'] == 308, stats
+          assert stats['questionPublication']['semantic'] == 38, stats
+          assert stats['counts']['question'] == stats['questionPublication']['public'], stats
+          assert manifest['questionPublication'] == stats['questionPublication'], manifest
           assert stats['plot_artifacts'] == 41, stats
           assert stats['prominent_plot_artifacts'] == 37, stats
           assert stats['quarantined_plot_artifacts'] == 4, stats
@@ -75,7 +82,11 @@ jobs:
           assert manifest['historicalPlotArtifacts'] == 2, manifest
           assert len(list(Path('web/public/plots').glob('*.svg'))) == 41
           assert len(list(Path('web/public/plots').glob('*.png'))) == 41
-          print('PASS: 119 charts, 90 indicators, 41 PlotArtifacts; 37 prominent / 4 quarantined / 2 historical')
+          print(
+              'PASS: 119 charts, 90 indicators, 41 PlotArtifacts; '
+              f"{stats['questionPublication']['public']} public / 38 semantic questions; "
+              '37 prominent / 4 quarantined / 2 historical'
+          )
           PY
       - uses: actions/upload-artifact@v4
         with:

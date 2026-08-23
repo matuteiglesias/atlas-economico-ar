@@ -5,7 +5,6 @@
   "title": "Official external financing",
   "href": "/topics/official-external-financing",
   "dek": "Financing from multilateral institutions, foreign official creditors, and other official-sector arrangements.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -59,13 +58,6 @@
       "slug": "what-is-driving-changes-in-reserves",
       "title": "What is driving changes in reserves?",
       "href": "/questions/what-is-driving-changes-in-reserves"
-    },
-    {
-      "id": "q.ef11",
-      "kind": "question",
-      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "title": "How much does the strategy rely on swaps and repos?",
-      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos"
     }
   ],
   "indicators": [
@@ -242,7 +234,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,1",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -277,14 +268,6 @@
     }
   ],
   "nearby": [
-    {
-      "id": "q.ef11",
-      "kind": "question",
-      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "title": "How much does the strategy rely on swaps and repos?",
-      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "distance": 1
-    },
     {
       "id": "q.ef03",
       "kind": "question",
@@ -344,7 +327,7 @@
   ],
   "counts": {
     "connections": 2,
-    "questions": 2,
+    "questions": 1,
     "indicators": 1,
     "charts": 8
   }

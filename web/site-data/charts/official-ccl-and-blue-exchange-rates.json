@@ -5,7 +5,6 @@
   "title": "Official, CCL and blue exchange rates",
   "href": "/charts/official-ccl-and-blue-exchange-rates",
   "dek": "Show convergence/divergence across FX markets.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -26,15 +25,7 @@
       "href": "/areas/nominal-stabilization"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ns09",
-      "kind": "question",
-      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "title": "How large is the gap between official and parallel exchange rates?",
-      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ns.fx_gap",
@@ -91,14 +82,6 @@
     "dataAsOfPolicy": "latest_common_available_period"
   },
   "nearby": [
-    {
-      "id": "q.ns09",
-      "kind": "question",
-      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "title": "How large is the gap between official and parallel exchange rates?",
-      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "distance": 1
-    },
     {
       "id": "ci.ns.blue_fx",
       "kind": "indicator",
@@ -179,7 +162,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,5",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -211,7 +193,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 3,
     "indicators": 3
   }

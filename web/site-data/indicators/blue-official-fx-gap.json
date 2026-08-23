@@ -4,8 +4,6 @@
   "slug": "blue-official-fx-gap",
   "title": "Blue-official FX gap",
   "href": "/indicators/blue-official-fx-gap",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -80,22 +78,6 @@
       "title": "FX gaps: CCL and blue",
       "href": "/charts/fx-gaps-ccl-and-blue",
       "distance": 1
-    },
-    {
-      "id": "q.ns09",
-      "kind": "question",
-      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "title": "How large is the gap between official and parallel exchange rates?",
-      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "distance": 2
-    },
-    {
-      "id": "q.ns18",
-      "kind": "question",
-      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "distance": 2
     },
     {
       "id": "ns.inflation",

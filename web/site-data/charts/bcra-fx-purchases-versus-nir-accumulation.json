@@ -33,13 +33,6 @@
       "slug": "what-is-driving-changes-in-reserves",
       "title": "What is driving changes in reserves?",
       "href": "/questions/what-is-driving-changes-in-reserves"
-    },
-    {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position"
     }
   ],
   "topics": [
@@ -113,14 +106,6 @@
   },
   "nearby": [
     {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "distance": 1
-    },
-    {
       "id": "q.ef03",
       "kind": "question",
       "slug": "what-is-driving-changes-in-reserves",
@@ -178,7 +163,7 @@
     }
   ],
   "counts": {
-    "questions": 2,
+    "questions": 1,
     "topics": 6,
     "indicators": 2
   }

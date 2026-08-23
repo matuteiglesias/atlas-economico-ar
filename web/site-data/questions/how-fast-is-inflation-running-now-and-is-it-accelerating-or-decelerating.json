@@ -4,8 +4,6 @@
   "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
   "title": "How fast is inflation running now, and is it accelerating or decelerating?",
   "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
-  "dek": null,
-  "intro": null,
   "questionFamily": "direction_change",
   "region": {
     "id": "nominal_stabilization",
@@ -162,7 +160,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -341,7 +338,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -530,19 +526,61 @@
       "title": "Monthly inflation with acceleration markers",
       "href": "/charts/monthly-inflation-with-acceleration-markers",
       "distance": 1
-    },
-    {
-      "id": "q.ns06",
-      "kind": "question",
-      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "distance": 2
     }
   ],
   "counts": {
     "topics": 2,
     "indicators": 4,
     "charts": 5
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 5,
+      "linkedIndicators": 4,
+      "materializedPlotArtifacts": 4,
+      "prominentPlotArtifacts": 4,
+      "quarantinedPlotArtifacts": 0,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ns01",
+        "pi.ns03",
+        "pi.ns53",
+        "pi.ns65"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ns01",
+        "pi.ns03",
+        "pi.ns53",
+        "pi.ns65"
+      ],
+      "hasDek": false,
+      "hasIntro": false,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "direction_change",
+        "topicIds": [
+          "ns.headline_inflation",
+          "ns.inflation"
+        ],
+        "indicatorIds": [
+          "ci.ns.cpi_3m_ann",
+          "ci.ns.cpi_monthly",
+          "ci.ns.cpi_yoy",
+          "ci.ns.infl_acceleration"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns01",
+          "pi.ns03",
+          "pi.ns53",
+          "pi.ns65"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

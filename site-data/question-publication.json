@@ -1,0 +1,1787 @@
+{
+  "schemaVersion": "0.1",
+  "defaultRule": "PUBLIC_IF_NON_QUARANTINED_MATERIALIZED_PLOT",
+  "semanticQuestionCount": 38,
+  "stateCounts": {
+    "HOLD": 21,
+    "PUBLIC": 17,
+    "REFERENCE": 0,
+    "SUPERSEDED": 0
+  },
+  "questions": [
+    {
+      "questionId": "q.ef01",
+      "slug": "how-strong-is-argentina-s-reserve-position",
+      "title": "How strong is Argentina's reserve position?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 4,
+        "linkedIndicators": 9,
+        "materializedPlotArtifacts": 1,
+        "prominentPlotArtifacts": 1,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ef46"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ef46"
+        ],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "state_measurement",
+          "topicIds": [
+            "ef.gross_reserves",
+            "ef.liquid_reserve_buffers",
+            "ef.net_international_reserves",
+            "ef.reserve_adequacy"
+          ],
+          "indicatorIds": [
+            "ci.ef.current_account_gdp",
+            "ci.ef.gross_reserves_usd",
+            "ci.ef.import_cover_months",
+            "ci.ef.liquid_reserve_buffer_usd",
+            "ci.ef.nir_to_gross_ratio",
+            "ci.ef.nir_usd",
+            "ci.ef.public_fx_debt_service_12m",
+            "ci.ef.reserve_to_fx_service_ratio",
+            "ci.ef.sovereign_spread_bps"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ef46"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef02",
+      "slug": "are-reserves-rebuilding-fast-enough",
+      "title": "Are reserves rebuilding fast enough?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 2,
+        "linkedIndicators": 3,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "target_gap",
+          "topicIds": [
+            "ef.fx_debt_service",
+            "ef.net_international_reserves",
+            "ef.reserve_accumulation",
+            "ef.reserve_adequacy"
+          ],
+          "indicatorIds": [
+            "ci.ef.nir_usd",
+            "ci.ef.public_fx_debt_service_12m",
+            "ci.ef.reserve_accumulation_ytd"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef03",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 6,
+        "linkedIndicators": 8,
+        "materializedPlotArtifacts": 3,
+        "prominentPlotArtifacts": 2,
+        "quarantinedPlotArtifacts": 1,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ef47",
+          "pi.ef48",
+          "pi.ef49"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ef47",
+          "pi.ef48"
+        ],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "decomposition",
+          "topicIds": [
+            "ef.fx_debt_service",
+            "ef.net_international_reserves",
+            "ef.official_external_financing",
+            "ef.reserve_accumulation"
+          ],
+          "indicatorIds": [
+            "ci.ef.gross_reserves_usd",
+            "ci.ef.nir_change_monthly",
+            "ci.ef.nir_usd",
+            "ci.ef.official_external_financing_usd",
+            "ci.ef.public_fx_debt_service_12m",
+            "ci.ef.reserve_accumulation_ytd",
+            "ci.ef.reserve_change_monthly",
+            "ci.ns.bcra_fx_purchases_daily"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ef47",
+            "pi.ef48"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef04",
+      "slug": "is-the-current-account-improving",
+      "title": "Is the current account improving?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 5,
+        "materializedPlotArtifacts": 1,
+        "prominentPlotArtifacts": 1,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ef45"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ef45"
+        ],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "decomposition",
+          "topicIds": [
+            "ef.current_account",
+            "ef.goods_trade_balance",
+            "ef.primary_income_balance",
+            "ef.services_balance"
+          ],
+          "indicatorIds": [
+            "ci.ef.current_account_gdp",
+            "ci.ef.current_account_usd",
+            "ci.ef.goods_balance_usd",
+            "ci.ef.primary_income_balance_usd",
+            "ci.ef.services_balance_usd"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ef45"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef05",
+      "slug": "what-offsets-argentina-s-goods-surplus",
+      "title": "What offsets Argentina's goods surplus?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 4,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "accounting_bridge",
+          "topicIds": [
+            "ef.current_account",
+            "ef.goods_trade_balance",
+            "ef.primary_income_balance",
+            "ef.services_balance"
+          ],
+          "indicatorIds": [
+            "ci.ef.current_account_usd",
+            "ci.ef.goods_balance_usd",
+            "ci.ef.primary_income_balance_usd",
+            "ci.ef.services_balance_usd"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef06",
+      "slug": "are-capital-inflows-durable",
+      "title": "Are capital inflows durable?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 5,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "financing_quality",
+          "topicIds": [
+            "ef.capital_inflows",
+            "ef.external_position",
+            "ef.financial_account",
+            "ef.foreign_direct_investment"
+          ],
+          "indicatorIds": [
+            "ci.ef.capital_inflows_usd",
+            "ci.ef.current_account_usd",
+            "ci.ef.fdi_net_usd",
+            "ci.ef.private_financial_flows_usd",
+            "ci.ef.public_financial_flows_usd"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef07",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 2,
+        "linkedIndicators": 2,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "stress_normalization",
+          "topicIds": [
+            "ef.financial_account",
+            "ef.reserve_accumulation",
+            "ef.resident_fx_hedging"
+          ],
+          "indicatorIds": [
+            "ci.ef.nir_change_monthly",
+            "ci.ef.private_financial_flows_usd"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef08",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 4,
+        "linkedIndicators": 7,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "market_access",
+          "topicIds": [
+            "ef.fx_market_issuance",
+            "ef.market_access",
+            "ef.sovereign_spreads"
+          ],
+          "indicatorIds": [
+            "ci.ef.corporate_fx_issuance_usd",
+            "ci.ef.corporate_spread_bps",
+            "ci.ef.current_account_gdp",
+            "ci.ef.nir_usd",
+            "ci.ef.public_fx_debt_service_12m",
+            "ci.ef.public_fx_issuance_usd",
+            "ci.ef.sovereign_spread_bps"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef09",
+      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "title": "Why can reserves rise while sovereign risk stays high?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 4,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "joint_state",
+          "topicIds": [
+            "ef.external_vulnerability",
+            "ef.market_access",
+            "ef.reserve_accumulation",
+            "ef.sovereign_spreads"
+          ],
+          "indicatorIds": [
+            "ci.ef.gross_reserves_usd",
+            "ci.ef.nir_usd",
+            "ci.ef.sovereign_spread_bps",
+            "ci.ns.bcra_fx_purchases_daily"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef10",
+      "slug": "how-large-is-the-near-term-fx-maturity-wall",
+      "title": "How large is the near-term FX maturity wall?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 4,
+        "linkedIndicators": 8,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "maturity_profile",
+          "topicIds": [
+            "ef.external_public_debt",
+            "ef.fx_debt_service",
+            "ef.refinancing_needs"
+          ],
+          "indicatorIds": [
+            "ci.ef.current_account_gdp",
+            "ci.ef.gross_reserves_usd",
+            "ci.ef.imf_obligations_12m",
+            "ci.ef.market_fx_redemptions_12m",
+            "ci.ef.nir_usd",
+            "ci.ef.public_fx_debt_service_12m",
+            "ci.ef.reserve_accumulation_ytd",
+            "ci.ef.sovereign_spread_bps"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef11",
+      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "title": "How much does the strategy rely on swaps and repos?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 6,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "financing_mix",
+          "topicIds": [
+            "ef.official_external_financing",
+            "ef.refinancing_needs",
+            "ef.swap_repo_financing"
+          ],
+          "indicatorIds": [
+            "ci.ef.nir_change_monthly",
+            "ci.ef.nir_usd",
+            "ci.ef.official_external_financing_usd",
+            "ci.ef.public_fx_debt_service_12m",
+            "ci.ef.repo_liabilities_usd",
+            "ci.ef.swap_liabilities_usd"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef12",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 4,
+        "linkedIndicators": 5,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "market_breadth",
+          "topicIds": [
+            "ef.capital_inflows",
+            "ef.fx_market_issuance",
+            "ef.market_access"
+          ],
+          "indicatorIds": [
+            "ci.ef.corporate_fx_issuance_usd",
+            "ci.ef.corporate_spread_bps",
+            "ci.ef.domestic_market_depth_gdp",
+            "ci.ef.public_fx_issuance_usd",
+            "ci.ef.sovereign_spread_bps"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef13",
+      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
+      "title": "Is the external debt burden becoming easier to service?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 4,
+        "linkedIndicators": 8,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "sustainability",
+          "topicIds": [
+            "ef.external_public_debt",
+            "ef.fx_debt_service",
+            "ef.reserve_adequacy"
+          ],
+          "indicatorIds": [
+            "ci.ef.external_debt_gdp",
+            "ci.ef.external_debt_usd",
+            "ci.ef.gross_reserves_usd",
+            "ci.ef.import_cover_months",
+            "ci.ef.nir_to_gross_ratio",
+            "ci.ef.nir_usd",
+            "ci.ef.public_fx_debt_service_12m",
+            "ci.ef.reserve_to_fx_service_ratio"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef14",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 5,
+        "linkedIndicators": 8,
+        "materializedPlotArtifacts": 4,
+        "prominentPlotArtifacts": 4,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ef30",
+          "pi.ef51",
+          "pi.ef53",
+          "pi.ef54"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ef30",
+          "pi.ef51",
+          "pi.ef53",
+          "pi.ef54"
+        ],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "financial_depth",
+          "topicIds": [
+            "ef.financial_depth",
+            "ef.private_credit"
+          ],
+          "indicatorIds": [
+            "ci.ef.fx_credit_share",
+            "ci.ef.fx_deposit_share",
+            "ci.ef.private_credit_fx_ars_equivalent",
+            "ci.ef.private_credit_gdp",
+            "ci.ef.private_credit_peso_ars",
+            "ci.ef.private_credit_total_ars",
+            "ci.ef.private_deposits_total_ars",
+            "ci.ef.real_private_credit_growth"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ef30",
+            "pi.ef51",
+            "pi.ef53",
+            "pi.ef54"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef15",
+      "slug": "is-credit-quality-deteriorating-as-lending-expands",
+      "title": "Is credit quality deteriorating as lending expands?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 3,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "financial_risk",
+          "topicIds": [
+            "ef.credit_quality",
+            "ef.private_credit"
+          ],
+          "indicatorIds": [
+            "ci.ef.bank_capital_ratio",
+            "ci.ef.npl_ratio",
+            "ci.ef.real_private_credit_growth"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef16",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 6,
+        "linkedIndicators": 8,
+        "materializedPlotArtifacts": 4,
+        "prominentPlotArtifacts": 4,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ef33",
+          "pi.ef50",
+          "pi.ef52",
+          "pi.ef53"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ef33",
+          "pi.ef50",
+          "pi.ef52",
+          "pi.ef53"
+        ],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "dollarization_finance",
+          "topicIds": [
+            "ef.external_vulnerability",
+            "ef.financial_depth",
+            "ef.fx_deposits"
+          ],
+          "indicatorIds": [
+            "ci.ef.bank_capital_ratio",
+            "ci.ef.bank_liquidity_ratio",
+            "ci.ef.fx_credit_share",
+            "ci.ef.fx_deposit_share",
+            "ci.ef.fx_deposits_usd",
+            "ci.ef.npl_ratio",
+            "ci.ef.private_deposits_fx_ars_equivalent",
+            "ci.ef.private_deposits_peso_ars"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ef33",
+            "pi.ef50",
+            "pi.ef52",
+            "pi.ef53"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef17",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 4,
+        "linkedIndicators": 4,
+        "materializedPlotArtifacts": 1,
+        "prominentPlotArtifacts": 1,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ef54"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ef54"
+        ],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "structural_comparison",
+          "topicIds": [
+            "ef.domestic_capital_market_depth",
+            "ef.financial_depth",
+            "ef.private_credit"
+          ],
+          "indicatorIds": [
+            "ci.ef.domestic_market_depth_gdp",
+            "ci.ef.private_credit_gdp",
+            "ci.ef.private_credit_total_ars",
+            "ci.ef.private_deposits_total_ars"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ef54"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef18",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 2,
+        "linkedIndicators": 5,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "structural_mechanism",
+          "topicIds": [
+            "ef.domestic_savings_mobilization",
+            "ef.financial_depth",
+            "ef.market_access"
+          ],
+          "indicatorIds": [
+            "ci.ef.assets_outside_system_gdp",
+            "ci.ef.corporate_fx_issuance_usd",
+            "ci.ef.domestic_market_depth_gdp",
+            "ci.ef.private_credit_gdp",
+            "ci.ef.public_fx_issuance_usd"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef19",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 5,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "cross_slice_tradeoff",
+          "topicIds": [
+            "ef.current_account",
+            "ef.reserve_accumulation",
+            "ns.real_exchange_rate"
+          ],
+          "indicatorIds": [
+            "ci.ef.current_account_gdp",
+            "ci.ef.nir_usd",
+            "ci.ef.public_fx_debt_service_12m",
+            "ci.ef.sovereign_spread_bps",
+            "ci.ns.reer_index"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ef20",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 4,
+        "linkedIndicators": 4,
+        "materializedPlotArtifacts": 1,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 1,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ef49"
+        ],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": true,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "cross_slice_policy",
+          "topicIds": [
+            "ef.external_vulnerability",
+            "ef.net_international_reserves",
+            "ef.reserve_accumulation",
+            "ns.bcra_fx_operations"
+          ],
+          "indicatorIds": [
+            "ci.ef.gross_reserves_usd",
+            "ci.ef.nir_usd",
+            "ci.ef.sovereign_spread_bps",
+            "ci.ns.bcra_fx_purchases_daily"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns01",
+      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 5,
+        "linkedIndicators": 4,
+        "materializedPlotArtifacts": 4,
+        "prominentPlotArtifacts": 4,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ns01",
+          "pi.ns03",
+          "pi.ns53",
+          "pi.ns65"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns01",
+          "pi.ns03",
+          "pi.ns53",
+          "pi.ns65"
+        ],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "direction_change",
+          "topicIds": [
+            "ns.headline_inflation",
+            "ns.inflation"
+          ],
+          "indicatorIds": [
+            "ci.ns.cpi_3m_ann",
+            "ci.ns.cpi_monthly",
+            "ci.ns.cpi_yoy",
+            "ci.ns.infl_acceleration"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ns01",
+            "pi.ns03",
+            "pi.ns53",
+            "pi.ns65"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns02",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 1,
+        "linkedIndicators": 2,
+        "materializedPlotArtifacts": 1,
+        "prominentPlotArtifacts": 1,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ns04"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns04"
+        ],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "trend_regime",
+          "topicIds": [
+            "ns.inflation",
+            "ns.inflation_expectations",
+            "ns.inflation_inertia"
+          ],
+          "indicatorIds": [
+            "ci.ns.cpi_monthly",
+            "ci.ns.cpi_yoy"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ns04"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns03",
+      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
+      "title": "Is disinflation broad-based across underlying inflation measures?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 5,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "breadth",
+          "topicIds": [
+            "ns.core_inflation",
+            "ns.headline_inflation"
+          ],
+          "indicatorIds": [
+            "ci.ns.core_3m_ann",
+            "ci.ns.cpi_3m_ann",
+            "ci.ns.trimmed_cpi_3m_ann",
+            "ci.ns.trimmed_goods_3m_ann",
+            "ci.ns.trimmed_services_3m_ann"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns04",
+      "slug": "what-is-driving-monthly-inflation",
+      "title": "What is driving monthly inflation?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 2,
+        "linkedIndicators": 3,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": true,
+        "hasIntro": false,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "decomposition",
+          "topicIds": [
+            "ns.aggregate_demand_pressure",
+            "ns.fx_pass_through",
+            "ns.headline_inflation",
+            "ns.inflation_inertia",
+            "ns.relative_price_adjustment"
+          ],
+          "indicatorIds": [
+            "ci.ns.cpi_monthly",
+            "ci.ns.food_inflation_contribution",
+            "ci.ns.regulated_inflation_contribution"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns05",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 2,
+        "materializedPlotArtifacts": 2,
+        "prominentPlotArtifacts": 2,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ns09",
+          "pi.ns50"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns09",
+          "pi.ns50"
+        ],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "mechanism",
+          "topicIds": [
+            "ns.fx_pass_through",
+            "ns.inflation",
+            "ns.nominal_exchange_rate"
+          ],
+          "indicatorIds": [
+            "ci.ns.cpi_monthly",
+            "ci.ns.official_fx_monthly_change"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ns09",
+            "pi.ns50"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns06",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 2,
+        "linkedIndicators": 3,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "expectations",
+          "topicIds": [
+            "ns.headline_inflation",
+            "ns.inflation_expectations"
+          ],
+          "indicatorIds": [
+            "ci.ns.cpi_monthly",
+            "ci.ns.infl_exp_1m",
+            "ci.ns.infl_surprise"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns07",
+      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "title": "What inflation path does the market expect over the next months and year-end?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 2,
+        "linkedIndicators": 3,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "forecast",
+          "topicIds": [
+            "ns.inflation",
+            "ns.inflation_expectations"
+          ],
+          "indicatorIds": [
+            "ci.ns.infl_exp_1m",
+            "ci.ns.infl_exp_3m",
+            "ci.ns.infl_exp_eop"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns08",
+      "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
+      "title": "Where is the official exchange rate inside the policy band?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 4,
+        "materializedPlotArtifacts": 1,
+        "prominentPlotArtifacts": 1,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ns55"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns55"
+        ],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "policy_monitoring",
+          "topicIds": [
+            "ns.exchange_rate_band",
+            "ns.nominal_exchange_rate"
+          ],
+          "indicatorIds": [
+            "ci.ns.fx_band_lower",
+            "ci.ns.fx_band_position",
+            "ci.ns.fx_band_upper",
+            "ci.ns.official_fx"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ns55"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns09",
+      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "title": "How large is the gap between official and parallel exchange rates?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 5,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "comparison",
+          "topicIds": [
+            "ns.fx_gap",
+            "ns.nominal_exchange_rate",
+            "ns.parallel_exchange_rate"
+          ],
+          "indicatorIds": [
+            "ci.ns.blue_fx",
+            "ci.ns.ccl_fx",
+            "ci.ns.fx_gap_blue",
+            "ci.ns.fx_gap_ccl",
+            "ci.ns.official_fx"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns10",
+      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "title": "How much has the peso appreciated or depreciated in real terms?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 4,
+        "linkedIndicators": 3,
+        "materializedPlotArtifacts": 2,
+        "prominentPlotArtifacts": 2,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ns21",
+          "pi.ns54"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns21",
+          "pi.ns54"
+        ],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "historical_comparison",
+          "topicIds": [
+            "ns.nominal_exchange_rate",
+            "ns.real_exchange_rate"
+          ],
+          "indicatorIds": [
+            "ci.ns.official_fx",
+            "ci.ns.reer_change_dec2023",
+            "ci.ns.reer_index"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ns21",
+            "pi.ns54"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns11",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 6,
+        "linkedIndicators": 4,
+        "materializedPlotArtifacts": 4,
+        "prominentPlotArtifacts": 3,
+        "quarantinedPlotArtifacts": 1,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ns23",
+          "pi.ns25",
+          "pi.ns57",
+          "pi.ns59"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns23",
+          "pi.ns25",
+          "pi.ns57"
+        ],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "policy_transmission",
+          "topicIds": [
+            "ns.bcra_fx_operations",
+            "ns.monetary_base",
+            "ns.money_demand",
+            "ns.nominal_exchange_rate"
+          ],
+          "indicatorIds": [
+            "ci.ns.bcra_fx_purchases_cumulative",
+            "ci.ns.bcra_fx_purchases_daily",
+            "ci.ns.monetary_base_nominal",
+            "ci.ns.official_fx"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ns23",
+            "pi.ns25",
+            "pi.ns57"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns12",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 7,
+        "linkedIndicators": 6,
+        "materializedPlotArtifacts": 3,
+        "prominentPlotArtifacts": 3,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 1,
+        "materializedPlotIntentIds": [
+          "pi.ns61",
+          "pi.ns62",
+          "pi.ns63"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns61",
+          "pi.ns62",
+          "pi.ns63"
+        ],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "policy_stance",
+          "topicIds": [
+            "ns.inflation_expectations",
+            "ns.policy_rate",
+            "ns.real_interest_rate"
+          ],
+          "indicatorIds": [
+            "ci.ns.infl_exp_3m",
+            "ci.ns.official_fx_monthly_change",
+            "ci.ns.policy_rate_nominal",
+            "ci.ns.tamar_nominal",
+            "ci.ns.tamar_real_exante",
+            "ci.ns.tamar_real_expost"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ns61",
+            "pi.ns62",
+            "pi.ns63"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns13",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 4,
+        "linkedIndicators": 2,
+        "materializedPlotArtifacts": 3,
+        "prominentPlotArtifacts": 3,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 2,
+        "materializedPlotIntentIds": [
+          "pi.ns31",
+          "pi.ns60",
+          "pi.ns63"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns31",
+          "pi.ns60",
+          "pi.ns63"
+        ],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "market_functioning",
+          "topicIds": [
+            "ns.money_market_rate",
+            "ns.policy_credibility"
+          ],
+          "indicatorIds": [
+            "ci.ns.money_market_rate",
+            "ci.ns.policy_rate_nominal"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ns31",
+            "pi.ns60",
+            "pi.ns63"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns14",
+      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "title": "How tight are bank reserve requirements and liquidity conditions?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 3,
+        "materializedPlotArtifacts": 1,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 1,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ns64"
+        ],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "liquidity",
+          "topicIds": [
+            "ns.money_market_rate",
+            "ns.reserve_requirements"
+          ],
+          "indicatorIds": [
+            "ci.ns.bcra_peso_deposits",
+            "ci.ns.money_market_rate",
+            "ci.ns.reserve_requirement_ratio"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns15",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 7,
+        "linkedIndicators": 6,
+        "materializedPlotArtifacts": 5,
+        "prominentPlotArtifacts": 4,
+        "quarantinedPlotArtifacts": 1,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ns34",
+          "pi.ns35",
+          "pi.ns36",
+          "pi.ns56",
+          "pi.ns58"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns34",
+          "pi.ns35",
+          "pi.ns36",
+          "pi.ns56"
+        ],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "monetization",
+          "topicIds": [
+            "ns.monetary_base",
+            "ns.money_demand",
+            "ns.transactional_m2"
+          ],
+          "indicatorIds": [
+            "ci.ns.m2_to_gdp",
+            "ci.ns.monetary_base_nominal",
+            "ci.ns.monetary_base_real",
+            "ci.ns.transactional_m2_nominal",
+            "ci.ns.transactional_m2_projection_gap",
+            "ci.ns.transactional_m2_real"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ns34",
+            "pi.ns35",
+            "pi.ns36",
+            "pi.ns56"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns16",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 4,
+        "materializedPlotArtifacts": 3,
+        "prominentPlotArtifacts": 3,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ns39",
+          "pi.ns40",
+          "pi.ns41"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns39",
+          "pi.ns40",
+          "pi.ns41"
+        ],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "policy_tradeoff",
+          "topicIds": [
+            "ns.inflation",
+            "ns.monetary_base",
+            "ns.money_demand",
+            "ns.remonetization"
+          ],
+          "indicatorIds": [
+            "ci.ns.bcra_fx_purchases_daily",
+            "ci.ns.cpi_monthly",
+            "ci.ns.monetary_base_real",
+            "ci.ns.transactional_m2_real"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ns39",
+            "pi.ns40",
+            "pi.ns41"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns17",
+      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+      "state": "PUBLIC",
+      "reason": "has_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 5,
+        "materializedPlotArtifacts": 2,
+        "prominentPlotArtifacts": 1,
+        "quarantinedPlotArtifacts": 1,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [
+          "pi.ns43",
+          "pi.ns58"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns43"
+        ],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": false
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "program_consistency",
+          "topicIds": [
+            "ns.monetary_base",
+            "ns.monetary_targeting_framework",
+            "ns.money_demand"
+          ],
+          "indicatorIds": [
+            "ci.ns.cpi_monthly",
+            "ci.ns.monetary_base_nominal",
+            "ci.ns.monetary_base_real",
+            "ci.ns.transactional_m2_nominal",
+            "ci.ns.transactional_m2_real"
+          ],
+          "prominentPlotIntentIds": [
+            "pi.ns43"
+          ]
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.ns18",
+      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "state": "HOLD",
+      "reason": "no_non_quarantined_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 6,
+        "linkedIndicators": 10,
+        "materializedPlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "credibility",
+          "topicIds": [
+            "ns.fx_gap",
+            "ns.fx_hedging_demand",
+            "ns.inflation_expectations",
+            "ns.money_market_rate",
+            "ns.policy_credibility"
+          ],
+          "indicatorIds": [
+            "ci.ns.cpi_3m_ann",
+            "ci.ns.fx_band_upper",
+            "ci.ns.fx_forward_1m",
+            "ci.ns.fx_forward_eoy",
+            "ci.ns.fx_gap_ccl",
+            "ci.ns.infl_exp_3m",
+            "ci.ns.infl_exp_eop",
+            "ci.ns.money_market_rate",
+            "ci.ns.tamar_real_exante",
+            "ci.ns.transactional_m2_projection_gap"
+          ],
+          "prominentPlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    }
+  ]
+}

@@ -5,7 +5,6 @@
   "title": "Sovereign risk",
   "href": "/topics/sovereign-risk",
   "dek": "Market assessment of the probability and severity of losses on sovereign obligations.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -51,22 +50,6 @@
       "title": "Sovereign spreads",
       "href": "/topics/sovereign-spreads",
       "distance": 1
-    },
-    {
-      "id": "q.ef08",
-      "kind": "question",
-      "slug": "is-argentina-regaining-durable-market-access",
-      "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access",
-      "distance": 2
-    },
-    {
-      "id": "q.ef09",
-      "kind": "question",
-      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "title": "Why can reserves rise while sovereign risk stays high?",
-      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "distance": 2
     },
     {
       "id": "ef.market_access",

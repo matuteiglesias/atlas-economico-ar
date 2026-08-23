@@ -26,15 +26,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.capital_inflows",
@@ -99,14 +91,6 @@
   },
   "nearby": [
     {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable",
-      "distance": 1
-    },
-    {
       "id": "ci.ef.fdi_net_usd",
       "kind": "indicator",
       "slug": "net-foreign-direct-investment-flows",
@@ -164,7 +148,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 4,
     "indicators": 3
   }

@@ -5,7 +5,6 @@
   "title": "Monthly change in gross reserves",
   "href": "/charts/monthly-change-in-gross-reserves",
   "dek": "Show month-end changes in the gross international-reserve stock.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -75,7 +74,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ef03",
@@ -157,7 +155,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,1",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

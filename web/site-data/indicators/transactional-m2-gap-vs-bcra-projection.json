@@ -4,8 +4,6 @@
   "slug": "transactional-m2-gap-vs-bcra-projection",
   "title": "Transactional M2 gap vs BCRA projection",
   "href": "/indicators/transactional-m2-gap-vs-bcra-projection",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -111,14 +109,6 @@
       "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
       "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
       "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
-      "distance": 2
-    },
-    {
-      "id": "q.ns18",
-      "kind": "question",
-      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
       "distance": 2
     }
   ],

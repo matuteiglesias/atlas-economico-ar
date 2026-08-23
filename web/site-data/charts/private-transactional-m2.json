@@ -5,7 +5,6 @@
   "title": "Private transactional M2",
   "href": "/charts/private-transactional-m2",
   "dek": "Track the nominal stock of private transactional M2.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -68,7 +67,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns15",
@@ -150,7 +148,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

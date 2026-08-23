@@ -266,7 +266,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,1",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -365,7 +364,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,1",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -469,5 +467,56 @@
     "topics": 4,
     "indicators": 8,
     "charts": 6
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 6,
+      "linkedIndicators": 8,
+      "materializedPlotArtifacts": 3,
+      "prominentPlotArtifacts": 2,
+      "quarantinedPlotArtifacts": 1,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ef47",
+        "pi.ef48",
+        "pi.ef49"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ef47",
+        "pi.ef48"
+      ],
+      "hasDek": true,
+      "hasIntro": true,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "decomposition",
+        "topicIds": [
+          "ef.fx_debt_service",
+          "ef.net_international_reserves",
+          "ef.official_external_financing",
+          "ef.reserve_accumulation"
+        ],
+        "indicatorIds": [
+          "ci.ef.gross_reserves_usd",
+          "ci.ef.nir_change_monthly",
+          "ci.ef.nir_usd",
+          "ci.ef.official_external_financing_usd",
+          "ci.ef.public_fx_debt_service_12m",
+          "ci.ef.reserve_accumulation_ytd",
+          "ci.ef.reserve_change_monthly",
+          "ci.ns.bcra_fx_purchases_daily"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ef47",
+          "pi.ef48"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

@@ -4,8 +4,6 @@
   "slug": "expected-inflation-three-months-ahead",
   "title": "Expected inflation three months ahead",
   "href": "/indicators/expected-inflation-three-months-ahead",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -140,14 +138,6 @@
       "title": "Nominal-stabilization state map",
       "href": "/charts/nominal-stabilization-state-map",
       "distance": 1
-    },
-    {
-      "id": "q.ns06",
-      "kind": "question",
-      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "distance": 2
     }
   ],
   "counts": {

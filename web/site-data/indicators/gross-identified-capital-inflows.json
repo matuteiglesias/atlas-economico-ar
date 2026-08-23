@@ -4,8 +4,6 @@
   "slug": "gross-identified-capital-inflows",
   "title": "Gross identified capital inflows",
   "href": "/indicators/gross-identified-capital-inflows",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -78,22 +76,6 @@
       "title": "FDI versus broader capital inflows",
       "href": "/charts/fdi-versus-broader-capital-inflows",
       "distance": 1
-    },
-    {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable",
-      "distance": 2
-    },
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
-      "distance": 2
     },
     {
       "id": "ef.financial_account",

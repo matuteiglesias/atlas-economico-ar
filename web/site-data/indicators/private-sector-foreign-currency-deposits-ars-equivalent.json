@@ -4,8 +4,6 @@
   "slug": "private-sector-foreign-currency-deposits-ars-equivalent",
   "title": "Private-sector foreign-currency deposits, ARS equivalent",
   "href": "/indicators/private-sector-foreign-currency-deposits-ars-equivalent",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -68,7 +66,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "992,1003",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -145,7 +142,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "992,1003",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

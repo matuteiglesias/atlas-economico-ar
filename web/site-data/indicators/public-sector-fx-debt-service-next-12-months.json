@@ -4,8 +4,6 @@
   "slug": "public-sector-fx-debt-service-next-12-months",
   "title": "Public-sector FX debt service next 12 months",
   "href": "/indicators/public-sector-fx-debt-service-next-12-months",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -125,22 +123,6 @@
       "title": "Reserve accumulation versus next-12m FX debt service",
       "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service",
       "distance": 1
-    },
-    {
-      "id": "q.ef02",
-      "kind": "question",
-      "slug": "are-reserves-rebuilding-fast-enough",
-      "title": "Are reserves rebuilding fast enough?",
-      "href": "/questions/are-reserves-rebuilding-fast-enough",
-      "distance": 2
-    },
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "distance": 2
     }
   ],
   "counts": {

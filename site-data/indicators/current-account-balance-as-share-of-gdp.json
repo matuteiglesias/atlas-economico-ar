@@ -4,8 +4,6 @@
   "slug": "current-account-balance-as-share-of-gdp",
   "title": "Current account balance as share of GDP",
   "href": "/indicators/current-account-balance-as-share-of-gdp",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -97,35 +95,11 @@
       "distance": 1
     },
     {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "distance": 2
-    },
-    {
-      "id": "q.ef10",
-      "kind": "question",
-      "slug": "how-large-is-the-near-term-fx-maturity-wall",
-      "title": "How large is the near-term FX maturity wall?",
-      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
-      "distance": 2
-    },
-    {
       "id": "q.ef01",
       "kind": "question",
       "slug": "how-strong-is-argentina-s-reserve-position",
       "title": "How strong is Argentina's reserve position?",
       "href": "/questions/how-strong-is-argentina-s-reserve-position",
-      "distance": 2
-    },
-    {
-      "id": "q.ef08",
-      "kind": "question",
-      "slug": "is-argentina-regaining-durable-market-access",
-      "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access",
       "distance": 2
     }
   ],

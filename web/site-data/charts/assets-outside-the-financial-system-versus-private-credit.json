@@ -5,7 +5,6 @@
   "title": "Assets outside the financial system versus private credit",
   "href": "/charts/assets-outside-the-financial-system-versus-private-credit",
   "dek": "Show the coexistence of substantial resident savings with low domestic financial intermediation.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -26,15 +25,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.domestic_savings_mobilization",
@@ -77,16 +68,7 @@
   "referenceFrameIds": [
     "rf.ef.peer_emerging_markets"
   ],
-  "chartSpec": null,
   "nearby": [
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint",
-      "distance": 1
-    },
     {
       "id": "ci.ef.private_credit_gdp",
       "kind": "indicator",
@@ -145,7 +127,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 3,
     "indicators": 2
   }

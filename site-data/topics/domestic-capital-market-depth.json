@@ -5,7 +5,6 @@
   "title": "Domestic capital-market depth",
   "href": "/topics/domestic-capital-market-depth",
   "dek": "Capacity of local bond and securities markets to mobilize savings and provide financing beyond bank credit.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -130,7 +129,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -194,14 +192,6 @@
       "title": "Domestic capital-market depth",
       "href": "/indicators/domestic-capital-market-depth",
       "distance": 1
-    },
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint",
-      "distance": 2
     },
     {
       "id": "q.ef14",

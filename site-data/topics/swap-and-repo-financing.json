@@ -5,7 +5,6 @@
   "title": "Swap and repo financing",
   "href": "/topics/swap-and-repo-financing",
   "dek": "Foreign-currency financing obtained through central-bank swaps, repos, and similar secured facilities.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -52,15 +51,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef11",
-      "kind": "question",
-      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "title": "How much does the strategy rely on swaps and repos?",
-      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos"
-    }
-  ],
+  "questions": [],
   "indicators": [
     {
       "id": "ci.ef.repo_liabilities_usd",
@@ -102,14 +93,6 @@
   ],
   "nearby": [
     {
-      "id": "q.ef11",
-      "kind": "question",
-      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "title": "How much does the strategy rely on swaps and repos?",
-      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "distance": 1
-    },
-    {
       "id": "ef.external_vulnerability",
       "kind": "topic",
       "slug": "external-vulnerability",
@@ -142,14 +125,6 @@
       "distance": 1
     },
     {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "distance": 2
-    },
-    {
       "id": "q.ef16",
       "kind": "question",
       "slug": "what-does-the-rise-in-dollar-deposits-mean",
@@ -168,7 +143,7 @@
   ],
   "counts": {
     "connections": 2,
-    "questions": 1,
+    "questions": 0,
     "indicators": 2,
     "charts": 3
   }

@@ -5,7 +5,6 @@
   "title": "BCRA FX purchases and the monetary base",
   "href": "/charts/bcra-fx-purchases-and-the-monetary-base",
   "dek": "Place daily FX-purchase flows beside the nominal monetary-base stock, using separate axes and no implicit resampling.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -82,7 +81,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns11",
@@ -221,7 +219,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "78,15",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

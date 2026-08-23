@@ -5,7 +5,6 @@
   "title": "FX deposits versus bank liquidity",
   "href": "/charts/fx-deposits-versus-bank-liquidity",
   "dek": "Place growing foreign-currency deposits beside system liquidity rather than treating dollarization as one-dimensional.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -77,7 +76,6 @@
   "referenceFrameIds": [
     "rf.trailing_12m"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ef16",

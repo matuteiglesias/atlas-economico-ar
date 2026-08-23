@@ -4,8 +4,6 @@
   "slug": "nominal-policy-relevant-rate",
   "title": "Nominal policy-relevant rate",
   "href": "/indicators/nominal-policy-relevant-rate",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -68,7 +66,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "160,11",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -242,7 +239,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "160,11",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

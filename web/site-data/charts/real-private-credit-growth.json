@@ -5,7 +5,6 @@
   "title": "Real private-credit growth",
   "href": "/charts/real-private-credit-growth",
   "dek": "Show the pace of credit deepening and recent slowdowns after rapid expansion.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -63,7 +62,6 @@
   "referenceFrameIds": [
     "rf.trailing_12m"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ef14",
@@ -133,7 +131,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -218,7 +215,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -289,7 +285,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "893,904",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -350,7 +345,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "882,145.3_INGNACUAL_DICI_M_38",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

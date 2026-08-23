@@ -4,8 +4,6 @@
   "slug": "net-foreign-direct-investment-flows",
   "title": "Net foreign direct investment flows",
   "href": "/indicators/net-foreign-direct-investment-flows",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -78,14 +76,6 @@
       "title": "Financial-account components",
       "href": "/charts/financial-account-components",
       "distance": 1
-    },
-    {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable",
-      "distance": 2
     },
     {
       "id": "ef.capital_inflows",

@@ -139,7 +139,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -201,7 +200,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "893,904",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -267,7 +265,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -351,7 +348,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -436,7 +432,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -521,7 +516,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -592,7 +586,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "893,904",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -654,7 +647,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -684,19 +676,65 @@
           }
         ]
       }
-    },
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint",
-      "distance": 2
     }
   ],
   "counts": {
     "topics": 2,
     "indicators": 8,
     "charts": 5
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 5,
+      "linkedIndicators": 8,
+      "materializedPlotArtifacts": 4,
+      "prominentPlotArtifacts": 4,
+      "quarantinedPlotArtifacts": 0,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ef30",
+        "pi.ef51",
+        "pi.ef53",
+        "pi.ef54"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ef30",
+        "pi.ef51",
+        "pi.ef53",
+        "pi.ef54"
+      ],
+      "hasDek": true,
+      "hasIntro": true,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "financial_depth",
+        "topicIds": [
+          "ef.financial_depth",
+          "ef.private_credit"
+        ],
+        "indicatorIds": [
+          "ci.ef.fx_credit_share",
+          "ci.ef.fx_deposit_share",
+          "ci.ef.private_credit_fx_ars_equivalent",
+          "ci.ef.private_credit_gdp",
+          "ci.ef.private_credit_peso_ars",
+          "ci.ef.private_credit_total_ars",
+          "ci.ef.private_deposits_total_ars",
+          "ci.ef.real_private_credit_growth"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ef30",
+          "pi.ef51",
+          "pi.ef53",
+          "pi.ef54"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

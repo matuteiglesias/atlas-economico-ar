@@ -5,7 +5,6 @@
   "title": "FX market issuance",
   "href": "/topics/fx-market-issuance",
   "dek": "Foreign-currency borrowing through domestic or international bond and loan markets by public and private issuers.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -52,22 +51,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef08",
-      "kind": "question",
-      "slug": "is-argentina-regaining-durable-market-access",
-      "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access"
-    },
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign"
-    }
-  ],
+  "questions": [],
   "indicators": [
     {
       "id": "ci.ef.corporate_fx_issuance_usd",
@@ -130,22 +114,6 @@
   ],
   "nearby": [
     {
-      "id": "q.ef08",
-      "kind": "question",
-      "slug": "is-argentina-regaining-durable-market-access",
-      "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access",
-      "distance": 1
-    },
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
-      "distance": 1
-    },
-    {
       "id": "ef.refinancing_needs",
       "kind": "topic",
       "slug": "external-refinancing-needs",
@@ -176,27 +144,11 @@
       "title": "Public and provincial FX issuance",
       "href": "/indicators/public-and-provincial-fx-issuance",
       "distance": 1
-    },
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint",
-      "distance": 2
-    },
-    {
-      "id": "q.ef10",
-      "kind": "question",
-      "slug": "how-large-is-the-near-term-fx-maturity-wall",
-      "title": "How large is the near-term FX maturity wall?",
-      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
-      "distance": 2
     }
   ],
   "counts": {
     "connections": 2,
-    "questions": 2,
+    "questions": 0,
     "indicators": 2,
     "charts": 6
   }

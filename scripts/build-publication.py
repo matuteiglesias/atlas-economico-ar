@@ -13,10 +13,15 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 COMPILER_SRC = ROOT / "econ_knowledge_compiler_v0_1" / "src"
+sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(COMPILER_SRC))
 
 from econ_knowledge_compiler.compiler import compile_site  # noqa: E402
 from econ_knowledge_compiler.loader import load_editorial, load_scope, load_vertical  # noqa: E402
+from publication.question_publication import (  # noqa: E402
+    QuestionPublicationError,
+    apply_question_publication,
+)
 
 SCOPE = ROOT / "argentina_econ_semantic_scope_v0_1"
 VERTICALS = (
@@ -26,6 +31,7 @@ VERTICALS = (
 EDITORIAL = ROOT / "verticals/external_financial_constraint_vertical_v0_2/editorial/atlas_en_v0_2.yaml"
 ARTIFACT_MANIFEST = ROOT / "plot-artifacts/manifest.json"
 PUBLICATION_QA = ROOT / "figures/publication_qa.yaml"
+QUESTION_PUBLICATION = ROOT / "publication/question_publication.json"
 PUBLICATION_SCHEMA_VERSION = "0.2"
 EXPECTED_CHARTS = 119
 EXPECTED_INDICATORS = 90
@@ -33,6 +39,7 @@ EXPECTED_ARTIFACTS = 41
 EXPECTED_PROMINENT_ARTIFACTS = 37
 EXPECTED_QUARANTINED_ARTIFACTS = 4
 EXPECTED_HISTORICAL_ARTIFACTS = 2
+EXPECTED_SEMANTIC_QUESTIONS = 38
 
 
 class PublicationError(RuntimeError):
@@ -202,20 +209,28 @@ def build(output: Path) -> dict[str, Any]:
     build_dir = output.with_name(f".{output.name}-build")
     shutil.rmtree(build_dir, ignore_errors=True)
     build_dir.mkdir(parents=True, exist_ok=True)
-    manifest = compile_site(
+    compile_site(
         load_scope(SCOPE),
         [load_vertical_with_additions(path) for path in VERTICALS],
         load_editorial(EDITORIAL),
         build_dir,
     )
     join_artifacts(build_dir, artifacts)
+    question_ledger = apply_question_publication(build_dir, QUESTION_PUBLICATION)
     stats = json.loads((build_dir / "stats.json").read_text())
+    manifest = json.loads((build_dir / "manifest.json").read_text())
     if stats["counts"]["chart"] != EXPECTED_CHARTS:
         raise PublicationError(f"expected {EXPECTED_CHARTS} charts, got {stats['counts']['chart']}")
     if stats["counts"]["indicator"] != EXPECTED_INDICATORS:
         raise PublicationError(
             f"expected {EXPECTED_INDICATORS} indicators, got {stats['counts']['indicator']}"
         )
+    if question_ledger["semanticQuestionCount"] != EXPECTED_SEMANTIC_QUESTIONS:
+        raise PublicationError(
+            f"expected {EXPECTED_SEMANTIC_QUESTIONS} semantic questions, got {question_ledger['semanticQuestionCount']}"
+        )
+    if stats["counts"]["question"] != question_ledger["stateCounts"]["PUBLIC"]:
+        raise PublicationError("public question count mismatch")
     if stats["plot_artifacts"] != EXPECTED_ARTIFACTS:
         raise PublicationError("PlotArtifact count mismatch")
     if stats["prominent_plot_artifacts"] != EXPECTED_PROMINENT_ARTIFACTS:
@@ -236,10 +251,12 @@ def main() -> int:
     output = (ROOT / args.output).resolve()
     build(output)
     stats = json.loads((output / "stats.json").read_text())
+    question_publication = stats["questionPublication"]
     print(
         f"PASS: publication compiled ({stats['counts']['chart']} charts, "
         f"{stats['counts']['indicator']} indicators, {stats['plot_artifacts']} PlotArtifacts; "
-        f"{stats['prominent_plot_artifacts']} prominent / {stats['quarantined_plot_artifacts']} quarantined)"
+        f"{stats['prominent_plot_artifacts']} prominent / {stats['quarantined_plot_artifacts']} quarantined; "
+        f"{question_publication['public']} public / {question_publication['semantic']} semantic questions)"
     )
     return 0
 
@@ -247,5 +264,5 @@ def main() -> int:
 if __name__ == "__main__":
     try:
         raise SystemExit(main())
-    except PublicationError as exc:
+    except (PublicationError, QuestionPublicationError) as exc:
         raise SystemExit(f"FAIL: {exc}")

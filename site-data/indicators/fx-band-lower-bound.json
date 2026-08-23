@@ -4,8 +4,6 @@
   "slug": "fx-band-lower-bound",
   "title": "FX-band lower bound",
   "href": "/indicators/fx-band-lower-bound",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",

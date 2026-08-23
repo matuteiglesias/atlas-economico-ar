@@ -1,0 +1,6 @@
+{
+  "schema_version": "0.1",
+  "default_rule": "PUBLIC_IF_NON_QUARANTINED_MATERIALIZED_PLOT",
+  "fallback_state": "HOLD",
+  "overrides": []
+}

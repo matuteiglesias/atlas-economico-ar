@@ -10,7 +10,7 @@
   "counts": {
     "region": 6,
     "topic": 55,
-    "question": 38,
+    "question": 17,
     "indicator": 90,
     "chart": 119
   },
@@ -24,5 +24,12 @@
   "plotArtifacts": 41,
   "prominentPlotArtifacts": 37,
   "quarantinedPlotArtifacts": 4,
-  "historicalPlotArtifacts": 2
+  "historicalPlotArtifacts": 2,
+  "questionPublication": {
+    "semantic": 38,
+    "public": 17,
+    "reference": 0,
+    "superseded": 0,
+    "hold": 21
+  }
 }

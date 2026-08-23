@@ -567,24 +567,6 @@
     "text": "Has the disinflation process stalled or resumed? trend_regime"
   },
   {
-    "id": "q.ns03",
-    "kind": "question",
-    "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
-    "title": "Is disinflation broad-based across underlying inflation measures?",
-    "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
-    "regionId": "nominal_stabilization",
-    "text": "Is disinflation broad-based across underlying inflation measures? breadth"
-  },
-  {
-    "id": "q.ns04",
-    "kind": "question",
-    "slug": "what-is-driving-monthly-inflation",
-    "title": "What is driving monthly inflation?",
-    "href": "/questions/what-is-driving-monthly-inflation",
-    "regionId": "nominal_stabilization",
-    "text": "What is driving monthly inflation? Separate persistence from relative-price changes, demand conditions, interest rates, and exchange-rate pass-through. decomposition"
-  },
-  {
     "id": "q.ns05",
     "kind": "question",
     "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
@@ -594,24 +576,6 @@
     "text": "How much do exchange-rate movements pass through to domestic prices? mechanism"
   },
   {
-    "id": "q.ns06",
-    "kind": "question",
-    "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-    "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-    "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-    "regionId": "nominal_stabilization",
-    "text": "Are inflation expectations leading, lagging, or validating realized inflation? expectations"
-  },
-  {
-    "id": "q.ns07",
-    "kind": "question",
-    "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
-    "title": "What inflation path does the market expect over the next months and year-end?",
-    "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
-    "regionId": "nominal_stabilization",
-    "text": "What inflation path does the market expect over the next months and year-end? forecast"
-  },
-  {
     "id": "q.ns08",
     "kind": "question",
     "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
@@ -619,15 +583,6 @@
     "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band",
     "regionId": "nominal_stabilization",
     "text": "Where is the official exchange rate inside the policy band? policy_monitoring"
-  },
-  {
-    "id": "q.ns09",
-    "kind": "question",
-    "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-    "title": "How large is the gap between official and parallel exchange rates?",
-    "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-    "regionId": "nominal_stabilization",
-    "text": "How large is the gap between official and parallel exchange rates? comparison"
   },
   {
     "id": "q.ns10",
@@ -666,15 +621,6 @@
     "text": "Has short-term interest-rate volatility normalized? market_functioning"
   },
   {
-    "id": "q.ns14",
-    "kind": "question",
-    "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-    "title": "How tight are bank reserve requirements and liquidity conditions?",
-    "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-    "regionId": "nominal_stabilization",
-    "text": "How tight are bank reserve requirements and liquidity conditions? liquidity"
-  },
-  {
     "id": "q.ns15",
     "kind": "question",
     "slug": "is-domestic-money-demand-recovering",
@@ -702,15 +648,6 @@
     "text": "Is monetary-base growth consistent with the monetary-targeting framework? program_consistency"
   },
   {
-    "id": "q.ns18",
-    "kind": "question",
-    "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-    "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-    "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-    "regionId": "nominal_stabilization",
-    "text": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand? credibility"
-  },
-  {
     "id": "q.ef01",
     "kind": "question",
     "slug": "how-strong-is-argentina-s-reserve-position",
@@ -718,15 +655,6 @@
     "href": "/questions/how-strong-is-argentina-s-reserve-position",
     "regionId": "external_financial_constraint",
     "text": "How strong is Argentina's reserve position? Separate gross reserves, NIR, liquid buffers, and adequacy ratios before judging external strength. The same reserve headline can imply very different levels of resilience depending on what sits behind it. This question forces the reader to distinguish the accounting stock from net and liquid measures, then compare those buffers with the obligations they may need to cover. state_measurement"
-  },
-  {
-    "id": "q.ef02",
-    "kind": "question",
-    "slug": "are-reserves-rebuilding-fast-enough",
-    "title": "Are reserves rebuilding fast enough?",
-    "href": "/questions/are-reserves-rebuilding-fast-enough",
-    "regionId": "external_financial_constraint",
-    "text": "Are reserves rebuilding fast enough? Compare the pace of reserve accumulation with targets and near-term foreign-currency obligations. Reserve accumulation matters because time matters: rebuilding buffers slowly may still leave a difficult refinancing window exposed. The useful comparison is not simply whether reserves are rising, but whether they are rising quickly enough relative to the target path and the payment calendar ahead. target_gap"
   },
   {
     "id": "q.ef03",
@@ -747,87 +675,6 @@
     "text": "Is the current account improving? Decompose the current account into goods, services, and income balances rather than relying on the headline total. An improving current account can reflect stronger exports, weaker imports, lower service outflows, or changes in income payments. Those stories have different implications for sustainability, competitiveness, and growth, so the composition matters as much as the total. decomposition"
   },
   {
-    "id": "q.ef05",
-    "kind": "question",
-    "slug": "what-offsets-argentina-s-goods-surplus",
-    "title": "What offsets Argentina's goods surplus?",
-    "href": "/questions/what-offsets-argentina-s-goods-surplus",
-    "regionId": "external_financial_constraint",
-    "text": "What offsets Argentina's goods surplus? Show how services and primary-income outflows interact with the merchandise trade balance. Argentina can run a sizeable goods surplus without generating an equally large current-account surplus. Tourism, other service imports, and interest or investment-income payments can absorb a substantial share of trade earnings. accounting_bridge"
-  },
-  {
-    "id": "q.ef06",
-    "kind": "question",
-    "slug": "are-capital-inflows-durable",
-    "title": "Are capital inflows durable?",
-    "href": "/questions/are-capital-inflows-durable",
-    "regionId": "external_financial_constraint",
-    "text": "Are capital inflows durable? Distinguish FDI, private financial flows, public borrowing, and temporary financing when reading the financial account. External financing is not homogeneous. Longer-horizon direct investment, market debt, official disbursements, and reversals in resident hedging have different persistence and risk. The goal is to understand what kind of inflow is financing the external position. financing_quality"
-  },
-  {
-    "id": "q.ef07",
-    "kind": "question",
-    "slug": "has-fx-hedging-pressure-normalized",
-    "title": "Has FX hedging pressure normalized?",
-    "href": "/questions/has-fx-hedging-pressure-normalized",
-    "regionId": "external_financial_constraint",
-    "text": "Has FX hedging pressure normalized? Track private financial flows around stress episodes and compare them with the recovery in reserve buffers. Resident demand for foreign assets can change abruptly when political or macro uncertainty rises. Looking at the reversal of those flows helps distinguish a genuine normalization in portfolio behavior from reserve improvement driven mainly by exceptional financing. stress_normalization"
-  },
-  {
-    "id": "q.ef08",
-    "kind": "question",
-    "slug": "is-argentina-regaining-durable-market-access",
-    "title": "Is Argentina regaining durable market access?",
-    "href": "/questions/is-argentina-regaining-durable-market-access",
-    "regionId": "external_financial_constraint",
-    "text": "Is Argentina regaining durable market access? Read spreads, issuance volumes, issuer breadth, and maturity conditions together. Market access is stronger when financing becomes repeatable rather than exceptional. Falling spreads matter, but so do the number of issuers returning to market, the tenor of new debt, and whether refinancing can occur without relying on temporary official facilities. market_access"
-  },
-  {
-    "id": "q.ef09",
-    "kind": "question",
-    "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
-    "title": "Why can reserves rise while sovereign risk stays high?",
-    "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
-    "regionId": "external_financial_constraint",
-    "text": "Why can reserves rise while sovereign risk stays high? Put external buffers and market pricing side by side instead of assuming they must move together. Reserve accumulation is only one input into sovereign-risk pricing. Investors also care about the future debt-service schedule, fiscal and political credibility, the durability of market access, and global conditions. Divergence between reserves and spreads can therefore be informative rather than contradictory. joint_state"
-  },
-  {
-    "id": "q.ef10",
-    "kind": "question",
-    "slug": "how-large-is-the-near-term-fx-maturity-wall",
-    "title": "How large is the near-term FX maturity wall?",
-    "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
-    "regionId": "external_financial_constraint",
-    "text": "How large is the near-term FX maturity wall? Organize the next twelve months of principal and interest obligations by financing channel. The external constraint often becomes most concrete in the maturity calendar. A forward view shows when market redemptions, multilateral payments, and other foreign-currency obligations cluster, and therefore when reserve and refinancing buffers matter most. maturity_profile"
-  },
-  {
-    "id": "q.ef11",
-    "kind": "question",
-    "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
-    "title": "How much does the strategy rely on swaps and repos?",
-    "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
-    "regionId": "external_financial_constraint",
-    "text": "How much does the strategy rely on swaps and repos? Separate durable reserve accumulation from temporary or secured official external financing. Swaps and repos can be valuable liquidity bridges, especially during a difficult refinancing window. They also create liabilities and future repayment needs. Reading them alongside NIR helps avoid treating borrowed liquidity as equivalent to permanently stronger external buffers. financing_mix"
-  },
-  {
-    "id": "q.ef12",
-    "kind": "question",
-    "slug": "is-market-financing-broadening-beyond-the-sovereign",
-    "title": "Is market financing broadening beyond the sovereign?",
-    "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
-    "regionId": "external_financial_constraint",
-    "text": "Is market financing broadening beyond the sovereign? Compare public, provincial, and corporate FX issuance as Argentina re-enters credit markets. A broadening issuer base is a stronger signal than a single successful transaction. Corporate and provincial issuance can reveal whether investor appetite is extending beyond the sovereign and whether access is becoming a more normal financing channel. market_breadth"
-  },
-  {
-    "id": "q.ef13",
-    "kind": "question",
-    "slug": "is-the-external-debt-burden-becoming-easier-to-service",
-    "title": "Is the external debt burden becoming easier to service?",
-    "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service",
-    "regionId": "external_financial_constraint",
-    "text": "Is the external debt burden becoming easier to service? Compare debt stocks with GDP, reserves, and the forward debt-service profile. Debt sustainability is not captured by the dollar stock alone. The burden depends on the size of the economy, export capacity, interest costs, maturity structure, and the buffers available when payments fall due. sustainability"
-  },
-  {
     "id": "q.ef14",
     "kind": "question",
     "slug": "is-private-credit-genuinely-deepening",
@@ -835,15 +682,6 @@
     "href": "/questions/is-private-credit-genuinely-deepening",
     "regionId": "external_financial_constraint",
     "text": "Is private credit genuinely deepening? Track credit relative to GDP and in real terms, not only nominal loan growth. In a high-inflation economy, nominal credit can grow rapidly without meaningfully deepening financial intermediation. Real growth and credit-to-GDP measures provide a cleaner view of whether households and firms are gaining access to a larger domestic financing system. financial_depth"
-  },
-  {
-    "id": "q.ef15",
-    "kind": "question",
-    "slug": "is-credit-quality-deteriorating-as-lending-expands",
-    "title": "Is credit quality deteriorating as lending expands?",
-    "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
-    "regionId": "external_financial_constraint",
-    "text": "Is credit quality deteriorating as lending expands? Read real credit growth together with NPLs and bank capital rather than treating expansion as unambiguously positive. Rapid deepening from a low base can be healthy, but it can also expose weaker borrowers or underwriting standards. Rising non-performing loans are therefore most informative when placed beside the pace of lending and the buffers held by banks. financial_risk"
   },
   {
     "id": "q.ef16",
@@ -862,33 +700,6 @@
     "href": "/questions/how-shallow-is-argentina-s-financial-system",
     "regionId": "external_financial_constraint",
     "text": "How shallow is Argentina's financial system? Compare bank credit and domestic capital markets with the size of the economy and a transparent peer set. Financial depth is a structural constraint behind many short-run financing problems. A shallow domestic system leaves firms and the public sector more dependent on cash flow, inflationary finance, or external markets, while also limiting the transmission of savings into investment. structural_comparison"
-  },
-  {
-    "id": "q.ef18",
-    "kind": "question",
-    "slug": "could-resident-savings-relax-the-external-constraint",
-    "title": "Could resident savings relax the external constraint?",
-    "href": "/questions/could-resident-savings-relax-the-external-constraint",
-    "regionId": "external_financial_constraint",
-    "text": "Could resident savings relax the external constraint? Put assets held outside the domestic system beside the small scale of local credit and capital markets. Argentina's scarcity of domestic financing sits beside substantial resident wealth, much of it held in foreign currency or outside local intermediation. The interesting question is not whether those assets exist, but what institutional and macro conditions would allow them to finance productive activity. structural_mechanism"
-  },
-  {
-    "id": "q.ef19",
-    "kind": "question",
-    "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-    "title": "How does real appreciation interact with the external balance?",
-    "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-    "regionId": "external_financial_constraint",
-    "text": "How does real appreciation interact with the external balance? Read the REER, current account, and reserve accumulation together without reducing the relationship to a single causal claim. Real appreciation can support purchasing power while also changing incentives for imports, exports, and portfolio allocation. Its external effect depends on productivity, terms of trade, capital flows, and the policy regime, which is why the atlas treats it as a cross-slice relationship rather than a verdict. cross_slice_tradeoff"
-  },
-  {
-    "id": "q.ef20",
-    "kind": "question",
-    "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-    "title": "Are BCRA FX purchases strengthening the external position?",
-    "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-    "regionId": "external_financial_constraint",
-    "text": "Are BCRA FX purchases strengthening the external position? Connect central-bank purchases with gross reserves, NIR, debt payments, and sovereign-risk indicators. Daily FX purchases are an important observable policy action, but the external outcome depends on what happens elsewhere on the balance sheet. This question follows the entire chain from intervention to reserve stocks and broader measures of external vulnerability. cross_slice_policy"
   },
   {
     "id": "ci.ns.cpi_monthly",

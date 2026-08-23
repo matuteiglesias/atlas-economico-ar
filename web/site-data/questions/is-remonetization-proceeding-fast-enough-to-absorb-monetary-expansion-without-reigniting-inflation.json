@@ -4,8 +4,6 @@
   "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
   "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
   "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
-  "dek": null,
-  "intro": null,
   "questionFamily": "policy_tradeoff",
   "region": {
     "id": "nominal_stabilization",
@@ -119,7 +117,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -183,7 +180,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -258,7 +254,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -368,7 +363,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -444,7 +438,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -518,7 +511,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -562,5 +554,54 @@
     "topics": 4,
     "indicators": 4,
     "charts": 3
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 3,
+      "linkedIndicators": 4,
+      "materializedPlotArtifacts": 3,
+      "prominentPlotArtifacts": 3,
+      "quarantinedPlotArtifacts": 0,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ns39",
+        "pi.ns40",
+        "pi.ns41"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ns39",
+        "pi.ns40",
+        "pi.ns41"
+      ],
+      "hasDek": false,
+      "hasIntro": false,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "policy_tradeoff",
+        "topicIds": [
+          "ns.inflation",
+          "ns.monetary_base",
+          "ns.money_demand",
+          "ns.remonetization"
+        ],
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ns.cpi_monthly",
+          "ci.ns.monetary_base_real",
+          "ci.ns.transactional_m2_real"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns39",
+          "pi.ns40",
+          "pi.ns41"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

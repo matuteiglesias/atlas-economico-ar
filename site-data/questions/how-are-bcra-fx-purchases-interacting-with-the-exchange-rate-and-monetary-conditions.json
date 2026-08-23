@@ -4,8 +4,6 @@
   "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
   "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
   "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
-  "dek": null,
-  "intro": null,
   "questionFamily": "policy_transmission",
   "region": {
     "id": "nominal_stabilization",
@@ -175,7 +173,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,5",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -292,7 +289,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,15",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -441,7 +437,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,15",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -514,7 +509,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,5",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -549,5 +543,55 @@
     "topics": 4,
     "indicators": 4,
     "charts": 6
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 6,
+      "linkedIndicators": 4,
+      "materializedPlotArtifacts": 4,
+      "prominentPlotArtifacts": 3,
+      "quarantinedPlotArtifacts": 1,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ns23",
+        "pi.ns25",
+        "pi.ns57",
+        "pi.ns59"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ns23",
+        "pi.ns25",
+        "pi.ns57"
+      ],
+      "hasDek": false,
+      "hasIntro": false,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "policy_transmission",
+        "topicIds": [
+          "ns.bcra_fx_operations",
+          "ns.monetary_base",
+          "ns.money_demand",
+          "ns.nominal_exchange_rate"
+        ],
+        "indicatorIds": [
+          "ci.ns.bcra_fx_purchases_cumulative",
+          "ci.ns.bcra_fx_purchases_daily",
+          "ci.ns.monetary_base_nominal",
+          "ci.ns.official_fx"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns23",
+          "pi.ns25",
+          "pi.ns57"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }
