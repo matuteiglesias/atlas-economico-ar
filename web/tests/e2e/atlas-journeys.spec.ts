@@ -2,6 +2,7 @@ import { expect, expectNoFakeChartLanguage, test } from "./fixtures";
 
 const inflationQuestion = "How fast is inflation running now, and is it accelerating or decelerating?";
 const inflationMomentum = "Inflation momentum: monthly and 3-month annualized";
+const reserveQuestion = "How strong is Argentina's reserve position?";
 
 test("information scent: home to active area to question to primary evidence", async ({ page }) => {
   await page.goto("/");
@@ -29,7 +30,7 @@ test("information scent: home to active area to question to primary evidence", a
   await expect(page.getByRole("heading", { level: 1, name: inflationMomentum })).toHaveCount(1);
   await expect(page.locator('img[data-plot-render="embed"]')).toBeVisible();
   await expect(page.getByText(/Data through 2026-07-01 · Source: Datos Argentina/)).toBeVisible();
-  await expect(page.getByRole("link", { name: inflationQuestion })).toBeVisible();
+  await expect(page.getByRole("main").getByRole("link", { name: inflationQuestion })).toBeVisible();
 });
 
 test("search promotes real evidence and excludes semantic-only chart concepts", async ({ page }) => {
@@ -51,7 +52,7 @@ test("search promotes real evidence and excludes semantic-only chart concepts", 
   await expect(page.getByText(/Source: BCRA/)).toBeVisible();
 });
 
-test("keyboard search is labelled, focused, and opens a matching destination", async ({ page }) => {
+test("keyboard search is labelled, focused, and opens the selected visible result", async ({ page }) => {
   await page.goto("/");
   await page.keyboard.press("Control+K");
 
@@ -59,11 +60,14 @@ test("keyboard search is labelled, focused, and opens a matching destination", a
   const input = dialog.getByRole("textbox", { name: "Search questions, topics, charts, indicators, and areas" });
   await expect(input).toBeFocused();
   await input.fill("gross reserves");
-  await expect(dialog.getByRole("option").first()).toBeVisible();
+
+  const firstResult = dialog.getByRole("option").first();
+  await expect(firstResult).toHaveAccessibleName(`${reserveQuestion} Question`);
+  await expect(firstResult).toHaveAttribute("aria-selected", "true");
 
   await page.keyboard.press("Enter");
-  await expect(page).toHaveURL(/\/topics\/gross-international-reserves\/?$/);
-  await expect(page.getByRole("heading", { level: 1, name: "Gross international reserves" })).toBeVisible();
+  await expect(page).toHaveURL(/\/questions\/how-strong-is-argentina-s-reserve-position\/?$/);
+  await expect(page.getByRole("heading", { level: 1, name: reserveQuestion })).toBeVisible();
 });
 
 test("direct evidence has page-owned title, freshness/source context, and related navigation", async ({ page }) => {
@@ -73,8 +77,9 @@ test("direct evidence has page-owned title, freshness/source context, and relate
   await expect(page.getByRole("heading", { level: 1, name: title })).toHaveCount(1);
   await expect(page.locator('img[data-plot-render="embed"]')).toHaveAttribute("alt", /Headline inflation: monthly vs year-over-year/);
   await expect(page.getByText(/Data through 2026-07-31 · Source: Datos Argentina, BCRA/)).toBeVisible();
-  await expect(page.getByRole("link", { name: inflationQuestion })).toBeVisible();
+  await expect(page.getByRole("main").getByRole("link", { name: inflationQuestion })).toBeVisible();
   await expect(page.getByRole("link", { name: "Inflation" }).first()).toBeVisible();
+  await expect(page.getByText("Nearby").locator("..", { hasText: inflationQuestion })).toHaveCount(0);
   await expectNoFakeChartLanguage(page);
 });
 
