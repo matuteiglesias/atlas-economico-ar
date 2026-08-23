@@ -114,6 +114,60 @@
       "expected_frequency": "daily",
       "freshness_warning_days": 10,
       "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.private_credit_total_ars_equiv",
+      "provider_series_id": "882",
+      "canonical_indicator_id": "ci.ef.private_credit_total_ars",
+      "label": "Total private-sector credit, local and foreign currency, ARS equivalent",
+      "expected_frequency": "monthly",
+      "freshness_warning_days": 75,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.private_credit_peso",
+      "provider_series_id": "893",
+      "canonical_indicator_id": "ci.ef.private_credit_peso_ars",
+      "label": "Private-sector credit in pesos",
+      "expected_frequency": "monthly",
+      "freshness_warning_days": 75,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.private_credit_fx_ars_equiv",
+      "provider_series_id": "904",
+      "canonical_indicator_id": "ci.ef.private_credit_fx_ars_equivalent",
+      "label": "Private-sector foreign-currency credit, ARS equivalent",
+      "expected_frequency": "monthly",
+      "freshness_warning_days": 75,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.private_deposits_total_ars_equiv",
+      "provider_series_id": "981",
+      "canonical_indicator_id": "ci.ef.private_deposits_total_ars",
+      "label": "Total private-sector deposits, local and foreign currency, ARS equivalent",
+      "expected_frequency": "monthly",
+      "freshness_warning_days": 75,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.private_deposits_peso",
+      "provider_series_id": "992",
+      "canonical_indicator_id": "ci.ef.private_deposits_peso_ars",
+      "label": "Private-sector deposits in pesos",
+      "expected_frequency": "monthly",
+      "freshness_warning_days": 75,
+      "snapshot_subdir": "bcra"
+    },
+    {
+      "id": "series.ar.bcra.private_deposits_fx_ars_equiv",
+      "provider_series_id": "1003",
+      "canonical_indicator_id": "ci.ef.private_deposits_fx_ars_equivalent",
+      "label": "Private-sector foreign-currency deposits, ARS equivalent",
+      "expected_frequency": "monthly",
+      "freshness_warning_days": 75,
+      "snapshot_subdir": "bcra"
     }
   ]
 }

@@ -1571,6 +1571,83 @@
       ]
     },
     {
+      "id": "ci.ef.private_credit_total_ars",
+      "kind": "indicator",
+      "slug": "total-private-sector-credit-ars-equivalent",
+      "title": "Total private-sector credit, ARS equivalent",
+      "href": "/indicators/total-private-sector-credit-ars-equivalent",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ef.private_credit_peso_ars",
+      "kind": "indicator",
+      "slug": "private-sector-credit-in-pesos",
+      "title": "Private-sector credit in pesos",
+      "href": "/indicators/private-sector-credit-in-pesos",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ef.private_credit_fx_ars_equivalent",
+      "kind": "indicator",
+      "slug": "private-sector-foreign-currency-credit-ars-equivalent",
+      "title": "Private-sector foreign-currency credit, ARS equivalent",
+      "href": "/indicators/private-sector-foreign-currency-credit-ars-equivalent",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ef.private_deposits_total_ars",
+      "kind": "indicator",
+      "slug": "total-private-sector-deposits-ars-equivalent",
+      "title": "Total private-sector deposits, ARS equivalent",
+      "href": "/indicators/total-private-sector-deposits-ars-equivalent",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ef.private_deposits_peso_ars",
+      "kind": "indicator",
+      "slug": "private-sector-deposits-in-pesos",
+      "title": "Private-sector deposits in pesos",
+      "href": "/indicators/private-sector-deposits-in-pesos",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ef.private_deposits_fx_ars_equivalent",
+      "kind": "indicator",
+      "slug": "private-sector-foreign-currency-deposits-ars-equivalent",
+      "title": "Private-sector foreign-currency deposits, ARS equivalent",
+      "href": "/indicators/private-sector-foreign-currency-deposits-ars-equivalent",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.ef.fx_credit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-share-of-private-sector-credit",
+      "title": "Foreign-currency share of private-sector credit",
+      "href": "/indicators/foreign-currency-share-of-private-sector-credit",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
       "id": "pi.ns01",
       "kind": "chart",
       "slug": "inflation-momentum-monthly-and-3-month-annualized",
@@ -2439,7 +2516,47 @@
       "missing": [
         "intro"
       ]
+    },
+    {
+      "id": "pi.ef51",
+      "kind": "chart",
+      "slug": "private-credit-by-currency",
+      "title": "Private credit by currency",
+      "href": "/charts/private-credit-by-currency",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ef52",
+      "kind": "chart",
+      "slug": "private-deposits-by-currency",
+      "title": "Private deposits by currency",
+      "href": "/charts/private-deposits-by-currency",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ef53",
+      "kind": "chart",
+      "slug": "foreign-currency-shares-of-private-credit-and-deposits",
+      "title": "Foreign-currency shares of private credit and deposits",
+      "href": "/charts/foreign-currency-shares-of-private-credit-and-deposits",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.ef54",
+      "kind": "chart",
+      "slug": "private-credit-and-deposits",
+      "title": "Private credit and deposits",
+      "href": "/charts/private-credit-and-deposits",
+      "missing": [
+        "intro"
+      ]
     }
   ],
-  "count": 234
+  "count": 245
 }

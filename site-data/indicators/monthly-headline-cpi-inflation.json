@@ -610,7 +610,8 @@
     "di.ns.infl_surprise",
     "di.ns.real_rate_expost",
     "di.ns.monetary_base_real_v0_2",
-    "di.ns.transactional_m2_real_v0_2"
+    "di.ns.transactional_m2_real_v0_2",
+    "di.ef.real_private_credit_growth"
   ],
   "derivedAsOutput": [],
   "nearby": [
@@ -886,7 +887,7 @@
   ],
   "counts": {
     "charts": 14,
-    "derivedAsInput": 6,
+    "derivedAsInput": 7,
     "derivedAsOutput": 0
   }
 }

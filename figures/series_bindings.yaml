@@ -85,3 +85,39 @@ series_bindings:
     canonical_indicator_id: ci.ns.policy_rate_nominal
     normalization:
       kind: identity
+
+  - series_id: series.ar.bcra.private_credit_total_ars_equiv
+    canonical_indicator_id: ci.ef.private_credit_total_ars
+    normalization:
+      kind: scale
+      factor: 1000
+
+  - series_id: series.ar.bcra.private_credit_peso
+    canonical_indicator_id: ci.ef.private_credit_peso_ars
+    normalization:
+      kind: scale
+      factor: 1000
+
+  - series_id: series.ar.bcra.private_credit_fx_ars_equiv
+    canonical_indicator_id: ci.ef.private_credit_fx_ars_equivalent
+    normalization:
+      kind: scale
+      factor: 1000
+
+  - series_id: series.ar.bcra.private_deposits_total_ars_equiv
+    canonical_indicator_id: ci.ef.private_deposits_total_ars
+    normalization:
+      kind: scale
+      factor: 1000
+
+  - series_id: series.ar.bcra.private_deposits_peso
+    canonical_indicator_id: ci.ef.private_deposits_peso_ars
+    normalization:
+      kind: scale
+      factor: 1000
+
+  - series_id: series.ar.bcra.private_deposits_fx_ars_equiv
+    canonical_indicator_id: ci.ef.private_deposits_fx_ars_equivalent
+    normalization:
+      kind: scale
+      factor: 1000

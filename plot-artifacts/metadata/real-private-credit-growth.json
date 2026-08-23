@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ef30",
+  "chart_spec_id": "cs.bcra3.real_private_credit_growth",
+  "frame_id": "rf.last_5y",
+  "data_as_of": "2026-06-01",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ef.real_private_credit_growth"
+  ],
+  "series_ids": [
+    "series.ar.bcra.private_credit_total_ars_equiv",
+    "series.ar.datosgob.ipc_headline_mom_national"
+  ],
+  "snapshot_sha256": {
+    "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
+    "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/real-private-credit-growth.svg",
+    "png": "plot-artifacts/png/real-private-credit-growth.png"
+  },
+  "alt_text": "Real private-credit growth. Real private-sector credit growth. Last 5 years. Data through 2026-06-01.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "percent_yoy_real"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "multiple",
+    "provider_series_id": "882,145.3_INGNACUAL_DICI_M_38",
+    "source_unit": null,
+    "normalization": {
+      "kind": "composite"
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.bcra.private_credit_total_ars_equiv",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "882",
+      "source_unit": "Thousands pesos",
+      "normalization": {
+        "kind": "scale",
+        "factor": 1000
+      },
+      "snapshot_sha256": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9"
+    },
+    {
+      "series_id": "series.ar.datosgob.ipc_headline_mom_national",
+      "provider": "datos_argentina",
+      "provider_series_id": "145.3_INGNACUAL_DICI_M_38",
+      "source_unit": "Variación intermensual",
+      "normalization": {
+        "kind": "scale",
+        "factor": 100
+      },
+      "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+    }
+  ]
+}

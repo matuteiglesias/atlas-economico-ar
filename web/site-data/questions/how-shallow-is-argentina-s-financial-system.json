@@ -64,6 +64,20 @@
       "slug": "private-sector-credit-as-share-of-gdp",
       "title": "Private-sector credit as share of GDP",
       "href": "/indicators/private-sector-credit-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.private_credit_total_ars",
+      "kind": "indicator",
+      "slug": "total-private-sector-credit-ars-equivalent",
+      "title": "Total private-sector credit, ARS equivalent",
+      "href": "/indicators/total-private-sector-credit-ars-equivalent"
+    },
+    {
+      "id": "ci.ef.private_deposits_total_ars",
+      "kind": "indicator",
+      "slug": "total-private-sector-deposits-ars-equivalent",
+      "title": "Total private-sector deposits, ARS equivalent",
+      "href": "/indicators/total-private-sector-deposits-ars-equivalent"
     }
   ],
   "charts": [
@@ -87,6 +101,68 @@
       "slug": "financial-depth-versus-emerging-market-peers",
       "title": "Financial depth versus emerging-market peers",
       "href": "/charts/financial-depth-versus-emerging-market-peers"
+    },
+    {
+      "id": "pi.ef54",
+      "kind": "chart",
+      "slug": "private-credit-and-deposits",
+      "title": "Private credit and deposits",
+      "href": "/charts/private-credit-and-deposits",
+      "artifact": {
+        "chartSpecId": "cs.bcra3.credit_vs_deposits",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-06-30",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/private-credit-and-deposits.svg",
+        "png": "/plots/private-credit-and-deposits.png",
+        "altText": "Private credit and deposits. Total private-sector credit, ARS equivalent; Total private-sector deposits, ARS equivalent. Last 5 years. Data through 2026-06-30.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.private_credit_total_ars",
+          "ci.ef.private_deposits_total_ars"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.private_credit_total_ars_equiv",
+          "series.ar.bcra.private_deposits_total_ars_equiv"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
+          "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "882,981",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.private_credit_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "882",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "981",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+          }
+        ]
+      }
     }
   ],
   "nearby": [
@@ -131,6 +207,69 @@
       "distance": 1
     },
     {
+      "id": "pi.ef54",
+      "kind": "chart",
+      "slug": "private-credit-and-deposits",
+      "title": "Private credit and deposits",
+      "href": "/charts/private-credit-and-deposits",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra3.credit_vs_deposits",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-06-30",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/private-credit-and-deposits.svg",
+        "png": "/plots/private-credit-and-deposits.png",
+        "altText": "Private credit and deposits. Total private-sector credit, ARS equivalent; Total private-sector deposits, ARS equivalent. Last 5 years. Data through 2026-06-30.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.private_credit_total_ars",
+          "ci.ef.private_deposits_total_ars"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.private_credit_total_ars_equiv",
+          "series.ar.bcra.private_deposits_total_ars_equiv"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
+          "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "882,981",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.private_credit_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "882",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "981",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ef29",
       "kind": "chart",
       "slug": "private-credit-as-a-share-of-gdp",
@@ -145,19 +284,11 @@
       "title": "Could resident savings relax the external constraint?",
       "href": "/questions/could-resident-savings-relax-the-external-constraint",
       "distance": 2
-    },
-    {
-      "id": "q.ef15",
-      "kind": "question",
-      "slug": "is-credit-quality-deteriorating-as-lending-expands",
-      "title": "Is credit quality deteriorating as lending expands?",
-      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
-      "distance": 2
     }
   ],
   "counts": {
     "topics": 3,
-    "indicators": 2,
-    "charts": 3
+    "indicators": 4,
+    "charts": 4
   }
 }

@@ -280,6 +280,50 @@ def tamar_real_expost(
     )
 
 
+def monthly_share(
+    numerator: FigureMeasurement, denominator: FigureMeasurement, output_id: str, label: str, unit: str
+) -> FigureMeasurement:
+    num = month_end_values(numerator)
+    den = month_end_values(denominator)
+    common = sorted(set(num) & set(den))
+    observations = [
+        Observation(f"{month}-01", num[month] / den[month] * Decimal("100"))
+        for month in common if den[month] != 0
+    ]
+    if not observations:
+        raise DerivedResolutionError(f"{output_id}: no common non-zero denominator months")
+    series_ids, hashes, sources, freshness = combine_lineage(numerator, denominator)
+    return FigureMeasurement(
+        output_id, label, unit, "monthly", tuple(observations),
+        series_ids, hashes, sources, freshness, observations[-1].date,
+        f"monthly_share:{numerator.indicator_id}/{denominator.indicator_id}",
+    )
+
+
+def real_yoy_growth(
+    nominal: FigureMeasurement, cpi: FigureMeasurement, output_id: str, label: str, unit: str
+) -> FigureMeasurement:
+    stock = month_end_values(nominal)
+    cpi_index = reconstruct_cpi_index(cpi)
+    common = sorted(set(stock) & set(cpi_index))
+    real = {month: stock[month] / cpi_index[month] for month in common}
+    observations: list[Observation] = []
+    for month in common:
+        year, mon = (int(part) for part in month.split("-"))
+        prior = f"{year - 1:04d}-{mon:02d}"
+        if prior not in real or real[prior] == 0:
+            continue
+        observations.append(Observation(f"{month}-01", (real[month] / real[prior] - Decimal("1")) * Decimal("100")))
+    if not observations:
+        raise DerivedResolutionError(f"{output_id}: no 12-month real-growth comparisons")
+    series_ids, hashes, sources, freshness = combine_lineage(nominal, cpi)
+    return FigureMeasurement(
+        output_id, label, unit, "monthly", tuple(observations),
+        series_ids, hashes, sources, freshness, observations[-1].date,
+        f"real_yoy_growth:{nominal.indicator_id}",
+    )
+
+
 def resolve_measurement(indicator_id: str) -> FigureMeasurement:
     try:
         return from_direct(resolve_direct(indicator_id))
@@ -292,6 +336,24 @@ def resolve_measurement(indicator_id: str) -> FigureMeasurement:
     meta = indicators[indicator_id]
     label = meta["label"]
 
+    if indicator_id == "ci.ef.real_private_credit_growth":
+        return real_yoy_growth(
+            resolve_measurement("ci.ef.private_credit_total_ars"),
+            resolve_measurement("ci.ns.cpi_monthly"),
+            indicator_id, label, meta["unit_semantics"],
+        )
+    if indicator_id == "ci.ef.fx_deposit_share":
+        return monthly_share(
+            resolve_measurement("ci.ef.private_deposits_fx_ars_equivalent"),
+            resolve_measurement("ci.ef.private_deposits_total_ars"),
+            indicator_id, label, meta["unit_semantics"],
+        )
+    if indicator_id == "ci.ef.fx_credit_share":
+        return monthly_share(
+            resolve_measurement("ci.ef.private_credit_fx_ars_equivalent"),
+            resolve_measurement("ci.ef.private_credit_total_ars"),
+            indicator_id, label, meta["unit_semantics"],
+        )
     if indicator_id == "ci.ns.cpi_3m_ann":
         return rolling_three_month_annualized(
             resolve_measurement("ci.ns.cpi_monthly"),

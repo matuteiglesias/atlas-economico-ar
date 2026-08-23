@@ -869,13 +869,13 @@ canonical_indicators:
   epistemic_class: CURATED
   created_at: '2026-08-14'
   updated_at: '2026-08-14'
-  review_state: agent_draft_ready_for_human_review
+  review_state: implementation_ready
   slice_id: external_financial_constraint
   label: Real private-sector credit growth
   concept_id: ef.private_credit
   unit_semantics: percent_yoy_real
   frequency: monthly
-  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  series_binding_status: DERIVED_FROM_REGISTERED
   provider_hint:
   - BCRA
   - INDEC
@@ -950,13 +950,13 @@ canonical_indicators:
   epistemic_class: CURATED
   created_at: '2026-08-14'
   updated_at: '2026-08-14'
-  review_state: agent_draft_ready_for_human_review
+  review_state: implementation_ready
   slice_id: external_financial_constraint
   label: Foreign-currency deposit share
   concept_id: ef.fx_deposits
   unit_semantics: percent_deposits
   frequency: monthly
-  series_binding_status: DEFERRED_ASSUMED_AVAILABLE
+  series_binding_status: DERIVED_FROM_REGISTERED
   provider_hint:
   - BCRA
   - INDEC
@@ -1079,3 +1079,122 @@ canonical_indicators:
     - External sector discussion
     - Figures 2, 6 and 7
     - External BOP / debt tables
+- id: ci.ef.private_credit_total_ars
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  label: Total private-sector credit, ARS equivalent
+  concept_id: ef.private_credit
+  unit_semantics: ars
+  frequency: monthly
+  series_binding_status: REGISTERED
+  provider_hint: [BCRA]
+  provenance:
+    model_prior_used: false
+    media_evidence_tags: [banking, private credit, deposits, BCRA]
+- id: ci.ef.private_credit_peso_ars
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  label: Private-sector credit in pesos
+  concept_id: ef.private_credit
+  unit_semantics: ars
+  frequency: monthly
+  series_binding_status: REGISTERED
+  provider_hint: [BCRA]
+  provenance:
+    model_prior_used: false
+    media_evidence_tags: [banking, private credit, deposits, BCRA]
+- id: ci.ef.private_credit_fx_ars_equivalent
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  label: Private-sector foreign-currency credit, ARS equivalent
+  concept_id: ef.private_credit
+  unit_semantics: ars
+  frequency: monthly
+  series_binding_status: REGISTERED
+  provider_hint: [BCRA]
+  provenance:
+    model_prior_used: false
+    media_evidence_tags: [banking, private credit, deposits, BCRA]
+- id: ci.ef.private_deposits_total_ars
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  label: Total private-sector deposits, ARS equivalent
+  concept_id: ef.fx_deposits
+  unit_semantics: ars
+  frequency: monthly
+  series_binding_status: REGISTERED
+  provider_hint: [BCRA]
+  provenance:
+    model_prior_used: false
+    media_evidence_tags: [banking, private credit, deposits, BCRA]
+- id: ci.ef.private_deposits_peso_ars
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  label: Private-sector deposits in pesos
+  concept_id: ef.fx_deposits
+  unit_semantics: ars
+  frequency: monthly
+  series_binding_status: REGISTERED
+  provider_hint: [BCRA]
+  provenance:
+    model_prior_used: false
+    media_evidence_tags: [banking, private credit, deposits, BCRA]
+- id: ci.ef.private_deposits_fx_ars_equivalent
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  label: Private-sector foreign-currency deposits, ARS equivalent
+  concept_id: ef.fx_deposits
+  unit_semantics: ars
+  frequency: monthly
+  series_binding_status: REGISTERED
+  provider_hint: [BCRA]
+  provenance:
+    model_prior_used: false
+    media_evidence_tags: [banking, private credit, deposits, BCRA]
+- id: ci.ef.fx_credit_share
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  label: Foreign-currency share of private-sector credit
+  concept_id: ef.private_credit
+  unit_semantics: percent_loans
+  frequency: monthly
+  series_binding_status: DERIVED_FROM_REGISTERED
+  provider_hint: [BCRA]
+  provenance:
+    model_prior_used: false
+    media_evidence_tags: [banking, private credit, deposits, BCRA]

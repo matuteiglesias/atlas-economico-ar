@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ef51",
+  "chart_spec_id": "cs.bcra3.private_credit_currency",
+  "frame_id": "rf.last_5y",
+  "data_as_of": "2026-06-30",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ef.private_credit_peso_ars",
+    "ci.ef.private_credit_fx_ars_equivalent"
+  ],
+  "series_ids": [
+    "series.ar.bcra.private_credit_peso",
+    "series.ar.bcra.private_credit_fx_ars_equiv"
+  ],
+  "snapshot_sha256": {
+    "series.ar.bcra.private_credit_peso": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9",
+    "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/private-credit-by-currency.svg",
+    "png": "plot-artifacts/png/private-credit-by-currency.png"
+  },
+  "alt_text": "Private credit by currency. Private-sector credit in pesos; Private-sector foreign-currency credit, ARS equivalent. Last 5 years. Data through 2026-06-30.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "ars",
+    "ars"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "multiple",
+    "provider_series_id": "893,904",
+    "source_unit": null,
+    "normalization": {
+      "kind": "composite"
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.bcra.private_credit_peso",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "893",
+      "source_unit": "Thousands pesos",
+      "normalization": {
+        "kind": "scale",
+        "factor": 1000
+      },
+      "snapshot_sha256": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9"
+    },
+    {
+      "series_id": "series.ar.bcra.private_credit_fx_ars_equiv",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "904",
+      "source_unit": "Thousands pesos",
+      "normalization": {
+        "kind": "scale",
+        "factor": 1000
+      },
+      "snapshot_sha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
+    }
+  ]
+}

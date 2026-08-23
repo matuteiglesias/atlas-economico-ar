@@ -35,14 +35,82 @@
   },
   "unitSemantics": "percent_deposits",
   "frequency": "monthly",
-  "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
+  "seriesBindingStatus": "DERIVED_FROM_REGISTERED",
   "charts": [
     {
       "id": "pi.ef33",
       "kind": "chart",
       "slug": "fx-deposits-in-the-domestic-financial-system",
       "title": "FX deposits in the domestic financial system",
-      "href": "/charts/fx-deposits-in-the-domestic-financial-system"
+      "href": "/charts/fx-deposits-in-the-domestic-financial-system",
+      "artifact": {
+        "chartSpecId": "cs.bcra3.fx_deposits_share",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/fx-deposits-in-the-domestic-financial-system.svg",
+        "png": "/plots/fx-deposits-in-the-domestic-financial-system.png",
+        "altText": "FX deposits in the domestic financial system. Foreign-currency deposits; Foreign-currency deposit share. Last 5 years. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.fx_deposits_usd",
+          "ci.ef.fx_deposit_share"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_deposits_private_sector",
+          "series.ar.bcra.private_deposits_fx_ars_equiv",
+          "series.ar.bcra.private_deposits_total_ars_equiv"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab",
+          "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
+          "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "108,1003,981",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_deposits_private_sector",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "108",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1003",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "981",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ef34",
@@ -50,6 +118,94 @@
       "slug": "fx-deposits-versus-bank-liquidity",
       "title": "FX deposits versus bank liquidity",
       "href": "/charts/fx-deposits-versus-bank-liquidity"
+    },
+    {
+      "id": "pi.ef53",
+      "kind": "chart",
+      "slug": "foreign-currency-shares-of-private-credit-and-deposits",
+      "title": "Foreign-currency shares of private credit and deposits",
+      "href": "/charts/foreign-currency-shares-of-private-credit-and-deposits",
+      "artifact": {
+        "chartSpecId": "cs.bcra3.fx_shares",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-06-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/foreign-currency-shares-of-private-credit-and-deposits.svg",
+        "png": "/plots/foreign-currency-shares-of-private-credit-and-deposits.png",
+        "altText": "Foreign-currency shares of private credit and deposits. Foreign-currency share of private-sector credit; Foreign-currency deposit share. Last 5 years. Data through 2026-06-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.fx_credit_share",
+          "ci.ef.fx_deposit_share"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.private_credit_fx_ars_equiv",
+          "series.ar.bcra.private_credit_total_ars_equiv",
+          "series.ar.bcra.private_deposits_fx_ars_equiv",
+          "series.ar.bcra.private_deposits_total_ars_equiv"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e",
+          "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
+          "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
+          "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "904,882,1003,981",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.private_credit_fx_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "904",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_credit_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "882",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1003",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "981",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+          }
+        ]
+      }
     }
   ],
   "derivedAsInput": [],
@@ -66,12 +222,169 @@
       "distance": 1
     },
     {
+      "id": "pi.ef53",
+      "kind": "chart",
+      "slug": "foreign-currency-shares-of-private-credit-and-deposits",
+      "title": "Foreign-currency shares of private credit and deposits",
+      "href": "/charts/foreign-currency-shares-of-private-credit-and-deposits",
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra3.fx_shares",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-06-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/foreign-currency-shares-of-private-credit-and-deposits.svg",
+        "png": "/plots/foreign-currency-shares-of-private-credit-and-deposits.png",
+        "altText": "Foreign-currency shares of private credit and deposits. Foreign-currency share of private-sector credit; Foreign-currency deposit share. Last 5 years. Data through 2026-06-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.fx_credit_share",
+          "ci.ef.fx_deposit_share"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.private_credit_fx_ars_equiv",
+          "series.ar.bcra.private_credit_total_ars_equiv",
+          "series.ar.bcra.private_deposits_fx_ars_equiv",
+          "series.ar.bcra.private_deposits_total_ars_equiv"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e",
+          "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
+          "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
+          "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "904,882,1003,981",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.private_credit_fx_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "904",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_credit_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "882",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1003",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "981",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ef33",
       "kind": "chart",
       "slug": "fx-deposits-in-the-domestic-financial-system",
       "title": "FX deposits in the domestic financial system",
       "href": "/charts/fx-deposits-in-the-domestic-financial-system",
-      "distance": 1
+      "distance": 1,
+      "artifact": {
+        "chartSpecId": "cs.bcra3.fx_deposits_share",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/fx-deposits-in-the-domestic-financial-system.svg",
+        "png": "/plots/fx-deposits-in-the-domestic-financial-system.png",
+        "altText": "FX deposits in the domestic financial system. Foreign-currency deposits; Foreign-currency deposit share. Last 5 years. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.fx_deposits_usd",
+          "ci.ef.fx_deposit_share"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_deposits_private_sector",
+          "series.ar.bcra.private_deposits_fx_ars_equiv",
+          "series.ar.bcra.private_deposits_total_ars_equiv"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab",
+          "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
+          "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "108,1003,981",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_deposits_private_sector",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "108",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1003",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "981",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ef34",
@@ -80,6 +393,14 @@
       "title": "FX deposits versus bank liquidity",
       "href": "/charts/fx-deposits-versus-bank-liquidity",
       "distance": 1
+    },
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening",
+      "distance": 2
     },
     {
       "id": "q.ef16",
@@ -104,18 +425,10 @@
       "title": "Bank liquid-assets ratio",
       "href": "/indicators/bank-liquid-assets-ratio",
       "distance": 2
-    },
-    {
-      "id": "ci.ef.fx_deposits_usd",
-      "kind": "indicator",
-      "slug": "foreign-currency-deposits",
-      "title": "Foreign-currency deposits",
-      "href": "/indicators/foreign-currency-deposits",
-      "distance": 2
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 3,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

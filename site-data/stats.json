@@ -3,16 +3,16 @@
     "region": 6,
     "topic": 55,
     "question": 38,
-    "indicator": 83,
-    "chart": 115
+    "indicator": 90,
+    "chart": 119
   },
   "graph": {
-    "nodes": 297,
-    "edges": 653
+    "nodes": 308,
+    "edges": 674
   },
   "verticals_loaded": 2,
-  "plot_artifacts": 35,
-  "prominent_plot_artifacts": 31,
+  "plot_artifacts": 41,
+  "prominent_plot_artifacts": 37,
   "quarantined_plot_artifacts": 4,
   "historical_plot_artifacts": 2
 }
