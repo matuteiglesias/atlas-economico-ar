@@ -13,7 +13,9 @@
     "verify:data": "node scripts/verify-data.mjs",
     "verify:plots": "node scripts/verify-plots.mjs",
     "verify:routes": "node scripts/verify-routes.mjs",
-    "check": "pnpm verify:data && pnpm verify:plots && pnpm lint && pnpm typecheck && pnpm build && pnpm verify:routes"
+    "check": "pnpm verify:data && pnpm verify:plots && pnpm lint && pnpm typecheck && pnpm build && pnpm verify:routes",
+    "test:e2e": "playwright test",
+    "test:e2e:full": "pnpm check && pnpm test:e2e"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
@@ -23,6 +25,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
+    "@playwright/test": "1.62.1",
     "@tailwindcss/postcss": "^4.1.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
