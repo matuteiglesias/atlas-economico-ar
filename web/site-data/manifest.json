@@ -11,18 +11,18 @@
     "region": 6,
     "topic": 55,
     "question": 38,
-    "indicator": 83,
-    "chart": 115
+    "indicator": 90,
+    "chart": 119
   },
   "graph": {
-    "nodes": 297,
-    "edges": 653
+    "nodes": 308,
+    "edges": 674
   },
-  "editorialGaps": 234,
-  "seriesBindingsRequired": 82,
+  "editorialGaps": 245,
+  "seriesBindingsRequired": 80,
   "publicationSchemaVersion": "0.2",
-  "plotArtifacts": 35,
-  "prominentPlotArtifacts": 31,
+  "plotArtifacts": 41,
+  "prominentPlotArtifacts": 37,
   "quarantinedPlotArtifacts": 4,
   "historicalPlotArtifacts": 2
 }

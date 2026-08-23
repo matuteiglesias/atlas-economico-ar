@@ -1,0 +1,54 @@
+{
+  "canonical_indicator_id": "ci.ef.private_credit_peso_ars",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 54,
+    "latest_observation": "2026-06-30",
+    "state": "fresh",
+    "warning_days": 75
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Loans by type of holder",
+    "currency": "ML",
+    "description": "Total loans to non financial private sector",
+    "frequency": "monthly",
+    "series_type": "End of month stocks",
+    "time_index_end": "2026-06-30",
+    "time_index_start": "1999-12-31",
+    "title": "Total loans to non financial private sector",
+    "units": "Thousands pesos"
+  },
+  "provider_series_id": "893",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_private_credit_peso.catalog.json",
+    "catalog_sha256": "71449431f101f9c281c21fd262f13bb845f839ee9b68d118e5b694e8d6aa4cc0",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_private_credit_peso.methodology.json",
+    "methodology_sha256": "9981cc5ed6f18a91e98cc39a914ab8bdf313ebf74031d7c0994f369941250be5",
+    "values_pages": [
+      {
+        "observation_rows": 319,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_private_credit_peso.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/893?limit=3000&offset=0",
+        "sha256": "a10e7101ca8175640c6d22a9c0ed2536752aec3d5ad05905f0bedcee1d74395d"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=893&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/893",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/893?limit=3000&offset=0"
+    ]
+  },
+  "retrieved_at": "2026-08-23T11:17:04.025674Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.private_credit_peso",
+  "snapshot": {
+    "first_observation": "1999-12-31",
+    "latest_observation": "2026-06-30",
+    "observation_rows": 319,
+    "path": "series/snapshots/bcra/series_ar_bcra_private_credit_peso.csv",
+    "sha256": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9"
+  }
+}

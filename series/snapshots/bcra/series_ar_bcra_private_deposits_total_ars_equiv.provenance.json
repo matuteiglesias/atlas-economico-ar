@@ -1,0 +1,54 @@
+{
+  "canonical_indicator_id": "ci.ef.private_deposits_total_ars",
+  "economic_transform": "none",
+  "freshness": {
+    "age_days": 54,
+    "latest_observation": "2026-06-30",
+    "state": "fresh",
+    "warning_days": 75
+  },
+  "provider": "bcra_monetarias_v4",
+  "provider_metadata": {
+    "category": "Deposits by type of holder",
+    "currency": "MEyML",
+    "description": "Total deposits of non financial private sector",
+    "frequency": "monthly",
+    "series_type": "End of month stocks",
+    "time_index_end": "2026-06-30",
+    "time_index_start": "1999-12-31",
+    "title": "Total deposits of non financial private sector",
+    "units": "Thousands pesos"
+  },
+  "provider_series_id": "981",
+  "raw": {
+    "catalog_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_private_deposits_total_ars_equiv.catalog.json",
+    "catalog_sha256": "61bce2d51ec7b305de3c75321548846956627b68c2b42ad08bc5cd6741339709",
+    "methodology_path": "series/raw/bcra_monetarias_v4/series_ar_bcra_private_deposits_total_ars_equiv.methodology.json",
+    "methodology_sha256": "557e5a711d1b92572e0ba6dc04b516dc1aea5d66eea35396bff3c45fae1d20fe",
+    "values_pages": [
+      {
+        "observation_rows": 319,
+        "path": "series/raw/bcra_monetarias_v4/series_ar_bcra_private_deposits_total_ars_equiv.values.page-0000.json",
+        "request_url": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/981?limit=3000&offset=0",
+        "sha256": "f9e03e7723892d817d3a7148f67b4e23b68d8bae939bab873875f7f626985d3e"
+      }
+    ]
+  },
+  "requests": {
+    "catalog": "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias?idVariable=981&limit=1&offset=0",
+    "methodology": "https://api.bcra.gob.ar/estadisticas/v4.0/metodologia/981",
+    "values_pages": [
+      "https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/981?limit=3000&offset=0"
+    ]
+  },
+  "retrieved_at": "2026-08-23T11:17:04.025674Z",
+  "schema_version": "0.2",
+  "series_id": "series.ar.bcra.private_deposits_total_ars_equiv",
+  "snapshot": {
+    "first_observation": "1999-12-31",
+    "latest_observation": "2026-06-30",
+    "observation_rows": 319,
+    "path": "series/snapshots/bcra/series_ar_bcra_private_deposits_total_ars_equiv.csv",
+    "sha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+  }
+}

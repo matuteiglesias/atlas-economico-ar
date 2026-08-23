@@ -16,8 +16,8 @@
   "stats": {
     "topics": 30,
     "questions": 20,
-    "indicators": 40,
-    "charts": 50,
+    "indicators": 47,
+    "charts": 54,
     "relations": 37
   },
   "topics": [
@@ -474,6 +474,13 @@
       "href": "/indicators/foreign-currency-deposits"
     },
     {
+      "id": "ci.ef.fx_credit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-share-of-private-sector-credit",
+      "title": "Foreign-currency share of private-sector credit",
+      "href": "/indicators/foreign-currency-share-of-private-sector-credit"
+    },
+    {
       "id": "ci.ef.goods_balance_usd",
       "kind": "indicator",
       "slug": "goods-trade-balance",
@@ -593,6 +600,34 @@
       "href": "/indicators/private-sector-credit-as-share-of-gdp"
     },
     {
+      "id": "ci.ef.private_credit_peso_ars",
+      "kind": "indicator",
+      "slug": "private-sector-credit-in-pesos",
+      "title": "Private-sector credit in pesos",
+      "href": "/indicators/private-sector-credit-in-pesos"
+    },
+    {
+      "id": "ci.ef.private_deposits_peso_ars",
+      "kind": "indicator",
+      "slug": "private-sector-deposits-in-pesos",
+      "title": "Private-sector deposits in pesos",
+      "href": "/indicators/private-sector-deposits-in-pesos"
+    },
+    {
+      "id": "ci.ef.private_credit_fx_ars_equivalent",
+      "kind": "indicator",
+      "slug": "private-sector-foreign-currency-credit-ars-equivalent",
+      "title": "Private-sector foreign-currency credit, ARS equivalent",
+      "href": "/indicators/private-sector-foreign-currency-credit-ars-equivalent"
+    },
+    {
+      "id": "ci.ef.private_deposits_fx_ars_equivalent",
+      "kind": "indicator",
+      "slug": "private-sector-foreign-currency-deposits-ars-equivalent",
+      "title": "Private-sector foreign-currency deposits, ARS equivalent",
+      "href": "/indicators/private-sector-foreign-currency-deposits-ars-equivalent"
+    },
+    {
       "id": "ci.ef.public_fx_issuance_usd",
       "kind": "indicator",
       "slug": "public-and-provincial-fx-issuance",
@@ -654,6 +689,20 @@
       "slug": "total-external-debt",
       "title": "Total external debt",
       "href": "/indicators/total-external-debt"
+    },
+    {
+      "id": "ci.ef.private_credit_total_ars",
+      "kind": "indicator",
+      "slug": "total-private-sector-credit-ars-equivalent",
+      "title": "Total private-sector credit, ARS equivalent",
+      "href": "/indicators/total-private-sector-credit-ars-equivalent"
+    },
+    {
+      "id": "ci.ef.private_deposits_total_ars",
+      "kind": "indicator",
+      "slug": "total-private-sector-deposits-ars-equivalent",
+      "title": "Total private-sector deposits, ARS equivalent",
+      "href": "/indicators/total-private-sector-deposits-ars-equivalent"
     }
   ],
   "charts": [
@@ -890,6 +939,94 @@
       }
     },
     {
+      "id": "pi.ef53",
+      "kind": "chart",
+      "slug": "foreign-currency-shares-of-private-credit-and-deposits",
+      "title": "Foreign-currency shares of private credit and deposits",
+      "href": "/charts/foreign-currency-shares-of-private-credit-and-deposits",
+      "artifact": {
+        "chartSpecId": "cs.bcra3.fx_shares",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-06-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/foreign-currency-shares-of-private-credit-and-deposits.svg",
+        "png": "/plots/foreign-currency-shares-of-private-credit-and-deposits.png",
+        "altText": "Foreign-currency shares of private credit and deposits. Foreign-currency share of private-sector credit; Foreign-currency deposit share. Last 5 years. Data through 2026-06-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.fx_credit_share",
+          "ci.ef.fx_deposit_share"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.private_credit_fx_ars_equiv",
+          "series.ar.bcra.private_credit_total_ars_equiv",
+          "series.ar.bcra.private_deposits_fx_ars_equiv",
+          "series.ar.bcra.private_deposits_total_ars_equiv"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e",
+          "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
+          "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
+          "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "904,882,1003,981",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.private_credit_fx_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "904",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_credit_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "882",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1003",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "981",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ef22",
       "kind": "chart",
       "slug": "fx-debt-service-maturity-wall",
@@ -901,7 +1038,75 @@
       "kind": "chart",
       "slug": "fx-deposits-in-the-domestic-financial-system",
       "title": "FX deposits in the domestic financial system",
-      "href": "/charts/fx-deposits-in-the-domestic-financial-system"
+      "href": "/charts/fx-deposits-in-the-domestic-financial-system",
+      "artifact": {
+        "chartSpecId": "cs.bcra3.fx_deposits_share",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/fx-deposits-in-the-domestic-financial-system.svg",
+        "png": "/plots/fx-deposits-in-the-domestic-financial-system.png",
+        "altText": "FX deposits in the domestic financial system. Foreign-currency deposits; Foreign-currency deposit share. Last 5 years. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.fx_deposits_usd",
+          "ci.ef.fx_deposit_share"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_deposits_private_sector",
+          "series.ar.bcra.private_deposits_fx_ars_equiv",
+          "series.ar.bcra.private_deposits_total_ars_equiv"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab",
+          "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
+          "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "108,1003,981",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_deposits_private_sector",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "108",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1003",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "981",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ef34",
@@ -1128,11 +1333,197 @@
       "href": "/charts/primary-income-drag-on-the-current-account"
     },
     {
+      "id": "pi.ef54",
+      "kind": "chart",
+      "slug": "private-credit-and-deposits",
+      "title": "Private credit and deposits",
+      "href": "/charts/private-credit-and-deposits",
+      "artifact": {
+        "chartSpecId": "cs.bcra3.credit_vs_deposits",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-06-30",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/private-credit-and-deposits.svg",
+        "png": "/plots/private-credit-and-deposits.png",
+        "altText": "Private credit and deposits. Total private-sector credit, ARS equivalent; Total private-sector deposits, ARS equivalent. Last 5 years. Data through 2026-06-30.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.private_credit_total_ars",
+          "ci.ef.private_deposits_total_ars"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.private_credit_total_ars_equiv",
+          "series.ar.bcra.private_deposits_total_ars_equiv"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
+          "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "882,981",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.private_credit_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "882",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "981",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+          }
+        ]
+      }
+    },
+    {
       "id": "pi.ef29",
       "kind": "chart",
       "slug": "private-credit-as-a-share-of-gdp",
       "title": "Private credit as a share of GDP",
       "href": "/charts/private-credit-as-a-share-of-gdp"
+    },
+    {
+      "id": "pi.ef51",
+      "kind": "chart",
+      "slug": "private-credit-by-currency",
+      "title": "Private credit by currency",
+      "href": "/charts/private-credit-by-currency",
+      "artifact": {
+        "chartSpecId": "cs.bcra3.private_credit_currency",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-06-30",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/private-credit-by-currency.svg",
+        "png": "/plots/private-credit-by-currency.png",
+        "altText": "Private credit by currency. Private-sector credit in pesos; Private-sector foreign-currency credit, ARS equivalent. Last 5 years. Data through 2026-06-30.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.private_credit_peso_ars",
+          "ci.ef.private_credit_fx_ars_equivalent"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.private_credit_peso",
+          "series.ar.bcra.private_credit_fx_ars_equiv"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.private_credit_peso": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9",
+          "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "893,904",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.private_credit_peso",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "893",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_credit_fx_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "904",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi.ef52",
+      "kind": "chart",
+      "slug": "private-deposits-by-currency",
+      "title": "Private deposits by currency",
+      "href": "/charts/private-deposits-by-currency",
+      "artifact": {
+        "chartSpecId": "cs.bcra3.private_deposits_currency",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-06-30",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/private-deposits-by-currency.svg",
+        "png": "/plots/private-deposits-by-currency.png",
+        "altText": "Private deposits by currency. Private-sector deposits in pesos; Private-sector foreign-currency deposits, ARS equivalent. Last 5 years. Data through 2026-06-30.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.private_deposits_peso_ars",
+          "ci.ef.private_deposits_fx_ars_equivalent"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.private_deposits_peso",
+          "series.ar.bcra.private_deposits_fx_ars_equiv"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.private_deposits_peso": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad",
+          "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "992,1003",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.private_deposits_peso",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "992",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad"
+          },
+          {
+            "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "1003",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ef15",
@@ -1160,7 +1551,61 @@
       "kind": "chart",
       "slug": "real-private-credit-growth",
       "title": "Real private-credit growth",
-      "href": "/charts/real-private-credit-growth"
+      "href": "/charts/real-private-credit-growth",
+      "artifact": {
+        "chartSpecId": "cs.bcra3.real_private_credit_growth",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-06-01",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/real-private-credit-growth.svg",
+        "png": "/plots/real-private-credit-growth.png",
+        "altText": "Real private-credit growth. Real private-sector credit growth. Last 5 years. Data through 2026-06-01.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.real_private_credit_growth"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.private_credit_total_ars_equiv",
+          "series.ar.datosgob.ipc_headline_mom_national"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
+          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "source": {
+          "provider": "multiple",
+          "providerSeriesId": "882,145.3_INGNACUAL_DICI_M_38",
+          "sourceUnit": null,
+          "normalization": {
+            "kind": "composite"
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.private_credit_total_ars_equiv",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "882",
+            "sourceUnit": "Thousands pesos",
+            "normalization": {
+              "kind": "scale",
+              "factor": 1000
+            },
+            "snapshotSha256": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9"
+          },
+          {
+            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
+            "provider": "datos_argentina",
+            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
+            "sourceUnit": "Variación intermensual",
+            "normalization": {
+              "kind": "scale",
+              "factor": 100
+            },
+            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+          }
+        ]
+      }
     },
     {
       "id": "pi.ef40",
@@ -1278,95 +1723,11 @@
   "localGraph": {
     "nodes": [
       {
-        "id": "ef.reserve_adequacy",
-        "kind": "topic",
-        "slug": "reserve-adequacy",
-        "title": "Reserve adequacy",
-        "href": "/topics/reserve-adequacy"
-      },
-      {
-        "id": "ef.services_balance",
-        "kind": "topic",
-        "slug": "services-balance",
-        "title": "Services balance",
-        "href": "/topics/services-balance"
-      },
-      {
-        "id": "ef.domestic_savings_mobilization",
-        "kind": "topic",
-        "slug": "domestic-savings-mobilization",
-        "title": "Domestic savings mobilization",
-        "href": "/topics/domestic-savings-mobilization"
-      },
-      {
-        "id": "ef.net_international_reserves",
-        "kind": "topic",
-        "slug": "net-international-reserves",
-        "title": "Net international reserves",
-        "href": "/topics/net-international-reserves"
-      },
-      {
-        "id": "ef.fx_deposits",
-        "kind": "topic",
-        "slug": "foreign-currency-deposits",
-        "title": "Foreign-currency deposits",
-        "href": "/topics/foreign-currency-deposits"
-      },
-      {
-        "id": "ef.liquid_reserve_buffers",
-        "kind": "topic",
-        "slug": "liquid-reserve-buffers",
-        "title": "Liquid reserve buffers",
-        "href": "/topics/liquid-reserve-buffers"
-      },
-      {
-        "id": "ef.sovereign_spreads",
-        "kind": "topic",
-        "slug": "sovereign-spreads",
-        "title": "Sovereign spreads",
-        "href": "/topics/sovereign-spreads"
-      },
-      {
-        "id": "ef.domestic_capital_market_depth",
-        "kind": "topic",
-        "slug": "domestic-capital-market-depth",
-        "title": "Domestic capital-market depth",
-        "href": "/topics/domestic-capital-market-depth"
-      },
-      {
-        "id": "ef.primary_income_balance",
-        "kind": "topic",
-        "slug": "primary-income-balance",
-        "title": "Primary income balance",
-        "href": "/topics/primary-income-balance"
-      },
-      {
         "id": "ef.current_account",
         "kind": "topic",
         "slug": "current-account",
         "title": "Current account",
         "href": "/topics/current-account"
-      },
-      {
-        "id": "ef.fx_debt_service",
-        "kind": "topic",
-        "slug": "foreign-currency-debt-service",
-        "title": "Foreign-currency debt service",
-        "href": "/topics/foreign-currency-debt-service"
-      },
-      {
-        "id": "ef.official_external_financing",
-        "kind": "topic",
-        "slug": "official-external-financing",
-        "title": "Official external financing",
-        "href": "/topics/official-external-financing"
-      },
-      {
-        "id": "ef.resident_fx_hedging",
-        "kind": "topic",
-        "slug": "resident-fx-hedging-and-dollarization-pressure",
-        "title": "Resident FX hedging and dollarization pressure",
-        "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
       },
       {
         "id": "ef.swap_repo_financing",
@@ -1376,74 +1737,11 @@
         "href": "/topics/swap-and-repo-financing"
       },
       {
-        "id": "ef.financial_depth",
-        "kind": "topic",
-        "slug": "financial-depth",
-        "title": "Financial depth",
-        "href": "/topics/financial-depth"
-      },
-      {
-        "id": "ef.refinancing_needs",
-        "kind": "topic",
-        "slug": "external-refinancing-needs",
-        "title": "External refinancing needs",
-        "href": "/topics/external-refinancing-needs"
-      },
-      {
-        "id": "ef.capital_inflows",
-        "kind": "topic",
-        "slug": "capital-inflows",
-        "title": "Capital inflows",
-        "href": "/topics/capital-inflows"
-      },
-      {
-        "id": "ef.external_vulnerability",
-        "kind": "topic",
-        "slug": "external-vulnerability",
-        "title": "External vulnerability",
-        "href": "/topics/external-vulnerability"
-      },
-      {
-        "id": "ef.foreign_direct_investment",
-        "kind": "topic",
-        "slug": "foreign-direct-investment",
-        "title": "Foreign direct investment",
-        "href": "/topics/foreign-direct-investment"
-      },
-      {
         "id": "ef.goods_trade_balance",
         "kind": "topic",
         "slug": "goods-trade-balance",
         "title": "Goods trade balance",
         "href": "/topics/goods-trade-balance"
-      },
-      {
-        "id": "ef.external_public_debt",
-        "kind": "topic",
-        "slug": "external-public-debt",
-        "title": "External public debt",
-        "href": "/topics/external-public-debt"
-      },
-      {
-        "id": "ef.financial_account",
-        "kind": "topic",
-        "slug": "financial-account",
-        "title": "Financial account",
-        "href": "/topics/financial-account"
-      },
-      {
-        "id": "ef.external_position",
-        "kind": "topic",
-        "slug": "external-position",
-        "title": "External position",
-        "href": "/topics/external-position"
-      },
-      {
-        "id": "ef.reserve_accumulation",
-        "kind": "topic",
-        "slug": "reserve-accumulation",
-        "title": "Reserve accumulation",
-        "href": "/topics/reserve-accumulation"
       },
       {
         "id": "ef.credit_quality",
@@ -1453,18 +1751,32 @@
         "href": "/topics/credit-quality"
       },
       {
-        "id": "ef.gross_reserves",
+        "id": "ef.domestic_capital_market_depth",
         "kind": "topic",
-        "slug": "gross-international-reserves",
-        "title": "Gross international reserves",
-        "href": "/topics/gross-international-reserves"
+        "slug": "domestic-capital-market-depth",
+        "title": "Domestic capital-market depth",
+        "href": "/topics/domestic-capital-market-depth"
       },
       {
-        "id": "ef.market_access",
+        "id": "ef.official_external_financing",
         "kind": "topic",
-        "slug": "international-market-access",
-        "title": "International market access",
-        "href": "/topics/international-market-access"
+        "slug": "official-external-financing",
+        "title": "Official external financing",
+        "href": "/topics/official-external-financing"
+      },
+      {
+        "id": "ef.external_public_debt",
+        "kind": "topic",
+        "slug": "external-public-debt",
+        "title": "External public debt",
+        "href": "/topics/external-public-debt"
+      },
+      {
+        "id": "ef.private_credit",
+        "kind": "topic",
+        "slug": "private-sector-credit",
+        "title": "Private-sector credit",
+        "href": "/topics/private-sector-credit"
       },
       {
         "id": "ef.sovereign_risk",
@@ -1474,6 +1786,55 @@
         "href": "/topics/sovereign-risk"
       },
       {
+        "id": "ef.fx_debt_service",
+        "kind": "topic",
+        "slug": "foreign-currency-debt-service",
+        "title": "Foreign-currency debt service",
+        "href": "/topics/foreign-currency-debt-service"
+      },
+      {
+        "id": "ef.financial_account",
+        "kind": "topic",
+        "slug": "financial-account",
+        "title": "Financial account",
+        "href": "/topics/financial-account"
+      },
+      {
+        "id": "ef.reserve_accumulation",
+        "kind": "topic",
+        "slug": "reserve-accumulation",
+        "title": "Reserve accumulation",
+        "href": "/topics/reserve-accumulation"
+      },
+      {
+        "id": "ef.refinancing_needs",
+        "kind": "topic",
+        "slug": "external-refinancing-needs",
+        "title": "External refinancing needs",
+        "href": "/topics/external-refinancing-needs"
+      },
+      {
+        "id": "ef.financial_depth",
+        "kind": "topic",
+        "slug": "financial-depth",
+        "title": "Financial depth",
+        "href": "/topics/financial-depth"
+      },
+      {
+        "id": "ef.capital_inflows",
+        "kind": "topic",
+        "slug": "capital-inflows",
+        "title": "Capital inflows",
+        "href": "/topics/capital-inflows"
+      },
+      {
+        "id": "ef.primary_income_balance",
+        "kind": "topic",
+        "slug": "primary-income-balance",
+        "title": "Primary income balance",
+        "href": "/topics/primary-income-balance"
+      },
+      {
         "id": "ef.fx_market_issuance",
         "kind": "topic",
         "slug": "fx-market-issuance",
@@ -1481,11 +1842,95 @@
         "href": "/topics/fx-market-issuance"
       },
       {
-        "id": "ef.private_credit",
+        "id": "ef.gross_reserves",
         "kind": "topic",
-        "slug": "private-sector-credit",
-        "title": "Private-sector credit",
-        "href": "/topics/private-sector-credit"
+        "slug": "gross-international-reserves",
+        "title": "Gross international reserves",
+        "href": "/topics/gross-international-reserves"
+      },
+      {
+        "id": "ef.foreign_direct_investment",
+        "kind": "topic",
+        "slug": "foreign-direct-investment",
+        "title": "Foreign direct investment",
+        "href": "/topics/foreign-direct-investment"
+      },
+      {
+        "id": "ef.net_international_reserves",
+        "kind": "topic",
+        "slug": "net-international-reserves",
+        "title": "Net international reserves",
+        "href": "/topics/net-international-reserves"
+      },
+      {
+        "id": "ef.sovereign_spreads",
+        "kind": "topic",
+        "slug": "sovereign-spreads",
+        "title": "Sovereign spreads",
+        "href": "/topics/sovereign-spreads"
+      },
+      {
+        "id": "ef.domestic_savings_mobilization",
+        "kind": "topic",
+        "slug": "domestic-savings-mobilization",
+        "title": "Domestic savings mobilization",
+        "href": "/topics/domestic-savings-mobilization"
+      },
+      {
+        "id": "ef.fx_deposits",
+        "kind": "topic",
+        "slug": "foreign-currency-deposits",
+        "title": "Foreign-currency deposits",
+        "href": "/topics/foreign-currency-deposits"
+      },
+      {
+        "id": "ef.services_balance",
+        "kind": "topic",
+        "slug": "services-balance",
+        "title": "Services balance",
+        "href": "/topics/services-balance"
+      },
+      {
+        "id": "ef.market_access",
+        "kind": "topic",
+        "slug": "international-market-access",
+        "title": "International market access",
+        "href": "/topics/international-market-access"
+      },
+      {
+        "id": "ef.external_vulnerability",
+        "kind": "topic",
+        "slug": "external-vulnerability",
+        "title": "External vulnerability",
+        "href": "/topics/external-vulnerability"
+      },
+      {
+        "id": "ef.external_position",
+        "kind": "topic",
+        "slug": "external-position",
+        "title": "External position",
+        "href": "/topics/external-position"
+      },
+      {
+        "id": "ef.reserve_adequacy",
+        "kind": "topic",
+        "slug": "reserve-adequacy",
+        "title": "Reserve adequacy",
+        "href": "/topics/reserve-adequacy"
+      },
+      {
+        "id": "ef.resident_fx_hedging",
+        "kind": "topic",
+        "slug": "resident-fx-hedging-and-dollarization-pressure",
+        "title": "Resident FX hedging and dollarization pressure",
+        "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
+      },
+      {
+        "id": "ef.liquid_reserve_buffers",
+        "kind": "topic",
+        "slug": "liquid-reserve-buffers",
+        "title": "Liquid reserve buffers",
+        "href": "/topics/liquid-reserve-buffers"
       }
     ],
     "edges": [

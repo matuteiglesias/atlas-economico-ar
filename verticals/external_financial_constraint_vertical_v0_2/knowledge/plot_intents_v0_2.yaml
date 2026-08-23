@@ -100,3 +100,71 @@ plot_intents:
   plot_status: active_v0_2
   series_binding_status: REGISTERED
   provenance: {model_prior_used: false, media_evidence_tags: [FX deposits, banking, BCRA]}
+
+- id: pi.ef51
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  title: Private credit by currency
+  question_ids: [q.ef14]
+  canonical_indicator_ids: [ci.ef.private_credit_peso_ars, ci.ef.private_credit_fx_ars_equivalent]
+  reference_frame_ids: []
+  purpose: Separate peso and foreign-currency components of private credit using provider-consistent ARS-equivalent stocks.
+  plot_status: active_v0_2
+  series_binding_status: DERIVED_FROM_REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [banking, private credit, deposits, BCRA]}
+
+- id: pi.ef52
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  title: Private deposits by currency
+  question_ids: [q.ef16]
+  canonical_indicator_ids: [ci.ef.private_deposits_peso_ars, ci.ef.private_deposits_fx_ars_equivalent]
+  reference_frame_ids: []
+  purpose: Separate peso and foreign-currency components of private deposits using provider-consistent ARS-equivalent stocks.
+  plot_status: active_v0_2
+  series_binding_status: DERIVED_FROM_REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [banking, private credit, deposits, BCRA]}
+
+- id: pi.ef53
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  title: Foreign-currency shares of private credit and deposits
+  question_ids: [q.ef14, q.ef16]
+  canonical_indicator_ids: [ci.ef.fx_credit_share, ci.ef.fx_deposit_share]
+  reference_frame_ids: []
+  purpose: Compare dollarization on the asset and liability sides of domestic financial intermediation.
+  plot_status: active_v0_2
+  series_binding_status: DERIVED_FROM_REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [banking, private credit, deposits, BCRA]}
+
+- id: pi.ef54
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  title: Private credit and deposits
+  question_ids: [q.ef14, q.ef17]
+  canonical_indicator_ids: [ci.ef.private_credit_total_ars, ci.ef.private_deposits_total_ars]
+  reference_frame_ids: []
+  purpose: Place total private credit beside the private deposit base using consistent ARS-equivalent source measurements.
+  plot_status: active_v0_2
+  series_binding_status: DERIVED_FROM_REGISTERED
+  provenance: {model_prior_used: false, media_evidence_tags: [banking, private credit, deposits, BCRA]}

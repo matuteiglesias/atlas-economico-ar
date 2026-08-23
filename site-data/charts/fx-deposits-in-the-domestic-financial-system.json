@@ -190,5 +190,73 @@
     "questions": 1,
     "topics": 3,
     "indicators": 2
+  },
+  "artifact": {
+    "chartSpecId": "cs.bcra3.fx_deposits_share",
+    "frameId": "rf.last_5y",
+    "renderer": "timeseries_line",
+    "dataAsOf": "2026-08-11",
+    "generatedAt": "2026-08-15T21:20:00Z",
+    "svg": "/plots/fx-deposits-in-the-domestic-financial-system.svg",
+    "png": "/plots/fx-deposits-in-the-domestic-financial-system.png",
+    "altText": "FX deposits in the domestic financial system. Foreign-currency deposits; Foreign-currency deposit share. Last 5 years. Data through 2026-08-11.",
+    "freshnessState": "fresh",
+    "indicatorIds": [
+      "ci.ef.fx_deposits_usd",
+      "ci.ef.fx_deposit_share"
+    ],
+    "seriesIds": [
+      "series.ar.bcra.fx_deposits_private_sector",
+      "series.ar.bcra.private_deposits_fx_ars_equiv",
+      "series.ar.bcra.private_deposits_total_ars_equiv"
+    ],
+    "snapshotSha256": {
+      "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab",
+      "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
+      "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+    },
+    "source": {
+      "provider": "multiple",
+      "providerSeriesId": "108,1003,981",
+      "sourceUnit": null,
+      "normalization": {
+        "kind": "composite"
+      }
+    },
+    "sources": [
+      {
+        "seriesId": "series.ar.bcra.fx_deposits_private_sector",
+        "provider": "bcra_monetarias_v4",
+        "providerSeriesId": "108",
+        "sourceUnit": "Millons USD",
+        "normalization": {
+          "kind": "scale",
+          "factor": 0.001
+        },
+        "snapshotSha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+      },
+      {
+        "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
+        "provider": "bcra_monetarias_v4",
+        "providerSeriesId": "1003",
+        "sourceUnit": "Thousands pesos",
+        "normalization": {
+          "kind": "scale",
+          "factor": 1000
+        },
+        "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+      },
+      {
+        "seriesId": "series.ar.bcra.private_deposits_total_ars_equiv",
+        "provider": "bcra_monetarias_v4",
+        "providerSeriesId": "981",
+        "sourceUnit": "Thousands pesos",
+        "normalization": {
+          "kind": "scale",
+          "factor": 1000
+        },
+        "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+      }
+    ]
   }
 }

@@ -1,0 +1,247 @@
+{
+  "id": "pi.ef52",
+  "kind": "chart",
+  "slug": "private-deposits-by-currency",
+  "title": "Private deposits by currency",
+  "href": "/charts/private-deposits-by-currency",
+  "dek": "Separate peso and foreign-currency components of private deposits using provider-consistent ARS-equivalent stocks.",
+  "intro": null,
+  "region": {
+    "id": "external_financial_constraint",
+    "kind": "region",
+    "slug": "external-financial-constraint",
+    "title": "External & Financial Constraint",
+    "href": "/areas/external-financial-constraint"
+  },
+  "breadcrumbs": [
+    {
+      "title": "Atlas",
+      "href": "/atlas"
+    },
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean"
+    }
+  ],
+  "topics": [
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability"
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth"
+    },
+    {
+      "id": "ef.fx_deposits",
+      "kind": "topic",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/topics/foreign-currency-deposits"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ci.ef.private_deposits_peso_ars",
+      "kind": "indicator",
+      "slug": "private-sector-deposits-in-pesos",
+      "title": "Private-sector deposits in pesos",
+      "href": "/indicators/private-sector-deposits-in-pesos"
+    },
+    {
+      "id": "ci.ef.private_deposits_fx_ars_equivalent",
+      "kind": "indicator",
+      "slug": "private-sector-foreign-currency-deposits-ars-equivalent",
+      "title": "Private-sector foreign-currency deposits, ARS equivalent",
+      "href": "/indicators/private-sector-foreign-currency-deposits-ars-equivalent"
+    }
+  ],
+  "referenceFrameIds": [],
+  "chartSpec": null,
+  "nearby": [
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.private_deposits_peso_ars",
+      "kind": "indicator",
+      "slug": "private-sector-deposits-in-pesos",
+      "title": "Private-sector deposits in pesos",
+      "href": "/indicators/private-sector-deposits-in-pesos",
+      "distance": 1
+    },
+    {
+      "id": "ci.ef.private_deposits_fx_ars_equivalent",
+      "kind": "indicator",
+      "slug": "private-sector-foreign-currency-deposits-ars-equivalent",
+      "title": "Private-sector foreign-currency deposits, ARS equivalent",
+      "href": "/indicators/private-sector-foreign-currency-deposits-ars-equivalent",
+      "distance": 1
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability",
+      "distance": 2
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth",
+      "distance": 2
+    },
+    {
+      "id": "ef.fx_deposits",
+      "kind": "topic",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/topics/foreign-currency-deposits",
+      "distance": 2
+    },
+    {
+      "id": "pi.ef35",
+      "kind": "chart",
+      "slug": "bank-capital-and-npls",
+      "title": "Bank capital and NPLs",
+      "href": "/charts/bank-capital-and-npls",
+      "distance": 2
+    },
+    {
+      "id": "pi.ef50",
+      "kind": "chart",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/charts/foreign-currency-deposits",
+      "distance": 2,
+      "artifact": {
+        "chartSpecId": "cs.bcra2.fx_deposits",
+        "frameId": "rf.last_5y",
+        "renderer": "timeseries_line",
+        "dataAsOf": "2026-08-11",
+        "generatedAt": "2026-08-15T21:20:00Z",
+        "svg": "/plots/foreign-currency-deposits.svg",
+        "png": "/plots/foreign-currency-deposits.png",
+        "altText": "Foreign-currency deposits. Foreign-currency deposits. Last 5 years. Data through 2026-08-11.",
+        "freshnessState": "fresh",
+        "indicatorIds": [
+          "ci.ef.fx_deposits_usd"
+        ],
+        "seriesIds": [
+          "series.ar.bcra.fx_deposits_private_sector"
+        ],
+        "snapshotSha256": {
+          "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+        },
+        "source": {
+          "provider": "bcra_monetarias_v4",
+          "providerSeriesId": "108",
+          "sourceUnit": "Millons USD",
+          "normalization": {
+            "kind": "scale",
+            "factor": 0.001
+          }
+        },
+        "sources": [
+          {
+            "seriesId": "series.ar.bcra.fx_deposits_private_sector",
+            "provider": "bcra_monetarias_v4",
+            "providerSeriesId": "108",
+            "sourceUnit": "Millons USD",
+            "normalization": {
+              "kind": "scale",
+              "factor": 0.001
+            },
+            "snapshotSha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+          }
+        ]
+      }
+    }
+  ],
+  "counts": {
+    "questions": 1,
+    "topics": 3,
+    "indicators": 2
+  },
+  "artifact": {
+    "chartSpecId": "cs.bcra3.private_deposits_currency",
+    "frameId": "rf.last_5y",
+    "renderer": "timeseries_line",
+    "dataAsOf": "2026-06-30",
+    "generatedAt": "2026-08-15T21:20:00Z",
+    "svg": "/plots/private-deposits-by-currency.svg",
+    "png": "/plots/private-deposits-by-currency.png",
+    "altText": "Private deposits by currency. Private-sector deposits in pesos; Private-sector foreign-currency deposits, ARS equivalent. Last 5 years. Data through 2026-06-30.",
+    "freshnessState": "fresh",
+    "indicatorIds": [
+      "ci.ef.private_deposits_peso_ars",
+      "ci.ef.private_deposits_fx_ars_equivalent"
+    ],
+    "seriesIds": [
+      "series.ar.bcra.private_deposits_peso",
+      "series.ar.bcra.private_deposits_fx_ars_equiv"
+    ],
+    "snapshotSha256": {
+      "series.ar.bcra.private_deposits_peso": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad",
+      "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+    },
+    "source": {
+      "provider": "multiple",
+      "providerSeriesId": "992,1003",
+      "sourceUnit": null,
+      "normalization": {
+        "kind": "composite"
+      }
+    },
+    "sources": [
+      {
+        "seriesId": "series.ar.bcra.private_deposits_peso",
+        "provider": "bcra_monetarias_v4",
+        "providerSeriesId": "992",
+        "sourceUnit": "Thousands pesos",
+        "normalization": {
+          "kind": "scale",
+          "factor": 1000
+        },
+        "snapshotSha256": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad"
+      },
+      {
+        "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
+        "provider": "bcra_monetarias_v4",
+        "providerSeriesId": "1003",
+        "sourceUnit": "Thousands pesos",
+        "normalization": {
+          "kind": "scale",
+          "factor": 1000
+        },
+        "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+      }
+    ]
+  }
+}

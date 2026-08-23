@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.2",
+  "plot_intent_id": "pi.ef52",
+  "chart_spec_id": "cs.bcra3.private_deposits_currency",
+  "frame_id": "rf.last_5y",
+  "data_as_of": "2026-06-30",
+  "generated_at": "2026-08-15T21:20:00Z",
+  "indicator_ids": [
+    "ci.ef.private_deposits_peso_ars",
+    "ci.ef.private_deposits_fx_ars_equivalent"
+  ],
+  "series_ids": [
+    "series.ar.bcra.private_deposits_peso",
+    "series.ar.bcra.private_deposits_fx_ars_equiv"
+  ],
+  "snapshot_sha256": {
+    "series.ar.bcra.private_deposits_peso": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad",
+    "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+  },
+  "outputs": {
+    "svg": "plot-artifacts/svg/private-deposits-by-currency.svg",
+    "png": "plot-artifacts/png/private-deposits-by-currency.png"
+  },
+  "alt_text": "Private deposits by currency. Private-sector deposits in pesos; Private-sector foreign-currency deposits, ARS equivalent. Last 5 years. Data through 2026-06-30.",
+  "renderer": "timeseries_line",
+  "unit_semantics": [
+    "ars",
+    "ars"
+  ],
+  "freshness_state": "fresh",
+  "source": {
+    "provider": "multiple",
+    "provider_series_id": "992,1003",
+    "source_unit": null,
+    "normalization": {
+      "kind": "composite"
+    }
+  },
+  "sources": [
+    {
+      "series_id": "series.ar.bcra.private_deposits_peso",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "992",
+      "source_unit": "Thousands pesos",
+      "normalization": {
+        "kind": "scale",
+        "factor": 1000
+      },
+      "snapshot_sha256": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad"
+    },
+    {
+      "series_id": "series.ar.bcra.private_deposits_fx_ars_equiv",
+      "provider": "bcra_monetarias_v4",
+      "provider_series_id": "1003",
+      "source_unit": "Thousands pesos",
+      "normalization": {
+        "kind": "scale",
+        "factor": 1000
+      },
+      "snapshot_sha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+    }
+  ]
+}

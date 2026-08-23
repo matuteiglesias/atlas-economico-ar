@@ -83,11 +83,44 @@ derived_indicators:
   slice_id: external_financial_constraint
   output_indicator_id: ci.ef.fx_deposit_share
   input_indicator_ids:
-  - ci.ef.fx_deposits_usd
-  methodology: divide FX deposits by total deposits after currency conversion under a documented convention
+  - ci.ef.private_deposits_fx_ars_equivalent
+  - ci.ef.private_deposits_total_ars
+  methodology: divide provider-consistent private-sector FX deposits in ARS equivalent by total private-sector deposits in ARS equivalent
   methodology_status: specified_v0_2_requires_series_binding_validation
   provenance:
     model_prior_used: true
     imf_2026_refs:
     - External sector / financial system discussion
     - Figures 2, 6 and 7
+
+- id: di.ef.real_private_credit_growth
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  output_indicator_id: ci.ef.real_private_credit_growth
+  input_indicator_ids:
+  - ci.ef.private_credit_total_ars
+  - ci.ns.cpi_monthly
+  methodology: compute month-end private credit in constant prices and its 12-month percentage change
+  methodology_status: implemented_v0_2
+  provenance: {model_prior_used: false, imf_2026_refs: [External sector / financial system discussion]}
+
+- id: di.ef.fx_credit_share
+  version: '0.2'
+  status: proposed_v0_2
+  epistemic_class: DERIVED/CURATED
+  created_at: '2026-08-23'
+  updated_at: '2026-08-23'
+  review_state: implementation_ready
+  slice_id: external_financial_constraint
+  output_indicator_id: ci.ef.fx_credit_share
+  input_indicator_ids:
+  - ci.ef.private_credit_fx_ars_equivalent
+  - ci.ef.private_credit_total_ars
+  methodology: divide provider-consistent private-sector FX credit in ARS equivalent by total private-sector credit in ARS equivalent
+  methodology_status: implemented_v0_2
+  provenance: {model_prior_used: false, imf_2026_refs: [External sector / financial system discussion]}

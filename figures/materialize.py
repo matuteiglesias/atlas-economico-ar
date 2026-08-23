@@ -32,7 +32,7 @@ PLOT_INTENT_PATHS = (
     ROOT / "verticals/external_financial_constraint_vertical_v0_2/knowledge/plot_intents_v0_2.yaml",
 )
 ALLOWED_RENDERERS = {"timeseries_line", "timeseries_bar"}
-EXPECTED_ARTIFACTS = 35
+EXPECTED_ARTIFACTS = 41
 
 
 class MaterializationError(RuntimeError):
@@ -160,6 +160,9 @@ DISPLAY_UNITS: dict[str, tuple[str, float, str]] = {
     "percent": ("Change (%)", 1.0, "percent"),
     "percentage_points_change": ("Change in monthly inflation (pp)", 1.0, "percentage_points"),
     "percent_annualized": ("Annual rate (%)", 1.0, "percent"),
+    "percent_yoy_real": ("Real year-over-year (%)", 1.0, "percent"),
+    "percent_deposits": ("Share (%)", 1.0, "percent_share"),
+    "percent_loans": ("Share (%)", 1.0, "percent_share"),
     "index": ("Index", 1.0, "index"),
     "real_index_or_ars": ("Real index (Dec 2023=100)", 1.0, "real_index"),
     "real_ars_or_index": ("Real index (Dec 2023=100)", 1.0, "real_index"),
