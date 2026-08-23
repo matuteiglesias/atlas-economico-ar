@@ -24,3 +24,10 @@ jobs:
           name: bcra-frontier-scout
           path: frontier-scout/
           if-no-files-found: error
+      - name: Pack checkout for exact local inspection
+        run: tar --exclude=.git -czf /tmp/atlas-source.tgz .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: atlas-source-snapshot
+          path: /tmp/atlas-source.tgz
+          if-no-files-found: error
