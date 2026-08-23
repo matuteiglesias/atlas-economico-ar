@@ -30,6 +30,7 @@ figure-qa-pack:
 
 materialize-plots:
 	SOURCE_DATE_EPOCH=$(SOURCE_DATE_EPOCH) $(PYTHON) figures/materialize.py
+	$(PYTHON) figures/materialize_embed.py
 
 compile-publication:
 	$(PYTHON) scripts/build-publication.py --output site-data
