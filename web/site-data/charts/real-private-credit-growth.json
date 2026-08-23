@@ -134,12 +134,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ef53",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/foreign-currency-shares-of-private-credit-and-deposits.png; plot-artifacts/svg/foreign-currency-shares-of-private-credit-and-deposits.svg. Truth PASS — both monthly shares use provider-consistent ARS-equivalent FX numerators and total-stock denominators on the same percent scale and common months. Usefulness DISTINCT — the asset/liability dollarization comparison adds information beyond either stock decomposition or deposit share alone. Publication PASS — two legible lines, one unit, one axis, and a five-year frame. Terminal state APPROVED."
         },
         "source": {
           "provider": "multiple",
@@ -193,7 +194,8 @@
             },
             "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
           }
-        ]
+        ],
+        "qaNote": "Outputs inspected: plot-artifacts/png/foreign-currency-shares-of-private-credit-and-deposits.png; plot-artifacts/svg/foreign-currency-shares-of-private-credit-and-deposits.svg. Truth PASS — both monthly shares use provider-consistent ARS-equivalent FX numerators and total-stock denominators on the same percent scale and common months. Usefulness DISTINCT — the asset/liability dollarization comparison adds information beyond either stock decomposition or deposit share alone. Publication PASS — two legible lines, one unit, one axis, and a five-year frame. Terminal state APPROVED."
       }
     }
   ],

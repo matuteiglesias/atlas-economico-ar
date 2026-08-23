@@ -4,6 +4,8 @@
   "slug": "are-interest-rates-restrictive-in-real-terms",
   "title": "Are interest rates restrictive in real terms?",
   "href": "/questions/are-interest-rates-restrictive-in-real-terms",
+  "dek": "Compare the nominal TAMAR rate with its ex-post real counterpart before interpreting current rate conditions.",
+  "intro": "The current public evidence compares the TAMAR nominal annual rate with an ex-post real rate constructed using realized inflation. Reading the two together separates the observed nominal return from its realized inflation-adjusted counterpart; the pair is not a complete estimate of expected real policy stance.",
   "questionFamily": "policy_stance",
   "region": {
     "id": "nominal_stabilization",
@@ -283,8 +285,8 @@
         "pi.ns61",
         "pi.ns62"
       ],
-      "hasDek": false,
-      "hasIntro": false,
+      "hasDek": true,
+      "hasIntro": true,
       "metadataOnly": false
     },
     "distinctness": {

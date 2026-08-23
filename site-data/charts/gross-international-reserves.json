@@ -154,12 +154,13 @@
     },
     "disposition": {
       "plotIntentId": "pi.ef46",
-      "state": "UNREVIEWED",
-      "source": "legacy_default_publish",
-      "reviewed": false,
+      "state": "APPROVED",
+      "source": "curation_review",
+      "reviewed": true,
       "addressable": true,
       "prominent": true,
-      "primaryEvidence": true
+      "primaryEvidence": true,
+      "note": "Outputs inspected: plot-artifacts/png/gross-international-reserves.png; plot-artifacts/svg/gross-international-reserves.svg. Truth PASS — fresh daily BCRA gross-reserve stock in USD billions, with no net-reserve or flow claim. Usefulness DISTINCT — this is the direct headline reserve-stock view; broader adequacy still requires NIR/liquid-buffer evidence. Publication PASS — clean five-year single-axis line with readable units and source context. Terminal state APPROVED."
     },
     "source": {
       "provider": "bcra_monetarias_v4",
@@ -182,6 +183,7 @@
         },
         "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
       }
-    ]
+    ],
+    "qaNote": "Outputs inspected: plot-artifacts/png/gross-international-reserves.png; plot-artifacts/svg/gross-international-reserves.svg. Truth PASS — fresh daily BCRA gross-reserve stock in USD billions, with no net-reserve or flow claim. Usefulness DISTINCT — this is the direct headline reserve-stock view; broader adequacy still requires NIR/liquid-buffer evidence. Publication PASS — clean five-year single-axis line with readable units and source context. Terminal state APPROVED."
   }
 }

@@ -4,6 +4,8 @@
   "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
   "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
   "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+  "dek": "Read real money balances alongside inflation and the monetary base rather than treating a larger nominal peso stock as successful remonetization.",
+  "intro": "This page compares real private transactional M2 with monthly inflation and places the real monetary base beside real transactional M2. Together the charts keep the recovery of real money balances, the monetary base, and inflation distinct; they do not identify a causal threshold at which monetary expansion would reignite inflation.",
   "questionFamily": "policy_tradeoff",
   "region": {
     "id": "nominal_stabilization",
@@ -484,8 +486,8 @@
         "pi.ns39",
         "pi.ns41"
       ],
-      "hasDek": false,
-      "hasIntro": false,
+      "hasDek": true,
+      "hasIntro": true,
       "metadataOnly": false
     },
     "distinctness": {

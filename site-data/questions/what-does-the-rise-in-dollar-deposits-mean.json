@@ -199,68 +199,6 @@
       }
     },
     {
-      "id": "pi.ef50",
-      "kind": "chart",
-      "slug": "foreign-currency-deposits",
-      "title": "Foreign-currency deposits",
-      "href": "/charts/foreign-currency-deposits",
-      "artifact": {
-        "chartSpecId": "cs.bcra2.fx_deposits",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-11",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/foreign-currency-deposits.svg",
-        "png": "/plots/foreign-currency-deposits.png",
-        "altText": "Foreign-currency deposits. Foreign-currency deposits. Last 5 years. Data through 2026-08-11.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.fx_deposits_usd"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.fx_deposits_private_sector"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef50",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "bcra_monetarias_v4",
-          "providerSeriesId": "108",
-          "sourceUnit": "Millons USD",
-          "normalization": {
-            "kind": "scale",
-            "factor": 0.001
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.fx_deposits_private_sector",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "108",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 0.001
-            },
-            "snapshotSha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
-          }
-        ]
-      }
-    },
-    {
       "id": "pi.ef53",
       "kind": "chart",
       "slug": "foreign-currency-shares-of-private-credit-and-deposits",
@@ -298,12 +236,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ef53",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/foreign-currency-shares-of-private-credit-and-deposits.png; plot-artifacts/svg/foreign-currency-shares-of-private-credit-and-deposits.svg. Truth PASS — both monthly shares use provider-consistent ARS-equivalent FX numerators and total-stock denominators on the same percent scale and common months. Usefulness DISTINCT — the asset/liability dollarization comparison adds information beyond either stock decomposition or deposit share alone. Publication PASS — two legible lines, one unit, one axis, and a five-year frame. Terminal state APPROVED."
         },
         "source": {
           "provider": "multiple",
@@ -357,7 +296,8 @@
             },
             "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
           }
-        ]
+        ],
+        "qaNote": "Outputs inspected: plot-artifacts/png/foreign-currency-shares-of-private-credit-and-deposits.png; plot-artifacts/svg/foreign-currency-shares-of-private-credit-and-deposits.svg. Truth PASS — both monthly shares use provider-consistent ARS-equivalent FX numerators and total-stock denominators on the same percent scale and common months. Usefulness DISTINCT — the asset/liability dollarization comparison adds information beyond either stock decomposition or deposit share alone. Publication PASS — two legible lines, one unit, one axis, and a five-year frame. Terminal state APPROVED."
       }
     }
   ],
@@ -387,69 +327,6 @@
       "distance": 1
     },
     {
-      "id": "pi.ef50",
-      "kind": "chart",
-      "slug": "foreign-currency-deposits",
-      "title": "Foreign-currency deposits",
-      "href": "/charts/foreign-currency-deposits",
-      "distance": 1,
-      "artifact": {
-        "chartSpecId": "cs.bcra2.fx_deposits",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-11",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/foreign-currency-deposits.svg",
-        "png": "/plots/foreign-currency-deposits.png",
-        "altText": "Foreign-currency deposits. Foreign-currency deposits. Last 5 years. Data through 2026-08-11.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.fx_deposits_usd"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.fx_deposits_private_sector"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef50",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "bcra_monetarias_v4",
-          "providerSeriesId": "108",
-          "sourceUnit": "Millons USD",
-          "normalization": {
-            "kind": "scale",
-            "factor": 0.001
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.fx_deposits_private_sector",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "108",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 0.001
-            },
-            "snapshotSha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
-          }
-        ]
-      }
-    },
-    {
       "id": "pi.ef53",
       "kind": "chart",
       "slug": "foreign-currency-shares-of-private-credit-and-deposits",
@@ -488,12 +365,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ef53",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/foreign-currency-shares-of-private-credit-and-deposits.png; plot-artifacts/svg/foreign-currency-shares-of-private-credit-and-deposits.svg. Truth PASS — both monthly shares use provider-consistent ARS-equivalent FX numerators and total-stock denominators on the same percent scale and common months. Usefulness DISTINCT — the asset/liability dollarization comparison adds information beyond either stock decomposition or deposit share alone. Publication PASS — two legible lines, one unit, one axis, and a five-year frame. Terminal state APPROVED."
         },
         "source": {
           "provider": "multiple",
@@ -547,7 +425,8 @@
             },
             "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
           }
-        ]
+        ],
+        "qaNote": "Outputs inspected: plot-artifacts/png/foreign-currency-shares-of-private-credit-and-deposits.png; plot-artifacts/svg/foreign-currency-shares-of-private-credit-and-deposits.svg. Truth PASS — both monthly shares use provider-consistent ARS-equivalent FX numerators and total-stock denominators on the same percent scale and common months. Usefulness DISTINCT — the asset/liability dollarization comparison adds information beyond either stock decomposition or deposit share alone. Publication PASS — two legible lines, one unit, one axis, and a five-year frame. Terminal state APPROVED."
       }
     },
     {
@@ -644,7 +523,7 @@
   "counts": {
     "topics": 3,
     "indicators": 8,
-    "charts": 3
+    "charts": 2
   },
   "publication": {
     "state": "PUBLIC",
@@ -653,12 +532,12 @@
       "linkedPlotIntents": 6,
       "linkedIndicators": 8,
       "materializedPlotArtifacts": 4,
-      "primaryEvidencePlotArtifacts": 3,
-      "prominentPlotArtifacts": 3,
+      "primaryEvidencePlotArtifacts": 2,
+      "prominentPlotArtifacts": 2,
       "quarantinedPlotArtifacts": 0,
       "historicalPlotArtifacts": 0,
       "referencePlotArtifacts": 1,
-      "supersededPlotArtifacts": 0,
+      "supersededPlotArtifacts": 1,
       "materializedPlotIntentIds": [
         "pi.ef33",
         "pi.ef50",
@@ -667,12 +546,10 @@
       ],
       "primaryEvidencePlotIntentIds": [
         "pi.ef33",
-        "pi.ef50",
         "pi.ef53"
       ],
       "prominentPlotIntentIds": [
         "pi.ef33",
-        "pi.ef50",
         "pi.ef53"
       ],
       "hasDek": true,
@@ -699,7 +576,6 @@
         ],
         "primaryEvidencePlotIntentIds": [
           "pi.ef33",
-          "pi.ef50",
           "pi.ef53"
         ]
       },

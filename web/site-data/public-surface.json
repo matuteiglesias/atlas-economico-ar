@@ -30,7 +30,7 @@
     "topic": 55,
     "question": 15,
     "indicator": 90,
-    "chart": 27
+    "chart": 22
   },
   "activationBlockedCounts": {
     "region": 0,
@@ -43,7 +43,7 @@
     "semantic": 119,
     "materialized": 41,
     "addressable": 41,
-    "discoverable": 27
+    "discoverable": 22
   },
   "staticRoutes": [
     "/",
@@ -2650,13 +2650,6 @@
       "href": "/charts/bcra-daily-fx-purchases"
     },
     {
-      "id": "pi.ns25",
-      "kind": "chart",
-      "slug": "bcra-purchases-vs-official-exchange-rate",
-      "title": "BCRA purchases vs official exchange rate",
-      "href": "/charts/bcra-purchases-vs-official-exchange-rate"
-    },
-    {
       "id": "pi.ns57",
       "kind": "chart",
       "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
@@ -2669,13 +2662,6 @@
       "slug": "disinflation-since-december-2023",
       "title": "Disinflation since December 2023",
       "href": "/charts/disinflation-since-december-2023"
-    },
-    {
-      "id": "pi.ef50",
-      "kind": "chart",
-      "slug": "foreign-currency-deposits",
-      "title": "Foreign-currency deposits",
-      "href": "/charts/foreign-currency-deposits"
     },
     {
       "id": "pi.ef53",
@@ -2704,13 +2690,6 @@
       "slug": "gross-international-reserves",
       "title": "Gross international reserves",
       "href": "/charts/gross-international-reserves"
-    },
-    {
-      "id": "pi.ns03",
-      "kind": "chart",
-      "slug": "headline-inflation-monthly-vs-year-over-year",
-      "title": "Headline inflation: monthly vs year-over-year",
-      "href": "/charts/headline-inflation-monthly-vs-year-over-year"
     },
     {
       "id": "pi.ns01",
@@ -2762,13 +2741,6 @@
       "href": "/charts/monthly-inflation-and-acceleration"
     },
     {
-      "id": "pi.ns09",
-      "kind": "chart",
-      "slug": "official-fx-change-vs-monthly-inflation",
-      "title": "Official FX change vs monthly inflation",
-      "href": "/charts/official-fx-change-vs-monthly-inflation"
-    },
-    {
       "id": "pi.ns55",
       "kind": "chart",
       "slug": "official-wholesale-exchange-rate",
@@ -2795,13 +2767,6 @@
       "slug": "remonetization-vs-inflation",
       "title": "Remonetization vs inflation",
       "href": "/charts/remonetization-vs-inflation"
-    },
-    {
-      "id": "pi.ef48",
-      "kind": "chart",
-      "slug": "reserve-accumulation-year-to-date",
-      "title": "Reserve accumulation year to date",
-      "href": "/charts/reserve-accumulation-year-to-date"
     },
     {
       "id": "pi.ns62",
@@ -5400,7 +5365,7 @@
       "regionActivated": true,
       "activationBlocked": false,
       "materialized": true,
-      "dispositionState": "UNREVIEWED"
+      "dispositionState": "APPROVED"
     },
     {
       "id": "pi.ef49",
@@ -5514,13 +5479,13 @@
       "title": "BCRA purchases vs official exchange rate",
       "href": "/charts/bcra-purchases-vs-official-exchange-rate",
       "addressable": true,
-      "discoverable": true,
-      "prominent": true,
+      "discoverable": false,
+      "prominent": false,
       "owningRegionId": "nominal_stabilization",
       "regionActivated": true,
       "activationBlocked": false,
       "materialized": true,
-      "dispositionState": "UNREVIEWED"
+      "dispositionState": "REFERENCE"
     },
     {
       "id": "pi.ef13",
@@ -5670,7 +5635,7 @@
       "regionActivated": true,
       "activationBlocked": false,
       "materialized": true,
-      "dispositionState": "UNREVIEWED"
+      "dispositionState": "APPROVED"
     },
     {
       "id": "pi.ef39",
@@ -5859,13 +5824,13 @@
       "title": "Foreign-currency deposits",
       "href": "/charts/foreign-currency-deposits",
       "addressable": true,
-      "discoverable": true,
-      "prominent": true,
+      "discoverable": false,
+      "prominent": false,
       "owningRegionId": "external_financial_constraint",
       "regionActivated": true,
       "activationBlocked": false,
       "materialized": true,
-      "dispositionState": "UNREVIEWED"
+      "dispositionState": "SUPERSEDED"
     },
     {
       "id": "pi.ef53",
@@ -5880,7 +5845,7 @@
       "regionActivated": true,
       "activationBlocked": false,
       "materialized": true,
-      "dispositionState": "UNREVIEWED"
+      "dispositionState": "APPROVED"
     },
     {
       "id": "pi.ef22",
@@ -6045,7 +6010,7 @@
       "regionActivated": true,
       "activationBlocked": false,
       "materialized": true,
-      "dispositionState": "UNREVIEWED"
+      "dispositionState": "APPROVED"
     },
     {
       "id": "pi.ef21",
@@ -6084,13 +6049,13 @@
       "title": "Headline inflation: monthly vs year-over-year",
       "href": "/charts/headline-inflation-monthly-vs-year-over-year",
       "addressable": true,
-      "discoverable": true,
-      "prominent": true,
+      "discoverable": false,
+      "prominent": false,
       "owningRegionId": "nominal_stabilization",
       "regionActivated": true,
       "activationBlocked": false,
       "materialized": true,
-      "dispositionState": "UNREVIEWED"
+      "dispositionState": "REFERENCE"
     },
     {
       "id": "pi.ns05",
@@ -6150,7 +6115,7 @@
       "regionActivated": true,
       "activationBlocked": false,
       "materialized": true,
-      "dispositionState": "UNREVIEWED"
+      "dispositionState": "APPROVED"
     },
     {
       "id": "pi.ns12",
@@ -6330,7 +6295,7 @@
       "regionActivated": true,
       "activationBlocked": false,
       "materialized": true,
-      "dispositionState": "UNREVIEWED"
+      "dispositionState": "APPROVED"
     },
     {
       "id": "pi.ns53",
@@ -6534,13 +6499,13 @@
       "title": "Official FX change vs monthly inflation",
       "href": "/charts/official-fx-change-vs-monthly-inflation",
       "addressable": true,
-      "discoverable": true,
-      "prominent": true,
+      "discoverable": false,
+      "prominent": false,
       "owningRegionId": "nominal_stabilization",
       "regionActivated": true,
       "activationBlocked": false,
       "materialized": true,
-      "dispositionState": "UNREVIEWED"
+      "dispositionState": "QUARANTINE"
     },
     {
       "id": "pi.ns55",
@@ -6795,7 +6760,7 @@
       "regionActivated": true,
       "activationBlocked": false,
       "materialized": true,
-      "dispositionState": "UNREVIEWED"
+      "dispositionState": "APPROVED"
     },
     {
       "id": "pi.ef30",
@@ -6924,13 +6889,13 @@
       "title": "Reserve accumulation year to date",
       "href": "/charts/reserve-accumulation-year-to-date",
       "addressable": true,
-      "discoverable": true,
-      "prominent": true,
+      "discoverable": false,
+      "prominent": false,
       "owningRegionId": "external_financial_constraint",
       "regionActivated": true,
       "activationBlocked": false,
       "materialized": true,
-      "dispositionState": "UNREVIEWED"
+      "dispositionState": "REFERENCE"
     },
     {
       "id": "pi.ef02",

@@ -36,79 +36,6 @@
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
   "charts": [
     {
-      "id": "pi.ns03",
-      "kind": "chart",
-      "slug": "headline-inflation-monthly-vs-year-over-year",
-      "title": "Headline inflation: monthly vs year-over-year",
-      "href": "/charts/headline-inflation-monthly-vs-year-over-year",
-      "artifact": {
-        "chartSpecId": "cs.bcra2.inflation_monthly_yoy",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-07-31",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/headline-inflation-monthly-vs-year-over-year.svg",
-        "png": "/plots/headline-inflation-monthly-vs-year-over-year.png",
-        "altText": "Headline inflation: monthly vs year-over-year. Monthly headline CPI inflation; Headline CPI inflation, year-over-year. Last 5 years. Data through 2026-07-31.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.cpi_monthly",
-          "ci.ns.cpi_yoy"
-        ],
-        "seriesIds": [
-          "series.ar.datosgob.ipc_headline_mom_national",
-          "series.ar.bcra.cpi_yoy"
-        ],
-        "snapshotSha256": {
-          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
-          "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns03",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
-            "provider": "datos_argentina",
-            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
-            "sourceUnit": "Variación intermensual",
-            "normalization": {
-              "kind": "scale",
-              "factor": 100
-            },
-            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-          },
-          {
-            "seriesId": "series.ar.bcra.cpi_yoy",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "28",
-            "sourceUnit": "In percentage",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
-          }
-        ]
-      }
-    },
-    {
       "id": "pi.ns04",
       "kind": "chart",
       "slug": "disinflation-since-december-2023",
@@ -142,12 +69,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns04",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/disinflation-since-december-2023.png; plot-artifacts/svg/disinflation-since-december-2023.svg. Truth PASS — both headline CPI measures are monthly, current through Jul 2026, and the Dec-2023 frame matches the stabilization question. Usefulness DISTINCT — the focused window shows the disinflation path, pauses, and recent monthly behavior more directly than the five-year context view. Publication PASS — dual axes are explicitly labeled and the large initial monthly/annual rates are substantively part of the path rather than decorative scale inflation. Terminal state APPROVED."
         },
         "source": {
           "provider": "multiple",
@@ -178,7 +106,8 @@
             },
             "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
           }
-        ]
+        ],
+        "qaNote": "Outputs inspected: plot-artifacts/png/disinflation-since-december-2023.png; plot-artifacts/svg/disinflation-since-december-2023.svg. Truth PASS — both headline CPI measures are monthly, current through Jul 2026, and the Dec-2023 frame matches the stabilization question. Usefulness DISTINCT — the focused window shows the disinflation path, pauses, and recent monthly behavior more directly than the five-year context view. Publication PASS — dual axes are explicitly labeled and the large initial monthly/annual rates are substantively part of the path rather than decorative scale inflation. Terminal state APPROVED."
       }
     }
   ],
@@ -228,12 +157,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns04",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/disinflation-since-december-2023.png; plot-artifacts/svg/disinflation-since-december-2023.svg. Truth PASS — both headline CPI measures are monthly, current through Jul 2026, and the Dec-2023 frame matches the stabilization question. Usefulness DISTINCT — the focused window shows the disinflation path, pauses, and recent monthly behavior more directly than the five-year context view. Publication PASS — dual axes are explicitly labeled and the large initial monthly/annual rates are substantively part of the path rather than decorative scale inflation. Terminal state APPROVED."
         },
         "source": {
           "provider": "multiple",
@@ -264,81 +194,8 @@
             },
             "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
           }
-        ]
-      }
-    },
-    {
-      "id": "pi.ns03",
-      "kind": "chart",
-      "slug": "headline-inflation-monthly-vs-year-over-year",
-      "title": "Headline inflation: monthly vs year-over-year",
-      "href": "/charts/headline-inflation-monthly-vs-year-over-year",
-      "distance": 1,
-      "artifact": {
-        "chartSpecId": "cs.bcra2.inflation_monthly_yoy",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-07-31",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/headline-inflation-monthly-vs-year-over-year.svg",
-        "png": "/plots/headline-inflation-monthly-vs-year-over-year.png",
-        "altText": "Headline inflation: monthly vs year-over-year. Monthly headline CPI inflation; Headline CPI inflation, year-over-year. Last 5 years. Data through 2026-07-31.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.cpi_monthly",
-          "ci.ns.cpi_yoy"
         ],
-        "seriesIds": [
-          "series.ar.datosgob.ipc_headline_mom_national",
-          "series.ar.bcra.cpi_yoy"
-        ],
-        "snapshotSha256": {
-          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
-          "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns03",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
-            "provider": "datos_argentina",
-            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
-            "sourceUnit": "Variación intermensual",
-            "normalization": {
-              "kind": "scale",
-              "factor": 100
-            },
-            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-          },
-          {
-            "seriesId": "series.ar.bcra.cpi_yoy",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "28",
-            "sourceUnit": "In percentage",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
-          }
-        ]
+        "qaNote": "Outputs inspected: plot-artifacts/png/disinflation-since-december-2023.png; plot-artifacts/svg/disinflation-since-december-2023.svg. Truth PASS — both headline CPI measures are monthly, current through Jul 2026, and the Dec-2023 frame matches the stabilization question. Usefulness DISTINCT — the focused window shows the disinflation path, pauses, and recent monthly behavior more directly than the five-year context view. Publication PASS — dual axes are explicitly labeled and the large initial monthly/annual rates are substantively part of the path rather than decorative scale inflation. Terminal state APPROVED."
       }
     },
     {
@@ -359,7 +216,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 1,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

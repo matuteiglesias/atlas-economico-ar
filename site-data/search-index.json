@@ -15,7 +15,7 @@
     "title": "Nominal Stabilization",
     "href": "/areas/nominal-stabilization",
     "regionId": "nominal_stabilization",
-    "text": "Nominal Stabilization How prices, exchange rates, monetary conditions, and expectations interact during Argentina's stabilization process."
+    "text": "Nominal Stabilization How prices, exchange rates, monetary conditions, and expectations interact during Argentina's stabilization process. Nominal stabilization is tracked here through several connected but distinct margins — inflation momentum, the exchange rate and BCRA FX operations, real interest-rate conditions, and the recovery of peso money demand. The active public questions and charts let readers compare those margins without treating any single indicator as a complete measure of stabilization."
   },
   {
     "id": "ns.inflation",
@@ -519,7 +519,7 @@
     "title": "How fast is inflation running now, and is it accelerating or decelerating?",
     "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
     "regionId": "nominal_stabilization",
-    "text": "How fast is inflation running now, and is it accelerating or decelerating? direction_change"
+    "text": "How fast is inflation running now, and is it accelerating or decelerating? Separate the current monthly inflation rate from recent momentum and longer-horizon inflation before judging whether the price process is speeding up or slowing down. This page compares monthly headline CPI with three-month annualized momentum, year-over-year inflation, and the month-to-month change in inflation. Reading the horizons together separates the current pace from recent direction and from the slower-moving year-over-year measure. direction_change"
   },
   {
     "id": "q.ns02",
@@ -537,7 +537,7 @@
     "title": "How much do exchange-rate movements pass through to domestic prices?",
     "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
     "regionId": "nominal_stabilization",
-    "text": "How much do exchange-rate movements pass through to domestic prices? mechanism"
+    "text": "How much do exchange-rate movements pass through to domestic prices? Compare official exchange-rate changes with monthly inflation without treating co-movement as a measured pass-through coefficient. The Atlas places monthly changes in the official exchange rate beside monthly headline inflation over a recent window and over the period since December 2023. The comparison is useful for timing and co-movement; it does not by itself identify how much of an inflation move was caused by the exchange rate. mechanism"
   },
   {
     "id": "q.ns08",
@@ -555,7 +555,7 @@
     "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
     "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
     "regionId": "nominal_stabilization",
-    "text": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions? policy_transmission"
+    "text": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions? Separate the daily flow of BCRA FX purchases from their cumulative scale and from exchange-rate or monetary outcomes. This page follows daily and cumulative BCRA FX purchases and places them beside the official exchange rate, with monetary-base and money-demand measures linked as broader policy context. Compare the timing and accumulation of purchases with exchange-rate movements without assuming that intervention alone determines the monetary or FX outcome. policy_transmission"
   },
   {
     "id": "q.ns12",
@@ -564,7 +564,7 @@
     "title": "Are interest rates restrictive in real terms?",
     "href": "/questions/are-interest-rates-restrictive-in-real-terms",
     "regionId": "nominal_stabilization",
-    "text": "Are interest rates restrictive in real terms? policy_stance"
+    "text": "Are interest rates restrictive in real terms? Compare the nominal TAMAR rate with its ex-post real counterpart before interpreting current rate conditions. The current public evidence compares the TAMAR nominal annual rate with an ex-post real rate constructed using realized inflation. Reading the two together separates the observed nominal return from its realized inflation-adjusted counterpart; the pair is not a complete estimate of expected real policy stance. policy_stance"
   },
   {
     "id": "q.ns13",
@@ -582,7 +582,7 @@
     "title": "Is domestic money demand recovering?",
     "href": "/questions/is-domestic-money-demand-recovering",
     "regionId": "nominal_stabilization",
-    "text": "Is domestic money demand recovering? monetization"
+    "text": "Is domestic money demand recovering? Distinguish genuine recovery in real peso balances from nominal monetary growth that can reflect the price level. The prominent evidence follows the real monetary base and compares nominal with real private transactional M2 since December 2023. Those views separate growth in peso-denominated stocks from inflation-adjusted balances, so nominal expansion is not mistaken for deeper monetization. monetization"
   },
   {
     "id": "q.ns16",
@@ -591,7 +591,7 @@
     "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
     "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
     "regionId": "nominal_stabilization",
-    "text": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation? policy_tradeoff"
+    "text": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation? Read real money balances alongside inflation and the monetary base rather than treating a larger nominal peso stock as successful remonetization. This page compares real private transactional M2 with monthly inflation and places the real monetary base beside real transactional M2. Together the charts keep the recovery of real money balances, the monetary base, and inflation distinct; they do not identify a causal threshold at which monetary expansion would reignite inflation. policy_tradeoff"
   },
   {
     "id": "q.ns17",
@@ -600,7 +600,7 @@
     "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
     "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
     "regionId": "nominal_stabilization",
-    "text": "Is monetary-base growth consistent with the monetary-targeting framework? program_consistency"
+    "text": "Is monetary-base growth consistent with the monetary-targeting framework? Judge monetary-base growth together with real money-demand proxies and inflation rather than from the nominal base alone. The public evidence is a compact monetization dashboard combining the real monetary base, real private transactional M2, and monthly inflation since December 2023. It places the operational aggregate beside a private money-demand proxy and inflation, but it is not a direct test against an explicit numerical policy target. program_consistency"
   },
   {
     "id": "q.ef01",
@@ -1467,15 +1467,6 @@
     "text": "Inflation momentum: monthly and 3-month annualized Show whether current inflation momentum is accelerating or decelerating. Show whether current inflation momentum is accelerating or decelerating."
   },
   {
-    "id": "pi.ns03",
-    "kind": "chart",
-    "slug": "headline-inflation-monthly-vs-year-over-year",
-    "title": "Headline inflation: monthly vs year-over-year",
-    "href": "/charts/headline-inflation-monthly-vs-year-over-year",
-    "regionId": "nominal_stabilization",
-    "text": "Headline inflation: monthly vs year-over-year Separate current pace from legacy annual inflation. Separate current pace from legacy annual inflation."
-  },
-  {
     "id": "pi.ns04",
     "kind": "chart",
     "slug": "disinflation-since-december-2023",
@@ -1485,15 +1476,6 @@
     "text": "Disinflation since December 2023 Show the stabilization path and recent stalls. Show the stabilization path and recent stalls."
   },
   {
-    "id": "pi.ns09",
-    "kind": "chart",
-    "slug": "official-fx-change-vs-monthly-inflation",
-    "title": "Official FX change vs monthly inflation",
-    "href": "/charts/official-fx-change-vs-monthly-inflation",
-    "regionId": "nominal_stabilization",
-    "text": "Official FX change vs monthly inflation Visually inspect short-run co-movement without claiming causality. Visually inspect short-run co-movement without claiming causality."
-  },
-  {
     "id": "pi.ns23",
     "kind": "chart",
     "slug": "bcra-daily-fx-purchases",
@@ -1501,15 +1483,6 @@
     "href": "/charts/bcra-daily-fx-purchases",
     "regionId": "nominal_stabilization",
     "text": "BCRA daily FX purchases Show daily intervention/purchase intensity. Show daily intervention/purchase intensity."
-  },
-  {
-    "id": "pi.ns25",
-    "kind": "chart",
-    "slug": "bcra-purchases-vs-official-exchange-rate",
-    "title": "BCRA purchases vs official exchange rate",
-    "href": "/charts/bcra-purchases-vs-official-exchange-rate",
-    "regionId": "nominal_stabilization",
-    "text": "BCRA purchases vs official exchange rate Inspect coexistence of purchases and FX stability/appreciation. Inspect coexistence of purchases and FX stability/appreciation."
   },
   {
     "id": "pi.ns35",
@@ -1672,24 +1645,6 @@
     "href": "/charts/monthly-change-in-gross-reserves",
     "regionId": "external_financial_constraint",
     "text": "Monthly change in gross reserves Show month-end changes in the gross international-reserve stock. Show month-end changes in the gross international-reserve stock."
-  },
-  {
-    "id": "pi.ef48",
-    "kind": "chart",
-    "slug": "reserve-accumulation-year-to-date",
-    "title": "Reserve accumulation year to date",
-    "href": "/charts/reserve-accumulation-year-to-date",
-    "regionId": "external_financial_constraint",
-    "text": "Reserve accumulation year to date Measure the current reserve stock against the final available observation of the prior calendar year. Measure the current reserve stock against the final available observation of the prior calendar year."
-  },
-  {
-    "id": "pi.ef50",
-    "kind": "chart",
-    "slug": "foreign-currency-deposits",
-    "title": "Foreign-currency deposits",
-    "href": "/charts/foreign-currency-deposits",
-    "regionId": "external_financial_constraint",
-    "text": "Foreign-currency deposits Track the private-sector foreign-currency deposit stock directly in USD billions; the deposit share remains a separate unresolved measurement. Track the private-sector foreign-currency deposit stock directly in USD billions; the deposit share remains a separate unresolved measurement."
   },
   {
     "id": "pi.ef53",

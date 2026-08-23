@@ -1,16 +1,6 @@
 {
   "entities": [
     {
-      "id": "nominal_stabilization",
-      "kind": "region",
-      "slug": "nominal-stabilization",
-      "title": "Nominal Stabilization",
-      "href": "/areas/nominal-stabilization",
-      "missing": [
-        "intro"
-      ]
-    },
-    {
       "id": "ns.inflation",
       "kind": "topic",
       "slug": "inflation",
@@ -461,17 +451,6 @@
       ]
     },
     {
-      "id": "q.ns01",
-      "kind": "question",
-      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
-      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
-      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
-      "missing": [
-        "dek",
-        "intro"
-      ]
-    },
-    {
       "id": "q.ns02",
       "kind": "question",
       "slug": "has-the-disinflation-process-stalled-or-resumed",
@@ -500,17 +479,6 @@
       "title": "What is driving monthly inflation?",
       "href": "/questions/what-is-driving-monthly-inflation",
       "missing": [
-        "intro"
-      ]
-    },
-    {
-      "id": "q.ns05",
-      "kind": "question",
-      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
-      "title": "How much do exchange-rate movements pass through to domestic prices?",
-      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
-      "missing": [
-        "dek",
         "intro"
       ]
     },
@@ -570,28 +538,6 @@
       ]
     },
     {
-      "id": "q.ns11",
-      "kind": "question",
-      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
-      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
-      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
-      "missing": [
-        "dek",
-        "intro"
-      ]
-    },
-    {
-      "id": "q.ns12",
-      "kind": "question",
-      "slug": "are-interest-rates-restrictive-in-real-terms",
-      "title": "Are interest rates restrictive in real terms?",
-      "href": "/questions/are-interest-rates-restrictive-in-real-terms",
-      "missing": [
-        "dek",
-        "intro"
-      ]
-    },
-    {
       "id": "q.ns13",
       "kind": "question",
       "slug": "has-short-term-interest-rate-volatility-normalized",
@@ -608,39 +554,6 @@
       "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
       "title": "How tight are bank reserve requirements and liquidity conditions?",
       "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "missing": [
-        "dek",
-        "intro"
-      ]
-    },
-    {
-      "id": "q.ns15",
-      "kind": "question",
-      "slug": "is-domestic-money-demand-recovering",
-      "title": "Is domestic money demand recovering?",
-      "href": "/questions/is-domestic-money-demand-recovering",
-      "missing": [
-        "dek",
-        "intro"
-      ]
-    },
-    {
-      "id": "q.ns16",
-      "kind": "question",
-      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
-      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
-      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
-      "missing": [
-        "dek",
-        "intro"
-      ]
-    },
-    {
-      "id": "q.ns17",
-      "kind": "question",
-      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
-      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
-      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
       "missing": [
         "dek",
         "intro"
@@ -2558,5 +2471,5 @@
       ]
     }
   ],
-  "count": 245
+  "count": 237
 }

@@ -4,6 +4,8 @@
   "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
   "title": "How fast is inflation running now, and is it accelerating or decelerating?",
   "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+  "dek": "Separate the current monthly inflation rate from recent momentum and longer-horizon inflation before judging whether the price process is speeding up or slowing down.",
+  "intro": "This page compares monthly headline CPI with three-month annualized momentum, year-over-year inflation, and the month-to-month change in inflation. Reading the horizons together separates the current pace from recent direction and from the slower-moving year-over-year measure.",
   "questionFamily": "direction_change",
   "region": {
     "id": "nominal_stabilization",
@@ -104,12 +106,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns01",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png; plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg. Truth PASS — both measures are monthly CPI-based; the 3-month rate compounds contiguous monthly inflation and annualizes the three-month gross change. Usefulness DISTINCT — it separates current monthly pace from short-run annualized momentum over 18 months. Publication PASS — dual axes are explicitly labeled as monthly percent versus annual rate, so the scale difference is visible rather than concealed. Terminal state APPROVED."
         },
         "source": {
           "provider": "datos_argentina",
@@ -132,80 +135,8 @@
             },
             "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
           }
-        ]
-      }
-    },
-    {
-      "id": "pi.ns03",
-      "kind": "chart",
-      "slug": "headline-inflation-monthly-vs-year-over-year",
-      "title": "Headline inflation: monthly vs year-over-year",
-      "href": "/charts/headline-inflation-monthly-vs-year-over-year",
-      "artifact": {
-        "chartSpecId": "cs.bcra2.inflation_monthly_yoy",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-07-31",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/headline-inflation-monthly-vs-year-over-year.svg",
-        "png": "/plots/headline-inflation-monthly-vs-year-over-year.png",
-        "altText": "Headline inflation: monthly vs year-over-year. Monthly headline CPI inflation; Headline CPI inflation, year-over-year. Last 5 years. Data through 2026-07-31.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.cpi_monthly",
-          "ci.ns.cpi_yoy"
         ],
-        "seriesIds": [
-          "series.ar.datosgob.ipc_headline_mom_national",
-          "series.ar.bcra.cpi_yoy"
-        ],
-        "snapshotSha256": {
-          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
-          "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns03",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
-            "provider": "datos_argentina",
-            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
-            "sourceUnit": "Variación intermensual",
-            "normalization": {
-              "kind": "scale",
-              "factor": 100
-            },
-            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-          },
-          {
-            "seriesId": "series.ar.bcra.cpi_yoy",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "28",
-            "sourceUnit": "In percentage",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
-          }
-        ]
+        "qaNote": "Outputs inspected: plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png; plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg. Truth PASS — both measures are monthly CPI-based; the 3-month rate compounds contiguous monthly inflation and annualizes the three-month gross change. Usefulness DISTINCT — it separates current monthly pace from short-run annualized momentum over 18 months. Publication PASS — dual axes are explicitly labeled as monthly percent versus annual rate, so the scale difference is visible rather than concealed. Terminal state APPROVED."
       }
     },
     {
@@ -352,80 +283,6 @@
       "distance": 1
     },
     {
-      "id": "pi.ns03",
-      "kind": "chart",
-      "slug": "headline-inflation-monthly-vs-year-over-year",
-      "title": "Headline inflation: monthly vs year-over-year",
-      "href": "/charts/headline-inflation-monthly-vs-year-over-year",
-      "distance": 1,
-      "artifact": {
-        "chartSpecId": "cs.bcra2.inflation_monthly_yoy",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-07-31",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/headline-inflation-monthly-vs-year-over-year.svg",
-        "png": "/plots/headline-inflation-monthly-vs-year-over-year.png",
-        "altText": "Headline inflation: monthly vs year-over-year. Monthly headline CPI inflation; Headline CPI inflation, year-over-year. Last 5 years. Data through 2026-07-31.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.cpi_monthly",
-          "ci.ns.cpi_yoy"
-        ],
-        "seriesIds": [
-          "series.ar.datosgob.ipc_headline_mom_national",
-          "series.ar.bcra.cpi_yoy"
-        ],
-        "snapshotSha256": {
-          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
-          "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns03",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
-            "provider": "datos_argentina",
-            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
-            "sourceUnit": "Variación intermensual",
-            "normalization": {
-              "kind": "scale",
-              "factor": 100
-            },
-            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-          },
-          {
-            "seriesId": "series.ar.bcra.cpi_yoy",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "28",
-            "sourceUnit": "In percentage",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
-          }
-        ]
-      }
-    },
-    {
       "id": "pi.ns01",
       "kind": "chart",
       "slug": "inflation-momentum-monthly-and-3-month-annualized",
@@ -458,12 +315,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns01",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png; plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg. Truth PASS — both measures are monthly CPI-based; the 3-month rate compounds contiguous monthly inflation and annualizes the three-month gross change. Usefulness DISTINCT — it separates current monthly pace from short-run annualized momentum over 18 months. Publication PASS — dual axes are explicitly labeled as monthly percent versus annual rate, so the scale difference is visible rather than concealed. Terminal state APPROVED."
         },
         "source": {
           "provider": "datos_argentina",
@@ -486,7 +344,8 @@
             },
             "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
           }
-        ]
+        ],
+        "qaNote": "Outputs inspected: plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png; plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg. Truth PASS — both measures are monthly CPI-based; the 3-month rate compounds contiguous monthly inflation and annualizes the three-month gross change. Usefulness DISTINCT — it separates current monthly pace from short-run annualized momentum over 18 months. Publication PASS — dual axes are explicitly labeled as monthly percent versus annual rate, so the scale difference is visible rather than concealed. Terminal state APPROVED."
       }
     },
     {
@@ -620,7 +479,7 @@
   "counts": {
     "topics": 2,
     "indicators": 4,
-    "charts": 4
+    "charts": 3
   },
   "publication": {
     "state": "PUBLIC",
@@ -629,11 +488,11 @@
       "linkedPlotIntents": 5,
       "linkedIndicators": 4,
       "materializedPlotArtifacts": 4,
-      "primaryEvidencePlotArtifacts": 4,
-      "prominentPlotArtifacts": 4,
+      "primaryEvidencePlotArtifacts": 3,
+      "prominentPlotArtifacts": 3,
       "quarantinedPlotArtifacts": 0,
       "historicalPlotArtifacts": 0,
-      "referencePlotArtifacts": 0,
+      "referencePlotArtifacts": 1,
       "supersededPlotArtifacts": 0,
       "materializedPlotIntentIds": [
         "pi.ns01",
@@ -643,18 +502,16 @@
       ],
       "primaryEvidencePlotIntentIds": [
         "pi.ns01",
-        "pi.ns03",
         "pi.ns53",
         "pi.ns65"
       ],
       "prominentPlotIntentIds": [
         "pi.ns01",
-        "pi.ns03",
         "pi.ns53",
         "pi.ns65"
       ],
-      "hasDek": false,
-      "hasIntro": false,
+      "hasDek": true,
+      "hasIntro": true,
       "metadataOnly": false
     },
     "distinctness": {
@@ -672,7 +529,6 @@
         ],
         "primaryEvidencePlotIntentIds": [
           "pi.ns01",
-          "pi.ns03",
           "pi.ns53",
           "pi.ns65"
         ]

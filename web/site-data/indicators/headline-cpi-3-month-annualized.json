@@ -67,12 +67,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns01",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png; plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg. Truth PASS — both measures are monthly CPI-based; the 3-month rate compounds contiguous monthly inflation and annualizes the three-month gross change. Usefulness DISTINCT — it separates current monthly pace from short-run annualized momentum over 18 months. Publication PASS — dual axes are explicitly labeled as monthly percent versus annual rate, so the scale difference is visible rather than concealed. Terminal state APPROVED."
         },
         "source": {
           "provider": "datos_argentina",
@@ -95,7 +96,8 @@
             },
             "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
           }
-        ]
+        ],
+        "qaNote": "Outputs inspected: plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png; plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg. Truth PASS — both measures are monthly CPI-based; the 3-month rate compounds contiguous monthly inflation and annualizes the three-month gross change. Usefulness DISTINCT — it separates current monthly pace from short-run annualized momentum over 18 months. Publication PASS — dual axes are explicitly labeled as monthly percent versus annual rate, so the scale difference is visible rather than concealed. Terminal state APPROVED."
       }
     }
   ],
@@ -145,12 +147,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns01",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png; plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg. Truth PASS — both measures are monthly CPI-based; the 3-month rate compounds contiguous monthly inflation and annualizes the three-month gross change. Usefulness DISTINCT — it separates current monthly pace from short-run annualized momentum over 18 months. Publication PASS — dual axes are explicitly labeled as monthly percent versus annual rate, so the scale difference is visible rather than concealed. Terminal state APPROVED."
         },
         "source": {
           "provider": "datos_argentina",
@@ -173,7 +176,8 @@
             },
             "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
           }
-        ]
+        ],
+        "qaNote": "Outputs inspected: plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png; plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg. Truth PASS — both measures are monthly CPI-based; the 3-month rate compounds contiguous monthly inflation and annualizes the three-month gross change. Usefulness DISTINCT — it separates current monthly pace from short-run annualized momentum over 18 months. Publication PASS — dual axes are explicitly labeled as monthly percent versus annual rate, so the scale difference is visible rather than concealed. Terminal state APPROVED."
       }
     },
     {

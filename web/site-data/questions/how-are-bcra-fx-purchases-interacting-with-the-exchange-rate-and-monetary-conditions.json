@@ -4,6 +4,8 @@
   "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
   "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
   "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+  "dek": "Separate the daily flow of BCRA FX purchases from their cumulative scale and from exchange-rate or monetary outcomes.",
+  "intro": "This page follows daily and cumulative BCRA FX purchases and places them beside the official exchange rate, with monetary-base and money-demand measures linked as broader policy context. Compare the timing and accumulation of purchases with exchange-rate movements without assuming that intervention alone determines the monetary or FX outcome.",
   "questionFamily": "policy_transmission",
   "region": {
     "id": "nominal_stabilization",
@@ -117,12 +119,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns23",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/bcra-daily-fx-purchases.png; plot-artifacts/svg/bcra-daily-fx-purchases.svg. Truth PASS — the chart shows the registered BCRA FX-purchase reserve-variation factor as daily USD-million flows with a zero baseline and current Aug-2026 observations. Usefulness DISTINCT — raw daily intervention intensity is different evidence from cumulative program progress or exchange-rate coexistence. Publication PASS — the dense bars reflect genuine daily variation, not an encoding trick, and units/source are clear. Terminal state APPROVED."
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -145,80 +148,8 @@
             },
             "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
           }
-        ]
-      }
-    },
-    {
-      "id": "pi.ns25",
-      "kind": "chart",
-      "slug": "bcra-purchases-vs-official-exchange-rate",
-      "title": "BCRA purchases vs official exchange rate",
-      "href": "/charts/bcra-purchases-vs-official-exchange-rate",
-      "artifact": {
-        "chartSpecId": "cs.bcra.purchases_vs_fx",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-14",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/bcra-purchases-vs-official-exchange-rate.svg",
-        "png": "/plots/bcra-purchases-vs-official-exchange-rate.png",
-        "altText": "BCRA purchases vs official exchange rate. BCRA net FX purchases; Official ARS/USD exchange rate. Since Jan 2026. Data through 2026-08-14.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.bcra_fx_purchases_daily",
-          "ci.ns.official_fx"
         ],
-        "seriesIds": [
-          "series.ar.bcra.fx_purchases_reserve_factor",
-          "series.ar.bcra.wholesale_fx"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
-          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns25",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "78,5",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "78",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-          },
-          {
-            "seriesId": "series.ar.bcra.wholesale_fx",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "5",
-            "sourceUnit": "Exchange rate ars to usd",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
-          }
-        ]
+        "qaNote": "Outputs inspected: plot-artifacts/png/bcra-daily-fx-purchases.png; plot-artifacts/svg/bcra-daily-fx-purchases.svg. Truth PASS — the chart shows the registered BCRA FX-purchase reserve-variation factor as daily USD-million flows with a zero baseline and current Aug-2026 observations. Usefulness DISTINCT — raw daily intervention intensity is different evidence from cumulative program progress or exchange-rate coexistence. Publication PASS — the dense bars reflect genuine daily variation, not an encoding trick, and units/source are clear. Terminal state APPROVED."
       }
     },
     {
@@ -349,12 +280,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns23",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/bcra-daily-fx-purchases.png; plot-artifacts/svg/bcra-daily-fx-purchases.svg. Truth PASS — the chart shows the registered BCRA FX-purchase reserve-variation factor as daily USD-million flows with a zero baseline and current Aug-2026 observations. Usefulness DISTINCT — raw daily intervention intensity is different evidence from cumulative program progress or exchange-rate coexistence. Publication PASS — the dense bars reflect genuine daily variation, not an encoding trick, and units/source are clear. Terminal state APPROVED."
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -377,88 +309,15 @@
             },
             "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
           }
-        ]
-      }
-    },
-    {
-      "id": "pi.ns25",
-      "kind": "chart",
-      "slug": "bcra-purchases-vs-official-exchange-rate",
-      "title": "BCRA purchases vs official exchange rate",
-      "href": "/charts/bcra-purchases-vs-official-exchange-rate",
-      "distance": 1,
-      "artifact": {
-        "chartSpecId": "cs.bcra.purchases_vs_fx",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-14",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/bcra-purchases-vs-official-exchange-rate.svg",
-        "png": "/plots/bcra-purchases-vs-official-exchange-rate.png",
-        "altText": "BCRA purchases vs official exchange rate. BCRA net FX purchases; Official ARS/USD exchange rate. Since Jan 2026. Data through 2026-08-14.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.bcra_fx_purchases_daily",
-          "ci.ns.official_fx"
         ],
-        "seriesIds": [
-          "series.ar.bcra.fx_purchases_reserve_factor",
-          "series.ar.bcra.wholesale_fx"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
-          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns25",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "78,5",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "78",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-          },
-          {
-            "seriesId": "series.ar.bcra.wholesale_fx",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "5",
-            "sourceUnit": "Exchange rate ars to usd",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
-          }
-        ]
+        "qaNote": "Outputs inspected: plot-artifacts/png/bcra-daily-fx-purchases.png; plot-artifacts/svg/bcra-daily-fx-purchases.svg. Truth PASS — the chart shows the registered BCRA FX-purchase reserve-variation factor as daily USD-million flows with a zero baseline and current Aug-2026 observations. Usefulness DISTINCT — raw daily intervention intensity is different evidence from cumulative program progress or exchange-rate coexistence. Publication PASS — the dense bars reflect genuine daily variation, not an encoding trick, and units/source are clear. Terminal state APPROVED."
       }
     }
   ],
   "counts": {
     "topics": 4,
     "indicators": 4,
-    "charts": 3
+    "charts": 2
   },
   "publication": {
     "state": "PUBLIC",
@@ -467,11 +326,11 @@
       "linkedPlotIntents": 6,
       "linkedIndicators": 4,
       "materializedPlotArtifacts": 4,
-      "primaryEvidencePlotArtifacts": 3,
-      "prominentPlotArtifacts": 3,
+      "primaryEvidencePlotArtifacts": 2,
+      "prominentPlotArtifacts": 2,
       "quarantinedPlotArtifacts": 1,
       "historicalPlotArtifacts": 0,
-      "referencePlotArtifacts": 0,
+      "referencePlotArtifacts": 1,
       "supersededPlotArtifacts": 0,
       "materializedPlotIntentIds": [
         "pi.ns23",
@@ -481,16 +340,14 @@
       ],
       "primaryEvidencePlotIntentIds": [
         "pi.ns23",
-        "pi.ns25",
         "pi.ns57"
       ],
       "prominentPlotIntentIds": [
         "pi.ns23",
-        "pi.ns25",
         "pi.ns57"
       ],
-      "hasDek": false,
-      "hasIntro": false,
+      "hasDek": true,
+      "hasIntro": true,
       "metadataOnly": false
     },
     "distinctness": {
@@ -510,7 +367,6 @@
         ],
         "primaryEvidencePlotIntentIds": [
           "pi.ns23",
-          "pi.ns25",
           "pi.ns57"
         ]
       },

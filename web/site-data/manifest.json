@@ -18,7 +18,7 @@
     "nodes": 308,
     "edges": 674
   },
-  "editorialGaps": 245,
+  "editorialGaps": 237,
   "seriesBindingsRequired": 80,
   "publicationSchemaVersion": "0.2",
   "plotArtifacts": 41,
@@ -26,21 +26,21 @@
     "variant": "embed",
     "chromeOwner": "page"
   },
-  "prominentPlotArtifacts": 27,
-  "quarantinedPlotArtifacts": 5,
+  "prominentPlotArtifacts": 22,
+  "quarantinedPlotArtifacts": 6,
   "historicalPlotArtifacts": 3,
   "plotPublication": {
     "plotArtifactCount": 41,
-    "reviewedCount": 18,
-    "prominentCount": 27,
-    "primaryEvidenceCount": 27,
+    "reviewedCount": 30,
+    "prominentCount": 22,
+    "primaryEvidenceCount": 22,
     "stateCounts": {
-      "APPROVED": 4,
+      "APPROVED": 11,
       "HISTORICAL": 3,
-      "QUARANTINE": 5,
-      "REFERENCE": 3,
-      "SUPERSEDED": 3,
-      "UNREVIEWED": 23
+      "QUARANTINE": 6,
+      "REFERENCE": 6,
+      "SUPERSEDED": 4,
+      "UNREVIEWED": 11
     }
   },
   "questionPublication": {
@@ -71,7 +71,7 @@
       "topic": 55,
       "question": 15,
       "indicator": 90,
-      "chart": 27
+      "chart": 22
     },
     "activationBlockedCounts": {
       "region": 0,
@@ -84,7 +84,7 @@
       "semantic": 119,
       "materialized": 41,
       "addressable": 41,
-      "discoverable": 27
+      "discoverable": 22
     }
   }
 }

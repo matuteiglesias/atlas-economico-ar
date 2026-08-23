@@ -151,12 +151,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ef47",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/monthly-change-in-gross-reserves.png; plot-artifacts/svg/monthly-change-in-gross-reserves.svg. Truth PASS — implemented month-end gross-reserve differences are monthly USD-billion changes with a common observation rule. Usefulness DISTINCT — the bar view exposes reserve-stock volatility and sign changes without pretending to identify their causes. Publication PASS — zero baseline, single scale, and five-year window make gains and losses directly comparable. Terminal state APPROVED."
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -179,69 +180,8 @@
             },
             "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
           }
-        ]
-      }
-    },
-    {
-      "id": "pi.ef48",
-      "kind": "chart",
-      "slug": "reserve-accumulation-year-to-date",
-      "title": "Reserve accumulation year to date",
-      "href": "/charts/reserve-accumulation-year-to-date",
-      "artifact": {
-        "chartSpecId": "cs.bcra.reserve_ytd",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-12",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/reserve-accumulation-year-to-date.svg",
-        "png": "/plots/reserve-accumulation-year-to-date.png",
-        "altText": "Reserve accumulation year to date. Cumulative reserve accumulation YTD. Since Jan 2026. Data through 2026-08-12.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.reserve_accumulation_ytd"
         ],
-        "seriesIds": [
-          "series.ar.bcra.gross_international_reserves"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef48",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "bcra_monetarias_v4",
-          "providerSeriesId": "1",
-          "sourceUnit": "Millons USD",
-          "normalization": {
-            "kind": "scale",
-            "factor": 0.001
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.gross_international_reserves",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "1",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 0.001
-            },
-            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
-          }
-        ]
+        "qaNote": "Outputs inspected: plot-artifacts/png/monthly-change-in-gross-reserves.png; plot-artifacts/svg/monthly-change-in-gross-reserves.svg. Truth PASS — implemented month-end gross-reserve differences are monthly USD-billion changes with a common observation rule. Usefulness DISTINCT — the bar view exposes reserve-stock volatility and sign changes without pretending to identify their causes. Publication PASS — zero baseline, single scale, and five-year window make gains and losses directly comparable. Terminal state APPROVED."
       }
     }
   ],
@@ -275,6 +215,6 @@
     "connections": 5,
     "questions": 1,
     "indicators": 3,
-    "charts": 2
+    "charts": 1
   }
 }

@@ -3103,8 +3103,8 @@
       "slice_id": "nominal_stabilization",
       "publicSurface": {
         "addressable": true,
-        "discoverable": true,
-        "prominent": true,
+        "discoverable": false,
+        "prominent": false,
         "owningRegionId": "nominal_stabilization",
         "regionActivated": true,
         "activationBlocked": false
@@ -3199,8 +3199,8 @@
       "slice_id": "nominal_stabilization",
       "publicSurface": {
         "addressable": true,
-        "discoverable": true,
-        "prominent": true,
+        "discoverable": false,
+        "prominent": false,
         "owningRegionId": "nominal_stabilization",
         "regionActivated": true,
         "activationBlocked": false
@@ -3455,8 +3455,8 @@
       "slice_id": "nominal_stabilization",
       "publicSurface": {
         "addressable": true,
-        "discoverable": true,
-        "prominent": true,
+        "discoverable": false,
+        "prominent": false,
         "owningRegionId": "nominal_stabilization",
         "regionActivated": true,
         "activationBlocked": false
@@ -4863,8 +4863,8 @@
       "slice_id": "external_financial_constraint",
       "publicSurface": {
         "addressable": true,
-        "discoverable": true,
-        "prominent": true,
+        "discoverable": false,
+        "prominent": false,
         "owningRegionId": "external_financial_constraint",
         "regionActivated": true,
         "activationBlocked": false
@@ -4895,8 +4895,8 @@
       "slice_id": "external_financial_constraint",
       "publicSurface": {
         "addressable": true,
-        "discoverable": true,
-        "prominent": true,
+        "discoverable": false,
+        "prominent": false,
         "owningRegionId": "external_financial_constraint",
         "regionActivated": true,
         "activationBlocked": false

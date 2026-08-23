@@ -173,12 +173,13 @@
     },
     "disposition": {
       "plotIntentId": "pi.ns09",
-      "state": "UNREVIEWED",
-      "source": "legacy_default_publish",
-      "reviewed": false,
+      "state": "QUARANTINE",
+      "source": "curation_review",
+      "reviewed": true,
       "addressable": true,
-      "prominent": true,
-      "primaryEvidence": true
+      "prominent": false,
+      "primaryEvidence": false,
+      "note": "Outputs inspected: plot-artifacts/png/official-fx-change-vs-monthly-inflation.png; plot-artifacts/svg/official-fx-change-vs-monthly-inflation.svg. Truth FAIL — the derived FX-change line includes an Aug-2026 point based on the latest available wholesale FX observation while monthly CPI ends in Jul 2026, so the chart invites a current co-movement comparison outside a common completed month. Usefulness cannot rescue the mismatch. Publication QUARANTINE — repair requires an explicit decision about incomplete-month semantics or constraining the comparison to the latest common completed period, which is outside this pass's autonomous semantic budget. Terminal state QUARANTINE."
     },
     "source": {
       "provider": "multiple",
@@ -209,6 +210,8 @@
         },
         "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
       }
-    ]
+    ],
+    "publicationStatus": "quarantine",
+    "qaNote": "Outputs inspected: plot-artifacts/png/official-fx-change-vs-monthly-inflation.png; plot-artifacts/svg/official-fx-change-vs-monthly-inflation.svg. Truth FAIL — the derived FX-change line includes an Aug-2026 point based on the latest available wholesale FX observation while monthly CPI ends in Jul 2026, so the chart invites a current co-movement comparison outside a common completed month. Usefulness cannot rescue the mismatch. Publication QUARANTINE — repair requires an explicit decision about incomplete-month semantics or constraining the comparison to the latest common completed period, which is outside this pass's autonomous semantic budget. Terminal state QUARANTINE."
   }
 }

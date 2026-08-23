@@ -154,12 +154,13 @@
     },
     "disposition": {
       "plotIntentId": "pi.ef48",
-      "state": "UNREVIEWED",
-      "source": "legacy_default_publish",
-      "reviewed": false,
+      "state": "REFERENCE",
+      "source": "curation_review",
+      "reviewed": true,
       "addressable": true,
-      "prominent": true,
-      "primaryEvidence": true
+      "prominent": false,
+      "primaryEvidence": false,
+      "note": "Outputs inspected: plot-artifacts/png/reserve-accumulation-year-to-date.png; plot-artifacts/svg/reserve-accumulation-year-to-date.svg. Truth PASS — the line is exactly gross reserves minus the final prior-calendar-year observation, fresh through 2026-08-12. Usefulness REFERENCE — useful as a running gross-stock delta, but it is mechanically anchored and does not decompose purchases, financing, debt payments, or usable reserves. Publication PASS AS REFERENCE — visually clean, but weaker than direct stock/change evidence for primary analytical prominence. Terminal state REFERENCE."
     },
     "source": {
       "provider": "bcra_monetarias_v4",
@@ -182,6 +183,8 @@
         },
         "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
       }
-    ]
+    ],
+    "publicationStatus": "quarantine",
+    "qaNote": "Outputs inspected: plot-artifacts/png/reserve-accumulation-year-to-date.png; plot-artifacts/svg/reserve-accumulation-year-to-date.svg. Truth PASS — the line is exactly gross reserves minus the final prior-calendar-year observation, fresh through 2026-08-12. Usefulness REFERENCE — useful as a running gross-stock delta, but it is mechanically anchored and does not decompose purchases, financing, debt payments, or usable reserves. Publication PASS AS REFERENCE — visually clean, but weaker than direct stock/change evidence for primary analytical prominence. Terminal state REFERENCE."
   }
 }

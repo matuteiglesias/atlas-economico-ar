@@ -5,6 +5,7 @@
   "title": "Nominal Stabilization",
   "href": "/areas/nominal-stabilization",
   "dek": "How prices, exchange rates, monetary conditions, and expectations interact during Argentina's stabilization process.",
+  "intro": "Nominal stabilization is tracked here through several connected but distinct margins — inflation momentum, the exchange rate and BCRA FX operations, real interest-rate conditions, and the recovery of peso money demand. The active public questions and charts let readers compare those margins without treating any single indicator as a complete measure of stabilization.",
   "populated": true,
   "breadcrumbs": [
     {
@@ -16,7 +17,7 @@
     "topics": 25,
     "questions": 10,
     "indicators": 43,
-    "charts": 19,
+    "charts": 16,
     "relations": 52
   },
   "topics": [
@@ -663,12 +664,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns23",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/bcra-daily-fx-purchases.png; plot-artifacts/svg/bcra-daily-fx-purchases.svg. Truth PASS — the chart shows the registered BCRA FX-purchase reserve-variation factor as daily USD-million flows with a zero baseline and current Aug-2026 observations. Usefulness DISTINCT — raw daily intervention intensity is different evidence from cumulative program progress or exchange-rate coexistence. Publication PASS — the dense bars reflect genuine daily variation, not an encoding trick, and units/source are clear. Terminal state APPROVED."
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -691,80 +693,8 @@
             },
             "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
           }
-        ]
-      }
-    },
-    {
-      "id": "pi.ns25",
-      "kind": "chart",
-      "slug": "bcra-purchases-vs-official-exchange-rate",
-      "title": "BCRA purchases vs official exchange rate",
-      "href": "/charts/bcra-purchases-vs-official-exchange-rate",
-      "artifact": {
-        "chartSpecId": "cs.bcra.purchases_vs_fx",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-14",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/bcra-purchases-vs-official-exchange-rate.svg",
-        "png": "/plots/bcra-purchases-vs-official-exchange-rate.png",
-        "altText": "BCRA purchases vs official exchange rate. BCRA net FX purchases; Official ARS/USD exchange rate. Since Jan 2026. Data through 2026-08-14.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.bcra_fx_purchases_daily",
-          "ci.ns.official_fx"
         ],
-        "seriesIds": [
-          "series.ar.bcra.fx_purchases_reserve_factor",
-          "series.ar.bcra.wholesale_fx"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
-          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns25",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "78,5",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "78",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-          },
-          {
-            "seriesId": "series.ar.bcra.wholesale_fx",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "5",
-            "sourceUnit": "Exchange rate ars to usd",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
-          }
-        ]
+        "qaNote": "Outputs inspected: plot-artifacts/png/bcra-daily-fx-purchases.png; plot-artifacts/svg/bcra-daily-fx-purchases.svg. Truth PASS — the chart shows the registered BCRA FX-purchase reserve-variation factor as daily USD-million flows with a zero baseline and current Aug-2026 observations. Usefulness DISTINCT — raw daily intervention intensity is different evidence from cumulative program progress or exchange-rate coexistence. Publication PASS — the dense bars reflect genuine daily variation, not an encoding trick, and units/source are clear. Terminal state APPROVED."
       }
     },
     {
@@ -863,12 +793,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns04",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/disinflation-since-december-2023.png; plot-artifacts/svg/disinflation-since-december-2023.svg. Truth PASS — both headline CPI measures are monthly, current through Jul 2026, and the Dec-2023 frame matches the stabilization question. Usefulness DISTINCT — the focused window shows the disinflation path, pauses, and recent monthly behavior more directly than the five-year context view. Publication PASS — dual axes are explicitly labeled and the large initial monthly/annual rates are substantively part of the path rather than decorative scale inflation. Terminal state APPROVED."
         },
         "source": {
           "provider": "multiple",
@@ -899,80 +830,8 @@
             },
             "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
           }
-        ]
-      }
-    },
-    {
-      "id": "pi.ns03",
-      "kind": "chart",
-      "slug": "headline-inflation-monthly-vs-year-over-year",
-      "title": "Headline inflation: monthly vs year-over-year",
-      "href": "/charts/headline-inflation-monthly-vs-year-over-year",
-      "artifact": {
-        "chartSpecId": "cs.bcra2.inflation_monthly_yoy",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-07-31",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/headline-inflation-monthly-vs-year-over-year.svg",
-        "png": "/plots/headline-inflation-monthly-vs-year-over-year.png",
-        "altText": "Headline inflation: monthly vs year-over-year. Monthly headline CPI inflation; Headline CPI inflation, year-over-year. Last 5 years. Data through 2026-07-31.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.cpi_monthly",
-          "ci.ns.cpi_yoy"
         ],
-        "seriesIds": [
-          "series.ar.datosgob.ipc_headline_mom_national",
-          "series.ar.bcra.cpi_yoy"
-        ],
-        "snapshotSha256": {
-          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
-          "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns03",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
-            "provider": "datos_argentina",
-            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
-            "sourceUnit": "Variación intermensual",
-            "normalization": {
-              "kind": "scale",
-              "factor": 100
-            },
-            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-          },
-          {
-            "seriesId": "series.ar.bcra.cpi_yoy",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "28",
-            "sourceUnit": "In percentage",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
-          }
-        ]
+        "qaNote": "Outputs inspected: plot-artifacts/png/disinflation-since-december-2023.png; plot-artifacts/svg/disinflation-since-december-2023.svg. Truth PASS — both headline CPI measures are monthly, current through Jul 2026, and the Dec-2023 frame matches the stabilization question. Usefulness DISTINCT — the focused window shows the disinflation path, pauses, and recent monthly behavior more directly than the five-year context view. Publication PASS — dual axes are explicitly labeled and the large initial monthly/annual rates are substantively part of the path rather than decorative scale inflation. Terminal state APPROVED."
       }
     },
     {
@@ -1007,12 +866,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns01",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png; plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg. Truth PASS — both measures are monthly CPI-based; the 3-month rate compounds contiguous monthly inflation and annualizes the three-month gross change. Usefulness DISTINCT — it separates current monthly pace from short-run annualized momentum over 18 months. Publication PASS — dual axes are explicitly labeled as monthly percent versus annual rate, so the scale difference is visible rather than concealed. Terminal state APPROVED."
         },
         "source": {
           "provider": "datos_argentina",
@@ -1035,7 +895,8 @@
             },
             "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
           }
-        ]
+        ],
+        "qaNote": "Outputs inspected: plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png; plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg. Truth PASS — both measures are monthly CPI-based; the 3-month rate compounds contiguous monthly inflation and annualizes the three-month gross change. Usefulness DISTINCT — it separates current monthly pace from short-run annualized momentum over 18 months. Publication PASS — dual axes are explicitly labeled as monthly percent versus annual rate, so the scale difference is visible rather than concealed. Terminal state APPROVED."
       }
     },
     {
@@ -1412,79 +1273,6 @@
       }
     },
     {
-      "id": "pi.ns09",
-      "kind": "chart",
-      "slug": "official-fx-change-vs-monthly-inflation",
-      "title": "Official FX change vs monthly inflation",
-      "href": "/charts/official-fx-change-vs-monthly-inflation",
-      "artifact": {
-        "chartSpecId": "cs.bcra.fx_change_vs_inflation",
-        "frameId": "rf.last_12m",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-01",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/official-fx-change-vs-monthly-inflation.svg",
-        "png": "/plots/official-fx-change-vs-monthly-inflation.png",
-        "altText": "Official FX change vs monthly inflation. Official FX monthly change; Monthly headline CPI inflation. Last 12 months. Data through 2026-08-01.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.official_fx_monthly_change",
-          "ci.ns.cpi_monthly"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.wholesale_fx",
-          "series.ar.datosgob.ipc_headline_mom_national"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
-          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns09",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "5,145.3_INGNACUAL_DICI_M_38",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.wholesale_fx",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "5",
-            "sourceUnit": "Exchange rate ars to usd",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
-          },
-          {
-            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
-            "provider": "datos_argentina",
-            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
-            "sourceUnit": "Variación intermensual",
-            "normalization": {
-              "kind": "scale",
-              "factor": 100
-            },
-            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-          }
-        ]
-      }
-    },
-    {
       "id": "pi.ns55",
       "kind": "chart",
       "slug": "official-wholesale-exchange-rate",
@@ -1577,12 +1365,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns35",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/real-monetary-base.png; plot-artifacts/svg/real-monetary-base.svg. Truth PASS — the implemented measure takes monthly-end nominal base money, deflates with the reconstructed CPI index, and rebases Dec-2023 to 100; data are current through Jul 2026. Usefulness DISTINCT — it directly measures real base-money recovery and is the preferred analytical replacement for superseded pi.ns34. Publication PASS — clean single-axis monthly real index with an economically meaningful anchor. Terminal state APPROVED."
         },
         "source": {
           "provider": "multiple",
@@ -1614,7 +1403,8 @@
             },
             "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
           }
-        ]
+        ],
+        "qaNote": "Outputs inspected: plot-artifacts/png/real-monetary-base.png; plot-artifacts/svg/real-monetary-base.svg. Truth PASS — the implemented measure takes monthly-end nominal base money, deflates with the reconstructed CPI index, and rebases Dec-2023 to 100; data are current through Jul 2026. Usefulness DISTINCT — it directly measures real base-money recovery and is the preferred analytical replacement for superseded pi.ns34. Publication PASS — clean single-axis monthly real index with an economically meaningful anchor. Terminal state APPROVED."
       }
     },
     {
@@ -1903,32 +1693,11 @@
   "localGraph": {
     "nodes": [
       {
-        "id": "ns.aggregate_demand_pressure",
+        "id": "ns.reserve_requirements",
         "kind": "topic",
-        "slug": "aggregate-demand-pressure",
-        "title": "Aggregate-demand pressure",
-        "href": "/topics/aggregate-demand-pressure"
-      },
-      {
-        "id": "ns.fx_gap",
-        "kind": "topic",
-        "slug": "fx-gap",
-        "title": "FX gap",
-        "href": "/topics/fx-gap"
-      },
-      {
-        "id": "ns.fx_hedging_demand",
-        "kind": "topic",
-        "slug": "fx-hedging-demand",
-        "title": "FX hedging demand",
-        "href": "/topics/fx-hedging-demand"
-      },
-      {
-        "id": "ns.real_exchange_rate",
-        "kind": "topic",
-        "slug": "real-exchange-rate",
-        "title": "Real exchange rate",
-        "href": "/topics/real-exchange-rate"
+        "slug": "reserve-requirements",
+        "title": "Reserve requirements",
+        "href": "/topics/reserve-requirements"
       },
       {
         "id": "ns.parallel_exchange_rate",
@@ -1938,95 +1707,11 @@
         "href": "/topics/parallel-exchange-rate"
       },
       {
-        "id": "ns.exchange_rate_band",
+        "id": "ns.monetary_targeting_framework",
         "kind": "topic",
-        "slug": "exchange-rate-band",
-        "title": "Exchange-rate band",
-        "href": "/topics/exchange-rate-band"
-      },
-      {
-        "id": "ns.core_inflation",
-        "kind": "topic",
-        "slug": "core-inflation",
-        "title": "Core inflation",
-        "href": "/topics/core-inflation"
-      },
-      {
-        "id": "ns.bcra_fx_operations",
-        "kind": "topic",
-        "slug": "bcra-fx-operations",
-        "title": "BCRA FX operations",
-        "href": "/topics/bcra-fx-operations"
-      },
-      {
-        "id": "ns.money_market_rate",
-        "kind": "topic",
-        "slug": "money-market-rate",
-        "title": "Money-market rate",
-        "href": "/topics/money-market-rate"
-      },
-      {
-        "id": "ns.policy_credibility",
-        "kind": "topic",
-        "slug": "policy-credibility",
-        "title": "Policy credibility",
-        "href": "/topics/policy-credibility"
-      },
-      {
-        "id": "ns.remonetization",
-        "kind": "topic",
-        "slug": "remonetization",
-        "title": "Remonetization",
-        "href": "/topics/remonetization"
-      },
-      {
-        "id": "ns.money_demand",
-        "kind": "topic",
-        "slug": "money-demand",
-        "title": "Money demand",
-        "href": "/topics/money-demand"
-      },
-      {
-        "id": "ns.inflation_inertia",
-        "kind": "topic",
-        "slug": "inflation-inertia",
-        "title": "Inflation inertia",
-        "href": "/topics/inflation-inertia"
-      },
-      {
-        "id": "ns.policy_rate",
-        "kind": "topic",
-        "slug": "policy-interest-rate",
-        "title": "Policy interest rate",
-        "href": "/topics/policy-interest-rate"
-      },
-      {
-        "id": "ns.headline_inflation",
-        "kind": "topic",
-        "slug": "headline-inflation",
-        "title": "Headline inflation",
-        "href": "/topics/headline-inflation"
-      },
-      {
-        "id": "ns.reserve_requirements",
-        "kind": "topic",
-        "slug": "reserve-requirements",
-        "title": "Reserve requirements",
-        "href": "/topics/reserve-requirements"
-      },
-      {
-        "id": "ns.monetary_base",
-        "kind": "topic",
-        "slug": "monetary-base",
-        "title": "Monetary base",
-        "href": "/topics/monetary-base"
-      },
-      {
-        "id": "ns.inflation_expectations",
-        "kind": "topic",
-        "slug": "inflation-expectations",
-        "title": "Inflation expectations",
-        "href": "/topics/inflation-expectations"
+        "slug": "monetary-targeting-framework",
+        "title": "Monetary targeting framework",
+        "href": "/topics/monetary-targeting-framework"
       },
       {
         "id": "ns.inflation",
@@ -2036,25 +1721,88 @@
         "href": "/topics/inflation"
       },
       {
-        "id": "ns.real_interest_rate",
+        "id": "ns.remonetization",
         "kind": "topic",
-        "slug": "real-interest-rate",
-        "title": "Real interest rate",
-        "href": "/topics/real-interest-rate"
+        "slug": "remonetization",
+        "title": "Remonetization",
+        "href": "/topics/remonetization"
       },
       {
-        "id": "ns.monetary_targeting_framework",
+        "id": "ns.inflation_expectations",
         "kind": "topic",
-        "slug": "monetary-targeting-framework",
-        "title": "Monetary targeting framework",
-        "href": "/topics/monetary-targeting-framework"
+        "slug": "inflation-expectations",
+        "title": "Inflation expectations",
+        "href": "/topics/inflation-expectations"
       },
       {
-        "id": "ns.transactional_m2",
+        "id": "ns.real_exchange_rate",
         "kind": "topic",
-        "slug": "transactional-m2",
-        "title": "Transactional M2",
-        "href": "/topics/transactional-m2"
+        "slug": "real-exchange-rate",
+        "title": "Real exchange rate",
+        "href": "/topics/real-exchange-rate"
+      },
+      {
+        "id": "ns.policy_rate",
+        "kind": "topic",
+        "slug": "policy-interest-rate",
+        "title": "Policy interest rate",
+        "href": "/topics/policy-interest-rate"
+      },
+      {
+        "id": "ns.nominal_exchange_rate",
+        "kind": "topic",
+        "slug": "nominal-exchange-rate",
+        "title": "Nominal exchange rate",
+        "href": "/topics/nominal-exchange-rate"
+      },
+      {
+        "id": "ns.headline_inflation",
+        "kind": "topic",
+        "slug": "headline-inflation",
+        "title": "Headline inflation",
+        "href": "/topics/headline-inflation"
+      },
+      {
+        "id": "ns.monetary_base",
+        "kind": "topic",
+        "slug": "monetary-base",
+        "title": "Monetary base",
+        "href": "/topics/monetary-base"
+      },
+      {
+        "id": "ns.inflation_inertia",
+        "kind": "topic",
+        "slug": "inflation-inertia",
+        "title": "Inflation inertia",
+        "href": "/topics/inflation-inertia"
+      },
+      {
+        "id": "ns.money_market_rate",
+        "kind": "topic",
+        "slug": "money-market-rate",
+        "title": "Money-market rate",
+        "href": "/topics/money-market-rate"
+      },
+      {
+        "id": "ns.core_inflation",
+        "kind": "topic",
+        "slug": "core-inflation",
+        "title": "Core inflation",
+        "href": "/topics/core-inflation"
+      },
+      {
+        "id": "ns.fx_gap",
+        "kind": "topic",
+        "slug": "fx-gap",
+        "title": "FX gap",
+        "href": "/topics/fx-gap"
+      },
+      {
+        "id": "ns.aggregate_demand_pressure",
+        "kind": "topic",
+        "slug": "aggregate-demand-pressure",
+        "title": "Aggregate-demand pressure",
+        "href": "/topics/aggregate-demand-pressure"
       },
       {
         "id": "ns.fx_pass_through",
@@ -2064,6 +1812,41 @@
         "href": "/topics/fx-pass-through"
       },
       {
+        "id": "ns.fx_hedging_demand",
+        "kind": "topic",
+        "slug": "fx-hedging-demand",
+        "title": "FX hedging demand",
+        "href": "/topics/fx-hedging-demand"
+      },
+      {
+        "id": "ns.bcra_fx_operations",
+        "kind": "topic",
+        "slug": "bcra-fx-operations",
+        "title": "BCRA FX operations",
+        "href": "/topics/bcra-fx-operations"
+      },
+      {
+        "id": "ns.exchange_rate_band",
+        "kind": "topic",
+        "slug": "exchange-rate-band",
+        "title": "Exchange-rate band",
+        "href": "/topics/exchange-rate-band"
+      },
+      {
+        "id": "ns.policy_credibility",
+        "kind": "topic",
+        "slug": "policy-credibility",
+        "title": "Policy credibility",
+        "href": "/topics/policy-credibility"
+      },
+      {
+        "id": "ns.real_interest_rate",
+        "kind": "topic",
+        "slug": "real-interest-rate",
+        "title": "Real interest rate",
+        "href": "/topics/real-interest-rate"
+      },
+      {
         "id": "ns.relative_price_adjustment",
         "kind": "topic",
         "slug": "relative-price-adjustment",
@@ -2071,11 +1854,18 @@
         "href": "/topics/relative-price-adjustment"
       },
       {
-        "id": "ns.nominal_exchange_rate",
+        "id": "ns.transactional_m2",
         "kind": "topic",
-        "slug": "nominal-exchange-rate",
-        "title": "Nominal exchange rate",
-        "href": "/topics/nominal-exchange-rate"
+        "slug": "transactional-m2",
+        "title": "Transactional M2",
+        "href": "/topics/transactional-m2"
+      },
+      {
+        "id": "ns.money_demand",
+        "kind": "topic",
+        "slug": "money-demand",
+        "title": "Money demand",
+        "href": "/topics/money-demand"
       }
     ],
     "edges": [
