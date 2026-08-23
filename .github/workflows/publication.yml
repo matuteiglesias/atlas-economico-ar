@@ -62,20 +62,20 @@ jobs:
           from pathlib import Path
           stats = json.loads(Path('site-data/stats.json').read_text())
           manifest = json.loads(Path('site-data/manifest.json').read_text())
-          assert stats['counts']['indicator'] == 83, stats
-          assert stats['counts']['chart'] == 115, stats
-          assert stats['graph']['nodes'] == 297, stats
-          assert stats['plot_artifacts'] == 35, stats
-          assert stats['prominent_plot_artifacts'] == 31, stats
+          assert stats['counts']['indicator'] == 90, stats
+          assert stats['counts']['chart'] == 119, stats
+          assert stats['graph']['nodes'] == 308, stats
+          assert stats['plot_artifacts'] == 41, stats
+          assert stats['prominent_plot_artifacts'] == 37, stats
           assert stats['quarantined_plot_artifacts'] == 4, stats
           assert stats['historical_plot_artifacts'] == 2, stats
-          assert manifest['plotArtifacts'] == 35, manifest
-          assert manifest['prominentPlotArtifacts'] == 31, manifest
+          assert manifest['plotArtifacts'] == 41, manifest
+          assert manifest['prominentPlotArtifacts'] == 37, manifest
           assert manifest['quarantinedPlotArtifacts'] == 4, manifest
           assert manifest['historicalPlotArtifacts'] == 2, manifest
-          assert len(list(Path('web/public/plots').glob('*.svg'))) == 35
-          assert len(list(Path('web/public/plots').glob('*.png'))) == 35
-          print('PASS: 115 charts, 83 indicators, 35 PlotArtifacts; 31 prominent / 4 quarantined / 2 historical')
+          assert len(list(Path('web/public/plots').glob('*.svg'))) == 41
+          assert len(list(Path('web/public/plots').glob('*.png'))) == 41
+          print('PASS: 119 charts, 90 indicators, 41 PlotArtifacts; 37 prominent / 4 quarantined / 2 historical')
           PY
       - uses: actions/upload-artifact@v4
         with:
