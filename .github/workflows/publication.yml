@@ -28,7 +28,7 @@ on:
       - ".github/workflows/publication.yml"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -36,6 +36,8 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: python -m pip install 'PyYAML>=6.0,<7' 'matplotlib>=3.8,<4'
@@ -100,3 +102,15 @@ jobs:
             web/public/plots/
           if-no-files-found: error
           retention-days: 30
+      - name: Sync generated snapshot to PR branch
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site-data web/site-data
+          if git diff --cached --quiet; then
+            echo "Generated snapshot already current."
+            exit 0
+          fi
+          git commit -m "Refresh public-surface generated snapshot"
+          git push origin HEAD:${{ github.head_ref }}
