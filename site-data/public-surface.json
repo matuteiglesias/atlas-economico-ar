@@ -1,11 +1,12 @@
 {
-  "schemaVersion": "0.1",
+  "schemaVersion": "0.2",
   "policy": {
-    "chart": "artifact.disposition.addressable/prominent",
-    "question": "question-publication contract",
+    "activation": "region.populated gates all child capabilities before entity-specific publication",
+    "chart": "active region + artifact.disposition.addressable/prominent",
+    "question": "active region + question-publication contract",
     "region": "all addressable; populated discoverable",
-    "topic": "addressable/discoverable pending publication ontology",
-    "indicator": "addressable/discoverable pending publication ontology"
+    "topic": "active region + temporary addressable/discoverable policy",
+    "indicator": "active region + temporary addressable/discoverable policy"
   },
   "semanticCounts": {
     "region": 6,
@@ -30,6 +31,13 @@
     "question": 15,
     "indicator": 90,
     "chart": 27
+  },
+  "activationBlockedCounts": {
+    "region": 0,
+    "topic": 0,
+    "question": 0,
+    "indicator": 0,
+    "chart": 0
   },
   "chartCensus": {
     "semantic": 119,
@@ -2827,6 +2835,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "populated": true
     },
     {
@@ -2838,6 +2849,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "fiscal_regime",
+      "regionActivated": false,
+      "activationBlocked": false,
       "populated": false
     },
     {
@@ -2849,6 +2863,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "household_welfare",
+      "regionActivated": false,
+      "activationBlocked": false,
       "populated": false
     },
     {
@@ -2860,6 +2877,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "labor_incomes",
+      "regionActivated": false,
+      "activationBlocked": false,
       "populated": false
     },
     {
@@ -2871,6 +2891,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "populated": true
     },
     {
@@ -2882,6 +2905,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": false,
       "populated": false
     },
     {
@@ -2892,7 +2918,10 @@
       "href": "/topics/aggregate-demand-pressure",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.bcra_fx_operations",
@@ -2902,7 +2931,10 @@
       "href": "/topics/bcra-fx-operations",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.capital_inflows",
@@ -2912,7 +2944,10 @@
       "href": "/topics/capital-inflows",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.core_inflation",
@@ -2922,7 +2957,10 @@
       "href": "/topics/core-inflation",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.credit_quality",
@@ -2932,7 +2970,10 @@
       "href": "/topics/credit-quality",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.current_account",
@@ -2942,7 +2983,10 @@
       "href": "/topics/current-account",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.domestic_capital_market_depth",
@@ -2952,7 +2996,10 @@
       "href": "/topics/domestic-capital-market-depth",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.domestic_savings_mobilization",
@@ -2962,7 +3009,10 @@
       "href": "/topics/domestic-savings-mobilization",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.exchange_rate_band",
@@ -2972,7 +3022,10 @@
       "href": "/topics/exchange-rate-band",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.external_position",
@@ -2982,7 +3035,10 @@
       "href": "/topics/external-position",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.external_public_debt",
@@ -2992,7 +3048,10 @@
       "href": "/topics/external-public-debt",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.refinancing_needs",
@@ -3002,7 +3061,10 @@
       "href": "/topics/external-refinancing-needs",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.external_vulnerability",
@@ -3012,7 +3074,10 @@
       "href": "/topics/external-vulnerability",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.financial_account",
@@ -3022,7 +3087,10 @@
       "href": "/topics/financial-account",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.financial_depth",
@@ -3032,7 +3100,10 @@
       "href": "/topics/financial-depth",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.foreign_direct_investment",
@@ -3042,7 +3113,10 @@
       "href": "/topics/foreign-direct-investment",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.fx_debt_service",
@@ -3052,7 +3126,10 @@
       "href": "/topics/foreign-currency-debt-service",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.fx_deposits",
@@ -3062,7 +3139,10 @@
       "href": "/topics/foreign-currency-deposits",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.fx_gap",
@@ -3072,7 +3152,10 @@
       "href": "/topics/fx-gap",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.fx_hedging_demand",
@@ -3082,7 +3165,10 @@
       "href": "/topics/fx-hedging-demand",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.fx_market_issuance",
@@ -3092,7 +3178,10 @@
       "href": "/topics/fx-market-issuance",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.fx_pass_through",
@@ -3102,7 +3191,10 @@
       "href": "/topics/fx-pass-through",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.goods_trade_balance",
@@ -3112,7 +3204,10 @@
       "href": "/topics/goods-trade-balance",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.gross_reserves",
@@ -3122,7 +3217,10 @@
       "href": "/topics/gross-international-reserves",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.headline_inflation",
@@ -3132,7 +3230,10 @@
       "href": "/topics/headline-inflation",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.inflation",
@@ -3142,7 +3243,10 @@
       "href": "/topics/inflation",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.inflation_expectations",
@@ -3152,7 +3256,10 @@
       "href": "/topics/inflation-expectations",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.inflation_inertia",
@@ -3162,7 +3269,10 @@
       "href": "/topics/inflation-inertia",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.market_access",
@@ -3172,7 +3282,10 @@
       "href": "/topics/international-market-access",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.liquid_reserve_buffers",
@@ -3182,7 +3295,10 @@
       "href": "/topics/liquid-reserve-buffers",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.monetary_base",
@@ -3192,7 +3308,10 @@
       "href": "/topics/monetary-base",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.monetary_targeting_framework",
@@ -3202,7 +3321,10 @@
       "href": "/topics/monetary-targeting-framework",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.money_demand",
@@ -3212,7 +3334,10 @@
       "href": "/topics/money-demand",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.money_market_rate",
@@ -3222,7 +3347,10 @@
       "href": "/topics/money-market-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.net_international_reserves",
@@ -3232,7 +3360,10 @@
       "href": "/topics/net-international-reserves",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.nominal_exchange_rate",
@@ -3242,7 +3373,10 @@
       "href": "/topics/nominal-exchange-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.official_external_financing",
@@ -3252,7 +3386,10 @@
       "href": "/topics/official-external-financing",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.parallel_exchange_rate",
@@ -3262,7 +3399,10 @@
       "href": "/topics/parallel-exchange-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.policy_credibility",
@@ -3272,7 +3412,10 @@
       "href": "/topics/policy-credibility",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.policy_rate",
@@ -3282,7 +3425,10 @@
       "href": "/topics/policy-interest-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.primary_income_balance",
@@ -3292,7 +3438,10 @@
       "href": "/topics/primary-income-balance",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.private_credit",
@@ -3302,7 +3451,10 @@
       "href": "/topics/private-sector-credit",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.real_exchange_rate",
@@ -3312,7 +3464,10 @@
       "href": "/topics/real-exchange-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.real_interest_rate",
@@ -3322,7 +3477,10 @@
       "href": "/topics/real-interest-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.relative_price_adjustment",
@@ -3332,7 +3490,10 @@
       "href": "/topics/relative-price-adjustment",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.remonetization",
@@ -3342,7 +3503,10 @@
       "href": "/topics/remonetization",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.reserve_accumulation",
@@ -3352,7 +3516,10 @@
       "href": "/topics/reserve-accumulation",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.reserve_adequacy",
@@ -3362,7 +3529,10 @@
       "href": "/topics/reserve-adequacy",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.reserve_requirements",
@@ -3372,7 +3542,10 @@
       "href": "/topics/reserve-requirements",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.resident_fx_hedging",
@@ -3382,7 +3555,10 @@
       "href": "/topics/resident-fx-hedging-and-dollarization-pressure",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.services_balance",
@@ -3392,7 +3568,10 @@
       "href": "/topics/services-balance",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.sovereign_risk",
@@ -3402,7 +3581,10 @@
       "href": "/topics/sovereign-risk",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.sovereign_spreads",
@@ -3412,7 +3594,10 @@
       "href": "/topics/sovereign-spreads",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ef.swap_repo_financing",
@@ -3422,7 +3607,10 @@
       "href": "/topics/swap-and-repo-financing",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ns.transactional_m2",
@@ -3432,7 +3620,10 @@
       "href": "/topics/transactional-m2",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "q.ef20",
@@ -3443,6 +3634,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3454,6 +3648,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3465,6 +3662,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3476,6 +3676,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3487,6 +3690,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3498,6 +3704,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3509,6 +3718,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3520,6 +3732,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3531,6 +3746,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3542,6 +3760,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3553,6 +3774,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3564,6 +3788,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3575,6 +3802,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3586,6 +3816,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3597,6 +3830,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3608,6 +3844,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3619,6 +3858,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3630,6 +3872,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3641,6 +3886,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3652,6 +3900,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3663,6 +3914,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3674,6 +3928,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3685,6 +3942,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3696,6 +3956,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3707,6 +3970,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3718,6 +3984,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3729,6 +3998,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3740,6 +4012,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3751,6 +4026,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3762,6 +4040,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3773,6 +4054,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3784,6 +4068,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3795,6 +4082,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3806,6 +4096,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3817,6 +4110,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3828,6 +4124,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3839,6 +4138,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "PUBLIC"
     },
     {
@@ -3850,6 +4152,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "publicationState": "HOLD"
     },
     {
@@ -3860,7 +4165,10 @@
       "href": "/indicators/bank-liquid-assets-ratio",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.bank_capital_ratio",
@@ -3870,7 +4178,10 @@
       "href": "/indicators/bank-regulatory-capital-ratio",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.reserve_requirement_ratio",
@@ -3880,7 +4191,10 @@
       "href": "/indicators/bank-reserve-requirement-ratio",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.bcra_fx_purchases_daily",
@@ -3890,7 +4204,10 @@
       "href": "/indicators/bcra-net-fx-purchases",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.bcra_peso_deposits",
@@ -3900,7 +4217,10 @@
       "href": "/indicators/bcra-peso-deposits-reserve-balances",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.blue_fx",
@@ -3910,7 +4230,10 @@
       "href": "/indicators/blue-exchange-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.fx_gap_blue",
@@ -3920,7 +4243,10 @@
       "href": "/indicators/blue-official-fx-gap",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.ccl_fx",
@@ -3930,7 +4256,10 @@
       "href": "/indicators/ccl-exchange-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.fx_gap_ccl",
@@ -3940,7 +4269,10 @@
       "href": "/indicators/ccl-official-fx-gap",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.swap_liabilities_usd",
@@ -3950,7 +4282,10 @@
       "href": "/indicators/central-bank-external-swap-liabilities",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.repo_liabilities_usd",
@@ -3960,7 +4295,10 @@
       "href": "/indicators/central-bank-repo-liabilities",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.core_monthly",
@@ -3970,7 +4308,10 @@
       "href": "/indicators/core-cpi-inflation-monthly",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.core_3m_ann",
@@ -3980,7 +4321,10 @@
       "href": "/indicators/core-cpi-3-month-annualized",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.corporate_fx_issuance_usd",
@@ -3990,7 +4334,10 @@
       "href": "/indicators/corporate-fx-issuance",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.corporate_spread_bps",
@@ -4000,7 +4347,10 @@
       "href": "/indicators/corporate-spread",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.bcra_fx_purchases_cumulative",
@@ -4010,7 +4360,10 @@
       "href": "/indicators/cumulative-bcra-fx-purchases-since-jan-2026",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.reserve_accumulation_ytd",
@@ -4020,7 +4373,10 @@
       "href": "/indicators/cumulative-reserve-accumulation-ytd",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.current_account_usd",
@@ -4030,7 +4386,10 @@
       "href": "/indicators/current-account-balance",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.current_account_gdp",
@@ -4040,7 +4399,10 @@
       "href": "/indicators/current-account-balance-as-share-of-gdp",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.domestic_market_depth_gdp",
@@ -4050,7 +4412,10 @@
       "href": "/indicators/domestic-capital-market-depth",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.fx_forward_eoy",
@@ -4060,7 +4425,10 @@
       "href": "/indicators/end-of-year-fx-forward-implied-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.infl_exp_eop",
@@ -4070,7 +4438,10 @@
       "href": "/indicators/expected-end-of-year-inflation",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.infl_exp_1m",
@@ -4080,7 +4451,10 @@
       "href": "/indicators/expected-inflation-next-month",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.infl_exp_3m",
@@ -4090,7 +4464,10 @@
       "href": "/indicators/expected-inflation-three-months-ahead",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.external_debt_gdp",
@@ -4100,7 +4477,10 @@
       "href": "/indicators/external-debt-as-share-of-gdp",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.financial_account_usd",
@@ -4110,7 +4490,10 @@
       "href": "/indicators/financial-account-balance",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.food_inflation_contribution",
@@ -4120,7 +4503,10 @@
       "href": "/indicators/food-contribution-to-monthly-inflation",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.fx_deposit_share",
@@ -4130,7 +4516,10 @@
       "href": "/indicators/foreign-currency-deposit-share",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.fx_deposits_usd",
@@ -4140,7 +4529,10 @@
       "href": "/indicators/foreign-currency-deposits",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.fx_credit_share",
@@ -4150,7 +4542,10 @@
       "href": "/indicators/foreign-currency-share-of-private-sector-credit",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.fx_band_lower",
@@ -4160,7 +4555,10 @@
       "href": "/indicators/fx-band-lower-bound",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.fx_band_upper",
@@ -4170,7 +4568,10 @@
       "href": "/indicators/fx-band-upper-bound",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.goods_balance_usd",
@@ -4180,7 +4581,10 @@
       "href": "/indicators/goods-trade-balance",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.capital_inflows_usd",
@@ -4190,7 +4594,10 @@
       "href": "/indicators/gross-identified-capital-inflows",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.gross_reserves_usd",
@@ -4200,7 +4607,10 @@
       "href": "/indicators/gross-international-reserves",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.cpi_yoy",
@@ -4210,7 +4620,10 @@
       "href": "/indicators/headline-cpi-inflation-year-over-year",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.cpi_3m_ann",
@@ -4220,7 +4633,10 @@
       "href": "/indicators/headline-cpi-3-month-annualized",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.imf_obligations_12m",
@@ -4230,7 +4646,10 @@
       "href": "/indicators/imf-obligations-next-12-months",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.infl_surprise",
@@ -4240,7 +4659,10 @@
       "href": "/indicators/inflation-surprise-vs-prior-expectation",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.liquid_reserve_buffer_usd",
@@ -4250,7 +4672,10 @@
       "href": "/indicators/liquid-reserve-buffer",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.market_fx_redemptions_12m",
@@ -4260,7 +4685,10 @@
       "href": "/indicators/market-fx-redemptions-next-12-months",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.monetary_base_nominal",
@@ -4270,7 +4698,10 @@
       "href": "/indicators/monetary-base",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.reserve_change_monthly",
@@ -4280,7 +4711,10 @@
       "href": "/indicators/monthly-change-in-gross-reserves",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.nir_change_monthly",
@@ -4290,7 +4724,10 @@
       "href": "/indicators/monthly-change-in-nir",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.cpi_monthly",
@@ -4300,7 +4737,10 @@
       "href": "/indicators/monthly-headline-cpi-inflation",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.infl_acceleration",
@@ -4310,7 +4750,10 @@
       "href": "/indicators/monthly-inflation-acceleration",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.fdi_net_usd",
@@ -4320,7 +4763,10 @@
       "href": "/indicators/net-foreign-direct-investment-flows",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.nir_usd",
@@ -4330,7 +4776,10 @@
       "href": "/indicators/net-international-reserves",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.private_financial_flows_usd",
@@ -4340,7 +4789,10 @@
       "href": "/indicators/net-private-financial-flows",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.public_financial_flows_usd",
@@ -4350,7 +4802,10 @@
       "href": "/indicators/net-public-sector-financial-flows",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.nir_to_gross_ratio",
@@ -4360,7 +4815,10 @@
       "href": "/indicators/nir-to-gross-reserves-ratio",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.policy_rate_nominal",
@@ -4370,7 +4828,10 @@
       "href": "/indicators/nominal-policy-relevant-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.npl_ratio",
@@ -4380,7 +4841,10 @@
       "href": "/indicators/non-performing-loans-ratio",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.official_fx",
@@ -4390,7 +4854,10 @@
       "href": "/indicators/official-ars-usd-exchange-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.official_external_financing_usd",
@@ -4400,7 +4867,10 @@
       "href": "/indicators/official-external-financing-flows",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.official_fx_monthly_change",
@@ -4410,7 +4880,10 @@
       "href": "/indicators/official-fx-monthly-change",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.fx_band_position",
@@ -4420,7 +4893,10 @@
       "href": "/indicators/official-fx-position-within-band",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.fx_forward_1m",
@@ -4430,7 +4906,10 @@
       "href": "/indicators/one-month-fx-forward-implied-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.primary_income_balance_usd",
@@ -4440,7 +4919,10 @@
       "href": "/indicators/primary-income-balance",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.transactional_m2_nominal",
@@ -4450,7 +4932,10 @@
       "href": "/indicators/private-transactional-m2",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.private_credit_gdp",
@@ -4460,7 +4945,10 @@
       "href": "/indicators/private-sector-credit-as-share-of-gdp",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.private_credit_peso_ars",
@@ -4470,7 +4958,10 @@
       "href": "/indicators/private-sector-credit-in-pesos",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.private_deposits_peso_ars",
@@ -4480,7 +4971,10 @@
       "href": "/indicators/private-sector-deposits-in-pesos",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.private_credit_fx_ars_equivalent",
@@ -4490,7 +4984,10 @@
       "href": "/indicators/private-sector-foreign-currency-credit-ars-equivalent",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.private_deposits_fx_ars_equivalent",
@@ -4500,7 +4997,10 @@
       "href": "/indicators/private-sector-foreign-currency-deposits-ars-equivalent",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.public_fx_issuance_usd",
@@ -4510,7 +5010,10 @@
       "href": "/indicators/public-and-provincial-fx-issuance",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.public_fx_debt_service_12m",
@@ -4520,7 +5023,10 @@
       "href": "/indicators/public-sector-fx-debt-service-next-12-months",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.reer_index",
@@ -4530,7 +5036,10 @@
       "href": "/indicators/real-effective-exchange-rate-index",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.monetary_base_real",
@@ -4540,7 +5049,10 @@
       "href": "/indicators/real-monetary-base",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.transactional_m2_real",
@@ -4550,7 +5062,10 @@
       "href": "/indicators/real-private-transactional-m2",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.real_private_credit_growth",
@@ -4560,7 +5075,10 @@
       "href": "/indicators/real-private-sector-credit-growth",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.reer_change_dec2023",
@@ -4570,7 +5088,10 @@
       "href": "/indicators/reer-change-since-dec-2023",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.regulated_inflation_contribution",
@@ -4580,7 +5101,10 @@
       "href": "/indicators/regulated-price-contribution-to-monthly-inflation",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.import_cover_months",
@@ -4590,7 +5114,10 @@
       "href": "/indicators/reserve-import-coverage",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.reserve_to_fx_service_ratio",
@@ -4600,7 +5127,10 @@
       "href": "/indicators/reserves-relative-to-next-12m-fx-debt-service",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.assets_outside_system_gdp",
@@ -4610,7 +5140,10 @@
       "href": "/indicators/resident-financial-assets-outside-the-domestic-financial-system",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.services_balance_usd",
@@ -4620,7 +5153,10 @@
       "href": "/indicators/services-balance",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.money_market_rate",
@@ -4630,7 +5166,10 @@
       "href": "/indicators/short-money-market-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.sovereign_spread_bps",
@@ -4640,7 +5179,10 @@
       "href": "/indicators/sovereign-spread",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.tamar_real_exante",
@@ -4650,7 +5192,10 @@
       "href": "/indicators/tamar-ex-ante-real-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.tamar_real_expost",
@@ -4660,7 +5205,10 @@
       "href": "/indicators/tamar-ex-post-real-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.tamar_nominal",
@@ -4670,7 +5218,10 @@
       "href": "/indicators/tamar-nominal-rate",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.external_debt_usd",
@@ -4680,7 +5231,10 @@
       "href": "/indicators/total-external-debt",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.private_credit_total_ars",
@@ -4690,7 +5244,10 @@
       "href": "/indicators/total-private-sector-credit-ars-equivalent",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ef.private_deposits_total_ars",
@@ -4700,7 +5257,10 @@
       "href": "/indicators/total-private-sector-deposits-ars-equivalent",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.transactional_m2_projection_gap",
@@ -4710,7 +5270,10 @@
       "href": "/indicators/transactional-m2-gap-vs-bcra-projection",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.m2_to_gdp",
@@ -4720,7 +5283,10 @@
       "href": "/indicators/transactional-m2-to-gdp",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.trimmed_cpi_3m_ann",
@@ -4730,7 +5296,10 @@
       "href": "/indicators/trimmed-cpi-3-month-annualized",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.trimmed_goods_3m_ann",
@@ -4740,7 +5309,10 @@
       "href": "/indicators/trimmed-goods-inflation-3-month-annualized",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "ci.ns.trimmed_services_3m_ann",
@@ -4750,7 +5322,10 @@
       "href": "/indicators/trimmed-services-inflation-3-month-annualized",
       "addressable": true,
       "discoverable": true,
-      "prominent": true
+      "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false
     },
     {
       "id": "pi.ef38",
@@ -4761,6 +5336,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -4773,6 +5351,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -4785,6 +5366,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -4797,6 +5381,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "QUARANTINE"
     },
@@ -4809,6 +5396,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -4821,6 +5411,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "QUARANTINE"
     },
@@ -4833,6 +5426,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -4845,6 +5441,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "QUARANTINE"
     },
@@ -4857,6 +5456,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -4869,6 +5471,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -4881,6 +5486,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "HISTORICAL"
     },
@@ -4893,6 +5501,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -4905,6 +5516,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -4917,6 +5531,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -4929,6 +5546,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -4941,6 +5561,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -4953,6 +5576,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -4965,6 +5591,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -4977,6 +5606,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -4989,6 +5621,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5001,6 +5636,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5013,6 +5651,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5025,6 +5666,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5037,6 +5681,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5049,6 +5696,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5061,6 +5711,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5073,6 +5726,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5085,6 +5741,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5097,6 +5756,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5109,6 +5771,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5121,6 +5786,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5133,6 +5801,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5145,6 +5816,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5157,6 +5831,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5169,6 +5846,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5181,6 +5861,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5193,6 +5876,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5205,6 +5891,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5217,6 +5906,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "APPROVED"
     },
@@ -5229,6 +5921,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5241,6 +5936,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5253,6 +5951,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5265,6 +5966,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5277,6 +5981,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5289,6 +5996,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5301,6 +6011,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5313,6 +6026,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "APPROVED"
     },
@@ -5325,6 +6041,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5337,6 +6056,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5349,6 +6071,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5361,6 +6086,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5373,6 +6101,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5385,6 +6116,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5397,6 +6131,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5409,6 +6146,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5421,6 +6161,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5433,6 +6176,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5445,6 +6191,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5457,6 +6206,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5469,6 +6221,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5481,6 +6236,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "SUPERSEDED"
     },
@@ -5493,6 +6251,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5505,6 +6266,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5517,6 +6281,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5529,6 +6296,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5541,6 +6311,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5553,6 +6326,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5565,6 +6341,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5577,6 +6356,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5589,6 +6371,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5601,6 +6386,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5613,6 +6401,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5625,6 +6416,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5637,6 +6431,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "SUPERSEDED"
     },
@@ -5649,6 +6446,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5661,6 +6461,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "QUARANTINE"
     },
@@ -5673,6 +6476,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5685,6 +6491,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5697,6 +6506,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5709,6 +6521,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5721,6 +6536,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5733,6 +6551,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5745,6 +6566,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5757,6 +6581,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "HISTORICAL"
     },
@@ -5769,6 +6596,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5781,6 +6611,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5793,6 +6626,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "REFERENCE"
     },
@@ -5805,6 +6641,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5817,6 +6656,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "REFERENCE"
     },
@@ -5829,6 +6671,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "REFERENCE"
     },
@@ -5841,6 +6686,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5853,6 +6701,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5865,6 +6716,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "SUPERSEDED"
     },
@@ -5877,6 +6731,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5889,6 +6746,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "HISTORICAL"
     },
@@ -5901,6 +6761,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5913,6 +6776,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5925,6 +6791,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -5937,6 +6806,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "APPROVED"
     },
@@ -5949,6 +6821,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5961,6 +6836,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5973,6 +6851,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5985,6 +6866,9 @@
       "addressable": true,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "QUARANTINE"
     },
@@ -5997,6 +6881,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -6009,6 +6896,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6021,6 +6911,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6033,6 +6926,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -6045,6 +6941,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6057,6 +6956,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6069,6 +6971,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6081,6 +6986,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6093,6 +7001,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6105,6 +7016,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6117,6 +7031,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6129,6 +7046,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "external_financial_constraint",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6141,6 +7061,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -6153,6 +7076,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "UNREVIEWED"
     },
@@ -6165,6 +7091,9 @@
       "addressable": true,
       "discoverable": true,
       "prominent": true,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": true,
       "dispositionState": "APPROVED"
     },
@@ -6177,6 +7106,9 @@
       "addressable": false,
       "discoverable": false,
       "prominent": false,
+      "owningRegionId": "nominal_stabilization",
+      "regionActivated": true,
+      "activationBlocked": false,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     }

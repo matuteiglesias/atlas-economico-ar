@@ -1,5 +1,6 @@
 slice_id: "real_economy"
 title: "Real Economy"
+populated: false
 mission: "Explain output, demand, investment, consumption, sectoral performance, production structure, and the real-side consequences of stabilization and openness."
 core_scope:
   - "GDP/activity growth"

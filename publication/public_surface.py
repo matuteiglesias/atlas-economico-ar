@@ -5,8 +5,9 @@ import json
 from pathlib import Path
 from typing import Any
 
-SCHEMA_VERSION = "0.1"
+SCHEMA_VERSION = "0.2"
 KINDS = ("region", "topic", "question", "indicator", "chart")
+CHILD_KINDS = frozenset({"topic", "question", "indicator", "chart"})
 KIND_ORDER = {kind: index for index, kind in enumerate(KINDS)}
 
 
@@ -51,22 +52,38 @@ def _chart_disposition(plot_intent_id: str, page: dict[str, Any]) -> dict[str, A
     return disposition
 
 
-def _rewrite_chart_refs(node: Any, discoverable_chart_ids: set[str], *, root: bool = False) -> Any:
+def _rewrite_public_refs(
+    node: Any,
+    discoverable_child_keys: set[tuple[str, str]],
+    *,
+    root: bool = False,
+) -> Any:
     if isinstance(node, dict):
-        if not root and node.get("kind") == "chart" and node.get("id") not in discoverable_chart_ids:
+        kind = node.get("kind")
+        entity_id = node.get("id")
+        if (
+            not root
+            and kind in CHILD_KINDS
+            and isinstance(entity_id, str)
+            and (kind, entity_id) not in discoverable_child_keys
+        ):
             return None
+
         result: dict[str, Any] = {}
+        had_entity_wrapper = "entity" in node
         for key, value in node.items():
-            rewritten = _rewrite_chart_refs(value, discoverable_chart_ids)
+            rewritten = _rewrite_public_refs(value, discoverable_child_keys)
             if rewritten is not None:
                 result[key] = rewritten
+        if had_entity_wrapper and "entity" not in result:
+            return None
         return result
 
     if isinstance(node, list):
         result = []
         seen: set[tuple[Any, Any, Any]] = set()
         for value in node:
-            rewritten = _rewrite_chart_refs(value, discoverable_chart_ids)
+            rewritten = _rewrite_public_refs(value, discoverable_child_keys)
             if rewritten is None:
                 continue
             if isinstance(rewritten, dict) and rewritten.get("id"):
@@ -80,11 +97,33 @@ def _rewrite_chart_refs(node: Any, discoverable_chart_ids: set[str], *, root: bo
     return node
 
 
-def _update_chart_counts(page: dict[str, Any]) -> None:
+def _update_public_counts(page: dict[str, Any]) -> None:
     if page.get("kind") == "region" and isinstance(page.get("stats"), dict):
-        page["stats"]["charts"] = len(page.get("charts") or [])
-    elif page.get("kind") in {"topic", "question", "indicator"} and isinstance(page.get("counts"), dict):
-        page["counts"]["charts"] = len(page.get("charts") or [])
+        for plural in ("topics", "questions", "indicators", "charts"):
+            page["stats"][plural] = len(page.get(plural) or [])
+        local_graph = page.get("localGraph")
+        if isinstance(local_graph, dict):
+            node_ids = {
+                item.get("id")
+                for item in local_graph.get("nodes", [])
+                if isinstance(item, dict) and isinstance(item.get("id"), str)
+            }
+            edges = local_graph.get("edges")
+            if isinstance(edges, list):
+                local_graph["edges"] = [
+                    edge
+                    for edge in edges
+                    if isinstance(edge, dict)
+                    and edge.get("from") in node_ids
+                    and edge.get("to") in node_ids
+                ]
+                page["stats"]["relations"] = len(local_graph["edges"])
+    elif page.get("kind") in {"topic", "question", "indicator", "chart"} and isinstance(page.get("counts"), dict):
+        for plural in ("topics", "questions", "indicators", "charts"):
+            if plural in page["counts"]:
+                page["counts"][plural] = len(page.get(plural) or [])
+        if "connections" in page["counts"]:
+            page["counts"]["connections"] = len(page.get("connections") or [])
 
 
 def _ref(record: dict[str, Any]) -> dict[str, Any]:
@@ -98,9 +137,10 @@ def _ref(record: dict[str, Any]) -> dict[str, Any]:
 def apply_public_surface(out: Path, question_ledger: dict[str, Any]) -> dict[str, Any]:
     """Project semantic compiler output into intentional route and discovery membership.
 
-    Plot route/discovery capabilities come only from the already-compiled
-    ``artifact.disposition`` contract. This layer never reinterprets curation
-    or legacy publication states.
+    Region activation gates every ordinary child entity before its existing
+    entity-specific publication contract is applied. Plot route/discovery
+    capabilities still come only from ``artifact.disposition`` and question
+    capabilities still come only from the question-publication ledger.
     """
 
     graph_path = out / "graph.json"
@@ -123,10 +163,12 @@ def apply_public_surface(out: Path, question_ledger: dict[str, Any]) -> dict[str
     indicator_pages = _load_pages(out, "indicators")
     chart_pages = _load_pages(out, "charts")
 
-    region_populated = {
-        entity_id: bool(page.get("populated"))
-        for entity_id, (_, page) in region_pages.items()
-    }
+    region_populated = {}
+    for entity_id, (_, page) in region_pages.items():
+        populated = page.get("populated")
+        if not isinstance(populated, bool):
+            raise PublicSurfaceError(f"{entity_id}: region.populated must be boolean")
+        region_populated[entity_id] = populated
 
     chart_caps: dict[str, dict[str, Any]] = {}
     materialized_chart_ids: set[str] = set()
@@ -168,43 +210,56 @@ def apply_public_surface(out: Path, question_ledger: dict[str, Any]) -> dict[str
         seen_ids.add(key)
         semantic_counts[kind] += 1
 
+        owning_region_id = entity_id if kind == "region" else node.get("slice_id")
+        if not isinstance(owning_region_id, str) or owning_region_id not in region_populated:
+            raise PublicSurfaceError(
+                f"{kind}/{entity_id}: cannot resolve owning region from compiled slice_id {owning_region_id!r}"
+            )
+        region_activated = region_populated[owning_region_id]
+        activation_blocked = kind in CHILD_KINDS and not region_activated
+
         addressable = False
         discoverable = False
         prominent = False
-        metadata: dict[str, Any] = {}
+        metadata: dict[str, Any] = {
+            "owningRegionId": owning_region_id,
+            "regionActivated": region_activated,
+            "activationBlocked": activation_blocked,
+        }
 
         if kind == "chart":
             caps = chart_caps.get(entity_id)
             if caps is None:
                 raise PublicSurfaceError(f"semantic chart missing compiled chart page: {entity_id}")
-            addressable = caps["addressable"]
-            discoverable = caps["discoverable"]
-            prominent = caps["prominent"]
             metadata["materialized"] = caps["materialized"]
             metadata["dispositionState"] = caps["dispositionState"]
+            if not activation_blocked:
+                addressable = caps["addressable"]
+                discoverable = caps["discoverable"]
+                prominent = caps["prominent"]
         elif kind == "question":
             publication = question_records.get(entity_id)
             if publication is None:
                 raise PublicSurfaceError(f"semantic question missing publication record: {entity_id}")
             state = publication.get("state")
-            addressable = state == "PUBLIC"
-            discoverable = addressable
-            prominent = addressable
             metadata["publicationState"] = state
+            if not activation_blocked:
+                addressable = state == "PUBLIC"
+                discoverable = addressable
+                prominent = addressable
         elif kind == "region":
-            if entity_id not in region_populated:
-                raise PublicSurfaceError(f"semantic region missing compiled region page: {entity_id}")
             addressable = True
-            discoverable = region_populated[entity_id]
+            discoverable = region_activated
             prominent = discoverable
-            metadata["populated"] = region_populated[entity_id]
+            metadata["populated"] = region_activated
         else:
             # Topic/indicator publication ontology is intentionally deferred.
-            # Keep both kinds addressable/discoverable while making the
-            # capability boundary explicit for future filtering.
-            addressable = True
-            discoverable = True
-            prominent = True
+            # Region activation is the outer gate; within an active region,
+            # preserve the existing temporary addressable/discoverable policy.
+            if not activation_blocked:
+                addressable = True
+                discoverable = True
+                prominent = True
 
         if discoverable and not addressable:
             raise PublicSurfaceError(f"{kind}/{entity_id}: discoverable entity must be addressable")
@@ -231,8 +286,11 @@ def apply_public_surface(out: Path, question_ledger: dict[str, Any]) -> dict[str
             "addressable": addressable,
             "discoverable": discoverable,
             "prominent": prominent,
+            "owningRegionId": owning_region_id,
+            "regionActivated": region_activated,
+            "activationBlocked": activation_blocked,
         }
-        if not addressable and kind == "chart":
+        if activation_blocked or (not addressable and kind == "chart"):
             node["href"] = None
 
     if semantic_counts["question"] != question_ledger.get("semanticQuestionCount"):
@@ -240,29 +298,44 @@ def apply_public_surface(out: Path, question_ledger: dict[str, Any]) -> dict[str
 
     addressable_counts = Counter(record["kind"] for record in records if record["addressable"])
     discoverable_counts = Counter(record["kind"] for record in records if record["discoverable"])
+    activation_blocked_counts = Counter(record["kind"] for record in records if record["activationBlocked"])
     for kind in KINDS:
         addressable_counts.setdefault(kind, 0)
         discoverable_counts.setdefault(kind, 0)
+        activation_blocked_counts.setdefault(kind, 0)
         semantic_counts.setdefault(kind, 0)
 
-    discoverable_chart_ids = {
-        record["id"] for record in records if record["kind"] == "chart" and record["discoverable"]
+    discoverable_child_keys = {
+        (record["kind"], record["id"])
+        for record in records
+        if record["kind"] in CHILD_KINDS and record["discoverable"]
     }
-    addressable_chart_ids = {
-        record["id"] for record in records if record["kind"] == "chart" and record["addressable"]
+    addressable_ids_by_kind = {
+        kind: {record["id"] for record in records if record["kind"] == kind and record["addressable"]}
+        for kind in CHILD_KINDS
     }
 
-    # Remove routes that are not intentionally addressable and suppress
-    # non-prominent chart references from ordinary cards/navigation.
-    for plot_intent_id, (path, _) in chart_pages.items():
-        if plot_intent_id not in addressable_chart_ids:
-            path.unlink()
+    # Remove route files that are not intentionally addressable. Semantic graph
+    # nodes remain intact and carry activation/publication metadata.
+    pages_by_kind = {
+        "topic": topic_pages,
+        "question": question_pages,
+        "indicator": indicator_pages,
+        "chart": chart_pages,
+    }
+    for kind, pages in pages_by_kind.items():
+        for entity_id, (path, _) in pages.items():
+            if entity_id not in addressable_ids_by_kind[kind] and path.exists():
+                path.unlink()
 
+    # Suppress non-discoverable child references from ordinary cards, nearby
+    # navigation and region inventories. Region references themselves remain
+    # available because planned region shells stay structurally addressable.
     for folder in ("regions", "topics", "questions", "indicators", "charts"):
         for path in sorted((out / folder).glob("*.json")):
             page = _read_json(path)
-            rewritten = _rewrite_chart_refs(page, discoverable_chart_ids, root=True)
-            _update_chart_counts(rewritten)
+            rewritten = _rewrite_public_refs(page, discoverable_child_keys, root=True)
+            _update_public_counts(rewritten)
             _write_json(path, rewritten)
 
     record_map = {(record["kind"], record["id"]): record for record in records}
@@ -301,16 +374,18 @@ def apply_public_surface(out: Path, question_ledger: dict[str, Any]) -> dict[str
     surface = {
         "schemaVersion": SCHEMA_VERSION,
         "policy": {
-            "chart": "artifact.disposition.addressable/prominent",
-            "question": "question-publication contract",
+            "activation": "region.populated gates all child capabilities before entity-specific publication",
+            "chart": "active region + artifact.disposition.addressable/prominent",
+            "question": "active region + question-publication contract",
             "region": "all addressable; populated discoverable",
-            "topic": "addressable/discoverable pending publication ontology",
-            "indicator": "addressable/discoverable pending publication ontology",
+            "topic": "active region + temporary addressable/discoverable policy",
+            "indicator": "active region + temporary addressable/discoverable policy",
         },
         "semanticCounts": {kind: semantic_counts[kind] for kind in KINDS},
         "materializedCounts": {"chart": len(materialized_chart_ids)},
         "addressableCounts": {kind: addressable_counts[kind] for kind in KINDS},
         "discoverableCounts": {kind: discoverable_counts[kind] for kind in KINDS},
+        "activationBlockedCounts": {kind: activation_blocked_counts[kind] for kind in KINDS},
         "chartCensus": {
             "semantic": semantic_counts["chart"],
             "materialized": len(materialized_chart_ids),
@@ -330,6 +405,7 @@ def apply_public_surface(out: Path, question_ledger: dict[str, Any]) -> dict[str
         "semanticCounts": surface["semanticCounts"],
         "addressableCounts": surface["addressableCounts"],
         "discoverableCounts": surface["discoverableCounts"],
+        "activationBlockedCounts": surface["activationBlockedCounts"],
         "chartCensus": surface["chartCensus"],
     }
     for name in ("stats.json", "manifest.json"):

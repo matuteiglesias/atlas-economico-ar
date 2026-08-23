@@ -1,5 +1,6 @@
 slice_id: "nominal_stabilization"
 title: "Nominal Stabilization"
+populated: true
 mission: "Explain price dynamics, the nominal anchor, monetary conditions, FX dynamics, expectations, and BCRA operating mechanisms."
 core_scope:
   - "inflation dynamics and composition"

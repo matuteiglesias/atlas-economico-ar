@@ -1,5 +1,6 @@
 slice_id: "fiscal_regime"
 title: "Fiscal Regime"
+populated: false
 mission: "Explain revenues, spending, balances, subsidies, pensions, public financing needs, and institutional durability of the fiscal anchor."
 core_scope:
   - "primary and overall fiscal balance"

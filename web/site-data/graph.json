@@ -10,7 +10,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -23,7 +26,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "fiscal_regime",
+        "regionActivated": false,
+        "activationBlocked": false
       }
     },
     {
@@ -36,7 +42,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "household_welfare",
+        "regionActivated": false,
+        "activationBlocked": false
       }
     },
     {
@@ -49,7 +58,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "labor_incomes",
+        "regionActivated": false,
+        "activationBlocked": false
       }
     },
     {
@@ -62,7 +74,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -75,7 +90,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": false
       }
     },
     {
@@ -88,7 +106,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -101,7 +122,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -114,7 +138,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -127,7 +154,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -140,7 +170,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -153,7 +186,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -166,7 +202,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -179,7 +218,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -192,7 +234,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -205,7 +250,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -218,7 +266,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -231,7 +282,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -244,7 +298,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -257,7 +314,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -270,7 +330,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -283,7 +346,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -296,7 +362,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -309,7 +378,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -322,7 +394,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -335,7 +410,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -348,7 +426,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -361,7 +442,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -374,7 +458,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -387,7 +474,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -400,7 +490,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -413,7 +506,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -426,7 +522,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -439,7 +538,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -452,7 +554,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -465,7 +570,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -478,7 +586,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -491,7 +602,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -504,7 +618,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -517,7 +634,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -530,7 +650,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -543,7 +666,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -556,7 +682,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -569,7 +698,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -582,7 +714,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -595,7 +730,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -608,7 +746,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -621,7 +762,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -634,7 +778,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -647,7 +794,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -660,7 +810,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -673,7 +826,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -686,7 +842,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -699,7 +858,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -712,7 +874,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -725,7 +890,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -738,7 +906,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -751,7 +922,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -764,7 +938,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -777,7 +954,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -790,7 +970,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -804,7 +987,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -818,7 +1004,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -832,7 +1021,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -846,7 +1038,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -860,7 +1055,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -874,7 +1072,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -888,7 +1089,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -902,7 +1106,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -916,7 +1123,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -930,7 +1140,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -944,7 +1157,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -958,7 +1174,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -972,7 +1191,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -986,7 +1208,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1000,7 +1225,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1014,7 +1242,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1028,7 +1259,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1042,7 +1276,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1056,7 +1293,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1070,7 +1310,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1084,7 +1327,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1098,7 +1344,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1112,7 +1361,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1126,7 +1378,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1140,7 +1395,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1154,7 +1412,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1168,7 +1429,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1182,7 +1446,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1196,7 +1463,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1210,7 +1480,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1224,7 +1497,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1238,7 +1514,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1252,7 +1531,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1266,7 +1548,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1280,7 +1565,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1294,7 +1582,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1308,7 +1599,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1322,7 +1616,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1335,7 +1632,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1348,7 +1648,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1361,7 +1664,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1374,7 +1680,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1387,7 +1696,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1400,7 +1712,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1413,7 +1728,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1426,7 +1744,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1439,7 +1760,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1452,7 +1776,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1465,7 +1792,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1478,7 +1808,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1491,7 +1824,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1504,7 +1840,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1517,7 +1856,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1530,7 +1872,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1543,7 +1888,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1556,7 +1904,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1569,7 +1920,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1582,7 +1936,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1595,7 +1952,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1608,7 +1968,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1621,7 +1984,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1634,7 +2000,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1647,7 +2016,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1660,7 +2032,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1673,7 +2048,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1686,7 +2064,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1699,7 +2080,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1712,7 +2096,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1725,7 +2112,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1738,7 +2128,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1751,7 +2144,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1764,7 +2160,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1777,7 +2176,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1790,7 +2192,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1803,7 +2208,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1816,7 +2224,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1829,7 +2240,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1842,7 +2256,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1855,7 +2272,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1868,7 +2288,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1881,7 +2304,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1894,7 +2320,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1907,7 +2336,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1920,7 +2352,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1933,7 +2368,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1946,7 +2384,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1959,7 +2400,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1972,7 +2416,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1985,7 +2432,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -1998,7 +2448,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2011,7 +2464,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2024,7 +2480,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2037,7 +2496,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2050,7 +2512,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2063,7 +2528,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2076,7 +2544,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2089,7 +2560,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2102,7 +2576,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2115,7 +2592,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2128,7 +2608,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2141,7 +2624,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2154,7 +2640,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2167,7 +2656,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2180,7 +2672,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2193,7 +2688,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2206,7 +2704,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2219,7 +2720,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2232,7 +2736,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2245,7 +2752,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2258,7 +2768,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2271,7 +2784,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2284,7 +2800,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2297,7 +2816,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2310,7 +2832,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2323,7 +2848,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2336,7 +2864,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2349,7 +2880,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2362,7 +2896,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2375,7 +2912,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2388,7 +2928,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2401,7 +2944,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2414,7 +2960,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2427,7 +2976,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2440,7 +2992,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2453,7 +3008,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2466,7 +3024,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2479,7 +3040,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2492,7 +3056,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2505,7 +3072,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2518,7 +3088,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2531,7 +3104,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2544,7 +3120,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2557,7 +3136,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2570,7 +3152,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2583,7 +3168,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2596,7 +3184,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2609,7 +3200,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2622,7 +3216,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2635,7 +3232,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2648,7 +3248,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2661,7 +3264,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2674,7 +3280,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2687,7 +3296,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2700,7 +3312,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2713,7 +3328,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2726,7 +3344,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2739,7 +3360,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2752,7 +3376,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2765,7 +3392,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2778,7 +3408,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2791,7 +3424,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2804,7 +3440,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2817,7 +3456,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2830,7 +3472,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2843,7 +3488,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2856,7 +3504,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2869,7 +3520,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2882,7 +3536,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2895,7 +3552,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2908,7 +3568,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2921,7 +3584,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2934,7 +3600,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2947,7 +3616,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2960,7 +3632,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2973,7 +3648,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2986,7 +3664,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -2999,7 +3680,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3012,7 +3696,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3025,7 +3712,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3038,7 +3728,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3051,7 +3744,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3064,7 +3760,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3077,7 +3776,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3090,7 +3792,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3103,7 +3808,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3116,7 +3824,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3129,7 +3840,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3142,7 +3856,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3155,7 +3872,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3168,7 +3888,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3181,7 +3904,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3194,7 +3920,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3207,7 +3936,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3220,7 +3952,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3233,7 +3968,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3246,7 +3984,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3259,7 +4000,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3272,7 +4016,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3285,7 +4032,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3298,7 +4048,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3311,7 +4064,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3324,7 +4080,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3337,7 +4096,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "nominal_stabilization",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3350,7 +4112,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3363,7 +4128,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3376,7 +4144,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3389,7 +4160,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3402,7 +4176,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3415,7 +4192,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3428,7 +4208,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3441,7 +4224,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3454,7 +4240,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3467,7 +4256,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3480,7 +4272,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3493,7 +4288,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3506,7 +4304,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3519,7 +4320,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3532,7 +4336,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3545,7 +4352,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3558,7 +4368,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3571,7 +4384,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3584,7 +4400,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3597,7 +4416,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3610,7 +4432,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3623,7 +4448,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3636,7 +4464,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3649,7 +4480,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3662,7 +4496,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3675,7 +4512,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3688,7 +4528,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3701,7 +4544,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3714,7 +4560,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3727,7 +4576,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3740,7 +4592,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3753,7 +4608,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3766,7 +4624,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3779,7 +4640,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3792,7 +4656,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3805,7 +4672,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3818,7 +4688,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3831,7 +4704,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3844,7 +4720,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3857,7 +4736,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3870,7 +4752,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3883,7 +4768,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3896,7 +4784,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3909,7 +4800,10 @@
       "publicSurface": {
         "addressable": false,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3922,7 +4816,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3935,7 +4832,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3948,7 +4848,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3961,7 +4864,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3974,7 +4880,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -3987,7 +4896,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -4000,7 +4912,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -4013,7 +4928,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -4026,7 +4944,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": true,
-        "prominent": true
+        "prominent": true,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     },
     {
@@ -4039,7 +4960,10 @@
       "publicSurface": {
         "addressable": true,
         "discoverable": false,
-        "prominent": false
+        "prominent": false,
+        "owningRegionId": "external_financial_constraint",
+        "regionActivated": true,
+        "activationBlocked": false
       }
     }
   ],
