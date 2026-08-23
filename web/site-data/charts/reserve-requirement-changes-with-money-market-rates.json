@@ -120,6 +120,15 @@
         "snapshotSha256": {
           "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns60",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "11",
@@ -167,6 +176,16 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.peso_deposits_at_bcra": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns64",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Five-year nominal ARS bank reserve balances are dominated by nominal price-level drift and are weak as a primary analytical figure."
         },
         "source": {
           "provider": "bcra_monetarias_v4",

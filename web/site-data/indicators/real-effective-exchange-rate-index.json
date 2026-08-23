@@ -84,6 +84,16 @@
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
           "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns21",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,116.3_TCRMA_0_M_36",
@@ -112,7 +122,9 @@
             },
             "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
       }
     },
     {
@@ -147,6 +159,16 @@
         "snapshotSha256": {
           "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns54",
+          "state": "HISTORICAL",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The REER series is visually coherent and useful historical evidence through Dec 2024, and the rendering explicitly flags the stale source. Retain as historical context only; it must not be interpreted as the current real exchange-rate position until the source is refreshed."
+        },
         "source": {
           "provider": "datos_argentina",
           "providerSeriesId": "116.3_TCRMA_0_M_36",
@@ -166,7 +188,9 @@
             },
             "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
           }
-        ]
+        ],
+        "publicationStatus": "historical",
+        "qaNote": "The REER series is visually coherent and useful historical evidence through Dec 2024, and the rendering explicitly flags the stale source. Retain as historical context only; it must not be interpreted as the current real exchange-rate position until the source is refreshed."
       }
     }
   ],
@@ -212,6 +236,16 @@
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
           "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns21",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,116.3_TCRMA_0_M_36",
@@ -240,7 +274,9 @@
             },
             "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
       }
     },
     {
@@ -269,6 +305,16 @@
         "snapshotSha256": {
           "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns54",
+          "state": "HISTORICAL",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The REER series is visually coherent and useful historical evidence through Dec 2024, and the rendering explicitly flags the stale source. Retain as historical context only; it must not be interpreted as the current real exchange-rate position until the source is refreshed."
+        },
         "source": {
           "provider": "datos_argentina",
           "providerSeriesId": "116.3_TCRMA_0_M_36",
@@ -288,7 +334,9 @@
             },
             "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
           }
-        ]
+        ],
+        "publicationStatus": "historical",
+        "qaNote": "The REER series is visually coherent and useful historical evidence through Dec 2024, and the rendering explicitly flags the stale source. Retain as historical context only; it must not be interpreted as the current real exchange-rate position until the source is refreshed."
       }
     },
     {

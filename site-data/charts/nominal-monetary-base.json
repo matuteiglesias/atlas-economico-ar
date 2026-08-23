@@ -139,6 +139,16 @@
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns59",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Daily USD FX-purchase flows against the ARS monetary-base stock are not matched economic quantities and invite misleading same-day co-movement reading."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,15",
@@ -215,6 +225,17 @@
     "snapshotSha256": {
       "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
     },
+    "disposition": {
+      "plotIntentId": "pi.ns34",
+      "state": "SUPERSEDED",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": "pi.ns35",
+      "note": "The five-year nominal monetary-base level is valid source evidence but is dominated by inflation and is weak for the linked money-demand question. Prefer pi.ns35, which expresses monetary-base recovery in real terms over the stabilization window."
+    },
     "source": {
       "provider": "bcra_monetarias_v4",
       "providerSeriesId": "15",
@@ -236,6 +257,9 @@
         },
         "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
       }
-    ]
+    ],
+    "publicationStatus": "quarantine",
+    "qaNote": "The five-year nominal monetary-base level is valid source evidence but is dominated by inflation and is weak for the linked money-demand question. Prefer pi.ns35, which expresses monetary-base recovery in real terms over the stabilization window.",
+    "preferredPlotIntentId": "pi.ns35"
   }
 }

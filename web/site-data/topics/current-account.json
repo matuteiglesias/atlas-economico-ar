@@ -207,6 +207,16 @@
         "snapshotSha256": {
           "series.ar.datosgob.goods_trade_balance": "a47b7cef102d7ca2706dac42449ba84c899c15cfb36ce10f2d60dd952a038cd7"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef45",
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true,
+          "note": "Clean monthly goods-trade-balance bar chart with a meaningful zero baseline, common USD scale, and current data through Jun 2026. Positive and negative months are directly comparable without transformation or dual-axis ambiguity; retain as primary analytical evidence."
+        },
         "source": {
           "provider": "datos_argentina",
           "providerSeriesId": "74.3_ISC_0_M_19",
@@ -228,7 +238,8 @@
             },
             "snapshotSha256": "a47b7cef102d7ca2706dac42449ba84c899c15cfb36ce10f2d60dd952a038cd7"
           }
-        ]
+        ],
+        "qaNote": "Clean monthly goods-trade-balance bar chart with a meaningful zero baseline, common USD scale, and current data through Jun 2026. Positive and negative months are directly comparable without transformation or dual-axis ambiguity; retain as primary analytical evidence."
       }
     }
   ],

@@ -25,15 +25,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef17",
-      "kind": "question",
-      "slug": "how-shallow-is-argentina-s-financial-system",
-      "title": "How shallow is Argentina's financial system?",
-      "href": "/questions/how-shallow-is-argentina-s-financial-system"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.domestic_capital_market_depth",
@@ -77,14 +69,6 @@
     "rf.ef.peer_emerging_markets"
   ],
   "nearby": [
-    {
-      "id": "q.ef17",
-      "kind": "question",
-      "slug": "how-shallow-is-argentina-s-financial-system",
-      "title": "How shallow is Argentina's financial system?",
-      "href": "/questions/how-shallow-is-argentina-s-financial-system",
-      "distance": 1
-    },
     {
       "id": "ci.ef.domestic_market_depth_gdp",
       "kind": "indicator",
@@ -143,7 +127,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 3,
     "indicators": 2
   }

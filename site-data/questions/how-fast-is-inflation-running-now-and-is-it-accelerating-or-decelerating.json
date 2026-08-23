@@ -98,6 +98,15 @@
         "snapshotSha256": {
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns01",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "datos_argentina",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
@@ -157,6 +166,15 @@
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
           "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns03",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
@@ -214,6 +232,15 @@
         "snapshotSha256": {
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns53",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "datos_argentina",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
@@ -263,6 +290,15 @@
         ],
         "snapshotSha256": {
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns65",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "datos_argentina",
@@ -335,6 +371,15 @@
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
           "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns03",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
@@ -394,6 +439,15 @@
         "snapshotSha256": {
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns01",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "datos_argentina",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
@@ -443,6 +497,15 @@
         ],
         "snapshotSha256": {
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns53",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "datos_argentina",
@@ -495,6 +558,15 @@
         "snapshotSha256": {
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns65",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "datos_argentina",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
@@ -535,15 +607,24 @@
   },
   "publication": {
     "state": "PUBLIC",
-    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "reason": "has_primary_materialized_plot_evidence",
     "evidence": {
       "linkedPlotIntents": 5,
       "linkedIndicators": 4,
       "materializedPlotArtifacts": 4,
+      "primaryEvidencePlotArtifacts": 4,
       "prominentPlotArtifacts": 4,
       "quarantinedPlotArtifacts": 0,
       "historicalPlotArtifacts": 0,
+      "referencePlotArtifacts": 0,
+      "supersededPlotArtifacts": 0,
       "materializedPlotIntentIds": [
+        "pi.ns01",
+        "pi.ns03",
+        "pi.ns53",
+        "pi.ns65"
+      ],
+      "primaryEvidencePlotIntentIds": [
         "pi.ns01",
         "pi.ns03",
         "pi.ns53",
@@ -572,7 +653,7 @@
           "ci.ns.cpi_yoy",
           "ci.ns.infl_acceleration"
         ],
-        "prominentPlotIntentIds": [
+        "primaryEvidencePlotIntentIds": [
           "pi.ns01",
           "pi.ns03",
           "pi.ns53",

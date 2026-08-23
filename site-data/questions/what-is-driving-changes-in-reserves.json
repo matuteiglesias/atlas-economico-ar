@@ -162,6 +162,15 @@
         "snapshotSha256": {
           "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef47",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "1",
@@ -210,6 +219,15 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ef48",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -262,6 +280,16 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ef49",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Daily FX-purchase flows against the gross-reserves stock create a flow-stock mismatch; a future replacement should compare matched cumulative or period-change quantities."
         },
         "source": {
           "provider": "multiple",
@@ -361,6 +389,16 @@
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef49",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Daily FX-purchase flows against the gross-reserves stock create a flow-stock mismatch; a future replacement should compare matched cumulative or period-change quantities."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,1",
@@ -438,6 +476,15 @@
         "snapshotSha256": {
           "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef47",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "1",
@@ -470,18 +517,25 @@
   },
   "publication": {
     "state": "PUBLIC",
-    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "reason": "has_primary_materialized_plot_evidence",
     "evidence": {
       "linkedPlotIntents": 6,
       "linkedIndicators": 8,
       "materializedPlotArtifacts": 3,
+      "primaryEvidencePlotArtifacts": 2,
       "prominentPlotArtifacts": 2,
       "quarantinedPlotArtifacts": 1,
       "historicalPlotArtifacts": 0,
+      "referencePlotArtifacts": 0,
+      "supersededPlotArtifacts": 0,
       "materializedPlotIntentIds": [
         "pi.ef47",
         "pi.ef48",
         "pi.ef49"
+      ],
+      "primaryEvidencePlotIntentIds": [
+        "pi.ef47",
+        "pi.ef48"
       ],
       "prominentPlotIntentIds": [
         "pi.ef47",
@@ -510,7 +564,7 @@
           "ci.ef.reserve_change_monthly",
           "ci.ns.bcra_fx_purchases_daily"
         ],
-        "prominentPlotIntentIds": [
+        "primaryEvidencePlotIntentIds": [
           "pi.ef47",
           "pi.ef48"
         ]

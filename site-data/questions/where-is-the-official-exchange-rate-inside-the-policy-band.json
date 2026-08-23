@@ -111,6 +111,15 @@
         "snapshotSha256": {
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns55",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "5",
@@ -185,6 +194,15 @@
         "snapshotSha256": {
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns55",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "5",
@@ -239,15 +257,21 @@
   },
   "publication": {
     "state": "PUBLIC",
-    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "reason": "has_primary_materialized_plot_evidence",
     "evidence": {
       "linkedPlotIntents": 3,
       "linkedIndicators": 4,
       "materializedPlotArtifacts": 1,
+      "primaryEvidencePlotArtifacts": 1,
       "prominentPlotArtifacts": 1,
       "quarantinedPlotArtifacts": 0,
       "historicalPlotArtifacts": 0,
+      "referencePlotArtifacts": 0,
+      "supersededPlotArtifacts": 0,
       "materializedPlotIntentIds": [
+        "pi.ns55"
+      ],
+      "primaryEvidencePlotIntentIds": [
         "pi.ns55"
       ],
       "prominentPlotIntentIds": [
@@ -270,7 +294,7 @@
           "ci.ns.fx_band_upper",
           "ci.ns.official_fx"
         ],
-        "prominentPlotIntentIds": [
+        "primaryEvidencePlotIntentIds": [
           "pi.ns55"
         ]
       },

@@ -111,6 +111,15 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns23",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "78",
@@ -169,6 +178,15 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns25",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -234,6 +252,15 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns57",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "78",
@@ -285,6 +312,16 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns59",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Daily USD FX-purchase flows against the ARS monetary-base stock are not matched economic quantities and invite misleading same-day co-movement reading."
         },
         "source": {
           "provider": "multiple",
@@ -381,6 +418,15 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns23",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "78",
@@ -433,6 +479,16 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns59",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Daily USD FX-purchase flows against the ARS monetary-base stock are not matched economic quantities and invite misleading same-day co-movement reading."
         },
         "source": {
           "provider": "multiple",
@@ -506,6 +562,15 @@
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns25",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,5",
@@ -546,19 +611,27 @@
   },
   "publication": {
     "state": "PUBLIC",
-    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "reason": "has_primary_materialized_plot_evidence",
     "evidence": {
       "linkedPlotIntents": 6,
       "linkedIndicators": 4,
       "materializedPlotArtifacts": 4,
+      "primaryEvidencePlotArtifacts": 3,
       "prominentPlotArtifacts": 3,
       "quarantinedPlotArtifacts": 1,
       "historicalPlotArtifacts": 0,
+      "referencePlotArtifacts": 0,
+      "supersededPlotArtifacts": 0,
       "materializedPlotIntentIds": [
         "pi.ns23",
         "pi.ns25",
         "pi.ns57",
         "pi.ns59"
+      ],
+      "primaryEvidencePlotIntentIds": [
+        "pi.ns23",
+        "pi.ns25",
+        "pi.ns57"
       ],
       "prominentPlotIntentIds": [
         "pi.ns23",
@@ -584,7 +657,7 @@
           "ci.ns.monetary_base_nominal",
           "ci.ns.official_fx"
         ],
-        "prominentPlotIntentIds": [
+        "primaryEvidencePlotIntentIds": [
           "pi.ns23",
           "pi.ns25",
           "pi.ns57"

@@ -585,15 +585,6 @@
     "text": "Where is the official exchange rate inside the policy band? policy_monitoring"
   },
   {
-    "id": "q.ns10",
-    "kind": "question",
-    "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
-    "title": "How much has the peso appreciated or depreciated in real terms?",
-    "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
-    "regionId": "nominal_stabilization",
-    "text": "How much has the peso appreciated or depreciated in real terms? historical_comparison"
-  },
-  {
     "id": "q.ns11",
     "kind": "question",
     "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
@@ -691,15 +682,6 @@
     "href": "/questions/what-does-the-rise-in-dollar-deposits-mean",
     "regionId": "external_financial_constraint",
     "text": "What does the rise in dollar deposits mean? Distinguish deeper domestic intermediation from the risks created by foreign-currency balance sheets. More FX deposits can bring resident savings into the domestic system and support financial depth. Their implications depend on how those funds are invested or lent, the currency exposure of borrowers, and the liquidity and capital position of banks. dollarization_finance"
-  },
-  {
-    "id": "q.ef17",
-    "kind": "question",
-    "slug": "how-shallow-is-argentina-s-financial-system",
-    "title": "How shallow is Argentina's financial system?",
-    "href": "/questions/how-shallow-is-argentina-s-financial-system",
-    "regionId": "external_financial_constraint",
-    "text": "How shallow is Argentina's financial system? Compare bank credit and domestic capital markets with the size of the economy and a transparent peer set. Financial depth is a structural constraint behind many short-run financing problems. A shallow domestic system leaves firms and the public sector more dependent on cash flow, inflationary finance, or external markets, while also limiting the transmission of savings into investment. structural_comparison"
   },
   {
     "id": "ci.ns.cpi_monthly",

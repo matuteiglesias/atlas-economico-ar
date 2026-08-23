@@ -178,6 +178,16 @@
     "snapshotSha256": {
       "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
     },
+    "disposition": {
+      "plotIntentId": "pi.ns63",
+      "state": "HISTORICAL",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "note": "Valid policy-rate history through 2025-07-10; retain as historical evidence rather than a current-state chart."
+    },
     "source": {
       "provider": "bcra_monetarias_v4",
       "providerSeriesId": "160",

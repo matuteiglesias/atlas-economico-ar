@@ -59,13 +59,6 @@
       "slug": "is-private-credit-genuinely-deepening",
       "title": "Is private credit genuinely deepening?",
       "href": "/questions/is-private-credit-genuinely-deepening"
-    },
-    {
-      "id": "q.ef17",
-      "kind": "question",
-      "slug": "how-shallow-is-argentina-s-financial-system",
-      "title": "How shallow is Argentina's financial system?",
-      "href": "/questions/how-shallow-is-argentina-s-financial-system"
     }
   ],
   "indicators": [
@@ -147,6 +140,16 @@
           "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef30",
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true,
+          "note": "Clean single-measure real year-over-year credit-growth figure with a common scale and current data through Jun 2026. The large 2025 acceleration is economically material and visible without encoding tricks; retain as primary analytical evidence, with base effects interpreted in surrounding text rather than hidden in the chart."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,145.3_INGNACUAL_DICI_M_38",
@@ -177,7 +180,8 @@
             },
             "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
           }
-        ]
+        ],
+        "qaNote": "Clean single-measure real year-over-year credit-growth figure with a common scale and current data through Jun 2026. The large 2025 acceleration is economically material and visible without encoding tricks; retain as primary analytical evidence, with base effects interpreted in surrounding text rather than hidden in the chart."
       }
     },
     {
@@ -250,6 +254,16 @@
           "series.ar.bcra.private_credit_peso": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9",
           "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef51",
+          "state": "REFERENCE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "893,904",
@@ -280,7 +294,9 @@
             },
             "snapshotSha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
       }
     },
     {
@@ -314,6 +330,15 @@
           "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
           "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
           "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ef53",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -398,6 +423,16 @@
           "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
           "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef54",
+          "state": "REFERENCE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The credit-versus-deposit stock comparison is internally consistent, but the five-year nominal ARS scale mostly tracks price-level drift and does not by itself establish financial deepening or system depth. Retain as balance-sheet reference evidence rather than a primary analytical figure."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
@@ -428,19 +463,13 @@
             },
             "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "The credit-versus-deposit stock comparison is internally consistent, but the five-year nominal ARS scale mostly tracks price-level drift and does not by itself establish financial deepening or system depth. Retain as balance-sheet reference evidence rather than a primary analytical figure."
       }
     }
   ],
   "nearby": [
-    {
-      "id": "q.ef17",
-      "kind": "question",
-      "slug": "how-shallow-is-argentina-s-financial-system",
-      "title": "How shallow is Argentina's financial system?",
-      "href": "/questions/how-shallow-is-argentina-s-financial-system",
-      "distance": 1
-    },
     {
       "id": "q.ef14",
       "kind": "question",
@@ -492,7 +521,7 @@
   ],
   "counts": {
     "connections": 2,
-    "questions": 2,
+    "questions": 1,
     "indicators": 6,
     "charts": 11
   }
