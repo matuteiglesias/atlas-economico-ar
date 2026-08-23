@@ -148,18 +148,17 @@ def compile_site(scope: dict[str, Any], verticals: list[dict[str, list[dict[str,
 
     entities: dict[str, dict[str, Any]] = {}
 
-    # Regions exist because scope says they exist, even before a vertical is populated.
-    # Canonical scope can declare publication activation explicitly; the legacy
-    # content-derived fallback is retained for older compiler fixtures/bundles.
-    populated_slices = {x.get("slice_id") for x in raws["concepts"] if x.get("slice_id")}
+    # Regions exist because scope says they exist, even before a vertical is activated.
+    # Activation is explicit publication metadata. Missing metadata fails closed:
+    # semantic richness must never activate a public region by itself.
     for sid, sraw in scope.get("slices", {}).items():
         rr = dict(sraw)
         rr["id"] = sid
-        declared_populated = rr.get("populated")
-        if declared_populated is not None and not isinstance(declared_populated, bool):
-            raise ValueError(f"Region {sid}: populated must be boolean when declared")
+        declared_populated = rr.get("populated", False)
+        if not isinstance(declared_populated, bool):
+            raise ValueError(f"Region {sid}: populated must be boolean")
         ent = _make_entity("region", rr, editorial)
-        ent["populated"] = declared_populated if declared_populated is not None else sid in populated_slices
+        ent["populated"] = declared_populated
         entities[sid] = ent
 
     for raw in raws["concepts"]:
