@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BarChart3, Building2, CircleHelp, Compass, Database, Globe2, Home, Landmark, Search, Tag, Users } from "lucide-react";
+import { BarChart3, Building2, CircleHelp, Compass, Database, Globe2, Home, Landmark, Search, Users } from "lucide-react";
 import type { EntityLink, Navigation, TopicPage } from "@/lib/types";
 import { getNavigation, getSearchIndex } from "@/lib/site-data";
 import { HeaderControls } from "./shell-controls";
@@ -16,18 +16,17 @@ export async function SiteHeader() {
 
 export function ExploreRail({ navigation, activeRegion }: { navigation: Navigation; activeRegion: string }) {
   const quick = [
-    [CircleHelp, "All Questions", "/atlas#questions"], [BarChart3, "All Charts", "/atlas#charts"],
-    [Database, "All Indicators", "/atlas#indicators"], [Tag, "Topics", "/atlas#topics"],
-    [Search, "Search", "?search=open"], [Compass, "Atlas Map", "/atlas"],
+    [Search, "Search", "?search=open"],
+    [Compass, "Browse Atlas", "/atlas"],
   ] as const;
   return <aside className="explore-rail" aria-label="Explore the atlas">
     <p className="rail-label">Explore</p>
     <nav aria-label="Economic areas" className="area-list">{navigation.regions.map((area, index) => {
+      if (!area.populated) return null;
       const Icon = areaIcons[index];
       return <Link key={area.slug} href={area.href} className={area.slug === activeRegion ? "active" : ""}><Icon /><span>{area.title}</span></Link>;
     })}</nav>
     <div className="quick"><p className="rail-label">Quick links</p>{quick.map(([Icon, label, href]) => <Link key={label} href={href}><Icon /><span>{label}</span></Link>)}</div>
-    <div id="about" className="about"><div><CircleHelp /> <strong>About this atlas</strong></div><p>A map of the questions, concepts and measurements that help explain the Argentine economy.</p></div>
   </aside>;
 }
 
