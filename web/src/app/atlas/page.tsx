@@ -33,7 +33,7 @@ export default async function Atlas() {
     <section className="content-section">
       <header><h2>Atlas scope</h2></header>
       <p className="browse-dek">The conceptual map spans six economic areas. The remaining areas stay visible as roadmap context until they have public content worth navigating to.</p>
-      <div className="chart-grid">{plannedRegions.map((region) => <article className="chart-card" key={region.slug}><div className="chart-title"><p>Planned area</p><h3>{region.title}</h3></div></article>)}</div>
+      <div className="chart-grid">{plannedRegions.map((region) => <article className="chart-card planned-surface" data-surface-state="planned" key={region.slug}><div className="chart-title"><p>Planned area</p><h3>{region.title}</h3></div></article>)}</div>
     </section>
   </main></>;
 }
