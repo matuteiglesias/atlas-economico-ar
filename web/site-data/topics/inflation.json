@@ -201,6 +201,15 @@
         "snapshotSha256": {
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns01",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "datos_argentina",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
@@ -259,6 +268,15 @@
         "snapshotSha256": {
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
           "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns03",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -320,6 +338,15 @@
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
           "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns04",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
@@ -379,6 +406,15 @@
         "snapshotSha256": {
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns09",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -461,6 +497,15 @@
           "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9",
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns39",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
@@ -524,6 +569,16 @@
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns40",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The rendered chart overlays a sparse monthly real-money stock/index with noisy daily FX-purchase flows on a second axis. The frequency and stock-flow mismatch invites unsupported same-period co-movement interpretation; quarantine until the quantities are transformed to a matched temporal and economic grain."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
@@ -565,7 +620,9 @@
             },
             "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "The rendered chart overlays a sparse monthly real-money stock/index with noisy daily FX-purchase flows on a second axis. The frequency and stock-flow mismatch invites unsupported same-period co-movement interpretation; quarantine until the quantities are transformed to a matched temporal and economic grain."
       }
     },
     {
@@ -597,6 +654,15 @@
           "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
           "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns41",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -670,6 +736,15 @@
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns50",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,5",
@@ -727,6 +802,15 @@
         "snapshotSha256": {
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns53",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "datos_argentina",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
@@ -776,6 +860,15 @@
         ],
         "snapshotSha256": {
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns65",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "datos_argentina",

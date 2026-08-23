@@ -1,0 +1,448 @@
+{
+  "schemaVersion": "0.1",
+  "defaultRule": "UNREVIEWED_RETAINS_LEGACY_PUBLISH",
+  "summary": {
+    "plotArtifactCount": 41,
+    "reviewedCount": 18,
+    "prominentCount": 27,
+    "primaryEvidenceCount": 27,
+    "stateCounts": {
+      "APPROVED": 4,
+      "HISTORICAL": 3,
+      "QUARANTINE": 5,
+      "REFERENCE": 3,
+      "SUPERSEDED": 3,
+      "UNREVIEWED": 23
+    }
+  },
+  "plots": [
+    {
+      "plotIntentId": "pi.ef30",
+      "state": "APPROVED",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null,
+      "note": "Clean single-measure real year-over-year credit-growth figure with a common scale and current data through Jun 2026. The large 2025 acceleration is economically material and visible without encoding tricks; retain as primary analytical evidence, with base effects interpreted in surrounding text rather than hidden in the chart."
+    },
+    {
+      "plotIntentId": "pi.ef33",
+      "state": "APPROVED",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null,
+      "note": "Rendered synthesis is legible and economically coherent. The USD deposit stock and deposit share answer distinct scale and composition parts of the same question; both axes are explicit, and the mixed-frequency encoding does not imply a common quantitative scale. Retain as a curated synthesis while keeping the single-measure figures available."
+    },
+    {
+      "plotIntentId": "pi.ef45",
+      "state": "APPROVED",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null,
+      "note": "Clean monthly goods-trade-balance bar chart with a meaningful zero baseline, common USD scale, and current data through Jun 2026. Positive and negative months are directly comparable without transformation or dual-axis ambiguity; retain as primary analytical evidence."
+    },
+    {
+      "plotIntentId": "pi.ef46",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ef47",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ef48",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ef49",
+      "state": "QUARANTINE",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": null,
+      "note": "Daily FX-purchase flows against the gross-reserves stock create a flow-stock mismatch; a future replacement should compare matched cumulative or period-change quantities."
+    },
+    {
+      "plotIntentId": "pi.ef50",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ef51",
+      "state": "REFERENCE",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": null,
+      "note": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
+    },
+    {
+      "plotIntentId": "pi.ef52",
+      "state": "REFERENCE",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": null,
+      "note": "Valid provider-consistent decomposition of private deposits by currency, but five-year nominal ARS levels are weak primary evidence in a high-inflation period. Retain as reference; pi.ef50 and pi.ef53 give cleaner USD-level and currency-share evidence."
+    },
+    {
+      "plotIntentId": "pi.ef53",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ef54",
+      "state": "REFERENCE",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": null,
+      "note": "The credit-versus-deposit stock comparison is internally consistent, but the five-year nominal ARS scale mostly tracks price-level drift and does not by itself establish financial deepening or system depth. Retain as balance-sheet reference evidence rather than a primary analytical figure."
+    },
+    {
+      "plotIntentId": "pi.ns01",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns03",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns04",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns09",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns21",
+      "state": "QUARANTINE",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": null,
+      "note": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
+    },
+    {
+      "plotIntentId": "pi.ns23",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns25",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns31",
+      "state": "HISTORICAL",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": null,
+      "note": "Valid historical comparison only. The BCRA policy-rate input ends on 2025-07-10 and must not be presented as evidence of the current policy stance."
+    },
+    {
+      "plotIntentId": "pi.ns34",
+      "state": "SUPERSEDED",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": "pi.ns35",
+      "note": "The five-year nominal monetary-base level is valid source evidence but is dominated by inflation and is weak for the linked money-demand question. Prefer pi.ns35, which expresses monetary-base recovery in real terms over the stabilization window."
+    },
+    {
+      "plotIntentId": "pi.ns35",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns36",
+      "state": "APPROVED",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null,
+      "note": "The rendered nominal-versus-real M2 synthesis is analytically useful: the nominal stock and real index are explicitly separated by labeled axes, exposing how strong nominal growth differs from real remonetization. Mixed daily/monthly frequency remains a review hazard, but the rendering does not conceal it or imply a shared quantitative scale."
+    },
+    {
+      "plotIntentId": "pi.ns39",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns40",
+      "state": "QUARANTINE",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": null,
+      "note": "The rendered chart overlays a sparse monthly real-money stock/index with noisy daily FX-purchase flows on a second axis. The frequency and stock-flow mismatch invites unsupported same-period co-movement interpretation; quarantine until the quantities are transformed to a matched temporal and economic grain."
+    },
+    {
+      "plotIntentId": "pi.ns41",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns43",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns50",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns53",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns54",
+      "state": "HISTORICAL",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": null,
+      "note": "The REER series is visually coherent and useful historical evidence through Dec 2024, and the rendering explicitly flags the stale source. Retain as historical context only; it must not be interpreted as the current real exchange-rate position until the source is refreshed."
+    },
+    {
+      "plotIntentId": "pi.ns55",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns56",
+      "state": "SUPERSEDED",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": "pi.ns36",
+      "note": "The five-year nominal transactional-M2 level is valid source evidence but is dominated by the price level and is weak primary evidence about remonetization. Prefer pi.ns36, which retains the nominal series while pairing it with an explicit real index over the stabilization period."
+    },
+    {
+      "plotIntentId": "pi.ns57",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns58",
+      "state": "SUPERSEDED",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": "pi.ns41",
+      "note": "Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the existing common-base real-index comparison pi.ns41 for analytical publication."
+    },
+    {
+      "plotIntentId": "pi.ns59",
+      "state": "QUARANTINE",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": null,
+      "note": "Daily USD FX-purchase flows against the ARS monetary-base stock are not matched economic quantities and invite misleading same-day co-movement reading."
+    },
+    {
+      "plotIntentId": "pi.ns60",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns61",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns62",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    },
+    {
+      "plotIntentId": "pi.ns63",
+      "state": "HISTORICAL",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": null,
+      "note": "Valid policy-rate history through 2025-07-10; retain as historical evidence rather than a current-state chart."
+    },
+    {
+      "plotIntentId": "pi.ns64",
+      "state": "QUARANTINE",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": null,
+      "note": "Five-year nominal ARS bank reserve balances are dominated by nominal price-level drift and are weak as a primary analytical figure."
+    },
+    {
+      "plotIntentId": "pi.ns65",
+      "state": "UNREVIEWED",
+      "source": "legacy_default_publish",
+      "reviewed": false,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "canonicalPlotIntentId": null
+    }
+  ]
+}

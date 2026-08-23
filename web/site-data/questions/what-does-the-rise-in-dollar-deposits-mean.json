@@ -139,6 +139,16 @@
           "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
           "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef33",
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true,
+          "note": "Rendered synthesis is legible and economically coherent. The USD deposit stock and deposit share answer distinct scale and composition parts of the same question; both axes are explicit, and the mixed-frequency encoding does not imply a common quantitative scale. Retain as a curated synthesis while keeping the single-measure figures available."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "108,1003,981",
@@ -180,7 +190,8 @@
             },
             "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
           }
-        ]
+        ],
+        "qaNote": "Rendered synthesis is legible and economically coherent. The USD deposit stock and deposit share answer distinct scale and composition parts of the same question; both axes are explicit, and the mixed-frequency encoding does not imply a common quantitative scale. Retain as a curated synthesis while keeping the single-measure figures available."
       }
     },
     {
@@ -221,6 +232,15 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ef50",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -274,6 +294,16 @@
           "series.ar.bcra.private_deposits_peso": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad",
           "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef52",
+          "state": "REFERENCE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Valid provider-consistent decomposition of private deposits by currency, but five-year nominal ARS levels are weak primary evidence in a high-inflation period. Retain as reference; pi.ef50 and pi.ef53 give cleaner USD-level and currency-share evidence."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "992,1003",
@@ -304,7 +334,9 @@
             },
             "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "Valid provider-consistent decomposition of private deposits by currency, but five-year nominal ARS levels are weak primary evidence in a high-inflation period. Retain as reference; pi.ef50 and pi.ef53 give cleaner USD-level and currency-share evidence."
       }
     },
     {
@@ -338,6 +370,15 @@
           "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
           "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
           "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ef53",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -454,6 +495,15 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef50",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "108",
@@ -510,6 +560,15 @@
           "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
           "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
           "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ef53",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -597,6 +656,16 @@
           "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
           "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef33",
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true,
+          "note": "Rendered synthesis is legible and economically coherent. The USD deposit stock and deposit share answer distinct scale and composition parts of the same question; both axes are explicit, and the mixed-frequency encoding does not imply a common quantitative scale. Retain as a curated synthesis while keeping the single-measure figures available."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "108,1003,981",
@@ -638,7 +707,8 @@
             },
             "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
           }
-        ]
+        ],
+        "qaNote": "Rendered synthesis is legible and economically coherent. The USD deposit stock and deposit share answer distinct scale and composition parts of the same question; both axes are explicit, and the mixed-frequency encoding does not imply a common quantitative scale. Retain as a curated synthesis while keeping the single-measure figures available."
       }
     },
     {
@@ -657,24 +727,31 @@
   },
   "publication": {
     "state": "PUBLIC",
-    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "reason": "has_primary_materialized_plot_evidence",
     "evidence": {
       "linkedPlotIntents": 6,
       "linkedIndicators": 8,
       "materializedPlotArtifacts": 4,
-      "prominentPlotArtifacts": 4,
+      "primaryEvidencePlotArtifacts": 3,
+      "prominentPlotArtifacts": 3,
       "quarantinedPlotArtifacts": 0,
       "historicalPlotArtifacts": 0,
+      "referencePlotArtifacts": 1,
+      "supersededPlotArtifacts": 0,
       "materializedPlotIntentIds": [
         "pi.ef33",
         "pi.ef50",
         "pi.ef52",
         "pi.ef53"
       ],
+      "primaryEvidencePlotIntentIds": [
+        "pi.ef33",
+        "pi.ef50",
+        "pi.ef53"
+      ],
       "prominentPlotIntentIds": [
         "pi.ef33",
         "pi.ef50",
-        "pi.ef52",
         "pi.ef53"
       ],
       "hasDek": true,
@@ -699,10 +776,9 @@
           "ci.ef.private_deposits_fx_ars_equivalent",
           "ci.ef.private_deposits_peso_ars"
         ],
-        "prominentPlotIntentIds": [
+        "primaryEvidencePlotIntentIds": [
           "pi.ef33",
           "pi.ef50",
-          "pi.ef52",
           "pi.ef53"
         ]
       },

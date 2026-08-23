@@ -67,6 +67,15 @@
           "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
           "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef53",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
@@ -169,6 +178,15 @@
           "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
           "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef53",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
@@ -223,14 +241,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "q.ef17",
-      "kind": "question",
-      "slug": "how-shallow-is-argentina-s-financial-system",
-      "title": "How shallow is Argentina's financial system?",
-      "href": "/questions/how-shallow-is-argentina-s-financial-system",
-      "distance": 2
     },
     {
       "id": "q.ef14",

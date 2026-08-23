@@ -60,6 +60,15 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns57",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "78",
@@ -123,6 +132,15 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns57",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "bcra_monetarias_v4",

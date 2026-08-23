@@ -32,13 +32,6 @@
       "slug": "is-private-credit-genuinely-deepening",
       "title": "Is private credit genuinely deepening?",
       "href": "/questions/is-private-credit-genuinely-deepening"
-    },
-    {
-      "id": "q.ef17",
-      "kind": "question",
-      "slug": "how-shallow-is-argentina-s-financial-system",
-      "title": "How shallow is Argentina's financial system?",
-      "href": "/questions/how-shallow-is-argentina-s-financial-system"
     }
   ],
   "topics": [
@@ -77,14 +70,6 @@
     "rf.ef.peer_emerging_markets"
   ],
   "nearby": [
-    {
-      "id": "q.ef17",
-      "kind": "question",
-      "slug": "how-shallow-is-argentina-s-financial-system",
-      "title": "How shallow is Argentina's financial system?",
-      "href": "/questions/how-shallow-is-argentina-s-financial-system",
-      "distance": 1
-    },
     {
       "id": "q.ef14",
       "kind": "question",
@@ -143,7 +128,7 @@
     }
   ],
   "counts": {
-    "questions": 2,
+    "questions": 1,
     "topics": 3,
     "indicators": 1
   }

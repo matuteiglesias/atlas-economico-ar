@@ -143,6 +143,16 @@
           "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af",
           "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns31",
+          "state": "HISTORICAL",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Valid historical comparison only. The BCRA policy-rate input ends on 2025-07-10 and must not be presented as evidence of the current policy stance."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "160,11",
@@ -257,6 +267,15 @@
         "snapshotSha256": {
           "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns60",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "11",
@@ -304,6 +323,15 @@
         "snapshotSha256": {
           "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns61",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "44",
@@ -350,6 +378,16 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns63",
+          "state": "HISTORICAL",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Valid policy-rate history through 2025-07-10; retain as historical evidence rather than a current-state chart."
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -399,6 +437,16 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.peso_deposits_at_bcra": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns64",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Five-year nominal ARS bank reserve balances are dominated by nominal price-level drift and are weak as a primary analytical figure."
         },
         "source": {
           "provider": "bcra_monetarias_v4",

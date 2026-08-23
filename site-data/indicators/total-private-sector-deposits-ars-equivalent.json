@@ -63,6 +63,16 @@
           "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
           "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef54",
+          "state": "REFERENCE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The credit-versus-deposit stock comparison is internally consistent, but the five-year nominal ARS scale mostly tracks price-level drift and does not by itself establish financial deepening or system depth. Retain as balance-sheet reference evidence rather than a primary analytical figure."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
@@ -93,7 +103,9 @@
             },
             "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "The credit-versus-deposit stock comparison is internally consistent, but the five-year nominal ARS scale mostly tracks price-level drift and does not by itself establish financial deepening or system depth. Retain as balance-sheet reference evidence rather than a primary analytical figure."
       }
     }
   ],
@@ -139,6 +151,16 @@
           "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
           "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef54",
+          "state": "REFERENCE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The credit-versus-deposit stock comparison is internally consistent, but the five-year nominal ARS scale mostly tracks price-level drift and does not by itself establish financial deepening or system depth. Retain as balance-sheet reference evidence rather than a primary analytical figure."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
@@ -169,16 +191,10 @@
             },
             "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "The credit-versus-deposit stock comparison is internally consistent, but the five-year nominal ARS scale mostly tracks price-level drift and does not by itself establish financial deepening or system depth. Retain as balance-sheet reference evidence rather than a primary analytical figure."
       }
-    },
-    {
-      "id": "q.ef17",
-      "kind": "question",
-      "slug": "how-shallow-is-argentina-s-financial-system",
-      "title": "How shallow is Argentina's financial system?",
-      "href": "/questions/how-shallow-is-argentina-s-financial-system",
-      "distance": 2
     },
     {
       "id": "q.ef14",

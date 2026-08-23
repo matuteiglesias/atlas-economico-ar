@@ -159,6 +159,15 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef50",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "108",
@@ -213,6 +222,16 @@
       "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c",
       "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
     },
+    "disposition": {
+      "plotIntentId": "pi.ef33",
+      "state": "APPROVED",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": true,
+      "primaryEvidence": true,
+      "note": "Rendered synthesis is legible and economically coherent. The USD deposit stock and deposit share answer distinct scale and composition parts of the same question; both axes are explicit, and the mixed-frequency encoding does not imply a common quantitative scale. Retain as a curated synthesis while keeping the single-measure figures available."
+    },
     "source": {
       "provider": "multiple",
       "providerSeriesId": "108,1003,981",
@@ -254,6 +273,7 @@
         },
         "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
       }
-    ]
+    ],
+    "qaNote": "Rendered synthesis is legible and economically coherent. The USD deposit stock and deposit share answer distinct scale and composition parts of the same question; both axes are explicit, and the mixed-frequency encoding does not imply a common quantitative scale. Retain as a curated synthesis while keeping the single-measure figures available."
   }
 }

@@ -162,6 +162,15 @@
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
           "series.ar.bcra.cpi_yoy": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns04",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
@@ -317,6 +326,15 @@
         "snapshotSha256": {
           "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns61",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "44",
@@ -365,6 +383,15 @@
         "snapshotSha256": {
           "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2",
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns62",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -422,6 +449,16 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns63",
+          "state": "HISTORICAL",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Valid policy-rate history through 2025-07-10; retain as historical evidence rather than a current-state chart."
         },
         "source": {
           "provider": "bcra_monetarias_v4",

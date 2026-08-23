@@ -77,6 +77,16 @@
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
           "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns21",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,116.3_TCRMA_0_M_36",
@@ -105,7 +115,9 @@
             },
             "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
       }
     },
     {
@@ -135,6 +147,15 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns25",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -192,6 +213,15 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns55",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -261,6 +291,15 @@
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns25",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,5",
@@ -322,6 +361,16 @@
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
           "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns21",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,116.3_TCRMA_0_M_36",
@@ -350,7 +399,9 @@
             },
             "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
       }
     },
     {
@@ -386,6 +437,15 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns55",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "bcra_monetarias_v4",

@@ -171,6 +171,15 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns23",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "78",
@@ -229,6 +238,15 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns25",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -294,6 +312,17 @@
         "snapshotSha256": {
           "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns34",
+          "state": "SUPERSEDED",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "canonicalPlotIntentId": "pi.ns35",
+          "note": "The five-year nominal monetary-base level is valid source evidence but is dominated by inflation and is weak for the linked money-demand question. Prefer pi.ns35, which expresses monetary-base recovery in real terms over the stabilization window."
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "15",
@@ -315,7 +344,10 @@
             },
             "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "The five-year nominal monetary-base level is valid source evidence but is dominated by inflation and is weak for the linked money-demand question. Prefer pi.ns35, which expresses monetary-base recovery in real terms over the stabilization window.",
+        "preferredPlotIntentId": "pi.ns35"
       }
     },
     {
@@ -344,6 +376,15 @@
         "snapshotSha256": {
           "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns35",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -406,6 +447,16 @@
           "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9",
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns36",
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true,
+          "note": "The rendered nominal-versus-real M2 synthesis is analytically useful: the nominal stock and real index are explicitly separated by labeled axes, exposing how strong nominal growth differs from real remonetization. Mixed daily/monthly frequency remains a review hazard, but the rendering does not conceal it or imply a shared quantitative scale."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
@@ -436,7 +487,8 @@
             },
             "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
           }
-        ]
+        ],
+        "qaNote": "The rendered nominal-versus-real M2 synthesis is analytically useful: the nominal stock and real index are explicitly separated by labeled axes, exposing how strong nominal growth differs from real remonetization. Mixed daily/monthly frequency remains a review hazard, but the rendering does not conceal it or imply a shared quantitative scale."
       }
     },
     {
@@ -480,6 +532,15 @@
         "snapshotSha256": {
           "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9",
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns39",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -544,6 +605,16 @@
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns40",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The rendered chart overlays a sparse monthly real-money stock/index with noisy daily FX-purchase flows on a second axis. The frequency and stock-flow mismatch invites unsupported same-period co-movement interpretation; quarantine until the quantities are transformed to a matched temporal and economic grain."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
@@ -585,7 +656,9 @@
             },
             "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "The rendered chart overlays a sparse monthly real-money stock/index with noisy daily FX-purchase flows on a second axis. The frequency and stock-flow mismatch invites unsupported same-period co-movement interpretation; quarantine until the quantities are transformed to a matched temporal and economic grain."
       }
     },
     {
@@ -617,6 +690,15 @@
           "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
           "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns41",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -700,6 +782,15 @@
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
           "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns43",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
@@ -776,6 +867,17 @@
         "snapshotSha256": {
           "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns56",
+          "state": "SUPERSEDED",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "canonicalPlotIntentId": "pi.ns36",
+          "note": "The five-year nominal transactional-M2 level is valid source evidence but is dominated by the price level and is weak primary evidence about remonetization. Prefer pi.ns36, which retains the nominal series while pairing it with an explicit real index over the stabilization period."
+        },
         "source": {
           "provider": "bcra_monetarias_v4",
           "providerSeriesId": "197",
@@ -797,7 +899,10 @@
             },
             "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "The five-year nominal transactional-M2 level is valid source evidence but is dominated by the price level and is weak primary evidence about remonetization. Prefer pi.ns36, which retains the nominal series while pairing it with an explicit real index over the stabilization period.",
+        "preferredPlotIntentId": "pi.ns36"
       }
     },
     {
@@ -824,6 +929,15 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns57",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -877,6 +991,17 @@
           "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
           "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns58",
+          "state": "SUPERSEDED",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "canonicalPlotIntentId": "pi.ns41",
+          "note": "Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the existing common-base real-index comparison pi.ns41 for analytical publication."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,197",
@@ -909,7 +1034,7 @@
           }
         ],
         "publicationStatus": "quarantine",
-        "qaNote": "Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the common-base real-index comparison for analytical publication.",
+        "qaNote": "Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the existing common-base real-index comparison pi.ns41 for analytical publication.",
         "preferredPlotIntentId": "pi.ns41"
       }
     },
@@ -940,6 +1065,16 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns59",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Daily USD FX-purchase flows against the ARS monetary-base stock are not matched economic quantities and invite misleading same-day co-movement reading."
         },
         "source": {
           "provider": "multiple",

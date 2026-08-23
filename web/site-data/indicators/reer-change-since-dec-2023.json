@@ -65,14 +65,6 @@
       "distance": 1
     },
     {
-      "id": "q.ns10",
-      "kind": "question",
-      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
-      "title": "How much has the peso appreciated or depreciated in real terms?",
-      "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
-      "distance": 2
-    },
-    {
       "id": "ef.current_account",
       "kind": "topic",
       "slug": "current-account",

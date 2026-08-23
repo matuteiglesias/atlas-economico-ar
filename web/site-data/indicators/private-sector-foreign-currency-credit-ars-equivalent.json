@@ -63,6 +63,16 @@
           "series.ar.bcra.private_credit_peso": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9",
           "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef51",
+          "state": "REFERENCE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "893,904",
@@ -93,7 +103,9 @@
             },
             "snapshotSha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
       }
     }
   ],
@@ -139,6 +151,16 @@
           "series.ar.bcra.private_credit_peso": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9",
           "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
         },
+        "disposition": {
+          "plotIntentId": "pi.ef51",
+          "state": "REFERENCE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "893,904",
@@ -169,16 +191,10 @@
             },
             "snapshotSha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
       }
-    },
-    {
-      "id": "q.ef17",
-      "kind": "question",
-      "slug": "how-shallow-is-argentina-s-financial-system",
-      "title": "How shallow is Argentina's financial system?",
-      "href": "/questions/how-shallow-is-argentina-s-financial-system",
-      "distance": 2
     },
     {
       "id": "q.ef14",

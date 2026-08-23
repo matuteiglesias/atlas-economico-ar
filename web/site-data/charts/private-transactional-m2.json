@@ -145,6 +145,17 @@
           "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
           "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns58",
+          "state": "SUPERSEDED",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "canonicalPlotIntentId": "pi.ns41",
+          "note": "Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the existing common-base real-index comparison pi.ns41 for analytical publication."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,197",
@@ -177,7 +188,7 @@
           }
         ],
         "publicationStatus": "quarantine",
-        "qaNote": "Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the common-base real-index comparison for analytical publication.",
+        "qaNote": "Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the existing common-base real-index comparison pi.ns41 for analytical publication.",
         "preferredPlotIntentId": "pi.ns41"
       }
     },
@@ -214,6 +225,17 @@
     "snapshotSha256": {
       "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
     },
+    "disposition": {
+      "plotIntentId": "pi.ns56",
+      "state": "SUPERSEDED",
+      "source": "curation_review",
+      "reviewed": true,
+      "addressable": true,
+      "prominent": false,
+      "primaryEvidence": false,
+      "canonicalPlotIntentId": "pi.ns36",
+      "note": "The five-year nominal transactional-M2 level is valid source evidence but is dominated by the price level and is weak primary evidence about remonetization. Prefer pi.ns36, which retains the nominal series while pairing it with an explicit real index over the stabilization period."
+    },
     "source": {
       "provider": "bcra_monetarias_v4",
       "providerSeriesId": "197",
@@ -235,6 +257,9 @@
         },
         "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
       }
-    ]
+    ],
+    "publicationStatus": "quarantine",
+    "qaNote": "The five-year nominal transactional-M2 level is valid source evidence but is dominated by the price level and is weak primary evidence about remonetization. Prefer pi.ns36, which retains the nominal series while pairing it with an explicit real index over the stabilization period.",
+    "preferredPlotIntentId": "pi.ns36"
   }
 }

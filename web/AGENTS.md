@@ -4,6 +4,7 @@ Purpose: harden the Atlas as a usable analytical experience, not merely a static
 
 Read first:
 
+- `CONTRACT_AUTHORITY.md`
 - `web/README.md`
 - `web/package.json`
 - `scripts/build-publication.py`
@@ -25,6 +26,8 @@ Do **not** assume every QuestionIntent, PlotIntent, indicator, or concept deserv
 Questions in particular must earn public prominence. Preserve useful semantic inventory while allowing weak/redundant/template questions to be withheld, merged, redirected, or treated as reference material by an explicit publication contract.
 
 Do not delete semantic material just to make route counts smaller.
+
+For materialized figures, the compiled `artifact.disposition` capabilities are authoritative for addressability, prominence and primary-evidence use. UX code and browser tests must not reconstruct those decisions from curation states or the legacy `publicationStatus` compatibility field.
 
 ## Battle-test method
 
@@ -56,19 +59,11 @@ Classify findings rather than reporting vague polish issues:
 - `ACCESSIBILITY_BREAK` — keyboard, labels, semantics, focus, contrast, or alternative text prevents use.
 - `VISUAL_REGRESSION` — layout/rendered chart changes materially without intended UX benefit.
 
-## Question publication contract to implement
+## Question publication contract
 
-QuestionIntent identity and public route eligibility must become separate concerns.
+QuestionIntent identity and public route eligibility are separate concerns.
 
-The eventual compiler contract should support a question being retained in the semantic graph while not being promoted as a first-class public route.
-
-A question should normally be **PUBLIC** only if all are true:
-
-1. it is semantically distinct enough to justify its own user entry point;
-2. it has at least one useful evidence path (materialized PlotArtifact and/or strong indicator evidence) that can actually help answer it;
-3. its page provides meaningful context rather than a metadata-only shell;
-4. it is not clearly dominated by another question that should be canonical;
-5. its public status is compatible with the publication status of its evidence.
+The compiler/publication contract may retain a question in the semantic graph while withholding it from first-class public routes. A question normally becomes **PUBLIC** only when the publication boundary identifies at least one materialized PlotArtifact with `disposition.primaryEvidence=true`, unless an explicit validated question-publication override says otherwise.
 
 Likely non-public states:
 
@@ -76,7 +71,7 @@ Likely non-public states:
 - `SUPERSEDED` — dominated by a named canonical question;
 - `HOLD` — potentially valuable, but evidence/page contract is not mature enough for publication.
 
-Do not invent the final field/schema casually; implement it once in the compiler/publication boundary with validation and tests.
+Do not invent a parallel field/schema in the frontend. Change the producer-owned publication contract with validation and tests if the existing model is genuinely insufficient.
 
 ## Playwright contract
 

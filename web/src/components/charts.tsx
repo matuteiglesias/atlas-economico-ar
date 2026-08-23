@@ -22,7 +22,7 @@ function PlotArtifactImage({ artifact }: { artifact: PlotArtifactRef }) {
 export function GenericChartPlaceholder() { return <div className="generic-chart"><span /><span /><span /><span /></div>; }
 
 export function isProminentChart(item: EntityLink) {
-  return item.artifact?.publicationStatus !== "quarantine";
+  return item.artifact ? item.artifact.disposition.prominent : true;
 }
 
 export function ChartPreview({ item }: { item: EntityLink }) {
@@ -34,11 +34,18 @@ export function ChartPreview({ item }: { item: EntityLink }) {
 }
 
 function artifactCaption(artifact: PlotArtifactRef) {
-  if (artifact.publicationStatus === "quarantine") {
-    return `Editorial QA: quarantined${artifact.qaNote ? ` · ${artifact.qaNote}` : ""}`;
+  const { disposition } = artifact;
+  if (disposition.state === "QUARANTINE") {
+    return `Editorial QA: quarantined${disposition.note ? ` · ${disposition.note}` : ""}`;
+  }
+  if (disposition.state === "SUPERSEDED") {
+    return `Superseded evidence${disposition.note ? ` · ${disposition.note}` : ""}`;
+  }
+  if (disposition.state === "REFERENCE") {
+    return `Reference evidence · Data through ${artifact.dataAsOf}`;
   }
   const stale = artifact.freshnessState === "stale_warning" ? " · stale source snapshot" : "";
-  const historical = artifact.publicationStatus === "historical" ? "Historical evidence · " : "";
+  const historical = disposition.state === "HISTORICAL" ? "Historical evidence · " : "";
   return `${historical}Data through ${artifact.dataAsOf}${stale}`;
 }
 

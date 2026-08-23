@@ -187,13 +187,6 @@
       "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band"
     },
     {
-      "id": "q.ns10",
-      "kind": "question",
-      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
-      "title": "How much has the peso appreciated or depreciated in real terms?",
-      "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms"
-    },
-    {
       "id": "q.ns11",
       "kind": "question",
       "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
@@ -245,6 +238,15 @@
         "snapshotSha256": {
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns09",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -355,6 +357,16 @@
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
           "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns21",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,116.3_TCRMA_0_M_36",
@@ -383,7 +395,9 @@
             },
             "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
           }
-        ]
+        ],
+        "publicationStatus": "quarantine",
+        "qaNote": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
       }
     },
     {
@@ -417,6 +431,15 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns23",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -476,6 +499,15 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns25",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "multiple",
@@ -551,6 +583,15 @@
           "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns50",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
+        },
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,5",
@@ -608,6 +649,16 @@
         "snapshotSha256": {
           "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
         },
+        "disposition": {
+          "plotIntentId": "pi.ns54",
+          "state": "HISTORICAL",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "The REER series is visually coherent and useful historical evidence through Dec 2024, and the rendering explicitly flags the stale source. Retain as historical context only; it must not be interpreted as the current real exchange-rate position until the source is refreshed."
+        },
         "source": {
           "provider": "datos_argentina",
           "providerSeriesId": "116.3_TCRMA_0_M_36",
@@ -627,7 +678,9 @@
             },
             "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
           }
-        ]
+        ],
+        "publicationStatus": "historical",
+        "qaNote": "The REER series is visually coherent and useful historical evidence through Dec 2024, and the rendering explicitly flags the stale source. Retain as historical context only; it must not be interpreted as the current real exchange-rate position until the source is refreshed."
       }
     },
     {
@@ -654,6 +707,15 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns55",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -701,6 +763,15 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns57",
+          "state": "UNREVIEWED",
+          "source": "legacy_default_publish",
+          "reviewed": false,
+          "addressable": true,
+          "prominent": true,
+          "primaryEvidence": true
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -753,6 +824,16 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
+        },
+        "disposition": {
+          "plotIntentId": "pi.ns59",
+          "state": "QUARANTINE",
+          "source": "curation_review",
+          "reviewed": true,
+          "addressable": true,
+          "prominent": false,
+          "primaryEvidence": false,
+          "note": "Daily USD FX-purchase flows against the ARS monetary-base stock are not matched economic quantities and invite misleading same-day co-movement reading."
         },
         "source": {
           "provider": "multiple",
@@ -808,14 +889,6 @@
       "distance": 1
     },
     {
-      "id": "q.ns10",
-      "kind": "question",
-      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
-      "title": "How much has the peso appreciated or depreciated in real terms?",
-      "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
-      "distance": 1
-    },
-    {
       "id": "q.ns08",
       "kind": "question",
       "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
@@ -850,7 +923,7 @@
   ],
   "counts": {
     "connections": 12,
-    "questions": 4,
+    "questions": 3,
     "indicators": 2,
     "charts": 20
   }

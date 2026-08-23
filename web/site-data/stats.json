@@ -2,7 +2,7 @@
   "counts": {
     "region": 6,
     "topic": 55,
-    "question": 17,
+    "question": 15,
     "indicator": 90,
     "chart": 119
   },
@@ -12,14 +12,28 @@
   },
   "verticals_loaded": 2,
   "plot_artifacts": 41,
-  "prominent_plot_artifacts": 37,
-  "quarantined_plot_artifacts": 4,
-  "historical_plot_artifacts": 2,
+  "prominent_plot_artifacts": 27,
+  "quarantined_plot_artifacts": 5,
+  "historical_plot_artifacts": 3,
+  "plotPublication": {
+    "plotArtifactCount": 41,
+    "reviewedCount": 18,
+    "prominentCount": 27,
+    "primaryEvidenceCount": 27,
+    "stateCounts": {
+      "APPROVED": 4,
+      "HISTORICAL": 3,
+      "QUARANTINE": 5,
+      "REFERENCE": 3,
+      "SUPERSEDED": 3,
+      "UNREVIEWED": 23
+    }
+  },
   "questionPublication": {
     "semantic": 38,
-    "public": 17,
+    "public": 15,
     "reference": 0,
     "superseded": 0,
-    "hold": 21
+    "hold": 23
   }
 }
