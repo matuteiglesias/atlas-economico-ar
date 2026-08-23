@@ -115,3 +115,70 @@ reviews:
     preferred_plot_intent_id: pi.ns35
     reviewed_at: '2026-08-23T17:24:00Z'
     note: The five-year nominal monetary-base level is valid source evidence but is dominated by inflation and is weak for the linked money-demand question. Prefer pi.ns35, which expresses monetary-base recovery in real terms over the stabilization window.
+
+  pi.ns36:
+    state: APPROVED
+    review_origin: curation_loop
+    structural_fingerprint: 568436f36f585f4bdcffa1e7c18b94c3b6db0610d74cafd3990e77151ac5871e
+    rendered_sha256:
+      png: 27ecd92cb2c15d0539b09a2b4ff70c44e98079b429c5f78b0a55a8625bedc904
+      svg: 25428dbc878e9d45f0847d11a2ba1c8621fdb3fd4467c187ff7535d3acfbb811
+    hazard_flags: [FREQUENCY_MISMATCH, DUAL_AXIS_RISK]
+    reviewed_at: '2026-08-23T17:40:00Z'
+    note: The rendered nominal-versus-real M2 synthesis is analytically useful: the nominal stock and real index are explicitly separated by labeled axes, exposing how strong nominal growth differs from real remonetization. Mixed daily/monthly frequency remains a review hazard, but the rendering does not conceal it or imply a shared quantitative scale.
+
+  pi.ns40:
+    state: QUARANTINE
+    review_origin: curation_loop
+    structural_fingerprint: 1e0bb75311290c372daece21ce1cc1244faf33286732e2564ae7136090440007
+    rendered_sha256:
+      png: 6c5a4a69d1dc335bb6f7c4429c416a6c2382be626d7103d2bcbda49dec8b8a0d
+      svg: f48b21f64cfb3514a0a28b7813b47f32c2f39609129b0fcfe4c454c750cda7b9
+    hazard_flags: [FREQUENCY_MISMATCH, STOCK_FLOW_MISMATCH, DUAL_AXIS_RISK]
+    reviewed_at: '2026-08-23T17:40:00Z'
+    note: The rendered chart overlays a sparse monthly real-money stock/index with noisy daily FX-purchase flows on a second axis. The frequency and stock-flow mismatch invites unsupported same-period co-movement interpretation; quarantine until the quantities are transformed to a matched temporal and economic grain.
+
+  pi.ns54:
+    state: HISTORICAL
+    review_origin: curation_loop
+    structural_fingerprint: 1f35acfffef10860737e1872636c6db7398f37fba47493ad9523e16d10dcca50
+    rendered_sha256:
+      png: 1cd9627d04203f132b80e3f8f0b17800c652a52d289a18cfde8f98abed6ab200
+      svg: c0a9570fc4087d72ba0b8b031d223679f5fafdad2f344ffadf00ce4b523b91aa
+    hazard_flags: [STALE_CURRENT_CLAIM]
+    reviewed_at: '2026-08-23T17:40:00Z'
+    note: The REER series is visually coherent and useful historical evidence through Dec 2024, and the rendering explicitly flags the stale source. Retain as historical context only; it must not be interpreted as the current real exchange-rate position until the source is refreshed.
+
+  pi.ns56:
+    state: SUPERSEDED
+    review_origin: curation_loop
+    structural_fingerprint: 967048279546f9f5bcbd04696e034a4c490538052a78656c41e33431dde4d4c1
+    rendered_sha256:
+      png: 518a54f8b6b1e9774b2496e778e553a1b877172535c22ea5bb075a8564c91776
+      svg: 298350c5d3485719fcf628a378ee01e91b9a5e0c47f6f5226aef0fa00132fc72
+    hazard_flags: [LONG_NOMINAL_LEVEL]
+    preferred_plot_intent_id: pi.ns36
+    reviewed_at: '2026-08-23T17:40:00Z'
+    note: The five-year nominal transactional-M2 level is valid source evidence but is dominated by the price level and is weak primary evidence about remonetization. Prefer pi.ns36, which retains the nominal series while pairing it with an explicit real index over the stabilization period.
+
+  pi.ef30:
+    state: APPROVED
+    review_origin: curation_loop
+    structural_fingerprint: 5b1cb96d82f5a708f1e480917792e9e1a5a998c5490b99dc9ec66c45f4b2bd0b
+    rendered_sha256:
+      png: 3b383af77189ee5c91b8bd974c4208c72a676f7b032fe4e7121b8bb503c1c8ef
+      svg: 322fc293455fd0422c8d06db799b6baaab27d2498c9cb11882ee1c766a075164
+    hazard_flags: []
+    reviewed_at: '2026-08-23T17:40:00Z'
+    note: Clean single-measure real year-over-year credit-growth figure with a common scale and current data through Jun 2026. The large 2025 acceleration is economically material and visible without encoding tricks; retain as primary analytical evidence, with base effects interpreted in surrounding text rather than hidden in the chart.
+
+  pi.ef45:
+    state: APPROVED
+    review_origin: curation_loop
+    structural_fingerprint: 6a08d3cc3b7b0833cf460944c637510d0f947435eff347a84f170f3c4b28f46e
+    rendered_sha256:
+      png: 4562df8d642f2de7135a00d2d52ffa0fa51c4638b797b1533c80fb7dd751f428
+      svg: 9a07d443ccdd348186747235dcf28a9f18f54885968de64ce8781d773efefd36
+    hazard_flags: []
+    reviewed_at: '2026-08-23T17:40:00Z'
+    note: Clean monthly goods-trade-balance bar chart with a meaningful zero baseline, common USD scale, and current data through Jun 2026. Positive and negative months are directly comparable without transformation or dual-axis ambiguity; retain as primary analytical evidence.
