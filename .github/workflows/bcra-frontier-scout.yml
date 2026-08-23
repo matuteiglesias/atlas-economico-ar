@@ -70,6 +70,10 @@ jobs:
           assert manifest['plotArtifacts'] == 41, manifest
           PY
 
+          # Permanent workflow freezes are updated separately through GitHub;
+          # GitHub Actions tokens cannot modify workflow files on push.
+          git checkout -- .github/workflows/figure-kernel.yml .github/workflows/publication.yml
+
           git config user.name 'atlas-population-bot'
           git config user.email 'actions@users.noreply.github.com'
           git add -A
