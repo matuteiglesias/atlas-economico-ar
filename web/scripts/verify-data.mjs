@@ -44,7 +44,7 @@ for (const [kind, folder] of Object.entries(folderByKind)) {
   if (discovery.length !== surface.discoverableCounts[kind]) errors.push(`${kind}: discovery manifest has ${discovery.length}; expected ${surface.discoverableCounts[kind]}`);
 }
 
-const expectedChartCensus = { semantic: 119, materialized: 41, addressable: 41, discoverable: 27 };
+const expectedChartCensus = { semantic: 119, materialized: 41, addressable: 41, discoverable: 22 };
 if (JSON.stringify(surface.chartCensus) !== JSON.stringify(expectedChartCensus)) {
   errors.push(`chart census ${JSON.stringify(surface.chartCensus)}; expected ${JSON.stringify(expectedChartCensus)}`);
 }

@@ -36,79 +36,6 @@
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
   "charts": [
     {
-      "id": "pi.ns09",
-      "kind": "chart",
-      "slug": "official-fx-change-vs-monthly-inflation",
-      "title": "Official FX change vs monthly inflation",
-      "href": "/charts/official-fx-change-vs-monthly-inflation",
-      "artifact": {
-        "chartSpecId": "cs.bcra.fx_change_vs_inflation",
-        "frameId": "rf.last_12m",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-01",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/official-fx-change-vs-monthly-inflation.svg",
-        "png": "/plots/official-fx-change-vs-monthly-inflation.png",
-        "altText": "Official FX change vs monthly inflation. Official FX monthly change; Monthly headline CPI inflation. Last 12 months. Data through 2026-08-01.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.official_fx_monthly_change",
-          "ci.ns.cpi_monthly"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.wholesale_fx",
-          "series.ar.datosgob.ipc_headline_mom_national"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
-          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns09",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "5,145.3_INGNACUAL_DICI_M_38",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.wholesale_fx",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "5",
-            "sourceUnit": "Exchange rate ars to usd",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
-          },
-          {
-            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
-            "provider": "datos_argentina",
-            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
-            "sourceUnit": "Variación intermensual",
-            "normalization": {
-              "kind": "scale",
-              "factor": 100
-            },
-            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-          }
-        ]
-      }
-    },
-    {
       "id": "pi.ns50",
       "kind": "chart",
       "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
@@ -270,80 +197,6 @@
       }
     },
     {
-      "id": "pi.ns09",
-      "kind": "chart",
-      "slug": "official-fx-change-vs-monthly-inflation",
-      "title": "Official FX change vs monthly inflation",
-      "href": "/charts/official-fx-change-vs-monthly-inflation",
-      "distance": 1,
-      "artifact": {
-        "chartSpecId": "cs.bcra.fx_change_vs_inflation",
-        "frameId": "rf.last_12m",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-01",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/official-fx-change-vs-monthly-inflation.svg",
-        "png": "/plots/official-fx-change-vs-monthly-inflation.png",
-        "altText": "Official FX change vs monthly inflation. Official FX monthly change; Monthly headline CPI inflation. Last 12 months. Data through 2026-08-01.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.official_fx_monthly_change",
-          "ci.ns.cpi_monthly"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.wholesale_fx",
-          "series.ar.datosgob.ipc_headline_mom_national"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
-          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns09",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "5,145.3_INGNACUAL_DICI_M_38",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.wholesale_fx",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "5",
-            "sourceUnit": "Exchange rate ars to usd",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
-          },
-          {
-            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
-            "provider": "datos_argentina",
-            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
-            "sourceUnit": "Variación intermensual",
-            "normalization": {
-              "kind": "scale",
-              "factor": 100
-            },
-            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-          }
-        ]
-      }
-    },
-    {
       "id": "q.ns12",
       "kind": "question",
       "slug": "are-interest-rates-restrictive-in-real-terms",
@@ -361,7 +214,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 1,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

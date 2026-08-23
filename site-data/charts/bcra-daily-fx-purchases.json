@@ -162,12 +162,13 @@
     },
     "disposition": {
       "plotIntentId": "pi.ns23",
-      "state": "UNREVIEWED",
-      "source": "legacy_default_publish",
-      "reviewed": false,
+      "state": "APPROVED",
+      "source": "curation_review",
+      "reviewed": true,
       "addressable": true,
       "prominent": true,
-      "primaryEvidence": true
+      "primaryEvidence": true,
+      "note": "Outputs inspected: plot-artifacts/png/bcra-daily-fx-purchases.png; plot-artifacts/svg/bcra-daily-fx-purchases.svg. Truth PASS — the chart shows the registered BCRA FX-purchase reserve-variation factor as daily USD-million flows with a zero baseline and current Aug-2026 observations. Usefulness DISTINCT — raw daily intervention intensity is different evidence from cumulative program progress or exchange-rate coexistence. Publication PASS — the dense bars reflect genuine daily variation, not an encoding trick, and units/source are clear. Terminal state APPROVED."
     },
     "source": {
       "provider": "bcra_monetarias_v4",
@@ -190,6 +191,7 @@
         },
         "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
       }
-    ]
+    ],
+    "qaNote": "Outputs inspected: plot-artifacts/png/bcra-daily-fx-purchases.png; plot-artifacts/svg/bcra-daily-fx-purchases.svg. Truth PASS — the chart shows the registered BCRA FX-purchase reserve-variation factor as daily USD-million flows with a zero baseline and current Aug-2026 observations. Usefulness DISTINCT — raw daily intervention intensity is different evidence from cumulative program progress or exchange-rate coexistence. Publication PASS — the dense bars reflect genuine daily variation, not an encoding trick, and units/source are clear. Terminal state APPROVED."
   }
 }

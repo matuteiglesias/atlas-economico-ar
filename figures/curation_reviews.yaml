@@ -256,3 +256,75 @@ reviews:
     reviewed_at: '2026-08-23T23:05:00Z'
     note: >-
       Outputs inspected: plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png; plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg. Truth PASS — both measures are monthly CPI-based; the 3-month rate compounds contiguous monthly inflation and annualizes the three-month gross change. Usefulness DISTINCT — it separates current monthly pace from short-run annualized momentum over 18 months. Publication PASS — dual axes are explicitly labeled as monthly percent versus annual rate, so the scale difference is visible rather than concealed. Terminal state APPROVED.
+
+  pi.ns03:
+    state: REFERENCE
+    review_origin: curation_loop
+    structural_fingerprint: ead481d7a3a794af0b065a8b74f439aa8c9f9641c1636b710838acd154d75be4
+    rendered_sha256:
+      png: 48ad453f320680cee2dd7c7b34cafdbf7b66cc9f6c0ac4107dde66f33ff68991
+      svg: ec16bb9adafdd72af88c9810acd3264a01ea63e18f5bd9590d01cfd965b6e4a8
+    hazard_flags: [DUAL_AXIS_RISK, SCALE_COMPRESSION]
+    reviewed_at: '2026-08-23T23:33:00Z'
+    note: >-
+      Outputs inspected: plot-artifacts/png/headline-inflation-monthly-vs-year-over-year.png; plot-artifacts/svg/headline-inflation-monthly-vs-year-over-year.svg. Truth PASS — monthly and year-over-year headline CPI are compatible monthly measures with a common Jul-2026 endpoint. Usefulness REFERENCE — the five-year view supplies useful legacy-inflation context, but the 2023-24 spike compresses the current monthly pace and pi.ns01 is stronger primary evidence for current momentum. Publication PASS AS REFERENCE — axes and units are explicit, but the dual-axis long-window view should not lead the current-state question. Terminal state REFERENCE.
+
+  pi.ns04:
+    state: APPROVED
+    review_origin: curation_loop
+    structural_fingerprint: 30cf95133d1c0107788c30dbcc83080859074591ebbe645b74325423a3bbff97
+    rendered_sha256:
+      png: 918087a24594facbdf71cef9546653b53927a4ea191ef3d2e47fe3f733604e5c
+      svg: a5e0ae5e469e9a881a9bb8accf759b70506ae96f6181a29d6d0e9f2d7df95067
+    hazard_flags: [DUAL_AXIS_RISK]
+    reviewed_at: '2026-08-23T23:33:00Z'
+    note: >-
+      Outputs inspected: plot-artifacts/png/disinflation-since-december-2023.png; plot-artifacts/svg/disinflation-since-december-2023.svg. Truth PASS — both headline CPI measures are monthly, current through Jul 2026, and the Dec-2023 frame matches the stabilization question. Usefulness DISTINCT — the focused window shows the disinflation path, pauses, and recent monthly behavior more directly than the five-year context view. Publication PASS — dual axes are explicitly labeled and the large initial monthly/annual rates are substantively part of the path rather than decorative scale inflation. Terminal state APPROVED.
+
+  pi.ns09:
+    state: QUARANTINE
+    review_origin: curation_loop
+    structural_fingerprint: 5cf6bb3134241e0ea2b9aa28de8bc3e54cd4de1e89b09030cd4d59e2ca4e298a
+    rendered_sha256:
+      png: 345117cb84e42376a23944f10c7b7afe9a9f7c8b09719b266328e3827c8085a8
+      svg: 25d73fb75afecffbca7b6d5f4b937910b1de9d267d5281a406a36a53fe7adc63
+    hazard_flags: [MISSING_COMMON_PERIOD, DUAL_AXIS_RISK]
+    reviewed_at: '2026-08-23T23:33:00Z'
+    note: >-
+      Outputs inspected: plot-artifacts/png/official-fx-change-vs-monthly-inflation.png; plot-artifacts/svg/official-fx-change-vs-monthly-inflation.svg. Truth FAIL — the derived FX-change line includes an Aug-2026 point based on the latest available wholesale FX observation while monthly CPI ends in Jul 2026, so the chart invites a current co-movement comparison outside a common completed month. Usefulness cannot rescue the mismatch. Publication QUARANTINE — repair requires an explicit decision about incomplete-month semantics or constraining the comparison to the latest common completed period, which is outside this pass's autonomous semantic budget. Terminal state QUARANTINE.
+
+  pi.ns23:
+    state: APPROVED
+    review_origin: curation_loop
+    structural_fingerprint: 4dc85f634da866baaa66eb02c1b3f0427317350825fe453ad160e586b1e43934
+    rendered_sha256:
+      png: 0e5c2ecd9fef0dfd139482aae1b6e70b8014596098ccbbc7fd5ada69eee6e685
+      svg: 386b3fa409bb511d68d83404bc0e0633f7dda9ee037e74f237c49b418b1bd14c
+    hazard_flags: []
+    reviewed_at: '2026-08-23T23:33:00Z'
+    note: >-
+      Outputs inspected: plot-artifacts/png/bcra-daily-fx-purchases.png; plot-artifacts/svg/bcra-daily-fx-purchases.svg. Truth PASS — the chart shows the registered BCRA FX-purchase reserve-variation factor as daily USD-million flows with a zero baseline and current Aug-2026 observations. Usefulness DISTINCT — raw daily intervention intensity is different evidence from cumulative program progress or exchange-rate coexistence. Publication PASS — the dense bars reflect genuine daily variation, not an encoding trick, and units/source are clear. Terminal state APPROVED.
+
+  pi.ns25:
+    state: REFERENCE
+    review_origin: curation_loop
+    structural_fingerprint: bfed8490d527ff40de156e54ff7fc78b4cadd94a3c516ac350a3ada5e2ccc55d
+    rendered_sha256:
+      png: fbb7490320935e52e4de706f4323793a56fc246b471aeda24531d30630b019fb
+      svg: 7c6dc0056e9cd8db15641a29ee9317e56750bbad76ca66134fc8af5fc4fe8483
+    hazard_flags: [DUAL_AXIS_RISK]
+    reviewed_at: '2026-08-23T23:33:00Z'
+    note: >-
+      Outputs inspected: plot-artifacts/png/bcra-purchases-vs-official-exchange-rate.png; plot-artifacts/svg/bcra-purchases-vs-official-exchange-rate.svg. Truth PASS ONLY AS DESCRIPTIVE TIMING — daily BCRA purchase flows and the daily official ARS/USD level share a current observation window, but unlike units on dual axes do not identify an economic effect or causal interaction. Usefulness REFERENCE — the coexistence view is contextual evidence for q.ns11, while the direct purchase series and future matched transformations are stronger analytical evidence. Publication PASS AS REFERENCE — legible, but too easy to overread as co-movement if promoted. Terminal state REFERENCE.
+
+  pi.ns35:
+    state: APPROVED
+    review_origin: curation_loop
+    structural_fingerprint: 4172b0586838ac5453e2930435da9550b099a3a9c98454515037b66cf60dcad5
+    rendered_sha256:
+      png: 53496c18e2b53143cbb9aeb6d96e2223c44fa35d141a58b842dac0381dba7847
+      svg: 68b195c85396faf8c5fe6bca07330949bca0aaa50a9298acafbb50ff6ba92b97
+    hazard_flags: []
+    reviewed_at: '2026-08-23T23:33:00Z'
+    note: >-
+      Outputs inspected: plot-artifacts/png/real-monetary-base.png; plot-artifacts/svg/real-monetary-base.svg. Truth PASS — the implemented measure takes monthly-end nominal base money, deflates with the reconstructed CPI index, and rebases Dec-2023 to 100; data are current through Jul 2026. Usefulness DISTINCT — it directly measures real base-money recovery and is the preferred analytical replacement for superseded pi.ns34. Publication PASS — clean single-axis monthly real index with an economically meaningful anchor. Terminal state APPROVED.

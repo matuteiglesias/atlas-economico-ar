@@ -99,12 +99,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns04",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/disinflation-since-december-2023.png; plot-artifacts/svg/disinflation-since-december-2023.svg. Truth PASS — both headline CPI measures are monthly, current through Jul 2026, and the Dec-2023 frame matches the stabilization question. Usefulness DISTINCT — the focused window shows the disinflation path, pauses, and recent monthly behavior more directly than the five-year context view. Publication PASS — dual axes are explicitly labeled and the large initial monthly/annual rates are substantively part of the path rather than decorative scale inflation. Terminal state APPROVED."
         },
         "source": {
           "provider": "multiple",
@@ -135,7 +136,8 @@
             },
             "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
           }
-        ]
+        ],
+        "qaNote": "Outputs inspected: plot-artifacts/png/disinflation-since-december-2023.png; plot-artifacts/svg/disinflation-since-december-2023.svg. Truth PASS — both headline CPI measures are monthly, current through Jul 2026, and the Dec-2023 frame matches the stabilization question. Usefulness DISTINCT — the focused window shows the disinflation path, pauses, and recent monthly behavior more directly than the five-year context view. Publication PASS — dual axes are explicitly labeled and the large initial monthly/annual rates are substantively part of the path rather than decorative scale inflation. Terminal state APPROVED."
       }
     }
   ],
@@ -199,12 +201,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns04",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/disinflation-since-december-2023.png; plot-artifacts/svg/disinflation-since-december-2023.svg. Truth PASS — both headline CPI measures are monthly, current through Jul 2026, and the Dec-2023 frame matches the stabilization question. Usefulness DISTINCT — the focused window shows the disinflation path, pauses, and recent monthly behavior more directly than the five-year context view. Publication PASS — dual axes are explicitly labeled and the large initial monthly/annual rates are substantively part of the path rather than decorative scale inflation. Terminal state APPROVED."
         },
         "source": {
           "provider": "multiple",
@@ -235,7 +238,8 @@
             },
             "snapshotSha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
           }
-        ]
+        ],
+        "qaNote": "Outputs inspected: plot-artifacts/png/disinflation-since-december-2023.png; plot-artifacts/svg/disinflation-since-december-2023.svg. Truth PASS — both headline CPI measures are monthly, current through Jul 2026, and the Dec-2023 frame matches the stabilization question. Usefulness DISTINCT — the focused window shows the disinflation path, pauses, and recent monthly behavior more directly than the five-year context view. Publication PASS — dual axes are explicitly labeled and the large initial monthly/annual rates are substantively part of the path rather than decorative scale inflation. Terminal state APPROVED."
       }
     },
     {

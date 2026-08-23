@@ -123,68 +123,6 @@
         ],
         "qaNote": "Rendered synthesis is legible and economically coherent. The USD deposit stock and deposit share answer distinct scale and composition parts of the same question; both axes are explicit, and the mixed-frequency encoding does not imply a common quantitative scale. Retain as a curated synthesis while keeping the single-measure figures available."
       }
-    },
-    {
-      "id": "pi.ef50",
-      "kind": "chart",
-      "slug": "foreign-currency-deposits",
-      "title": "Foreign-currency deposits",
-      "href": "/charts/foreign-currency-deposits",
-      "artifact": {
-        "chartSpecId": "cs.bcra2.fx_deposits",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-11",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/foreign-currency-deposits.svg",
-        "png": "/plots/foreign-currency-deposits.png",
-        "altText": "Foreign-currency deposits. Foreign-currency deposits. Last 5 years. Data through 2026-08-11.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.fx_deposits_usd"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.fx_deposits_private_sector"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef50",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "bcra_monetarias_v4",
-          "providerSeriesId": "108",
-          "sourceUnit": "Millons USD",
-          "normalization": {
-            "kind": "scale",
-            "factor": 0.001
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.fx_deposits_private_sector",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "108",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 0.001
-            },
-            "snapshotSha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
-          }
-        ]
-      }
     }
   ],
   "derivedAsInput": [],
@@ -197,69 +135,6 @@
       "title": "Foreign-currency deposits",
       "href": "/topics/foreign-currency-deposits",
       "distance": 1
-    },
-    {
-      "id": "pi.ef50",
-      "kind": "chart",
-      "slug": "foreign-currency-deposits",
-      "title": "Foreign-currency deposits",
-      "href": "/charts/foreign-currency-deposits",
-      "distance": 1,
-      "artifact": {
-        "chartSpecId": "cs.bcra2.fx_deposits",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-11",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/foreign-currency-deposits.svg",
-        "png": "/plots/foreign-currency-deposits.png",
-        "altText": "Foreign-currency deposits. Foreign-currency deposits. Last 5 years. Data through 2026-08-11.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.fx_deposits_usd"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.fx_deposits_private_sector"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef50",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "bcra_monetarias_v4",
-          "providerSeriesId": "108",
-          "sourceUnit": "Millons USD",
-          "normalization": {
-            "kind": "scale",
-            "factor": 0.001
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.fx_deposits_private_sector",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "108",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 0.001
-            },
-            "snapshotSha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
-          }
-        ]
-      }
     },
     {
       "id": "pi.ef33",
@@ -393,7 +268,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 1,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

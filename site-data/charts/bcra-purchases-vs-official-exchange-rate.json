@@ -178,12 +178,13 @@
         },
         "disposition": {
           "plotIntentId": "pi.ns23",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
+          "state": "APPROVED",
+          "source": "curation_review",
+          "reviewed": true,
           "addressable": true,
           "prominent": true,
-          "primaryEvidence": true
+          "primaryEvidence": true,
+          "note": "Outputs inspected: plot-artifacts/png/bcra-daily-fx-purchases.png; plot-artifacts/svg/bcra-daily-fx-purchases.svg. Truth PASS — the chart shows the registered BCRA FX-purchase reserve-variation factor as daily USD-million flows with a zero baseline and current Aug-2026 observations. Usefulness DISTINCT — raw daily intervention intensity is different evidence from cumulative program progress or exchange-rate coexistence. Publication PASS — the dense bars reflect genuine daily variation, not an encoding trick, and units/source are clear. Terminal state APPROVED."
         },
         "source": {
           "provider": "bcra_monetarias_v4",
@@ -206,7 +207,8 @@
             },
             "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
           }
-        ]
+        ],
+        "qaNote": "Outputs inspected: plot-artifacts/png/bcra-daily-fx-purchases.png; plot-artifacts/svg/bcra-daily-fx-purchases.svg. Truth PASS — the chart shows the registered BCRA FX-purchase reserve-variation factor as daily USD-million flows with a zero baseline and current Aug-2026 observations. Usefulness DISTINCT — raw daily intervention intensity is different evidence from cumulative program progress or exchange-rate coexistence. Publication PASS — the dense bars reflect genuine daily variation, not an encoding trick, and units/source are clear. Terminal state APPROVED."
       }
     }
   ],
@@ -243,12 +245,13 @@
     },
     "disposition": {
       "plotIntentId": "pi.ns25",
-      "state": "UNREVIEWED",
-      "source": "legacy_default_publish",
-      "reviewed": false,
+      "state": "REFERENCE",
+      "source": "curation_review",
+      "reviewed": true,
       "addressable": true,
-      "prominent": true,
-      "primaryEvidence": true
+      "prominent": false,
+      "primaryEvidence": false,
+      "note": "Outputs inspected: plot-artifacts/png/bcra-purchases-vs-official-exchange-rate.png; plot-artifacts/svg/bcra-purchases-vs-official-exchange-rate.svg. Truth PASS ONLY AS DESCRIPTIVE TIMING — daily BCRA purchase flows and the daily official ARS/USD level share a current observation window, but unlike units on dual axes do not identify an economic effect or causal interaction. Usefulness REFERENCE — the coexistence view is contextual evidence for q.ns11, while the direct purchase series and future matched transformations are stronger analytical evidence. Publication PASS AS REFERENCE — legible, but too easy to overread as co-movement if promoted. Terminal state REFERENCE."
     },
     "source": {
       "provider": "multiple",
@@ -279,6 +282,8 @@
         },
         "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
       }
-    ]
+    ],
+    "publicationStatus": "quarantine",
+    "qaNote": "Outputs inspected: plot-artifacts/png/bcra-purchases-vs-official-exchange-rate.png; plot-artifacts/svg/bcra-purchases-vs-official-exchange-rate.svg. Truth PASS ONLY AS DESCRIPTIVE TIMING — daily BCRA purchase flows and the daily official ARS/USD level share a current observation window, but unlike units on dual axes do not identify an economic effect or causal interaction. Usefulness REFERENCE — the coexistence view is contextual evidence for q.ns11, while the direct purchase series and future matched transformations are stronger analytical evidence. Publication PASS AS REFERENCE — legible, but too easy to overread as co-movement if promoted. Terminal state REFERENCE."
   }
 }

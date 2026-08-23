@@ -125,11 +125,11 @@
         "linkedPlotIntents": 6,
         "linkedIndicators": 8,
         "materializedPlotArtifacts": 3,
-        "primaryEvidencePlotArtifacts": 2,
-        "prominentPlotArtifacts": 2,
+        "primaryEvidencePlotArtifacts": 1,
+        "prominentPlotArtifacts": 1,
         "quarantinedPlotArtifacts": 1,
         "historicalPlotArtifacts": 0,
-        "referencePlotArtifacts": 0,
+        "referencePlotArtifacts": 1,
         "supersededPlotArtifacts": 0,
         "materializedPlotIntentIds": [
           "pi.ef47",
@@ -137,12 +137,10 @@
           "pi.ef49"
         ],
         "primaryEvidencePlotIntentIds": [
-          "pi.ef47",
-          "pi.ef48"
+          "pi.ef47"
         ],
         "prominentPlotIntentIds": [
-          "pi.ef47",
-          "pi.ef48"
+          "pi.ef47"
         ],
         "hasDek": true,
         "hasIntro": true,
@@ -168,8 +166,7 @@
             "ci.ns.bcra_fx_purchases_daily"
           ],
           "primaryEvidencePlotIntentIds": [
-            "pi.ef47",
-            "pi.ef48"
+            "pi.ef47"
           ]
         },
         "exactStructuralPeerQuestionIds": [],
@@ -769,12 +766,12 @@
         "linkedPlotIntents": 6,
         "linkedIndicators": 8,
         "materializedPlotArtifacts": 4,
-        "primaryEvidencePlotArtifacts": 3,
-        "prominentPlotArtifacts": 3,
+        "primaryEvidencePlotArtifacts": 2,
+        "prominentPlotArtifacts": 2,
         "quarantinedPlotArtifacts": 0,
         "historicalPlotArtifacts": 0,
         "referencePlotArtifacts": 1,
-        "supersededPlotArtifacts": 0,
+        "supersededPlotArtifacts": 1,
         "materializedPlotIntentIds": [
           "pi.ef33",
           "pi.ef50",
@@ -783,12 +780,10 @@
         ],
         "primaryEvidencePlotIntentIds": [
           "pi.ef33",
-          "pi.ef50",
           "pi.ef53"
         ],
         "prominentPlotIntentIds": [
           "pi.ef33",
-          "pi.ef50",
           "pi.ef53"
         ],
         "hasDek": true,
@@ -815,7 +810,6 @@
           ],
           "primaryEvidencePlotIntentIds": [
             "pi.ef33",
-            "pi.ef50",
             "pi.ef53"
           ]
         },
@@ -1022,11 +1016,11 @@
         "linkedPlotIntents": 5,
         "linkedIndicators": 4,
         "materializedPlotArtifacts": 4,
-        "primaryEvidencePlotArtifacts": 4,
-        "prominentPlotArtifacts": 4,
+        "primaryEvidencePlotArtifacts": 3,
+        "prominentPlotArtifacts": 3,
         "quarantinedPlotArtifacts": 0,
         "historicalPlotArtifacts": 0,
-        "referencePlotArtifacts": 0,
+        "referencePlotArtifacts": 1,
         "supersededPlotArtifacts": 0,
         "materializedPlotIntentIds": [
           "pi.ns01",
@@ -1036,18 +1030,16 @@
         ],
         "primaryEvidencePlotIntentIds": [
           "pi.ns01",
-          "pi.ns03",
           "pi.ns53",
           "pi.ns65"
         ],
         "prominentPlotIntentIds": [
           "pi.ns01",
-          "pi.ns03",
           "pi.ns53",
           "pi.ns65"
         ],
-        "hasDek": false,
-        "hasIntro": false,
+        "hasDek": true,
+        "hasIntro": true,
         "metadataOnly": false
       },
       "distinctness": {
@@ -1065,7 +1057,6 @@
           ],
           "primaryEvidencePlotIntentIds": [
             "pi.ns01",
-            "pi.ns03",
             "pi.ns53",
             "pi.ns65"
           ]
@@ -1228,9 +1219,9 @@
         "linkedPlotIntents": 3,
         "linkedIndicators": 2,
         "materializedPlotArtifacts": 2,
-        "primaryEvidencePlotArtifacts": 2,
-        "prominentPlotArtifacts": 2,
-        "quarantinedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 1,
+        "prominentPlotArtifacts": 1,
+        "quarantinedPlotArtifacts": 1,
         "historicalPlotArtifacts": 0,
         "referencePlotArtifacts": 0,
         "supersededPlotArtifacts": 0,
@@ -1239,15 +1230,13 @@
           "pi.ns50"
         ],
         "primaryEvidencePlotIntentIds": [
-          "pi.ns09",
           "pi.ns50"
         ],
         "prominentPlotIntentIds": [
-          "pi.ns09",
           "pi.ns50"
         ],
-        "hasDek": false,
-        "hasIntro": false,
+        "hasDek": true,
+        "hasIntro": true,
         "metadataOnly": false
       },
       "distinctness": {
@@ -1263,7 +1252,6 @@
             "ci.ns.official_fx_monthly_change"
           ],
           "primaryEvidencePlotIntentIds": [
-            "pi.ns09",
             "pi.ns50"
           ]
         },
@@ -1513,11 +1501,11 @@
         "linkedPlotIntents": 6,
         "linkedIndicators": 4,
         "materializedPlotArtifacts": 4,
-        "primaryEvidencePlotArtifacts": 3,
-        "prominentPlotArtifacts": 3,
+        "primaryEvidencePlotArtifacts": 2,
+        "prominentPlotArtifacts": 2,
         "quarantinedPlotArtifacts": 1,
         "historicalPlotArtifacts": 0,
-        "referencePlotArtifacts": 0,
+        "referencePlotArtifacts": 1,
         "supersededPlotArtifacts": 0,
         "materializedPlotIntentIds": [
           "pi.ns23",
@@ -1527,16 +1515,14 @@
         ],
         "primaryEvidencePlotIntentIds": [
           "pi.ns23",
-          "pi.ns25",
           "pi.ns57"
         ],
         "prominentPlotIntentIds": [
           "pi.ns23",
-          "pi.ns25",
           "pi.ns57"
         ],
-        "hasDek": false,
-        "hasIntro": false,
+        "hasDek": true,
+        "hasIntro": true,
         "metadataOnly": false
       },
       "distinctness": {
@@ -1556,7 +1542,6 @@
           ],
           "primaryEvidencePlotIntentIds": [
             "pi.ns23",
-            "pi.ns25",
             "pi.ns57"
           ]
         },
@@ -1595,8 +1580,8 @@
           "pi.ns61",
           "pi.ns62"
         ],
-        "hasDek": false,
-        "hasIntro": false,
+        "hasDek": true,
+        "hasIntro": true,
         "metadataOnly": false
       },
       "distinctness": {
@@ -1754,8 +1739,8 @@
           "pi.ns35",
           "pi.ns36"
         ],
-        "hasDek": false,
-        "hasIntro": false,
+        "hasDek": true,
+        "hasIntro": true,
         "metadataOnly": false
       },
       "distinctness": {
@@ -1814,8 +1799,8 @@
           "pi.ns39",
           "pi.ns41"
         ],
-        "hasDek": false,
-        "hasIntro": false,
+        "hasDek": true,
+        "hasIntro": true,
         "metadataOnly": false
       },
       "distinctness": {
@@ -1870,8 +1855,8 @@
         "prominentPlotIntentIds": [
           "pi.ns43"
         ],
-        "hasDek": false,
-        "hasIntro": false,
+        "hasDek": true,
+        "hasIntro": true,
         "metadataOnly": false
       },
       "distinctness": {

@@ -4,6 +4,8 @@
   "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
   "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
   "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+  "dek": "Judge monetary-base growth together with real money-demand proxies and inflation rather than from the nominal base alone.",
+  "intro": "The public evidence is a compact monetization dashboard combining the real monetary base, real private transactional M2, and monthly inflation since December 2023. It places the operational aggregate beside a private money-demand proxy and inflation, but it is not a direct test against an explicit numerical policy target.",
   "questionFamily": "program_consistency",
   "region": {
     "id": "nominal_stabilization",
@@ -334,8 +336,8 @@
       "prominentPlotIntentIds": [
         "pi.ns43"
       ],
-      "hasDek": false,
-      "hasIntro": false,
+      "hasDek": true,
+      "hasIntro": true,
       "metadataOnly": false
     },
     "distinctness": {

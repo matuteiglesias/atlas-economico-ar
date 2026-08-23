@@ -34,70 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "daily",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef48",
-      "kind": "chart",
-      "slug": "reserve-accumulation-year-to-date",
-      "title": "Reserve accumulation year to date",
-      "href": "/charts/reserve-accumulation-year-to-date",
-      "artifact": {
-        "chartSpecId": "cs.bcra.reserve_ytd",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-12",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/reserve-accumulation-year-to-date.svg",
-        "png": "/plots/reserve-accumulation-year-to-date.png",
-        "altText": "Reserve accumulation year to date. Cumulative reserve accumulation YTD. Since Jan 2026. Data through 2026-08-12.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.reserve_accumulation_ytd"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.gross_international_reserves"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef48",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "bcra_monetarias_v4",
-          "providerSeriesId": "1",
-          "sourceUnit": "Millons USD",
-          "normalization": {
-            "kind": "scale",
-            "factor": 0.001
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.gross_international_reserves",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "1",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 0.001
-            },
-            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
-          }
-        ]
-      }
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [
     "di.ef.reserve_accumulation_ytd_v0_2"
@@ -110,73 +47,10 @@
       "title": "Reserve accumulation",
       "href": "/topics/reserve-accumulation",
       "distance": 1
-    },
-    {
-      "id": "pi.ef48",
-      "kind": "chart",
-      "slug": "reserve-accumulation-year-to-date",
-      "title": "Reserve accumulation year to date",
-      "href": "/charts/reserve-accumulation-year-to-date",
-      "distance": 1,
-      "artifact": {
-        "chartSpecId": "cs.bcra.reserve_ytd",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-12",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/reserve-accumulation-year-to-date.svg",
-        "png": "/plots/reserve-accumulation-year-to-date.png",
-        "altText": "Reserve accumulation year to date. Cumulative reserve accumulation YTD. Since Jan 2026. Data through 2026-08-12.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.reserve_accumulation_ytd"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.gross_international_reserves"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef48",
-          "state": "UNREVIEWED",
-          "source": "legacy_default_publish",
-          "reviewed": false,
-          "addressable": true,
-          "prominent": true,
-          "primaryEvidence": true
-        },
-        "source": {
-          "provider": "bcra_monetarias_v4",
-          "providerSeriesId": "1",
-          "sourceUnit": "Millons USD",
-          "normalization": {
-            "kind": "scale",
-            "factor": 0.001
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.gross_international_reserves",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "1",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 0.001
-            },
-            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
-          }
-        ]
-      }
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }
