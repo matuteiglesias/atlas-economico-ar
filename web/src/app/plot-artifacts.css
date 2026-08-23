@@ -1,12 +1,25 @@
 .chart-card .plot-artifact-image {
   display: block;
   width: 100%;
-  height: 140px;
+  height: auto;
   object-fit: contain;
   padding: 4px 8px;
 }
 
+.chart-card-page .chart-meta {
+  padding: 12px 20px 2px;
+}
+
+.chart-card-page .chart-meta p {
+  margin: 0;
+  color: #6f7988;
+  font-size: 10px;
+  line-height: 1.45;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+}
+
 .large-chart .plot-artifact-image {
-  height: 330px;
-  padding: 8px 14px;
+  height: auto;
+  padding: 6px 14px 12px;
 }
