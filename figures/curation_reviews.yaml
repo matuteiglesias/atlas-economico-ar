@@ -1,0 +1,50 @@
+schema_version: '0.1'
+reviews:
+  pi.ns31:
+    state: HISTORICAL
+    review_origin: legacy_migration
+    legacy_publication_status: historical
+    structural_fingerprint: f3f56eb9e2b7bc6a47a56fc2a1ca13c8bb9afdd421f59a0009efc08acd6259b6
+    hazard_flags: [STALE_CURRENT_CLAIM]
+    note: Valid historical comparison only. The BCRA policy-rate input ends on 2025-07-10 and must not be presented as evidence of the current policy stance.
+
+  pi.ns63:
+    state: HISTORICAL
+    review_origin: legacy_migration
+    legacy_publication_status: historical
+    structural_fingerprint: c8cc7b4e80556b16522fa389adaaec167ff99fc5a1eb17fb25a672bdd695f481
+    hazard_flags: [STALE_CURRENT_CLAIM]
+    note: Valid policy-rate history through 2025-07-10; retain as historical evidence rather than a current-state chart.
+
+  pi.ns64:
+    state: QUARANTINE
+    review_origin: legacy_migration
+    legacy_publication_status: quarantine
+    structural_fingerprint: 1863630670a499df0f39c6dd958e37d971de2836153fd1964a2dfc21f9db6205
+    hazard_flags: [LONG_NOMINAL_LEVEL]
+    note: Five-year nominal ARS bank reserve balances are dominated by nominal price-level drift and are weak as a primary analytical figure.
+
+  pi.ns58:
+    state: SUPERSEDED
+    review_origin: legacy_migration
+    legacy_publication_status: quarantine
+    structural_fingerprint: 2ccde2f5308eafae4614f877897ef7229526f5d8a4e5afe427de6e4849e2d7cf
+    hazard_flags: [LONG_NOMINAL_LEVEL, REDUNDANT_FIGURE]
+    preferred_plot_intent_id: pi.ns41
+    note: Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the existing common-base real-index comparison pi.ns41 for analytical publication.
+
+  pi.ns59:
+    state: QUARANTINE
+    review_origin: legacy_migration
+    legacy_publication_status: quarantine
+    structural_fingerprint: ddeb5aac4f6e540fc761d8617afa7d74024a9cd332a1218f1206ceee534e0158
+    hazard_flags: [STOCK_FLOW_MISMATCH]
+    note: Daily USD FX-purchase flows against the ARS monetary-base stock are not matched economic quantities and invite misleading same-day co-movement reading.
+
+  pi.ef49:
+    state: QUARANTINE
+    review_origin: legacy_migration
+    legacy_publication_status: quarantine
+    structural_fingerprint: 5c81b45f025506b4b4112bcea46d9d3c1b01f5957dd8323649c4761016aedaad
+    hazard_flags: [STOCK_FLOW_MISMATCH]
+    note: Daily FX-purchase flows against the gross-reserves stock create a flow-stock mismatch; a future replacement should compare matched cumulative or period-change quantities.
