@@ -2,7 +2,7 @@ import { BarChart3, CircleHelp, Database, Tag } from "lucide-react";
 import { ChartCard, evidenceFirstCharts } from "./charts";
 import { LinkList, PageHeader } from "./content";
 import { EntityContextRail, ExploreRail, PageBreadcrumbs, SiteHeader } from "./shell";
-import type { EntityPage, Navigation } from "@/lib/types";
+import type { EntityLink, EntityPage, Navigation } from "@/lib/types";
 
 const labels = { question: "Question", indicator: "Indicator", chart: "Chart" } as const;
 
@@ -11,13 +11,19 @@ function ChartSurface({ page }: { page: EntityPage }) {
   return <div className="large-chart"><ChartCard item={page} chrome="page" /></div>;
 }
 
+function withoutKnownLinks(links: EntityLink[], knownGroups: EntityLink[][]) {
+  const knownHrefs = new Set(knownGroups.flatMap((group) => group.map((item) => item.href)));
+  return links.filter((item) => !knownHrefs.has(item.href));
+}
+
 export function PublicEntityPage({ page, navigation }: { page: EntityPage; navigation: Navigation }) {
   const topics = page.topics ?? (page.topic ? [page.topic] : []);
   const questions = page.questions ?? [];
   const indicators = page.indicators ?? [];
   const charts = page.charts ?? [];
   const evidenceCharts = evidenceFirstCharts(charts);
-  const groups = [{ title: "Topics", links: topics }, { title: "Questions", links: questions }, { title: "Indicators", links: indicators }, { title: "Nearby", links: page.nearby }];
+  const nearby = withoutKnownLinks(page.nearby, [topics, questions, indicators]);
+  const groups = [{ title: "Topics", links: topics }, { title: "Questions", links: questions }, { title: "Indicators", links: indicators }, { title: "Nearby", links: nearby }];
   return <><SiteHeader /><div className="page-grid">
     <ExploreRail navigation={navigation} activeRegion={page.region.slug} />
     <main className="main-content entity-page">
