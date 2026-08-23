@@ -4,8 +4,6 @@
   "slug": "corporate-spread",
   "title": "Corporate spread",
   "href": "/indicators/corporate-spread",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -63,38 +61,6 @@
       "title": "Sovereign and corporate spreads",
       "href": "/charts/sovereign-and-corporate-spreads",
       "distance": 1
-    },
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint",
-      "distance": 2
-    },
-    {
-      "id": "q.ef08",
-      "kind": "question",
-      "slug": "is-argentina-regaining-durable-market-access",
-      "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access",
-      "distance": 2
-    },
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
-      "distance": 2
-    },
-    {
-      "id": "q.ef09",
-      "kind": "question",
-      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "title": "Why can reserves rise while sovereign risk stays high?",
-      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "distance": 2
     },
     {
       "id": "ef.capital_inflows",

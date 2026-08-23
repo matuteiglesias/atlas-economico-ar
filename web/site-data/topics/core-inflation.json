@@ -5,7 +5,6 @@
   "title": "Core inflation",
   "href": "/topics/core-inflation",
   "dek": "Underlying inflation measure designed to abstract from selected volatile or regulated components.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -52,15 +51,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ns03",
-      "kind": "question",
-      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
-      "title": "Is disinflation broad-based across underlying inflation measures?",
-      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures"
-    }
-  ],
+  "questions": [],
   "indicators": [
     {
       "id": "ci.ns.core_3m_ann",
@@ -123,14 +114,6 @@
   ],
   "nearby": [
     {
-      "id": "q.ns03",
-      "kind": "question",
-      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
-      "title": "Is disinflation broad-based across underlying inflation measures?",
-      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
-      "distance": 1
-    },
-    {
       "id": "ns.inflation",
       "kind": "topic",
       "slug": "inflation",
@@ -189,7 +172,7 @@
   ],
   "counts": {
     "connections": 2,
-    "questions": 1,
+    "questions": 0,
     "indicators": 5,
     "charts": 3
   }

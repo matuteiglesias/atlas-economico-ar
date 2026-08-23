@@ -5,7 +5,6 @@
   "title": "Parallel exchange rate",
   "href": "/topics/parallel-exchange-rate",
   "dek": "Non-official or alternative market exchange-rate quotation such as CCL/MEP/blue.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -64,15 +63,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ns09",
-      "kind": "question",
-      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "title": "How large is the gap between official and parallel exchange rates?",
-      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates"
-    }
-  ],
+  "questions": [],
   "indicators": [
     {
       "id": "ci.ns.blue_fx",
@@ -113,14 +104,6 @@
     }
   ],
   "nearby": [
-    {
-      "id": "q.ns09",
-      "kind": "question",
-      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "title": "How large is the gap between official and parallel exchange rates?",
-      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "distance": 1
-    },
     {
       "id": "ns.fx_gap",
       "kind": "topic",
@@ -180,7 +163,7 @@
   ],
   "counts": {
     "connections": 3,
-    "questions": 1,
+    "questions": 0,
     "indicators": 2,
     "charts": 3
   }

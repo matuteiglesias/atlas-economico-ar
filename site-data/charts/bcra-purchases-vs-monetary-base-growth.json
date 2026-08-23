@@ -5,7 +5,6 @@
   "title": "BCRA purchases vs monetary-base growth",
   "href": "/charts/bcra-purchases-vs-monetary-base-growth",
   "dek": "Show monetary counterpart of FX operations.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",

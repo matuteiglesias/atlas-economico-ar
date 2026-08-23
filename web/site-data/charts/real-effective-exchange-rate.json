@@ -5,7 +5,6 @@
   "title": "Real effective exchange rate",
   "href": "/charts/real-effective-exchange-rate",
   "dek": "Track the multilateral real exchange-rate index and place the December 2023 shift in temporal context.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -61,7 +60,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns10",
@@ -127,7 +125,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,116.3_TCRMA_0_M_36",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

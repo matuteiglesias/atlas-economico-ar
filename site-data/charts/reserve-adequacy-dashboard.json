@@ -33,13 +33,6 @@
       "slug": "how-strong-is-argentina-s-reserve-position",
       "title": "How strong is Argentina's reserve position?",
       "href": "/questions/how-strong-is-argentina-s-reserve-position"
-    },
-    {
-      "id": "q.ef13",
-      "kind": "question",
-      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
-      "title": "Is the external debt burden becoming easier to service?",
-      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service"
     }
   ],
   "topics": [
@@ -128,14 +121,6 @@
       "distance": 1
     },
     {
-      "id": "q.ef13",
-      "kind": "question",
-      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
-      "title": "Is the external debt burden becoming easier to service?",
-      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service",
-      "distance": 1
-    },
-    {
       "id": "ci.ef.nir_to_gross_ratio",
       "kind": "indicator",
       "slug": "nir-to-gross-reserves-ratio",
@@ -185,7 +170,7 @@
     }
   ],
   "counts": {
-    "questions": 2,
+    "questions": 1,
     "topics": 6,
     "indicators": 3
   }

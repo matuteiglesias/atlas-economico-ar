@@ -5,7 +5,6 @@
   "title": "Nominal monetary base",
   "href": "/charts/nominal-monetary-base",
   "dek": "Show recovery in nominal base money.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -70,7 +69,6 @@
   "referenceFrameIds": [
     "rf.dec_2023_anchor"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns15",
@@ -144,7 +142,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,15",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

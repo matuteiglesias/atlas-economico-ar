@@ -4,8 +4,6 @@
   "slug": "monthly-inflation-acceleration",
   "title": "Monthly inflation acceleration",
   "href": "/indicators/monthly-inflation-acceleration",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -197,14 +195,6 @@
       "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
       "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
       "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
-      "distance": 2
-    },
-    {
-      "id": "q.ns07",
-      "kind": "question",
-      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
-      "title": "What inflation path does the market expect over the next months and year-end?",
-      "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
       "distance": 2
     }
   ],

@@ -4,8 +4,6 @@
   "slug": "monthly-change-in-gross-reserves",
   "title": "Monthly change in gross reserves",
   "href": "/indicators/monthly-change-in-gross-reserves",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -164,38 +162,6 @@
       "title": "Monthly reserve change: gross versus NIR",
       "href": "/charts/monthly-reserve-change-gross-versus-nir",
       "distance": 1
-    },
-    {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "distance": 2
-    },
-    {
-      "id": "q.ef02",
-      "kind": "question",
-      "slug": "are-reserves-rebuilding-fast-enough",
-      "title": "Are reserves rebuilding fast enough?",
-      "href": "/questions/are-reserves-rebuilding-fast-enough",
-      "distance": 2
-    },
-    {
-      "id": "q.ef07",
-      "kind": "question",
-      "slug": "has-fx-hedging-pressure-normalized",
-      "title": "Has FX hedging pressure normalized?",
-      "href": "/questions/has-fx-hedging-pressure-normalized",
-      "distance": 2
-    },
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "distance": 2
     },
     {
       "id": "q.ef03",

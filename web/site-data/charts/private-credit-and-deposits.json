@@ -5,7 +5,6 @@
   "title": "Private credit and deposits",
   "href": "/charts/private-credit-and-deposits",
   "dek": "Place total private credit beside the private deposit base using consistent ARS-equivalent source measurements.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -82,7 +81,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ef17",
@@ -179,7 +177,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "882,981",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

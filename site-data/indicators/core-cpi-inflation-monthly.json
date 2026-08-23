@@ -4,8 +4,6 @@
   "slug": "core-cpi-inflation-monthly",
   "title": "Core CPI inflation, monthly",
   "href": "/indicators/core-cpi-inflation-monthly",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -47,14 +45,6 @@
       "title": "Core inflation",
       "href": "/topics/core-inflation",
       "distance": 1
-    },
-    {
-      "id": "q.ns03",
-      "kind": "question",
-      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
-      "title": "Is disinflation broad-based across underlying inflation measures?",
-      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
-      "distance": 2
     },
     {
       "id": "ns.inflation",

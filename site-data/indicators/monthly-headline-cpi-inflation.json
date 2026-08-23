@@ -4,8 +4,6 @@
   "slug": "monthly-headline-cpi-inflation",
   "title": "Monthly headline CPI inflation",
   "href": "/indicators/monthly-headline-cpi-inflation",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -125,7 +123,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -186,7 +183,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -261,7 +257,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -336,7 +331,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -401,7 +395,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -474,7 +467,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,5",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -655,7 +647,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -725,7 +716,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -846,7 +836,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,5",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

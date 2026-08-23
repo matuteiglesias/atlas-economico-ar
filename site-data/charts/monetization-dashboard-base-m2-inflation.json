@@ -5,7 +5,6 @@
   "title": "Monetization dashboard: base, M2, inflation",
   "href": "/charts/monetization-dashboard-base-m2-inflation",
   "dek": "Compact view of monetary normalization.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -84,7 +83,6 @@
   "referenceFrameIds": [
     "rf.dec_2023_anchor"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns17",
@@ -184,7 +182,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

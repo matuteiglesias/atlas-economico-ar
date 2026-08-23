@@ -5,7 +5,6 @@
   "title": "Services balance",
   "href": "/topics/services-balance",
   "dek": "Net exports of services, including travel and other service categories.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -47,13 +46,6 @@
       "slug": "is-the-current-account-improving",
       "title": "Is the current account improving?",
       "href": "/questions/is-the-current-account-improving"
-    },
-    {
-      "id": "q.ef05",
-      "kind": "question",
-      "slug": "what-offsets-argentina-s-goods-surplus",
-      "title": "What offsets Argentina's goods surplus?",
-      "href": "/questions/what-offsets-argentina-s-goods-surplus"
     }
   ],
   "indicators": [
@@ -154,14 +146,6 @@
       "distance": 1
     },
     {
-      "id": "q.ef05",
-      "kind": "question",
-      "slug": "what-offsets-argentina-s-goods-surplus",
-      "title": "What offsets Argentina's goods surplus?",
-      "href": "/questions/what-offsets-argentina-s-goods-surplus",
-      "distance": 1
-    },
-    {
       "id": "ef.current_account",
       "kind": "topic",
       "slug": "current-account",
@@ -176,14 +160,6 @@
       "title": "Services balance",
       "href": "/indicators/services-balance",
       "distance": 1
-    },
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "distance": 2
     },
     {
       "id": "ef.external_position",
@@ -212,7 +188,7 @@
   ],
   "counts": {
     "connections": 1,
-    "questions": 2,
+    "questions": 1,
     "indicators": 1,
     "charts": 5
   }

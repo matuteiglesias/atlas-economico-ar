@@ -5,7 +5,6 @@
   "title": "REER versus NIR accumulation",
   "href": "/charts/reer-versus-nir-accumulation",
   "dek": "Show how real appreciation and reserve rebuilding have coexisted or diverged through the stabilization period.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -26,15 +25,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.current_account",
@@ -77,16 +68,7 @@
   "referenceFrameIds": [
     "rf.ef.end_2025"
   ],
-  "chartSpec": null,
   "nearby": [
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "distance": 1
-    },
     {
       "id": "ci.ef.nir_usd",
       "kind": "indicator",
@@ -145,7 +127,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 3,
     "indicators": 2
   }

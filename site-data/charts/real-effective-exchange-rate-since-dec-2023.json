@@ -5,7 +5,6 @@
   "title": "Real effective exchange rate since Dec-2023",
   "href": "/charts/real-effective-exchange-rate-since-dec-2023",
   "dek": "Quantify real appreciation/depreciation during stabilization.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -149,7 +148,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,116.3_TCRMA_0_M_36",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

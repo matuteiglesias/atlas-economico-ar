@@ -5,7 +5,6 @@
   "title": "Resident FX hedging and dollarization pressure",
   "href": "/topics/resident-fx-hedging-and-dollarization-pressure",
   "dek": "Demand by residents to acquire foreign-currency assets or hedge peso exposure, affecting the financial account and reserve pressure.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -64,15 +63,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef07",
-      "kind": "question",
-      "slug": "has-fx-hedging-pressure-normalized",
-      "title": "Has FX hedging pressure normalized?",
-      "href": "/questions/has-fx-hedging-pressure-normalized"
-    }
-  ],
+  "questions": [],
   "indicators": [],
   "charts": [
     {
@@ -91,14 +82,6 @@
     }
   ],
   "nearby": [
-    {
-      "id": "q.ef07",
-      "kind": "question",
-      "slug": "has-fx-hedging-pressure-normalized",
-      "title": "Has FX hedging pressure normalized?",
-      "href": "/questions/has-fx-hedging-pressure-normalized",
-      "distance": 1
-    },
     {
       "id": "ef.financial_account",
       "kind": "topic",
@@ -122,43 +105,11 @@
       "title": "Reserve accumulation",
       "href": "/topics/reserve-accumulation",
       "distance": 1
-    },
-    {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "distance": 2
-    },
-    {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable",
-      "distance": 2
-    },
-    {
-      "id": "q.ef02",
-      "kind": "question",
-      "slug": "are-reserves-rebuilding-fast-enough",
-      "title": "Are reserves rebuilding fast enough?",
-      "href": "/questions/are-reserves-rebuilding-fast-enough",
-      "distance": 2
-    },
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "distance": 2
     }
   ],
   "counts": {
     "connections": 3,
-    "questions": 1,
+    "questions": 0,
     "indicators": 0,
     "charts": 2
   }

@@ -5,7 +5,6 @@
   "title": "Official exchange rate within the band",
   "href": "/charts/official-exchange-rate-within-the-band",
   "dek": "Track market rate relative to policy corridor.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -164,7 +163,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,5",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

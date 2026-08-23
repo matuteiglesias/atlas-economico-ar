@@ -4,8 +4,6 @@
   "slug": "real-monetary-base",
   "title": "Real monetary base",
   "href": "/indicators/real-monetary-base",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -67,7 +65,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -131,7 +128,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -207,7 +203,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -297,7 +292,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -374,7 +368,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -447,7 +440,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

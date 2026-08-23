@@ -4,8 +4,6 @@
   "slug": "non-performing-loans-ratio",
   "title": "Non-performing loans ratio",
   "href": "/indicators/non-performing-loans-ratio",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -93,14 +91,6 @@
       "title": "Real credit growth versus NPL ratio",
       "href": "/charts/real-credit-growth-versus-npl-ratio",
       "distance": 1
-    },
-    {
-      "id": "q.ef15",
-      "kind": "question",
-      "slug": "is-credit-quality-deteriorating-as-lending-expands",
-      "title": "Is credit quality deteriorating as lending expands?",
-      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
-      "distance": 2
     },
     {
       "id": "q.ef16",

@@ -4,8 +4,6 @@
   "slug": "central-bank-repo-liabilities",
   "title": "Central-bank repo liabilities",
   "href": "/indicators/central-bank-repo-liabilities",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -78,14 +76,6 @@
       "title": "Swap and repo liabilities versus NIR",
       "href": "/charts/swap-and-repo-liabilities-versus-nir",
       "distance": 1
-    },
-    {
-      "id": "q.ef11",
-      "kind": "question",
-      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "title": "How much does the strategy rely on swaps and repos?",
-      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "distance": 2
     },
     {
       "id": "ef.external_vulnerability",

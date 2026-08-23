@@ -4,8 +4,6 @@
   "slug": "resident-financial-assets-outside-the-domestic-financial-system",
   "title": "Resident financial assets outside the domestic financial system",
   "href": "/indicators/resident-financial-assets-outside-the-domestic-financial-system",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -63,14 +61,6 @@
       "title": "Assets outside the financial system versus private credit",
       "href": "/charts/assets-outside-the-financial-system-versus-private-credit",
       "distance": 1
-    },
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint",
-      "distance": 2
     },
     {
       "id": "ef.domestic_capital_market_depth",

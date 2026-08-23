@@ -4,8 +4,6 @@
   "slug": "headline-cpi-3-month-annualized",
   "title": "Headline CPI, 3-month annualized",
   "href": "/indicators/headline-cpi-3-month-annualized",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -183,35 +181,11 @@
       "distance": 1
     },
     {
-      "id": "q.ns06",
-      "kind": "question",
-      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "distance": 2
-    },
-    {
       "id": "q.ns01",
       "kind": "question",
       "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
       "title": "How fast is inflation running now, and is it accelerating or decelerating?",
       "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
-      "distance": 2
-    },
-    {
-      "id": "q.ns03",
-      "kind": "question",
-      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
-      "title": "Is disinflation broad-based across underlying inflation measures?",
-      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
-      "distance": 2
-    },
-    {
-      "id": "q.ns18",
-      "kind": "question",
-      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
       "distance": 2
     }
   ],

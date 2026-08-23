@@ -33,13 +33,6 @@
       "slug": "what-is-driving-changes-in-reserves",
       "title": "What is driving changes in reserves?",
       "href": "/questions/what-is-driving-changes-in-reserves"
-    },
-    {
-      "id": "q.ef11",
-      "kind": "question",
-      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "title": "How much does the strategy rely on swaps and repos?",
-      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos"
     }
   ],
   "topics": [
@@ -120,14 +113,6 @@
   },
   "nearby": [
     {
-      "id": "q.ef11",
-      "kind": "question",
-      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "title": "How much does the strategy rely on swaps and repos?",
-      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "distance": 1
-    },
-    {
       "id": "q.ef03",
       "kind": "question",
       "slug": "what-is-driving-changes-in-reserves",
@@ -185,7 +170,7 @@
     }
   ],
   "counts": {
-    "questions": 2,
+    "questions": 1,
     "topics": 6,
     "indicators": 3
   }

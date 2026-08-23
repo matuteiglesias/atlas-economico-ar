@@ -306,5 +306,53 @@
     "topics": 4,
     "indicators": 9,
     "charts": 4
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 4,
+      "linkedIndicators": 9,
+      "materializedPlotArtifacts": 1,
+      "prominentPlotArtifacts": 1,
+      "quarantinedPlotArtifacts": 0,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ef46"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ef46"
+      ],
+      "hasDek": true,
+      "hasIntro": true,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "state_measurement",
+        "topicIds": [
+          "ef.gross_reserves",
+          "ef.liquid_reserve_buffers",
+          "ef.net_international_reserves",
+          "ef.reserve_adequacy"
+        ],
+        "indicatorIds": [
+          "ci.ef.current_account_gdp",
+          "ci.ef.gross_reserves_usd",
+          "ci.ef.import_cover_months",
+          "ci.ef.liquid_reserve_buffer_usd",
+          "ci.ef.nir_to_gross_ratio",
+          "ci.ef.nir_usd",
+          "ci.ef.public_fx_debt_service_12m",
+          "ci.ef.reserve_to_fx_service_ratio",
+          "ci.ef.sovereign_spread_bps"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ef46"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

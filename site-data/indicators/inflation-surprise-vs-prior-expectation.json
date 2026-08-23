@@ -4,8 +4,6 @@
   "slug": "inflation-surprise-vs-prior-expectation",
   "title": "Inflation surprise vs prior expectation",
   "href": "/indicators/inflation-surprise-vs-prior-expectation",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -67,14 +65,6 @@
       "distance": 1
     },
     {
-      "id": "q.ns06",
-      "kind": "question",
-      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "distance": 2
-    },
-    {
       "id": "q.ns12",
       "kind": "question",
       "slug": "are-interest-rates-restrictive-in-real-terms",
@@ -88,22 +78,6 @@
       "slug": "has-the-disinflation-process-stalled-or-resumed",
       "title": "Has the disinflation process stalled or resumed?",
       "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
-      "distance": 2
-    },
-    {
-      "id": "q.ns18",
-      "kind": "question",
-      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "distance": 2
-    },
-    {
-      "id": "q.ns07",
-      "kind": "question",
-      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
-      "title": "What inflation path does the market expect over the next months and year-end?",
-      "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
       "distance": 2
     },
     {

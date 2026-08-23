@@ -5,7 +5,6 @@
   "title": "Transactional M2",
   "href": "/topics/transactional-m2",
   "dek": "Private transactional broad-money aggregate used as an indicator of money demand.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -157,7 +156,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -219,7 +217,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -295,7 +292,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -359,7 +355,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -434,7 +429,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -517,7 +511,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -639,7 +632,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

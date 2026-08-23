@@ -107,20 +107,6 @@
       "slug": "is-the-current-account-improving",
       "title": "Is the current account improving?",
       "href": "/questions/is-the-current-account-improving"
-    },
-    {
-      "id": "q.ef05",
-      "kind": "question",
-      "slug": "what-offsets-argentina-s-goods-surplus",
-      "title": "What offsets Argentina's goods surplus?",
-      "href": "/questions/what-offsets-argentina-s-goods-surplus"
-    },
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance"
     }
   ],
   "indicators": [
@@ -248,27 +234,11 @@
   ],
   "nearby": [
     {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "distance": 1
-    },
-    {
       "id": "q.ef04",
       "kind": "question",
       "slug": "is-the-current-account-improving",
       "title": "Is the current account improving?",
       "href": "/questions/is-the-current-account-improving",
-      "distance": 1
-    },
-    {
-      "id": "q.ef05",
-      "kind": "question",
-      "slug": "what-offsets-argentina-s-goods-surplus",
-      "title": "What offsets Argentina's goods surplus?",
-      "href": "/questions/what-offsets-argentina-s-goods-surplus",
       "distance": 1
     },
     {
@@ -314,7 +284,7 @@
   ],
   "counts": {
     "connections": 6,
-    "questions": 3,
+    "questions": 1,
     "indicators": 2,
     "charts": 9
   }

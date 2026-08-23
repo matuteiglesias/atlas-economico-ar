@@ -494,7 +494,8 @@
       "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
       "title": "How fast is inflation running now, and is it accelerating or decelerating?",
       "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
-      "slice_id": "nominal_stabilization"
+      "slice_id": "nominal_stabilization",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ns02",
@@ -502,23 +503,26 @@
       "slug": "has-the-disinflation-process-stalled-or-resumed",
       "title": "Has the disinflation process stalled or resumed?",
       "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
-      "slice_id": "nominal_stabilization"
+      "slice_id": "nominal_stabilization",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ns03",
       "kind": "question",
       "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
       "title": "Is disinflation broad-based across underlying inflation measures?",
-      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
-      "slice_id": "nominal_stabilization"
+      "href": null,
+      "slice_id": "nominal_stabilization",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ns04",
       "kind": "question",
       "slug": "what-is-driving-monthly-inflation",
       "title": "What is driving monthly inflation?",
-      "href": "/questions/what-is-driving-monthly-inflation",
-      "slice_id": "nominal_stabilization"
+      "href": null,
+      "slice_id": "nominal_stabilization",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ns05",
@@ -526,23 +530,26 @@
       "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
       "title": "How much do exchange-rate movements pass through to domestic prices?",
       "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
-      "slice_id": "nominal_stabilization"
+      "slice_id": "nominal_stabilization",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ns06",
       "kind": "question",
       "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
       "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "slice_id": "nominal_stabilization"
+      "href": null,
+      "slice_id": "nominal_stabilization",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ns07",
       "kind": "question",
       "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
       "title": "What inflation path does the market expect over the next months and year-end?",
-      "href": "/questions/what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
-      "slice_id": "nominal_stabilization"
+      "href": null,
+      "slice_id": "nominal_stabilization",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ns08",
@@ -550,15 +557,17 @@
       "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
       "title": "Where is the official exchange rate inside the policy band?",
       "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band",
-      "slice_id": "nominal_stabilization"
+      "slice_id": "nominal_stabilization",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ns09",
       "kind": "question",
       "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
       "title": "How large is the gap between official and parallel exchange rates?",
-      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "slice_id": "nominal_stabilization"
+      "href": null,
+      "slice_id": "nominal_stabilization",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ns10",
@@ -566,7 +575,8 @@
       "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
       "title": "How much has the peso appreciated or depreciated in real terms?",
       "href": "/questions/how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
-      "slice_id": "nominal_stabilization"
+      "slice_id": "nominal_stabilization",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ns11",
@@ -574,7 +584,8 @@
       "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
       "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
       "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
-      "slice_id": "nominal_stabilization"
+      "slice_id": "nominal_stabilization",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ns12",
@@ -582,7 +593,8 @@
       "slug": "are-interest-rates-restrictive-in-real-terms",
       "title": "Are interest rates restrictive in real terms?",
       "href": "/questions/are-interest-rates-restrictive-in-real-terms",
-      "slice_id": "nominal_stabilization"
+      "slice_id": "nominal_stabilization",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ns13",
@@ -590,15 +602,17 @@
       "slug": "has-short-term-interest-rate-volatility-normalized",
       "title": "Has short-term interest-rate volatility normalized?",
       "href": "/questions/has-short-term-interest-rate-volatility-normalized",
-      "slice_id": "nominal_stabilization"
+      "slice_id": "nominal_stabilization",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ns14",
       "kind": "question",
       "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
       "title": "How tight are bank reserve requirements and liquidity conditions?",
-      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "slice_id": "nominal_stabilization"
+      "href": null,
+      "slice_id": "nominal_stabilization",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ns15",
@@ -606,7 +620,8 @@
       "slug": "is-domestic-money-demand-recovering",
       "title": "Is domestic money demand recovering?",
       "href": "/questions/is-domestic-money-demand-recovering",
-      "slice_id": "nominal_stabilization"
+      "slice_id": "nominal_stabilization",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ns16",
@@ -614,7 +629,8 @@
       "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
       "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
       "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
-      "slice_id": "nominal_stabilization"
+      "slice_id": "nominal_stabilization",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ns17",
@@ -622,15 +638,17 @@
       "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
       "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
       "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
-      "slice_id": "nominal_stabilization"
+      "slice_id": "nominal_stabilization",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ns18",
       "kind": "question",
       "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
       "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "slice_id": "nominal_stabilization"
+      "href": null,
+      "slice_id": "nominal_stabilization",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef01",
@@ -638,15 +656,17 @@
       "slug": "how-strong-is-argentina-s-reserve-position",
       "title": "How strong is Argentina's reserve position?",
       "href": "/questions/how-strong-is-argentina-s-reserve-position",
-      "slice_id": "external_financial_constraint"
+      "slice_id": "external_financial_constraint",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ef02",
       "kind": "question",
       "slug": "are-reserves-rebuilding-fast-enough",
       "title": "Are reserves rebuilding fast enough?",
-      "href": "/questions/are-reserves-rebuilding-fast-enough",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef03",
@@ -654,7 +674,8 @@
       "slug": "what-is-driving-changes-in-reserves",
       "title": "What is driving changes in reserves?",
       "href": "/questions/what-is-driving-changes-in-reserves",
-      "slice_id": "external_financial_constraint"
+      "slice_id": "external_financial_constraint",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ef04",
@@ -662,79 +683,89 @@
       "slug": "is-the-current-account-improving",
       "title": "Is the current account improving?",
       "href": "/questions/is-the-current-account-improving",
-      "slice_id": "external_financial_constraint"
+      "slice_id": "external_financial_constraint",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ef05",
       "kind": "question",
       "slug": "what-offsets-argentina-s-goods-surplus",
       "title": "What offsets Argentina's goods surplus?",
-      "href": "/questions/what-offsets-argentina-s-goods-surplus",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef06",
       "kind": "question",
       "slug": "are-capital-inflows-durable",
       "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef07",
       "kind": "question",
       "slug": "has-fx-hedging-pressure-normalized",
       "title": "Has FX hedging pressure normalized?",
-      "href": "/questions/has-fx-hedging-pressure-normalized",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef08",
       "kind": "question",
       "slug": "is-argentina-regaining-durable-market-access",
       "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef09",
       "kind": "question",
       "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
       "title": "Why can reserves rise while sovereign risk stays high?",
-      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef10",
       "kind": "question",
       "slug": "how-large-is-the-near-term-fx-maturity-wall",
       "title": "How large is the near-term FX maturity wall?",
-      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef11",
       "kind": "question",
       "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
       "title": "How much does the strategy rely on swaps and repos?",
-      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef12",
       "kind": "question",
       "slug": "is-market-financing-broadening-beyond-the-sovereign",
       "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef13",
       "kind": "question",
       "slug": "is-the-external-debt-burden-becoming-easier-to-service",
       "title": "Is the external debt burden becoming easier to service?",
-      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef14",
@@ -742,15 +773,17 @@
       "slug": "is-private-credit-genuinely-deepening",
       "title": "Is private credit genuinely deepening?",
       "href": "/questions/is-private-credit-genuinely-deepening",
-      "slice_id": "external_financial_constraint"
+      "slice_id": "external_financial_constraint",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ef15",
       "kind": "question",
       "slug": "is-credit-quality-deteriorating-as-lending-expands",
       "title": "Is credit quality deteriorating as lending expands?",
-      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef16",
@@ -758,7 +791,8 @@
       "slug": "what-does-the-rise-in-dollar-deposits-mean",
       "title": "What does the rise in dollar deposits mean?",
       "href": "/questions/what-does-the-rise-in-dollar-deposits-mean",
-      "slice_id": "external_financial_constraint"
+      "slice_id": "external_financial_constraint",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ef17",
@@ -766,31 +800,35 @@
       "slug": "how-shallow-is-argentina-s-financial-system",
       "title": "How shallow is Argentina's financial system?",
       "href": "/questions/how-shallow-is-argentina-s-financial-system",
-      "slice_id": "external_financial_constraint"
+      "slice_id": "external_financial_constraint",
+      "publicationState": "PUBLIC"
     },
     {
       "id": "q.ef18",
       "kind": "question",
       "slug": "could-resident-savings-relax-the-external-constraint",
       "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef19",
       "kind": "question",
       "slug": "how-does-real-appreciation-interact-with-the-external-balance",
       "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef20",
       "kind": "question",
       "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
       "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "slice_id": "external_financial_constraint"
+      "href": null,
+      "slice_id": "external_financial_constraint",
+      "publicationState": "HOLD"
     },
     {
       "id": "ci.ns.cpi_monthly",

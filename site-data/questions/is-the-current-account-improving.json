@@ -257,19 +257,55 @@
           }
         ]
       }
-    },
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "distance": 2
     }
   ],
   "counts": {
     "topics": 4,
     "indicators": 5,
     "charts": 3
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 3,
+      "linkedIndicators": 5,
+      "materializedPlotArtifacts": 1,
+      "prominentPlotArtifacts": 1,
+      "quarantinedPlotArtifacts": 0,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ef45"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ef45"
+      ],
+      "hasDek": true,
+      "hasIntro": true,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "decomposition",
+        "topicIds": [
+          "ef.current_account",
+          "ef.goods_trade_balance",
+          "ef.primary_income_balance",
+          "ef.services_balance"
+        ],
+        "indicatorIds": [
+          "ci.ef.current_account_gdp",
+          "ci.ef.current_account_usd",
+          "ci.ef.goods_balance_usd",
+          "ci.ef.primary_income_balance_usd",
+          "ci.ef.services_balance_usd"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ef45"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

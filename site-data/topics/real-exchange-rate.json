@@ -5,7 +5,6 @@
   "title": "Real exchange rate",
   "href": "/topics/real-exchange-rate",
   "dek": "Price-adjusted exchange-rate measure used to assess real appreciation/depreciation and competitiveness.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -90,13 +89,6 @@
   ],
   "questions": [
     {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance"
-    },
-    {
       "id": "q.ns10",
       "kind": "question",
       "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
@@ -180,7 +172,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,116.3_TCRMA_0_M_36",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -266,14 +257,6 @@
   ],
   "nearby": [
     {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "distance": 1
-    },
-    {
       "id": "q.ns10",
       "kind": "question",
       "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
@@ -332,7 +315,7 @@
   ],
   "counts": {
     "connections": 5,
-    "questions": 2,
+    "questions": 1,
     "indicators": 2,
     "charts": 7
   }

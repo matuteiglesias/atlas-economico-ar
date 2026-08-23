@@ -4,8 +4,6 @@
   "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
   "title": "Where is the official exchange rate inside the policy band?",
   "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band",
-  "dek": null,
-  "intro": null,
   "questionFamily": "policy_monitoring",
   "region": {
     "id": "nominal_stabilization",
@@ -226,14 +224,6 @@
       "distance": 2
     },
     {
-      "id": "q.ns09",
-      "kind": "question",
-      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "title": "How large is the gap between official and parallel exchange rates?",
-      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "distance": 2
-    },
-    {
       "id": "q.ns05",
       "kind": "question",
       "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
@@ -246,5 +236,46 @@
     "topics": 2,
     "indicators": 4,
     "charts": 3
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 3,
+      "linkedIndicators": 4,
+      "materializedPlotArtifacts": 1,
+      "prominentPlotArtifacts": 1,
+      "quarantinedPlotArtifacts": 0,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ns55"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ns55"
+      ],
+      "hasDek": false,
+      "hasIntro": false,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "policy_monitoring",
+        "topicIds": [
+          "ns.exchange_rate_band",
+          "ns.nominal_exchange_rate"
+        ],
+        "indicatorIds": [
+          "ci.ns.fx_band_lower",
+          "ci.ns.fx_band_position",
+          "ci.ns.fx_band_upper",
+          "ci.ns.official_fx"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns55"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

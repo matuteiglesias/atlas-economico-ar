@@ -26,15 +26,7 @@
       "href": "/areas/external-financial-constraint"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef10",
-      "kind": "question",
-      "slug": "how-large-is-the-near-term-fx-maturity-wall",
-      "title": "How large is the near-term FX maturity wall?",
-      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ef.external_public_debt",
@@ -91,14 +83,6 @@
     "dataAsOfPolicy": "latest_common_available_period"
   },
   "nearby": [
-    {
-      "id": "q.ef10",
-      "kind": "question",
-      "slug": "how-large-is-the-near-term-fx-maturity-wall",
-      "title": "How large is the near-term FX maturity wall?",
-      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
-      "distance": 1
-    },
     {
       "id": "ci.ef.imf_obligations_12m",
       "kind": "indicator",
@@ -157,7 +141,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 3,
     "indicators": 3
   }

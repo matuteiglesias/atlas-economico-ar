@@ -5,7 +5,6 @@
   "title": "Policy-relevant rate vs money-market rate",
   "href": "/charts/policy-relevant-rate-vs-money-market-rate",
   "dek": "Track transmission and market segmentation.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -254,7 +253,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "160,11",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

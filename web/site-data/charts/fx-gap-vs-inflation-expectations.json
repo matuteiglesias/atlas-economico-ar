@@ -5,7 +5,6 @@
   "title": "FX gap vs inflation expectations",
   "href": "/charts/fx-gap-vs-inflation-expectations",
   "dek": "Inspect whether FX-market stress and inflation expectations move together.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -26,15 +25,7 @@
       "href": "/areas/nominal-stabilization"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ns18",
-      "kind": "question",
-      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ns.fx_gap",
@@ -91,16 +82,7 @@
   "referenceFrameIds": [
     "rf.trailing_12m"
   ],
-  "chartSpec": null,
   "nearby": [
-    {
-      "id": "q.ns18",
-      "kind": "question",
-      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "distance": 1
-    },
     {
       "id": "ci.ns.fx_gap_ccl",
       "kind": "indicator",
@@ -159,7 +141,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 5,
     "indicators": 2
   }

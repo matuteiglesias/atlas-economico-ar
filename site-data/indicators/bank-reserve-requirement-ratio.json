@@ -4,8 +4,6 @@
   "slug": "bank-reserve-requirement-ratio",
   "title": "Bank reserve requirement ratio",
   "href": "/indicators/bank-reserve-requirement-ratio",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -78,14 +76,6 @@
       "title": "Reserve requirements and BCRA peso deposits",
       "href": "/charts/reserve-requirements-and-bcra-peso-deposits",
       "distance": 1
-    },
-    {
-      "id": "q.ns14",
-      "kind": "question",
-      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "title": "How tight are bank reserve requirements and liquidity conditions?",
-      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "distance": 2
     },
     {
       "id": "ns.monetary_base",

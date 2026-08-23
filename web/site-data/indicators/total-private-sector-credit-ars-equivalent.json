@@ -4,8 +4,6 @@
   "slug": "total-private-sector-credit-ars-equivalent",
   "title": "Total private-sector credit, ARS equivalent",
   "href": "/indicators/total-private-sector-credit-ars-equivalent",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -68,7 +66,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -146,7 +143,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -183,14 +179,6 @@
       "slug": "how-shallow-is-argentina-s-financial-system",
       "title": "How shallow is Argentina's financial system?",
       "href": "/questions/how-shallow-is-argentina-s-financial-system",
-      "distance": 2
-    },
-    {
-      "id": "q.ef15",
-      "kind": "question",
-      "slug": "is-credit-quality-deteriorating-as-lending-expands",
-      "title": "Is credit quality deteriorating as lending expands?",
-      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
       "distance": 2
     },
     {

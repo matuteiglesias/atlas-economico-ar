@@ -5,7 +5,6 @@
   "title": "Carry environment: real rates vs FX depreciation",
   "href": "/charts/carry-environment-real-rates-vs-fx-depreciation",
   "dek": "Characterize incentives behind carry-trade narratives without prescribing investment.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -77,7 +76,6 @@
   "referenceFrameIds": [
     "rf.trailing_12m"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns12",

@@ -4,8 +4,6 @@
   "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
   "title": "Cumulative BCRA FX purchases since Jan-2026",
   "href": "/indicators/cumulative-bcra-fx-purchases-since-jan-2026",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -149,14 +147,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "distance": 2
     },
     {
       "id": "q.ns11",

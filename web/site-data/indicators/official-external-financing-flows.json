@@ -4,8 +4,6 @@
   "slug": "official-external-financing-flows",
   "title": "Official external financing flows",
   "href": "/indicators/official-external-financing-flows",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -78,14 +76,6 @@
       "title": "Official financing, swaps, and repos",
       "href": "/charts/official-financing-swaps-and-repos",
       "distance": 1
-    },
-    {
-      "id": "q.ef11",
-      "kind": "question",
-      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "title": "How much does the strategy rely on swaps and repos?",
-      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "distance": 2
     },
     {
       "id": "q.ef03",

@@ -4,8 +4,6 @@
   "slug": "nir-to-gross-reserves-ratio",
   "title": "NIR-to-gross-reserves ratio",
   "href": "/indicators/nir-to-gross-reserves-ratio",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -67,27 +65,11 @@
       "distance": 1
     },
     {
-      "id": "q.ef02",
-      "kind": "question",
-      "slug": "are-reserves-rebuilding-fast-enough",
-      "title": "Are reserves rebuilding fast enough?",
-      "href": "/questions/are-reserves-rebuilding-fast-enough",
-      "distance": 2
-    },
-    {
       "id": "q.ef01",
       "kind": "question",
       "slug": "how-strong-is-argentina-s-reserve-position",
       "title": "How strong is Argentina's reserve position?",
       "href": "/questions/how-strong-is-argentina-s-reserve-position",
-      "distance": 2
-    },
-    {
-      "id": "q.ef13",
-      "kind": "question",
-      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
-      "title": "Is the external debt burden becoming easier to service?",
-      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service",
       "distance": 2
     },
     {

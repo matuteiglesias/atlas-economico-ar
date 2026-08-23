@@ -4,8 +4,6 @@
   "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
   "title": "How much do exchange-rate movements pass through to domestic prices?",
   "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
-  "dek": null,
-  "intro": null,
   "questionFamily": "mechanism",
   "region": {
     "id": "nominal_stabilization",
@@ -98,7 +96,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -166,7 +163,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,5",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -254,7 +250,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,5",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -316,7 +311,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "5,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -375,5 +369,48 @@
     "topics": 3,
     "indicators": 2,
     "charts": 3
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 3,
+      "linkedIndicators": 2,
+      "materializedPlotArtifacts": 2,
+      "prominentPlotArtifacts": 2,
+      "quarantinedPlotArtifacts": 0,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ns09",
+        "pi.ns50"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ns09",
+        "pi.ns50"
+      ],
+      "hasDek": false,
+      "hasIntro": false,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "mechanism",
+        "topicIds": [
+          "ns.fx_pass_through",
+          "ns.inflation",
+          "ns.nominal_exchange_rate"
+        ],
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.official_fx_monthly_change"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns09",
+          "pi.ns50"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

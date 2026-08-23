@@ -5,7 +5,6 @@
   "title": "Headline inflation: monthly vs year-over-year",
   "href": "/charts/headline-inflation-monthly-vs-year-over-year",
   "dek": "Separate current pace from legacy annual inflation.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -149,7 +148,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -226,7 +224,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

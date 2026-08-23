@@ -4,8 +4,6 @@
   "slug": "net-public-sector-financial-flows",
   "title": "Net public-sector financial flows",
   "href": "/indicators/net-public-sector-financial-flows",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -63,22 +61,6 @@
       "title": "Financial-account components",
       "href": "/charts/financial-account-components",
       "distance": 1
-    },
-    {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable",
-      "distance": 2
-    },
-    {
-      "id": "q.ef07",
-      "kind": "question",
-      "slug": "has-fx-hedging-pressure-normalized",
-      "title": "Has FX hedging pressure normalized?",
-      "href": "/questions/has-fx-hedging-pressure-normalized",
-      "distance": 2
     },
     {
       "id": "ef.capital_inflows",

@@ -4,8 +4,6 @@
   "slug": "tamar-ex-post-real-rate",
   "title": "TAMAR ex-post real rate",
   "href": "/indicators/tamar-ex-post-real-rate",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -74,7 +72,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "44,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -157,7 +154,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "44,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

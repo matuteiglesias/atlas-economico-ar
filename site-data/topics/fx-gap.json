@@ -5,7 +5,6 @@
   "title": "FX gap",
   "href": "/topics/fx-gap",
   "dek": "Percentage wedge between a parallel exchange rate and the official exchange rate.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -64,22 +63,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ns09",
-      "kind": "question",
-      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "title": "How large is the gap between official and parallel exchange rates?",
-      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates"
-    },
-    {
-      "id": "q.ns18",
-      "kind": "question",
-      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand"
-    }
-  ],
+  "questions": [],
   "indicators": [
     {
       "id": "ci.ns.fx_gap_blue",
@@ -163,22 +147,6 @@
   ],
   "nearby": [
     {
-      "id": "q.ns09",
-      "kind": "question",
-      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "title": "How large is the gap between official and parallel exchange rates?",
-      "href": "/questions/how-large-is-the-gap-between-official-and-parallel-exchange-rates",
-      "distance": 1
-    },
-    {
-      "id": "q.ns18",
-      "kind": "question",
-      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "distance": 1
-    },
-    {
       "id": "ns.inflation",
       "kind": "topic",
       "slug": "inflation",
@@ -229,7 +197,7 @@
   ],
   "counts": {
     "connections": 3,
-    "questions": 2,
+    "questions": 0,
     "indicators": 2,
     "charts": 9
   }

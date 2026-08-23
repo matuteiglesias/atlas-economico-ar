@@ -4,8 +4,6 @@
   "slug": "tamar-nominal-rate",
   "title": "TAMAR nominal rate",
   "href": "/indicators/tamar-nominal-rate",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -176,22 +174,6 @@
       "slug": "has-short-term-interest-rate-volatility-normalized",
       "title": "Has short-term interest-rate volatility normalized?",
       "href": "/questions/has-short-term-interest-rate-volatility-normalized",
-      "distance": 2
-    },
-    {
-      "id": "q.ns14",
-      "kind": "question",
-      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "title": "How tight are bank reserve requirements and liquidity conditions?",
-      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "distance": 2
-    },
-    {
-      "id": "q.ns18",
-      "kind": "question",
-      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
       "distance": 2
     },
     {

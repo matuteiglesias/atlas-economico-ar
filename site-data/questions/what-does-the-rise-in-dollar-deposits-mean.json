@@ -142,7 +142,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "108,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -278,7 +277,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "992,1003",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -344,7 +342,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -517,7 +514,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -604,7 +600,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "108,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -659,5 +654,60 @@
     "topics": 3,
     "indicators": 8,
     "charts": 6
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 6,
+      "linkedIndicators": 8,
+      "materializedPlotArtifacts": 4,
+      "prominentPlotArtifacts": 4,
+      "quarantinedPlotArtifacts": 0,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ef33",
+        "pi.ef50",
+        "pi.ef52",
+        "pi.ef53"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ef33",
+        "pi.ef50",
+        "pi.ef52",
+        "pi.ef53"
+      ],
+      "hasDek": true,
+      "hasIntro": true,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "dollarization_finance",
+        "topicIds": [
+          "ef.external_vulnerability",
+          "ef.financial_depth",
+          "ef.fx_deposits"
+        ],
+        "indicatorIds": [
+          "ci.ef.bank_capital_ratio",
+          "ci.ef.bank_liquidity_ratio",
+          "ci.ef.fx_credit_share",
+          "ci.ef.fx_deposit_share",
+          "ci.ef.fx_deposits_usd",
+          "ci.ef.npl_ratio",
+          "ci.ef.private_deposits_fx_ars_equivalent",
+          "ci.ef.private_deposits_peso_ars"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ef33",
+          "pi.ef50",
+          "pi.ef52",
+          "pi.ef53"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

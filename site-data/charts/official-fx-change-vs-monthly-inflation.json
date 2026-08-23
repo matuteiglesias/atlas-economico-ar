@@ -5,7 +5,6 @@
   "title": "Official FX change vs monthly inflation",
   "href": "/charts/official-fx-change-vs-monthly-inflation",
   "dek": "Visually inspect short-run co-movement without claiming causality.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -179,7 +178,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "5,145.3_INGNACUAL_DICI_M_38",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

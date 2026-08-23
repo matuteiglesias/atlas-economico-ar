@@ -5,7 +5,6 @@
   "title": "Remonetization",
   "href": "/topics/remonetization",
   "dek": "Recovery in the real demand for and holdings of domestic money after a low-monetization episode.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -118,7 +117,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -182,7 +180,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -257,7 +254,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -340,14 +336,6 @@
       "title": "Transactional M2",
       "href": "/topics/transactional-m2",
       "distance": 1
-    },
-    {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "distance": 2
     },
     {
       "id": "q.ns11",

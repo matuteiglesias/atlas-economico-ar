@@ -5,7 +5,6 @@
   "title": "Monetary-base growth vs money-demand proxy",
   "href": "/charts/monetary-base-growth-vs-money-demand-proxy",
   "dek": "Check consistency between operational aggregate and demand proxy.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -77,7 +76,6 @@
   "referenceFrameIds": [
     "rf.trailing_12m"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns17",
@@ -167,7 +165,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,15",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

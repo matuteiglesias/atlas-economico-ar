@@ -5,7 +5,6 @@
   "title": "Real interest rate",
   "href": "/topics/real-interest-rate",
   "dek": "Nominal interest rate adjusted for actual or expected inflation.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -233,7 +232,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "44,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -369,14 +367,6 @@
       "title": "TAMAR ex-post real rate",
       "href": "/indicators/tamar-ex-post-real-rate",
       "distance": 1
-    },
-    {
-      "id": "q.ns06",
-      "kind": "question",
-      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "distance": 2
     }
   ],
   "counts": {

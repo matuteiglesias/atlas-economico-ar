@@ -4,8 +4,6 @@
   "slug": "external-debt-as-share-of-gdp",
   "title": "External debt as share of GDP",
   "href": "/indicators/external-debt-as-share-of-gdp",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -63,22 +61,6 @@
       "title": "External debt in dollars and percent of GDP",
       "href": "/charts/external-debt-in-dollars-and-percent-of-gdp",
       "distance": 1
-    },
-    {
-      "id": "q.ef10",
-      "kind": "question",
-      "slug": "how-large-is-the-near-term-fx-maturity-wall",
-      "title": "How large is the near-term FX maturity wall?",
-      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall",
-      "distance": 2
-    },
-    {
-      "id": "q.ef13",
-      "kind": "question",
-      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
-      "title": "Is the external debt burden becoming easier to service?",
-      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service",
-      "distance": 2
     },
     {
       "id": "ef.external_vulnerability",

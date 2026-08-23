@@ -5,7 +5,6 @@
   "title": "Credit quality",
   "href": "/topics/credit-quality",
   "dek": "Capacity of borrowers to service debt, commonly monitored through arrears, non-performing loans, and provisioning.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -40,15 +39,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef15",
-      "kind": "question",
-      "slug": "is-credit-quality-deteriorating-as-lending-expands",
-      "title": "Is credit quality deteriorating as lending expands?",
-      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands"
-    }
-  ],
+  "questions": [],
   "indicators": [
     {
       "id": "ci.ef.bank_capital_ratio",
@@ -103,14 +94,6 @@
     }
   ],
   "nearby": [
-    {
-      "id": "q.ef15",
-      "kind": "question",
-      "slug": "is-credit-quality-deteriorating-as-lending-expands",
-      "title": "Is credit quality deteriorating as lending expands?",
-      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands",
-      "distance": 1
-    },
     {
       "id": "ef.private_credit",
       "kind": "topic",
@@ -170,7 +153,7 @@
   ],
   "counts": {
     "connections": 1,
-    "questions": 1,
+    "questions": 0,
     "indicators": 3,
     "charts": 4
   }

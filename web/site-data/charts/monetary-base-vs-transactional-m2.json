@@ -5,7 +5,6 @@
   "title": "Monetary base vs transactional M2",
   "href": "/charts/monetary-base-vs-transactional-m2",
   "dek": "Distinguish money supply from private money demand.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -84,7 +83,6 @@
   "referenceFrameIds": [
     "rf.dec_2023_anchor"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns16",
@@ -183,7 +181,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

@@ -5,7 +5,6 @@
   "title": "Real-rate regime since 2025",
   "href": "/charts/real-rate-regime-since-2025",
   "dek": "Show periods of positive/negative real rates.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",

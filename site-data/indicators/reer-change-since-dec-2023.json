@@ -4,8 +4,6 @@
   "slug": "reer-change-since-dec-2023",
   "title": "REER change since Dec-2023",
   "href": "/indicators/reer-change-since-dec-2023",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -65,14 +63,6 @@
       "title": "Real effective exchange rate since Dec-2023",
       "href": "/charts/real-effective-exchange-rate-since-dec-2023",
       "distance": 1
-    },
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance",
-      "distance": 2
     },
     {
       "id": "q.ns10",

@@ -5,7 +5,6 @@
   "title": "Food and regulated prices as contributors to monthly inflation",
   "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation",
   "dek": "Separate relative-price shocks from aggregate inflation.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -26,15 +25,7 @@
       "href": "/areas/nominal-stabilization"
     }
   ],
-  "questions": [
-    {
-      "id": "q.ns04",
-      "kind": "question",
-      "slug": "what-is-driving-monthly-inflation",
-      "title": "What is driving monthly inflation?",
-      "href": "/questions/what-is-driving-monthly-inflation"
-    }
-  ],
+  "questions": [],
   "topics": [
     {
       "id": "ns.aggregate_demand_pressure",
@@ -106,14 +97,6 @@
   },
   "nearby": [
     {
-      "id": "q.ns04",
-      "kind": "question",
-      "slug": "what-is-driving-monthly-inflation",
-      "title": "What is driving monthly inflation?",
-      "href": "/questions/what-is-driving-monthly-inflation",
-      "distance": 1
-    },
-    {
       "id": "ci.ns.food_inflation_contribution",
       "kind": "indicator",
       "slug": "food-contribution-to-monthly-inflation",
@@ -171,7 +154,7 @@
     }
   ],
   "counts": {
-    "questions": 1,
+    "questions": 0,
     "topics": 5,
     "indicators": 3
   }

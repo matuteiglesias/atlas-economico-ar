@@ -5,7 +5,6 @@
   "title": "Monetary base and transactional M2",
   "href": "/charts/monetary-base-and-transactional-m2",
   "dek": "Compare the two nominal monetary stocks without implying that their levels are interchangeable.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -89,7 +88,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns15",
@@ -186,7 +184,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "15,197",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

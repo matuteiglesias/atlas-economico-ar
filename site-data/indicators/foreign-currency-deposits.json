@@ -4,8 +4,6 @@
   "slug": "foreign-currency-deposits",
   "title": "Foreign-currency deposits",
   "href": "/indicators/foreign-currency-deposits",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -70,7 +68,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "108,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -257,7 +254,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "108,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

@@ -5,7 +5,6 @@
   "title": "Inflation vs FX depreciation since stabilization start",
   "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start",
   "dek": "Longer view of co-movement and changing pass-through.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -77,7 +76,6 @@
   "referenceFrameIds": [
     "rf.dec_2023_anchor"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns05",
@@ -174,7 +172,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,5",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

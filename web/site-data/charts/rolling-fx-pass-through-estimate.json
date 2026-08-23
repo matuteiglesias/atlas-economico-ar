@@ -5,7 +5,6 @@
   "title": "Rolling FX pass-through estimate",
   "href": "/charts/rolling-fx-pass-through-estimate",
   "dek": "Estimate how pass-through evolves over time with an explicitly documented model later.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",

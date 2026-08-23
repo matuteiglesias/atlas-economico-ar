@@ -5,7 +5,6 @@
   "title": "Position inside FX band",
   "href": "/charts/position-inside-fx-band",
   "dek": "Normalize the exchange rate's location within the band to 0-100.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",

@@ -5,7 +5,6 @@
   "title": "Foreign-currency shares of private credit and deposits",
   "href": "/charts/foreign-currency-shares-of-private-credit-and-deposits",
   "dek": "Compare dollarization on the asset and liability sides of domestic financial intermediation.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -89,7 +88,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ef14",
@@ -190,7 +188,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "904,882,1003,981",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

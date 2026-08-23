@@ -5,7 +5,6 @@
   "title": "Transactional M2 vs BCRA projection",
   "href": "/charts/transactional-m2-vs-bcra-projection",
   "dek": "Assess whether money demand is recovering as programmed.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -75,7 +74,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns15",
@@ -165,7 +163,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

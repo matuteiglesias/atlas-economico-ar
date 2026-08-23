@@ -4,8 +4,6 @@
   "slug": "trimmed-cpi-3-month-annualized",
   "title": "Trimmed CPI, 3-month annualized",
   "href": "/indicators/trimmed-cpi-3-month-annualized",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -63,14 +61,6 @@
       "title": "Multiple measures of core inflation",
       "href": "/charts/multiple-measures-of-core-inflation",
       "distance": 1
-    },
-    {
-      "id": "q.ns03",
-      "kind": "question",
-      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
-      "title": "Is disinflation broad-based across underlying inflation measures?",
-      "href": "/questions/is-disinflation-broad-based-across-underlying-inflation-measures",
-      "distance": 2
     },
     {
       "id": "ns.inflation",

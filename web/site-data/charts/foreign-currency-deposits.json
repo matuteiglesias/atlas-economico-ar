@@ -5,7 +5,6 @@
   "title": "Foreign-currency deposits",
   "href": "/charts/foreign-currency-deposits",
   "dek": "Track the private-sector foreign-currency deposit stock directly in USD billions; the deposit share remains a separate unresolved measurement.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -68,7 +67,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ef16",
@@ -154,7 +152,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -241,7 +238,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "108,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

@@ -4,8 +4,6 @@
   "slug": "short-money-market-rate",
   "title": "Short money-market rate",
   "href": "/indicators/short-money-market-rate",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -75,7 +73,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "160,11",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -275,7 +272,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "160,11",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -320,14 +316,6 @@
       "slug": "has-short-term-interest-rate-volatility-normalized",
       "title": "Has short-term interest-rate volatility normalized?",
       "href": "/questions/has-short-term-interest-rate-volatility-normalized",
-      "distance": 2
-    },
-    {
-      "id": "q.ns14",
-      "kind": "question",
-      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "title": "How tight are bank reserve requirements and liquidity conditions?",
-      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
       "distance": 2
     }
   ],

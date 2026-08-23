@@ -4,8 +4,6 @@
   "slug": "has-the-disinflation-process-stalled-or-resumed",
   "title": "Has the disinflation process stalled or resumed?",
   "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
-  "dek": null,
-  "intro": null,
   "questionFamily": "trend_regime",
   "region": {
     "id": "nominal_stabilization",
@@ -98,7 +96,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -186,7 +183,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "145.3_INGNACUAL_DICI_M_38,28",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -217,14 +213,6 @@
       }
     },
     {
-      "id": "q.ns06",
-      "kind": "question",
-      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
-      "href": "/questions/are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
-      "distance": 2
-    },
-    {
       "id": "q.ns12",
       "kind": "question",
       "slug": "are-interest-rates-restrictive-in-real-terms",
@@ -253,5 +241,45 @@
     "topics": 3,
     "indicators": 2,
     "charts": 1
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 1,
+      "linkedIndicators": 2,
+      "materializedPlotArtifacts": 1,
+      "prominentPlotArtifacts": 1,
+      "quarantinedPlotArtifacts": 0,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ns04"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ns04"
+      ],
+      "hasDek": false,
+      "hasIntro": false,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "trend_regime",
+        "topicIds": [
+          "ns.inflation",
+          "ns.inflation_expectations",
+          "ns.inflation_inertia"
+        ],
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.cpi_yoy"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns04"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

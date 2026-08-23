@@ -5,7 +5,6 @@
   "title": "Nominal vs real exchange-rate movement",
   "href": "/charts/nominal-vs-real-exchange-rate-movement",
   "dek": "Contrast nominal depreciation with real appreciation/depreciation.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -149,7 +148,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,5",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -266,7 +264,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "5,116.3_TCRMA_0_M_36",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

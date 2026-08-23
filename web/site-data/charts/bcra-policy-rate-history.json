@@ -5,7 +5,6 @@
   "title": "BCRA policy rate history",
   "href": "/charts/bcra-policy-rate-history",
   "dek": "Preserve the observed BCRA policy-rate history through the final provider observation without implying that the discontinued series is current.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -89,7 +88,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns12",

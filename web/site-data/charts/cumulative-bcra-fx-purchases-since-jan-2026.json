@@ -5,7 +5,6 @@
   "title": "Cumulative BCRA FX purchases since Jan 2026",
   "href": "/charts/cumulative-bcra-fx-purchases-since-jan-2026",
   "dek": "Accumulate the registered daily BCRA FX-purchase flow from the start of 2026.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -75,7 +74,6 @@
     }
   ],
   "referenceFrameIds": [],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ns11",
@@ -207,7 +205,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,15",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

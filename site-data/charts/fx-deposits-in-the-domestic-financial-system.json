@@ -5,7 +5,6 @@
   "title": "FX deposits in the domestic financial system",
   "href": "/charts/fx-deposits-in-the-domestic-financial-system",
   "dek": "Show the scale and share of dollar deposits as a component of domestic financial depth.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -77,7 +76,6 @@
   "referenceFrameIds": [
     "rf.ef.end_2025"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ef16",
@@ -218,7 +216,6 @@
     "source": {
       "provider": "multiple",
       "providerSeriesId": "108,1003,981",
-      "sourceUnit": null,
       "normalization": {
         "kind": "composite"
       }

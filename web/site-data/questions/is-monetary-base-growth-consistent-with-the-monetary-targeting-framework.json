@@ -4,8 +4,6 @@
   "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
   "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
   "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
-  "dek": null,
-  "intro": null,
   "questionFamily": "program_consistency",
   "region": {
     "id": "nominal_stabilization",
@@ -129,7 +127,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -202,7 +199,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -294,7 +290,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -371,7 +366,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "15,145.3_INGNACUAL_DICI_M_38,197",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -434,5 +428,49 @@
     "topics": 3,
     "indicators": 5,
     "charts": 3
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 3,
+      "linkedIndicators": 5,
+      "materializedPlotArtifacts": 2,
+      "prominentPlotArtifacts": 1,
+      "quarantinedPlotArtifacts": 1,
+      "historicalPlotArtifacts": 0,
+      "materializedPlotIntentIds": [
+        "pi.ns43",
+        "pi.ns58"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ns43"
+      ],
+      "hasDek": false,
+      "hasIntro": false,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "program_consistency",
+        "topicIds": [
+          "ns.monetary_base",
+          "ns.monetary_targeting_framework",
+          "ns.money_demand"
+        ],
+        "indicatorIds": [
+          "ci.ns.cpi_monthly",
+          "ci.ns.monetary_base_nominal",
+          "ci.ns.monetary_base_real",
+          "ci.ns.transactional_m2_nominal",
+          "ci.ns.transactional_m2_real"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns43"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

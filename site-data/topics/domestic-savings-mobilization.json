@@ -52,15 +52,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint"
-    }
-  ],
+  "questions": [],
   "indicators": [
     {
       "id": "ci.ef.assets_outside_system_gdp",
@@ -87,14 +79,6 @@
     }
   ],
   "nearby": [
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint",
-      "distance": 1
-    },
     {
       "id": "ef.domestic_capital_market_depth",
       "kind": "topic",
@@ -154,7 +138,7 @@
   ],
   "counts": {
     "connections": 2,
-    "questions": 1,
+    "questions": 0,
     "indicators": 1,
     "charts": 2
   }

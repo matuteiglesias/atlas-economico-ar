@@ -15,7 +15,7 @@
   ],
   "stats": {
     "topics": 30,
-    "questions": 20,
+    "questions": 6,
     "indicators": 47,
     "charts": 54,
     "relations": 37
@@ -234,62 +234,6 @@
   ],
   "questions": [
     {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position"
-    },
-    {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable"
-    },
-    {
-      "id": "q.ef02",
-      "kind": "question",
-      "slug": "are-reserves-rebuilding-fast-enough",
-      "title": "Are reserves rebuilding fast enough?",
-      "href": "/questions/are-reserves-rebuilding-fast-enough"
-    },
-    {
-      "id": "q.ef18",
-      "kind": "question",
-      "slug": "could-resident-savings-relax-the-external-constraint",
-      "title": "Could resident savings relax the external constraint?",
-      "href": "/questions/could-resident-savings-relax-the-external-constraint"
-    },
-    {
-      "id": "q.ef07",
-      "kind": "question",
-      "slug": "has-fx-hedging-pressure-normalized",
-      "title": "Has FX hedging pressure normalized?",
-      "href": "/questions/has-fx-hedging-pressure-normalized"
-    },
-    {
-      "id": "q.ef19",
-      "kind": "question",
-      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
-      "title": "How does real appreciation interact with the external balance?",
-      "href": "/questions/how-does-real-appreciation-interact-with-the-external-balance"
-    },
-    {
-      "id": "q.ef10",
-      "kind": "question",
-      "slug": "how-large-is-the-near-term-fx-maturity-wall",
-      "title": "How large is the near-term FX maturity wall?",
-      "href": "/questions/how-large-is-the-near-term-fx-maturity-wall"
-    },
-    {
-      "id": "q.ef11",
-      "kind": "question",
-      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
-      "title": "How much does the strategy rely on swaps and repos?",
-      "href": "/questions/how-much-does-the-strategy-rely-on-swaps-and-repos"
-    },
-    {
       "id": "q.ef17",
       "kind": "question",
       "slug": "how-shallow-is-argentina-s-financial-system",
@@ -302,27 +246,6 @@
       "slug": "how-strong-is-argentina-s-reserve-position",
       "title": "How strong is Argentina's reserve position?",
       "href": "/questions/how-strong-is-argentina-s-reserve-position"
-    },
-    {
-      "id": "q.ef08",
-      "kind": "question",
-      "slug": "is-argentina-regaining-durable-market-access",
-      "title": "Is Argentina regaining durable market access?",
-      "href": "/questions/is-argentina-regaining-durable-market-access"
-    },
-    {
-      "id": "q.ef15",
-      "kind": "question",
-      "slug": "is-credit-quality-deteriorating-as-lending-expands",
-      "title": "Is credit quality deteriorating as lending expands?",
-      "href": "/questions/is-credit-quality-deteriorating-as-lending-expands"
-    },
-    {
-      "id": "q.ef12",
-      "kind": "question",
-      "slug": "is-market-financing-broadening-beyond-the-sovereign",
-      "title": "Is market financing broadening beyond the sovereign?",
-      "href": "/questions/is-market-financing-broadening-beyond-the-sovereign"
     },
     {
       "id": "q.ef14",
@@ -339,13 +262,6 @@
       "href": "/questions/is-the-current-account-improving"
     },
     {
-      "id": "q.ef13",
-      "kind": "question",
-      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
-      "title": "Is the external debt burden becoming easier to service?",
-      "href": "/questions/is-the-external-debt-burden-becoming-easier-to-service"
-    },
-    {
       "id": "q.ef16",
       "kind": "question",
       "slug": "what-does-the-rise-in-dollar-deposits-mean",
@@ -358,20 +274,6 @@
       "slug": "what-is-driving-changes-in-reserves",
       "title": "What is driving changes in reserves?",
       "href": "/questions/what-is-driving-changes-in-reserves"
-    },
-    {
-      "id": "q.ef05",
-      "kind": "question",
-      "slug": "what-offsets-argentina-s-goods-surplus",
-      "title": "What offsets Argentina's goods surplus?",
-      "href": "/questions/what-offsets-argentina-s-goods-surplus"
-    },
-    {
-      "id": "q.ef09",
-      "kind": "question",
-      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
-      "title": "Why can reserves rise while sovereign risk stays high?",
-      "href": "/questions/why-can-reserves-rise-while-sovereign-risk-stays-high"
     }
   ],
   "indicators": [
@@ -751,7 +653,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,1",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -973,7 +874,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "904,882,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -1066,7 +966,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "108,1003,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -1363,7 +1262,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -1432,7 +1330,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "893,904",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -1494,7 +1391,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "992,1003",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -1576,7 +1472,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,145.3_INGNACUAL_DICI_M_38",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -1723,165 +1618,11 @@
   "localGraph": {
     "nodes": [
       {
-        "id": "ef.current_account",
+        "id": "ef.resident_fx_hedging",
         "kind": "topic",
-        "slug": "current-account",
-        "title": "Current account",
-        "href": "/topics/current-account"
-      },
-      {
-        "id": "ef.swap_repo_financing",
-        "kind": "topic",
-        "slug": "swap-and-repo-financing",
-        "title": "Swap and repo financing",
-        "href": "/topics/swap-and-repo-financing"
-      },
-      {
-        "id": "ef.goods_trade_balance",
-        "kind": "topic",
-        "slug": "goods-trade-balance",
-        "title": "Goods trade balance",
-        "href": "/topics/goods-trade-balance"
-      },
-      {
-        "id": "ef.credit_quality",
-        "kind": "topic",
-        "slug": "credit-quality",
-        "title": "Credit quality",
-        "href": "/topics/credit-quality"
-      },
-      {
-        "id": "ef.domestic_capital_market_depth",
-        "kind": "topic",
-        "slug": "domestic-capital-market-depth",
-        "title": "Domestic capital-market depth",
-        "href": "/topics/domestic-capital-market-depth"
-      },
-      {
-        "id": "ef.official_external_financing",
-        "kind": "topic",
-        "slug": "official-external-financing",
-        "title": "Official external financing",
-        "href": "/topics/official-external-financing"
-      },
-      {
-        "id": "ef.external_public_debt",
-        "kind": "topic",
-        "slug": "external-public-debt",
-        "title": "External public debt",
-        "href": "/topics/external-public-debt"
-      },
-      {
-        "id": "ef.private_credit",
-        "kind": "topic",
-        "slug": "private-sector-credit",
-        "title": "Private-sector credit",
-        "href": "/topics/private-sector-credit"
-      },
-      {
-        "id": "ef.sovereign_risk",
-        "kind": "topic",
-        "slug": "sovereign-risk",
-        "title": "Sovereign risk",
-        "href": "/topics/sovereign-risk"
-      },
-      {
-        "id": "ef.fx_debt_service",
-        "kind": "topic",
-        "slug": "foreign-currency-debt-service",
-        "title": "Foreign-currency debt service",
-        "href": "/topics/foreign-currency-debt-service"
-      },
-      {
-        "id": "ef.financial_account",
-        "kind": "topic",
-        "slug": "financial-account",
-        "title": "Financial account",
-        "href": "/topics/financial-account"
-      },
-      {
-        "id": "ef.reserve_accumulation",
-        "kind": "topic",
-        "slug": "reserve-accumulation",
-        "title": "Reserve accumulation",
-        "href": "/topics/reserve-accumulation"
-      },
-      {
-        "id": "ef.refinancing_needs",
-        "kind": "topic",
-        "slug": "external-refinancing-needs",
-        "title": "External refinancing needs",
-        "href": "/topics/external-refinancing-needs"
-      },
-      {
-        "id": "ef.financial_depth",
-        "kind": "topic",
-        "slug": "financial-depth",
-        "title": "Financial depth",
-        "href": "/topics/financial-depth"
-      },
-      {
-        "id": "ef.capital_inflows",
-        "kind": "topic",
-        "slug": "capital-inflows",
-        "title": "Capital inflows",
-        "href": "/topics/capital-inflows"
-      },
-      {
-        "id": "ef.primary_income_balance",
-        "kind": "topic",
-        "slug": "primary-income-balance",
-        "title": "Primary income balance",
-        "href": "/topics/primary-income-balance"
-      },
-      {
-        "id": "ef.fx_market_issuance",
-        "kind": "topic",
-        "slug": "fx-market-issuance",
-        "title": "FX market issuance",
-        "href": "/topics/fx-market-issuance"
-      },
-      {
-        "id": "ef.gross_reserves",
-        "kind": "topic",
-        "slug": "gross-international-reserves",
-        "title": "Gross international reserves",
-        "href": "/topics/gross-international-reserves"
-      },
-      {
-        "id": "ef.foreign_direct_investment",
-        "kind": "topic",
-        "slug": "foreign-direct-investment",
-        "title": "Foreign direct investment",
-        "href": "/topics/foreign-direct-investment"
-      },
-      {
-        "id": "ef.net_international_reserves",
-        "kind": "topic",
-        "slug": "net-international-reserves",
-        "title": "Net international reserves",
-        "href": "/topics/net-international-reserves"
-      },
-      {
-        "id": "ef.sovereign_spreads",
-        "kind": "topic",
-        "slug": "sovereign-spreads",
-        "title": "Sovereign spreads",
-        "href": "/topics/sovereign-spreads"
-      },
-      {
-        "id": "ef.domestic_savings_mobilization",
-        "kind": "topic",
-        "slug": "domestic-savings-mobilization",
-        "title": "Domestic savings mobilization",
-        "href": "/topics/domestic-savings-mobilization"
-      },
-      {
-        "id": "ef.fx_deposits",
-        "kind": "topic",
-        "slug": "foreign-currency-deposits",
-        "title": "Foreign-currency deposits",
-        "href": "/topics/foreign-currency-deposits"
+        "slug": "resident-fx-hedging-and-dollarization-pressure",
+        "title": "Resident FX hedging and dollarization pressure",
+        "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
       },
       {
         "id": "ef.services_balance",
@@ -1891,6 +1632,76 @@
         "href": "/topics/services-balance"
       },
       {
+        "id": "ef.external_public_debt",
+        "kind": "topic",
+        "slug": "external-public-debt",
+        "title": "External public debt",
+        "href": "/topics/external-public-debt"
+      },
+      {
+        "id": "ef.net_international_reserves",
+        "kind": "topic",
+        "slug": "net-international-reserves",
+        "title": "Net international reserves",
+        "href": "/topics/net-international-reserves"
+      },
+      {
+        "id": "ef.current_account",
+        "kind": "topic",
+        "slug": "current-account",
+        "title": "Current account",
+        "href": "/topics/current-account"
+      },
+      {
+        "id": "ef.capital_inflows",
+        "kind": "topic",
+        "slug": "capital-inflows",
+        "title": "Capital inflows",
+        "href": "/topics/capital-inflows"
+      },
+      {
+        "id": "ef.goods_trade_balance",
+        "kind": "topic",
+        "slug": "goods-trade-balance",
+        "title": "Goods trade balance",
+        "href": "/topics/goods-trade-balance"
+      },
+      {
+        "id": "ef.domestic_capital_market_depth",
+        "kind": "topic",
+        "slug": "domestic-capital-market-depth",
+        "title": "Domestic capital-market depth",
+        "href": "/topics/domestic-capital-market-depth"
+      },
+      {
+        "id": "ef.reserve_accumulation",
+        "kind": "topic",
+        "slug": "reserve-accumulation",
+        "title": "Reserve accumulation",
+        "href": "/topics/reserve-accumulation"
+      },
+      {
+        "id": "ef.fx_debt_service",
+        "kind": "topic",
+        "slug": "foreign-currency-debt-service",
+        "title": "Foreign-currency debt service",
+        "href": "/topics/foreign-currency-debt-service"
+      },
+      {
+        "id": "ef.domestic_savings_mobilization",
+        "kind": "topic",
+        "slug": "domestic-savings-mobilization",
+        "title": "Domestic savings mobilization",
+        "href": "/topics/domestic-savings-mobilization"
+      },
+      {
+        "id": "ef.foreign_direct_investment",
+        "kind": "topic",
+        "slug": "foreign-direct-investment",
+        "title": "Foreign direct investment",
+        "href": "/topics/foreign-direct-investment"
+      },
+      {
         "id": "ef.market_access",
         "kind": "topic",
         "slug": "international-market-access",
@@ -1898,18 +1709,11 @@
         "href": "/topics/international-market-access"
       },
       {
-        "id": "ef.external_vulnerability",
+        "id": "ef.liquid_reserve_buffers",
         "kind": "topic",
-        "slug": "external-vulnerability",
-        "title": "External vulnerability",
-        "href": "/topics/external-vulnerability"
-      },
-      {
-        "id": "ef.external_position",
-        "kind": "topic",
-        "slug": "external-position",
-        "title": "External position",
-        "href": "/topics/external-position"
+        "slug": "liquid-reserve-buffers",
+        "title": "Liquid reserve buffers",
+        "href": "/topics/liquid-reserve-buffers"
       },
       {
         "id": "ef.reserve_adequacy",
@@ -1919,18 +1723,109 @@
         "href": "/topics/reserve-adequacy"
       },
       {
-        "id": "ef.resident_fx_hedging",
+        "id": "ef.private_credit",
         "kind": "topic",
-        "slug": "resident-fx-hedging-and-dollarization-pressure",
-        "title": "Resident FX hedging and dollarization pressure",
-        "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
+        "slug": "private-sector-credit",
+        "title": "Private-sector credit",
+        "href": "/topics/private-sector-credit"
       },
       {
-        "id": "ef.liquid_reserve_buffers",
+        "id": "ef.official_external_financing",
         "kind": "topic",
-        "slug": "liquid-reserve-buffers",
-        "title": "Liquid reserve buffers",
-        "href": "/topics/liquid-reserve-buffers"
+        "slug": "official-external-financing",
+        "title": "Official external financing",
+        "href": "/topics/official-external-financing"
+      },
+      {
+        "id": "ef.external_position",
+        "kind": "topic",
+        "slug": "external-position",
+        "title": "External position",
+        "href": "/topics/external-position"
+      },
+      {
+        "id": "ef.fx_deposits",
+        "kind": "topic",
+        "slug": "foreign-currency-deposits",
+        "title": "Foreign-currency deposits",
+        "href": "/topics/foreign-currency-deposits"
+      },
+      {
+        "id": "ef.financial_account",
+        "kind": "topic",
+        "slug": "financial-account",
+        "title": "Financial account",
+        "href": "/topics/financial-account"
+      },
+      {
+        "id": "ef.primary_income_balance",
+        "kind": "topic",
+        "slug": "primary-income-balance",
+        "title": "Primary income balance",
+        "href": "/topics/primary-income-balance"
+      },
+      {
+        "id": "ef.swap_repo_financing",
+        "kind": "topic",
+        "slug": "swap-and-repo-financing",
+        "title": "Swap and repo financing",
+        "href": "/topics/swap-and-repo-financing"
+      },
+      {
+        "id": "ef.external_vulnerability",
+        "kind": "topic",
+        "slug": "external-vulnerability",
+        "title": "External vulnerability",
+        "href": "/topics/external-vulnerability"
+      },
+      {
+        "id": "ef.gross_reserves",
+        "kind": "topic",
+        "slug": "gross-international-reserves",
+        "title": "Gross international reserves",
+        "href": "/topics/gross-international-reserves"
+      },
+      {
+        "id": "ef.credit_quality",
+        "kind": "topic",
+        "slug": "credit-quality",
+        "title": "Credit quality",
+        "href": "/topics/credit-quality"
+      },
+      {
+        "id": "ef.sovereign_spreads",
+        "kind": "topic",
+        "slug": "sovereign-spreads",
+        "title": "Sovereign spreads",
+        "href": "/topics/sovereign-spreads"
+      },
+      {
+        "id": "ef.fx_market_issuance",
+        "kind": "topic",
+        "slug": "fx-market-issuance",
+        "title": "FX market issuance",
+        "href": "/topics/fx-market-issuance"
+      },
+      {
+        "id": "ef.financial_depth",
+        "kind": "topic",
+        "slug": "financial-depth",
+        "title": "Financial depth",
+        "href": "/topics/financial-depth"
+      },
+      {
+        "id": "ef.refinancing_needs",
+        "kind": "topic",
+        "slug": "external-refinancing-needs",
+        "title": "External refinancing needs",
+        "href": "/topics/external-refinancing-needs"
+      },
+      {
+        "id": "ef.sovereign_risk",
+        "kind": "topic",
+        "slug": "sovereign-risk",
+        "title": "Sovereign risk",
+        "href": "/topics/sovereign-risk"
       }
     ],
     "edges": [

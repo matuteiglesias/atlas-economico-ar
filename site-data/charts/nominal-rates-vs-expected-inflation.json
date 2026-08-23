@@ -5,7 +5,6 @@
   "title": "Nominal rates vs expected inflation",
   "href": "/charts/nominal-rates-vs-expected-inflation",
   "dek": "Show nominal return relative to expectations.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",

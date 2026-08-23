@@ -4,8 +4,6 @@
   "slug": "total-private-sector-deposits-ars-equivalent",
   "title": "Total private-sector deposits, ARS equivalent",
   "href": "/indicators/total-private-sector-deposits-ars-equivalent",
-  "dek": null,
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -68,7 +66,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -145,7 +142,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "882,981",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }

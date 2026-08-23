@@ -5,7 +5,6 @@
   "title": "Private credit as a share of GDP",
   "href": "/charts/private-credit-as-a-share-of-gdp",
   "dek": "Show how shallow domestic credit remains relative to the economy and peers.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -77,7 +76,6 @@
   "referenceFrameIds": [
     "rf.ef.peer_emerging_markets"
   ],
-  "chartSpec": null,
   "nearby": [
     {
       "id": "q.ef17",

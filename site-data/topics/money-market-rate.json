@@ -5,7 +5,6 @@
   "title": "Money-market rate",
   "href": "/topics/money-market-rate",
   "dek": "Short-term market interest rate reflecting liquidity conditions.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -83,20 +82,6 @@
       "slug": "has-short-term-interest-rate-volatility-normalized",
       "title": "Has short-term interest-rate volatility normalized?",
       "href": "/questions/has-short-term-interest-rate-volatility-normalized"
-    },
-    {
-      "id": "q.ns14",
-      "kind": "question",
-      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "title": "How tight are bank reserve requirements and liquidity conditions?",
-      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions"
-    },
-    {
-      "id": "q.ns18",
-      "kind": "question",
-      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand"
     }
   ],
   "indicators": [
@@ -161,7 +146,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "160,11",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -453,22 +437,6 @@
       "distance": 1
     },
     {
-      "id": "q.ns14",
-      "kind": "question",
-      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "title": "How tight are bank reserve requirements and liquidity conditions?",
-      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "distance": 1
-    },
-    {
-      "id": "q.ns18",
-      "kind": "question",
-      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
-      "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
-      "distance": 1
-    },
-    {
       "id": "ns.policy_credibility",
       "kind": "topic",
       "slug": "policy-credibility",
@@ -511,7 +479,7 @@
   ],
   "counts": {
     "connections": 4,
-    "questions": 3,
+    "questions": 1,
     "indicators": 2,
     "charts": 15
   }

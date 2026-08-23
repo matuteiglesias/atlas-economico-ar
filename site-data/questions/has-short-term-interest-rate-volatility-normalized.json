@@ -4,8 +4,6 @@
   "slug": "has-short-term-interest-rate-volatility-normalized",
   "title": "Has short-term interest-rate volatility normalized?",
   "href": "/questions/has-short-term-interest-rate-volatility-normalized",
-  "dek": null,
-  "intro": null,
   "questionFamily": "market_functioning",
   "region": {
     "id": "nominal_stabilization",
@@ -98,7 +96,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "160,11",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -381,7 +378,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "160,11",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -419,19 +415,56 @@
       "title": "Are interest rates restrictive in real terms?",
       "href": "/questions/are-interest-rates-restrictive-in-real-terms",
       "distance": 2
-    },
-    {
-      "id": "q.ns14",
-      "kind": "question",
-      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "title": "How tight are bank reserve requirements and liquidity conditions?",
-      "href": "/questions/how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
-      "distance": 2
     }
   ],
   "counts": {
     "topics": 2,
     "indicators": 2,
     "charts": 4
+  },
+  "publication": {
+    "state": "PUBLIC",
+    "reason": "has_non_quarantined_materialized_plot_evidence",
+    "evidence": {
+      "linkedPlotIntents": 4,
+      "linkedIndicators": 2,
+      "materializedPlotArtifacts": 3,
+      "prominentPlotArtifacts": 3,
+      "quarantinedPlotArtifacts": 0,
+      "historicalPlotArtifacts": 2,
+      "materializedPlotIntentIds": [
+        "pi.ns31",
+        "pi.ns60",
+        "pi.ns63"
+      ],
+      "prominentPlotIntentIds": [
+        "pi.ns31",
+        "pi.ns60",
+        "pi.ns63"
+      ],
+      "hasDek": false,
+      "hasIntro": false,
+      "metadataOnly": false
+    },
+    "distinctness": {
+      "structuralSignature": {
+        "questionFamily": "market_functioning",
+        "topicIds": [
+          "ns.money_market_rate",
+          "ns.policy_credibility"
+        ],
+        "indicatorIds": [
+          "ci.ns.money_market_rate",
+          "ci.ns.policy_rate_nominal"
+        ],
+        "prominentPlotIntentIds": [
+          "pi.ns31",
+          "pi.ns60",
+          "pi.ns63"
+        ]
+      },
+      "exactStructuralPeerQuestionIds": [],
+      "review": "NO_EXACT_STRUCTURAL_PEER"
+    }
   }
 }

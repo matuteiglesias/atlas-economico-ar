@@ -5,7 +5,6 @@
   "title": "BCRA FX operations",
   "href": "/topics/bcra-fx-operations",
   "dek": "Central-bank purchases or sales of foreign currency affecting market liquidity and reserve accumulation.",
-  "intro": null,
   "region": {
     "id": "nominal_stabilization",
     "kind": "region",
@@ -126,13 +125,6 @@
   ],
   "questions": [
     {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position"
-    },
-    {
       "id": "q.ns11",
       "kind": "question",
       "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
@@ -209,7 +201,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,1",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -329,7 +320,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,5",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -399,7 +389,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -521,7 +510,6 @@
         "source": {
           "provider": "multiple",
           "providerSeriesId": "78,15",
-          "sourceUnit": null,
           "normalization": {
             "kind": "composite"
           }
@@ -556,14 +544,6 @@
     }
   ],
   "nearby": [
-    {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "distance": 1
-    },
     {
       "id": "q.ns11",
       "kind": "question",
@@ -623,7 +603,7 @@
   ],
   "counts": {
     "connections": 8,
-    "questions": 2,
+    "questions": 1,
     "indicators": 2,
     "charts": 11
   }

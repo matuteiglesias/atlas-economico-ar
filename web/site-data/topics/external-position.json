@@ -5,7 +5,6 @@
   "title": "External position",
   "href": "/topics/external-position",
   "dek": "Overall relationship between external flows, external liabilities, reserve buffers, and the capacity to meet foreign-currency obligations.",
-  "intro": null,
   "region": {
     "id": "external_financial_constraint",
     "kind": "region",
@@ -88,15 +87,7 @@
       }
     }
   ],
-  "questions": [
-    {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable"
-    }
-  ],
+  "questions": [],
   "indicators": [],
   "charts": [
     {
@@ -122,14 +113,6 @@
     }
   ],
   "nearby": [
-    {
-      "id": "q.ef06",
-      "kind": "question",
-      "slug": "are-capital-inflows-durable",
-      "title": "Are capital inflows durable?",
-      "href": "/questions/are-capital-inflows-durable",
-      "distance": 1
-    },
     {
       "id": "ef.current_account",
       "kind": "topic",
@@ -169,27 +152,11 @@
       "title": "Nominal exchange rate",
       "href": "/topics/nominal-exchange-rate",
       "distance": 1
-    },
-    {
-      "id": "q.ef20",
-      "kind": "question",
-      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
-      "title": "Are BCRA FX purchases strengthening the external position?",
-      "href": "/questions/are-bcra-fx-purchases-strengthening-the-external-position",
-      "distance": 2
-    },
-    {
-      "id": "q.ef02",
-      "kind": "question",
-      "slug": "are-reserves-rebuilding-fast-enough",
-      "title": "Are reserves rebuilding fast enough?",
-      "href": "/questions/are-reserves-rebuilding-fast-enough",
-      "distance": 2
     }
   ],
   "counts": {
     "connections": 5,
-    "questions": 1,
+    "questions": 0,
     "indicators": 0,
     "charts": 3
   }
