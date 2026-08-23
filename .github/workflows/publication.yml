@@ -100,3 +100,32 @@ jobs:
             web/public/plots/
           if-no-files-found: error
           retention-days: 30
+
+  sync-generated:
+    if: github.event_name == 'pull_request' && github.head_ref == 'feat/publication-disposition-kernel' && github.event.pull_request.head.repo.full_name == github.repository
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: atlas-publication-v0.2-preview
+          path: .
+      - name: Commit canonical compiled snapshots
+        env:
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          git add site-data web/site-data
+          if git diff --cached --quiet; then
+            echo "Generated publication snapshots already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh compiled publication disposition snapshot"
+          git push origin "HEAD:${HEAD_REF}"
