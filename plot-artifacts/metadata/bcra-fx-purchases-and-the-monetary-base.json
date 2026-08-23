@@ -59,5 +59,9 @@
       },
       "snapshot_sha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/bcra-fx-purchases-and-the-monetary-base.svg",
+    "png": "plot-artifacts/embed/bcra-fx-purchases-and-the-monetary-base.png"
+  }
 }

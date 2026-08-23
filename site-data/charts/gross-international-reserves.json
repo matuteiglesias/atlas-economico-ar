@@ -152,6 +152,10 @@
           "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
           "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
         },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
+        },
         "disposition": {
           "plotIntentId": "pi.ef49",
           "state": "QUARANTINE",
@@ -229,6 +233,10 @@
     ],
     "snapshotSha256": {
       "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+    },
+    "presentation": {
+      "variant": "embed",
+      "chromeOwner": "page"
     },
     "disposition": {
       "plotIntentId": "pi.ef46",

@@ -7,6 +7,7 @@ Read first:
 - `figures/PUBLICATION_QA.md`
 - `figures/publication_qa.yaml`
 - `figures/CONTRACT.md`
+- `figures/PRESENTATION_VARIANTS.md`
 - `figures/FIGURE_KERNEL.md`
 - current `plot-artifacts/manifest.json`
 
@@ -20,7 +21,9 @@ Curation operates *after* measurement validity. Never repair visual quality by c
 
 The unit is one materialized PlotArtifact plus its PlotIntent, ChartSpec, measurements, provenance, and current publication-QA state.
 
-Inspect the actual PNG or SVG. Do not judge a figure from YAML alone.
+Inspect the actual canonical review PNG or SVG from `artifact.outputs`. These are intentionally self-describing and include title/subtitle/source chrome so an AI agent or human reviewer can understand the image in isolation. Do **not** curate from `artifact.embed_outputs`; those are deterministic page-owned presentation projections and are not the rendered evidence hashes stored in the curation ledger.
+
+Do not judge a figure from YAML alone.
 
 ## Bounded queue
 
@@ -159,7 +162,7 @@ These are review priorities, not automatic publication decisions.
 A useful review record should identify:
 
 - PlotIntent ID;
-- exact PNG/SVG inspected;
+- exact canonical review PNG/SVG inspected from `artifact.outputs`;
 - current structural inputs (ChartSpec, renderer, ReferenceFrame, indicator IDs);
 - hazard flags;
 - Truth / Usefulness / Publication decision;
@@ -174,7 +177,7 @@ Future tooling should distinguish a **structural review fingerprint** from the e
 
 A run is done only when:
 
-1. <=6 actual rendered figures were inspected;
+1. <=6 actual canonical review figures were inspected;
 2. every reviewed figure has a terminal state, a bounded fix, or an explicit human gate;
 3. <=2 autonomous production fixes were made;
 4. changed figures were rerendered and visually inspected;

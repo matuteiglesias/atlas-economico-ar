@@ -76,10 +76,15 @@ def load_vertical_with_additions(root: Path) -> dict[str, list[dict[str, Any]]]:
 
 
 def public_artifact(artifact: dict[str, Any], disposition: dict[str, Any]) -> dict[str, Any]:
-    outputs = artifact.get("outputs") or {}
+    # The canonical outputs are self-describing review evidence and retain the
+    # exact bytes inspected by curation. The static site consumes only the
+    # page-owned embed projection derived from those outputs.
+    outputs = artifact.get("embed_outputs") or {}
     svg, png = Path(str(outputs.get("svg", ""))), Path(str(outputs.get("png", "")))
     if svg.suffix != ".svg" or png.suffix != ".png":
-        raise PublicationError(f"{artifact.get('plot_intent_id')}: expected SVG and PNG")
+        raise PublicationError(
+            f"{artifact.get('plot_intent_id')}: expected SVG and PNG embed outputs"
+        )
     public = {
         "chartSpecId": artifact["chart_spec_id"],
         "frameId": artifact["frame_id"],
@@ -93,6 +98,7 @@ def public_artifact(artifact: dict[str, Any], disposition: dict[str, Any]) -> di
         "indicatorIds": artifact["indicator_ids"],
         "seriesIds": artifact["series_ids"],
         "snapshotSha256": artifact["snapshot_sha256"],
+        "presentation": {"variant": "embed", "chromeOwner": "page"},
         "disposition": disposition,
         "source": {
             "provider": artifact["source"]["provider"],
@@ -135,13 +141,20 @@ def load_artifacts(path: Path) -> tuple[dict[str, dict[str, Any]], dict[str, Any
         raise PublicationError("PlotArtifact manifest count mismatch")
     if len(artifacts) != EXPECTED_ARTIFACTS:
         raise PublicationError(f"expansion freeze requires {EXPECTED_ARTIFACTS} PlotArtifacts, found {len(artifacts)}")
+    presentation = doc.get("presentation_contract") or {}
+    if presentation.get("review") != "self_describing" or presentation.get("embed") != "page_owned_chrome":
+        raise PublicationError("PlotArtifact presentation contract missing or invalid")
 
     raw: dict[str, dict[str, Any]] = {}
     for artifact in artifacts:
         pid = artifact.get("plot_intent_id")
         if not isinstance(pid, str) or pid in raw:
             raise PublicationError(f"invalid/duplicate PlotArtifact PlotIntent: {pid!r}")
-        for output in artifact["outputs"].values():
+        review_outputs = artifact.get("outputs") or {}
+        embed_outputs = artifact.get("embed_outputs") or {}
+        if set(review_outputs) != {"svg", "png"} or set(embed_outputs) != {"svg", "png"}:
+            raise PublicationError(f"{pid}: review/embed outputs must each contain svg/png")
+        for output in (*review_outputs.values(), *embed_outputs.values()):
             if not (ROOT / output).is_file():
                 raise PublicationError(f"{pid}: artifact output missing: {output}")
         raw[pid] = artifact
@@ -188,6 +201,7 @@ def join_artifacts(out: Path, artifacts: dict[str, dict[str, Any]], plot_ledger:
     manifest = json.loads(manifest_path.read_text())
     manifest["publicationSchemaVersion"] = PUBLICATION_SCHEMA_VERSION
     manifest["plotArtifacts"] = len(artifacts)
+    manifest["plotPresentation"] = {"variant": "embed", "chromeOwner": "page"}
     manifest["prominentPlotArtifacts"] = prominent
     manifest["quarantinedPlotArtifacts"] = quarantined
     manifest["historicalPlotArtifacts"] = historical
@@ -234,6 +248,8 @@ def build(output: Path) -> dict[str, Any]:
         raise PublicationError("PlotArtifact publication disposition summary mismatch")
     if stats["prominent_plot_artifacts"] != plot_ledger["summary"]["prominentCount"]:
         raise PublicationError("prominent PlotArtifact count mismatch")
+    if manifest.get("plotPresentation") != {"variant": "embed", "chromeOwner": "page"}:
+        raise PublicationError("PlotArtifact presentation projection mismatch")
     shutil.rmtree(output, ignore_errors=True)
     build_dir.replace(output)
     return manifest
@@ -252,7 +268,8 @@ def main() -> int:
         f"PASS: publication compiled ({stats['counts']['chart']} charts, "
         f"{stats['counts']['indicator']} indicators, {stats['plot_artifacts']} PlotArtifacts; "
         f"{plot_publication['prominentCount']} prominent / {plot_publication['primaryEvidenceCount']} primary evidence; "
-        f"{question_publication['public']} public / {question_publication['semantic']} semantic questions)"
+        f"{question_publication['public']} public / {question_publication['semantic']} semantic questions; "
+        "page-owned embed presentation)"
     )
     return 0
 

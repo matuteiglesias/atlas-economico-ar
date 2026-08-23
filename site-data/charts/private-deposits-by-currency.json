@@ -157,6 +157,10 @@
         "snapshotSha256": {
           "series.ar.bcra.fx_deposits_private_sector": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
         },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
+        },
         "disposition": {
           "plotIntentId": "pi.ef50",
           "state": "UNREVIEWED",
@@ -217,6 +221,10 @@
     "snapshotSha256": {
       "series.ar.bcra.private_deposits_peso": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad",
       "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
+    },
+    "presentation": {
+      "variant": "embed",
+      "chromeOwner": "page"
     },
     "disposition": {
       "plotIntentId": "pi.ef52",

@@ -43,5 +43,9 @@
       },
       "snapshot_sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/official-wholesale-exchange-rate.svg",
+    "png": "plot-artifacts/embed/official-wholesale-exchange-rate.png"
+  }
 }

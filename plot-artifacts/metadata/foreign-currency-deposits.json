@@ -45,5 +45,9 @@
       },
       "snapshot_sha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/foreign-currency-deposits.svg",
+    "png": "plot-artifacts/embed/foreign-currency-deposits.png"
+  }
 }

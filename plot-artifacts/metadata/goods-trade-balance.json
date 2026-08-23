@@ -45,5 +45,9 @@
       },
       "snapshot_sha256": "a47b7cef102d7ca2706dac42449ba84c899c15cfb36ce10f2d60dd952a038cd7"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/goods-trade-balance.svg",
+    "png": "plot-artifacts/embed/goods-trade-balance.png"
+  }
 }

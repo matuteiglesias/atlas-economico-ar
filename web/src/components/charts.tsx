@@ -16,7 +16,7 @@ function DriverChart() {
 }
 
 function PlotArtifactImage({ artifact }: { artifact: PlotArtifactRef }) {
-  return <img className="plot-artifact-image" src={artifact.svg} alt={artifact.altText} />;
+  return <img className="plot-artifact-image" data-plot-render="embed" src={artifact.svg} alt={artifact.altText} />;
 }
 
 export function GenericChartPlaceholder() { return <div className="generic-chart"><span /><span /><span /><span /></div>; }
@@ -33,24 +33,44 @@ export function ChartPreview({ item }: { item: EntityLink }) {
   return <GenericChartPlaceholder />;
 }
 
+function providerLabel(provider: string) {
+  if (provider === "bcra_monetarias_v4") return "BCRA";
+  if (provider === "datos_argentina") return "Datos Argentina";
+  return provider === "multiple" ? "Multiple sources" : provider.replaceAll("_", " ");
+}
+
+function sourceLabel(artifact: PlotArtifactRef) {
+  const providers = artifact.sources?.map((source) => providerLabel(source.provider)) ?? [providerLabel(artifact.source.provider)];
+  return [...new Set(providers)].join(", ");
+}
+
 function artifactCaption(artifact: PlotArtifactRef) {
+  const provenance = `Data through ${artifact.dataAsOf} · Source: ${sourceLabel(artifact)}`;
   const { disposition } = artifact;
   if (disposition.state === "QUARANTINE") {
-    return `Editorial QA: quarantined${disposition.note ? ` · ${disposition.note}` : ""}`;
+    return `Editorial QA: quarantined · ${provenance}${disposition.note ? ` · ${disposition.note}` : ""}`;
   }
   if (disposition.state === "SUPERSEDED") {
-    return `Superseded evidence${disposition.note ? ` · ${disposition.note}` : ""}`;
+    return `Superseded evidence · ${provenance}${disposition.note ? ` · ${disposition.note}` : ""}`;
   }
   if (disposition.state === "REFERENCE") {
-    return `Reference evidence · Data through ${artifact.dataAsOf}`;
+    return `Reference evidence · ${provenance}`;
   }
   const stale = artifact.freshnessState === "stale_warning" ? " · stale source snapshot" : "";
   const historical = disposition.state === "HISTORICAL" ? "Historical evidence · " : "";
-  return `${historical}Data through ${artifact.dataAsOf}${stale}`;
+  return `${historical}${provenance}${stale}`;
 }
 
-export function ChartCard({ item, displayTitle }: { item: EntityLink; displayTitle?: string }) {
+type ChartChrome = "card" | "page";
+
+export function ChartCard({ item, displayTitle, chrome = "card" }: { item: EntityLink; displayTitle?: string; chrome?: ChartChrome }) {
   const isDummy = item.slug === "inflation-driver-decomposition" || (item.slug ? item.slug in paths : false);
   const caption = item.artifact ? artifactCaption(item.artifact) : (isDummy ? "Illustrative placeholder" : "Chart preview pending");
-  return <article className="chart-card"><div className="chart-title"><h3>{displayTitle ?? item.title}</h3><p>{caption}</p></div><ChartPreview item={item} /><Link href={item.href}>View chart <ArrowRight /></Link></article>;
+  return <article className={`chart-card chart-card-${chrome}`} data-plot-chrome={chrome}>
+    {chrome === "card"
+      ? <div className="chart-title"><h3>{displayTitle ?? item.title}</h3><p>{caption}</p></div>
+      : <div className="chart-meta"><p>{caption}</p></div>}
+    <ChartPreview item={item} />
+    <Link href={item.href}>View chart <ArrowRight /></Link>
+  </article>;
 }

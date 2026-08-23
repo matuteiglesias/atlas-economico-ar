@@ -59,5 +59,9 @@
       },
       "snapshot_sha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/private-deposits-by-currency.svg",
+    "png": "plot-artifacts/embed/private-deposits-by-currency.png"
+  }
 }

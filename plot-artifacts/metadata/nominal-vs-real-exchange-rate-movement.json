@@ -57,5 +57,9 @@
       },
       "snapshot_sha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/nominal-vs-real-exchange-rate-movement.svg",
+    "png": "plot-artifacts/embed/nominal-vs-real-exchange-rate-movement.png"
+  }
 }

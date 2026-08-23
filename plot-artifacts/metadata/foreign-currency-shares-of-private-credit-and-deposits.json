@@ -85,5 +85,9 @@
       },
       "snapshot_sha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/foreign-currency-shares-of-private-credit-and-deposits.svg",
+    "png": "plot-artifacts/embed/foreign-currency-shares-of-private-credit-and-deposits.png"
+  }
 }

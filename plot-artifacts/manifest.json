@@ -47,7 +47,11 @@
           },
           "snapshot_sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/official-wholesale-exchange-rate.svg",
+        "png": "plot-artifacts/embed/official-wholesale-exchange-rate.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -109,7 +113,11 @@
           },
           "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/official-fx-change-vs-monthly-inflation.svg",
+        "png": "plot-artifacts/embed/official-fx-change-vs-monthly-inflation.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -158,7 +166,11 @@
           },
           "snapshot_sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/bcra-daily-fx-purchases.svg",
+        "png": "plot-artifacts/embed/bcra-daily-fx-purchases.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -207,7 +219,11 @@
           },
           "snapshot_sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/cumulative-bcra-fx-purchases-since-jan-2026.svg",
+        "png": "plot-artifacts/embed/cumulative-bcra-fx-purchases-since-jan-2026.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -269,7 +285,11 @@
           },
           "snapshot_sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/bcra-purchases-vs-official-exchange-rate.svg",
+        "png": "plot-artifacts/embed/bcra-purchases-vs-official-exchange-rate.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -332,7 +352,11 @@
           },
           "snapshot_sha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/bcra-fx-purchases-and-the-monetary-base.svg",
+        "png": "plot-artifacts/embed/bcra-fx-purchases-and-the-monetary-base.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -379,7 +403,11 @@
           },
           "snapshot_sha256": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/baibar-interbank-rate.svg",
+        "png": "plot-artifacts/embed/baibar-interbank-rate.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -428,7 +456,11 @@
           },
           "snapshot_sha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/nominal-monetary-base.svg",
+        "png": "plot-artifacts/embed/nominal-monetary-base.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -491,7 +523,11 @@
           },
           "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/monetary-base-and-transactional-m2.svg",
+        "png": "plot-artifacts/embed/monetary-base-and-transactional-m2.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -553,7 +589,11 @@
           },
           "snapshot_sha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/inflation-vs-fx-depreciation-since-stabilization-start.svg",
+        "png": "plot-artifacts/embed/inflation-vs-fx-depreciation-since-stabilization-start.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -602,7 +642,11 @@
           },
           "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/private-transactional-m2.svg",
+        "png": "plot-artifacts/embed/private-transactional-m2.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -663,7 +707,11 @@
           },
           "snapshot_sha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/nominal-vs-real-exchange-rate-movement.svg",
+        "png": "plot-artifacts/embed/nominal-vs-real-exchange-rate-movement.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -724,7 +772,11 @@
           },
           "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/real-monetary-base.svg",
+        "png": "plot-artifacts/embed/real-monetary-base.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -787,7 +839,11 @@
           },
           "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/transactional-m2-nominal-and-real.svg",
+        "png": "plot-artifacts/embed/transactional-m2-nominal-and-real.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -850,7 +906,11 @@
           },
           "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/remonetization-vs-inflation.svg",
+        "png": "plot-artifacts/embed/remonetization-vs-inflation.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -926,7 +986,11 @@
           },
           "snapshot_sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/remonetization-vs-bcra-fx-purchases.svg",
+        "png": "plot-artifacts/embed/remonetization-vs-bcra-fx-purchases.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1002,7 +1066,11 @@
           },
           "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/monetary-base-vs-transactional-m2.svg",
+        "png": "plot-artifacts/embed/monetary-base-vs-transactional-m2.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1080,7 +1148,11 @@
           },
           "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/monetization-dashboard-base-m2-inflation.svg",
+        "png": "plot-artifacts/embed/monetization-dashboard-base-m2-inflation.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1129,7 +1201,11 @@
           },
           "snapshot_sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/gross-international-reserves.svg",
+        "png": "plot-artifacts/embed/gross-international-reserves.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1178,7 +1254,11 @@
           },
           "snapshot_sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/monthly-change-in-gross-reserves.svg",
+        "png": "plot-artifacts/embed/monthly-change-in-gross-reserves.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1227,7 +1307,11 @@
           },
           "snapshot_sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/reserve-accumulation-year-to-date.svg",
+        "png": "plot-artifacts/embed/reserve-accumulation-year-to-date.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1290,7 +1374,11 @@
           },
           "snapshot_sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/bcra-fx-purchases-and-gross-reserves.svg",
+        "png": "plot-artifacts/embed/bcra-fx-purchases-and-gross-reserves.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1341,7 +1429,11 @@
           },
           "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/inflation-momentum-monthly-and-3-month-annualized.svg",
+        "png": "plot-artifacts/embed/inflation-momentum-monthly-and-3-month-annualized.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1403,7 +1495,11 @@
           },
           "snapshot_sha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/headline-inflation-monthly-vs-year-over-year.svg",
+        "png": "plot-artifacts/embed/headline-inflation-monthly-vs-year-over-year.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1465,7 +1561,11 @@
           },
           "snapshot_sha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/disinflation-since-december-2023.svg",
+        "png": "plot-artifacts/embed/disinflation-since-december-2023.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1526,7 +1626,11 @@
           },
           "snapshot_sha256": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/policy-relevant-rate-vs-money-market-rate.svg",
+        "png": "plot-artifacts/embed/policy-relevant-rate-vs-money-market-rate.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1573,7 +1677,11 @@
           },
           "snapshot_sha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/tamar-private-bank-rate.svg",
+        "png": "plot-artifacts/embed/tamar-private-bank-rate.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1633,7 +1741,11 @@
           },
           "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/tamar-ex-post-real-rate.svg",
+        "png": "plot-artifacts/embed/tamar-ex-post-real-rate.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1680,7 +1792,11 @@
           },
           "snapshot_sha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/bcra-policy-rate-history.svg",
+        "png": "plot-artifacts/embed/bcra-policy-rate-history.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1729,7 +1845,11 @@
           },
           "snapshot_sha256": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/bank-reserve-balances-at-the-bcra.svg",
+        "png": "plot-artifacts/embed/bank-reserve-balances-at-the-bcra.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1780,7 +1900,11 @@
           },
           "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/monthly-inflation-and-acceleration.svg",
+        "png": "plot-artifacts/embed/monthly-inflation-and-acceleration.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1829,7 +1953,11 @@
           },
           "snapshot_sha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/foreign-currency-deposits.svg",
+        "png": "plot-artifacts/embed/foreign-currency-deposits.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1890,7 +2018,11 @@
           },
           "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/real-private-credit-growth.svg",
+        "png": "plot-artifacts/embed/real-private-credit-growth.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -1966,7 +2098,11 @@
           },
           "snapshot_sha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/fx-deposits-in-the-domestic-financial-system.svg",
+        "png": "plot-artifacts/embed/fx-deposits-in-the-domestic-financial-system.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -2029,7 +2165,11 @@
           },
           "snapshot_sha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/private-credit-by-currency.svg",
+        "png": "plot-artifacts/embed/private-credit-by-currency.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -2092,7 +2232,11 @@
           },
           "snapshot_sha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/private-deposits-by-currency.svg",
+        "png": "plot-artifacts/embed/private-deposits-by-currency.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -2181,7 +2325,11 @@
           },
           "snapshot_sha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/foreign-currency-shares-of-private-credit-and-deposits.svg",
+        "png": "plot-artifacts/embed/foreign-currency-shares-of-private-credit-and-deposits.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -2244,7 +2392,11 @@
           },
           "snapshot_sha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/private-credit-and-deposits.svg",
+        "png": "plot-artifacts/embed/private-credit-and-deposits.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -2293,7 +2445,11 @@
           },
           "snapshot_sha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/monthly-headline-inflation.svg",
+        "png": "plot-artifacts/embed/monthly-headline-inflation.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -2340,7 +2496,11 @@
           },
           "snapshot_sha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/real-effective-exchange-rate.svg",
+        "png": "plot-artifacts/embed/real-effective-exchange-rate.png"
+      }
     },
     {
       "schema_version": "0.2",
@@ -2389,7 +2549,19 @@
           },
           "snapshot_sha256": "a47b7cef102d7ca2706dac42449ba84c899c15cfb36ce10f2d60dd952a038cd7"
         }
-      ]
+      ],
+      "embed_outputs": {
+        "svg": "plot-artifacts/embed/goods-trade-balance.svg",
+        "png": "plot-artifacts/embed/goods-trade-balance.png"
+      }
     }
-  ]
+  ],
+  "presentation_contract": {
+    "review": "self_describing",
+    "embed": "page_owned_chrome",
+    "embed_crop": {
+      "top_fraction": 0.14,
+      "bottom_fraction": 0.05
+    }
+  }
 }
