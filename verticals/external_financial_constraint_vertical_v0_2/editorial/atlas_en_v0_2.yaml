@@ -15,6 +15,10 @@ entities:
     title: Nominal Stabilization
     slug: nominal-stabilization
     dek: How prices, exchange rates, monetary conditions, and expectations interact during Argentina's stabilization process.
+    intro: Nominal stabilization is tracked here through several connected but distinct margins — inflation momentum, the exchange
+      rate and BCRA FX operations, real interest-rate conditions, and the recovery of peso money demand. The active public
+      questions and charts let readers compare those margins without treating any single indicator as a complete measure of
+      stabilization.
     featured: true
     order: 10
   ns.inflation:
@@ -23,10 +27,63 @@ entities:
     dek: How quickly the general level of prices is changing — and one of the central variables around which Argentina's stabilization
       process is organized.
     featured: true
+  q.ns01:
+    title: How fast is inflation running now, and is it accelerating or decelerating?
+    slug: how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating
+    dek: Separate the current monthly inflation rate from recent momentum and longer-horizon inflation before judging whether
+      the price process is speeding up or slowing down.
+    intro: This page compares monthly headline CPI with three-month annualized momentum, year-over-year inflation, and the month-to-month
+      change in inflation. Reading the horizons together separates the current pace from recent direction and from the slower-moving
+      year-over-year measure.
   q.ns04:
     title: What is driving monthly inflation?
     slug: what-is-driving-monthly-inflation
     dek: Separate persistence from relative-price changes, demand conditions, interest rates, and exchange-rate pass-through.
+  q.ns05:
+    title: How much do exchange-rate movements pass through to domestic prices?
+    slug: how-much-do-exchange-rate-movements-pass-through-to-domestic-prices
+    dek: Compare official exchange-rate changes with monthly inflation without treating co-movement as a measured pass-through
+      coefficient.
+    intro: The Atlas places monthly changes in the official exchange rate beside monthly headline inflation over a recent window
+      and over the period since December 2023. The comparison is useful for timing and co-movement; it does not by itself identify
+      how much of an inflation move was caused by the exchange rate.
+  q.ns11:
+    title: How are BCRA FX purchases interacting with the exchange rate and monetary conditions?
+    slug: how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions
+    dek: Separate the daily flow of BCRA FX purchases from their cumulative scale and from exchange-rate or monetary outcomes.
+    intro: This page follows daily and cumulative BCRA FX purchases and places them beside the official exchange rate, with
+      monetary-base and money-demand measures linked as broader policy context. Compare the timing and accumulation of purchases
+      with exchange-rate movements without assuming that intervention alone determines the monetary or FX outcome.
+  q.ns12:
+    title: Are interest rates restrictive in real terms?
+    slug: are-interest-rates-restrictive-in-real-terms
+    dek: Distinguish the nominal return on a policy-relevant market rate from the real return left after inflation.
+    intro: The current public evidence compares the TAMAR nominal annual rate with an ex-post real rate constructed using realized
+      inflation. Read the two together to separate the observed nominal return from realized inflation-adjusted conditions;
+      the page does not yet turn that comparison into a complete estimate of policy stance based on expected inflation.
+  q.ns15:
+    title: Is domestic money demand recovering?
+    slug: is-domestic-money-demand-recovering
+    dek: Distinguish genuine recovery in real peso balances from nominal monetary growth that can reflect the price level.
+    intro: The prominent evidence follows the real monetary base and compares nominal with real private transactional M2 since
+      December 2023. Those views help separate growth in peso-denominated stocks from recovery in their purchasing-power-adjusted
+      value, which is the more relevant signal for the money-demand question.
+  q.ns16:
+    title: Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?
+    slug: is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation
+    dek: Read real money balances alongside inflation and the monetary base rather than treating a larger nominal peso stock
+      as successful remonetization.
+    intro: This page compares real private transactional M2 with monthly inflation and places the real monetary base beside
+      real transactional M2. Together the charts separate the recovery of real money balances from the supply-side monetary
+      aggregate; they do not identify a causal threshold at which monetary expansion would reignite inflation.
+  q.ns17:
+    title: Is monetary-base growth consistent with the monetary-targeting framework?
+    slug: is-monetary-base-growth-consistent-with-the-monetary-targeting-framework
+    dek: Judge monetary-base growth together with real money-demand proxies and inflation rather than from the nominal base
+      alone.
+    intro: The public evidence is a compact monetization dashboard combining the real monetary base, real private transactional
+      M2, and monthly inflation since December 2023. It is useful for checking whether the operational aggregate, private money
+      balances, and inflation are moving coherently, but it is not a direct test against an explicit numerical policy target.
   pi.ns08:
     title: Inflation-driver decomposition
     slug: inflation-driver-decomposition
