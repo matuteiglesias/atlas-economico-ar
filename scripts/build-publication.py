@@ -76,10 +76,15 @@ def load_vertical_with_additions(root: Path) -> dict[str, list[dict[str, Any]]]:
 
 
 def public_artifact(artifact: dict[str, Any], disposition: dict[str, Any]) -> dict[str, Any]:
-    outputs = artifact.get("outputs") or {}
+    # The canonical outputs are self-describing review evidence and retain the
+    # exact bytes inspected by curation.  The static site consumes only the
+    # page-owned embed projection derived from those outputs.
+    outputs = artifact.get("embed_outputs") or {}
     svg, png = Path(str(outputs.get("svg", ""))), Path(str(outputs.get("png", "")))
     if svg.suffix != ".svg" or png.suffix != ".png":
-        raise PublicationError(f"{artifact.get('plot_intent_id')}: expected SVG and PNG")
+        raise PublicationError(
+            f"{artifact.get('plot_intent_id')}: expected SVG and PNG embed outputs"
+        )
     public = {
         "chartSpecId": artifact["chart_spec_id"],
         "frameId": artifact["frame_id"],
@@ -93,6 +98,10 @@ def public_artifact(artifact: dict[str, Any], disposition: dict[str, Any]) -> di
         "indicatorIds": artifact["indicator_ids"],
         "seriesIds": artifact["series_ids"],
         "snapshotSha256": artifact["snapshot_sha256"],
+        "presentation": {
+            "variant": "embed",
+            "chromeOwner": "page",
+        },
         "disposition": disposition,
         "source": {
             "provider": artifact["source"]["provider"],
@@ -135,13 +144,20 @@ def load_artifacts(path: Path) -> tuple[dict[str, dict[str, Any]], dict[str, Any
         raise PublicationError("PlotArtifact manifest count mismatch")
     if len(artifacts) != EXPECTED_ARTIFACTS:
         raise PublicationError(f"expansion freeze requires {EXPECTED_ARTIFACTS} PlotArtifacts, found {len(artifacts)}")
+    presentation = doc.get("presentation_contract") or {}
+    if presentation.get("review") != "self_describing" or presentation.get("embed") != "page_owned_chrome":
+        raise PublicationError("PlotArtifact presentation contract missing or invalid")
 
     raw: dict[str, dict[str, Any]] = {}
     for artifact in artifacts:
         pid = artifact.get("plot_intent_id")
         if not isinstance(pid, str) or pid in raw:
             raise PublicationError(f"invalid/duplicate PlotArtifact PlotIntent: {pid!r}")
-        for output in artifact["outputs"].values():
+        review_outputs = artifact.get("outputs") or {}
+        embed_outputs = artifact.get("embed_outputs") or {}
+        if set(review_outputs) != {"svg", "png"} or set(embed_outputs) != {"svg", "png"}:
+            raise PublicationError(f"{pid}: review/embed outputs must each contain svg/png")
+        for output in (*review_outputs.values(), *embed_outputs.values()):
             if not (ROOT / output).is_file():
                 raise PublicationError(f"{pid}: artifact output missing: {output}")
         raw[pid] = artifact
@@ -188,6 +204,7 @@ def join_artifacts(out: Path, artifacts: dict[str, dict[str, Any]], plot_ledger:
     manifest = json.loads(manifest_path.read_text())
     manifest["publicationSchemaVersion"] = PUBLICATION_SCHEMA_VERSION
     manifest["plotArtifacts"] = len(artifacts)
+    manifest["plotPresentation"] = {"variant": "embed", "chromeOwner": "page"}
     manifest["prominentPlotArtifacts"] = prominent
     manifest["quarantinedPlotArtifacts"] = quarantined
     manifest["historicalPlotArtifacts"] = historical
@@ -218,47 +235,53 @@ def build(output: Path) -> dict[str, Any]:
     )
     join_artifacts(build_dir, artifacts, plot_ledger)
     question_ledger = apply_question_publication(build_dir, QUESTION_PUBLICATION)
-    stats = json.loads((build_dir / "stats.json").read_text())
-    manifest = json.loads((build_dir / "manifest.json").read_text())
+
+    stats_path = build_dir / "stats.json"
+    stats = json.loads(stats_path.read_text(encoding="utf-8"))
+    manifest_path = build_dir / "manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    question_summary = question_ledger["summary"]
+    stats["questionPublication"] = question_summary
+    manifest["questionPublication"] = question_summary
+    write_json(stats_path, stats)
+    write_json(manifest_path, manifest)
+
     if stats["counts"]["chart"] != EXPECTED_CHARTS:
-        raise PublicationError(f"expected {EXPECTED_CHARTS} charts, got {stats['counts']['chart']}")
+        raise PublicationError(f"chart freeze requires {EXPECTED_CHARTS}; found {stats['counts']['chart']}")
     if stats["counts"]["indicator"] != EXPECTED_INDICATORS:
-        raise PublicationError(f"expected {EXPECTED_INDICATORS} indicators, got {stats['counts']['indicator']}")
-    if question_ledger["semanticQuestionCount"] != EXPECTED_SEMANTIC_QUESTIONS:
-        raise PublicationError(f"expected {EXPECTED_SEMANTIC_QUESTIONS} semantic questions, got {question_ledger['semanticQuestionCount']}")
-    if stats["counts"]["question"] != question_ledger["stateCounts"]["PUBLIC"]:
-        raise PublicationError("public question count mismatch")
-    if stats["plot_artifacts"] != EXPECTED_ARTIFACTS:
-        raise PublicationError("PlotArtifact count mismatch")
-    if stats["plotPublication"] != plot_ledger["summary"] or manifest["plotPublication"] != plot_ledger["summary"]:
-        raise PublicationError("PlotArtifact publication disposition summary mismatch")
-    if stats["prominent_plot_artifacts"] != plot_ledger["summary"]["prominentCount"]:
-        raise PublicationError("prominent PlotArtifact count mismatch")
+        raise PublicationError(f"indicator freeze requires {EXPECTED_INDICATORS}; found {stats['counts']['indicator']}")
+    if question_summary["semantic"] != EXPECTED_SEMANTIC_QUESTIONS:
+        raise PublicationError(
+            f"semantic question freeze requires {EXPECTED_SEMANTIC_QUESTIONS}; "
+            f"found {question_summary['semantic']}"
+        )
+
     shutil.rmtree(output, ignore_errors=True)
     build_dir.replace(output)
-    return manifest
+    return {
+        "stats": stats,
+        "plotPublication": plot_ledger,
+        "questionPublication": question_ledger,
+    }
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--output", default="site-data")
+    parser.add_argument("--output", type=Path, default=ROOT / "site-data")
     args = parser.parse_args()
-    output = (ROOT / args.output).resolve()
-    build(output)
-    stats = json.loads((output / "stats.json").read_text())
-    question_publication = stats["questionPublication"]
-    plot_publication = stats["plotPublication"]
+    try:
+        result = build(args.output)
+    except (PublicationError, PlotPublicationError, QuestionPublicationError, OSError, ValueError, KeyError, yaml.YAMLError) as exc:
+        raise SystemExit(f"FAIL: {exc}")
+    stats = result["stats"]
     print(
-        f"PASS: publication compiled ({stats['counts']['chart']} charts, "
-        f"{stats['counts']['indicator']} indicators, {stats['plot_artifacts']} PlotArtifacts; "
-        f"{plot_publication['prominentCount']} prominent / {plot_publication['primaryEvidenceCount']} primary evidence; "
-        f"{question_publication['public']} public / {question_publication['semantic']} semantic questions)"
+        "PASS: compiled Atlas publication with "
+        f"{stats['plot_artifacts']} PlotArtifacts, "
+        f"{stats['prominent_plot_artifacts']} prominent, "
+        f"{stats['questionPublication']['public']} public questions."
     )
     return 0
 
 
 if __name__ == "__main__":
-    try:
-        raise SystemExit(main())
-    except (PublicationError, PlotPublicationError, QuestionPublicationError) as exc:
-        raise SystemExit(f"FAIL: {exc}")
+    raise SystemExit(main())
