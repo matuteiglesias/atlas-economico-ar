@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import copy
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -99,6 +100,18 @@ class CurationTests(unittest.TestCase):
         queue = curation.build_queue(limit=6)
         self.assertLessEqual(len(queue), 6)
         self.assertTrue(all(item["state"] != "APPROVED" for item in queue))
+
+    def test_real_pack_contains_rendered_evidence(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            output = Path(tmpdir) / "qa-pack"
+            packet = curation.write_pack(output, limit=2)
+            self.assertLessEqual(packet["candidate_count"], 2)
+            self.assertTrue((output / "pack.json").is_file())
+            self.assertTrue((output / "index.html").is_file())
+            for candidate in packet["candidates"]:
+                for kind in ("png", "svg"):
+                    self.assertTrue((output / candidate["assets"][kind]).is_file())
+                    self.assertTrue(curation.is_sha256(candidate["rendered_sha256"][kind]))
 
 
 if __name__ == "__main__":
