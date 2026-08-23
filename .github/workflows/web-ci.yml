@@ -47,3 +47,9 @@ jobs:
 
       - name: Verify frontend
         run: pnpm check
+
+      - name: Install Playwright Chromium
+        run: pnpm exec playwright install chromium
+
+      - name: Battle-test Atlas journeys
+        run: pnpm test:e2e
