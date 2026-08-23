@@ -14,6 +14,14 @@ This layer is deliberately editorial and small. It does **not** add ontology nod
 
 Quarantine is therefore **not deletion** and is not a data-quality failure. It is a publication decision.
 
+## Curation ledger and review packs
+
+`figures/curation_reviews.yaml` is the review ledger; it does not replace the publication policy. It records terminal/workflow curation state, hazard evidence, preferred PlotIntent when superseded, and a structural fingerprint that changes when renderer/frame/indicator/source structure changes but remains stable across ordinary data refreshes.
+
+Run `make validate-figure-curation` to validate the ledger and pinned structural identities. Run `make figure-qa-pack` to emit the next deterministic review queue (at most six figures) into `/tmp/atlas-figure-qa-pack`. The pack copies the actual PNG/SVG files, records their current SHA-256 hashes and semantic context, and is deliberately refused if the output path is inside the repository.
+
+The six pre-existing publication exceptions are migrated into the ledger without changing their public behavior. Legacy decisions predate rendered SHA-256 review evidence; new terminal decisions made through the curation loop must record both PNG and SVG hashes separately from the structural fingerprint.
+
 ## First-pass human test
 
 For each figure, ask in order:

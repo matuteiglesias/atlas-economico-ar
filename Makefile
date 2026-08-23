@@ -1,10 +1,13 @@
 PYTHON ?= python3
 SOURCE_DATE_EPOCH ?= 1786828800
 
-.PHONY: test-series capture-seed-series capture-bcra-series validate-series materialize-plots compile-publication sync-web build-atlas
+.PHONY: test-series test-figures capture-seed-series capture-bcra-series validate-series validate-figure-curation figure-qa-pack materialize-plots compile-publication sync-web build-atlas
 
 test-series:
 	$(PYTHON) -m unittest discover -s series/tests -p 'test_*.py'
+
+test-figures:
+	$(PYTHON) -m unittest discover -s figures/tests -p 'test_*.py'
 
 capture-seed-series:
 	$(PYTHON) series/capture.py
@@ -15,6 +18,12 @@ capture-bcra-series:
 validate-series:
 	$(PYTHON) series/validate.py
 	$(PYTHON) series/validate_bcra.py
+
+validate-figure-curation:
+	$(PYTHON) figures/curation.py validate
+
+figure-qa-pack:
+	$(PYTHON) figures/curation.py pack
 
 materialize-plots:
 	SOURCE_DATE_EPOCH=$(SOURCE_DATE_EPOCH) $(PYTHON) figures/materialize.py
