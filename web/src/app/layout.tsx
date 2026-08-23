@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./plot-artifacts.css";
+import "./ux-state.css";
 
 export const metadata: Metadata = {
   title: "Argentina Economic Atlas",
