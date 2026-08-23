@@ -1,0 +1,80 @@
+name: Curation pass 5 materialize
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    if: github.head_ref == 'curation/figure-pass-5'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: curation/figure-pass-5
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python -m pip install 'PyYAML>=6.0,<7' 'matplotlib>=3.8,<4'
+      - uses: pnpm/action-setup@v4
+        with: {version: 10.28.1}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+      - working-directory: web
+        run: pnpm install --frozen-lockfile
+      - name: Apply reviewed decisions
+        run: python scripts/apply-curation-pass5.py
+      - name: Validate contracts
+        run: |
+          make validate-figure-curation
+          make test-figures
+          make test-publication
+      - name: Build canonical publication once
+        env: {SOURCE_DATE_EPOCH: "1786828800"}
+        run: make build-atlas
+      - name: Recheck reviewed image evidence and consequences
+        run: |
+          python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          hashes = {
+            'plot-artifacts/png/headline-inflation-monthly-vs-year-over-year.png': '48ad453f320680cee2dd7c7b34cafdbf7b66cc9f6c0ac4107dde66f33ff68991',
+            'plot-artifacts/svg/headline-inflation-monthly-vs-year-over-year.svg': 'ec16bb9adafdd72af88c9810acd3264a01ea63e18f5bd9590d01cfd965b6e4a8',
+            'plot-artifacts/png/disinflation-since-december-2023.png': '918087a24594facbdf71cef9546653b53927a4ea191ef3d2e47fe3f733604e5c',
+            'plot-artifacts/svg/disinflation-since-december-2023.svg': 'a5e0ae5e469e9a881a9bb8accf759b70506ae96f6181a29d6d0e9f2d7df95067',
+            'plot-artifacts/png/official-fx-change-vs-monthly-inflation.png': '345117cb84e42376a23944f10c7b7afe9a9f7c8b09719b266328e3827c8085a8',
+            'plot-artifacts/svg/official-fx-change-vs-monthly-inflation.svg': '25d73fb75afecffbca7b6d5f4b937910b1de9d267d5281a406a36a53fe7adc63',
+            'plot-artifacts/png/bcra-daily-fx-purchases.png': '0e5c2ecd9fef0dfd139482aae1b6e70b8014596098ccbbc7fd5ada69eee6e685',
+            'plot-artifacts/svg/bcra-daily-fx-purchases.svg': '386b3fa409bb511d68d83404bc0e0633f7dda9ee037e74f237c49b418b1bd14c',
+            'plot-artifacts/png/bcra-purchases-vs-official-exchange-rate.png': 'fbb7490320935e52e4de706f4323793a56fc246b471aeda24531d30630b019fb',
+            'plot-artifacts/svg/bcra-purchases-vs-official-exchange-rate.svg': '7c6dc0056e9cd8db15641a29ee9317e56750bbad76ca66134fc8af5fc4fe8483',
+            'plot-artifacts/png/real-monetary-base.png': '53496c18e2b53143cbb9aeb6d96e2223c44fa35d141a58b842dac0381dba7847',
+            'plot-artifacts/svg/real-monetary-base.svg': '68b195c85396faf8c5fe6bca07330949bca0aaa50a9298acafbb50ff6ba92b97',
+          }
+          for rel, expected in hashes.items():
+              actual = hashlib.sha256(Path(rel).read_bytes()).hexdigest()
+              assert actual == expected, (rel, actual, expected)
+          stats = json.loads(Path('site-data/stats.json').read_text())
+          pub = json.loads(Path('site-data/plot-publication.json').read_text())['summary']
+          assert pub['plotArtifactCount'] == 41, pub
+          assert pub['prominentCount'] == 22 and pub['primaryEvidenceCount'] == 22, pub
+          assert pub['stateCounts'] == {'APPROVED': 11, 'HISTORICAL': 3, 'QUARANTINE': 6, 'REFERENCE': 6, 'SUPERSEDED': 4, 'UNREVIEWED': 11}, pub
+          assert stats['publicSurface']['chartCensus'] == {'semantic': 119, 'materialized': 41, 'addressable': 41, 'discoverable': 22}, stats['publicSurface']
+          print(f"PASS: 30 terminal / 41, debt 11; 22 discoverable; {stats['questionPublication']['public']} public questions")
+          PY
+      - name: Commit deterministic state and remove temporary machinery
+        run: |
+          rm -f .github/workflows/curation-pass5-sync.yml .github/workflows/curation-pass5-run.yml scripts/apply-curation-pass5.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git status --short
+          git commit -m "Curate fifth six-figure Atlas batch"
+          git push origin HEAD:curation/figure-pass-5
