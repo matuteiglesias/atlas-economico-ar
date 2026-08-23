@@ -1,5 +1,6 @@
 slice_id: "household_welfare"
 title: "Household Welfare"
+populated: false
 mission: "Explain purchasing power, poverty, basic baskets, distribution, social benefits, and how macro/labor changes reach households."
 core_scope:
   - "poverty and extreme poverty"
