@@ -34,85 +34,7 @@
   "unitSemantics": "ars",
   "frequency": "monthly",
   "seriesBindingStatus": "REGISTERED",
-  "charts": [
-    {
-      "id": "pi.ef52",
-      "kind": "chart",
-      "slug": "private-deposits-by-currency",
-      "title": "Private deposits by currency",
-      "href": "/charts/private-deposits-by-currency",
-      "artifact": {
-        "chartSpecId": "cs.bcra3.private_deposits_currency",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-06-30",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/private-deposits-by-currency.svg",
-        "png": "/plots/private-deposits-by-currency.png",
-        "altText": "Private deposits by currency. Private-sector deposits in pesos; Private-sector foreign-currency deposits, ARS equivalent. Last 5 years. Data through 2026-06-30.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.private_deposits_peso_ars",
-          "ci.ef.private_deposits_fx_ars_equivalent"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.private_deposits_peso",
-          "series.ar.bcra.private_deposits_fx_ars_equiv"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.private_deposits_peso": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad",
-          "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef52",
-          "state": "REFERENCE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Valid provider-consistent decomposition of private deposits by currency, but five-year nominal ARS levels are weak primary evidence in a high-inflation period. Retain as reference; pi.ef50 and pi.ef53 give cleaner USD-level and currency-share evidence."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "992,1003",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.private_deposits_peso",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "992",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad"
-          },
-          {
-            "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "1003",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Valid provider-consistent decomposition of private deposits by currency, but five-year nominal ARS levels are weak primary evidence in a high-inflation period. Retain as reference; pi.ef50 and pi.ef53 give cleaner USD-level and currency-share evidence."
-      }
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [
     "di.ef.fx_deposit_share"
   ],
@@ -125,84 +47,6 @@
       "title": "Foreign-currency deposits",
       "href": "/topics/foreign-currency-deposits",
       "distance": 1
-    },
-    {
-      "id": "pi.ef52",
-      "kind": "chart",
-      "slug": "private-deposits-by-currency",
-      "title": "Private deposits by currency",
-      "href": "/charts/private-deposits-by-currency",
-      "distance": 1,
-      "artifact": {
-        "chartSpecId": "cs.bcra3.private_deposits_currency",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-06-30",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/private-deposits-by-currency.svg",
-        "png": "/plots/private-deposits-by-currency.png",
-        "altText": "Private deposits by currency. Private-sector deposits in pesos; Private-sector foreign-currency deposits, ARS equivalent. Last 5 years. Data through 2026-06-30.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.private_deposits_peso_ars",
-          "ci.ef.private_deposits_fx_ars_equivalent"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.private_deposits_peso",
-          "series.ar.bcra.private_deposits_fx_ars_equiv"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.private_deposits_peso": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad",
-          "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef52",
-          "state": "REFERENCE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Valid provider-consistent decomposition of private deposits by currency, but five-year nominal ARS levels are weak primary evidence in a high-inflation period. Retain as reference; pi.ef50 and pi.ef53 give cleaner USD-level and currency-share evidence."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "992,1003",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.private_deposits_peso",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "992",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad"
-          },
-          {
-            "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "1003",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Valid provider-consistent decomposition of private deposits by currency, but five-year nominal ARS levels are weak primary evidence in a high-inflation period. Retain as reference; pi.ef50 and pi.ef53 give cleaner USD-level and currency-share evidence."
-      }
     },
     {
       "id": "q.ef16",
@@ -254,7 +98,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 1,
     "derivedAsOutput": 0
   }

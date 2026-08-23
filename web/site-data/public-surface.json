@@ -1,0 +1,6184 @@
+{
+  "schemaVersion": "0.1",
+  "policy": {
+    "chart": "artifact.disposition.addressable/prominent",
+    "question": "question-publication contract",
+    "region": "all addressable; populated discoverable",
+    "topic": "addressable/discoverable pending publication ontology",
+    "indicator": "addressable/discoverable pending publication ontology"
+  },
+  "semanticCounts": {
+    "region": 6,
+    "topic": 55,
+    "question": 38,
+    "indicator": 90,
+    "chart": 119
+  },
+  "materializedCounts": {
+    "chart": 41
+  },
+  "addressableCounts": {
+    "region": 6,
+    "topic": 55,
+    "question": 15,
+    "indicator": 90,
+    "chart": 41
+  },
+  "discoverableCounts": {
+    "region": 2,
+    "topic": 55,
+    "question": 15,
+    "indicator": 90,
+    "chart": 27
+  },
+  "chartCensus": {
+    "semantic": 119,
+    "materialized": 41,
+    "addressable": 41,
+    "discoverable": 27
+  },
+  "staticRoutes": [
+    "/",
+    "/atlas"
+  ],
+  "routes": [
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    },
+    {
+      "id": "fiscal_regime",
+      "kind": "region",
+      "slug": "fiscal-regime",
+      "title": "Fiscal Regime",
+      "href": "/areas/fiscal-regime"
+    },
+    {
+      "id": "household_welfare",
+      "kind": "region",
+      "slug": "household-welfare",
+      "title": "Household Welfare",
+      "href": "/areas/household-welfare"
+    },
+    {
+      "id": "labor_incomes",
+      "kind": "region",
+      "slug": "labor-incomes",
+      "title": "Labor & Incomes",
+      "href": "/areas/labor-incomes"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    },
+    {
+      "id": "real_economy",
+      "kind": "region",
+      "slug": "real-economy",
+      "title": "Real Economy",
+      "href": "/areas/real-economy"
+    },
+    {
+      "id": "ns.aggregate_demand_pressure",
+      "kind": "topic",
+      "slug": "aggregate-demand-pressure",
+      "title": "Aggregate-demand pressure",
+      "href": "/topics/aggregate-demand-pressure"
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations"
+    },
+    {
+      "id": "ef.capital_inflows",
+      "kind": "topic",
+      "slug": "capital-inflows",
+      "title": "Capital inflows",
+      "href": "/topics/capital-inflows"
+    },
+    {
+      "id": "ns.core_inflation",
+      "kind": "topic",
+      "slug": "core-inflation",
+      "title": "Core inflation",
+      "href": "/topics/core-inflation"
+    },
+    {
+      "id": "ef.credit_quality",
+      "kind": "topic",
+      "slug": "credit-quality",
+      "title": "Credit quality",
+      "href": "/topics/credit-quality"
+    },
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account"
+    },
+    {
+      "id": "ef.domestic_capital_market_depth",
+      "kind": "topic",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/topics/domestic-capital-market-depth"
+    },
+    {
+      "id": "ef.domestic_savings_mobilization",
+      "kind": "topic",
+      "slug": "domestic-savings-mobilization",
+      "title": "Domestic savings mobilization",
+      "href": "/topics/domestic-savings-mobilization"
+    },
+    {
+      "id": "ns.exchange_rate_band",
+      "kind": "topic",
+      "slug": "exchange-rate-band",
+      "title": "Exchange-rate band",
+      "href": "/topics/exchange-rate-band"
+    },
+    {
+      "id": "ef.external_position",
+      "kind": "topic",
+      "slug": "external-position",
+      "title": "External position",
+      "href": "/topics/external-position"
+    },
+    {
+      "id": "ef.external_public_debt",
+      "kind": "topic",
+      "slug": "external-public-debt",
+      "title": "External public debt",
+      "href": "/topics/external-public-debt"
+    },
+    {
+      "id": "ef.refinancing_needs",
+      "kind": "topic",
+      "slug": "external-refinancing-needs",
+      "title": "External refinancing needs",
+      "href": "/topics/external-refinancing-needs"
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability"
+    },
+    {
+      "id": "ef.financial_account",
+      "kind": "topic",
+      "slug": "financial-account",
+      "title": "Financial account",
+      "href": "/topics/financial-account"
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth"
+    },
+    {
+      "id": "ef.foreign_direct_investment",
+      "kind": "topic",
+      "slug": "foreign-direct-investment",
+      "title": "Foreign direct investment",
+      "href": "/topics/foreign-direct-investment"
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service"
+    },
+    {
+      "id": "ef.fx_deposits",
+      "kind": "topic",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/topics/foreign-currency-deposits"
+    },
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap"
+    },
+    {
+      "id": "ns.fx_hedging_demand",
+      "kind": "topic",
+      "slug": "fx-hedging-demand",
+      "title": "FX hedging demand",
+      "href": "/topics/fx-hedging-demand"
+    },
+    {
+      "id": "ef.fx_market_issuance",
+      "kind": "topic",
+      "slug": "fx-market-issuance",
+      "title": "FX market issuance",
+      "href": "/topics/fx-market-issuance"
+    },
+    {
+      "id": "ns.fx_pass_through",
+      "kind": "topic",
+      "slug": "fx-pass-through",
+      "title": "FX pass-through",
+      "href": "/topics/fx-pass-through"
+    },
+    {
+      "id": "ef.goods_trade_balance",
+      "kind": "topic",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/topics/goods-trade-balance"
+    },
+    {
+      "id": "ef.gross_reserves",
+      "kind": "topic",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/topics/gross-international-reserves"
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation"
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation"
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations"
+    },
+    {
+      "id": "ns.inflation_inertia",
+      "kind": "topic",
+      "slug": "inflation-inertia",
+      "title": "Inflation inertia",
+      "href": "/topics/inflation-inertia"
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access"
+    },
+    {
+      "id": "ef.liquid_reserve_buffers",
+      "kind": "topic",
+      "slug": "liquid-reserve-buffers",
+      "title": "Liquid reserve buffers",
+      "href": "/topics/liquid-reserve-buffers"
+    },
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base"
+    },
+    {
+      "id": "ns.monetary_targeting_framework",
+      "kind": "topic",
+      "slug": "monetary-targeting-framework",
+      "title": "Monetary targeting framework",
+      "href": "/topics/monetary-targeting-framework"
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand"
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate"
+    },
+    {
+      "id": "ef.net_international_reserves",
+      "kind": "topic",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/topics/net-international-reserves"
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate"
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing"
+    },
+    {
+      "id": "ns.parallel_exchange_rate",
+      "kind": "topic",
+      "slug": "parallel-exchange-rate",
+      "title": "Parallel exchange rate",
+      "href": "/topics/parallel-exchange-rate"
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility"
+    },
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate"
+    },
+    {
+      "id": "ef.primary_income_balance",
+      "kind": "topic",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/topics/primary-income-balance"
+    },
+    {
+      "id": "ef.private_credit",
+      "kind": "topic",
+      "slug": "private-sector-credit",
+      "title": "Private-sector credit",
+      "href": "/topics/private-sector-credit"
+    },
+    {
+      "id": "ns.real_exchange_rate",
+      "kind": "topic",
+      "slug": "real-exchange-rate",
+      "title": "Real exchange rate",
+      "href": "/topics/real-exchange-rate"
+    },
+    {
+      "id": "ns.real_interest_rate",
+      "kind": "topic",
+      "slug": "real-interest-rate",
+      "title": "Real interest rate",
+      "href": "/topics/real-interest-rate"
+    },
+    {
+      "id": "ns.relative_price_adjustment",
+      "kind": "topic",
+      "slug": "relative-price-adjustment",
+      "title": "Relative-price adjustment",
+      "href": "/topics/relative-price-adjustment"
+    },
+    {
+      "id": "ns.remonetization",
+      "kind": "topic",
+      "slug": "remonetization",
+      "title": "Remonetization",
+      "href": "/topics/remonetization"
+    },
+    {
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation"
+    },
+    {
+      "id": "ef.reserve_adequacy",
+      "kind": "topic",
+      "slug": "reserve-adequacy",
+      "title": "Reserve adequacy",
+      "href": "/topics/reserve-adequacy"
+    },
+    {
+      "id": "ns.reserve_requirements",
+      "kind": "topic",
+      "slug": "reserve-requirements",
+      "title": "Reserve requirements",
+      "href": "/topics/reserve-requirements"
+    },
+    {
+      "id": "ef.resident_fx_hedging",
+      "kind": "topic",
+      "slug": "resident-fx-hedging-and-dollarization-pressure",
+      "title": "Resident FX hedging and dollarization pressure",
+      "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
+    },
+    {
+      "id": "ef.services_balance",
+      "kind": "topic",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/topics/services-balance"
+    },
+    {
+      "id": "ef.sovereign_risk",
+      "kind": "topic",
+      "slug": "sovereign-risk",
+      "title": "Sovereign risk",
+      "href": "/topics/sovereign-risk"
+    },
+    {
+      "id": "ef.sovereign_spreads",
+      "kind": "topic",
+      "slug": "sovereign-spreads",
+      "title": "Sovereign spreads",
+      "href": "/topics/sovereign-spreads"
+    },
+    {
+      "id": "ef.swap_repo_financing",
+      "kind": "topic",
+      "slug": "swap-and-repo-financing",
+      "title": "Swap and repo financing",
+      "href": "/topics/swap-and-repo-financing"
+    },
+    {
+      "id": "ns.transactional_m2",
+      "kind": "topic",
+      "slug": "transactional-m2",
+      "title": "Transactional M2",
+      "href": "/topics/transactional-m2"
+    },
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms"
+    },
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized"
+    },
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed"
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions"
+    },
+    {
+      "id": "q.ns01",
+      "kind": "question",
+      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating"
+    },
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices"
+    },
+    {
+      "id": "q.ef01",
+      "kind": "question",
+      "slug": "how-strong-is-argentina-s-reserve-position",
+      "title": "How strong is Argentina's reserve position?",
+      "href": "/questions/how-strong-is-argentina-s-reserve-position"
+    },
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering"
+    },
+    {
+      "id": "q.ns17",
+      "kind": "question",
+      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework"
+    },
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening"
+    },
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation"
+    },
+    {
+      "id": "q.ef04",
+      "kind": "question",
+      "slug": "is-the-current-account-improving",
+      "title": "Is the current account improving?",
+      "href": "/questions/is-the-current-account-improving"
+    },
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean"
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves"
+    },
+    {
+      "id": "q.ns08",
+      "kind": "question",
+      "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
+      "title": "Where is the official exchange rate inside the policy band?",
+      "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band"
+    },
+    {
+      "id": "ci.ef.bank_liquidity_ratio",
+      "kind": "indicator",
+      "slug": "bank-liquid-assets-ratio",
+      "title": "Bank liquid-assets ratio",
+      "href": "/indicators/bank-liquid-assets-ratio"
+    },
+    {
+      "id": "ci.ef.bank_capital_ratio",
+      "kind": "indicator",
+      "slug": "bank-regulatory-capital-ratio",
+      "title": "Bank regulatory capital ratio",
+      "href": "/indicators/bank-regulatory-capital-ratio"
+    },
+    {
+      "id": "ci.ns.reserve_requirement_ratio",
+      "kind": "indicator",
+      "slug": "bank-reserve-requirement-ratio",
+      "title": "Bank reserve requirement ratio",
+      "href": "/indicators/bank-reserve-requirement-ratio"
+    },
+    {
+      "id": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "indicator",
+      "slug": "bcra-net-fx-purchases",
+      "title": "BCRA net FX purchases",
+      "href": "/indicators/bcra-net-fx-purchases"
+    },
+    {
+      "id": "ci.ns.bcra_peso_deposits",
+      "kind": "indicator",
+      "slug": "bcra-peso-deposits-reserve-balances",
+      "title": "BCRA peso deposits / reserve balances",
+      "href": "/indicators/bcra-peso-deposits-reserve-balances"
+    },
+    {
+      "id": "ci.ns.blue_fx",
+      "kind": "indicator",
+      "slug": "blue-exchange-rate",
+      "title": "Blue exchange rate",
+      "href": "/indicators/blue-exchange-rate"
+    },
+    {
+      "id": "ci.ns.fx_gap_blue",
+      "kind": "indicator",
+      "slug": "blue-official-fx-gap",
+      "title": "Blue-official FX gap",
+      "href": "/indicators/blue-official-fx-gap"
+    },
+    {
+      "id": "ci.ns.ccl_fx",
+      "kind": "indicator",
+      "slug": "ccl-exchange-rate",
+      "title": "CCL exchange rate",
+      "href": "/indicators/ccl-exchange-rate"
+    },
+    {
+      "id": "ci.ns.fx_gap_ccl",
+      "kind": "indicator",
+      "slug": "ccl-official-fx-gap",
+      "title": "CCL-official FX gap",
+      "href": "/indicators/ccl-official-fx-gap"
+    },
+    {
+      "id": "ci.ef.swap_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-external-swap-liabilities",
+      "title": "Central-bank external swap liabilities",
+      "href": "/indicators/central-bank-external-swap-liabilities"
+    },
+    {
+      "id": "ci.ef.repo_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-repo-liabilities",
+      "title": "Central-bank repo liabilities",
+      "href": "/indicators/central-bank-repo-liabilities"
+    },
+    {
+      "id": "ci.ns.core_monthly",
+      "kind": "indicator",
+      "slug": "core-cpi-inflation-monthly",
+      "title": "Core CPI inflation, monthly",
+      "href": "/indicators/core-cpi-inflation-monthly"
+    },
+    {
+      "id": "ci.ns.core_3m_ann",
+      "kind": "indicator",
+      "slug": "core-cpi-3-month-annualized",
+      "title": "Core CPI, 3-month annualized",
+      "href": "/indicators/core-cpi-3-month-annualized"
+    },
+    {
+      "id": "ci.ef.corporate_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "corporate-fx-issuance",
+      "title": "Corporate FX issuance",
+      "href": "/indicators/corporate-fx-issuance"
+    },
+    {
+      "id": "ci.ef.corporate_spread_bps",
+      "kind": "indicator",
+      "slug": "corporate-spread",
+      "title": "Corporate spread",
+      "href": "/indicators/corporate-spread"
+    },
+    {
+      "id": "ci.ns.bcra_fx_purchases_cumulative",
+      "kind": "indicator",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan-2026",
+      "href": "/indicators/cumulative-bcra-fx-purchases-since-jan-2026"
+    },
+    {
+      "id": "ci.ef.reserve_accumulation_ytd",
+      "kind": "indicator",
+      "slug": "cumulative-reserve-accumulation-ytd",
+      "title": "Cumulative reserve accumulation YTD",
+      "href": "/indicators/cumulative-reserve-accumulation-ytd"
+    },
+    {
+      "id": "ci.ef.current_account_usd",
+      "kind": "indicator",
+      "slug": "current-account-balance",
+      "title": "Current account balance",
+      "href": "/indicators/current-account-balance"
+    },
+    {
+      "id": "ci.ef.current_account_gdp",
+      "kind": "indicator",
+      "slug": "current-account-balance-as-share-of-gdp",
+      "title": "Current account balance as share of GDP",
+      "href": "/indicators/current-account-balance-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.domestic_market_depth_gdp",
+      "kind": "indicator",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/indicators/domestic-capital-market-depth"
+    },
+    {
+      "id": "ci.ns.fx_forward_eoy",
+      "kind": "indicator",
+      "slug": "end-of-year-fx-forward-implied-rate",
+      "title": "End-of-year FX forward/implied rate",
+      "href": "/indicators/end-of-year-fx-forward-implied-rate"
+    },
+    {
+      "id": "ci.ns.infl_exp_eop",
+      "kind": "indicator",
+      "slug": "expected-end-of-year-inflation",
+      "title": "Expected end-of-year inflation",
+      "href": "/indicators/expected-end-of-year-inflation"
+    },
+    {
+      "id": "ci.ns.infl_exp_1m",
+      "kind": "indicator",
+      "slug": "expected-inflation-next-month",
+      "title": "Expected inflation next month",
+      "href": "/indicators/expected-inflation-next-month"
+    },
+    {
+      "id": "ci.ns.infl_exp_3m",
+      "kind": "indicator",
+      "slug": "expected-inflation-three-months-ahead",
+      "title": "Expected inflation three months ahead",
+      "href": "/indicators/expected-inflation-three-months-ahead"
+    },
+    {
+      "id": "ci.ef.external_debt_gdp",
+      "kind": "indicator",
+      "slug": "external-debt-as-share-of-gdp",
+      "title": "External debt as share of GDP",
+      "href": "/indicators/external-debt-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.financial_account_usd",
+      "kind": "indicator",
+      "slug": "financial-account-balance",
+      "title": "Financial account balance",
+      "href": "/indicators/financial-account-balance"
+    },
+    {
+      "id": "ci.ns.food_inflation_contribution",
+      "kind": "indicator",
+      "slug": "food-contribution-to-monthly-inflation",
+      "title": "Food contribution to monthly inflation",
+      "href": "/indicators/food-contribution-to-monthly-inflation"
+    },
+    {
+      "id": "ci.ef.fx_deposit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposit-share",
+      "title": "Foreign-currency deposit share",
+      "href": "/indicators/foreign-currency-deposit-share"
+    },
+    {
+      "id": "ci.ef.fx_deposits_usd",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/indicators/foreign-currency-deposits"
+    },
+    {
+      "id": "ci.ef.fx_credit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-share-of-private-sector-credit",
+      "title": "Foreign-currency share of private-sector credit",
+      "href": "/indicators/foreign-currency-share-of-private-sector-credit"
+    },
+    {
+      "id": "ci.ns.fx_band_lower",
+      "kind": "indicator",
+      "slug": "fx-band-lower-bound",
+      "title": "FX-band lower bound",
+      "href": "/indicators/fx-band-lower-bound"
+    },
+    {
+      "id": "ci.ns.fx_band_upper",
+      "kind": "indicator",
+      "slug": "fx-band-upper-bound",
+      "title": "FX-band upper bound",
+      "href": "/indicators/fx-band-upper-bound"
+    },
+    {
+      "id": "ci.ef.goods_balance_usd",
+      "kind": "indicator",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/indicators/goods-trade-balance"
+    },
+    {
+      "id": "ci.ef.capital_inflows_usd",
+      "kind": "indicator",
+      "slug": "gross-identified-capital-inflows",
+      "title": "Gross identified capital inflows",
+      "href": "/indicators/gross-identified-capital-inflows"
+    },
+    {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves"
+    },
+    {
+      "id": "ci.ns.cpi_yoy",
+      "kind": "indicator",
+      "slug": "headline-cpi-inflation-year-over-year",
+      "title": "Headline CPI inflation, year-over-year",
+      "href": "/indicators/headline-cpi-inflation-year-over-year"
+    },
+    {
+      "id": "ci.ns.cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "headline-cpi-3-month-annualized",
+      "title": "Headline CPI, 3-month annualized",
+      "href": "/indicators/headline-cpi-3-month-annualized"
+    },
+    {
+      "id": "ci.ef.imf_obligations_12m",
+      "kind": "indicator",
+      "slug": "imf-obligations-next-12-months",
+      "title": "IMF obligations next 12 months",
+      "href": "/indicators/imf-obligations-next-12-months"
+    },
+    {
+      "id": "ci.ns.infl_surprise",
+      "kind": "indicator",
+      "slug": "inflation-surprise-vs-prior-expectation",
+      "title": "Inflation surprise vs prior expectation",
+      "href": "/indicators/inflation-surprise-vs-prior-expectation"
+    },
+    {
+      "id": "ci.ef.liquid_reserve_buffer_usd",
+      "kind": "indicator",
+      "slug": "liquid-reserve-buffer",
+      "title": "Liquid reserve buffer",
+      "href": "/indicators/liquid-reserve-buffer"
+    },
+    {
+      "id": "ci.ef.market_fx_redemptions_12m",
+      "kind": "indicator",
+      "slug": "market-fx-redemptions-next-12-months",
+      "title": "Market FX redemptions next 12 months",
+      "href": "/indicators/market-fx-redemptions-next-12-months"
+    },
+    {
+      "id": "ci.ns.monetary_base_nominal",
+      "kind": "indicator",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/indicators/monetary-base"
+    },
+    {
+      "id": "ci.ef.reserve_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/indicators/monthly-change-in-gross-reserves"
+    },
+    {
+      "id": "ci.ef.nir_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-nir",
+      "title": "Monthly change in NIR",
+      "href": "/indicators/monthly-change-in-nir"
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation"
+    },
+    {
+      "id": "ci.ns.infl_acceleration",
+      "kind": "indicator",
+      "slug": "monthly-inflation-acceleration",
+      "title": "Monthly inflation acceleration",
+      "href": "/indicators/monthly-inflation-acceleration"
+    },
+    {
+      "id": "ci.ef.fdi_net_usd",
+      "kind": "indicator",
+      "slug": "net-foreign-direct-investment-flows",
+      "title": "Net foreign direct investment flows",
+      "href": "/indicators/net-foreign-direct-investment-flows"
+    },
+    {
+      "id": "ci.ef.nir_usd",
+      "kind": "indicator",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/indicators/net-international-reserves"
+    },
+    {
+      "id": "ci.ef.private_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-private-financial-flows",
+      "title": "Net private financial flows",
+      "href": "/indicators/net-private-financial-flows"
+    },
+    {
+      "id": "ci.ef.public_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-public-sector-financial-flows",
+      "title": "Net public-sector financial flows",
+      "href": "/indicators/net-public-sector-financial-flows"
+    },
+    {
+      "id": "ci.ef.nir_to_gross_ratio",
+      "kind": "indicator",
+      "slug": "nir-to-gross-reserves-ratio",
+      "title": "NIR-to-gross-reserves ratio",
+      "href": "/indicators/nir-to-gross-reserves-ratio"
+    },
+    {
+      "id": "ci.ns.policy_rate_nominal",
+      "kind": "indicator",
+      "slug": "nominal-policy-relevant-rate",
+      "title": "Nominal policy-relevant rate",
+      "href": "/indicators/nominal-policy-relevant-rate"
+    },
+    {
+      "id": "ci.ef.npl_ratio",
+      "kind": "indicator",
+      "slug": "non-performing-loans-ratio",
+      "title": "Non-performing loans ratio",
+      "href": "/indicators/non-performing-loans-ratio"
+    },
+    {
+      "id": "ci.ns.official_fx",
+      "kind": "indicator",
+      "slug": "official-ars-usd-exchange-rate",
+      "title": "Official ARS/USD exchange rate",
+      "href": "/indicators/official-ars-usd-exchange-rate"
+    },
+    {
+      "id": "ci.ef.official_external_financing_usd",
+      "kind": "indicator",
+      "slug": "official-external-financing-flows",
+      "title": "Official external financing flows",
+      "href": "/indicators/official-external-financing-flows"
+    },
+    {
+      "id": "ci.ns.official_fx_monthly_change",
+      "kind": "indicator",
+      "slug": "official-fx-monthly-change",
+      "title": "Official FX monthly change",
+      "href": "/indicators/official-fx-monthly-change"
+    },
+    {
+      "id": "ci.ns.fx_band_position",
+      "kind": "indicator",
+      "slug": "official-fx-position-within-band",
+      "title": "Official FX position within band",
+      "href": "/indicators/official-fx-position-within-band"
+    },
+    {
+      "id": "ci.ns.fx_forward_1m",
+      "kind": "indicator",
+      "slug": "one-month-fx-forward-implied-rate",
+      "title": "One-month FX forward/implied rate",
+      "href": "/indicators/one-month-fx-forward-implied-rate"
+    },
+    {
+      "id": "ci.ef.primary_income_balance_usd",
+      "kind": "indicator",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/indicators/primary-income-balance"
+    },
+    {
+      "id": "ci.ns.transactional_m2_nominal",
+      "kind": "indicator",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/indicators/private-transactional-m2"
+    },
+    {
+      "id": "ci.ef.private_credit_gdp",
+      "kind": "indicator",
+      "slug": "private-sector-credit-as-share-of-gdp",
+      "title": "Private-sector credit as share of GDP",
+      "href": "/indicators/private-sector-credit-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.private_credit_peso_ars",
+      "kind": "indicator",
+      "slug": "private-sector-credit-in-pesos",
+      "title": "Private-sector credit in pesos",
+      "href": "/indicators/private-sector-credit-in-pesos"
+    },
+    {
+      "id": "ci.ef.private_deposits_peso_ars",
+      "kind": "indicator",
+      "slug": "private-sector-deposits-in-pesos",
+      "title": "Private-sector deposits in pesos",
+      "href": "/indicators/private-sector-deposits-in-pesos"
+    },
+    {
+      "id": "ci.ef.private_credit_fx_ars_equivalent",
+      "kind": "indicator",
+      "slug": "private-sector-foreign-currency-credit-ars-equivalent",
+      "title": "Private-sector foreign-currency credit, ARS equivalent",
+      "href": "/indicators/private-sector-foreign-currency-credit-ars-equivalent"
+    },
+    {
+      "id": "ci.ef.private_deposits_fx_ars_equivalent",
+      "kind": "indicator",
+      "slug": "private-sector-foreign-currency-deposits-ars-equivalent",
+      "title": "Private-sector foreign-currency deposits, ARS equivalent",
+      "href": "/indicators/private-sector-foreign-currency-deposits-ars-equivalent"
+    },
+    {
+      "id": "ci.ef.public_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "public-and-provincial-fx-issuance",
+      "title": "Public and provincial FX issuance",
+      "href": "/indicators/public-and-provincial-fx-issuance"
+    },
+    {
+      "id": "ci.ef.public_fx_debt_service_12m",
+      "kind": "indicator",
+      "slug": "public-sector-fx-debt-service-next-12-months",
+      "title": "Public-sector FX debt service next 12 months",
+      "href": "/indicators/public-sector-fx-debt-service-next-12-months"
+    },
+    {
+      "id": "ci.ns.reer_index",
+      "kind": "indicator",
+      "slug": "real-effective-exchange-rate-index",
+      "title": "Real effective exchange-rate index",
+      "href": "/indicators/real-effective-exchange-rate-index"
+    },
+    {
+      "id": "ci.ns.monetary_base_real",
+      "kind": "indicator",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/indicators/real-monetary-base"
+    },
+    {
+      "id": "ci.ns.transactional_m2_real",
+      "kind": "indicator",
+      "slug": "real-private-transactional-m2",
+      "title": "Real private transactional M2",
+      "href": "/indicators/real-private-transactional-m2"
+    },
+    {
+      "id": "ci.ef.real_private_credit_growth",
+      "kind": "indicator",
+      "slug": "real-private-sector-credit-growth",
+      "title": "Real private-sector credit growth",
+      "href": "/indicators/real-private-sector-credit-growth"
+    },
+    {
+      "id": "ci.ns.reer_change_dec2023",
+      "kind": "indicator",
+      "slug": "reer-change-since-dec-2023",
+      "title": "REER change since Dec-2023",
+      "href": "/indicators/reer-change-since-dec-2023"
+    },
+    {
+      "id": "ci.ns.regulated_inflation_contribution",
+      "kind": "indicator",
+      "slug": "regulated-price-contribution-to-monthly-inflation",
+      "title": "Regulated-price contribution to monthly inflation",
+      "href": "/indicators/regulated-price-contribution-to-monthly-inflation"
+    },
+    {
+      "id": "ci.ef.import_cover_months",
+      "kind": "indicator",
+      "slug": "reserve-import-coverage",
+      "title": "Reserve import coverage",
+      "href": "/indicators/reserve-import-coverage"
+    },
+    {
+      "id": "ci.ef.reserve_to_fx_service_ratio",
+      "kind": "indicator",
+      "slug": "reserves-relative-to-next-12m-fx-debt-service",
+      "title": "Reserves relative to next-12m FX debt service",
+      "href": "/indicators/reserves-relative-to-next-12m-fx-debt-service"
+    },
+    {
+      "id": "ci.ef.assets_outside_system_gdp",
+      "kind": "indicator",
+      "slug": "resident-financial-assets-outside-the-domestic-financial-system",
+      "title": "Resident financial assets outside the domestic financial system",
+      "href": "/indicators/resident-financial-assets-outside-the-domestic-financial-system"
+    },
+    {
+      "id": "ci.ef.services_balance_usd",
+      "kind": "indicator",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/indicators/services-balance"
+    },
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate"
+    },
+    {
+      "id": "ci.ef.sovereign_spread_bps",
+      "kind": "indicator",
+      "slug": "sovereign-spread",
+      "title": "Sovereign spread",
+      "href": "/indicators/sovereign-spread"
+    },
+    {
+      "id": "ci.ns.tamar_real_exante",
+      "kind": "indicator",
+      "slug": "tamar-ex-ante-real-rate",
+      "title": "TAMAR ex-ante real rate",
+      "href": "/indicators/tamar-ex-ante-real-rate"
+    },
+    {
+      "id": "ci.ns.tamar_real_expost",
+      "kind": "indicator",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/indicators/tamar-ex-post-real-rate"
+    },
+    {
+      "id": "ci.ns.tamar_nominal",
+      "kind": "indicator",
+      "slug": "tamar-nominal-rate",
+      "title": "TAMAR nominal rate",
+      "href": "/indicators/tamar-nominal-rate"
+    },
+    {
+      "id": "ci.ef.external_debt_usd",
+      "kind": "indicator",
+      "slug": "total-external-debt",
+      "title": "Total external debt",
+      "href": "/indicators/total-external-debt"
+    },
+    {
+      "id": "ci.ef.private_credit_total_ars",
+      "kind": "indicator",
+      "slug": "total-private-sector-credit-ars-equivalent",
+      "title": "Total private-sector credit, ARS equivalent",
+      "href": "/indicators/total-private-sector-credit-ars-equivalent"
+    },
+    {
+      "id": "ci.ef.private_deposits_total_ars",
+      "kind": "indicator",
+      "slug": "total-private-sector-deposits-ars-equivalent",
+      "title": "Total private-sector deposits, ARS equivalent",
+      "href": "/indicators/total-private-sector-deposits-ars-equivalent"
+    },
+    {
+      "id": "ci.ns.transactional_m2_projection_gap",
+      "kind": "indicator",
+      "slug": "transactional-m2-gap-vs-bcra-projection",
+      "title": "Transactional M2 gap vs BCRA projection",
+      "href": "/indicators/transactional-m2-gap-vs-bcra-projection"
+    },
+    {
+      "id": "ci.ns.m2_to_gdp",
+      "kind": "indicator",
+      "slug": "transactional-m2-to-gdp",
+      "title": "Transactional M2 to GDP",
+      "href": "/indicators/transactional-m2-to-gdp"
+    },
+    {
+      "id": "ci.ns.trimmed_cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-cpi-3-month-annualized",
+      "title": "Trimmed CPI, 3-month annualized",
+      "href": "/indicators/trimmed-cpi-3-month-annualized"
+    },
+    {
+      "id": "ci.ns.trimmed_goods_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-goods-inflation-3-month-annualized",
+      "title": "Trimmed goods inflation, 3-month annualized",
+      "href": "/indicators/trimmed-goods-inflation-3-month-annualized"
+    },
+    {
+      "id": "ci.ns.trimmed_services_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-services-inflation-3-month-annualized",
+      "title": "Trimmed services inflation, 3-month annualized",
+      "href": "/indicators/trimmed-services-inflation-3-month-annualized"
+    },
+    {
+      "id": "pi.ns60",
+      "kind": "chart",
+      "slug": "baibar-interbank-rate",
+      "title": "BAIBAR interbank rate",
+      "href": "/charts/baibar-interbank-rate"
+    },
+    {
+      "id": "pi.ns64",
+      "kind": "chart",
+      "slug": "bank-reserve-balances-at-the-bcra",
+      "title": "Bank reserve balances at the BCRA",
+      "href": "/charts/bank-reserve-balances-at-the-bcra"
+    },
+    {
+      "id": "pi.ns23",
+      "kind": "chart",
+      "slug": "bcra-daily-fx-purchases",
+      "title": "BCRA daily FX purchases",
+      "href": "/charts/bcra-daily-fx-purchases"
+    },
+    {
+      "id": "pi.ef49",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-gross-reserves",
+      "title": "BCRA FX purchases and gross reserves",
+      "href": "/charts/bcra-fx-purchases-and-gross-reserves"
+    },
+    {
+      "id": "pi.ns59",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-the-monetary-base",
+      "title": "BCRA FX purchases and the monetary base",
+      "href": "/charts/bcra-fx-purchases-and-the-monetary-base"
+    },
+    {
+      "id": "pi.ns63",
+      "kind": "chart",
+      "slug": "bcra-policy-rate-history",
+      "title": "BCRA policy rate history",
+      "href": "/charts/bcra-policy-rate-history"
+    },
+    {
+      "id": "pi.ns25",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-official-exchange-rate",
+      "title": "BCRA purchases vs official exchange rate",
+      "href": "/charts/bcra-purchases-vs-official-exchange-rate"
+    },
+    {
+      "id": "pi.ns57",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan 2026",
+      "href": "/charts/cumulative-bcra-fx-purchases-since-jan-2026"
+    },
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023"
+    },
+    {
+      "id": "pi.ef50",
+      "kind": "chart",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/charts/foreign-currency-deposits"
+    },
+    {
+      "id": "pi.ef53",
+      "kind": "chart",
+      "slug": "foreign-currency-shares-of-private-credit-and-deposits",
+      "title": "Foreign-currency shares of private credit and deposits",
+      "href": "/charts/foreign-currency-shares-of-private-credit-and-deposits"
+    },
+    {
+      "id": "pi.ef33",
+      "kind": "chart",
+      "slug": "fx-deposits-in-the-domestic-financial-system",
+      "title": "FX deposits in the domestic financial system",
+      "href": "/charts/fx-deposits-in-the-domestic-financial-system"
+    },
+    {
+      "id": "pi.ef45",
+      "kind": "chart",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/charts/goods-trade-balance"
+    },
+    {
+      "id": "pi.ef46",
+      "kind": "chart",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/charts/gross-international-reserves"
+    },
+    {
+      "id": "pi.ns03",
+      "kind": "chart",
+      "slug": "headline-inflation-monthly-vs-year-over-year",
+      "title": "Headline inflation: monthly vs year-over-year",
+      "href": "/charts/headline-inflation-monthly-vs-year-over-year"
+    },
+    {
+      "id": "pi.ns01",
+      "kind": "chart",
+      "slug": "inflation-momentum-monthly-and-3-month-annualized",
+      "title": "Inflation momentum: monthly and 3-month annualized",
+      "href": "/charts/inflation-momentum-monthly-and-3-month-annualized"
+    },
+    {
+      "id": "pi.ns50",
+      "kind": "chart",
+      "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
+      "title": "Inflation vs FX depreciation since stabilization start",
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start"
+    },
+    {
+      "id": "pi.ns58",
+      "kind": "chart",
+      "slug": "monetary-base-and-transactional-m2",
+      "title": "Monetary base and transactional M2",
+      "href": "/charts/monetary-base-and-transactional-m2"
+    },
+    {
+      "id": "pi.ns41",
+      "kind": "chart",
+      "slug": "monetary-base-vs-transactional-m2",
+      "title": "Monetary base vs transactional M2",
+      "href": "/charts/monetary-base-vs-transactional-m2"
+    },
+    {
+      "id": "pi.ns43",
+      "kind": "chart",
+      "slug": "monetization-dashboard-base-m2-inflation",
+      "title": "Monetization dashboard: base, M2, inflation",
+      "href": "/charts/monetization-dashboard-base-m2-inflation"
+    },
+    {
+      "id": "pi.ef47",
+      "kind": "chart",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/charts/monthly-change-in-gross-reserves"
+    },
+    {
+      "id": "pi.ns53",
+      "kind": "chart",
+      "slug": "monthly-headline-inflation",
+      "title": "Monthly headline inflation",
+      "href": "/charts/monthly-headline-inflation"
+    },
+    {
+      "id": "pi.ns65",
+      "kind": "chart",
+      "slug": "monthly-inflation-and-acceleration",
+      "title": "Monthly inflation and acceleration",
+      "href": "/charts/monthly-inflation-and-acceleration"
+    },
+    {
+      "id": "pi.ns34",
+      "kind": "chart",
+      "slug": "nominal-monetary-base",
+      "title": "Nominal monetary base",
+      "href": "/charts/nominal-monetary-base"
+    },
+    {
+      "id": "pi.ns21",
+      "kind": "chart",
+      "slug": "nominal-vs-real-exchange-rate-movement",
+      "title": "Nominal vs real exchange-rate movement",
+      "href": "/charts/nominal-vs-real-exchange-rate-movement"
+    },
+    {
+      "id": "pi.ns09",
+      "kind": "chart",
+      "slug": "official-fx-change-vs-monthly-inflation",
+      "title": "Official FX change vs monthly inflation",
+      "href": "/charts/official-fx-change-vs-monthly-inflation"
+    },
+    {
+      "id": "pi.ns55",
+      "kind": "chart",
+      "slug": "official-wholesale-exchange-rate",
+      "title": "Official wholesale exchange rate",
+      "href": "/charts/official-wholesale-exchange-rate"
+    },
+    {
+      "id": "pi.ns31",
+      "kind": "chart",
+      "slug": "policy-relevant-rate-vs-money-market-rate",
+      "title": "Policy-relevant rate vs money-market rate",
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate"
+    },
+    {
+      "id": "pi.ef54",
+      "kind": "chart",
+      "slug": "private-credit-and-deposits",
+      "title": "Private credit and deposits",
+      "href": "/charts/private-credit-and-deposits"
+    },
+    {
+      "id": "pi.ef51",
+      "kind": "chart",
+      "slug": "private-credit-by-currency",
+      "title": "Private credit by currency",
+      "href": "/charts/private-credit-by-currency"
+    },
+    {
+      "id": "pi.ef52",
+      "kind": "chart",
+      "slug": "private-deposits-by-currency",
+      "title": "Private deposits by currency",
+      "href": "/charts/private-deposits-by-currency"
+    },
+    {
+      "id": "pi.ns56",
+      "kind": "chart",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/charts/private-transactional-m2"
+    },
+    {
+      "id": "pi.ns54",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate",
+      "title": "Real effective exchange rate",
+      "href": "/charts/real-effective-exchange-rate"
+    },
+    {
+      "id": "pi.ns35",
+      "kind": "chart",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/charts/real-monetary-base"
+    },
+    {
+      "id": "pi.ef30",
+      "kind": "chart",
+      "slug": "real-private-credit-growth",
+      "title": "Real private-credit growth",
+      "href": "/charts/real-private-credit-growth"
+    },
+    {
+      "id": "pi.ns40",
+      "kind": "chart",
+      "slug": "remonetization-vs-bcra-fx-purchases",
+      "title": "Remonetization vs BCRA FX purchases",
+      "href": "/charts/remonetization-vs-bcra-fx-purchases"
+    },
+    {
+      "id": "pi.ns39",
+      "kind": "chart",
+      "slug": "remonetization-vs-inflation",
+      "title": "Remonetization vs inflation",
+      "href": "/charts/remonetization-vs-inflation"
+    },
+    {
+      "id": "pi.ef48",
+      "kind": "chart",
+      "slug": "reserve-accumulation-year-to-date",
+      "title": "Reserve accumulation year to date",
+      "href": "/charts/reserve-accumulation-year-to-date"
+    },
+    {
+      "id": "pi.ns62",
+      "kind": "chart",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/charts/tamar-ex-post-real-rate"
+    },
+    {
+      "id": "pi.ns61",
+      "kind": "chart",
+      "slug": "tamar-private-bank-rate",
+      "title": "TAMAR private-bank rate",
+      "href": "/charts/tamar-private-bank-rate"
+    },
+    {
+      "id": "pi.ns36",
+      "kind": "chart",
+      "slug": "transactional-m2-nominal-and-real",
+      "title": "Transactional M2 nominal and real",
+      "href": "/charts/transactional-m2-nominal-and-real"
+    }
+  ],
+  "discovery": [
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint"
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization"
+    },
+    {
+      "id": "ns.aggregate_demand_pressure",
+      "kind": "topic",
+      "slug": "aggregate-demand-pressure",
+      "title": "Aggregate-demand pressure",
+      "href": "/topics/aggregate-demand-pressure"
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations"
+    },
+    {
+      "id": "ef.capital_inflows",
+      "kind": "topic",
+      "slug": "capital-inflows",
+      "title": "Capital inflows",
+      "href": "/topics/capital-inflows"
+    },
+    {
+      "id": "ns.core_inflation",
+      "kind": "topic",
+      "slug": "core-inflation",
+      "title": "Core inflation",
+      "href": "/topics/core-inflation"
+    },
+    {
+      "id": "ef.credit_quality",
+      "kind": "topic",
+      "slug": "credit-quality",
+      "title": "Credit quality",
+      "href": "/topics/credit-quality"
+    },
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account"
+    },
+    {
+      "id": "ef.domestic_capital_market_depth",
+      "kind": "topic",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/topics/domestic-capital-market-depth"
+    },
+    {
+      "id": "ef.domestic_savings_mobilization",
+      "kind": "topic",
+      "slug": "domestic-savings-mobilization",
+      "title": "Domestic savings mobilization",
+      "href": "/topics/domestic-savings-mobilization"
+    },
+    {
+      "id": "ns.exchange_rate_band",
+      "kind": "topic",
+      "slug": "exchange-rate-band",
+      "title": "Exchange-rate band",
+      "href": "/topics/exchange-rate-band"
+    },
+    {
+      "id": "ef.external_position",
+      "kind": "topic",
+      "slug": "external-position",
+      "title": "External position",
+      "href": "/topics/external-position"
+    },
+    {
+      "id": "ef.external_public_debt",
+      "kind": "topic",
+      "slug": "external-public-debt",
+      "title": "External public debt",
+      "href": "/topics/external-public-debt"
+    },
+    {
+      "id": "ef.refinancing_needs",
+      "kind": "topic",
+      "slug": "external-refinancing-needs",
+      "title": "External refinancing needs",
+      "href": "/topics/external-refinancing-needs"
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability"
+    },
+    {
+      "id": "ef.financial_account",
+      "kind": "topic",
+      "slug": "financial-account",
+      "title": "Financial account",
+      "href": "/topics/financial-account"
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth"
+    },
+    {
+      "id": "ef.foreign_direct_investment",
+      "kind": "topic",
+      "slug": "foreign-direct-investment",
+      "title": "Foreign direct investment",
+      "href": "/topics/foreign-direct-investment"
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service"
+    },
+    {
+      "id": "ef.fx_deposits",
+      "kind": "topic",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/topics/foreign-currency-deposits"
+    },
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap"
+    },
+    {
+      "id": "ns.fx_hedging_demand",
+      "kind": "topic",
+      "slug": "fx-hedging-demand",
+      "title": "FX hedging demand",
+      "href": "/topics/fx-hedging-demand"
+    },
+    {
+      "id": "ef.fx_market_issuance",
+      "kind": "topic",
+      "slug": "fx-market-issuance",
+      "title": "FX market issuance",
+      "href": "/topics/fx-market-issuance"
+    },
+    {
+      "id": "ns.fx_pass_through",
+      "kind": "topic",
+      "slug": "fx-pass-through",
+      "title": "FX pass-through",
+      "href": "/topics/fx-pass-through"
+    },
+    {
+      "id": "ef.goods_trade_balance",
+      "kind": "topic",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/topics/goods-trade-balance"
+    },
+    {
+      "id": "ef.gross_reserves",
+      "kind": "topic",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/topics/gross-international-reserves"
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation"
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation"
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations"
+    },
+    {
+      "id": "ns.inflation_inertia",
+      "kind": "topic",
+      "slug": "inflation-inertia",
+      "title": "Inflation inertia",
+      "href": "/topics/inflation-inertia"
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access"
+    },
+    {
+      "id": "ef.liquid_reserve_buffers",
+      "kind": "topic",
+      "slug": "liquid-reserve-buffers",
+      "title": "Liquid reserve buffers",
+      "href": "/topics/liquid-reserve-buffers"
+    },
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base"
+    },
+    {
+      "id": "ns.monetary_targeting_framework",
+      "kind": "topic",
+      "slug": "monetary-targeting-framework",
+      "title": "Monetary targeting framework",
+      "href": "/topics/monetary-targeting-framework"
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand"
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate"
+    },
+    {
+      "id": "ef.net_international_reserves",
+      "kind": "topic",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/topics/net-international-reserves"
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate"
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing"
+    },
+    {
+      "id": "ns.parallel_exchange_rate",
+      "kind": "topic",
+      "slug": "parallel-exchange-rate",
+      "title": "Parallel exchange rate",
+      "href": "/topics/parallel-exchange-rate"
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility"
+    },
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate"
+    },
+    {
+      "id": "ef.primary_income_balance",
+      "kind": "topic",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/topics/primary-income-balance"
+    },
+    {
+      "id": "ef.private_credit",
+      "kind": "topic",
+      "slug": "private-sector-credit",
+      "title": "Private-sector credit",
+      "href": "/topics/private-sector-credit"
+    },
+    {
+      "id": "ns.real_exchange_rate",
+      "kind": "topic",
+      "slug": "real-exchange-rate",
+      "title": "Real exchange rate",
+      "href": "/topics/real-exchange-rate"
+    },
+    {
+      "id": "ns.real_interest_rate",
+      "kind": "topic",
+      "slug": "real-interest-rate",
+      "title": "Real interest rate",
+      "href": "/topics/real-interest-rate"
+    },
+    {
+      "id": "ns.relative_price_adjustment",
+      "kind": "topic",
+      "slug": "relative-price-adjustment",
+      "title": "Relative-price adjustment",
+      "href": "/topics/relative-price-adjustment"
+    },
+    {
+      "id": "ns.remonetization",
+      "kind": "topic",
+      "slug": "remonetization",
+      "title": "Remonetization",
+      "href": "/topics/remonetization"
+    },
+    {
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation"
+    },
+    {
+      "id": "ef.reserve_adequacy",
+      "kind": "topic",
+      "slug": "reserve-adequacy",
+      "title": "Reserve adequacy",
+      "href": "/topics/reserve-adequacy"
+    },
+    {
+      "id": "ns.reserve_requirements",
+      "kind": "topic",
+      "slug": "reserve-requirements",
+      "title": "Reserve requirements",
+      "href": "/topics/reserve-requirements"
+    },
+    {
+      "id": "ef.resident_fx_hedging",
+      "kind": "topic",
+      "slug": "resident-fx-hedging-and-dollarization-pressure",
+      "title": "Resident FX hedging and dollarization pressure",
+      "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
+    },
+    {
+      "id": "ef.services_balance",
+      "kind": "topic",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/topics/services-balance"
+    },
+    {
+      "id": "ef.sovereign_risk",
+      "kind": "topic",
+      "slug": "sovereign-risk",
+      "title": "Sovereign risk",
+      "href": "/topics/sovereign-risk"
+    },
+    {
+      "id": "ef.sovereign_spreads",
+      "kind": "topic",
+      "slug": "sovereign-spreads",
+      "title": "Sovereign spreads",
+      "href": "/topics/sovereign-spreads"
+    },
+    {
+      "id": "ef.swap_repo_financing",
+      "kind": "topic",
+      "slug": "swap-and-repo-financing",
+      "title": "Swap and repo financing",
+      "href": "/topics/swap-and-repo-financing"
+    },
+    {
+      "id": "ns.transactional_m2",
+      "kind": "topic",
+      "slug": "transactional-m2",
+      "title": "Transactional M2",
+      "href": "/topics/transactional-m2"
+    },
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms"
+    },
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized"
+    },
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed"
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions"
+    },
+    {
+      "id": "q.ns01",
+      "kind": "question",
+      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating"
+    },
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices"
+    },
+    {
+      "id": "q.ef01",
+      "kind": "question",
+      "slug": "how-strong-is-argentina-s-reserve-position",
+      "title": "How strong is Argentina's reserve position?",
+      "href": "/questions/how-strong-is-argentina-s-reserve-position"
+    },
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering"
+    },
+    {
+      "id": "q.ns17",
+      "kind": "question",
+      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework"
+    },
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening"
+    },
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation"
+    },
+    {
+      "id": "q.ef04",
+      "kind": "question",
+      "slug": "is-the-current-account-improving",
+      "title": "Is the current account improving?",
+      "href": "/questions/is-the-current-account-improving"
+    },
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean"
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves"
+    },
+    {
+      "id": "q.ns08",
+      "kind": "question",
+      "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
+      "title": "Where is the official exchange rate inside the policy band?",
+      "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band"
+    },
+    {
+      "id": "ci.ef.bank_liquidity_ratio",
+      "kind": "indicator",
+      "slug": "bank-liquid-assets-ratio",
+      "title": "Bank liquid-assets ratio",
+      "href": "/indicators/bank-liquid-assets-ratio"
+    },
+    {
+      "id": "ci.ef.bank_capital_ratio",
+      "kind": "indicator",
+      "slug": "bank-regulatory-capital-ratio",
+      "title": "Bank regulatory capital ratio",
+      "href": "/indicators/bank-regulatory-capital-ratio"
+    },
+    {
+      "id": "ci.ns.reserve_requirement_ratio",
+      "kind": "indicator",
+      "slug": "bank-reserve-requirement-ratio",
+      "title": "Bank reserve requirement ratio",
+      "href": "/indicators/bank-reserve-requirement-ratio"
+    },
+    {
+      "id": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "indicator",
+      "slug": "bcra-net-fx-purchases",
+      "title": "BCRA net FX purchases",
+      "href": "/indicators/bcra-net-fx-purchases"
+    },
+    {
+      "id": "ci.ns.bcra_peso_deposits",
+      "kind": "indicator",
+      "slug": "bcra-peso-deposits-reserve-balances",
+      "title": "BCRA peso deposits / reserve balances",
+      "href": "/indicators/bcra-peso-deposits-reserve-balances"
+    },
+    {
+      "id": "ci.ns.blue_fx",
+      "kind": "indicator",
+      "slug": "blue-exchange-rate",
+      "title": "Blue exchange rate",
+      "href": "/indicators/blue-exchange-rate"
+    },
+    {
+      "id": "ci.ns.fx_gap_blue",
+      "kind": "indicator",
+      "slug": "blue-official-fx-gap",
+      "title": "Blue-official FX gap",
+      "href": "/indicators/blue-official-fx-gap"
+    },
+    {
+      "id": "ci.ns.ccl_fx",
+      "kind": "indicator",
+      "slug": "ccl-exchange-rate",
+      "title": "CCL exchange rate",
+      "href": "/indicators/ccl-exchange-rate"
+    },
+    {
+      "id": "ci.ns.fx_gap_ccl",
+      "kind": "indicator",
+      "slug": "ccl-official-fx-gap",
+      "title": "CCL-official FX gap",
+      "href": "/indicators/ccl-official-fx-gap"
+    },
+    {
+      "id": "ci.ef.swap_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-external-swap-liabilities",
+      "title": "Central-bank external swap liabilities",
+      "href": "/indicators/central-bank-external-swap-liabilities"
+    },
+    {
+      "id": "ci.ef.repo_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-repo-liabilities",
+      "title": "Central-bank repo liabilities",
+      "href": "/indicators/central-bank-repo-liabilities"
+    },
+    {
+      "id": "ci.ns.core_monthly",
+      "kind": "indicator",
+      "slug": "core-cpi-inflation-monthly",
+      "title": "Core CPI inflation, monthly",
+      "href": "/indicators/core-cpi-inflation-monthly"
+    },
+    {
+      "id": "ci.ns.core_3m_ann",
+      "kind": "indicator",
+      "slug": "core-cpi-3-month-annualized",
+      "title": "Core CPI, 3-month annualized",
+      "href": "/indicators/core-cpi-3-month-annualized"
+    },
+    {
+      "id": "ci.ef.corporate_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "corporate-fx-issuance",
+      "title": "Corporate FX issuance",
+      "href": "/indicators/corporate-fx-issuance"
+    },
+    {
+      "id": "ci.ef.corporate_spread_bps",
+      "kind": "indicator",
+      "slug": "corporate-spread",
+      "title": "Corporate spread",
+      "href": "/indicators/corporate-spread"
+    },
+    {
+      "id": "ci.ns.bcra_fx_purchases_cumulative",
+      "kind": "indicator",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan-2026",
+      "href": "/indicators/cumulative-bcra-fx-purchases-since-jan-2026"
+    },
+    {
+      "id": "ci.ef.reserve_accumulation_ytd",
+      "kind": "indicator",
+      "slug": "cumulative-reserve-accumulation-ytd",
+      "title": "Cumulative reserve accumulation YTD",
+      "href": "/indicators/cumulative-reserve-accumulation-ytd"
+    },
+    {
+      "id": "ci.ef.current_account_usd",
+      "kind": "indicator",
+      "slug": "current-account-balance",
+      "title": "Current account balance",
+      "href": "/indicators/current-account-balance"
+    },
+    {
+      "id": "ci.ef.current_account_gdp",
+      "kind": "indicator",
+      "slug": "current-account-balance-as-share-of-gdp",
+      "title": "Current account balance as share of GDP",
+      "href": "/indicators/current-account-balance-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.domestic_market_depth_gdp",
+      "kind": "indicator",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/indicators/domestic-capital-market-depth"
+    },
+    {
+      "id": "ci.ns.fx_forward_eoy",
+      "kind": "indicator",
+      "slug": "end-of-year-fx-forward-implied-rate",
+      "title": "End-of-year FX forward/implied rate",
+      "href": "/indicators/end-of-year-fx-forward-implied-rate"
+    },
+    {
+      "id": "ci.ns.infl_exp_eop",
+      "kind": "indicator",
+      "slug": "expected-end-of-year-inflation",
+      "title": "Expected end-of-year inflation",
+      "href": "/indicators/expected-end-of-year-inflation"
+    },
+    {
+      "id": "ci.ns.infl_exp_1m",
+      "kind": "indicator",
+      "slug": "expected-inflation-next-month",
+      "title": "Expected inflation next month",
+      "href": "/indicators/expected-inflation-next-month"
+    },
+    {
+      "id": "ci.ns.infl_exp_3m",
+      "kind": "indicator",
+      "slug": "expected-inflation-three-months-ahead",
+      "title": "Expected inflation three months ahead",
+      "href": "/indicators/expected-inflation-three-months-ahead"
+    },
+    {
+      "id": "ci.ef.external_debt_gdp",
+      "kind": "indicator",
+      "slug": "external-debt-as-share-of-gdp",
+      "title": "External debt as share of GDP",
+      "href": "/indicators/external-debt-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.financial_account_usd",
+      "kind": "indicator",
+      "slug": "financial-account-balance",
+      "title": "Financial account balance",
+      "href": "/indicators/financial-account-balance"
+    },
+    {
+      "id": "ci.ns.food_inflation_contribution",
+      "kind": "indicator",
+      "slug": "food-contribution-to-monthly-inflation",
+      "title": "Food contribution to monthly inflation",
+      "href": "/indicators/food-contribution-to-monthly-inflation"
+    },
+    {
+      "id": "ci.ef.fx_deposit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposit-share",
+      "title": "Foreign-currency deposit share",
+      "href": "/indicators/foreign-currency-deposit-share"
+    },
+    {
+      "id": "ci.ef.fx_deposits_usd",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/indicators/foreign-currency-deposits"
+    },
+    {
+      "id": "ci.ef.fx_credit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-share-of-private-sector-credit",
+      "title": "Foreign-currency share of private-sector credit",
+      "href": "/indicators/foreign-currency-share-of-private-sector-credit"
+    },
+    {
+      "id": "ci.ns.fx_band_lower",
+      "kind": "indicator",
+      "slug": "fx-band-lower-bound",
+      "title": "FX-band lower bound",
+      "href": "/indicators/fx-band-lower-bound"
+    },
+    {
+      "id": "ci.ns.fx_band_upper",
+      "kind": "indicator",
+      "slug": "fx-band-upper-bound",
+      "title": "FX-band upper bound",
+      "href": "/indicators/fx-band-upper-bound"
+    },
+    {
+      "id": "ci.ef.goods_balance_usd",
+      "kind": "indicator",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/indicators/goods-trade-balance"
+    },
+    {
+      "id": "ci.ef.capital_inflows_usd",
+      "kind": "indicator",
+      "slug": "gross-identified-capital-inflows",
+      "title": "Gross identified capital inflows",
+      "href": "/indicators/gross-identified-capital-inflows"
+    },
+    {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves"
+    },
+    {
+      "id": "ci.ns.cpi_yoy",
+      "kind": "indicator",
+      "slug": "headline-cpi-inflation-year-over-year",
+      "title": "Headline CPI inflation, year-over-year",
+      "href": "/indicators/headline-cpi-inflation-year-over-year"
+    },
+    {
+      "id": "ci.ns.cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "headline-cpi-3-month-annualized",
+      "title": "Headline CPI, 3-month annualized",
+      "href": "/indicators/headline-cpi-3-month-annualized"
+    },
+    {
+      "id": "ci.ef.imf_obligations_12m",
+      "kind": "indicator",
+      "slug": "imf-obligations-next-12-months",
+      "title": "IMF obligations next 12 months",
+      "href": "/indicators/imf-obligations-next-12-months"
+    },
+    {
+      "id": "ci.ns.infl_surprise",
+      "kind": "indicator",
+      "slug": "inflation-surprise-vs-prior-expectation",
+      "title": "Inflation surprise vs prior expectation",
+      "href": "/indicators/inflation-surprise-vs-prior-expectation"
+    },
+    {
+      "id": "ci.ef.liquid_reserve_buffer_usd",
+      "kind": "indicator",
+      "slug": "liquid-reserve-buffer",
+      "title": "Liquid reserve buffer",
+      "href": "/indicators/liquid-reserve-buffer"
+    },
+    {
+      "id": "ci.ef.market_fx_redemptions_12m",
+      "kind": "indicator",
+      "slug": "market-fx-redemptions-next-12-months",
+      "title": "Market FX redemptions next 12 months",
+      "href": "/indicators/market-fx-redemptions-next-12-months"
+    },
+    {
+      "id": "ci.ns.monetary_base_nominal",
+      "kind": "indicator",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/indicators/monetary-base"
+    },
+    {
+      "id": "ci.ef.reserve_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/indicators/monthly-change-in-gross-reserves"
+    },
+    {
+      "id": "ci.ef.nir_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-nir",
+      "title": "Monthly change in NIR",
+      "href": "/indicators/monthly-change-in-nir"
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation"
+    },
+    {
+      "id": "ci.ns.infl_acceleration",
+      "kind": "indicator",
+      "slug": "monthly-inflation-acceleration",
+      "title": "Monthly inflation acceleration",
+      "href": "/indicators/monthly-inflation-acceleration"
+    },
+    {
+      "id": "ci.ef.fdi_net_usd",
+      "kind": "indicator",
+      "slug": "net-foreign-direct-investment-flows",
+      "title": "Net foreign direct investment flows",
+      "href": "/indicators/net-foreign-direct-investment-flows"
+    },
+    {
+      "id": "ci.ef.nir_usd",
+      "kind": "indicator",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/indicators/net-international-reserves"
+    },
+    {
+      "id": "ci.ef.private_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-private-financial-flows",
+      "title": "Net private financial flows",
+      "href": "/indicators/net-private-financial-flows"
+    },
+    {
+      "id": "ci.ef.public_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-public-sector-financial-flows",
+      "title": "Net public-sector financial flows",
+      "href": "/indicators/net-public-sector-financial-flows"
+    },
+    {
+      "id": "ci.ef.nir_to_gross_ratio",
+      "kind": "indicator",
+      "slug": "nir-to-gross-reserves-ratio",
+      "title": "NIR-to-gross-reserves ratio",
+      "href": "/indicators/nir-to-gross-reserves-ratio"
+    },
+    {
+      "id": "ci.ns.policy_rate_nominal",
+      "kind": "indicator",
+      "slug": "nominal-policy-relevant-rate",
+      "title": "Nominal policy-relevant rate",
+      "href": "/indicators/nominal-policy-relevant-rate"
+    },
+    {
+      "id": "ci.ef.npl_ratio",
+      "kind": "indicator",
+      "slug": "non-performing-loans-ratio",
+      "title": "Non-performing loans ratio",
+      "href": "/indicators/non-performing-loans-ratio"
+    },
+    {
+      "id": "ci.ns.official_fx",
+      "kind": "indicator",
+      "slug": "official-ars-usd-exchange-rate",
+      "title": "Official ARS/USD exchange rate",
+      "href": "/indicators/official-ars-usd-exchange-rate"
+    },
+    {
+      "id": "ci.ef.official_external_financing_usd",
+      "kind": "indicator",
+      "slug": "official-external-financing-flows",
+      "title": "Official external financing flows",
+      "href": "/indicators/official-external-financing-flows"
+    },
+    {
+      "id": "ci.ns.official_fx_monthly_change",
+      "kind": "indicator",
+      "slug": "official-fx-monthly-change",
+      "title": "Official FX monthly change",
+      "href": "/indicators/official-fx-monthly-change"
+    },
+    {
+      "id": "ci.ns.fx_band_position",
+      "kind": "indicator",
+      "slug": "official-fx-position-within-band",
+      "title": "Official FX position within band",
+      "href": "/indicators/official-fx-position-within-band"
+    },
+    {
+      "id": "ci.ns.fx_forward_1m",
+      "kind": "indicator",
+      "slug": "one-month-fx-forward-implied-rate",
+      "title": "One-month FX forward/implied rate",
+      "href": "/indicators/one-month-fx-forward-implied-rate"
+    },
+    {
+      "id": "ci.ef.primary_income_balance_usd",
+      "kind": "indicator",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/indicators/primary-income-balance"
+    },
+    {
+      "id": "ci.ns.transactional_m2_nominal",
+      "kind": "indicator",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/indicators/private-transactional-m2"
+    },
+    {
+      "id": "ci.ef.private_credit_gdp",
+      "kind": "indicator",
+      "slug": "private-sector-credit-as-share-of-gdp",
+      "title": "Private-sector credit as share of GDP",
+      "href": "/indicators/private-sector-credit-as-share-of-gdp"
+    },
+    {
+      "id": "ci.ef.private_credit_peso_ars",
+      "kind": "indicator",
+      "slug": "private-sector-credit-in-pesos",
+      "title": "Private-sector credit in pesos",
+      "href": "/indicators/private-sector-credit-in-pesos"
+    },
+    {
+      "id": "ci.ef.private_deposits_peso_ars",
+      "kind": "indicator",
+      "slug": "private-sector-deposits-in-pesos",
+      "title": "Private-sector deposits in pesos",
+      "href": "/indicators/private-sector-deposits-in-pesos"
+    },
+    {
+      "id": "ci.ef.private_credit_fx_ars_equivalent",
+      "kind": "indicator",
+      "slug": "private-sector-foreign-currency-credit-ars-equivalent",
+      "title": "Private-sector foreign-currency credit, ARS equivalent",
+      "href": "/indicators/private-sector-foreign-currency-credit-ars-equivalent"
+    },
+    {
+      "id": "ci.ef.private_deposits_fx_ars_equivalent",
+      "kind": "indicator",
+      "slug": "private-sector-foreign-currency-deposits-ars-equivalent",
+      "title": "Private-sector foreign-currency deposits, ARS equivalent",
+      "href": "/indicators/private-sector-foreign-currency-deposits-ars-equivalent"
+    },
+    {
+      "id": "ci.ef.public_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "public-and-provincial-fx-issuance",
+      "title": "Public and provincial FX issuance",
+      "href": "/indicators/public-and-provincial-fx-issuance"
+    },
+    {
+      "id": "ci.ef.public_fx_debt_service_12m",
+      "kind": "indicator",
+      "slug": "public-sector-fx-debt-service-next-12-months",
+      "title": "Public-sector FX debt service next 12 months",
+      "href": "/indicators/public-sector-fx-debt-service-next-12-months"
+    },
+    {
+      "id": "ci.ns.reer_index",
+      "kind": "indicator",
+      "slug": "real-effective-exchange-rate-index",
+      "title": "Real effective exchange-rate index",
+      "href": "/indicators/real-effective-exchange-rate-index"
+    },
+    {
+      "id": "ci.ns.monetary_base_real",
+      "kind": "indicator",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/indicators/real-monetary-base"
+    },
+    {
+      "id": "ci.ns.transactional_m2_real",
+      "kind": "indicator",
+      "slug": "real-private-transactional-m2",
+      "title": "Real private transactional M2",
+      "href": "/indicators/real-private-transactional-m2"
+    },
+    {
+      "id": "ci.ef.real_private_credit_growth",
+      "kind": "indicator",
+      "slug": "real-private-sector-credit-growth",
+      "title": "Real private-sector credit growth",
+      "href": "/indicators/real-private-sector-credit-growth"
+    },
+    {
+      "id": "ci.ns.reer_change_dec2023",
+      "kind": "indicator",
+      "slug": "reer-change-since-dec-2023",
+      "title": "REER change since Dec-2023",
+      "href": "/indicators/reer-change-since-dec-2023"
+    },
+    {
+      "id": "ci.ns.regulated_inflation_contribution",
+      "kind": "indicator",
+      "slug": "regulated-price-contribution-to-monthly-inflation",
+      "title": "Regulated-price contribution to monthly inflation",
+      "href": "/indicators/regulated-price-contribution-to-monthly-inflation"
+    },
+    {
+      "id": "ci.ef.import_cover_months",
+      "kind": "indicator",
+      "slug": "reserve-import-coverage",
+      "title": "Reserve import coverage",
+      "href": "/indicators/reserve-import-coverage"
+    },
+    {
+      "id": "ci.ef.reserve_to_fx_service_ratio",
+      "kind": "indicator",
+      "slug": "reserves-relative-to-next-12m-fx-debt-service",
+      "title": "Reserves relative to next-12m FX debt service",
+      "href": "/indicators/reserves-relative-to-next-12m-fx-debt-service"
+    },
+    {
+      "id": "ci.ef.assets_outside_system_gdp",
+      "kind": "indicator",
+      "slug": "resident-financial-assets-outside-the-domestic-financial-system",
+      "title": "Resident financial assets outside the domestic financial system",
+      "href": "/indicators/resident-financial-assets-outside-the-domestic-financial-system"
+    },
+    {
+      "id": "ci.ef.services_balance_usd",
+      "kind": "indicator",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/indicators/services-balance"
+    },
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate"
+    },
+    {
+      "id": "ci.ef.sovereign_spread_bps",
+      "kind": "indicator",
+      "slug": "sovereign-spread",
+      "title": "Sovereign spread",
+      "href": "/indicators/sovereign-spread"
+    },
+    {
+      "id": "ci.ns.tamar_real_exante",
+      "kind": "indicator",
+      "slug": "tamar-ex-ante-real-rate",
+      "title": "TAMAR ex-ante real rate",
+      "href": "/indicators/tamar-ex-ante-real-rate"
+    },
+    {
+      "id": "ci.ns.tamar_real_expost",
+      "kind": "indicator",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/indicators/tamar-ex-post-real-rate"
+    },
+    {
+      "id": "ci.ns.tamar_nominal",
+      "kind": "indicator",
+      "slug": "tamar-nominal-rate",
+      "title": "TAMAR nominal rate",
+      "href": "/indicators/tamar-nominal-rate"
+    },
+    {
+      "id": "ci.ef.external_debt_usd",
+      "kind": "indicator",
+      "slug": "total-external-debt",
+      "title": "Total external debt",
+      "href": "/indicators/total-external-debt"
+    },
+    {
+      "id": "ci.ef.private_credit_total_ars",
+      "kind": "indicator",
+      "slug": "total-private-sector-credit-ars-equivalent",
+      "title": "Total private-sector credit, ARS equivalent",
+      "href": "/indicators/total-private-sector-credit-ars-equivalent"
+    },
+    {
+      "id": "ci.ef.private_deposits_total_ars",
+      "kind": "indicator",
+      "slug": "total-private-sector-deposits-ars-equivalent",
+      "title": "Total private-sector deposits, ARS equivalent",
+      "href": "/indicators/total-private-sector-deposits-ars-equivalent"
+    },
+    {
+      "id": "ci.ns.transactional_m2_projection_gap",
+      "kind": "indicator",
+      "slug": "transactional-m2-gap-vs-bcra-projection",
+      "title": "Transactional M2 gap vs BCRA projection",
+      "href": "/indicators/transactional-m2-gap-vs-bcra-projection"
+    },
+    {
+      "id": "ci.ns.m2_to_gdp",
+      "kind": "indicator",
+      "slug": "transactional-m2-to-gdp",
+      "title": "Transactional M2 to GDP",
+      "href": "/indicators/transactional-m2-to-gdp"
+    },
+    {
+      "id": "ci.ns.trimmed_cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-cpi-3-month-annualized",
+      "title": "Trimmed CPI, 3-month annualized",
+      "href": "/indicators/trimmed-cpi-3-month-annualized"
+    },
+    {
+      "id": "ci.ns.trimmed_goods_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-goods-inflation-3-month-annualized",
+      "title": "Trimmed goods inflation, 3-month annualized",
+      "href": "/indicators/trimmed-goods-inflation-3-month-annualized"
+    },
+    {
+      "id": "ci.ns.trimmed_services_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-services-inflation-3-month-annualized",
+      "title": "Trimmed services inflation, 3-month annualized",
+      "href": "/indicators/trimmed-services-inflation-3-month-annualized"
+    },
+    {
+      "id": "pi.ns60",
+      "kind": "chart",
+      "slug": "baibar-interbank-rate",
+      "title": "BAIBAR interbank rate",
+      "href": "/charts/baibar-interbank-rate"
+    },
+    {
+      "id": "pi.ns23",
+      "kind": "chart",
+      "slug": "bcra-daily-fx-purchases",
+      "title": "BCRA daily FX purchases",
+      "href": "/charts/bcra-daily-fx-purchases"
+    },
+    {
+      "id": "pi.ns25",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-official-exchange-rate",
+      "title": "BCRA purchases vs official exchange rate",
+      "href": "/charts/bcra-purchases-vs-official-exchange-rate"
+    },
+    {
+      "id": "pi.ns57",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan 2026",
+      "href": "/charts/cumulative-bcra-fx-purchases-since-jan-2026"
+    },
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023"
+    },
+    {
+      "id": "pi.ef50",
+      "kind": "chart",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/charts/foreign-currency-deposits"
+    },
+    {
+      "id": "pi.ef53",
+      "kind": "chart",
+      "slug": "foreign-currency-shares-of-private-credit-and-deposits",
+      "title": "Foreign-currency shares of private credit and deposits",
+      "href": "/charts/foreign-currency-shares-of-private-credit-and-deposits"
+    },
+    {
+      "id": "pi.ef33",
+      "kind": "chart",
+      "slug": "fx-deposits-in-the-domestic-financial-system",
+      "title": "FX deposits in the domestic financial system",
+      "href": "/charts/fx-deposits-in-the-domestic-financial-system"
+    },
+    {
+      "id": "pi.ef45",
+      "kind": "chart",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/charts/goods-trade-balance"
+    },
+    {
+      "id": "pi.ef46",
+      "kind": "chart",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/charts/gross-international-reserves"
+    },
+    {
+      "id": "pi.ns03",
+      "kind": "chart",
+      "slug": "headline-inflation-monthly-vs-year-over-year",
+      "title": "Headline inflation: monthly vs year-over-year",
+      "href": "/charts/headline-inflation-monthly-vs-year-over-year"
+    },
+    {
+      "id": "pi.ns01",
+      "kind": "chart",
+      "slug": "inflation-momentum-monthly-and-3-month-annualized",
+      "title": "Inflation momentum: monthly and 3-month annualized",
+      "href": "/charts/inflation-momentum-monthly-and-3-month-annualized"
+    },
+    {
+      "id": "pi.ns50",
+      "kind": "chart",
+      "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
+      "title": "Inflation vs FX depreciation since stabilization start",
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start"
+    },
+    {
+      "id": "pi.ns41",
+      "kind": "chart",
+      "slug": "monetary-base-vs-transactional-m2",
+      "title": "Monetary base vs transactional M2",
+      "href": "/charts/monetary-base-vs-transactional-m2"
+    },
+    {
+      "id": "pi.ns43",
+      "kind": "chart",
+      "slug": "monetization-dashboard-base-m2-inflation",
+      "title": "Monetization dashboard: base, M2, inflation",
+      "href": "/charts/monetization-dashboard-base-m2-inflation"
+    },
+    {
+      "id": "pi.ef47",
+      "kind": "chart",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/charts/monthly-change-in-gross-reserves"
+    },
+    {
+      "id": "pi.ns53",
+      "kind": "chart",
+      "slug": "monthly-headline-inflation",
+      "title": "Monthly headline inflation",
+      "href": "/charts/monthly-headline-inflation"
+    },
+    {
+      "id": "pi.ns65",
+      "kind": "chart",
+      "slug": "monthly-inflation-and-acceleration",
+      "title": "Monthly inflation and acceleration",
+      "href": "/charts/monthly-inflation-and-acceleration"
+    },
+    {
+      "id": "pi.ns09",
+      "kind": "chart",
+      "slug": "official-fx-change-vs-monthly-inflation",
+      "title": "Official FX change vs monthly inflation",
+      "href": "/charts/official-fx-change-vs-monthly-inflation"
+    },
+    {
+      "id": "pi.ns55",
+      "kind": "chart",
+      "slug": "official-wholesale-exchange-rate",
+      "title": "Official wholesale exchange rate",
+      "href": "/charts/official-wholesale-exchange-rate"
+    },
+    {
+      "id": "pi.ns35",
+      "kind": "chart",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/charts/real-monetary-base"
+    },
+    {
+      "id": "pi.ef30",
+      "kind": "chart",
+      "slug": "real-private-credit-growth",
+      "title": "Real private-credit growth",
+      "href": "/charts/real-private-credit-growth"
+    },
+    {
+      "id": "pi.ns39",
+      "kind": "chart",
+      "slug": "remonetization-vs-inflation",
+      "title": "Remonetization vs inflation",
+      "href": "/charts/remonetization-vs-inflation"
+    },
+    {
+      "id": "pi.ef48",
+      "kind": "chart",
+      "slug": "reserve-accumulation-year-to-date",
+      "title": "Reserve accumulation year to date",
+      "href": "/charts/reserve-accumulation-year-to-date"
+    },
+    {
+      "id": "pi.ns62",
+      "kind": "chart",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/charts/tamar-ex-post-real-rate"
+    },
+    {
+      "id": "pi.ns61",
+      "kind": "chart",
+      "slug": "tamar-private-bank-rate",
+      "title": "TAMAR private-bank rate",
+      "href": "/charts/tamar-private-bank-rate"
+    },
+    {
+      "id": "pi.ns36",
+      "kind": "chart",
+      "slug": "transactional-m2-nominal-and-real",
+      "title": "Transactional M2 nominal and real",
+      "href": "/charts/transactional-m2-nominal-and-real"
+    }
+  ],
+  "entities": [
+    {
+      "id": "external_financial_constraint",
+      "kind": "region",
+      "slug": "external-financial-constraint",
+      "title": "External & Financial Constraint",
+      "href": "/areas/external-financial-constraint",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "populated": true
+    },
+    {
+      "id": "fiscal_regime",
+      "kind": "region",
+      "slug": "fiscal-regime",
+      "title": "Fiscal Regime",
+      "href": "/areas/fiscal-regime",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "populated": false
+    },
+    {
+      "id": "household_welfare",
+      "kind": "region",
+      "slug": "household-welfare",
+      "title": "Household Welfare",
+      "href": "/areas/household-welfare",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "populated": false
+    },
+    {
+      "id": "labor_incomes",
+      "kind": "region",
+      "slug": "labor-incomes",
+      "title": "Labor & Incomes",
+      "href": "/areas/labor-incomes",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "populated": false
+    },
+    {
+      "id": "nominal_stabilization",
+      "kind": "region",
+      "slug": "nominal-stabilization",
+      "title": "Nominal Stabilization",
+      "href": "/areas/nominal-stabilization",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "populated": true
+    },
+    {
+      "id": "real_economy",
+      "kind": "region",
+      "slug": "real-economy",
+      "title": "Real Economy",
+      "href": "/areas/real-economy",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "populated": false
+    },
+    {
+      "id": "ns.aggregate_demand_pressure",
+      "kind": "topic",
+      "slug": "aggregate-demand-pressure",
+      "title": "Aggregate-demand pressure",
+      "href": "/topics/aggregate-demand-pressure",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.bcra_fx_operations",
+      "kind": "topic",
+      "slug": "bcra-fx-operations",
+      "title": "BCRA FX operations",
+      "href": "/topics/bcra-fx-operations",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.capital_inflows",
+      "kind": "topic",
+      "slug": "capital-inflows",
+      "title": "Capital inflows",
+      "href": "/topics/capital-inflows",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.core_inflation",
+      "kind": "topic",
+      "slug": "core-inflation",
+      "title": "Core inflation",
+      "href": "/topics/core-inflation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.credit_quality",
+      "kind": "topic",
+      "slug": "credit-quality",
+      "title": "Credit quality",
+      "href": "/topics/credit-quality",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.current_account",
+      "kind": "topic",
+      "slug": "current-account",
+      "title": "Current account",
+      "href": "/topics/current-account",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.domestic_capital_market_depth",
+      "kind": "topic",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/topics/domestic-capital-market-depth",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.domestic_savings_mobilization",
+      "kind": "topic",
+      "slug": "domestic-savings-mobilization",
+      "title": "Domestic savings mobilization",
+      "href": "/topics/domestic-savings-mobilization",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.exchange_rate_band",
+      "kind": "topic",
+      "slug": "exchange-rate-band",
+      "title": "Exchange-rate band",
+      "href": "/topics/exchange-rate-band",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.external_position",
+      "kind": "topic",
+      "slug": "external-position",
+      "title": "External position",
+      "href": "/topics/external-position",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.external_public_debt",
+      "kind": "topic",
+      "slug": "external-public-debt",
+      "title": "External public debt",
+      "href": "/topics/external-public-debt",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.refinancing_needs",
+      "kind": "topic",
+      "slug": "external-refinancing-needs",
+      "title": "External refinancing needs",
+      "href": "/topics/external-refinancing-needs",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.external_vulnerability",
+      "kind": "topic",
+      "slug": "external-vulnerability",
+      "title": "External vulnerability",
+      "href": "/topics/external-vulnerability",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.financial_account",
+      "kind": "topic",
+      "slug": "financial-account",
+      "title": "Financial account",
+      "href": "/topics/financial-account",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.financial_depth",
+      "kind": "topic",
+      "slug": "financial-depth",
+      "title": "Financial depth",
+      "href": "/topics/financial-depth",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.foreign_direct_investment",
+      "kind": "topic",
+      "slug": "foreign-direct-investment",
+      "title": "Foreign direct investment",
+      "href": "/topics/foreign-direct-investment",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.fx_debt_service",
+      "kind": "topic",
+      "slug": "foreign-currency-debt-service",
+      "title": "Foreign-currency debt service",
+      "href": "/topics/foreign-currency-debt-service",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.fx_deposits",
+      "kind": "topic",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/topics/foreign-currency-deposits",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.fx_gap",
+      "kind": "topic",
+      "slug": "fx-gap",
+      "title": "FX gap",
+      "href": "/topics/fx-gap",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.fx_hedging_demand",
+      "kind": "topic",
+      "slug": "fx-hedging-demand",
+      "title": "FX hedging demand",
+      "href": "/topics/fx-hedging-demand",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.fx_market_issuance",
+      "kind": "topic",
+      "slug": "fx-market-issuance",
+      "title": "FX market issuance",
+      "href": "/topics/fx-market-issuance",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.fx_pass_through",
+      "kind": "topic",
+      "slug": "fx-pass-through",
+      "title": "FX pass-through",
+      "href": "/topics/fx-pass-through",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.goods_trade_balance",
+      "kind": "topic",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/topics/goods-trade-balance",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.gross_reserves",
+      "kind": "topic",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/topics/gross-international-reserves",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.headline_inflation",
+      "kind": "topic",
+      "slug": "headline-inflation",
+      "title": "Headline inflation",
+      "href": "/topics/headline-inflation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.inflation",
+      "kind": "topic",
+      "slug": "inflation",
+      "title": "Inflation",
+      "href": "/topics/inflation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.inflation_expectations",
+      "kind": "topic",
+      "slug": "inflation-expectations",
+      "title": "Inflation expectations",
+      "href": "/topics/inflation-expectations",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.inflation_inertia",
+      "kind": "topic",
+      "slug": "inflation-inertia",
+      "title": "Inflation inertia",
+      "href": "/topics/inflation-inertia",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.market_access",
+      "kind": "topic",
+      "slug": "international-market-access",
+      "title": "International market access",
+      "href": "/topics/international-market-access",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.liquid_reserve_buffers",
+      "kind": "topic",
+      "slug": "liquid-reserve-buffers",
+      "title": "Liquid reserve buffers",
+      "href": "/topics/liquid-reserve-buffers",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.monetary_base",
+      "kind": "topic",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/topics/monetary-base",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.monetary_targeting_framework",
+      "kind": "topic",
+      "slug": "monetary-targeting-framework",
+      "title": "Monetary targeting framework",
+      "href": "/topics/monetary-targeting-framework",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.money_demand",
+      "kind": "topic",
+      "slug": "money-demand",
+      "title": "Money demand",
+      "href": "/topics/money-demand",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.money_market_rate",
+      "kind": "topic",
+      "slug": "money-market-rate",
+      "title": "Money-market rate",
+      "href": "/topics/money-market-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.net_international_reserves",
+      "kind": "topic",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/topics/net-international-reserves",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.nominal_exchange_rate",
+      "kind": "topic",
+      "slug": "nominal-exchange-rate",
+      "title": "Nominal exchange rate",
+      "href": "/topics/nominal-exchange-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.official_external_financing",
+      "kind": "topic",
+      "slug": "official-external-financing",
+      "title": "Official external financing",
+      "href": "/topics/official-external-financing",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.parallel_exchange_rate",
+      "kind": "topic",
+      "slug": "parallel-exchange-rate",
+      "title": "Parallel exchange rate",
+      "href": "/topics/parallel-exchange-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.policy_credibility",
+      "kind": "topic",
+      "slug": "policy-credibility",
+      "title": "Policy credibility",
+      "href": "/topics/policy-credibility",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.policy_rate",
+      "kind": "topic",
+      "slug": "policy-interest-rate",
+      "title": "Policy interest rate",
+      "href": "/topics/policy-interest-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.primary_income_balance",
+      "kind": "topic",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/topics/primary-income-balance",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.private_credit",
+      "kind": "topic",
+      "slug": "private-sector-credit",
+      "title": "Private-sector credit",
+      "href": "/topics/private-sector-credit",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.real_exchange_rate",
+      "kind": "topic",
+      "slug": "real-exchange-rate",
+      "title": "Real exchange rate",
+      "href": "/topics/real-exchange-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.real_interest_rate",
+      "kind": "topic",
+      "slug": "real-interest-rate",
+      "title": "Real interest rate",
+      "href": "/topics/real-interest-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.relative_price_adjustment",
+      "kind": "topic",
+      "slug": "relative-price-adjustment",
+      "title": "Relative-price adjustment",
+      "href": "/topics/relative-price-adjustment",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.remonetization",
+      "kind": "topic",
+      "slug": "remonetization",
+      "title": "Remonetization",
+      "href": "/topics/remonetization",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.reserve_accumulation",
+      "kind": "topic",
+      "slug": "reserve-accumulation",
+      "title": "Reserve accumulation",
+      "href": "/topics/reserve-accumulation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.reserve_adequacy",
+      "kind": "topic",
+      "slug": "reserve-adequacy",
+      "title": "Reserve adequacy",
+      "href": "/topics/reserve-adequacy",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.reserve_requirements",
+      "kind": "topic",
+      "slug": "reserve-requirements",
+      "title": "Reserve requirements",
+      "href": "/topics/reserve-requirements",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.resident_fx_hedging",
+      "kind": "topic",
+      "slug": "resident-fx-hedging-and-dollarization-pressure",
+      "title": "Resident FX hedging and dollarization pressure",
+      "href": "/topics/resident-fx-hedging-and-dollarization-pressure",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.services_balance",
+      "kind": "topic",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/topics/services-balance",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.sovereign_risk",
+      "kind": "topic",
+      "slug": "sovereign-risk",
+      "title": "Sovereign risk",
+      "href": "/topics/sovereign-risk",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.sovereign_spreads",
+      "kind": "topic",
+      "slug": "sovereign-spreads",
+      "title": "Sovereign spreads",
+      "href": "/topics/sovereign-spreads",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ef.swap_repo_financing",
+      "kind": "topic",
+      "slug": "swap-and-repo-financing",
+      "title": "Swap and repo financing",
+      "href": "/topics/swap-and-repo-financing",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ns.transactional_m2",
+      "kind": "topic",
+      "slug": "transactional-m2",
+      "title": "Transactional M2",
+      "href": "/topics/transactional-m2",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "q.ef20",
+      "kind": "question",
+      "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
+      "title": "Are BCRA FX purchases strengthening the external position?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ef06",
+      "kind": "question",
+      "slug": "are-capital-inflows-durable",
+      "title": "Are capital inflows durable?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ns06",
+      "kind": "question",
+      "slug": "are-inflation-expectations-leading-lagging-or-validating-realized-inflation",
+      "title": "Are inflation expectations leading, lagging, or validating realized inflation?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ns12",
+      "kind": "question",
+      "slug": "are-interest-rates-restrictive-in-real-terms",
+      "title": "Are interest rates restrictive in real terms?",
+      "href": "/questions/are-interest-rates-restrictive-in-real-terms",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ef02",
+      "kind": "question",
+      "slug": "are-reserves-rebuilding-fast-enough",
+      "title": "Are reserves rebuilding fast enough?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ef18",
+      "kind": "question",
+      "slug": "could-resident-savings-relax-the-external-constraint",
+      "title": "Could resident savings relax the external constraint?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ef07",
+      "kind": "question",
+      "slug": "has-fx-hedging-pressure-normalized",
+      "title": "Has FX hedging pressure normalized?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ns13",
+      "kind": "question",
+      "slug": "has-short-term-interest-rate-volatility-normalized",
+      "title": "Has short-term interest-rate volatility normalized?",
+      "href": "/questions/has-short-term-interest-rate-volatility-normalized",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ns02",
+      "kind": "question",
+      "slug": "has-the-disinflation-process-stalled-or-resumed",
+      "title": "Has the disinflation process stalled or resumed?",
+      "href": "/questions/has-the-disinflation-process-stalled-or-resumed",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ns11",
+      "kind": "question",
+      "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "title": "How are BCRA FX purchases interacting with the exchange rate and monetary conditions?",
+      "href": "/questions/how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ef19",
+      "kind": "question",
+      "slug": "how-does-real-appreciation-interact-with-the-external-balance",
+      "title": "How does real appreciation interact with the external balance?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ns01",
+      "kind": "question",
+      "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "title": "How fast is inflation running now, and is it accelerating or decelerating?",
+      "href": "/questions/how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ns09",
+      "kind": "question",
+      "slug": "how-large-is-the-gap-between-official-and-parallel-exchange-rates",
+      "title": "How large is the gap between official and parallel exchange rates?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ef10",
+      "kind": "question",
+      "slug": "how-large-is-the-near-term-fx-maturity-wall",
+      "title": "How large is the near-term FX maturity wall?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ns05",
+      "kind": "question",
+      "slug": "how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "title": "How much do exchange-rate movements pass through to domestic prices?",
+      "href": "/questions/how-much-do-exchange-rate-movements-pass-through-to-domestic-prices",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ef11",
+      "kind": "question",
+      "slug": "how-much-does-the-strategy-rely-on-swaps-and-repos",
+      "title": "How much does the strategy rely on swaps and repos?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ns10",
+      "kind": "question",
+      "slug": "how-much-has-the-peso-appreciated-or-depreciated-in-real-terms",
+      "title": "How much has the peso appreciated or depreciated in real terms?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ef17",
+      "kind": "question",
+      "slug": "how-shallow-is-argentina-s-financial-system",
+      "title": "How shallow is Argentina's financial system?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ef01",
+      "kind": "question",
+      "slug": "how-strong-is-argentina-s-reserve-position",
+      "title": "How strong is Argentina's reserve position?",
+      "href": "/questions/how-strong-is-argentina-s-reserve-position",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ns14",
+      "kind": "question",
+      "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
+      "title": "How tight are bank reserve requirements and liquidity conditions?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ef08",
+      "kind": "question",
+      "slug": "is-argentina-regaining-durable-market-access",
+      "title": "Is Argentina regaining durable market access?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ef15",
+      "kind": "question",
+      "slug": "is-credit-quality-deteriorating-as-lending-expands",
+      "title": "Is credit quality deteriorating as lending expands?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ns03",
+      "kind": "question",
+      "slug": "is-disinflation-broad-based-across-underlying-inflation-measures",
+      "title": "Is disinflation broad-based across underlying inflation measures?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ns15",
+      "kind": "question",
+      "slug": "is-domestic-money-demand-recovering",
+      "title": "Is domestic money demand recovering?",
+      "href": "/questions/is-domestic-money-demand-recovering",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ef12",
+      "kind": "question",
+      "slug": "is-market-financing-broadening-beyond-the-sovereign",
+      "title": "Is market financing broadening beyond the sovereign?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ns17",
+      "kind": "question",
+      "slug": "is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "title": "Is monetary-base growth consistent with the monetary-targeting framework?",
+      "href": "/questions/is-monetary-base-growth-consistent-with-the-monetary-targeting-framework",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ef14",
+      "kind": "question",
+      "slug": "is-private-credit-genuinely-deepening",
+      "title": "Is private credit genuinely deepening?",
+      "href": "/questions/is-private-credit-genuinely-deepening",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ns16",
+      "kind": "question",
+      "slug": "is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "title": "Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?",
+      "href": "/questions/is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ns18",
+      "kind": "question",
+      "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ef04",
+      "kind": "question",
+      "slug": "is-the-current-account-improving",
+      "title": "Is the current account improving?",
+      "href": "/questions/is-the-current-account-improving",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ef13",
+      "kind": "question",
+      "slug": "is-the-external-debt-burden-becoming-easier-to-service",
+      "title": "Is the external debt burden becoming easier to service?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ef16",
+      "kind": "question",
+      "slug": "what-does-the-rise-in-dollar-deposits-mean",
+      "title": "What does the rise in dollar deposits mean?",
+      "href": "/questions/what-does-the-rise-in-dollar-deposits-mean",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ns07",
+      "kind": "question",
+      "slug": "what-inflation-path-does-the-market-expect-over-the-next-months-and-year-end",
+      "title": "What inflation path does the market expect over the next months and year-end?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ef03",
+      "kind": "question",
+      "slug": "what-is-driving-changes-in-reserves",
+      "title": "What is driving changes in reserves?",
+      "href": "/questions/what-is-driving-changes-in-reserves",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ns04",
+      "kind": "question",
+      "slug": "what-is-driving-monthly-inflation",
+      "title": "What is driving monthly inflation?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ef05",
+      "kind": "question",
+      "slug": "what-offsets-argentina-s-goods-surplus",
+      "title": "What offsets Argentina's goods surplus?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.ns08",
+      "kind": "question",
+      "slug": "where-is-the-official-exchange-rate-inside-the-policy-band",
+      "title": "Where is the official exchange rate inside the policy band?",
+      "href": "/questions/where-is-the-official-exchange-rate-inside-the-policy-band",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.ef09",
+      "kind": "question",
+      "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
+      "title": "Why can reserves rise while sovereign risk stays high?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "ci.ef.bank_liquidity_ratio",
+      "kind": "indicator",
+      "slug": "bank-liquid-assets-ratio",
+      "title": "Bank liquid-assets ratio",
+      "href": "/indicators/bank-liquid-assets-ratio",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.bank_capital_ratio",
+      "kind": "indicator",
+      "slug": "bank-regulatory-capital-ratio",
+      "title": "Bank regulatory capital ratio",
+      "href": "/indicators/bank-regulatory-capital-ratio",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.reserve_requirement_ratio",
+      "kind": "indicator",
+      "slug": "bank-reserve-requirement-ratio",
+      "title": "Bank reserve requirement ratio",
+      "href": "/indicators/bank-reserve-requirement-ratio",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.bcra_fx_purchases_daily",
+      "kind": "indicator",
+      "slug": "bcra-net-fx-purchases",
+      "title": "BCRA net FX purchases",
+      "href": "/indicators/bcra-net-fx-purchases",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.bcra_peso_deposits",
+      "kind": "indicator",
+      "slug": "bcra-peso-deposits-reserve-balances",
+      "title": "BCRA peso deposits / reserve balances",
+      "href": "/indicators/bcra-peso-deposits-reserve-balances",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.blue_fx",
+      "kind": "indicator",
+      "slug": "blue-exchange-rate",
+      "title": "Blue exchange rate",
+      "href": "/indicators/blue-exchange-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.fx_gap_blue",
+      "kind": "indicator",
+      "slug": "blue-official-fx-gap",
+      "title": "Blue-official FX gap",
+      "href": "/indicators/blue-official-fx-gap",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.ccl_fx",
+      "kind": "indicator",
+      "slug": "ccl-exchange-rate",
+      "title": "CCL exchange rate",
+      "href": "/indicators/ccl-exchange-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.fx_gap_ccl",
+      "kind": "indicator",
+      "slug": "ccl-official-fx-gap",
+      "title": "CCL-official FX gap",
+      "href": "/indicators/ccl-official-fx-gap",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.swap_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-external-swap-liabilities",
+      "title": "Central-bank external swap liabilities",
+      "href": "/indicators/central-bank-external-swap-liabilities",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.repo_liabilities_usd",
+      "kind": "indicator",
+      "slug": "central-bank-repo-liabilities",
+      "title": "Central-bank repo liabilities",
+      "href": "/indicators/central-bank-repo-liabilities",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.core_monthly",
+      "kind": "indicator",
+      "slug": "core-cpi-inflation-monthly",
+      "title": "Core CPI inflation, monthly",
+      "href": "/indicators/core-cpi-inflation-monthly",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.core_3m_ann",
+      "kind": "indicator",
+      "slug": "core-cpi-3-month-annualized",
+      "title": "Core CPI, 3-month annualized",
+      "href": "/indicators/core-cpi-3-month-annualized",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.corporate_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "corporate-fx-issuance",
+      "title": "Corporate FX issuance",
+      "href": "/indicators/corporate-fx-issuance",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.corporate_spread_bps",
+      "kind": "indicator",
+      "slug": "corporate-spread",
+      "title": "Corporate spread",
+      "href": "/indicators/corporate-spread",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.bcra_fx_purchases_cumulative",
+      "kind": "indicator",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan-2026",
+      "href": "/indicators/cumulative-bcra-fx-purchases-since-jan-2026",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.reserve_accumulation_ytd",
+      "kind": "indicator",
+      "slug": "cumulative-reserve-accumulation-ytd",
+      "title": "Cumulative reserve accumulation YTD",
+      "href": "/indicators/cumulative-reserve-accumulation-ytd",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.current_account_usd",
+      "kind": "indicator",
+      "slug": "current-account-balance",
+      "title": "Current account balance",
+      "href": "/indicators/current-account-balance",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.current_account_gdp",
+      "kind": "indicator",
+      "slug": "current-account-balance-as-share-of-gdp",
+      "title": "Current account balance as share of GDP",
+      "href": "/indicators/current-account-balance-as-share-of-gdp",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.domestic_market_depth_gdp",
+      "kind": "indicator",
+      "slug": "domestic-capital-market-depth",
+      "title": "Domestic capital-market depth",
+      "href": "/indicators/domestic-capital-market-depth",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.fx_forward_eoy",
+      "kind": "indicator",
+      "slug": "end-of-year-fx-forward-implied-rate",
+      "title": "End-of-year FX forward/implied rate",
+      "href": "/indicators/end-of-year-fx-forward-implied-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.infl_exp_eop",
+      "kind": "indicator",
+      "slug": "expected-end-of-year-inflation",
+      "title": "Expected end-of-year inflation",
+      "href": "/indicators/expected-end-of-year-inflation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.infl_exp_1m",
+      "kind": "indicator",
+      "slug": "expected-inflation-next-month",
+      "title": "Expected inflation next month",
+      "href": "/indicators/expected-inflation-next-month",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.infl_exp_3m",
+      "kind": "indicator",
+      "slug": "expected-inflation-three-months-ahead",
+      "title": "Expected inflation three months ahead",
+      "href": "/indicators/expected-inflation-three-months-ahead",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.external_debt_gdp",
+      "kind": "indicator",
+      "slug": "external-debt-as-share-of-gdp",
+      "title": "External debt as share of GDP",
+      "href": "/indicators/external-debt-as-share-of-gdp",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.financial_account_usd",
+      "kind": "indicator",
+      "slug": "financial-account-balance",
+      "title": "Financial account balance",
+      "href": "/indicators/financial-account-balance",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.food_inflation_contribution",
+      "kind": "indicator",
+      "slug": "food-contribution-to-monthly-inflation",
+      "title": "Food contribution to monthly inflation",
+      "href": "/indicators/food-contribution-to-monthly-inflation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.fx_deposit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposit-share",
+      "title": "Foreign-currency deposit share",
+      "href": "/indicators/foreign-currency-deposit-share",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.fx_deposits_usd",
+      "kind": "indicator",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/indicators/foreign-currency-deposits",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.fx_credit_share",
+      "kind": "indicator",
+      "slug": "foreign-currency-share-of-private-sector-credit",
+      "title": "Foreign-currency share of private-sector credit",
+      "href": "/indicators/foreign-currency-share-of-private-sector-credit",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.fx_band_lower",
+      "kind": "indicator",
+      "slug": "fx-band-lower-bound",
+      "title": "FX-band lower bound",
+      "href": "/indicators/fx-band-lower-bound",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.fx_band_upper",
+      "kind": "indicator",
+      "slug": "fx-band-upper-bound",
+      "title": "FX-band upper bound",
+      "href": "/indicators/fx-band-upper-bound",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.goods_balance_usd",
+      "kind": "indicator",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/indicators/goods-trade-balance",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.capital_inflows_usd",
+      "kind": "indicator",
+      "slug": "gross-identified-capital-inflows",
+      "title": "Gross identified capital inflows",
+      "href": "/indicators/gross-identified-capital-inflows",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.gross_reserves_usd",
+      "kind": "indicator",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/indicators/gross-international-reserves",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.cpi_yoy",
+      "kind": "indicator",
+      "slug": "headline-cpi-inflation-year-over-year",
+      "title": "Headline CPI inflation, year-over-year",
+      "href": "/indicators/headline-cpi-inflation-year-over-year",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "headline-cpi-3-month-annualized",
+      "title": "Headline CPI, 3-month annualized",
+      "href": "/indicators/headline-cpi-3-month-annualized",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.imf_obligations_12m",
+      "kind": "indicator",
+      "slug": "imf-obligations-next-12-months",
+      "title": "IMF obligations next 12 months",
+      "href": "/indicators/imf-obligations-next-12-months",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.infl_surprise",
+      "kind": "indicator",
+      "slug": "inflation-surprise-vs-prior-expectation",
+      "title": "Inflation surprise vs prior expectation",
+      "href": "/indicators/inflation-surprise-vs-prior-expectation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.liquid_reserve_buffer_usd",
+      "kind": "indicator",
+      "slug": "liquid-reserve-buffer",
+      "title": "Liquid reserve buffer",
+      "href": "/indicators/liquid-reserve-buffer",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.market_fx_redemptions_12m",
+      "kind": "indicator",
+      "slug": "market-fx-redemptions-next-12-months",
+      "title": "Market FX redemptions next 12 months",
+      "href": "/indicators/market-fx-redemptions-next-12-months",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.monetary_base_nominal",
+      "kind": "indicator",
+      "slug": "monetary-base",
+      "title": "Monetary base",
+      "href": "/indicators/monetary-base",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.reserve_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/indicators/monthly-change-in-gross-reserves",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.nir_change_monthly",
+      "kind": "indicator",
+      "slug": "monthly-change-in-nir",
+      "title": "Monthly change in NIR",
+      "href": "/indicators/monthly-change-in-nir",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.cpi_monthly",
+      "kind": "indicator",
+      "slug": "monthly-headline-cpi-inflation",
+      "title": "Monthly headline CPI inflation",
+      "href": "/indicators/monthly-headline-cpi-inflation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.infl_acceleration",
+      "kind": "indicator",
+      "slug": "monthly-inflation-acceleration",
+      "title": "Monthly inflation acceleration",
+      "href": "/indicators/monthly-inflation-acceleration",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.fdi_net_usd",
+      "kind": "indicator",
+      "slug": "net-foreign-direct-investment-flows",
+      "title": "Net foreign direct investment flows",
+      "href": "/indicators/net-foreign-direct-investment-flows",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.nir_usd",
+      "kind": "indicator",
+      "slug": "net-international-reserves",
+      "title": "Net international reserves",
+      "href": "/indicators/net-international-reserves",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.private_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-private-financial-flows",
+      "title": "Net private financial flows",
+      "href": "/indicators/net-private-financial-flows",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.public_financial_flows_usd",
+      "kind": "indicator",
+      "slug": "net-public-sector-financial-flows",
+      "title": "Net public-sector financial flows",
+      "href": "/indicators/net-public-sector-financial-flows",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.nir_to_gross_ratio",
+      "kind": "indicator",
+      "slug": "nir-to-gross-reserves-ratio",
+      "title": "NIR-to-gross-reserves ratio",
+      "href": "/indicators/nir-to-gross-reserves-ratio",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.policy_rate_nominal",
+      "kind": "indicator",
+      "slug": "nominal-policy-relevant-rate",
+      "title": "Nominal policy-relevant rate",
+      "href": "/indicators/nominal-policy-relevant-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.npl_ratio",
+      "kind": "indicator",
+      "slug": "non-performing-loans-ratio",
+      "title": "Non-performing loans ratio",
+      "href": "/indicators/non-performing-loans-ratio",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.official_fx",
+      "kind": "indicator",
+      "slug": "official-ars-usd-exchange-rate",
+      "title": "Official ARS/USD exchange rate",
+      "href": "/indicators/official-ars-usd-exchange-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.official_external_financing_usd",
+      "kind": "indicator",
+      "slug": "official-external-financing-flows",
+      "title": "Official external financing flows",
+      "href": "/indicators/official-external-financing-flows",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.official_fx_monthly_change",
+      "kind": "indicator",
+      "slug": "official-fx-monthly-change",
+      "title": "Official FX monthly change",
+      "href": "/indicators/official-fx-monthly-change",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.fx_band_position",
+      "kind": "indicator",
+      "slug": "official-fx-position-within-band",
+      "title": "Official FX position within band",
+      "href": "/indicators/official-fx-position-within-band",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.fx_forward_1m",
+      "kind": "indicator",
+      "slug": "one-month-fx-forward-implied-rate",
+      "title": "One-month FX forward/implied rate",
+      "href": "/indicators/one-month-fx-forward-implied-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.primary_income_balance_usd",
+      "kind": "indicator",
+      "slug": "primary-income-balance",
+      "title": "Primary income balance",
+      "href": "/indicators/primary-income-balance",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.transactional_m2_nominal",
+      "kind": "indicator",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/indicators/private-transactional-m2",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.private_credit_gdp",
+      "kind": "indicator",
+      "slug": "private-sector-credit-as-share-of-gdp",
+      "title": "Private-sector credit as share of GDP",
+      "href": "/indicators/private-sector-credit-as-share-of-gdp",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.private_credit_peso_ars",
+      "kind": "indicator",
+      "slug": "private-sector-credit-in-pesos",
+      "title": "Private-sector credit in pesos",
+      "href": "/indicators/private-sector-credit-in-pesos",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.private_deposits_peso_ars",
+      "kind": "indicator",
+      "slug": "private-sector-deposits-in-pesos",
+      "title": "Private-sector deposits in pesos",
+      "href": "/indicators/private-sector-deposits-in-pesos",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.private_credit_fx_ars_equivalent",
+      "kind": "indicator",
+      "slug": "private-sector-foreign-currency-credit-ars-equivalent",
+      "title": "Private-sector foreign-currency credit, ARS equivalent",
+      "href": "/indicators/private-sector-foreign-currency-credit-ars-equivalent",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.private_deposits_fx_ars_equivalent",
+      "kind": "indicator",
+      "slug": "private-sector-foreign-currency-deposits-ars-equivalent",
+      "title": "Private-sector foreign-currency deposits, ARS equivalent",
+      "href": "/indicators/private-sector-foreign-currency-deposits-ars-equivalent",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.public_fx_issuance_usd",
+      "kind": "indicator",
+      "slug": "public-and-provincial-fx-issuance",
+      "title": "Public and provincial FX issuance",
+      "href": "/indicators/public-and-provincial-fx-issuance",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.public_fx_debt_service_12m",
+      "kind": "indicator",
+      "slug": "public-sector-fx-debt-service-next-12-months",
+      "title": "Public-sector FX debt service next 12 months",
+      "href": "/indicators/public-sector-fx-debt-service-next-12-months",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.reer_index",
+      "kind": "indicator",
+      "slug": "real-effective-exchange-rate-index",
+      "title": "Real effective exchange-rate index",
+      "href": "/indicators/real-effective-exchange-rate-index",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.monetary_base_real",
+      "kind": "indicator",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/indicators/real-monetary-base",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.transactional_m2_real",
+      "kind": "indicator",
+      "slug": "real-private-transactional-m2",
+      "title": "Real private transactional M2",
+      "href": "/indicators/real-private-transactional-m2",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.real_private_credit_growth",
+      "kind": "indicator",
+      "slug": "real-private-sector-credit-growth",
+      "title": "Real private-sector credit growth",
+      "href": "/indicators/real-private-sector-credit-growth",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.reer_change_dec2023",
+      "kind": "indicator",
+      "slug": "reer-change-since-dec-2023",
+      "title": "REER change since Dec-2023",
+      "href": "/indicators/reer-change-since-dec-2023",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.regulated_inflation_contribution",
+      "kind": "indicator",
+      "slug": "regulated-price-contribution-to-monthly-inflation",
+      "title": "Regulated-price contribution to monthly inflation",
+      "href": "/indicators/regulated-price-contribution-to-monthly-inflation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.import_cover_months",
+      "kind": "indicator",
+      "slug": "reserve-import-coverage",
+      "title": "Reserve import coverage",
+      "href": "/indicators/reserve-import-coverage",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.reserve_to_fx_service_ratio",
+      "kind": "indicator",
+      "slug": "reserves-relative-to-next-12m-fx-debt-service",
+      "title": "Reserves relative to next-12m FX debt service",
+      "href": "/indicators/reserves-relative-to-next-12m-fx-debt-service",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.assets_outside_system_gdp",
+      "kind": "indicator",
+      "slug": "resident-financial-assets-outside-the-domestic-financial-system",
+      "title": "Resident financial assets outside the domestic financial system",
+      "href": "/indicators/resident-financial-assets-outside-the-domestic-financial-system",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.services_balance_usd",
+      "kind": "indicator",
+      "slug": "services-balance",
+      "title": "Services balance",
+      "href": "/indicators/services-balance",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.money_market_rate",
+      "kind": "indicator",
+      "slug": "short-money-market-rate",
+      "title": "Short money-market rate",
+      "href": "/indicators/short-money-market-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.sovereign_spread_bps",
+      "kind": "indicator",
+      "slug": "sovereign-spread",
+      "title": "Sovereign spread",
+      "href": "/indicators/sovereign-spread",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.tamar_real_exante",
+      "kind": "indicator",
+      "slug": "tamar-ex-ante-real-rate",
+      "title": "TAMAR ex-ante real rate",
+      "href": "/indicators/tamar-ex-ante-real-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.tamar_real_expost",
+      "kind": "indicator",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/indicators/tamar-ex-post-real-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.tamar_nominal",
+      "kind": "indicator",
+      "slug": "tamar-nominal-rate",
+      "title": "TAMAR nominal rate",
+      "href": "/indicators/tamar-nominal-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.external_debt_usd",
+      "kind": "indicator",
+      "slug": "total-external-debt",
+      "title": "Total external debt",
+      "href": "/indicators/total-external-debt",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.private_credit_total_ars",
+      "kind": "indicator",
+      "slug": "total-private-sector-credit-ars-equivalent",
+      "title": "Total private-sector credit, ARS equivalent",
+      "href": "/indicators/total-private-sector-credit-ars-equivalent",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ef.private_deposits_total_ars",
+      "kind": "indicator",
+      "slug": "total-private-sector-deposits-ars-equivalent",
+      "title": "Total private-sector deposits, ARS equivalent",
+      "href": "/indicators/total-private-sector-deposits-ars-equivalent",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.transactional_m2_projection_gap",
+      "kind": "indicator",
+      "slug": "transactional-m2-gap-vs-bcra-projection",
+      "title": "Transactional M2 gap vs BCRA projection",
+      "href": "/indicators/transactional-m2-gap-vs-bcra-projection",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.m2_to_gdp",
+      "kind": "indicator",
+      "slug": "transactional-m2-to-gdp",
+      "title": "Transactional M2 to GDP",
+      "href": "/indicators/transactional-m2-to-gdp",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.trimmed_cpi_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-cpi-3-month-annualized",
+      "title": "Trimmed CPI, 3-month annualized",
+      "href": "/indicators/trimmed-cpi-3-month-annualized",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.trimmed_goods_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-goods-inflation-3-month-annualized",
+      "title": "Trimmed goods inflation, 3-month annualized",
+      "href": "/indicators/trimmed-goods-inflation-3-month-annualized",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "ci.ns.trimmed_services_3m_ann",
+      "kind": "indicator",
+      "slug": "trimmed-services-inflation-3-month-annualized",
+      "title": "Trimmed services inflation, 3-month annualized",
+      "href": "/indicators/trimmed-services-inflation-3-month-annualized",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true
+    },
+    {
+      "id": "pi.ef38",
+      "kind": "chart",
+      "slug": "assets-outside-the-financial-system-versus-private-credit",
+      "title": "Assets outside the financial system versus private credit",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns60",
+      "kind": "chart",
+      "slug": "baibar-interbank-rate",
+      "title": "BAIBAR interbank rate",
+      "href": "/charts/baibar-interbank-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ef35",
+      "kind": "chart",
+      "slug": "bank-capital-and-npls",
+      "title": "Bank capital and NPLs",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns64",
+      "kind": "chart",
+      "slug": "bank-reserve-balances-at-the-bcra",
+      "title": "Bank reserve balances at the BCRA",
+      "href": "/charts/bank-reserve-balances-at-the-bcra",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "QUARANTINE"
+    },
+    {
+      "id": "pi.ns23",
+      "kind": "chart",
+      "slug": "bcra-daily-fx-purchases",
+      "title": "BCRA daily FX purchases",
+      "href": "/charts/bcra-daily-fx-purchases",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ef49",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-gross-reserves",
+      "title": "BCRA FX purchases and gross reserves",
+      "href": "/charts/bcra-fx-purchases-and-gross-reserves",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "QUARANTINE"
+    },
+    {
+      "id": "pi.ef42",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-reserve-accumulation",
+      "title": "BCRA FX purchases and reserve accumulation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns59",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-and-the-monetary-base",
+      "title": "BCRA FX purchases and the monetary base",
+      "href": "/charts/bcra-fx-purchases-and-the-monetary-base",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "QUARANTINE"
+    },
+    {
+      "id": "pi.ef06",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-nir-accumulation",
+      "title": "BCRA FX purchases versus NIR accumulation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef43",
+      "kind": "chart",
+      "slug": "bcra-fx-purchases-versus-sovereign-spreads",
+      "title": "BCRA FX purchases versus sovereign spreads",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns63",
+      "kind": "chart",
+      "slug": "bcra-policy-rate-history",
+      "title": "BCRA policy rate history",
+      "href": "/charts/bcra-policy-rate-history",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "HISTORICAL"
+    },
+    {
+      "id": "pi.ns26",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-monetary-base-growth",
+      "title": "BCRA purchases vs monetary-base growth",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns25",
+      "kind": "chart",
+      "slug": "bcra-purchases-vs-official-exchange-rate",
+      "title": "BCRA purchases vs official exchange rate",
+      "href": "/charts/bcra-purchases-vs-official-exchange-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ef13",
+      "kind": "chart",
+      "slug": "capital-inflows-versus-current-account-financing-need",
+      "title": "Capital inflows versus current-account financing need",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns49",
+      "kind": "chart",
+      "slug": "carry-environment-real-rates-vs-fx-depreciation",
+      "title": "Carry environment: real rates vs FX depreciation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns51",
+      "kind": "chart",
+      "slug": "core-services-vs-core-goods-inflation",
+      "title": "Core services vs core goods inflation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns44",
+      "kind": "chart",
+      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
+      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns24",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases",
+      "title": "Cumulative BCRA FX purchases",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns57",
+      "kind": "chart",
+      "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
+      "title": "Cumulative BCRA FX purchases since Jan 2026",
+      "href": "/charts/cumulative-bcra-fx-purchases-since-jan-2026",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ef08",
+      "kind": "chart",
+      "slug": "current-account-balance-through-time",
+      "title": "Current-account balance through time",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef09",
+      "kind": "chart",
+      "slug": "current-account-component-decomposition",
+      "title": "Current-account component decomposition",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef23",
+      "kind": "chart",
+      "slug": "debt-service-versus-reserves",
+      "title": "Debt service versus reserves",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns04",
+      "kind": "chart",
+      "slug": "disinflation-since-december-2023",
+      "title": "Disinflation since December 2023",
+      "href": "/charts/disinflation-since-december-2023",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ef39",
+      "kind": "chart",
+      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
+      "title": "Domestic capital-market depth versus external market issuance",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns46",
+      "kind": "chart",
+      "slug": "end-of-year-fx-forward-vs-inflation-expectation",
+      "title": "End-of-year FX forward vs inflation expectation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns28",
+      "kind": "chart",
+      "slug": "ex-ante-vs-ex-post-real-rates",
+      "title": "Ex-ante vs ex-post real rates",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns13",
+      "kind": "chart",
+      "slug": "expected-inflation-path",
+      "title": "Expected inflation path",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef27",
+      "kind": "chart",
+      "slug": "external-debt-in-dollars-and-percent-of-gdp",
+      "title": "External debt in dollars and percent of GDP",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef07",
+      "kind": "chart",
+      "slug": "external-financing-and-debt-service-bridge",
+      "title": "External financing and debt-service bridge",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef44",
+      "kind": "chart",
+      "slug": "external-vulnerability-state-map",
+      "title": "External vulnerability state map",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef14",
+      "kind": "chart",
+      "slug": "fdi-versus-broader-capital-inflows",
+      "title": "FDI versus broader capital inflows",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef37",
+      "kind": "chart",
+      "slug": "financial-depth-versus-emerging-market-peers",
+      "title": "Financial depth versus emerging-market peers",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef36",
+      "kind": "chart",
+      "slug": "financial-depth-private-credit-and-domestic-markets",
+      "title": "Financial depth: private credit and domestic markets",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef12",
+      "kind": "chart",
+      "slug": "financial-account-components",
+      "title": "Financial-account components",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns07",
+      "kind": "chart",
+      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
+      "title": "Food and regulated prices as contributors to monthly inflation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef50",
+      "kind": "chart",
+      "slug": "foreign-currency-deposits",
+      "title": "Foreign-currency deposits",
+      "href": "/charts/foreign-currency-deposits",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ef53",
+      "kind": "chart",
+      "slug": "foreign-currency-shares-of-private-credit-and-deposits",
+      "title": "Foreign-currency shares of private credit and deposits",
+      "href": "/charts/foreign-currency-shares-of-private-credit-and-deposits",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ef22",
+      "kind": "chart",
+      "slug": "fx-debt-service-maturity-wall",
+      "title": "FX debt-service maturity wall",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef33",
+      "kind": "chart",
+      "slug": "fx-deposits-in-the-domestic-financial-system",
+      "title": "FX deposits in the domestic financial system",
+      "href": "/charts/fx-deposits-in-the-domestic-financial-system",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "APPROVED"
+    },
+    {
+      "id": "pi.ef34",
+      "kind": "chart",
+      "slug": "fx-deposits-versus-bank-liquidity",
+      "title": "FX deposits versus bank liquidity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns45",
+      "kind": "chart",
+      "slug": "fx-futures-vs-top-of-band",
+      "title": "FX futures vs top of band",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns19",
+      "kind": "chart",
+      "slug": "fx-gap-around-stress-episodes",
+      "title": "FX gap around stress episodes",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns47",
+      "kind": "chart",
+      "slug": "fx-gap-vs-inflation-expectations",
+      "title": "FX gap vs inflation expectations",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns18",
+      "kind": "chart",
+      "slug": "fx-gaps-ccl-and-blue",
+      "title": "FX gaps: CCL and blue",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef19",
+      "kind": "chart",
+      "slug": "fx-issuance-volumes-by-issuer-type",
+      "title": "FX issuance volumes by issuer type",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef10",
+      "kind": "chart",
+      "slug": "goods-surplus-versus-services-deficit",
+      "title": "Goods surplus versus services deficit",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef45",
+      "kind": "chart",
+      "slug": "goods-trade-balance",
+      "title": "Goods trade balance",
+      "href": "/charts/goods-trade-balance",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "APPROVED"
+    },
+    {
+      "id": "pi.ef46",
+      "kind": "chart",
+      "slug": "gross-international-reserves",
+      "title": "Gross international reserves",
+      "href": "/charts/gross-international-reserves",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ef21",
+      "kind": "chart",
+      "slug": "gross-reserves-versus-sovereign-spreads",
+      "title": "Gross reserves versus sovereign spreads",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef01",
+      "kind": "chart",
+      "slug": "gross-reserves-nir-and-liquid-buffers",
+      "title": "Gross reserves, NIR, and liquid buffers",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns03",
+      "kind": "chart",
+      "slug": "headline-inflation-monthly-vs-year-over-year",
+      "title": "Headline inflation: monthly vs year-over-year",
+      "href": "/charts/headline-inflation-monthly-vs-year-over-year",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ns05",
+      "kind": "chart",
+      "slug": "headline-vs-core-inflation",
+      "title": "Headline vs core inflation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns14",
+      "kind": "chart",
+      "slug": "inflation-expectations-fan-horizon-curve",
+      "title": "Inflation expectations fan / horizon curve",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns11",
+      "kind": "chart",
+      "slug": "inflation-expectations-vs-realized-inflation",
+      "title": "Inflation expectations vs realized inflation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns01",
+      "kind": "chart",
+      "slug": "inflation-momentum-monthly-and-3-month-annualized",
+      "title": "Inflation momentum: monthly and 3-month annualized",
+      "href": "/charts/inflation-momentum-monthly-and-3-month-annualized",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ns12",
+      "kind": "chart",
+      "slug": "inflation-surprise-through-time",
+      "title": "Inflation surprise through time",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns50",
+      "kind": "chart",
+      "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
+      "title": "Inflation vs FX depreciation since stabilization start",
+      "href": "/charts/inflation-vs-fx-depreciation-since-stabilization-start",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ns08",
+      "kind": "chart",
+      "slug": "inflation-driver-decomposition",
+      "title": "Inflation-driver decomposition",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns38",
+      "kind": "chart",
+      "slug": "m2-to-gdp-monetization-ratio",
+      "title": "M2-to-GDP monetization ratio",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef26",
+      "kind": "chart",
+      "slug": "market-issuance-cumulative-since-re-entry",
+      "title": "Market issuance cumulative since re-entry",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns58",
+      "kind": "chart",
+      "slug": "monetary-base-and-transactional-m2",
+      "title": "Monetary base and transactional M2",
+      "href": "/charts/monetary-base-and-transactional-m2",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "SUPERSEDED"
+    },
+    {
+      "id": "pi.ns41",
+      "kind": "chart",
+      "slug": "monetary-base-vs-transactional-m2",
+      "title": "Monetary base vs transactional M2",
+      "href": "/charts/monetary-base-vs-transactional-m2",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ns42",
+      "kind": "chart",
+      "slug": "monetary-base-growth-vs-money-demand-proxy",
+      "title": "Monetary-base growth vs money-demand proxy",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns43",
+      "kind": "chart",
+      "slug": "monetization-dashboard-base-m2-inflation",
+      "title": "Monetization dashboard: base, M2, inflation",
+      "href": "/charts/monetization-dashboard-base-m2-inflation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ns30",
+      "kind": "chart",
+      "slug": "money-market-rate-volatility",
+      "title": "Money-market rate volatility",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns48",
+      "kind": "chart",
+      "slug": "money-market-volatility-vs-fx-gap",
+      "title": "Money-market volatility vs FX gap",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef47",
+      "kind": "chart",
+      "slug": "monthly-change-in-gross-reserves",
+      "title": "Monthly change in gross reserves",
+      "href": "/charts/monthly-change-in-gross-reserves",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ns53",
+      "kind": "chart",
+      "slug": "monthly-headline-inflation",
+      "title": "Monthly headline inflation",
+      "href": "/charts/monthly-headline-inflation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ns65",
+      "kind": "chart",
+      "slug": "monthly-inflation-and-acceleration",
+      "title": "Monthly inflation and acceleration",
+      "href": "/charts/monthly-inflation-and-acceleration",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ns02",
+      "kind": "chart",
+      "slug": "monthly-inflation-with-acceleration-markers",
+      "title": "Monthly inflation with acceleration markers",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef05",
+      "kind": "chart",
+      "slug": "monthly-reserve-change-gross-versus-nir",
+      "title": "Monthly reserve change: gross versus NIR",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns06",
+      "kind": "chart",
+      "slug": "multiple-measures-of-core-inflation",
+      "title": "Multiple measures of core inflation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef03",
+      "kind": "chart",
+      "slug": "nir-versus-program-target-path",
+      "title": "NIR versus program target path",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns34",
+      "kind": "chart",
+      "slug": "nominal-monetary-base",
+      "title": "Nominal monetary base",
+      "href": "/charts/nominal-monetary-base",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "SUPERSEDED"
+    },
+    {
+      "id": "pi.ns27",
+      "kind": "chart",
+      "slug": "nominal-rates-vs-expected-inflation",
+      "title": "Nominal rates vs expected inflation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns21",
+      "kind": "chart",
+      "slug": "nominal-vs-real-exchange-rate-movement",
+      "title": "Nominal vs real exchange-rate movement",
+      "href": "/charts/nominal-vs-real-exchange-rate-movement",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "QUARANTINE"
+    },
+    {
+      "id": "pi.ns52",
+      "kind": "chart",
+      "slug": "nominal-stabilization-state-map",
+      "title": "Nominal-stabilization state map",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef32",
+      "kind": "chart",
+      "slug": "npl-ratio-through-the-credit-cycle",
+      "title": "NPL ratio through the credit cycle",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns15",
+      "kind": "chart",
+      "slug": "official-exchange-rate-within-the-band",
+      "title": "Official exchange rate within the band",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef24",
+      "kind": "chart",
+      "slug": "official-financing-swaps-and-repos",
+      "title": "Official financing, swaps, and repos",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns09",
+      "kind": "chart",
+      "slug": "official-fx-change-vs-monthly-inflation",
+      "title": "Official FX change vs monthly inflation",
+      "href": "/charts/official-fx-change-vs-monthly-inflation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ns55",
+      "kind": "chart",
+      "slug": "official-wholesale-exchange-rate",
+      "title": "Official wholesale exchange rate",
+      "href": "/charts/official-wholesale-exchange-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ns17",
+      "kind": "chart",
+      "slug": "official-ccl-and-blue-exchange-rates",
+      "title": "Official, CCL and blue exchange rates",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns31",
+      "kind": "chart",
+      "slug": "policy-relevant-rate-vs-money-market-rate",
+      "title": "Policy-relevant rate vs money-market rate",
+      "href": "/charts/policy-relevant-rate-vs-money-market-rate",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "HISTORICAL"
+    },
+    {
+      "id": "pi.ns16",
+      "kind": "chart",
+      "slug": "position-inside-fx-band",
+      "title": "Position inside FX band",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef11",
+      "kind": "chart",
+      "slug": "primary-income-drag-on-the-current-account",
+      "title": "Primary-income drag on the current account",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef54",
+      "kind": "chart",
+      "slug": "private-credit-and-deposits",
+      "title": "Private credit and deposits",
+      "href": "/charts/private-credit-and-deposits",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "REFERENCE"
+    },
+    {
+      "id": "pi.ef29",
+      "kind": "chart",
+      "slug": "private-credit-as-a-share-of-gdp",
+      "title": "Private credit as a share of GDP",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef51",
+      "kind": "chart",
+      "slug": "private-credit-by-currency",
+      "title": "Private credit by currency",
+      "href": "/charts/private-credit-by-currency",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "REFERENCE"
+    },
+    {
+      "id": "pi.ef52",
+      "kind": "chart",
+      "slug": "private-deposits-by-currency",
+      "title": "Private deposits by currency",
+      "href": "/charts/private-deposits-by-currency",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "REFERENCE"
+    },
+    {
+      "id": "pi.ef15",
+      "kind": "chart",
+      "slug": "private-financial-flows-around-the-2025-stress-episode",
+      "title": "Private financial flows around the 2025 stress episode",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef16",
+      "kind": "chart",
+      "slug": "private-financial-flows-versus-reserve-accumulation",
+      "title": "Private financial flows versus reserve accumulation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns56",
+      "kind": "chart",
+      "slug": "private-transactional-m2",
+      "title": "Private transactional M2",
+      "href": "/charts/private-transactional-m2",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "SUPERSEDED"
+    },
+    {
+      "id": "pi.ef31",
+      "kind": "chart",
+      "slug": "real-credit-growth-versus-npl-ratio",
+      "title": "Real credit growth versus NPL ratio",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns54",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate",
+      "title": "Real effective exchange rate",
+      "href": "/charts/real-effective-exchange-rate",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "HISTORICAL"
+    },
+    {
+      "id": "pi.ns20",
+      "kind": "chart",
+      "slug": "real-effective-exchange-rate-since-dec-2023",
+      "title": "Real effective exchange rate since Dec-2023",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns22",
+      "kind": "chart",
+      "slug": "real-exchange-rate-with-major-policy-regime-markers",
+      "title": "Real exchange rate with major policy-regime markers",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns35",
+      "kind": "chart",
+      "slug": "real-monetary-base",
+      "title": "Real monetary base",
+      "href": "/charts/real-monetary-base",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ef30",
+      "kind": "chart",
+      "slug": "real-private-credit-growth",
+      "title": "Real private-credit growth",
+      "href": "/charts/real-private-credit-growth",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "APPROVED"
+    },
+    {
+      "id": "pi.ns29",
+      "kind": "chart",
+      "slug": "real-rate-regime-since-2025",
+      "title": "Real-rate regime since 2025",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef40",
+      "kind": "chart",
+      "slug": "reer-versus-current-account-balance",
+      "title": "REER versus current-account balance",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef41",
+      "kind": "chart",
+      "slug": "reer-versus-nir-accumulation",
+      "title": "REER versus NIR accumulation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns40",
+      "kind": "chart",
+      "slug": "remonetization-vs-bcra-fx-purchases",
+      "title": "Remonetization vs BCRA FX purchases",
+      "href": "/charts/remonetization-vs-bcra-fx-purchases",
+      "addressable": true,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": true,
+      "dispositionState": "QUARANTINE"
+    },
+    {
+      "id": "pi.ns39",
+      "kind": "chart",
+      "slug": "remonetization-vs-inflation",
+      "title": "Remonetization vs inflation",
+      "href": "/charts/remonetization-vs-inflation",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ef04",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
+      "title": "Reserve accumulation versus next-12m FX debt service",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef20",
+      "kind": "chart",
+      "slug": "reserve-accumulation-versus-sovereign-spreads",
+      "title": "Reserve accumulation versus sovereign spreads",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef48",
+      "kind": "chart",
+      "slug": "reserve-accumulation-year-to-date",
+      "title": "Reserve accumulation year to date",
+      "href": "/charts/reserve-accumulation-year-to-date",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ef02",
+      "kind": "chart",
+      "slug": "reserve-adequacy-dashboard",
+      "title": "Reserve adequacy dashboard",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef28",
+      "kind": "chart",
+      "slug": "reserve-coverage-of-external-debt-service",
+      "title": "Reserve coverage of external debt service",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns33",
+      "kind": "chart",
+      "slug": "reserve-requirement-changes-with-money-market-rates",
+      "title": "Reserve requirement changes with money-market rates",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns32",
+      "kind": "chart",
+      "slug": "reserve-requirements-and-bcra-peso-deposits",
+      "title": "Reserve requirements and BCRA peso deposits",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns10",
+      "kind": "chart",
+      "slug": "rolling-fx-pass-through-estimate",
+      "title": "Rolling FX pass-through estimate",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef18",
+      "kind": "chart",
+      "slug": "sovereign-and-corporate-spreads",
+      "title": "Sovereign and corporate spreads",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef17",
+      "kind": "chart",
+      "slug": "sovereign-spreads-through-the-market-re-entry-window",
+      "title": "Sovereign spreads through the market re-entry window",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ef25",
+      "kind": "chart",
+      "slug": "swap-and-repo-liabilities-versus-nir",
+      "title": "Swap and repo liabilities versus NIR",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.ns62",
+      "kind": "chart",
+      "slug": "tamar-ex-post-real-rate",
+      "title": "TAMAR ex-post real rate",
+      "href": "/charts/tamar-ex-post-real-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ns61",
+      "kind": "chart",
+      "slug": "tamar-private-bank-rate",
+      "title": "TAMAR private-bank rate",
+      "href": "/charts/tamar-private-bank-rate",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "UNREVIEWED"
+    },
+    {
+      "id": "pi.ns36",
+      "kind": "chart",
+      "slug": "transactional-m2-nominal-and-real",
+      "title": "Transactional M2 nominal and real",
+      "href": "/charts/transactional-m2-nominal-and-real",
+      "addressable": true,
+      "discoverable": true,
+      "prominent": true,
+      "materialized": true,
+      "dispositionState": "APPROVED"
+    },
+    {
+      "id": "pi.ns37",
+      "kind": "chart",
+      "slug": "transactional-m2-vs-bcra-projection",
+      "title": "Transactional M2 vs BCRA projection",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    }
+  ]
+}

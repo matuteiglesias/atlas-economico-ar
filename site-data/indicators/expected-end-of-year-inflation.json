@@ -34,29 +34,7 @@
   "unitSemantics": "percent_yoy",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ns13",
-      "kind": "chart",
-      "slug": "expected-inflation-path",
-      "title": "Expected inflation path",
-      "href": "/charts/expected-inflation-path"
-    },
-    {
-      "id": "pi.ns14",
-      "kind": "chart",
-      "slug": "inflation-expectations-fan-horizon-curve",
-      "title": "Inflation expectations fan / horizon curve",
-      "href": "/charts/inflation-expectations-fan-horizon-curve"
-    },
-    {
-      "id": "pi.ns46",
-      "kind": "chart",
-      "slug": "end-of-year-fx-forward-vs-inflation-expectation",
-      "title": "End-of-year FX forward vs inflation expectation",
-      "href": "/charts/end-of-year-fx-forward-vs-inflation-expectation"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -66,30 +44,6 @@
       "slug": "inflation-expectations",
       "title": "Inflation expectations",
       "href": "/topics/inflation-expectations",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns46",
-      "kind": "chart",
-      "slug": "end-of-year-fx-forward-vs-inflation-expectation",
-      "title": "End-of-year FX forward vs inflation expectation",
-      "href": "/charts/end-of-year-fx-forward-vs-inflation-expectation",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns13",
-      "kind": "chart",
-      "slug": "expected-inflation-path",
-      "title": "Expected inflation path",
-      "href": "/charts/expected-inflation-path",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns14",
-      "kind": "chart",
-      "slug": "inflation-expectations-fan-horizon-curve",
-      "title": "Inflation expectations fan / horizon curve",
-      "href": "/charts/inflation-expectations-fan-horizon-curve",
       "distance": 1
     },
     {
@@ -110,7 +64,7 @@
     }
   ],
   "counts": {
-    "charts": 3,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

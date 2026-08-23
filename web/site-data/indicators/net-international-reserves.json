@@ -34,71 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef01",
-      "kind": "chart",
-      "slug": "gross-reserves-nir-and-liquid-buffers",
-      "title": "Gross reserves, NIR, and liquid buffers",
-      "href": "/charts/gross-reserves-nir-and-liquid-buffers"
-    },
-    {
-      "id": "pi.ef03",
-      "kind": "chart",
-      "slug": "nir-versus-program-target-path",
-      "title": "NIR versus program target path",
-      "href": "/charts/nir-versus-program-target-path"
-    },
-    {
-      "id": "pi.ef06",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-versus-nir-accumulation",
-      "title": "BCRA FX purchases versus NIR accumulation",
-      "href": "/charts/bcra-fx-purchases-versus-nir-accumulation"
-    },
-    {
-      "id": "pi.ef20",
-      "kind": "chart",
-      "slug": "reserve-accumulation-versus-sovereign-spreads",
-      "title": "Reserve accumulation versus sovereign spreads",
-      "href": "/charts/reserve-accumulation-versus-sovereign-spreads"
-    },
-    {
-      "id": "pi.ef23",
-      "kind": "chart",
-      "slug": "debt-service-versus-reserves",
-      "title": "Debt service versus reserves",
-      "href": "/charts/debt-service-versus-reserves"
-    },
-    {
-      "id": "pi.ef25",
-      "kind": "chart",
-      "slug": "swap-and-repo-liabilities-versus-nir",
-      "title": "Swap and repo liabilities versus NIR",
-      "href": "/charts/swap-and-repo-liabilities-versus-nir"
-    },
-    {
-      "id": "pi.ef41",
-      "kind": "chart",
-      "slug": "reer-versus-nir-accumulation",
-      "title": "REER versus NIR accumulation",
-      "href": "/charts/reer-versus-nir-accumulation"
-    },
-    {
-      "id": "pi.ef42",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-and-reserve-accumulation",
-      "title": "BCRA FX purchases and reserve accumulation",
-      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation"
-    },
-    {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [
     "di.ef.nir_to_gross"
   ],
@@ -111,66 +47,10 @@
       "title": "Net international reserves",
       "href": "/topics/net-international-reserves",
       "distance": 1
-    },
-    {
-      "id": "pi.ef42",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-and-reserve-accumulation",
-      "title": "BCRA FX purchases and reserve accumulation",
-      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef06",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-versus-nir-accumulation",
-      "title": "BCRA FX purchases versus NIR accumulation",
-      "href": "/charts/bcra-fx-purchases-versus-nir-accumulation",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef23",
-      "kind": "chart",
-      "slug": "debt-service-versus-reserves",
-      "title": "Debt service versus reserves",
-      "href": "/charts/debt-service-versus-reserves",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef01",
-      "kind": "chart",
-      "slug": "gross-reserves-nir-and-liquid-buffers",
-      "title": "Gross reserves, NIR, and liquid buffers",
-      "href": "/charts/gross-reserves-nir-and-liquid-buffers",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef03",
-      "kind": "chart",
-      "slug": "nir-versus-program-target-path",
-      "title": "NIR versus program target path",
-      "href": "/charts/nir-versus-program-target-path",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef41",
-      "kind": "chart",
-      "slug": "reer-versus-nir-accumulation",
-      "title": "REER versus NIR accumulation",
-      "href": "/charts/reer-versus-nir-accumulation",
-      "distance": 1
     }
   ],
   "counts": {
-    "charts": 9,
+    "charts": 0,
     "derivedAsInput": 1,
     "derivedAsOutput": 0
   }

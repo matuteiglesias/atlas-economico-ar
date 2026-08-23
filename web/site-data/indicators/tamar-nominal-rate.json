@@ -36,13 +36,6 @@
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
   "charts": [
     {
-      "id": "pi.ns27",
-      "kind": "chart",
-      "slug": "nominal-rates-vs-expected-inflation",
-      "title": "Nominal rates vs expected inflation",
-      "href": "/charts/nominal-rates-vs-expected-inflation"
-    },
-    {
       "id": "pi.ns61",
       "kind": "chart",
       "slug": "tamar-private-bank-rate",
@@ -115,14 +108,6 @@
       "slug": "money-market-rate",
       "title": "Money-market rate",
       "href": "/topics/money-market-rate",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns27",
-      "kind": "chart",
-      "slug": "nominal-rates-vs-expected-inflation",
-      "title": "Nominal rates vs expected inflation",
-      "href": "/charts/nominal-rates-vs-expected-inflation",
       "distance": 1
     },
     {
@@ -212,7 +197,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 1,
     "derivedAsInput": 2,
     "derivedAsOutput": 0
   }

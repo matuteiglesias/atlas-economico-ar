@@ -89,29 +89,7 @@
       "href": "/indicators/trimmed-services-inflation-3-month-annualized"
     }
   ],
-  "charts": [
-    {
-      "id": "pi.ns05",
-      "kind": "chart",
-      "slug": "headline-vs-core-inflation",
-      "title": "Headline vs core inflation",
-      "href": "/charts/headline-vs-core-inflation"
-    },
-    {
-      "id": "pi.ns06",
-      "kind": "chart",
-      "slug": "multiple-measures-of-core-inflation",
-      "title": "Multiple measures of core inflation",
-      "href": "/charts/multiple-measures-of-core-inflation"
-    },
-    {
-      "id": "pi.ns51",
-      "kind": "chart",
-      "slug": "core-services-vs-core-goods-inflation",
-      "title": "Core services vs core goods inflation",
-      "href": "/charts/core-services-vs-core-goods-inflation"
-    }
-  ],
+  "charts": [],
   "nearby": [
     {
       "id": "ns.inflation",
@@ -174,6 +152,6 @@
     "connections": 2,
     "questions": 0,
     "indicators": 5,
-    "charts": 3
+    "charts": 0
   }
 }

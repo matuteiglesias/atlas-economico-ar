@@ -36,13 +36,6 @@
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
   "charts": [
     {
-      "id": "pi.ef04",
-      "kind": "chart",
-      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
-      "title": "Reserve accumulation versus next-12m FX debt service",
-      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service"
-    },
-    {
       "id": "pi.ef48",
       "kind": "chart",
       "slug": "reserve-accumulation-year-to-date",
@@ -119,14 +112,6 @@
       "distance": 1
     },
     {
-      "id": "pi.ef04",
-      "kind": "chart",
-      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
-      "title": "Reserve accumulation versus next-12m FX debt service",
-      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service",
-      "distance": 1
-    },
-    {
       "id": "pi.ef48",
       "kind": "chart",
       "slug": "reserve-accumulation-year-to-date",
@@ -191,7 +176,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 1,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

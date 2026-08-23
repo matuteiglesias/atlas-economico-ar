@@ -16,7 +16,7 @@
     "topics": 25,
     "questions": 10,
     "indicators": 43,
-    "charts": 65,
+    "charts": 19,
     "relations": 52
   },
   "topics": [
@@ -633,71 +633,6 @@
       }
     },
     {
-      "id": "pi.ns64",
-      "kind": "chart",
-      "slug": "bank-reserve-balances-at-the-bcra",
-      "title": "Bank reserve balances at the BCRA",
-      "href": "/charts/bank-reserve-balances-at-the-bcra",
-      "artifact": {
-        "chartSpecId": "cs.bcra2.reserve_balances",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-12",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/bank-reserve-balances-at-the-bcra.svg",
-        "png": "/plots/bank-reserve-balances-at-the-bcra.png",
-        "altText": "Bank reserve balances at the BCRA. BCRA peso deposits / reserve balances. Last 5 years. Data through 2026-08-12.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.bcra_peso_deposits"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.peso_deposits_at_bcra"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.peso_deposits_at_bcra": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns64",
-          "state": "QUARANTINE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Five-year nominal ARS bank reserve balances are dominated by nominal price-level drift and are weak as a primary analytical figure."
-        },
-        "source": {
-          "provider": "bcra_monetarias_v4",
-          "providerSeriesId": "19",
-          "sourceUnit": "Millons pesos",
-          "normalization": {
-            "kind": "scale",
-            "factor": 1000000
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.peso_deposits_at_bcra",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "19",
-            "sourceUnit": "Millons pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Five-year nominal ARS bank reserve balances are dominated by nominal price-level drift and are weak as a primary analytical figure."
-      }
-    },
-    {
       "id": "pi.ns23",
       "kind": "chart",
       "slug": "bcra-daily-fx-purchases",
@@ -758,153 +693,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns59",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-and-the-monetary-base",
-      "title": "BCRA FX purchases and the monetary base",
-      "href": "/charts/bcra-fx-purchases-and-the-monetary-base",
-      "artifact": {
-        "chartSpecId": "cs.bcra.purchases_vs_base",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-12",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/bcra-fx-purchases-and-the-monetary-base.svg",
-        "png": "/plots/bcra-fx-purchases-and-the-monetary-base.png",
-        "altText": "BCRA FX purchases and the monetary base. BCRA net FX purchases; Monetary base. Since Jan 2026. Data through 2026-08-12.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.bcra_fx_purchases_daily",
-          "ci.ns.monetary_base_nominal"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.fx_purchases_reserve_factor",
-          "series.ar.bcra.monetary_base_total"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
-          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns59",
-          "state": "QUARANTINE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Daily USD FX-purchase flows against the ARS monetary-base stock are not matched economic quantities and invite misleading same-day co-movement reading."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "78,15",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "78",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-          },
-          {
-            "seriesId": "series.ar.bcra.monetary_base_total",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "15",
-            "sourceUnit": "Millons pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Daily USD FX-purchase flows against the ARS monetary-base stock are not matched economic quantities and invite misleading same-day co-movement reading."
-      }
-    },
-    {
-      "id": "pi.ns63",
-      "kind": "chart",
-      "slug": "bcra-policy-rate-history",
-      "title": "BCRA policy rate history",
-      "href": "/charts/bcra-policy-rate-history",
-      "artifact": {
-        "chartSpecId": "cs.bcra2.policy_rate",
-        "frameId": "rf.policy_rate_2023_12_to_2025_07",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2025-07-10",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/bcra-policy-rate-history.svg",
-        "png": "/plots/bcra-policy-rate-history.png",
-        "altText": "BCRA policy rate history. Nominal policy-relevant rate. Dec 2023–Jul 2025 policy-rate window. Data through 2025-07-10. At least one source snapshot is flagged stale.",
-        "freshnessState": "stale_warning",
-        "indicatorIds": [
-          "ci.ns.policy_rate_nominal"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.policy_rate"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns63",
-          "state": "HISTORICAL",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Valid policy-rate history through 2025-07-10; retain as historical evidence rather than a current-state chart."
-        },
-        "source": {
-          "provider": "bcra_monetarias_v4",
-          "providerSeriesId": "160",
-          "sourceUnit": "Nominal annual interest rate",
-          "normalization": {
-            "kind": "identity"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.policy_rate",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "160",
-            "sourceUnit": "Nominal annual interest rate",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
-          }
-        ],
-        "publicationStatus": "historical",
-        "qaNote": "Valid policy-rate history through 2025-07-10; retain as historical evidence rather than a current-state chart."
-      }
-    },
-    {
-      "id": "pi.ns26",
-      "kind": "chart",
-      "slug": "bcra-purchases-vs-monetary-base-growth",
-      "title": "BCRA purchases vs monetary-base growth",
-      "href": "/charts/bcra-purchases-vs-monetary-base-growth"
     },
     {
       "id": "pi.ns25",
@@ -978,34 +766,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns49",
-      "kind": "chart",
-      "slug": "carry-environment-real-rates-vs-fx-depreciation",
-      "title": "Carry environment: real rates vs FX depreciation",
-      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation"
-    },
-    {
-      "id": "pi.ns51",
-      "kind": "chart",
-      "slug": "core-services-vs-core-goods-inflation",
-      "title": "Core services vs core goods inflation",
-      "href": "/charts/core-services-vs-core-goods-inflation"
-    },
-    {
-      "id": "pi.ns44",
-      "kind": "chart",
-      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
-      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
-      "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates"
-    },
-    {
-      "id": "pi.ns24",
-      "kind": "chart",
-      "slug": "cumulative-bcra-fx-purchases",
-      "title": "Cumulative BCRA FX purchases",
-      "href": "/charts/cumulative-bcra-fx-purchases"
     },
     {
       "id": "pi.ns57",
@@ -1143,62 +903,6 @@
       }
     },
     {
-      "id": "pi.ns46",
-      "kind": "chart",
-      "slug": "end-of-year-fx-forward-vs-inflation-expectation",
-      "title": "End-of-year FX forward vs inflation expectation",
-      "href": "/charts/end-of-year-fx-forward-vs-inflation-expectation"
-    },
-    {
-      "id": "pi.ns28",
-      "kind": "chart",
-      "slug": "ex-ante-vs-ex-post-real-rates",
-      "title": "Ex-ante vs ex-post real rates",
-      "href": "/charts/ex-ante-vs-ex-post-real-rates"
-    },
-    {
-      "id": "pi.ns13",
-      "kind": "chart",
-      "slug": "expected-inflation-path",
-      "title": "Expected inflation path",
-      "href": "/charts/expected-inflation-path"
-    },
-    {
-      "id": "pi.ns07",
-      "kind": "chart",
-      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
-      "title": "Food and regulated prices as contributors to monthly inflation",
-      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation"
-    },
-    {
-      "id": "pi.ns45",
-      "kind": "chart",
-      "slug": "fx-futures-vs-top-of-band",
-      "title": "FX futures vs top of band",
-      "href": "/charts/fx-futures-vs-top-of-band"
-    },
-    {
-      "id": "pi.ns19",
-      "kind": "chart",
-      "slug": "fx-gap-around-stress-episodes",
-      "title": "FX gap around stress episodes",
-      "href": "/charts/fx-gap-around-stress-episodes"
-    },
-    {
-      "id": "pi.ns47",
-      "kind": "chart",
-      "slug": "fx-gap-vs-inflation-expectations",
-      "title": "FX gap vs inflation expectations",
-      "href": "/charts/fx-gap-vs-inflation-expectations"
-    },
-    {
-      "id": "pi.ns18",
-      "kind": "chart",
-      "slug": "fx-gaps-ccl-and-blue",
-      "title": "FX gaps: CCL and blue",
-      "href": "/charts/fx-gaps-ccl-and-blue"
-    },
-    {
       "id": "pi.ns03",
       "kind": "chart",
       "slug": "headline-inflation-monthly-vs-year-over-year",
@@ -1272,27 +976,6 @@
       }
     },
     {
-      "id": "pi.ns05",
-      "kind": "chart",
-      "slug": "headline-vs-core-inflation",
-      "title": "Headline vs core inflation",
-      "href": "/charts/headline-vs-core-inflation"
-    },
-    {
-      "id": "pi.ns14",
-      "kind": "chart",
-      "slug": "inflation-expectations-fan-horizon-curve",
-      "title": "Inflation expectations fan / horizon curve",
-      "href": "/charts/inflation-expectations-fan-horizon-curve"
-    },
-    {
-      "id": "pi.ns11",
-      "kind": "chart",
-      "slug": "inflation-expectations-vs-realized-inflation",
-      "title": "Inflation expectations vs realized inflation",
-      "href": "/charts/inflation-expectations-vs-realized-inflation"
-    },
-    {
       "id": "pi.ns01",
       "kind": "chart",
       "slug": "inflation-momentum-monthly-and-3-month-annualized",
@@ -1354,13 +1037,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns12",
-      "kind": "chart",
-      "slug": "inflation-surprise-through-time",
-      "title": "Inflation surprise through time",
-      "href": "/charts/inflation-surprise-through-time"
     },
     {
       "id": "pi.ns50",
@@ -1433,99 +1109,6 @@
             "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
           }
         ]
-      }
-    },
-    {
-      "id": "pi.ns08",
-      "kind": "chart",
-      "slug": "inflation-driver-decomposition",
-      "title": "Inflation-driver decomposition",
-      "href": "/charts/inflation-driver-decomposition"
-    },
-    {
-      "id": "pi.ns38",
-      "kind": "chart",
-      "slug": "m2-to-gdp-monetization-ratio",
-      "title": "M2-to-GDP monetization ratio",
-      "href": "/charts/m2-to-gdp-monetization-ratio"
-    },
-    {
-      "id": "pi.ns58",
-      "kind": "chart",
-      "slug": "monetary-base-and-transactional-m2",
-      "title": "Monetary base and transactional M2",
-      "href": "/charts/monetary-base-and-transactional-m2",
-      "artifact": {
-        "chartSpecId": "cs.bcra.base_vs_m2",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-12",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/monetary-base-and-transactional-m2.svg",
-        "png": "/plots/monetary-base-and-transactional-m2.png",
-        "altText": "Monetary base and transactional M2. Monetary base; Private transactional M2. Last 5 years. Data through 2026-08-12.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.monetary_base_nominal",
-          "ci.ns.transactional_m2_nominal"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.monetary_base_total",
-          "series.ar.bcra.transactional_m2_private"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
-          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns58",
-          "state": "SUPERSEDED",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "canonicalPlotIntentId": "pi.ns41",
-          "note": "Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the existing common-base real-index comparison pi.ns41 for analytical publication."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "15,197",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.monetary_base_total",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "15",
-            "sourceUnit": "Millons pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
-          },
-          {
-            "seriesId": "series.ar.bcra.transactional_m2_private",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "197",
-            "sourceUnit": "Millons pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Five-year nominal monetary base versus transactional M2 is dominated by inflation; prefer the existing common-base real-index comparison pi.ns41 for analytical publication.",
-        "preferredPlotIntentId": "pi.ns41"
       }
     },
     {
@@ -1616,13 +1199,6 @@
       }
     },
     {
-      "id": "pi.ns42",
-      "kind": "chart",
-      "slug": "monetary-base-growth-vs-money-demand-proxy",
-      "title": "Monetary-base growth vs money-demand proxy",
-      "href": "/charts/monetary-base-growth-vs-money-demand-proxy"
-    },
-    {
       "id": "pi.ns43",
       "kind": "chart",
       "slug": "monetization-dashboard-base-m2-inflation",
@@ -1709,20 +1285,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns30",
-      "kind": "chart",
-      "slug": "money-market-rate-volatility",
-      "title": "Money-market rate volatility",
-      "href": "/charts/money-market-rate-volatility"
-    },
-    {
-      "id": "pi.ns48",
-      "kind": "chart",
-      "slug": "money-market-volatility-vs-fx-gap",
-      "title": "Money-market volatility vs FX gap",
-      "href": "/charts/money-market-volatility-vs-fx-gap"
     },
     {
       "id": "pi.ns53",
@@ -1848,183 +1410,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns02",
-      "kind": "chart",
-      "slug": "monthly-inflation-with-acceleration-markers",
-      "title": "Monthly inflation with acceleration markers",
-      "href": "/charts/monthly-inflation-with-acceleration-markers"
-    },
-    {
-      "id": "pi.ns06",
-      "kind": "chart",
-      "slug": "multiple-measures-of-core-inflation",
-      "title": "Multiple measures of core inflation",
-      "href": "/charts/multiple-measures-of-core-inflation"
-    },
-    {
-      "id": "pi.ns34",
-      "kind": "chart",
-      "slug": "nominal-monetary-base",
-      "title": "Nominal monetary base",
-      "href": "/charts/nominal-monetary-base",
-      "artifact": {
-        "chartSpecId": "cs.bcra.monetary_base",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-12",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/nominal-monetary-base.svg",
-        "png": "/plots/nominal-monetary-base.png",
-        "altText": "Nominal monetary base. Monetary base. Last 5 years. Data through 2026-08-12.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.monetary_base_nominal"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.monetary_base_total"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns34",
-          "state": "SUPERSEDED",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "canonicalPlotIntentId": "pi.ns35",
-          "note": "The five-year nominal monetary-base level is valid source evidence but is dominated by inflation and is weak for the linked money-demand question. Prefer pi.ns35, which expresses monetary-base recovery in real terms over the stabilization window."
-        },
-        "source": {
-          "provider": "bcra_monetarias_v4",
-          "providerSeriesId": "15",
-          "sourceUnit": "Millons pesos",
-          "normalization": {
-            "kind": "scale",
-            "factor": 1000000
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.monetary_base_total",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "15",
-            "sourceUnit": "Millons pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "The five-year nominal monetary-base level is valid source evidence but is dominated by inflation and is weak for the linked money-demand question. Prefer pi.ns35, which expresses monetary-base recovery in real terms over the stabilization window.",
-        "preferredPlotIntentId": "pi.ns35"
-      }
-    },
-    {
-      "id": "pi.ns27",
-      "kind": "chart",
-      "slug": "nominal-rates-vs-expected-inflation",
-      "title": "Nominal rates vs expected inflation",
-      "href": "/charts/nominal-rates-vs-expected-inflation"
-    },
-    {
-      "id": "pi.ns21",
-      "kind": "chart",
-      "slug": "nominal-vs-real-exchange-rate-movement",
-      "title": "Nominal vs real exchange-rate movement",
-      "href": "/charts/nominal-vs-real-exchange-rate-movement",
-      "artifact": {
-        "chartSpecId": "cs.bcra.nominal_vs_real_fx",
-        "frameId": "rf.since_dec_2023",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-14",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/nominal-vs-real-exchange-rate-movement.svg",
-        "png": "/plots/nominal-vs-real-exchange-rate-movement.png",
-        "altText": "Nominal vs real exchange-rate movement. Official ARS/USD exchange rate; Real effective exchange-rate index. Since Dec 2023. Data through 2026-08-14. At least one source snapshot is flagged stale.",
-        "freshnessState": "stale_warning",
-        "indicatorIds": [
-          "ci.ns.official_fx",
-          "ci.ns.reer_index"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.wholesale_fx",
-          "series.ar.datosgob.itcrm_monthly"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.wholesale_fx": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d",
-          "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns21",
-          "state": "QUARANTINE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "5,116.3_TCRMA_0_M_36",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.wholesale_fx",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "5",
-            "sourceUnit": "Exchange rate ars to usd",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "2fb562f77038202db573f1f37c8abfce37652c2041c31bfd2dfc2a3f142a9d0d"
-          },
-          {
-            "seriesId": "series.ar.datosgob.itcrm_monthly",
-            "provider": "datos_argentina",
-            "providerSeriesId": "116.3_TCRMA_0_M_36",
-            "sourceUnit": "Índice 17-Dic-2015=100",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period."
-      }
-    },
-    {
-      "id": "pi.ns52",
-      "kind": "chart",
-      "slug": "nominal-stabilization-state-map",
-      "title": "Nominal-stabilization state map",
-      "href": "/charts/nominal-stabilization-state-map"
-    },
-    {
-      "id": "pi.ns15",
-      "kind": "chart",
-      "slug": "official-exchange-rate-within-the-band",
-      "title": "Official exchange rate within the band",
-      "href": "/charts/official-exchange-rate-within-the-band"
     },
     {
       "id": "pi.ns09",
@@ -2160,239 +1545,6 @@
       }
     },
     {
-      "id": "pi.ns17",
-      "kind": "chart",
-      "slug": "official-ccl-and-blue-exchange-rates",
-      "title": "Official, CCL and blue exchange rates",
-      "href": "/charts/official-ccl-and-blue-exchange-rates"
-    },
-    {
-      "id": "pi.ns31",
-      "kind": "chart",
-      "slug": "policy-relevant-rate-vs-money-market-rate",
-      "title": "Policy-relevant rate vs money-market rate",
-      "href": "/charts/policy-relevant-rate-vs-money-market-rate",
-      "artifact": {
-        "chartSpecId": "cs.bcra2.policy_vs_baibar",
-        "frameId": "rf.policy_rate_2023_12_to_2025_07",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2025-07-10",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/policy-relevant-rate-vs-money-market-rate.svg",
-        "png": "/plots/policy-relevant-rate-vs-money-market-rate.png",
-        "altText": "Policy-relevant rate vs money-market rate. Nominal policy-relevant rate; Short money-market rate. Dec 2023–Jul 2025 policy-rate window. Data through 2025-07-10. At least one source snapshot is flagged stale.",
-        "freshnessState": "stale_warning",
-        "indicatorIds": [
-          "ci.ns.policy_rate_nominal",
-          "ci.ns.money_market_rate"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.policy_rate",
-          "series.ar.bcra.baibar_rate"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af",
-          "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns31",
-          "state": "HISTORICAL",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Valid historical comparison only. The BCRA policy-rate input ends on 2025-07-10 and must not be presented as evidence of the current policy stance."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "160,11",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.policy_rate",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "160",
-            "sourceUnit": "Nominal annual interest rate",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
-          },
-          {
-            "seriesId": "series.ar.bcra.baibar_rate",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "11",
-            "sourceUnit": "Nominal annual interest rate",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
-          }
-        ],
-        "publicationStatus": "historical",
-        "qaNote": "Valid historical comparison only. The BCRA policy-rate input ends on 2025-07-10 and must not be presented as evidence of the current policy stance."
-      }
-    },
-    {
-      "id": "pi.ns16",
-      "kind": "chart",
-      "slug": "position-inside-fx-band",
-      "title": "Position inside FX band",
-      "href": "/charts/position-inside-fx-band"
-    },
-    {
-      "id": "pi.ns56",
-      "kind": "chart",
-      "slug": "private-transactional-m2",
-      "title": "Private transactional M2",
-      "href": "/charts/private-transactional-m2",
-      "artifact": {
-        "chartSpecId": "cs.bcra.transactional_m2",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-11",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/private-transactional-m2.svg",
-        "png": "/plots/private-transactional-m2.png",
-        "altText": "Private transactional M2. Private transactional M2. Last 5 years. Data through 2026-08-11.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.transactional_m2_nominal"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.transactional_m2_private"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns56",
-          "state": "SUPERSEDED",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "canonicalPlotIntentId": "pi.ns36",
-          "note": "The five-year nominal transactional-M2 level is valid source evidence but is dominated by the price level and is weak primary evidence about remonetization. Prefer pi.ns36, which retains the nominal series while pairing it with an explicit real index over the stabilization period."
-        },
-        "source": {
-          "provider": "bcra_monetarias_v4",
-          "providerSeriesId": "197",
-          "sourceUnit": "Millons pesos",
-          "normalization": {
-            "kind": "scale",
-            "factor": 1000000
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.transactional_m2_private",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "197",
-            "sourceUnit": "Millons pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "The five-year nominal transactional-M2 level is valid source evidence but is dominated by the price level and is weak primary evidence about remonetization. Prefer pi.ns36, which retains the nominal series while pairing it with an explicit real index over the stabilization period.",
-        "preferredPlotIntentId": "pi.ns36"
-      }
-    },
-    {
-      "id": "pi.ns54",
-      "kind": "chart",
-      "slug": "real-effective-exchange-rate",
-      "title": "Real effective exchange rate",
-      "href": "/charts/real-effective-exchange-rate",
-      "artifact": {
-        "chartSpecId": "cs.seed.real_exchange_rate",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2024-12-01",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/real-effective-exchange-rate.svg",
-        "png": "/plots/real-effective-exchange-rate.png",
-        "altText": "Real effective exchange rate. Real effective exchange-rate index. Last 5 years. Data through 2024-12-01. Markers: Dec 2023. At least one source snapshot is flagged stale.",
-        "freshnessState": "stale_warning",
-        "indicatorIds": [
-          "ci.ns.reer_index"
-        ],
-        "seriesIds": [
-          "series.ar.datosgob.itcrm_monthly"
-        ],
-        "snapshotSha256": {
-          "series.ar.datosgob.itcrm_monthly": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns54",
-          "state": "HISTORICAL",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "The REER series is visually coherent and useful historical evidence through Dec 2024, and the rendering explicitly flags the stale source. Retain as historical context only; it must not be interpreted as the current real exchange-rate position until the source is refreshed."
-        },
-        "source": {
-          "provider": "datos_argentina",
-          "providerSeriesId": "116.3_TCRMA_0_M_36",
-          "sourceUnit": "Índice 17-Dic-2015=100",
-          "normalization": {
-            "kind": "identity"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.datosgob.itcrm_monthly",
-            "provider": "datos_argentina",
-            "providerSeriesId": "116.3_TCRMA_0_M_36",
-            "sourceUnit": "Índice 17-Dic-2015=100",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "ff900f0496a8efac7575c77c821e89a76638ab05a6e1ef2de55369f282eeb7e3"
-          }
-        ],
-        "publicationStatus": "historical",
-        "qaNote": "The REER series is visually coherent and useful historical evidence through Dec 2024, and the rendering explicitly flags the stale source. Retain as historical context only; it must not be interpreted as the current real exchange-rate position until the source is refreshed."
-      }
-    },
-    {
-      "id": "pi.ns20",
-      "kind": "chart",
-      "slug": "real-effective-exchange-rate-since-dec-2023",
-      "title": "Real effective exchange rate since Dec-2023",
-      "href": "/charts/real-effective-exchange-rate-since-dec-2023"
-    },
-    {
-      "id": "pi.ns22",
-      "kind": "chart",
-      "slug": "real-exchange-rate-with-major-policy-regime-markers",
-      "title": "Real exchange rate with major policy-regime markers",
-      "href": "/charts/real-exchange-rate-with-major-policy-regime-markers"
-    },
-    {
       "id": "pi.ns35",
       "kind": "chart",
       "slug": "real-monetary-base",
@@ -2463,103 +1615,6 @@
             "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
           }
         ]
-      }
-    },
-    {
-      "id": "pi.ns29",
-      "kind": "chart",
-      "slug": "real-rate-regime-since-2025",
-      "title": "Real-rate regime since 2025",
-      "href": "/charts/real-rate-regime-since-2025"
-    },
-    {
-      "id": "pi.ns40",
-      "kind": "chart",
-      "slug": "remonetization-vs-bcra-fx-purchases",
-      "title": "Remonetization vs BCRA FX purchases",
-      "href": "/charts/remonetization-vs-bcra-fx-purchases",
-      "artifact": {
-        "chartSpecId": "cs.bcra.real_m2_vs_purchases",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-11",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/remonetization-vs-bcra-fx-purchases.svg",
-        "png": "/plots/remonetization-vs-bcra-fx-purchases.png",
-        "altText": "Remonetization vs BCRA FX purchases. Real private transactional M2; BCRA net FX purchases. Since Jan 2026. Data through 2026-08-11.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.transactional_m2_real",
-          "ci.ns.bcra_fx_purchases_daily"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.transactional_m2_private",
-          "series.ar.datosgob.ipc_headline_mom_national",
-          "series.ar.bcra.fx_purchases_reserve_factor"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9",
-          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
-          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns40",
-          "state": "QUARANTINE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "The rendered chart overlays a sparse monthly real-money stock/index with noisy daily FX-purchase flows on a second axis. The frequency and stock-flow mismatch invites unsupported same-period co-movement interpretation; quarantine until the quantities are transformed to a matched temporal and economic grain."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.transactional_m2_private",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "197",
-            "sourceUnit": "Millons pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
-          },
-          {
-            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
-            "provider": "datos_argentina",
-            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
-            "sourceUnit": "Variación intermensual",
-            "normalization": {
-              "kind": "scale",
-              "factor": 100
-            },
-            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-          },
-          {
-            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "78",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "The rendered chart overlays a sparse monthly real-money stock/index with noisy daily FX-purchase flows on a second axis. The frequency and stock-flow mismatch invites unsupported same-period co-movement interpretation; quarantine until the quantities are transformed to a matched temporal and economic grain."
       }
     },
     {
@@ -2635,27 +1690,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns33",
-      "kind": "chart",
-      "slug": "reserve-requirement-changes-with-money-market-rates",
-      "title": "Reserve requirement changes with money-market rates",
-      "href": "/charts/reserve-requirement-changes-with-money-market-rates"
-    },
-    {
-      "id": "pi.ns32",
-      "kind": "chart",
-      "slug": "reserve-requirements-and-bcra-peso-deposits",
-      "title": "Reserve requirements and BCRA peso deposits",
-      "href": "/charts/reserve-requirements-and-bcra-peso-deposits"
-    },
-    {
-      "id": "pi.ns10",
-      "kind": "chart",
-      "slug": "rolling-fx-pass-through-estimate",
-      "title": "Rolling FX pass-through estimate",
-      "href": "/charts/rolling-fx-pass-through-estimate"
     },
     {
       "id": "pi.ns62",
@@ -2864,37 +1898,30 @@
         ],
         "qaNote": "The rendered nominal-versus-real M2 synthesis is analytically useful: the nominal stock and real index are explicitly separated by labeled axes, exposing how strong nominal growth differs from real remonetization. Mixed daily/monthly frequency remains a review hazard, but the rendering does not conceal it or imply a shared quantitative scale."
       }
-    },
-    {
-      "id": "pi.ns37",
-      "kind": "chart",
-      "slug": "transactional-m2-vs-bcra-projection",
-      "title": "Transactional M2 vs BCRA projection",
-      "href": "/charts/transactional-m2-vs-bcra-projection"
     }
   ],
   "localGraph": {
     "nodes": [
       {
-        "id": "ns.nominal_exchange_rate",
+        "id": "ns.aggregate_demand_pressure",
         "kind": "topic",
-        "slug": "nominal-exchange-rate",
-        "title": "Nominal exchange rate",
-        "href": "/topics/nominal-exchange-rate"
+        "slug": "aggregate-demand-pressure",
+        "title": "Aggregate-demand pressure",
+        "href": "/topics/aggregate-demand-pressure"
       },
       {
-        "id": "ns.headline_inflation",
+        "id": "ns.fx_gap",
         "kind": "topic",
-        "slug": "headline-inflation",
-        "title": "Headline inflation",
-        "href": "/topics/headline-inflation"
+        "slug": "fx-gap",
+        "title": "FX gap",
+        "href": "/topics/fx-gap"
       },
       {
-        "id": "ns.policy_credibility",
+        "id": "ns.fx_hedging_demand",
         "kind": "topic",
-        "slug": "policy-credibility",
-        "title": "Policy credibility",
-        "href": "/topics/policy-credibility"
+        "slug": "fx-hedging-demand",
+        "title": "FX hedging demand",
+        "href": "/topics/fx-hedging-demand"
       },
       {
         "id": "ns.real_exchange_rate",
@@ -2904,53 +1931,25 @@
         "href": "/topics/real-exchange-rate"
       },
       {
-        "id": "ns.monetary_base",
+        "id": "ns.parallel_exchange_rate",
         "kind": "topic",
-        "slug": "monetary-base",
-        "title": "Monetary base",
-        "href": "/topics/monetary-base"
+        "slug": "parallel-exchange-rate",
+        "title": "Parallel exchange rate",
+        "href": "/topics/parallel-exchange-rate"
       },
       {
-        "id": "ns.aggregate_demand_pressure",
+        "id": "ns.exchange_rate_band",
         "kind": "topic",
-        "slug": "aggregate-demand-pressure",
-        "title": "Aggregate-demand pressure",
-        "href": "/topics/aggregate-demand-pressure"
+        "slug": "exchange-rate-band",
+        "title": "Exchange-rate band",
+        "href": "/topics/exchange-rate-band"
       },
       {
-        "id": "ns.inflation_inertia",
+        "id": "ns.core_inflation",
         "kind": "topic",
-        "slug": "inflation-inertia",
-        "title": "Inflation inertia",
-        "href": "/topics/inflation-inertia"
-      },
-      {
-        "id": "ns.real_interest_rate",
-        "kind": "topic",
-        "slug": "real-interest-rate",
-        "title": "Real interest rate",
-        "href": "/topics/real-interest-rate"
-      },
-      {
-        "id": "ns.monetary_targeting_framework",
-        "kind": "topic",
-        "slug": "monetary-targeting-framework",
-        "title": "Monetary targeting framework",
-        "href": "/topics/monetary-targeting-framework"
-      },
-      {
-        "id": "ns.inflation",
-        "kind": "topic",
-        "slug": "inflation",
-        "title": "Inflation",
-        "href": "/topics/inflation"
-      },
-      {
-        "id": "ns.inflation_expectations",
-        "kind": "topic",
-        "slug": "inflation-expectations",
-        "title": "Inflation expectations",
-        "href": "/topics/inflation-expectations"
+        "slug": "core-inflation",
+        "title": "Core inflation",
+        "href": "/topics/core-inflation"
       },
       {
         "id": "ns.bcra_fx_operations",
@@ -2960,18 +1959,18 @@
         "href": "/topics/bcra-fx-operations"
       },
       {
-        "id": "ns.parallel_exchange_rate",
+        "id": "ns.money_market_rate",
         "kind": "topic",
-        "slug": "parallel-exchange-rate",
-        "title": "Parallel exchange rate",
-        "href": "/topics/parallel-exchange-rate"
+        "slug": "money-market-rate",
+        "title": "Money-market rate",
+        "href": "/topics/money-market-rate"
       },
       {
-        "id": "ns.fx_pass_through",
+        "id": "ns.policy_credibility",
         "kind": "topic",
-        "slug": "fx-pass-through",
-        "title": "FX pass-through",
-        "href": "/topics/fx-pass-through"
+        "slug": "policy-credibility",
+        "title": "Policy credibility",
+        "href": "/topics/policy-credibility"
       },
       {
         "id": "ns.remonetization",
@@ -2988,18 +1987,11 @@
         "href": "/topics/money-demand"
       },
       {
-        "id": "ns.fx_gap",
+        "id": "ns.inflation_inertia",
         "kind": "topic",
-        "slug": "fx-gap",
-        "title": "FX gap",
-        "href": "/topics/fx-gap"
-      },
-      {
-        "id": "ns.relative_price_adjustment",
-        "kind": "topic",
-        "slug": "relative-price-adjustment",
-        "title": "Relative-price adjustment",
-        "href": "/topics/relative-price-adjustment"
+        "slug": "inflation-inertia",
+        "title": "Inflation inertia",
+        "href": "/topics/inflation-inertia"
       },
       {
         "id": "ns.policy_rate",
@@ -3009,32 +2001,11 @@
         "href": "/topics/policy-interest-rate"
       },
       {
-        "id": "ns.transactional_m2",
+        "id": "ns.headline_inflation",
         "kind": "topic",
-        "slug": "transactional-m2",
-        "title": "Transactional M2",
-        "href": "/topics/transactional-m2"
-      },
-      {
-        "id": "ns.exchange_rate_band",
-        "kind": "topic",
-        "slug": "exchange-rate-band",
-        "title": "Exchange-rate band",
-        "href": "/topics/exchange-rate-band"
-      },
-      {
-        "id": "ns.fx_hedging_demand",
-        "kind": "topic",
-        "slug": "fx-hedging-demand",
-        "title": "FX hedging demand",
-        "href": "/topics/fx-hedging-demand"
-      },
-      {
-        "id": "ns.core_inflation",
-        "kind": "topic",
-        "slug": "core-inflation",
-        "title": "Core inflation",
-        "href": "/topics/core-inflation"
+        "slug": "headline-inflation",
+        "title": "Headline inflation",
+        "href": "/topics/headline-inflation"
       },
       {
         "id": "ns.reserve_requirements",
@@ -3044,11 +2015,67 @@
         "href": "/topics/reserve-requirements"
       },
       {
-        "id": "ns.money_market_rate",
+        "id": "ns.monetary_base",
         "kind": "topic",
-        "slug": "money-market-rate",
-        "title": "Money-market rate",
-        "href": "/topics/money-market-rate"
+        "slug": "monetary-base",
+        "title": "Monetary base",
+        "href": "/topics/monetary-base"
+      },
+      {
+        "id": "ns.inflation_expectations",
+        "kind": "topic",
+        "slug": "inflation-expectations",
+        "title": "Inflation expectations",
+        "href": "/topics/inflation-expectations"
+      },
+      {
+        "id": "ns.inflation",
+        "kind": "topic",
+        "slug": "inflation",
+        "title": "Inflation",
+        "href": "/topics/inflation"
+      },
+      {
+        "id": "ns.real_interest_rate",
+        "kind": "topic",
+        "slug": "real-interest-rate",
+        "title": "Real interest rate",
+        "href": "/topics/real-interest-rate"
+      },
+      {
+        "id": "ns.monetary_targeting_framework",
+        "kind": "topic",
+        "slug": "monetary-targeting-framework",
+        "title": "Monetary targeting framework",
+        "href": "/topics/monetary-targeting-framework"
+      },
+      {
+        "id": "ns.transactional_m2",
+        "kind": "topic",
+        "slug": "transactional-m2",
+        "title": "Transactional M2",
+        "href": "/topics/transactional-m2"
+      },
+      {
+        "id": "ns.fx_pass_through",
+        "kind": "topic",
+        "slug": "fx-pass-through",
+        "title": "FX pass-through",
+        "href": "/topics/fx-pass-through"
+      },
+      {
+        "id": "ns.relative_price_adjustment",
+        "kind": "topic",
+        "slug": "relative-price-adjustment",
+        "title": "Relative-price adjustment",
+        "href": "/topics/relative-price-adjustment"
+      },
+      {
+        "id": "ns.nominal_exchange_rate",
+        "kind": "topic",
+        "slug": "nominal-exchange-rate",
+        "title": "Nominal exchange rate",
+        "href": "/topics/nominal-exchange-rate"
       }
     ],
     "edges": [

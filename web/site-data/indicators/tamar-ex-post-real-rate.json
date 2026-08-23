@@ -36,13 +36,6 @@
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
   "charts": [
     {
-      "id": "pi.ns28",
-      "kind": "chart",
-      "slug": "ex-ante-vs-ex-post-real-rates",
-      "title": "Ex-ante vs ex-post real rates",
-      "href": "/charts/ex-ante-vs-ex-post-real-rates"
-    },
-    {
       "id": "pi.ns62",
       "kind": "chart",
       "slug": "tamar-ex-post-real-rate",
@@ -126,14 +119,6 @@
       "slug": "real-interest-rate",
       "title": "Real interest rate",
       "href": "/topics/real-interest-rate",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns28",
-      "kind": "chart",
-      "slug": "ex-ante-vs-ex-post-real-rates",
-      "title": "Ex-ante vs ex-post real rates",
-      "href": "/charts/ex-ante-vs-ex-post-real-rates",
       "distance": 1
     },
     {
@@ -251,7 +236,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 1,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

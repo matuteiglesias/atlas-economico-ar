@@ -34,15 +34,7 @@
   "unitSemantics": "percent_of_band",
   "frequency": "daily",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ns16",
-      "kind": "chart",
-      "slug": "position-inside-fx-band",
-      "title": "Position inside FX band",
-      "href": "/charts/position-inside-fx-band"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [
     "di.ns.band_position"
@@ -54,14 +46,6 @@
       "slug": "exchange-rate-band",
       "title": "Exchange-rate band",
       "href": "/topics/exchange-rate-band",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns16",
-      "kind": "chart",
-      "slug": "position-inside-fx-band",
-      "title": "Position inside FX band",
-      "href": "/charts/position-inside-fx-band",
       "distance": 1
     },
     {
@@ -114,7 +98,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

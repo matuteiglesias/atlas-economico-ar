@@ -34,22 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef07",
-      "kind": "chart",
-      "slug": "external-financing-and-debt-service-bridge",
-      "title": "External financing and debt-service bridge",
-      "href": "/charts/external-financing-and-debt-service-bridge"
-    },
-    {
-      "id": "pi.ef24",
-      "kind": "chart",
-      "slug": "official-financing-swaps-and-repos",
-      "title": "Official financing, swaps, and repos",
-      "href": "/charts/official-financing-swaps-and-repos"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -59,22 +44,6 @@
       "slug": "official-external-financing",
       "title": "Official external financing",
       "href": "/topics/official-external-financing",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef07",
-      "kind": "chart",
-      "slug": "external-financing-and-debt-service-bridge",
-      "title": "External financing and debt-service bridge",
-      "href": "/charts/external-financing-and-debt-service-bridge",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef24",
-      "kind": "chart",
-      "slug": "official-financing-swaps-and-repos",
-      "title": "Official financing, swaps, and repos",
-      "href": "/charts/official-financing-swaps-and-repos",
       "distance": 1
     },
     {
@@ -111,7 +80,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

@@ -34,22 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "quarterly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition"
-    },
-    {
-      "id": "pi.ef10",
-      "kind": "chart",
-      "slug": "goods-surplus-versus-services-deficit",
-      "title": "Goods surplus versus services deficit",
-      "href": "/charts/goods-surplus-versus-services-deficit"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -59,22 +44,6 @@
       "slug": "services-balance",
       "title": "Services balance",
       "href": "/topics/services-balance",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef10",
-      "kind": "chart",
-      "slug": "goods-surplus-versus-services-deficit",
-      "title": "Goods surplus versus services deficit",
-      "href": "/charts/goods-surplus-versus-services-deficit",
       "distance": 1
     },
     {
@@ -111,7 +80,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

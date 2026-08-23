@@ -34,15 +34,7 @@
   "unitSemantics": "ars_per_usd",
   "frequency": "daily",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ns45",
-      "kind": "chart",
-      "slug": "fx-futures-vs-top-of-band",
-      "title": "FX futures vs top of band",
-      "href": "/charts/fx-futures-vs-top-of-band"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -52,14 +44,6 @@
       "slug": "fx-hedging-demand",
       "title": "FX hedging demand",
       "href": "/topics/fx-hedging-demand",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns45",
-      "kind": "chart",
-      "slug": "fx-futures-vs-top-of-band",
-      "title": "FX futures vs top of band",
-      "href": "/charts/fx-futures-vs-top-of-band",
       "distance": 1
     },
     {
@@ -104,7 +88,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

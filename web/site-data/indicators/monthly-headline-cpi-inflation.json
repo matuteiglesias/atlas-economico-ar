@@ -99,13 +99,6 @@
       }
     },
     {
-      "id": "pi.ns02",
-      "kind": "chart",
-      "slug": "monthly-inflation-with-acceleration-markers",
-      "title": "Monthly inflation with acceleration markers",
-      "href": "/charts/monthly-inflation-with-acceleration-markers"
-    },
-    {
       "id": "pi.ns03",
       "kind": "chart",
       "slug": "headline-inflation-monthly-vs-year-over-year",
@@ -252,20 +245,6 @@
       }
     },
     {
-      "id": "pi.ns07",
-      "kind": "chart",
-      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
-      "title": "Food and regulated prices as contributors to monthly inflation",
-      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation"
-    },
-    {
-      "id": "pi.ns08",
-      "kind": "chart",
-      "slug": "inflation-driver-decomposition",
-      "title": "Inflation-driver decomposition",
-      "href": "/charts/inflation-driver-decomposition"
-    },
-    {
       "id": "pi.ns09",
       "kind": "chart",
       "slug": "official-fx-change-vs-monthly-inflation",
@@ -337,20 +316,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns10",
-      "kind": "chart",
-      "slug": "rolling-fx-pass-through-estimate",
-      "title": "Rolling FX pass-through estimate",
-      "href": "/charts/rolling-fx-pass-through-estimate"
-    },
-    {
-      "id": "pi.ns11",
-      "kind": "chart",
-      "slug": "inflation-expectations-vs-realized-inflation",
-      "title": "Inflation expectations vs realized inflation",
-      "href": "/charts/inflation-expectations-vs-realized-inflation"
     },
     {
       "id": "pi.ns39",
@@ -807,14 +772,6 @@
       }
     },
     {
-      "id": "pi.ns07",
-      "kind": "chart",
-      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
-      "title": "Food and regulated prices as contributors to monthly inflation",
-      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation",
-      "distance": 1
-    },
-    {
       "id": "pi.ns03",
       "kind": "chart",
       "slug": "headline-inflation-monthly-vs-year-over-year",
@@ -887,14 +844,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns11",
-      "kind": "chart",
-      "slug": "inflation-expectations-vs-realized-inflation",
-      "title": "Inflation expectations vs realized inflation",
-      "href": "/charts/inflation-expectations-vs-realized-inflation",
-      "distance": 1
     },
     {
       "id": "pi.ns01",
@@ -1033,18 +982,10 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns08",
-      "kind": "chart",
-      "slug": "inflation-driver-decomposition",
-      "title": "Inflation-driver decomposition",
-      "href": "/charts/inflation-driver-decomposition",
-      "distance": 1
     }
   ],
   "counts": {
-    "charts": 14,
+    "charts": 9,
     "derivedAsInput": 7,
     "derivedAsOutput": 0
   }

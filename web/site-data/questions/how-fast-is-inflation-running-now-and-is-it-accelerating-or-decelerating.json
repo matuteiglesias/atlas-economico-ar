@@ -136,13 +136,6 @@
       }
     },
     {
-      "id": "pi.ns02",
-      "kind": "chart",
-      "slug": "monthly-inflation-with-acceleration-markers",
-      "title": "Monthly inflation with acceleration markers",
-      "href": "/charts/monthly-inflation-with-acceleration-markers"
-    },
-    {
       "id": "pi.ns03",
       "kind": "chart",
       "slug": "headline-inflation-monthly-vs-year-over-year",
@@ -622,20 +615,12 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns02",
-      "kind": "chart",
-      "slug": "monthly-inflation-with-acceleration-markers",
-      "title": "Monthly inflation with acceleration markers",
-      "href": "/charts/monthly-inflation-with-acceleration-markers",
-      "distance": 1
     }
   ],
   "counts": {
     "topics": 2,
     "indicators": 4,
-    "charts": 5
+    "charts": 4
   },
   "publication": {
     "state": "PUBLIC",

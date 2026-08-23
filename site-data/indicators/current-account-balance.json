@@ -34,36 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "quarterly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef08",
-      "kind": "chart",
-      "slug": "current-account-balance-through-time",
-      "title": "Current-account balance through time",
-      "href": "/charts/current-account-balance-through-time"
-    },
-    {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition"
-    },
-    {
-      "id": "pi.ef11",
-      "kind": "chart",
-      "slug": "primary-income-drag-on-the-current-account",
-      "title": "Primary-income drag on the current account",
-      "href": "/charts/primary-income-drag-on-the-current-account"
-    },
-    {
-      "id": "pi.ef13",
-      "kind": "chart",
-      "slug": "capital-inflows-versus-current-account-financing-need",
-      "title": "Capital inflows versus current-account financing need",
-      "href": "/charts/capital-inflows-versus-current-account-financing-need"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [
     "di.ef.current_account_gdp"
   ],
@@ -78,38 +49,6 @@
       "distance": 1
     },
     {
-      "id": "pi.ef13",
-      "kind": "chart",
-      "slug": "capital-inflows-versus-current-account-financing-need",
-      "title": "Capital inflows versus current-account financing need",
-      "href": "/charts/capital-inflows-versus-current-account-financing-need",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef08",
-      "kind": "chart",
-      "slug": "current-account-balance-through-time",
-      "title": "Current-account balance through time",
-      "href": "/charts/current-account-balance-through-time",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef11",
-      "kind": "chart",
-      "slug": "primary-income-drag-on-the-current-account",
-      "title": "Primary-income drag on the current account",
-      "href": "/charts/primary-income-drag-on-the-current-account",
-      "distance": 1
-    },
-    {
       "id": "q.ef04",
       "kind": "question",
       "slug": "is-the-current-account-improving",
@@ -119,7 +58,7 @@
     }
   ],
   "counts": {
-    "charts": 4,
+    "charts": 0,
     "derivedAsInput": 1,
     "derivedAsOutput": 0
   }

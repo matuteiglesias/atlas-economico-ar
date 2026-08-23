@@ -34,15 +34,7 @@
   "unitSemantics": "percent_gdp",
   "frequency": "annual",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef38",
-      "kind": "chart",
-      "slug": "assets-outside-the-financial-system-versus-private-credit",
-      "title": "Assets outside the financial system versus private credit",
-      "href": "/charts/assets-outside-the-financial-system-versus-private-credit"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -52,14 +44,6 @@
       "slug": "domestic-savings-mobilization",
       "title": "Domestic savings mobilization",
       "href": "/topics/domestic-savings-mobilization",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef38",
-      "kind": "chart",
-      "slug": "assets-outside-the-financial-system-versus-private-credit",
-      "title": "Assets outside the financial system versus private credit",
-      "href": "/charts/assets-outside-the-financial-system-versus-private-credit",
       "distance": 1
     },
     {
@@ -88,7 +72,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

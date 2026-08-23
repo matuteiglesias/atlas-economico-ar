@@ -9,33 +9,6 @@
     "text": "External & Financial Constraint How reserves, external flows, debt obligations, market access, and the depth of domestic finance shape Argentina's capacity to absorb shocks and finance growth. Argentina's external constraint is not one number. Gross reserves can rise while usable buffers remain thin; a trade surplus can coexist with service and interest outflows; market access can improve while refinancing needs remain large. This area organizes those pieces into a common reading structure, separating stocks from flows and distinguishing temporary financing support from durable improvements in external resilience."
   },
   {
-    "id": "fiscal_regime",
-    "kind": "region",
-    "slug": "fiscal-regime",
-    "title": "Fiscal Regime",
-    "href": "/areas/fiscal-regime",
-    "regionId": "fiscal_regime",
-    "text": "Fiscal Regime Explain revenues, spending, balances, subsidies, pensions, public financing needs, and institutional durability of the fiscal anchor."
-  },
-  {
-    "id": "household_welfare",
-    "kind": "region",
-    "slug": "household-welfare",
-    "title": "Household Welfare",
-    "href": "/areas/household-welfare",
-    "regionId": "household_welfare",
-    "text": "Household Welfare Explain purchasing power, poverty, basic baskets, distribution, social benefits, and how macro/labor changes reach households."
-  },
-  {
-    "id": "labor_incomes",
-    "kind": "region",
-    "slug": "labor-incomes",
-    "title": "Labor & Incomes",
-    "href": "/areas/labor-incomes",
-    "regionId": "labor_incomes",
-    "text": "Labor & Incomes Explain employment quantity/quality, labor formalization, wages, real earnings, informality, and labor-market transmission from sectoral change."
-  },
-  {
     "id": "nominal_stabilization",
     "kind": "region",
     "slug": "nominal-stabilization",
@@ -43,15 +16,6 @@
     "href": "/areas/nominal-stabilization",
     "regionId": "nominal_stabilization",
     "text": "Nominal Stabilization How prices, exchange rates, monetary conditions, and expectations interact during Argentina's stabilization process."
-  },
-  {
-    "id": "real_economy",
-    "kind": "region",
-    "slug": "real-economy",
-    "title": "Real Economy",
-    "href": "/areas/real-economy",
-    "regionId": "real_economy",
-    "text": "Real Economy Explain output, demand, investment, consumption, sectoral performance, production structure, and the real-side consequences of stabilization and openness."
   },
   {
     "id": "ns.inflation",
@@ -1503,15 +1467,6 @@
     "text": "Inflation momentum: monthly and 3-month annualized Show whether current inflation momentum is accelerating or decelerating. Show whether current inflation momentum is accelerating or decelerating."
   },
   {
-    "id": "pi.ns02",
-    "kind": "chart",
-    "slug": "monthly-inflation-with-acceleration-markers",
-    "title": "Monthly inflation with acceleration markers",
-    "href": "/charts/monthly-inflation-with-acceleration-markers",
-    "regionId": "nominal_stabilization",
-    "text": "Monthly inflation with acceleration markers Make turning points in monthly inflation explicit. Make turning points in monthly inflation explicit."
-  },
-  {
     "id": "pi.ns03",
     "kind": "chart",
     "slug": "headline-inflation-monthly-vs-year-over-year",
@@ -1530,42 +1485,6 @@
     "text": "Disinflation since December 2023 Show the stabilization path and recent stalls. Show the stabilization path and recent stalls."
   },
   {
-    "id": "pi.ns05",
-    "kind": "chart",
-    "slug": "headline-vs-core-inflation",
-    "title": "Headline vs core inflation",
-    "href": "/charts/headline-vs-core-inflation",
-    "regionId": "nominal_stabilization",
-    "text": "Headline vs core inflation Test whether disinflation is broad-based. Test whether disinflation is broad-based."
-  },
-  {
-    "id": "pi.ns06",
-    "kind": "chart",
-    "slug": "multiple-measures-of-core-inflation",
-    "title": "Multiple measures of core inflation",
-    "href": "/charts/multiple-measures-of-core-inflation",
-    "regionId": "nominal_stabilization",
-    "text": "Multiple measures of core inflation Compare alternative underlying inflation measures. Compare alternative underlying inflation measures."
-  },
-  {
-    "id": "pi.ns07",
-    "kind": "chart",
-    "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
-    "title": "Food and regulated prices as contributors to monthly inflation",
-    "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation",
-    "regionId": "nominal_stabilization",
-    "text": "Food and regulated prices as contributors to monthly inflation Separate relative-price shocks from aggregate inflation. Separate relative-price shocks from aggregate inflation."
-  },
-  {
-    "id": "pi.ns08",
-    "kind": "chart",
-    "slug": "inflation-driver-decomposition",
-    "title": "Inflation-driver decomposition",
-    "href": "/charts/inflation-driver-decomposition",
-    "regionId": "nominal_stabilization",
-    "text": "Inflation-driver decomposition A decomposition of monthly inflation into the mechanisms that may be sustaining or slowing the price process. Decompose monthly inflation into inertia, demand, rates and FX pass-through when model inputs are available."
-  },
-  {
     "id": "pi.ns09",
     "kind": "chart",
     "slug": "official-fx-change-vs-monthly-inflation",
@@ -1573,123 +1492,6 @@
     "href": "/charts/official-fx-change-vs-monthly-inflation",
     "regionId": "nominal_stabilization",
     "text": "Official FX change vs monthly inflation Visually inspect short-run co-movement without claiming causality. Visually inspect short-run co-movement without claiming causality."
-  },
-  {
-    "id": "pi.ns10",
-    "kind": "chart",
-    "slug": "rolling-fx-pass-through-estimate",
-    "title": "Rolling FX pass-through estimate",
-    "href": "/charts/rolling-fx-pass-through-estimate",
-    "regionId": "nominal_stabilization",
-    "text": "Rolling FX pass-through estimate Estimate how pass-through evolves over time with an explicitly documented model later. Estimate how pass-through evolves over time with an explicitly documented model later."
-  },
-  {
-    "id": "pi.ns11",
-    "kind": "chart",
-    "slug": "inflation-expectations-vs-realized-inflation",
-    "title": "Inflation expectations vs realized inflation",
-    "href": "/charts/inflation-expectations-vs-realized-inflation",
-    "regionId": "nominal_stabilization",
-    "text": "Inflation expectations vs realized inflation Show expectation errors and anchoring. Show expectation errors and anchoring."
-  },
-  {
-    "id": "pi.ns12",
-    "kind": "chart",
-    "slug": "inflation-surprise-through-time",
-    "title": "Inflation surprise through time",
-    "href": "/charts/inflation-surprise-through-time",
-    "regionId": "nominal_stabilization",
-    "text": "Inflation surprise through time Measure how frequently actual inflation surprises expectations. Measure how frequently actual inflation surprises expectations."
-  },
-  {
-    "id": "pi.ns13",
-    "kind": "chart",
-    "slug": "expected-inflation-path",
-    "title": "Expected inflation path",
-    "href": "/charts/expected-inflation-path",
-    "regionId": "nominal_stabilization",
-    "text": "Expected inflation path Summarize near-term and year-end inflation expectations. Summarize near-term and year-end inflation expectations."
-  },
-  {
-    "id": "pi.ns14",
-    "kind": "chart",
-    "slug": "inflation-expectations-fan-horizon-curve",
-    "title": "Inflation expectations fan / horizon curve",
-    "href": "/charts/inflation-expectations-fan-horizon-curve",
-    "regionId": "nominal_stabilization",
-    "text": "Inflation expectations fan / horizon curve Show expectation term structure across horizons. Show expectation term structure across horizons."
-  },
-  {
-    "id": "pi.ns15",
-    "kind": "chart",
-    "slug": "official-exchange-rate-within-the-band",
-    "title": "Official exchange rate within the band",
-    "href": "/charts/official-exchange-rate-within-the-band",
-    "regionId": "nominal_stabilization",
-    "text": "Official exchange rate within the band Track market rate relative to policy corridor. Track market rate relative to policy corridor."
-  },
-  {
-    "id": "pi.ns16",
-    "kind": "chart",
-    "slug": "position-inside-fx-band",
-    "title": "Position inside FX band",
-    "href": "/charts/position-inside-fx-band",
-    "regionId": "nominal_stabilization",
-    "text": "Position inside FX band Normalize the exchange rate's location within the band to 0-100. Normalize the exchange rate's location within the band to 0-100."
-  },
-  {
-    "id": "pi.ns17",
-    "kind": "chart",
-    "slug": "official-ccl-and-blue-exchange-rates",
-    "title": "Official, CCL and blue exchange rates",
-    "href": "/charts/official-ccl-and-blue-exchange-rates",
-    "regionId": "nominal_stabilization",
-    "text": "Official, CCL and blue exchange rates Show convergence/divergence across FX markets. Show convergence/divergence across FX markets."
-  },
-  {
-    "id": "pi.ns18",
-    "kind": "chart",
-    "slug": "fx-gaps-ccl-and-blue",
-    "title": "FX gaps: CCL and blue",
-    "href": "/charts/fx-gaps-ccl-and-blue",
-    "regionId": "nominal_stabilization",
-    "text": "FX gaps: CCL and blue Show market segmentation and stress. Show market segmentation and stress."
-  },
-  {
-    "id": "pi.ns19",
-    "kind": "chart",
-    "slug": "fx-gap-around-stress-episodes",
-    "title": "FX gap around stress episodes",
-    "href": "/charts/fx-gap-around-stress-episodes",
-    "regionId": "nominal_stabilization",
-    "text": "FX gap around stress episodes Compare stress and normalization windows. Compare stress and normalization windows."
-  },
-  {
-    "id": "pi.ns20",
-    "kind": "chart",
-    "slug": "real-effective-exchange-rate-since-dec-2023",
-    "title": "Real effective exchange rate since Dec-2023",
-    "href": "/charts/real-effective-exchange-rate-since-dec-2023",
-    "regionId": "nominal_stabilization",
-    "text": "Real effective exchange rate since Dec-2023 Quantify real appreciation/depreciation during stabilization. Quantify real appreciation/depreciation during stabilization."
-  },
-  {
-    "id": "pi.ns21",
-    "kind": "chart",
-    "slug": "nominal-vs-real-exchange-rate-movement",
-    "title": "Nominal vs real exchange-rate movement",
-    "href": "/charts/nominal-vs-real-exchange-rate-movement",
-    "regionId": "nominal_stabilization",
-    "text": "Nominal vs real exchange-rate movement Contrast nominal depreciation with real appreciation/depreciation. Contrast nominal depreciation with real appreciation/depreciation."
-  },
-  {
-    "id": "pi.ns22",
-    "kind": "chart",
-    "slug": "real-exchange-rate-with-major-policy-regime-markers",
-    "title": "Real exchange rate with major policy-regime markers",
-    "href": "/charts/real-exchange-rate-with-major-policy-regime-markers",
-    "regionId": "nominal_stabilization",
-    "text": "Real exchange rate with major policy-regime markers Put real FX dynamics in institutional context. Put real FX dynamics in institutional context."
   },
   {
     "id": "pi.ns23",
@@ -1701,15 +1503,6 @@
     "text": "BCRA daily FX purchases Show daily intervention/purchase intensity. Show daily intervention/purchase intensity."
   },
   {
-    "id": "pi.ns24",
-    "kind": "chart",
-    "slug": "cumulative-bcra-fx-purchases",
-    "title": "Cumulative BCRA FX purchases",
-    "href": "/charts/cumulative-bcra-fx-purchases",
-    "regionId": "nominal_stabilization",
-    "text": "Cumulative BCRA FX purchases Show cumulative purchase program progress. Show cumulative purchase program progress."
-  },
-  {
     "id": "pi.ns25",
     "kind": "chart",
     "slug": "bcra-purchases-vs-official-exchange-rate",
@@ -1717,87 +1510,6 @@
     "href": "/charts/bcra-purchases-vs-official-exchange-rate",
     "regionId": "nominal_stabilization",
     "text": "BCRA purchases vs official exchange rate Inspect coexistence of purchases and FX stability/appreciation. Inspect coexistence of purchases and FX stability/appreciation."
-  },
-  {
-    "id": "pi.ns26",
-    "kind": "chart",
-    "slug": "bcra-purchases-vs-monetary-base-growth",
-    "title": "BCRA purchases vs monetary-base growth",
-    "href": "/charts/bcra-purchases-vs-monetary-base-growth",
-    "regionId": "nominal_stabilization",
-    "text": "BCRA purchases vs monetary-base growth Show monetary counterpart of FX operations. Show monetary counterpart of FX operations."
-  },
-  {
-    "id": "pi.ns27",
-    "kind": "chart",
-    "slug": "nominal-rates-vs-expected-inflation",
-    "title": "Nominal rates vs expected inflation",
-    "href": "/charts/nominal-rates-vs-expected-inflation",
-    "regionId": "nominal_stabilization",
-    "text": "Nominal rates vs expected inflation Show nominal return relative to expectations. Show nominal return relative to expectations."
-  },
-  {
-    "id": "pi.ns28",
-    "kind": "chart",
-    "slug": "ex-ante-vs-ex-post-real-rates",
-    "title": "Ex-ante vs ex-post real rates",
-    "href": "/charts/ex-ante-vs-ex-post-real-rates",
-    "regionId": "nominal_stabilization",
-    "text": "Ex-ante vs ex-post real rates Distinguish realized and expected monetary tightness. Distinguish realized and expected monetary tightness."
-  },
-  {
-    "id": "pi.ns29",
-    "kind": "chart",
-    "slug": "real-rate-regime-since-2025",
-    "title": "Real-rate regime since 2025",
-    "href": "/charts/real-rate-regime-since-2025",
-    "regionId": "nominal_stabilization",
-    "text": "Real-rate regime since 2025 Show periods of positive/negative real rates. Show periods of positive/negative real rates."
-  },
-  {
-    "id": "pi.ns30",
-    "kind": "chart",
-    "slug": "money-market-rate-volatility",
-    "title": "Money-market rate volatility",
-    "href": "/charts/money-market-rate-volatility",
-    "regionId": "nominal_stabilization",
-    "text": "Money-market rate volatility Show stress and subsequent normalization in short rates. Show stress and subsequent normalization in short rates."
-  },
-  {
-    "id": "pi.ns31",
-    "kind": "chart",
-    "slug": "policy-relevant-rate-vs-money-market-rate",
-    "title": "Policy-relevant rate vs money-market rate",
-    "href": "/charts/policy-relevant-rate-vs-money-market-rate",
-    "regionId": "nominal_stabilization",
-    "text": "Policy-relevant rate vs money-market rate Track transmission and market segmentation. Track transmission and market segmentation."
-  },
-  {
-    "id": "pi.ns32",
-    "kind": "chart",
-    "slug": "reserve-requirements-and-bcra-peso-deposits",
-    "title": "Reserve requirements and BCRA peso deposits",
-    "href": "/charts/reserve-requirements-and-bcra-peso-deposits",
-    "regionId": "nominal_stabilization",
-    "text": "Reserve requirements and BCRA peso deposits Show regulatory liquidity tightness. Show regulatory liquidity tightness."
-  },
-  {
-    "id": "pi.ns33",
-    "kind": "chart",
-    "slug": "reserve-requirement-changes-with-money-market-rates",
-    "title": "Reserve requirement changes with money-market rates",
-    "href": "/charts/reserve-requirement-changes-with-money-market-rates",
-    "regionId": "nominal_stabilization",
-    "text": "Reserve requirement changes with money-market rates Inspect liquidity-rule changes and short rates. Inspect liquidity-rule changes and short rates."
-  },
-  {
-    "id": "pi.ns34",
-    "kind": "chart",
-    "slug": "nominal-monetary-base",
-    "title": "Nominal monetary base",
-    "href": "/charts/nominal-monetary-base",
-    "regionId": "nominal_stabilization",
-    "text": "Nominal monetary base Show recovery in nominal base money. Show recovery in nominal base money."
   },
   {
     "id": "pi.ns35",
@@ -1818,24 +1530,6 @@
     "text": "Transactional M2 nominal and real Separate nominal expansion from real money-demand recovery. Separate nominal expansion from real money-demand recovery."
   },
   {
-    "id": "pi.ns37",
-    "kind": "chart",
-    "slug": "transactional-m2-vs-bcra-projection",
-    "title": "Transactional M2 vs BCRA projection",
-    "href": "/charts/transactional-m2-vs-bcra-projection",
-    "regionId": "nominal_stabilization",
-    "text": "Transactional M2 vs BCRA projection Assess whether money demand is recovering as programmed. Assess whether money demand is recovering as programmed."
-  },
-  {
-    "id": "pi.ns38",
-    "kind": "chart",
-    "slug": "m2-to-gdp-monetization-ratio",
-    "title": "M2-to-GDP monetization ratio",
-    "href": "/charts/m2-to-gdp-monetization-ratio",
-    "regionId": "nominal_stabilization",
-    "text": "M2-to-GDP monetization ratio Show structural depth of domestic monetization. Show structural depth of domestic monetization."
-  },
-  {
     "id": "pi.ns39",
     "kind": "chart",
     "slug": "remonetization-vs-inflation",
@@ -1843,15 +1537,6 @@
     "href": "/charts/remonetization-vs-inflation",
     "regionId": "nominal_stabilization",
     "text": "Remonetization vs inflation Show whether real money balances recover while inflation falls. Show whether real money balances recover while inflation falls."
-  },
-  {
-    "id": "pi.ns40",
-    "kind": "chart",
-    "slug": "remonetization-vs-bcra-fx-purchases",
-    "title": "Remonetization vs BCRA FX purchases",
-    "href": "/charts/remonetization-vs-bcra-fx-purchases",
-    "regionId": "nominal_stabilization",
-    "text": "Remonetization vs BCRA FX purchases Visualize the policy complementarity/tradeoff highlighted by the program. Visualize the policy complementarity/tradeoff highlighted by the program."
   },
   {
     "id": "pi.ns41",
@@ -1863,15 +1548,6 @@
     "text": "Monetary base vs transactional M2 Distinguish money supply from private money demand. Distinguish money supply from private money demand."
   },
   {
-    "id": "pi.ns42",
-    "kind": "chart",
-    "slug": "monetary-base-growth-vs-money-demand-proxy",
-    "title": "Monetary-base growth vs money-demand proxy",
-    "href": "/charts/monetary-base-growth-vs-money-demand-proxy",
-    "regionId": "nominal_stabilization",
-    "text": "Monetary-base growth vs money-demand proxy Check consistency between operational aggregate and demand proxy. Check consistency between operational aggregate and demand proxy."
-  },
-  {
     "id": "pi.ns43",
     "kind": "chart",
     "slug": "monetization-dashboard-base-m2-inflation",
@@ -1879,60 +1555,6 @@
     "href": "/charts/monetization-dashboard-base-m2-inflation",
     "regionId": "nominal_stabilization",
     "text": "Monetization dashboard: base, M2, inflation Compact view of monetary normalization. Compact view of monetary normalization."
-  },
-  {
-    "id": "pi.ns44",
-    "kind": "chart",
-    "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
-    "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
-    "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates",
-    "regionId": "nominal_stabilization",
-    "text": "Credibility dashboard: inflation expectations, FX gap, real rates Show multiple market signals of stabilization credibility. Show multiple market signals of stabilization credibility."
-  },
-  {
-    "id": "pi.ns45",
-    "kind": "chart",
-    "slug": "fx-futures-vs-top-of-band",
-    "title": "FX futures vs top of band",
-    "href": "/charts/fx-futures-vs-top-of-band",
-    "regionId": "nominal_stabilization",
-    "text": "FX futures vs top of band Show market-implied depreciation relative to policy corridor. Show market-implied depreciation relative to policy corridor."
-  },
-  {
-    "id": "pi.ns46",
-    "kind": "chart",
-    "slug": "end-of-year-fx-forward-vs-inflation-expectation",
-    "title": "End-of-year FX forward vs inflation expectation",
-    "href": "/charts/end-of-year-fx-forward-vs-inflation-expectation",
-    "regionId": "nominal_stabilization",
-    "text": "End-of-year FX forward vs inflation expectation Compare nominal FX and inflation expectations over a common horizon. Compare nominal FX and inflation expectations over a common horizon."
-  },
-  {
-    "id": "pi.ns47",
-    "kind": "chart",
-    "slug": "fx-gap-vs-inflation-expectations",
-    "title": "FX gap vs inflation expectations",
-    "href": "/charts/fx-gap-vs-inflation-expectations",
-    "regionId": "nominal_stabilization",
-    "text": "FX gap vs inflation expectations Inspect whether FX-market stress and inflation expectations move together. Inspect whether FX-market stress and inflation expectations move together."
-  },
-  {
-    "id": "pi.ns48",
-    "kind": "chart",
-    "slug": "money-market-volatility-vs-fx-gap",
-    "title": "Money-market volatility vs FX gap",
-    "href": "/charts/money-market-volatility-vs-fx-gap",
-    "regionId": "nominal_stabilization",
-    "text": "Money-market volatility vs FX gap Compare two stress/credibility signals. Compare two stress/credibility signals."
-  },
-  {
-    "id": "pi.ns49",
-    "kind": "chart",
-    "slug": "carry-environment-real-rates-vs-fx-depreciation",
-    "title": "Carry environment: real rates vs FX depreciation",
-    "href": "/charts/carry-environment-real-rates-vs-fx-depreciation",
-    "regionId": "nominal_stabilization",
-    "text": "Carry environment: real rates vs FX depreciation Characterize incentives behind carry-trade narratives without prescribing investment. Characterize incentives behind carry-trade narratives without prescribing investment."
   },
   {
     "id": "pi.ns50",
@@ -1944,24 +1566,6 @@
     "text": "Inflation vs FX depreciation since stabilization start Longer view of co-movement and changing pass-through. Longer view of co-movement and changing pass-through."
   },
   {
-    "id": "pi.ns51",
-    "kind": "chart",
-    "slug": "core-services-vs-core-goods-inflation",
-    "title": "Core services vs core goods inflation",
-    "href": "/charts/core-services-vs-core-goods-inflation",
-    "regionId": "nominal_stabilization",
-    "text": "Core services vs core goods inflation Identify composition shifts in underlying inflation. Identify composition shifts in underlying inflation."
-  },
-  {
-    "id": "pi.ns52",
-    "kind": "chart",
-    "slug": "nominal-stabilization-state-map",
-    "title": "Nominal-stabilization state map",
-    "href": "/charts/nominal-stabilization-state-map",
-    "regionId": "nominal_stabilization",
-    "text": "Nominal-stabilization state map A compact multi-indicator state vector for the slice; not a single causal index. A compact multi-indicator state vector for the slice; not a single causal index."
-  },
-  {
     "id": "pi.ns53",
     "kind": "chart",
     "slug": "monthly-headline-inflation",
@@ -1969,15 +1573,6 @@
     "href": "/charts/monthly-headline-inflation",
     "regionId": "nominal_stabilization",
     "text": "Monthly headline inflation Track the recent path of headline monthly inflation in canonical percent units. Track the recent path of headline monthly inflation in canonical percent units."
-  },
-  {
-    "id": "pi.ns54",
-    "kind": "chart",
-    "slug": "real-effective-exchange-rate",
-    "title": "Real effective exchange rate",
-    "href": "/charts/real-effective-exchange-rate",
-    "regionId": "nominal_stabilization",
-    "text": "Real effective exchange rate Track the multilateral real exchange-rate index and place the December 2023 shift in temporal context. Track the multilateral real exchange-rate index and place the December 2023 shift in temporal context."
   },
   {
     "id": "pi.ns55",
@@ -1989,15 +1584,6 @@
     "text": "Official wholesale exchange rate Track the BCRA wholesale ARS/USD reference rate directly. Track the BCRA wholesale ARS/USD reference rate directly."
   },
   {
-    "id": "pi.ns56",
-    "kind": "chart",
-    "slug": "private-transactional-m2",
-    "title": "Private transactional M2",
-    "href": "/charts/private-transactional-m2",
-    "regionId": "nominal_stabilization",
-    "text": "Private transactional M2 Track the nominal stock of private transactional M2. Track the nominal stock of private transactional M2."
-  },
-  {
     "id": "pi.ns57",
     "kind": "chart",
     "slug": "cumulative-bcra-fx-purchases-since-jan-2026",
@@ -2005,24 +1591,6 @@
     "href": "/charts/cumulative-bcra-fx-purchases-since-jan-2026",
     "regionId": "nominal_stabilization",
     "text": "Cumulative BCRA FX purchases since Jan 2026 Accumulate the registered daily BCRA FX-purchase flow from the start of 2026. Accumulate the registered daily BCRA FX-purchase flow from the start of 2026."
-  },
-  {
-    "id": "pi.ns58",
-    "kind": "chart",
-    "slug": "monetary-base-and-transactional-m2",
-    "title": "Monetary base and transactional M2",
-    "href": "/charts/monetary-base-and-transactional-m2",
-    "regionId": "nominal_stabilization",
-    "text": "Monetary base and transactional M2 Compare the two nominal monetary stocks without implying that their levels are interchangeable. Compare the two nominal monetary stocks without implying that their levels are interchangeable."
-  },
-  {
-    "id": "pi.ns59",
-    "kind": "chart",
-    "slug": "bcra-fx-purchases-and-the-monetary-base",
-    "title": "BCRA FX purchases and the monetary base",
-    "href": "/charts/bcra-fx-purchases-and-the-monetary-base",
-    "regionId": "nominal_stabilization",
-    "text": "BCRA FX purchases and the monetary base Place daily FX-purchase flows beside the nominal monetary-base stock, using separate axes and no implicit resampling. Place daily FX-purchase flows beside the nominal monetary-base stock, using separate axes and no implicit resampling."
   },
   {
     "id": "pi.ns60",
@@ -2052,24 +1620,6 @@
     "text": "TAMAR ex-post real rate Compare the TAMAR annual return with realized monthly CPI inflation on an explicit annualized real-rate basis. Compare the TAMAR annual return with realized monthly CPI inflation on an explicit annualized real-rate basis."
   },
   {
-    "id": "pi.ns63",
-    "kind": "chart",
-    "slug": "bcra-policy-rate-history",
-    "title": "BCRA policy rate history",
-    "href": "/charts/bcra-policy-rate-history",
-    "regionId": "nominal_stabilization",
-    "text": "BCRA policy rate history Preserve the observed BCRA policy-rate history through the final provider observation without implying that the discontinued series is current. Preserve the observed BCRA policy-rate history through the final provider observation without implying that the discontinued series is current."
-  },
-  {
-    "id": "pi.ns64",
-    "kind": "chart",
-    "slug": "bank-reserve-balances-at-the-bcra",
-    "title": "Bank reserve balances at the BCRA",
-    "href": "/charts/bank-reserve-balances-at-the-bcra",
-    "regionId": "nominal_stabilization",
-    "text": "Bank reserve balances at the BCRA Track banks' peso deposit balances held at the BCRA directly, without inferring a reserve-requirement ratio. Track banks' peso deposit balances held at the BCRA directly, without inferring a reserve-requirement ratio."
-  },
-  {
     "id": "pi.ns65",
     "kind": "chart",
     "slug": "monthly-inflation-and-acceleration",
@@ -2077,267 +1627,6 @@
     "href": "/charts/monthly-inflation-and-acceleration",
     "regionId": "nominal_stabilization",
     "text": "Monthly inflation and acceleration Show the monthly inflation rate together with its month-to-month change in percentage points. Show the monthly inflation rate together with its month-to-month change in percentage points."
-  },
-  {
-    "id": "pi.ef01",
-    "kind": "chart",
-    "slug": "gross-reserves-nir-and-liquid-buffers",
-    "title": "Gross reserves, NIR, and liquid buffers",
-    "href": "/charts/gross-reserves-nir-and-liquid-buffers",
-    "regionId": "external_financial_constraint",
-    "text": "Gross reserves, NIR, and liquid buffers Separate headline reserve assets from net and readily usable reserve buffers. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Separate headline reserve assets from net and readily usable reserve buffers."
-  },
-  {
-    "id": "pi.ef02",
-    "kind": "chart",
-    "slug": "reserve-adequacy-dashboard",
-    "title": "Reserve adequacy dashboard",
-    "href": "/charts/reserve-adequacy-dashboard",
-    "regionId": "external_financial_constraint",
-    "text": "Reserve adequacy dashboard Show reserve strength against several obligations rather than relying on one headline stock. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show reserve strength against several obligations rather than relying on one headline stock."
-  },
-  {
-    "id": "pi.ef03",
-    "kind": "chart",
-    "slug": "nir-versus-program-target-path",
-    "title": "NIR versus program target path",
-    "href": "/charts/nir-versus-program-target-path",
-    "regionId": "external_financial_constraint",
-    "text": "NIR versus program target path Track whether usable reserves are converging toward the program path. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Track whether usable reserves are converging toward the program path."
-  },
-  {
-    "id": "pi.ef04",
-    "kind": "chart",
-    "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
-    "title": "Reserve accumulation versus next-12m FX debt service",
-    "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service",
-    "regionId": "external_financial_constraint",
-    "text": "Reserve accumulation versus next-12m FX debt service Compare reserve rebuilding with the scale of near-term foreign-currency obligations. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Compare reserve rebuilding with the scale of near-term foreign-currency obligations."
-  },
-  {
-    "id": "pi.ef05",
-    "kind": "chart",
-    "slug": "monthly-reserve-change-gross-versus-nir",
-    "title": "Monthly reserve change: gross versus NIR",
-    "href": "/charts/monthly-reserve-change-gross-versus-nir",
-    "regionId": "external_financial_constraint",
-    "text": "Monthly reserve change: gross versus NIR Reveal periods when headline reserves and the net reserve position move differently. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Reveal periods when headline reserves and the net reserve position move differently."
-  },
-  {
-    "id": "pi.ef06",
-    "kind": "chart",
-    "slug": "bcra-fx-purchases-versus-nir-accumulation",
-    "title": "BCRA FX purchases versus NIR accumulation",
-    "href": "/charts/bcra-fx-purchases-versus-nir-accumulation",
-    "regionId": "external_financial_constraint",
-    "text": "BCRA FX purchases versus NIR accumulation Compare central-bank FX purchases with the reserve metric most relevant to usable external buffers. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Compare central-bank FX purchases with the reserve metric most relevant to usable external buffers."
-  },
-  {
-    "id": "pi.ef07",
-    "kind": "chart",
-    "slug": "external-financing-and-debt-service-bridge",
-    "title": "External financing and debt-service bridge",
-    "href": "/charts/external-financing-and-debt-service-bridge",
-    "regionId": "external_financial_constraint",
-    "text": "External financing and debt-service bridge Show how financing inflows and debt payments help reconcile reserve changes. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show how financing inflows and debt payments help reconcile reserve changes."
-  },
-  {
-    "id": "pi.ef08",
-    "kind": "chart",
-    "slug": "current-account-balance-through-time",
-    "title": "Current-account balance through time",
-    "href": "/charts/current-account-balance-through-time",
-    "regionId": "external_financial_constraint",
-    "text": "Current-account balance through time Place the recent current-account position in a longer historical frame. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Place the recent current-account position in a longer historical frame."
-  },
-  {
-    "id": "pi.ef09",
-    "kind": "chart",
-    "slug": "current-account-component-decomposition",
-    "title": "Current-account component decomposition",
-    "href": "/charts/current-account-component-decomposition",
-    "regionId": "external_financial_constraint",
-    "text": "Current-account component decomposition Show which external-flow components are improving or weakening the current account. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show which external-flow components are improving or weakening the current account."
-  },
-  {
-    "id": "pi.ef10",
-    "kind": "chart",
-    "slug": "goods-surplus-versus-services-deficit",
-    "title": "Goods surplus versus services deficit",
-    "href": "/charts/goods-surplus-versus-services-deficit",
-    "regionId": "external_financial_constraint",
-    "text": "Goods surplus versus services deficit Make the offset between merchandise trade and services flows explicit. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Make the offset between merchandise trade and services flows explicit."
-  },
-  {
-    "id": "pi.ef11",
-    "kind": "chart",
-    "slug": "primary-income-drag-on-the-current-account",
-    "title": "Primary-income drag on the current account",
-    "href": "/charts/primary-income-drag-on-the-current-account",
-    "regionId": "external_financial_constraint",
-    "text": "Primary-income drag on the current account Show the role of interest and investment-income flows in the external balance. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show the role of interest and investment-income flows in the external balance."
-  },
-  {
-    "id": "pi.ef12",
-    "kind": "chart",
-    "slug": "financial-account-components",
-    "title": "Financial-account components",
-    "href": "/charts/financial-account-components",
-    "regionId": "external_financial_constraint",
-    "text": "Financial-account components Distinguish direct investment, private financial flows, and public flows. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Distinguish direct investment, private financial flows, and public flows."
-  },
-  {
-    "id": "pi.ef13",
-    "kind": "chart",
-    "slug": "capital-inflows-versus-current-account-financing-need",
-    "title": "Capital inflows versus current-account financing need",
-    "href": "/charts/capital-inflows-versus-current-account-financing-need",
-    "regionId": "external_financial_constraint",
-    "text": "Capital inflows versus current-account financing need Compare observed inflows with the external financing requirement implied by the current account. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Compare observed inflows with the external financing requirement implied by the current account."
-  },
-  {
-    "id": "pi.ef14",
-    "kind": "chart",
-    "slug": "fdi-versus-broader-capital-inflows",
-    "title": "FDI versus broader capital inflows",
-    "href": "/charts/fdi-versus-broader-capital-inflows",
-    "regionId": "external_financial_constraint",
-    "text": "FDI versus broader capital inflows Separate longer-horizon direct investment from the broader pool of external financing. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Separate longer-horizon direct investment from the broader pool of external financing."
-  },
-  {
-    "id": "pi.ef15",
-    "kind": "chart",
-    "slug": "private-financial-flows-around-the-2025-stress-episode",
-    "title": "Private financial flows around the 2025 stress episode",
-    "href": "/charts/private-financial-flows-around-the-2025-stress-episode",
-    "regionId": "external_financial_constraint",
-    "text": "Private financial flows around the 2025 stress episode Show the scale and reversal of private external-flow pressure around political stress. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show the scale and reversal of private external-flow pressure around political stress."
-  },
-  {
-    "id": "pi.ef16",
-    "kind": "chart",
-    "slug": "private-financial-flows-versus-reserve-accumulation",
-    "title": "Private financial flows versus reserve accumulation",
-    "href": "/charts/private-financial-flows-versus-reserve-accumulation",
-    "regionId": "external_financial_constraint",
-    "text": "Private financial flows versus reserve accumulation Compare private financial outflows with the evolution of net reserve buffers. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Compare private financial outflows with the evolution of net reserve buffers."
-  },
-  {
-    "id": "pi.ef17",
-    "kind": "chart",
-    "slug": "sovereign-spreads-through-the-market-re-entry-window",
-    "title": "Sovereign spreads through the market re-entry window",
-    "href": "/charts/sovereign-spreads-through-the-market-re-entry-window",
-    "regionId": "external_financial_constraint",
-    "text": "Sovereign spreads through the market re-entry window Track the price of sovereign risk as Argentina attempts to regain durable market access. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Track the price of sovereign risk as Argentina attempts to regain durable market access."
-  },
-  {
-    "id": "pi.ef18",
-    "kind": "chart",
-    "slug": "sovereign-and-corporate-spreads",
-    "title": "Sovereign and corporate spreads",
-    "href": "/charts/sovereign-and-corporate-spreads",
-    "regionId": "external_financial_constraint",
-    "text": "Sovereign and corporate spreads Compare sovereign risk with borrowing conditions faced by firms. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Compare sovereign risk with borrowing conditions faced by firms."
-  },
-  {
-    "id": "pi.ef19",
-    "kind": "chart",
-    "slug": "fx-issuance-volumes-by-issuer-type",
-    "title": "FX issuance volumes by issuer type",
-    "href": "/charts/fx-issuance-volumes-by-issuer-type",
-    "regionId": "external_financial_constraint",
-    "text": "FX issuance volumes by issuer type Show whether market access is broadening beyond isolated transactions. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show whether market access is broadening beyond isolated transactions."
-  },
-  {
-    "id": "pi.ef20",
-    "kind": "chart",
-    "slug": "reserve-accumulation-versus-sovereign-spreads",
-    "title": "Reserve accumulation versus sovereign spreads",
-    "href": "/charts/reserve-accumulation-versus-sovereign-spreads",
-    "regionId": "external_financial_constraint",
-    "text": "Reserve accumulation versus sovereign spreads Show whether stronger reserve buffers are being accompanied by lower sovereign risk. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show whether stronger reserve buffers are being accompanied by lower sovereign risk."
-  },
-  {
-    "id": "pi.ef21",
-    "kind": "chart",
-    "slug": "gross-reserves-versus-sovereign-spreads",
-    "title": "Gross reserves versus sovereign spreads",
-    "href": "/charts/gross-reserves-versus-sovereign-spreads",
-    "regionId": "external_financial_constraint",
-    "text": "Gross reserves versus sovereign spreads Contrast the headline reserve stock with market pricing of sovereign risk. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Contrast the headline reserve stock with market pricing of sovereign risk."
-  },
-  {
-    "id": "pi.ef22",
-    "kind": "chart",
-    "slug": "fx-debt-service-maturity-wall",
-    "title": "FX debt-service maturity wall",
-    "href": "/charts/fx-debt-service-maturity-wall",
-    "regionId": "external_financial_constraint",
-    "text": "FX debt-service maturity wall Make the near-term foreign-currency payment schedule visible by creditor and market category. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Make the near-term foreign-currency payment schedule visible by creditor and market category."
-  },
-  {
-    "id": "pi.ef23",
-    "kind": "chart",
-    "slug": "debt-service-versus-reserves",
-    "title": "Debt service versus reserves",
-    "href": "/charts/debt-service-versus-reserves",
-    "regionId": "external_financial_constraint",
-    "text": "Debt service versus reserves Compare the payment burden with both gross and net reserve buffers. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Compare the payment burden with both gross and net reserve buffers."
-  },
-  {
-    "id": "pi.ef24",
-    "kind": "chart",
-    "slug": "official-financing-swaps-and-repos",
-    "title": "Official financing, swaps, and repos",
-    "href": "/charts/official-financing-swaps-and-repos",
-    "regionId": "external_financial_constraint",
-    "text": "Official financing, swaps, and repos Show the composition and changing role of official and secured external financing. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Show the composition and changing role of official and secured external financing."
-  },
-  {
-    "id": "pi.ef25",
-    "kind": "chart",
-    "slug": "swap-and-repo-liabilities-versus-nir",
-    "title": "Swap and repo liabilities versus NIR",
-    "href": "/charts/swap-and-repo-liabilities-versus-nir",
-    "regionId": "external_financial_constraint",
-    "text": "Swap and repo liabilities versus NIR Place reserve-linked liabilities beside the net reserve position. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Place reserve-linked liabilities beside the net reserve position."
-  },
-  {
-    "id": "pi.ef26",
-    "kind": "chart",
-    "slug": "market-issuance-cumulative-since-re-entry",
-    "title": "Market issuance cumulative since re-entry",
-    "href": "/charts/market-issuance-cumulative-since-re-entry",
-    "regionId": "external_financial_constraint",
-    "text": "Market issuance cumulative since re-entry Track the cumulative scale and breadth of new foreign-currency market financing. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Track the cumulative scale and breadth of new foreign-currency market financing."
-  },
-  {
-    "id": "pi.ef27",
-    "kind": "chart",
-    "slug": "external-debt-in-dollars-and-percent-of-gdp",
-    "title": "External debt in dollars and percent of GDP",
-    "href": "/charts/external-debt-in-dollars-and-percent-of-gdp",
-    "regionId": "external_financial_constraint",
-    "text": "External debt in dollars and percent of GDP Separate the nominal debt stock from its burden relative to the economy. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Separate the nominal debt stock from its burden relative to the economy."
-  },
-  {
-    "id": "pi.ef28",
-    "kind": "chart",
-    "slug": "reserve-coverage-of-external-debt-service",
-    "title": "Reserve coverage of external debt service",
-    "href": "/charts/reserve-coverage-of-external-debt-service",
-    "regionId": "external_financial_constraint",
-    "text": "Reserve coverage of external debt service Track whether reserve buffers are improving relative to imminent foreign-currency payments. This view is designed as an explanatory chart rather than a standalone signal. Read the series together, keep the stated reference frame visible, and avoid treating co-movement as causal evidence unless a separately documented methodology supports that interpretation. Track whether reserve buffers are improving relative to imminent foreign-currency payments."
-  },
-  {
-    "id": "pi.ef29",
-    "kind": "chart",
-    "slug": "private-credit-as-a-share-of-gdp",
-    "title": "Private credit as a share of GDP",
-    "href": "/charts/private-credit-as-a-share-of-gdp",
-    "regionId": "external_financial_constraint",
-    "text": "Private credit as a share of GDP Show how shallow domestic credit remains relative to the economy and peers. Show how shallow domestic credit remains relative to the economy and peers."
   },
   {
     "id": "pi.ef30",
@@ -2349,24 +1638,6 @@
     "text": "Real private-credit growth Show the pace of credit deepening and recent slowdowns after rapid expansion. Show the pace of credit deepening and recent slowdowns after rapid expansion."
   },
   {
-    "id": "pi.ef31",
-    "kind": "chart",
-    "slug": "real-credit-growth-versus-npl-ratio",
-    "title": "Real credit growth versus NPL ratio",
-    "href": "/charts/real-credit-growth-versus-npl-ratio",
-    "regionId": "external_financial_constraint",
-    "text": "Real credit growth versus NPL ratio Test whether faster credit expansion is being accompanied by weaker loan performance. Test whether faster credit expansion is being accompanied by weaker loan performance."
-  },
-  {
-    "id": "pi.ef32",
-    "kind": "chart",
-    "slug": "npl-ratio-through-the-credit-cycle",
-    "title": "NPL ratio through the credit cycle",
-    "href": "/charts/npl-ratio-through-the-credit-cycle",
-    "regionId": "external_financial_constraint",
-    "text": "NPL ratio through the credit cycle Place recent deterioration in credit quality in a longer-run context. Place recent deterioration in credit quality in a longer-run context."
-  },
-  {
     "id": "pi.ef33",
     "kind": "chart",
     "slug": "fx-deposits-in-the-domestic-financial-system",
@@ -2374,105 +1645,6 @@
     "href": "/charts/fx-deposits-in-the-domestic-financial-system",
     "regionId": "external_financial_constraint",
     "text": "FX deposits in the domestic financial system Show the scale and share of dollar deposits as a component of domestic financial depth. Show the scale and share of dollar deposits as a component of domestic financial depth."
-  },
-  {
-    "id": "pi.ef34",
-    "kind": "chart",
-    "slug": "fx-deposits-versus-bank-liquidity",
-    "title": "FX deposits versus bank liquidity",
-    "href": "/charts/fx-deposits-versus-bank-liquidity",
-    "regionId": "external_financial_constraint",
-    "text": "FX deposits versus bank liquidity Place growing foreign-currency deposits beside system liquidity rather than treating dollarization as one-dimensional. Place growing foreign-currency deposits beside system liquidity rather than treating dollarization as one-dimensional."
-  },
-  {
-    "id": "pi.ef35",
-    "kind": "chart",
-    "slug": "bank-capital-and-npls",
-    "title": "Bank capital and NPLs",
-    "href": "/charts/bank-capital-and-npls",
-    "regionId": "external_financial_constraint",
-    "text": "Bank capital and NPLs Show whether rising credit risk is occurring inside a sufficiently capitalized banking system. Show whether rising credit risk is occurring inside a sufficiently capitalized banking system."
-  },
-  {
-    "id": "pi.ef36",
-    "kind": "chart",
-    "slug": "financial-depth-private-credit-and-domestic-markets",
-    "title": "Financial depth: private credit and domestic markets",
-    "href": "/charts/financial-depth-private-credit-and-domestic-markets",
-    "regionId": "external_financial_constraint",
-    "text": "Financial depth: private credit and domestic markets Compare bank intermediation and capital-market depth within one structural view. Compare bank intermediation and capital-market depth within one structural view."
-  },
-  {
-    "id": "pi.ef37",
-    "kind": "chart",
-    "slug": "financial-depth-versus-emerging-market-peers",
-    "title": "Financial depth versus emerging-market peers",
-    "href": "/charts/financial-depth-versus-emerging-market-peers",
-    "regionId": "external_financial_constraint",
-    "text": "Financial depth versus emerging-market peers Benchmark Argentina's shallow financial system against a transparent peer set. Benchmark Argentina's shallow financial system against a transparent peer set."
-  },
-  {
-    "id": "pi.ef38",
-    "kind": "chart",
-    "slug": "assets-outside-the-financial-system-versus-private-credit",
-    "title": "Assets outside the financial system versus private credit",
-    "href": "/charts/assets-outside-the-financial-system-versus-private-credit",
-    "regionId": "external_financial_constraint",
-    "text": "Assets outside the financial system versus private credit Show the coexistence of substantial resident savings with low domestic financial intermediation. Show the coexistence of substantial resident savings with low domestic financial intermediation."
-  },
-  {
-    "id": "pi.ef39",
-    "kind": "chart",
-    "slug": "domestic-capital-market-depth-versus-external-market-issuance",
-    "title": "Domestic capital-market depth versus external market issuance",
-    "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance",
-    "regionId": "external_financial_constraint",
-    "text": "Domestic capital-market depth versus external market issuance Contrast local savings mobilization with reliance on foreign-currency market financing. Contrast local savings mobilization with reliance on foreign-currency market financing."
-  },
-  {
-    "id": "pi.ef40",
-    "kind": "chart",
-    "slug": "reer-versus-current-account-balance",
-    "title": "REER versus current-account balance",
-    "href": "/charts/reer-versus-current-account-balance",
-    "regionId": "external_financial_constraint",
-    "text": "REER versus current-account balance Show the joint evolution of real exchange-rate valuation and the current-account balance without imposing causality. Show the joint evolution of real exchange-rate valuation and the current-account balance without imposing causality."
-  },
-  {
-    "id": "pi.ef41",
-    "kind": "chart",
-    "slug": "reer-versus-nir-accumulation",
-    "title": "REER versus NIR accumulation",
-    "href": "/charts/reer-versus-nir-accumulation",
-    "regionId": "external_financial_constraint",
-    "text": "REER versus NIR accumulation Show how real appreciation and reserve rebuilding have coexisted or diverged through the stabilization period. Show how real appreciation and reserve rebuilding have coexisted or diverged through the stabilization period."
-  },
-  {
-    "id": "pi.ef42",
-    "kind": "chart",
-    "slug": "bcra-fx-purchases-and-reserve-accumulation",
-    "title": "BCRA FX purchases and reserve accumulation",
-    "href": "/charts/bcra-fx-purchases-and-reserve-accumulation",
-    "regionId": "external_financial_constraint",
-    "text": "BCRA FX purchases and reserve accumulation Connect central-bank purchases to changes in gross and net reserve buffers. Connect central-bank purchases to changes in gross and net reserve buffers."
-  },
-  {
-    "id": "pi.ef43",
-    "kind": "chart",
-    "slug": "bcra-fx-purchases-versus-sovereign-spreads",
-    "title": "BCRA FX purchases versus sovereign spreads",
-    "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads",
-    "regionId": "external_financial_constraint",
-    "text": "BCRA FX purchases versus sovereign spreads Track whether reserve-building operations coincide with improving market-risk pricing. Track whether reserve-building operations coincide with improving market-risk pricing."
-  },
-  {
-    "id": "pi.ef44",
-    "kind": "chart",
-    "slug": "external-vulnerability-state-map",
-    "title": "External vulnerability state map",
-    "href": "/charts/external-vulnerability-state-map",
-    "regionId": "external_financial_constraint",
-    "text": "External vulnerability state map Summarize the external state across buffers, flow balance, market access, and near-term obligations. Summarize the external state across buffers, flow balance, market access, and near-term obligations."
   },
   {
     "id": "pi.ef45",
@@ -2511,15 +1683,6 @@
     "text": "Reserve accumulation year to date Measure the current reserve stock against the final available observation of the prior calendar year. Measure the current reserve stock against the final available observation of the prior calendar year."
   },
   {
-    "id": "pi.ef49",
-    "kind": "chart",
-    "slug": "bcra-fx-purchases-and-gross-reserves",
-    "title": "BCRA FX purchases and gross reserves",
-    "href": "/charts/bcra-fx-purchases-and-gross-reserves",
-    "regionId": "external_financial_constraint",
-    "text": "BCRA FX purchases and gross reserves Place daily FX-purchase flows beside the gross reserve stock, using separate axes and no causal claim. Place daily FX-purchase flows beside the gross reserve stock, using separate axes and no causal claim."
-  },
-  {
     "id": "pi.ef50",
     "kind": "chart",
     "slug": "foreign-currency-deposits",
@@ -2529,24 +1692,6 @@
     "text": "Foreign-currency deposits Track the private-sector foreign-currency deposit stock directly in USD billions; the deposit share remains a separate unresolved measurement. Track the private-sector foreign-currency deposit stock directly in USD billions; the deposit share remains a separate unresolved measurement."
   },
   {
-    "id": "pi.ef51",
-    "kind": "chart",
-    "slug": "private-credit-by-currency",
-    "title": "Private credit by currency",
-    "href": "/charts/private-credit-by-currency",
-    "regionId": "external_financial_constraint",
-    "text": "Private credit by currency Separate peso and foreign-currency components of private credit using provider-consistent ARS-equivalent stocks. Separate peso and foreign-currency components of private credit using provider-consistent ARS-equivalent stocks."
-  },
-  {
-    "id": "pi.ef52",
-    "kind": "chart",
-    "slug": "private-deposits-by-currency",
-    "title": "Private deposits by currency",
-    "href": "/charts/private-deposits-by-currency",
-    "regionId": "external_financial_constraint",
-    "text": "Private deposits by currency Separate peso and foreign-currency components of private deposits using provider-consistent ARS-equivalent stocks. Separate peso and foreign-currency components of private deposits using provider-consistent ARS-equivalent stocks."
-  },
-  {
     "id": "pi.ef53",
     "kind": "chart",
     "slug": "foreign-currency-shares-of-private-credit-and-deposits",
@@ -2554,14 +1699,5 @@
     "href": "/charts/foreign-currency-shares-of-private-credit-and-deposits",
     "regionId": "external_financial_constraint",
     "text": "Foreign-currency shares of private credit and deposits Compare dollarization on the asset and liability sides of domestic financial intermediation. Compare dollarization on the asset and liability sides of domestic financial intermediation."
-  },
-  {
-    "id": "pi.ef54",
-    "kind": "chart",
-    "slug": "private-credit-and-deposits",
-    "title": "Private credit and deposits",
-    "href": "/charts/private-credit-and-deposits",
-    "regionId": "external_financial_constraint",
-    "text": "Private credit and deposits Place total private credit beside the private deposit base using consistent ARS-equivalent source measurements. Place total private credit beside the private deposit base using consistent ARS-equivalent source measurements."
   }
 ]

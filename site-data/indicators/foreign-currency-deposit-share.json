@@ -125,13 +125,6 @@
       }
     },
     {
-      "id": "pi.ef34",
-      "kind": "chart",
-      "slug": "fx-deposits-versus-bank-liquidity",
-      "title": "FX deposits versus bank liquidity",
-      "href": "/charts/fx-deposits-versus-bank-liquidity"
-    },
-    {
       "id": "pi.ef53",
       "kind": "chart",
       "slug": "foreign-currency-shares-of-private-credit-and-deposits",
@@ -437,14 +430,6 @@
       }
     },
     {
-      "id": "pi.ef34",
-      "kind": "chart",
-      "slug": "fx-deposits-versus-bank-liquidity",
-      "title": "FX deposits versus bank liquidity",
-      "href": "/charts/fx-deposits-versus-bank-liquidity",
-      "distance": 1
-    },
-    {
       "id": "q.ef14",
       "kind": "question",
       "slug": "is-private-credit-genuinely-deepening",
@@ -478,7 +463,7 @@
     }
   ],
   "counts": {
-    "charts": 3,
+    "charts": 2,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

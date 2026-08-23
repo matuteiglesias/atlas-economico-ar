@@ -34,43 +34,7 @@
   "unitSemantics": "percent_annualized",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ns28",
-      "kind": "chart",
-      "slug": "ex-ante-vs-ex-post-real-rates",
-      "title": "Ex-ante vs ex-post real rates",
-      "href": "/charts/ex-ante-vs-ex-post-real-rates"
-    },
-    {
-      "id": "pi.ns29",
-      "kind": "chart",
-      "slug": "real-rate-regime-since-2025",
-      "title": "Real-rate regime since 2025",
-      "href": "/charts/real-rate-regime-since-2025"
-    },
-    {
-      "id": "pi.ns44",
-      "kind": "chart",
-      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
-      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
-      "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates"
-    },
-    {
-      "id": "pi.ns49",
-      "kind": "chart",
-      "slug": "carry-environment-real-rates-vs-fx-depreciation",
-      "title": "Carry environment: real rates vs FX depreciation",
-      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation"
-    },
-    {
-      "id": "pi.ns52",
-      "kind": "chart",
-      "slug": "nominal-stabilization-state-map",
-      "title": "Nominal-stabilization state map",
-      "href": "/charts/nominal-stabilization-state-map"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [
     "di.ns.real_rate_exante"
@@ -85,46 +49,6 @@
       "distance": 1
     },
     {
-      "id": "pi.ns49",
-      "kind": "chart",
-      "slug": "carry-environment-real-rates-vs-fx-depreciation",
-      "title": "Carry environment: real rates vs FX depreciation",
-      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns44",
-      "kind": "chart",
-      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
-      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
-      "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns28",
-      "kind": "chart",
-      "slug": "ex-ante-vs-ex-post-real-rates",
-      "title": "Ex-ante vs ex-post real rates",
-      "href": "/charts/ex-ante-vs-ex-post-real-rates",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns52",
-      "kind": "chart",
-      "slug": "nominal-stabilization-state-map",
-      "title": "Nominal-stabilization state map",
-      "href": "/charts/nominal-stabilization-state-map",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns29",
-      "kind": "chart",
-      "slug": "real-rate-regime-since-2025",
-      "title": "Real-rate regime since 2025",
-      "href": "/charts/real-rate-regime-since-2025",
-      "distance": 1
-    },
-    {
       "id": "q.ns12",
       "kind": "question",
       "slug": "are-interest-rates-restrictive-in-real-terms",
@@ -134,7 +58,7 @@
     }
   ],
   "counts": {
-    "charts": 5,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

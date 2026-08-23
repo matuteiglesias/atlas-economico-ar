@@ -34,15 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef22",
-      "kind": "chart",
-      "slug": "fx-debt-service-maturity-wall",
-      "title": "FX debt-service maturity wall",
-      "href": "/charts/fx-debt-service-maturity-wall"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -52,14 +44,6 @@
       "slug": "external-refinancing-needs",
       "title": "External refinancing needs",
       "href": "/topics/external-refinancing-needs",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef22",
-      "kind": "chart",
-      "slug": "fx-debt-service-maturity-wall",
-      "title": "FX debt-service maturity wall",
-      "href": "/charts/fx-debt-service-maturity-wall",
       "distance": 1
     },
     {
@@ -96,7 +80,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

@@ -34,15 +34,7 @@
   "unitSemantics": "percent_annualized",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ns06",
-      "kind": "chart",
-      "slug": "multiple-measures-of-core-inflation",
-      "title": "Multiple measures of core inflation",
-      "href": "/charts/multiple-measures-of-core-inflation"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -52,14 +44,6 @@
       "slug": "core-inflation",
       "title": "Core inflation",
       "href": "/topics/core-inflation",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns06",
-      "kind": "chart",
-      "slug": "multiple-measures-of-core-inflation",
-      "title": "Multiple measures of core inflation",
-      "href": "/charts/multiple-measures-of-core-inflation",
       "distance": 1
     },
     {
@@ -104,7 +88,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

@@ -36,34 +36,6 @@
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
   "charts": [
     {
-      "id": "pi.ef01",
-      "kind": "chart",
-      "slug": "gross-reserves-nir-and-liquid-buffers",
-      "title": "Gross reserves, NIR, and liquid buffers",
-      "href": "/charts/gross-reserves-nir-and-liquid-buffers"
-    },
-    {
-      "id": "pi.ef21",
-      "kind": "chart",
-      "slug": "gross-reserves-versus-sovereign-spreads",
-      "title": "Gross reserves versus sovereign spreads",
-      "href": "/charts/gross-reserves-versus-sovereign-spreads"
-    },
-    {
-      "id": "pi.ef23",
-      "kind": "chart",
-      "slug": "debt-service-versus-reserves",
-      "title": "Debt service versus reserves",
-      "href": "/charts/debt-service-versus-reserves"
-    },
-    {
-      "id": "pi.ef42",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-and-reserve-accumulation",
-      "title": "BCRA FX purchases and reserve accumulation",
-      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation"
-    },
-    {
       "id": "pi.ef46",
       "kind": "chart",
       "slug": "gross-international-reserves",
@@ -123,83 +95,6 @@
             "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
           }
         ]
-      }
-    },
-    {
-      "id": "pi.ef49",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-and-gross-reserves",
-      "title": "BCRA FX purchases and gross reserves",
-      "href": "/charts/bcra-fx-purchases-and-gross-reserves",
-      "artifact": {
-        "chartSpecId": "cs.bcra.purchases_vs_reserves",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-12",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/bcra-fx-purchases-and-gross-reserves.svg",
-        "png": "/plots/bcra-fx-purchases-and-gross-reserves.png",
-        "altText": "BCRA FX purchases and gross reserves. BCRA net FX purchases; Gross international reserves. Since Jan 2026. Data through 2026-08-12.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.bcra_fx_purchases_daily",
-          "ci.ef.gross_reserves_usd"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.fx_purchases_reserve_factor",
-          "series.ar.bcra.gross_international_reserves"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
-          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef49",
-          "state": "QUARANTINE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Daily FX-purchase flows against the gross-reserves stock create a flow-stock mismatch; a future replacement should compare matched cumulative or period-change quantities."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "78,1",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "78",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-          },
-          {
-            "seriesId": "series.ar.bcra.gross_international_reserves",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "1",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 0.001
-            },
-            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Daily FX-purchase flows against the gross-reserves stock create a flow-stock mismatch; a future replacement should compare matched cumulative or period-change quantities."
       }
     }
   ],
@@ -221,100 +116,6 @@
       "distance": 1
     },
     {
-      "id": "pi.ef49",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-and-gross-reserves",
-      "title": "BCRA FX purchases and gross reserves",
-      "href": "/charts/bcra-fx-purchases-and-gross-reserves",
-      "distance": 1,
-      "artifact": {
-        "chartSpecId": "cs.bcra.purchases_vs_reserves",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-12",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/bcra-fx-purchases-and-gross-reserves.svg",
-        "png": "/plots/bcra-fx-purchases-and-gross-reserves.png",
-        "altText": "BCRA FX purchases and gross reserves. BCRA net FX purchases; Gross international reserves. Since Jan 2026. Data through 2026-08-12.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.bcra_fx_purchases_daily",
-          "ci.ef.gross_reserves_usd"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.fx_purchases_reserve_factor",
-          "series.ar.bcra.gross_international_reserves"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
-          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef49",
-          "state": "QUARANTINE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Daily FX-purchase flows against the gross-reserves stock create a flow-stock mismatch; a future replacement should compare matched cumulative or period-change quantities."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "78,1",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "78",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-          },
-          {
-            "seriesId": "series.ar.bcra.gross_international_reserves",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "1",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 0.001
-            },
-            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Daily FX-purchase flows against the gross-reserves stock create a flow-stock mismatch; a future replacement should compare matched cumulative or period-change quantities."
-      }
-    },
-    {
-      "id": "pi.ef42",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-and-reserve-accumulation",
-      "title": "BCRA FX purchases and reserve accumulation",
-      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef23",
-      "kind": "chart",
-      "slug": "debt-service-versus-reserves",
-      "title": "Debt service versus reserves",
-      "href": "/charts/debt-service-versus-reserves",
-      "distance": 1
-    },
-    {
       "id": "pi.ef46",
       "kind": "chart",
       "slug": "gross-international-reserves",
@@ -376,26 +177,10 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ef21",
-      "kind": "chart",
-      "slug": "gross-reserves-versus-sovereign-spreads",
-      "title": "Gross reserves versus sovereign spreads",
-      "href": "/charts/gross-reserves-versus-sovereign-spreads",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef01",
-      "kind": "chart",
-      "slug": "gross-reserves-nir-and-liquid-buffers",
-      "title": "Gross reserves, NIR, and liquid buffers",
-      "href": "/charts/gross-reserves-nir-and-liquid-buffers",
-      "distance": 1
     }
   ],
   "counts": {
-    "charts": 6,
+    "charts": 1,
     "derivedAsInput": 5,
     "derivedAsOutput": 0
   }

@@ -34,29 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef19",
-      "kind": "chart",
-      "slug": "fx-issuance-volumes-by-issuer-type",
-      "title": "FX issuance volumes by issuer type",
-      "href": "/charts/fx-issuance-volumes-by-issuer-type"
-    },
-    {
-      "id": "pi.ef26",
-      "kind": "chart",
-      "slug": "market-issuance-cumulative-since-re-entry",
-      "title": "Market issuance cumulative since re-entry",
-      "href": "/charts/market-issuance-cumulative-since-re-entry"
-    },
-    {
-      "id": "pi.ef39",
-      "kind": "chart",
-      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
-      "title": "Domestic capital-market depth versus external market issuance",
-      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -69,30 +47,6 @@
       "distance": 1
     },
     {
-      "id": "pi.ef39",
-      "kind": "chart",
-      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
-      "title": "Domestic capital-market depth versus external market issuance",
-      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef19",
-      "kind": "chart",
-      "slug": "fx-issuance-volumes-by-issuer-type",
-      "title": "FX issuance volumes by issuer type",
-      "href": "/charts/fx-issuance-volumes-by-issuer-type",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef26",
-      "kind": "chart",
-      "slug": "market-issuance-cumulative-since-re-entry",
-      "title": "Market issuance cumulative since re-entry",
-      "href": "/charts/market-issuance-cumulative-since-re-entry",
-      "distance": 1
-    },
-    {
       "id": "ef.refinancing_needs",
       "kind": "topic",
       "slug": "external-refinancing-needs",
@@ -102,7 +56,7 @@
     }
   ],
   "counts": {
-    "charts": 3,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

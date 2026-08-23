@@ -109,13 +109,6 @@
         ],
         "qaNote": "Clean single-measure real year-over-year credit-growth figure with a common scale and current data through Jun 2026. The large 2025 acceleration is economically material and visible without encoding tricks; retain as primary analytical evidence, with base effects interpreted in surrounding text rather than hidden in the chart."
       }
-    },
-    {
-      "id": "pi.ef31",
-      "kind": "chart",
-      "slug": "real-credit-growth-versus-npl-ratio",
-      "title": "Real credit growth versus NPL ratio",
-      "href": "/charts/real-credit-growth-versus-npl-ratio"
     }
   ],
   "derivedAsInput": [],
@@ -129,14 +122,6 @@
       "slug": "private-sector-credit",
       "title": "Private-sector credit",
       "href": "/topics/private-sector-credit",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef31",
-      "kind": "chart",
-      "slug": "real-credit-growth-versus-npl-ratio",
-      "title": "Real credit growth versus NPL ratio",
-      "href": "/charts/real-credit-growth-versus-npl-ratio",
       "distance": 1
     },
     {
@@ -241,7 +226,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 1,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

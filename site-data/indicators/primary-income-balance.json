@@ -34,22 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "quarterly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition"
-    },
-    {
-      "id": "pi.ef11",
-      "kind": "chart",
-      "slug": "primary-income-drag-on-the-current-account",
-      "title": "Primary-income drag on the current account",
-      "href": "/charts/primary-income-drag-on-the-current-account"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -59,22 +44,6 @@
       "slug": "primary-income-balance",
       "title": "Primary income balance",
       "href": "/topics/primary-income-balance",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef11",
-      "kind": "chart",
-      "slug": "primary-income-drag-on-the-current-account",
-      "title": "Primary-income drag on the current account",
-      "href": "/charts/primary-income-drag-on-the-current-account",
       "distance": 1
     },
     {
@@ -111,7 +80,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

@@ -34,15 +34,7 @@
   "unitSemantics": "ars_per_usd",
   "frequency": "daily",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ns15",
-      "kind": "chart",
-      "slug": "official-exchange-rate-within-the-band",
-      "title": "Official exchange rate within the band",
-      "href": "/charts/official-exchange-rate-within-the-band"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [
     "di.ns.band_position"
   ],
@@ -54,14 +46,6 @@
       "slug": "exchange-rate-band",
       "title": "Exchange-rate band",
       "href": "/topics/exchange-rate-band",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns15",
-      "kind": "chart",
-      "slug": "official-exchange-rate-within-the-band",
-      "title": "Official exchange rate within the band",
-      "href": "/charts/official-exchange-rate-within-the-band",
       "distance": 1
     },
     {
@@ -114,7 +98,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 1,
     "derivedAsOutput": 0
   }

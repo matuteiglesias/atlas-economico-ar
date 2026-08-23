@@ -208,104 +208,6 @@
       }
     },
     {
-      "id": "pi.ns11",
-      "kind": "chart",
-      "slug": "inflation-expectations-vs-realized-inflation",
-      "title": "Inflation expectations vs realized inflation",
-      "href": "/charts/inflation-expectations-vs-realized-inflation"
-    },
-    {
-      "id": "pi.ns12",
-      "kind": "chart",
-      "slug": "inflation-surprise-through-time",
-      "title": "Inflation surprise through time",
-      "href": "/charts/inflation-surprise-through-time"
-    },
-    {
-      "id": "pi.ns13",
-      "kind": "chart",
-      "slug": "expected-inflation-path",
-      "title": "Expected inflation path",
-      "href": "/charts/expected-inflation-path"
-    },
-    {
-      "id": "pi.ns14",
-      "kind": "chart",
-      "slug": "inflation-expectations-fan-horizon-curve",
-      "title": "Inflation expectations fan / horizon curve",
-      "href": "/charts/inflation-expectations-fan-horizon-curve"
-    },
-    {
-      "id": "pi.ns27",
-      "kind": "chart",
-      "slug": "nominal-rates-vs-expected-inflation",
-      "title": "Nominal rates vs expected inflation",
-      "href": "/charts/nominal-rates-vs-expected-inflation"
-    },
-    {
-      "id": "pi.ns28",
-      "kind": "chart",
-      "slug": "ex-ante-vs-ex-post-real-rates",
-      "title": "Ex-ante vs ex-post real rates",
-      "href": "/charts/ex-ante-vs-ex-post-real-rates"
-    },
-    {
-      "id": "pi.ns29",
-      "kind": "chart",
-      "slug": "real-rate-regime-since-2025",
-      "title": "Real-rate regime since 2025",
-      "href": "/charts/real-rate-regime-since-2025"
-    },
-    {
-      "id": "pi.ns44",
-      "kind": "chart",
-      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
-      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
-      "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates"
-    },
-    {
-      "id": "pi.ns45",
-      "kind": "chart",
-      "slug": "fx-futures-vs-top-of-band",
-      "title": "FX futures vs top of band",
-      "href": "/charts/fx-futures-vs-top-of-band"
-    },
-    {
-      "id": "pi.ns46",
-      "kind": "chart",
-      "slug": "end-of-year-fx-forward-vs-inflation-expectation",
-      "title": "End-of-year FX forward vs inflation expectation",
-      "href": "/charts/end-of-year-fx-forward-vs-inflation-expectation"
-    },
-    {
-      "id": "pi.ns47",
-      "kind": "chart",
-      "slug": "fx-gap-vs-inflation-expectations",
-      "title": "FX gap vs inflation expectations",
-      "href": "/charts/fx-gap-vs-inflation-expectations"
-    },
-    {
-      "id": "pi.ns48",
-      "kind": "chart",
-      "slug": "money-market-volatility-vs-fx-gap",
-      "title": "Money-market volatility vs FX gap",
-      "href": "/charts/money-market-volatility-vs-fx-gap"
-    },
-    {
-      "id": "pi.ns49",
-      "kind": "chart",
-      "slug": "carry-environment-real-rates-vs-fx-depreciation",
-      "title": "Carry environment: real rates vs FX depreciation",
-      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation"
-    },
-    {
-      "id": "pi.ns52",
-      "kind": "chart",
-      "slug": "nominal-stabilization-state-map",
-      "title": "Nominal-stabilization state map",
-      "href": "/charts/nominal-stabilization-state-map"
-    },
-    {
       "id": "pi.ns61",
       "kind": "chart",
       "slug": "tamar-private-bank-rate",
@@ -436,69 +338,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns63",
-      "kind": "chart",
-      "slug": "bcra-policy-rate-history",
-      "title": "BCRA policy rate history",
-      "href": "/charts/bcra-policy-rate-history",
-      "artifact": {
-        "chartSpecId": "cs.bcra2.policy_rate",
-        "frameId": "rf.policy_rate_2023_12_to_2025_07",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2025-07-10",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/bcra-policy-rate-history.svg",
-        "png": "/plots/bcra-policy-rate-history.png",
-        "altText": "BCRA policy rate history. Nominal policy-relevant rate. Dec 2023–Jul 2025 policy-rate window. Data through 2025-07-10. At least one source snapshot is flagged stale.",
-        "freshnessState": "stale_warning",
-        "indicatorIds": [
-          "ci.ns.policy_rate_nominal"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.policy_rate"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns63",
-          "state": "HISTORICAL",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Valid policy-rate history through 2025-07-10; retain as historical evidence rather than a current-state chart."
-        },
-        "source": {
-          "provider": "bcra_monetarias_v4",
-          "providerSeriesId": "160",
-          "sourceUnit": "Nominal annual interest rate",
-          "normalization": {
-            "kind": "identity"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.policy_rate",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "160",
-            "sourceUnit": "Nominal annual interest rate",
-            "normalization": {
-              "kind": "identity"
-            },
-            "snapshotSha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
-          }
-        ],
-        "publicationStatus": "historical",
-        "qaNote": "Valid policy-rate history through 2025-07-10; retain as historical evidence rather than a current-state chart."
-      }
     }
   ],
   "nearby": [
@@ -547,6 +386,6 @@
     "connections": 5,
     "questions": 2,
     "indicators": 4,
-    "charts": 18
+    "charts": 3
   }
 }

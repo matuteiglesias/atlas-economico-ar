@@ -34,29 +34,7 @@
   "unitSemantics": "usd_billions_change",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef05",
-      "kind": "chart",
-      "slug": "monthly-reserve-change-gross-versus-nir",
-      "title": "Monthly reserve change: gross versus NIR",
-      "href": "/charts/monthly-reserve-change-gross-versus-nir"
-    },
-    {
-      "id": "pi.ef07",
-      "kind": "chart",
-      "slug": "external-financing-and-debt-service-bridge",
-      "title": "External financing and debt-service bridge",
-      "href": "/charts/external-financing-and-debt-service-bridge"
-    },
-    {
-      "id": "pi.ef16",
-      "kind": "chart",
-      "slug": "private-financial-flows-versus-reserve-accumulation",
-      "title": "Private financial flows versus reserve accumulation",
-      "href": "/charts/private-financial-flows-versus-reserve-accumulation"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -67,34 +45,10 @@
       "title": "Reserve accumulation",
       "href": "/topics/reserve-accumulation",
       "distance": 1
-    },
-    {
-      "id": "pi.ef07",
-      "kind": "chart",
-      "slug": "external-financing-and-debt-service-bridge",
-      "title": "External financing and debt-service bridge",
-      "href": "/charts/external-financing-and-debt-service-bridge",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef05",
-      "kind": "chart",
-      "slug": "monthly-reserve-change-gross-versus-nir",
-      "title": "Monthly reserve change: gross versus NIR",
-      "href": "/charts/monthly-reserve-change-gross-versus-nir",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef16",
-      "kind": "chart",
-      "slug": "private-financial-flows-versus-reserve-accumulation",
-      "title": "Private financial flows versus reserve accumulation",
-      "href": "/charts/private-financial-flows-versus-reserve-accumulation",
-      "distance": 1
     }
   ],
   "counts": {
-    "charts": 3,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

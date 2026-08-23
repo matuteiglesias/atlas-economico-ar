@@ -73,57 +73,7 @@
       "href": "/indicators/gross-identified-capital-inflows"
     }
   ],
-  "charts": [
-    {
-      "id": "pi.ef12",
-      "kind": "chart",
-      "slug": "financial-account-components",
-      "title": "Financial-account components",
-      "href": "/charts/financial-account-components"
-    },
-    {
-      "id": "pi.ef13",
-      "kind": "chart",
-      "slug": "capital-inflows-versus-current-account-financing-need",
-      "title": "Capital inflows versus current-account financing need",
-      "href": "/charts/capital-inflows-versus-current-account-financing-need"
-    },
-    {
-      "id": "pi.ef14",
-      "kind": "chart",
-      "slug": "fdi-versus-broader-capital-inflows",
-      "title": "FDI versus broader capital inflows",
-      "href": "/charts/fdi-versus-broader-capital-inflows"
-    },
-    {
-      "id": "pi.ef18",
-      "kind": "chart",
-      "slug": "sovereign-and-corporate-spreads",
-      "title": "Sovereign and corporate spreads",
-      "href": "/charts/sovereign-and-corporate-spreads"
-    },
-    {
-      "id": "pi.ef19",
-      "kind": "chart",
-      "slug": "fx-issuance-volumes-by-issuer-type",
-      "title": "FX issuance volumes by issuer type",
-      "href": "/charts/fx-issuance-volumes-by-issuer-type"
-    },
-    {
-      "id": "pi.ef26",
-      "kind": "chart",
-      "slug": "market-issuance-cumulative-since-re-entry",
-      "title": "Market issuance cumulative since re-entry",
-      "href": "/charts/market-issuance-cumulative-since-re-entry"
-    },
-    {
-      "id": "pi.ef39",
-      "kind": "chart",
-      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
-      "title": "Domestic capital-market depth versus external market issuance",
-      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
-    }
-  ],
+  "charts": [],
   "nearby": [
     {
       "id": "ef.financial_account",
@@ -162,6 +112,6 @@
     "connections": 3,
     "questions": 0,
     "indicators": 1,
-    "charts": 7
+    "charts": 0
   }
 }

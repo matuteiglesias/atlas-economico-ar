@@ -34,29 +34,7 @@
   "unitSemantics": "percent_loans",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef31",
-      "kind": "chart",
-      "slug": "real-credit-growth-versus-npl-ratio",
-      "title": "Real credit growth versus NPL ratio",
-      "href": "/charts/real-credit-growth-versus-npl-ratio"
-    },
-    {
-      "id": "pi.ef32",
-      "kind": "chart",
-      "slug": "npl-ratio-through-the-credit-cycle",
-      "title": "NPL ratio through the credit cycle",
-      "href": "/charts/npl-ratio-through-the-credit-cycle"
-    },
-    {
-      "id": "pi.ef35",
-      "kind": "chart",
-      "slug": "bank-capital-and-npls",
-      "title": "Bank capital and NPLs",
-      "href": "/charts/bank-capital-and-npls"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -66,30 +44,6 @@
       "slug": "credit-quality",
       "title": "Credit quality",
       "href": "/topics/credit-quality",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef35",
-      "kind": "chart",
-      "slug": "bank-capital-and-npls",
-      "title": "Bank capital and NPLs",
-      "href": "/charts/bank-capital-and-npls",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef32",
-      "kind": "chart",
-      "slug": "npl-ratio-through-the-credit-cycle",
-      "title": "NPL ratio through the credit cycle",
-      "href": "/charts/npl-ratio-through-the-credit-cycle",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef31",
-      "kind": "chart",
-      "slug": "real-credit-growth-versus-npl-ratio",
-      "title": "Real credit growth versus NPL ratio",
-      "href": "/charts/real-credit-growth-versus-npl-ratio",
       "distance": 1
     },
     {
@@ -118,7 +72,7 @@
     }
   ],
   "counts": {
-    "charts": 3,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

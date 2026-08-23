@@ -34,15 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef01",
-      "kind": "chart",
-      "slug": "gross-reserves-nir-and-liquid-buffers",
-      "title": "Gross reserves, NIR, and liquid buffers",
-      "href": "/charts/gross-reserves-nir-and-liquid-buffers"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -52,14 +44,6 @@
       "slug": "liquid-reserve-buffers",
       "title": "Liquid reserve buffers",
       "href": "/topics/liquid-reserve-buffers",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef01",
-      "kind": "chart",
-      "slug": "gross-reserves-nir-and-liquid-buffers",
-      "title": "Gross reserves, NIR, and liquid buffers",
-      "href": "/charts/gross-reserves-nir-and-liquid-buffers",
       "distance": 1
     },
     {
@@ -104,7 +88,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }
