@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, BarChart3, Lightbulb } from "lucide-react";
+import { BarChart3, Lightbulb } from "lucide-react";
 import type { EntityLink } from "@/lib/types";
 
 export function EntityHeader({ title, dek, region }: { title: string; dek: string | null; region: EntityLink }) {
@@ -15,8 +15,8 @@ export function LinkList({ items, empty = "No entries are compiled for this sect
   return <div className="entity-list">{items.map((item) => <Link key={item.href} href={item.href}><span>{item.title}</span><b>›</b></Link>)}</div>;
 }
 
-export function Section({ id, title, count, children }: { id: string; title: string; count: number; children: React.ReactNode }) {
-  return <section id={id} className="content-section"><header><h2>{id === "charts" && <BarChart3 />} {title}</h2><a href={`#${id}`}>See all {count} {id} <ArrowRight /></a></header>{children}</section>;
+export function Section({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
+  return <section id={id} className="content-section"><header><h2>{id === "charts" && <BarChart3 />} {title}</h2></header>{children}</section>;
 }
 
 export function QuestionRow({ item }: { item: EntityLink }) {
