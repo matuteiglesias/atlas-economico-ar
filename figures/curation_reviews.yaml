@@ -48,3 +48,70 @@ reviews:
     structural_fingerprint: 5c81b45f025506b4b4112bcea46d9d3c1b01f5957dd8323649c4761016aedaad
     hazard_flags: [STOCK_FLOW_MISMATCH]
     note: Daily FX-purchase flows against the gross-reserves stock create a flow-stock mismatch; a future replacement should compare matched cumulative or period-change quantities.
+
+  pi.ef33:
+    state: APPROVED
+    review_origin: curation_loop
+    structural_fingerprint: 3029f17b0c064cdfd1fbaca9ce8c430509f0fb7e1b61297626e04db5cb253beb
+    rendered_sha256:
+      png: 16d67c3185062b8443909d4518cd5aec753f2615f870697bf814851545c932c3
+      svg: 9cfa9a53cbe7b38a8060d2f8009ab982c5f99f8cb4891727a4f2d00736d148eb
+    hazard_flags: [FREQUENCY_MISMATCH, DUAL_AXIS_RISK]
+    reviewed_at: '2026-08-23T17:24:00Z'
+    note: Rendered synthesis is legible and economically coherent. The USD deposit stock and deposit share answer distinct scale and composition parts of the same question; both axes are explicit, and the mixed-frequency encoding does not imply a common quantitative scale. Retain as a curated synthesis while keeping the single-measure figures available.
+
+  pi.ef51:
+    state: REFERENCE
+    review_origin: curation_loop
+    structural_fingerprint: d06b21242155a6ba00e0a9e6d127338698c2348bc97926c0eb481af76caded98
+    rendered_sha256:
+      png: 5f0c05b3dad945f86b49d6d720d8d2cd779cf50ffa44dc15d37d8a7d17f3ecfe
+      svg: d05e8c649689d4476e503762d2a360d882710112e94cc4db82864d0f6bbe832c
+    hazard_flags: [LONG_NOMINAL_LEVEL]
+    reviewed_at: '2026-08-23T17:24:00Z'
+    note: Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition.
+
+  pi.ef52:
+    state: REFERENCE
+    review_origin: curation_loop
+    structural_fingerprint: 8e5138c9e91bacd32aca1527e73bd1a33515213813b3fa2d423d8e410e0c2573
+    rendered_sha256:
+      png: 11dc4fda6a31d6f9499df7bba744d7f1c3d316b0bc9e0b17f08a3127d006f4d4
+      svg: 84795aab8927c5c25e7e83b665d6f8ff23cbe9ec2de1dac8adf9cd0e34f4e0a0
+    hazard_flags: [LONG_NOMINAL_LEVEL]
+    reviewed_at: '2026-08-23T17:24:00Z'
+    note: Valid provider-consistent decomposition of private deposits by currency, but five-year nominal ARS levels are weak primary evidence in a high-inflation period. Retain as reference; pi.ef50 and pi.ef53 give cleaner USD-level and currency-share evidence.
+
+  pi.ef54:
+    state: REFERENCE
+    review_origin: curation_loop
+    structural_fingerprint: 733e1b4cb2640c952da4b02cffdbf03bcd238dcc37c81bb9645874b9b85c9306
+    rendered_sha256:
+      png: b2f4d37f306b6558e7735c4306db55a1651a498877511720ae8b3c03f5b2eae2
+      svg: cdb089b62c95f7ac5b83764608edfd16f390395346e945a60cf5be7136aa7d85
+    hazard_flags: [LONG_NOMINAL_LEVEL]
+    reviewed_at: '2026-08-23T17:24:00Z'
+    note: The credit-versus-deposit stock comparison is internally consistent, but the five-year nominal ARS scale mostly tracks price-level drift and does not by itself establish financial deepening or system depth. Retain as balance-sheet reference evidence rather than a primary analytical figure.
+
+  pi.ns21:
+    state: QUARANTINE
+    review_origin: curation_loop
+    structural_fingerprint: bede332b60eddb9314e43a8555f8d57069b3660a57a5294908e6fe6c2d8e3dce
+    rendered_sha256:
+      png: 7ad0104e6f04c016e8f96cefad08d7f5149d023d5c3f7a281e3e7bb677d3c455
+      svg: 77b429a4038680861562911e10792fa11584ebf50fca6d60f237479f4dd39dfb
+    hazard_flags: [FREQUENCY_MISMATCH, STALE_CURRENT_CLAIM, MISSING_COMMON_PERIOD]
+    reviewed_at: '2026-08-23T17:24:00Z'
+    note: The rendered REER series stops around the end of 2024 while the nominal exchange-rate series continues through 2026. The chart therefore invites a current nominal-versus-real comparison outside the common evidence window; quarantine until the REER input is refreshed or the comparison is constrained to a defensible common period.
+
+  pi.ns34:
+    state: SUPERSEDED
+    review_origin: curation_loop
+    structural_fingerprint: 8e596e01bc771982f5ad9d01accc059936655b3b1bf0ee6cc4a4e02c9d3fe494
+    rendered_sha256:
+      png: 7f28f144c3936922511db6d9528310ad98cb6068bdb9dcde58da58fb40128bd0
+      svg: d2cad3915fef08dda23b5aa68c0d9561914f68524de01e4e05b6eb6d38693f15
+    hazard_flags: [LONG_NOMINAL_LEVEL]
+    preferred_plot_intent_id: pi.ns35
+    reviewed_at: '2026-08-23T17:24:00Z'
+    note: The five-year nominal monetary-base level is valid source evidence but is dominated by inflation and is weak for the linked money-demand question. Prefer pi.ns35, which expresses monetary-base recovery in real terms over the stabilization window.
