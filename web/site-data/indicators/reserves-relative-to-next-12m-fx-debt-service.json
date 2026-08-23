@@ -34,22 +34,7 @@
   "unitSemantics": "ratio",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef02",
-      "kind": "chart",
-      "slug": "reserve-adequacy-dashboard",
-      "title": "Reserve adequacy dashboard",
-      "href": "/charts/reserve-adequacy-dashboard"
-    },
-    {
-      "id": "pi.ef28",
-      "kind": "chart",
-      "slug": "reserve-coverage-of-external-debt-service",
-      "title": "Reserve coverage of external debt service",
-      "href": "/charts/reserve-coverage-of-external-debt-service"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [
     "di.ef.reserve_fx_service"
@@ -61,22 +46,6 @@
       "slug": "reserve-adequacy",
       "title": "Reserve adequacy",
       "href": "/topics/reserve-adequacy",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef02",
-      "kind": "chart",
-      "slug": "reserve-adequacy-dashboard",
-      "title": "Reserve adequacy dashboard",
-      "href": "/charts/reserve-adequacy-dashboard",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef28",
-      "kind": "chart",
-      "slug": "reserve-coverage-of-external-debt-service",
-      "title": "Reserve coverage of external debt service",
-      "href": "/charts/reserve-coverage-of-external-debt-service",
       "distance": 1
     },
     {
@@ -105,7 +74,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

@@ -62,22 +62,7 @@
       "href": "/indicators/resident-financial-assets-outside-the-domestic-financial-system"
     }
   ],
-  "charts": [
-    {
-      "id": "pi.ef38",
-      "kind": "chart",
-      "slug": "assets-outside-the-financial-system-versus-private-credit",
-      "title": "Assets outside the financial system versus private credit",
-      "href": "/charts/assets-outside-the-financial-system-versus-private-credit"
-    },
-    {
-      "id": "pi.ef39",
-      "kind": "chart",
-      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
-      "title": "Domestic capital-market depth versus external market issuance",
-      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
-    }
-  ],
+  "charts": [],
   "nearby": [
     {
       "id": "ef.domestic_capital_market_depth",
@@ -132,6 +117,6 @@
     "connections": 2,
     "questions": 0,
     "indicators": 1,
-    "charts": 2
+    "charts": 0
   }
 }

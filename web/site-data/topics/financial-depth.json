@@ -95,13 +95,6 @@
   "indicators": [],
   "charts": [
     {
-      "id": "pi.ef29",
-      "kind": "chart",
-      "slug": "private-credit-as-a-share-of-gdp",
-      "title": "Private credit as a share of GDP",
-      "href": "/charts/private-credit-as-a-share-of-gdp"
-    },
-    {
       "id": "pi.ef30",
       "kind": "chart",
       "slug": "real-private-credit-growth",
@@ -266,48 +259,6 @@
       }
     },
     {
-      "id": "pi.ef34",
-      "kind": "chart",
-      "slug": "fx-deposits-versus-bank-liquidity",
-      "title": "FX deposits versus bank liquidity",
-      "href": "/charts/fx-deposits-versus-bank-liquidity"
-    },
-    {
-      "id": "pi.ef35",
-      "kind": "chart",
-      "slug": "bank-capital-and-npls",
-      "title": "Bank capital and NPLs",
-      "href": "/charts/bank-capital-and-npls"
-    },
-    {
-      "id": "pi.ef36",
-      "kind": "chart",
-      "slug": "financial-depth-private-credit-and-domestic-markets",
-      "title": "Financial depth: private credit and domestic markets",
-      "href": "/charts/financial-depth-private-credit-and-domestic-markets"
-    },
-    {
-      "id": "pi.ef37",
-      "kind": "chart",
-      "slug": "financial-depth-versus-emerging-market-peers",
-      "title": "Financial depth versus emerging-market peers",
-      "href": "/charts/financial-depth-versus-emerging-market-peers"
-    },
-    {
-      "id": "pi.ef38",
-      "kind": "chart",
-      "slug": "assets-outside-the-financial-system-versus-private-credit",
-      "title": "Assets outside the financial system versus private credit",
-      "href": "/charts/assets-outside-the-financial-system-versus-private-credit"
-    },
-    {
-      "id": "pi.ef39",
-      "kind": "chart",
-      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
-      "title": "Domestic capital-market depth versus external market issuance",
-      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
-    },
-    {
       "id": "pi.ef50",
       "kind": "chart",
       "slug": "foreign-currency-deposits",
@@ -367,160 +318,6 @@
             "snapshotSha256": "698122680bb4cd723aea7b3483ace7dd62f12a2ad6b0ad59ba3483266b8bacab"
           }
         ]
-      }
-    },
-    {
-      "id": "pi.ef51",
-      "kind": "chart",
-      "slug": "private-credit-by-currency",
-      "title": "Private credit by currency",
-      "href": "/charts/private-credit-by-currency",
-      "artifact": {
-        "chartSpecId": "cs.bcra3.private_credit_currency",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-06-30",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/private-credit-by-currency.svg",
-        "png": "/plots/private-credit-by-currency.png",
-        "altText": "Private credit by currency. Private-sector credit in pesos; Private-sector foreign-currency credit, ARS equivalent. Last 5 years. Data through 2026-06-30.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.private_credit_peso_ars",
-          "ci.ef.private_credit_fx_ars_equivalent"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.private_credit_peso",
-          "series.ar.bcra.private_credit_fx_ars_equiv"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.private_credit_peso": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9",
-          "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef51",
-          "state": "REFERENCE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "893,904",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.private_credit_peso",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "893",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9"
-          },
-          {
-            "seriesId": "series.ar.bcra.private_credit_fx_ars_equiv",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "904",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
-      }
-    },
-    {
-      "id": "pi.ef52",
-      "kind": "chart",
-      "slug": "private-deposits-by-currency",
-      "title": "Private deposits by currency",
-      "href": "/charts/private-deposits-by-currency",
-      "artifact": {
-        "chartSpecId": "cs.bcra3.private_deposits_currency",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-06-30",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/private-deposits-by-currency.svg",
-        "png": "/plots/private-deposits-by-currency.png",
-        "altText": "Private deposits by currency. Private-sector deposits in pesos; Private-sector foreign-currency deposits, ARS equivalent. Last 5 years. Data through 2026-06-30.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.private_deposits_peso_ars",
-          "ci.ef.private_deposits_fx_ars_equivalent"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.private_deposits_peso",
-          "series.ar.bcra.private_deposits_fx_ars_equiv"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.private_deposits_peso": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad",
-          "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef52",
-          "state": "REFERENCE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Valid provider-consistent decomposition of private deposits by currency, but five-year nominal ARS levels are weak primary evidence in a high-inflation period. Retain as reference; pi.ef50 and pi.ef53 give cleaner USD-level and currency-share evidence."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "992,1003",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.private_deposits_peso",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "992",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad"
-          },
-          {
-            "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "1003",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Valid provider-consistent decomposition of private deposits by currency, but five-year nominal ARS levels are weak primary evidence in a high-inflation period. Retain as reference; pi.ef50 and pi.ef53 give cleaner USD-level and currency-share evidence."
       }
     },
     {
@@ -622,83 +419,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ef54",
-      "kind": "chart",
-      "slug": "private-credit-and-deposits",
-      "title": "Private credit and deposits",
-      "href": "/charts/private-credit-and-deposits",
-      "artifact": {
-        "chartSpecId": "cs.bcra3.credit_vs_deposits",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-06-30",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/private-credit-and-deposits.svg",
-        "png": "/plots/private-credit-and-deposits.png",
-        "altText": "Private credit and deposits. Total private-sector credit, ARS equivalent; Total private-sector deposits, ARS equivalent. Last 5 years. Data through 2026-06-30.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.private_credit_total_ars",
-          "ci.ef.private_deposits_total_ars"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.private_credit_total_ars_equiv",
-          "series.ar.bcra.private_deposits_total_ars_equiv"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
-          "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef54",
-          "state": "REFERENCE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "The credit-versus-deposit stock comparison is internally consistent, but the five-year nominal ARS scale mostly tracks price-level drift and does not by itself establish financial deepening or system depth. Retain as balance-sheet reference evidence rather than a primary analytical figure."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "882,981",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.private_credit_total_ars_equiv",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "882",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9"
-          },
-          {
-            "seriesId": "series.ar.bcra.private_deposits_total_ars_equiv",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "981",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "The credit-versus-deposit stock comparison is internally consistent, but the five-year nominal ARS scale mostly tracks price-level drift and does not by itself establish financial deepening or system depth. Retain as balance-sheet reference evidence rather than a primary analytical figure."
-      }
     }
   ],
   "nearby": [
@@ -755,6 +475,6 @@
     "connections": 4,
     "questions": 2,
     "indicators": 0,
-    "charts": 14
+    "charts": 4
   }
 }

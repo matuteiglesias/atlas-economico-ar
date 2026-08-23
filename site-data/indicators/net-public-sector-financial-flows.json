@@ -34,15 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "quarterly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef12",
-      "kind": "chart",
-      "slug": "financial-account-components",
-      "title": "Financial-account components",
-      "href": "/charts/financial-account-components"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -52,14 +44,6 @@
       "slug": "financial-account",
       "title": "Financial account",
       "href": "/topics/financial-account",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef12",
-      "kind": "chart",
-      "slug": "financial-account-components",
-      "title": "Financial-account components",
-      "href": "/charts/financial-account-components",
       "distance": 1
     },
     {
@@ -96,7 +80,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

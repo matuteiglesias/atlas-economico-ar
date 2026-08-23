@@ -36,20 +36,6 @@
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
   "charts": [
     {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition"
-    },
-    {
-      "id": "pi.ef10",
-      "kind": "chart",
-      "slug": "goods-surplus-versus-services-deficit",
-      "title": "Goods surplus versus services deficit",
-      "href": "/charts/goods-surplus-versus-services-deficit"
-    },
-    {
       "id": "pi.ef45",
       "kind": "chart",
       "slug": "goods-trade-balance",
@@ -123,22 +109,6 @@
       "slug": "goods-trade-balance",
       "title": "Goods trade balance",
       "href": "/topics/goods-trade-balance",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef10",
-      "kind": "chart",
-      "slug": "goods-surplus-versus-services-deficit",
-      "title": "Goods surplus versus services deficit",
-      "href": "/charts/goods-surplus-versus-services-deficit",
       "distance": 1
     },
     {
@@ -232,7 +202,7 @@
     }
   ],
   "counts": {
-    "charts": 3,
+    "charts": 1,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

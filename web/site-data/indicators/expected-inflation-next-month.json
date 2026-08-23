@@ -34,29 +34,7 @@
   "unitSemantics": "percent_mom",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ns11",
-      "kind": "chart",
-      "slug": "inflation-expectations-vs-realized-inflation",
-      "title": "Inflation expectations vs realized inflation",
-      "href": "/charts/inflation-expectations-vs-realized-inflation"
-    },
-    {
-      "id": "pi.ns13",
-      "kind": "chart",
-      "slug": "expected-inflation-path",
-      "title": "Expected inflation path",
-      "href": "/charts/expected-inflation-path"
-    },
-    {
-      "id": "pi.ns14",
-      "kind": "chart",
-      "slug": "inflation-expectations-fan-horizon-curve",
-      "title": "Inflation expectations fan / horizon curve",
-      "href": "/charts/inflation-expectations-fan-horizon-curve"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [
     "di.ns.infl_surprise"
   ],
@@ -68,30 +46,6 @@
       "slug": "inflation-expectations",
       "title": "Inflation expectations",
       "href": "/topics/inflation-expectations",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns13",
-      "kind": "chart",
-      "slug": "expected-inflation-path",
-      "title": "Expected inflation path",
-      "href": "/charts/expected-inflation-path",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns14",
-      "kind": "chart",
-      "slug": "inflation-expectations-fan-horizon-curve",
-      "title": "Inflation expectations fan / horizon curve",
-      "href": "/charts/inflation-expectations-fan-horizon-curve",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns11",
-      "kind": "chart",
-      "slug": "inflation-expectations-vs-realized-inflation",
-      "title": "Inflation expectations vs realized inflation",
-      "href": "/charts/inflation-expectations-vs-realized-inflation",
       "distance": 1
     },
     {
@@ -112,7 +66,7 @@
     }
   ],
   "counts": {
-    "charts": 3,
+    "charts": 0,
     "derivedAsInput": 1,
     "derivedAsOutput": 0
   }

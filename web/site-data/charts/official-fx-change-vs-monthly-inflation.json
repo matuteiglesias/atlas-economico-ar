@@ -138,14 +138,6 @@
       "title": "Nominal exchange rate",
       "href": "/topics/nominal-exchange-rate",
       "distance": 2
-    },
-    {
-      "id": "pi.ns49",
-      "kind": "chart",
-      "slug": "carry-environment-real-rates-vs-fx-depreciation",
-      "title": "Carry environment: real rates vs FX depreciation",
-      "href": "/charts/carry-environment-real-rates-vs-fx-depreciation",
-      "distance": 2
     }
   ],
   "counts": {

@@ -92,50 +92,7 @@
       "href": "/indicators/end-of-year-fx-forward-implied-rate"
     }
   ],
-  "charts": [
-    {
-      "id": "pi.ns44",
-      "kind": "chart",
-      "slug": "credibility-dashboard-inflation-expectations-fx-gap-real-rates",
-      "title": "Credibility dashboard: inflation expectations, FX gap, real rates",
-      "href": "/charts/credibility-dashboard-inflation-expectations-fx-gap-real-rates"
-    },
-    {
-      "id": "pi.ns45",
-      "kind": "chart",
-      "slug": "fx-futures-vs-top-of-band",
-      "title": "FX futures vs top of band",
-      "href": "/charts/fx-futures-vs-top-of-band"
-    },
-    {
-      "id": "pi.ns46",
-      "kind": "chart",
-      "slug": "end-of-year-fx-forward-vs-inflation-expectation",
-      "title": "End-of-year FX forward vs inflation expectation",
-      "href": "/charts/end-of-year-fx-forward-vs-inflation-expectation"
-    },
-    {
-      "id": "pi.ns47",
-      "kind": "chart",
-      "slug": "fx-gap-vs-inflation-expectations",
-      "title": "FX gap vs inflation expectations",
-      "href": "/charts/fx-gap-vs-inflation-expectations"
-    },
-    {
-      "id": "pi.ns48",
-      "kind": "chart",
-      "slug": "money-market-volatility-vs-fx-gap",
-      "title": "Money-market volatility vs FX gap",
-      "href": "/charts/money-market-volatility-vs-fx-gap"
-    },
-    {
-      "id": "pi.ns52",
-      "kind": "chart",
-      "slug": "nominal-stabilization-state-map",
-      "title": "Nominal-stabilization state map",
-      "href": "/charts/nominal-stabilization-state-map"
-    }
-  ],
+  "charts": [],
   "nearby": [
     {
       "id": "ns.nominal_exchange_rate",
@@ -190,6 +147,6 @@
     "connections": 4,
     "questions": 0,
     "indicators": 2,
-    "charts": 6
+    "charts": 0
   }
 }

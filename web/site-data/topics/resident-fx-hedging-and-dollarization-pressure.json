@@ -65,22 +65,7 @@
   ],
   "questions": [],
   "indicators": [],
-  "charts": [
-    {
-      "id": "pi.ef15",
-      "kind": "chart",
-      "slug": "private-financial-flows-around-the-2025-stress-episode",
-      "title": "Private financial flows around the 2025 stress episode",
-      "href": "/charts/private-financial-flows-around-the-2025-stress-episode"
-    },
-    {
-      "id": "pi.ef16",
-      "kind": "chart",
-      "slug": "private-financial-flows-versus-reserve-accumulation",
-      "title": "Private financial flows versus reserve accumulation",
-      "href": "/charts/private-financial-flows-versus-reserve-accumulation"
-    }
-  ],
+  "charts": [],
   "nearby": [
     {
       "id": "ef.financial_account",
@@ -111,6 +96,6 @@
     "connections": 3,
     "questions": 0,
     "indicators": 0,
-    "charts": 2
+    "charts": 0
   }
 }

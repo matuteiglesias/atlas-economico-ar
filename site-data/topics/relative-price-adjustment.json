@@ -68,22 +68,7 @@
       "href": "/indicators/regulated-price-contribution-to-monthly-inflation"
     }
   ],
-  "charts": [
-    {
-      "id": "pi.ns07",
-      "kind": "chart",
-      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
-      "title": "Food and regulated prices as contributors to monthly inflation",
-      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation"
-    },
-    {
-      "id": "pi.ns08",
-      "kind": "chart",
-      "slug": "inflation-driver-decomposition",
-      "title": "Inflation-driver decomposition",
-      "href": "/charts/inflation-driver-decomposition"
-    }
-  ],
+  "charts": [],
   "nearby": [
     {
       "id": "ns.core_inflation",
@@ -130,6 +115,6 @@
     "connections": 2,
     "questions": 0,
     "indicators": 2,
-    "charts": 2
+    "charts": 0
   }
 }

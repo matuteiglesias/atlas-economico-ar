@@ -75,20 +75,6 @@
   "indicators": [],
   "charts": [
     {
-      "id": "pi.ns07",
-      "kind": "chart",
-      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
-      "title": "Food and regulated prices as contributors to monthly inflation",
-      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation"
-    },
-    {
-      "id": "pi.ns08",
-      "kind": "chart",
-      "slug": "inflation-driver-decomposition",
-      "title": "Inflation-driver decomposition",
-      "href": "/charts/inflation-driver-decomposition"
-    },
-    {
       "id": "pi.ns09",
       "kind": "chart",
       "slug": "official-fx-change-vs-monthly-inflation",
@@ -160,13 +146,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns10",
-      "kind": "chart",
-      "slug": "rolling-fx-pass-through-estimate",
-      "title": "Rolling FX pass-through estimate",
-      "href": "/charts/rolling-fx-pass-through-estimate"
     },
     {
       "id": "pi.ns50",
@@ -296,6 +275,6 @@
     "connections": 3,
     "questions": 1,
     "indicators": 0,
-    "charts": 5
+    "charts": 2
   }
 }

@@ -34,50 +34,7 @@
   "unitSemantics": "basis_points",
   "frequency": "daily",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef17",
-      "kind": "chart",
-      "slug": "sovereign-spreads-through-the-market-re-entry-window",
-      "title": "Sovereign spreads through the market re-entry window",
-      "href": "/charts/sovereign-spreads-through-the-market-re-entry-window"
-    },
-    {
-      "id": "pi.ef18",
-      "kind": "chart",
-      "slug": "sovereign-and-corporate-spreads",
-      "title": "Sovereign and corporate spreads",
-      "href": "/charts/sovereign-and-corporate-spreads"
-    },
-    {
-      "id": "pi.ef20",
-      "kind": "chart",
-      "slug": "reserve-accumulation-versus-sovereign-spreads",
-      "title": "Reserve accumulation versus sovereign spreads",
-      "href": "/charts/reserve-accumulation-versus-sovereign-spreads"
-    },
-    {
-      "id": "pi.ef21",
-      "kind": "chart",
-      "slug": "gross-reserves-versus-sovereign-spreads",
-      "title": "Gross reserves versus sovereign spreads",
-      "href": "/charts/gross-reserves-versus-sovereign-spreads"
-    },
-    {
-      "id": "pi.ef43",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-versus-sovereign-spreads",
-      "title": "BCRA FX purchases versus sovereign spreads",
-      "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads"
-    },
-    {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -88,58 +45,10 @@
       "title": "Sovereign spreads",
       "href": "/topics/sovereign-spreads",
       "distance": 1
-    },
-    {
-      "id": "pi.ef43",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-versus-sovereign-spreads",
-      "title": "BCRA FX purchases versus sovereign spreads",
-      "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef21",
-      "kind": "chart",
-      "slug": "gross-reserves-versus-sovereign-spreads",
-      "title": "Gross reserves versus sovereign spreads",
-      "href": "/charts/gross-reserves-versus-sovereign-spreads",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef20",
-      "kind": "chart",
-      "slug": "reserve-accumulation-versus-sovereign-spreads",
-      "title": "Reserve accumulation versus sovereign spreads",
-      "href": "/charts/reserve-accumulation-versus-sovereign-spreads",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef18",
-      "kind": "chart",
-      "slug": "sovereign-and-corporate-spreads",
-      "title": "Sovereign and corporate spreads",
-      "href": "/charts/sovereign-and-corporate-spreads",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef17",
-      "kind": "chart",
-      "slug": "sovereign-spreads-through-the-market-re-entry-window",
-      "title": "Sovereign spreads through the market re-entry window",
-      "href": "/charts/sovereign-spreads-through-the-market-re-entry-window",
-      "distance": 1
     }
   ],
   "counts": {
-    "charts": 6,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

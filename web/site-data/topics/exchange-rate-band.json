@@ -97,27 +97,6 @@
   ],
   "charts": [
     {
-      "id": "pi.ns15",
-      "kind": "chart",
-      "slug": "official-exchange-rate-within-the-band",
-      "title": "Official exchange rate within the band",
-      "href": "/charts/official-exchange-rate-within-the-band"
-    },
-    {
-      "id": "pi.ns16",
-      "kind": "chart",
-      "slug": "position-inside-fx-band",
-      "title": "Position inside FX band",
-      "href": "/charts/position-inside-fx-band"
-    },
-    {
-      "id": "pi.ns45",
-      "kind": "chart",
-      "slug": "fx-futures-vs-top-of-band",
-      "title": "FX futures vs top of band",
-      "href": "/charts/fx-futures-vs-top-of-band"
-    },
-    {
       "id": "pi.ns55",
       "kind": "chart",
       "slug": "official-wholesale-exchange-rate",
@@ -240,6 +219,6 @@
     "connections": 3,
     "questions": 1,
     "indicators": 3,
-    "charts": 4
+    "charts": 1
   }
 }

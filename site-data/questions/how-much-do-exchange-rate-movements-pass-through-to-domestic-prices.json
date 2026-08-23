@@ -139,13 +139,6 @@
       }
     },
     {
-      "id": "pi.ns10",
-      "kind": "chart",
-      "slug": "rolling-fx-pass-through-estimate",
-      "title": "Rolling FX pass-through estimate",
-      "href": "/charts/rolling-fx-pass-through-estimate"
-    },
-    {
       "id": "pi.ns50",
       "kind": "chart",
       "slug": "inflation-vs-fx-depreciation-since-stabilization-start",
@@ -393,14 +386,6 @@
       }
     },
     {
-      "id": "pi.ns10",
-      "kind": "chart",
-      "slug": "rolling-fx-pass-through-estimate",
-      "title": "Rolling FX pass-through estimate",
-      "href": "/charts/rolling-fx-pass-through-estimate",
-      "distance": 1
-    },
-    {
       "id": "q.ns02",
       "kind": "question",
       "slug": "has-the-disinflation-process-stalled-or-resumed",
@@ -420,7 +405,7 @@
   "counts": {
     "topics": 3,
     "indicators": 2,
-    "charts": 3
+    "charts": 2
   },
   "publication": {
     "state": "PUBLIC",

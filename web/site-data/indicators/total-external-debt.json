@@ -34,15 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "quarterly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef27",
-      "kind": "chart",
-      "slug": "external-debt-in-dollars-and-percent-of-gdp",
-      "title": "External debt in dollars and percent of GDP",
-      "href": "/charts/external-debt-in-dollars-and-percent-of-gdp"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -52,14 +44,6 @@
       "slug": "external-public-debt",
       "title": "External public debt",
       "href": "/topics/external-public-debt",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef27",
-      "kind": "chart",
-      "slug": "external-debt-in-dollars-and-percent-of-gdp",
-      "title": "External debt in dollars and percent of GDP",
-      "href": "/charts/external-debt-in-dollars-and-percent-of-gdp",
       "distance": 1
     },
     {
@@ -88,7 +72,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

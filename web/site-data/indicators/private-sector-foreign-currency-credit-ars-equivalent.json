@@ -34,85 +34,7 @@
   "unitSemantics": "ars",
   "frequency": "monthly",
   "seriesBindingStatus": "REGISTERED",
-  "charts": [
-    {
-      "id": "pi.ef51",
-      "kind": "chart",
-      "slug": "private-credit-by-currency",
-      "title": "Private credit by currency",
-      "href": "/charts/private-credit-by-currency",
-      "artifact": {
-        "chartSpecId": "cs.bcra3.private_credit_currency",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-06-30",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/private-credit-by-currency.svg",
-        "png": "/plots/private-credit-by-currency.png",
-        "altText": "Private credit by currency. Private-sector credit in pesos; Private-sector foreign-currency credit, ARS equivalent. Last 5 years. Data through 2026-06-30.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.private_credit_peso_ars",
-          "ci.ef.private_credit_fx_ars_equivalent"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.private_credit_peso",
-          "series.ar.bcra.private_credit_fx_ars_equiv"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.private_credit_peso": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9",
-          "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef51",
-          "state": "REFERENCE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "893,904",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.private_credit_peso",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "893",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9"
-          },
-          {
-            "seriesId": "series.ar.bcra.private_credit_fx_ars_equiv",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "904",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
-      }
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [
     "di.ef.fx_credit_share"
   ],
@@ -125,84 +47,6 @@
       "title": "Private-sector credit",
       "href": "/topics/private-sector-credit",
       "distance": 1
-    },
-    {
-      "id": "pi.ef51",
-      "kind": "chart",
-      "slug": "private-credit-by-currency",
-      "title": "Private credit by currency",
-      "href": "/charts/private-credit-by-currency",
-      "distance": 1,
-      "artifact": {
-        "chartSpecId": "cs.bcra3.private_credit_currency",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-06-30",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/private-credit-by-currency.svg",
-        "png": "/plots/private-credit-by-currency.png",
-        "altText": "Private credit by currency. Private-sector credit in pesos; Private-sector foreign-currency credit, ARS equivalent. Last 5 years. Data through 2026-06-30.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.private_credit_peso_ars",
-          "ci.ef.private_credit_fx_ars_equivalent"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.private_credit_peso",
-          "series.ar.bcra.private_credit_fx_ars_equiv"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.private_credit_peso": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9",
-          "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef51",
-          "state": "REFERENCE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "893,904",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.private_credit_peso",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "893",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9"
-          },
-          {
-            "seriesId": "series.ar.bcra.private_credit_fx_ars_equiv",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "904",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
-      }
     },
     {
       "id": "q.ef14",
@@ -238,7 +82,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 1,
     "derivedAsOutput": 0
   }

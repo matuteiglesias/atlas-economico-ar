@@ -34,15 +34,7 @@
   "unitSemantics": "percentage_points",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ns12",
-      "kind": "chart",
-      "slug": "inflation-surprise-through-time",
-      "title": "Inflation surprise through time",
-      "href": "/charts/inflation-surprise-through-time"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [
     "di.ns.infl_surprise"
@@ -54,14 +46,6 @@
       "slug": "inflation-expectations",
       "title": "Inflation expectations",
       "href": "/topics/inflation-expectations",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns12",
-      "kind": "chart",
-      "slug": "inflation-surprise-through-time",
-      "title": "Inflation surprise through time",
-      "href": "/charts/inflation-surprise-through-time",
       "distance": 1
     },
     {
@@ -90,7 +74,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

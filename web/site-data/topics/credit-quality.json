@@ -63,36 +63,7 @@
       "href": "/indicators/non-performing-loans-ratio"
     }
   ],
-  "charts": [
-    {
-      "id": "pi.ef31",
-      "kind": "chart",
-      "slug": "real-credit-growth-versus-npl-ratio",
-      "title": "Real credit growth versus NPL ratio",
-      "href": "/charts/real-credit-growth-versus-npl-ratio"
-    },
-    {
-      "id": "pi.ef32",
-      "kind": "chart",
-      "slug": "npl-ratio-through-the-credit-cycle",
-      "title": "NPL ratio through the credit cycle",
-      "href": "/charts/npl-ratio-through-the-credit-cycle"
-    },
-    {
-      "id": "pi.ef34",
-      "kind": "chart",
-      "slug": "fx-deposits-versus-bank-liquidity",
-      "title": "FX deposits versus bank liquidity",
-      "href": "/charts/fx-deposits-versus-bank-liquidity"
-    },
-    {
-      "id": "pi.ef35",
-      "kind": "chart",
-      "slug": "bank-capital-and-npls",
-      "title": "Bank capital and NPLs",
-      "href": "/charts/bank-capital-and-npls"
-    }
-  ],
+  "charts": [],
   "nearby": [
     {
       "id": "ef.private_credit",
@@ -147,6 +118,6 @@
     "connections": 1,
     "questions": 0,
     "indicators": 3,
-    "charts": 4
+    "charts": 0
   }
 }

@@ -97,20 +97,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns05",
-      "kind": "chart",
-      "slug": "headline-vs-core-inflation",
-      "title": "Headline vs core inflation",
-      "href": "/charts/headline-vs-core-inflation"
-    },
-    {
-      "id": "pi.ns52",
-      "kind": "chart",
-      "slug": "nominal-stabilization-state-map",
-      "title": "Nominal-stabilization state map",
-      "href": "/charts/nominal-stabilization-state-map"
     }
   ],
   "derivedAsInput": [],
@@ -124,14 +110,6 @@
       "slug": "headline-inflation",
       "title": "Headline inflation",
       "href": "/topics/headline-inflation",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns05",
-      "kind": "chart",
-      "slug": "headline-vs-core-inflation",
-      "title": "Headline vs core inflation",
-      "href": "/charts/headline-vs-core-inflation",
       "distance": 1
     },
     {
@@ -199,14 +177,6 @@
       }
     },
     {
-      "id": "pi.ns52",
-      "kind": "chart",
-      "slug": "nominal-stabilization-state-map",
-      "title": "Nominal-stabilization state map",
-      "href": "/charts/nominal-stabilization-state-map",
-      "distance": 1
-    },
-    {
       "id": "q.ns01",
       "kind": "question",
       "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
@@ -216,7 +186,7 @@
     }
   ],
   "counts": {
-    "charts": 3,
+    "charts": 1,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

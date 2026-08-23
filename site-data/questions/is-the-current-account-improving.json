@@ -96,20 +96,6 @@
   ],
   "charts": [
     {
-      "id": "pi.ef08",
-      "kind": "chart",
-      "slug": "current-account-balance-through-time",
-      "title": "Current-account balance through time",
-      "href": "/charts/current-account-balance-through-time"
-    },
-    {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition"
-    },
-    {
       "id": "pi.ef45",
       "kind": "chart",
       "slug": "goods-trade-balance",
@@ -208,22 +194,6 @@
       "distance": 1
     },
     {
-      "id": "pi.ef08",
-      "kind": "chart",
-      "slug": "current-account-balance-through-time",
-      "title": "Current-account balance through time",
-      "href": "/charts/current-account-balance-through-time",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition",
-      "distance": 1
-    },
-    {
       "id": "pi.ef45",
       "kind": "chart",
       "slug": "goods-trade-balance",
@@ -292,7 +262,7 @@
   "counts": {
     "topics": 4,
     "indicators": 5,
-    "charts": 3
+    "charts": 1
   },
   "publication": {
     "state": "PUBLIC",

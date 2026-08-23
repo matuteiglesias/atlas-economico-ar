@@ -36,13 +36,6 @@
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
   "charts": [
     {
-      "id": "pi.ef05",
-      "kind": "chart",
-      "slug": "monthly-reserve-change-gross-versus-nir",
-      "title": "Monthly reserve change: gross versus NIR",
-      "href": "/charts/monthly-reserve-change-gross-versus-nir"
-    },
-    {
       "id": "pi.ef47",
       "kind": "chart",
       "slug": "monthly-change-in-gross-reserves",
@@ -182,14 +175,6 @@
       }
     },
     {
-      "id": "pi.ef05",
-      "kind": "chart",
-      "slug": "monthly-reserve-change-gross-versus-nir",
-      "title": "Monthly reserve change: gross versus NIR",
-      "href": "/charts/monthly-reserve-change-gross-versus-nir",
-      "distance": 1
-    },
-    {
       "id": "q.ef03",
       "kind": "question",
       "slug": "what-is-driving-changes-in-reserves",
@@ -199,7 +184,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 1,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

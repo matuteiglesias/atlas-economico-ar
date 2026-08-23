@@ -17,49 +17,13 @@
       "href": "/areas/external-financial-constraint",
       "populated": true,
       "dek": "How reserves, external flows, debt obligations, market access, and the depth of domestic finance shape Argentina's capacity to absorb shocks and finance growth."
-    },
-    {
-      "id": "fiscal_regime",
-      "kind": "region",
-      "slug": "fiscal-regime",
-      "title": "Fiscal Regime",
-      "href": "/areas/fiscal-regime",
-      "populated": false,
-      "dek": "Explain revenues, spending, balances, subsidies, pensions, public financing needs, and institutional durability of the fiscal anchor."
-    },
-    {
-      "id": "household_welfare",
-      "kind": "region",
-      "slug": "household-welfare",
-      "title": "Household Welfare",
-      "href": "/areas/household-welfare",
-      "populated": false,
-      "dek": "Explain purchasing power, poverty, basic baskets, distribution, social benefits, and how macro/labor changes reach households."
-    },
-    {
-      "id": "labor_incomes",
-      "kind": "region",
-      "slug": "labor-incomes",
-      "title": "Labor & Incomes",
-      "href": "/areas/labor-incomes",
-      "populated": false,
-      "dek": "Explain employment quantity/quality, labor formalization, wages, real earnings, informality, and labor-market transmission from sectoral change."
-    },
-    {
-      "id": "real_economy",
-      "kind": "region",
-      "slug": "real-economy",
-      "title": "Real Economy",
-      "href": "/areas/real-economy",
-      "populated": false,
-      "dek": "Explain output, demand, investment, consumption, sectoral performance, production structure, and the real-side consequences of stabilization and openness."
     }
   ],
   "counts": {
-    "region": 6,
+    "region": 2,
     "topic": 55,
     "question": 15,
     "indicator": 90,
-    "chart": 119
+    "chart": 27
   }
 }

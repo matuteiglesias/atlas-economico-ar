@@ -34,36 +34,7 @@
   "unitSemantics": "percent_gdp",
   "frequency": "quarterly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef29",
-      "kind": "chart",
-      "slug": "private-credit-as-a-share-of-gdp",
-      "title": "Private credit as a share of GDP",
-      "href": "/charts/private-credit-as-a-share-of-gdp"
-    },
-    {
-      "id": "pi.ef36",
-      "kind": "chart",
-      "slug": "financial-depth-private-credit-and-domestic-markets",
-      "title": "Financial depth: private credit and domestic markets",
-      "href": "/charts/financial-depth-private-credit-and-domestic-markets"
-    },
-    {
-      "id": "pi.ef37",
-      "kind": "chart",
-      "slug": "financial-depth-versus-emerging-market-peers",
-      "title": "Financial depth versus emerging-market peers",
-      "href": "/charts/financial-depth-versus-emerging-market-peers"
-    },
-    {
-      "id": "pi.ef38",
-      "kind": "chart",
-      "slug": "assets-outside-the-financial-system-versus-private-credit",
-      "title": "Assets outside the financial system versus private credit",
-      "href": "/charts/assets-outside-the-financial-system-versus-private-credit"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -74,42 +45,10 @@
       "title": "Private-sector credit",
       "href": "/topics/private-sector-credit",
       "distance": 1
-    },
-    {
-      "id": "pi.ef38",
-      "kind": "chart",
-      "slug": "assets-outside-the-financial-system-versus-private-credit",
-      "title": "Assets outside the financial system versus private credit",
-      "href": "/charts/assets-outside-the-financial-system-versus-private-credit",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef37",
-      "kind": "chart",
-      "slug": "financial-depth-versus-emerging-market-peers",
-      "title": "Financial depth versus emerging-market peers",
-      "href": "/charts/financial-depth-versus-emerging-market-peers",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef36",
-      "kind": "chart",
-      "slug": "financial-depth-private-credit-and-domestic-markets",
-      "title": "Financial depth: private credit and domestic markets",
-      "href": "/charts/financial-depth-private-credit-and-domestic-markets",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef29",
-      "kind": "chart",
-      "slug": "private-credit-as-a-share-of-gdp",
-      "title": "Private credit as a share of GDP",
-      "href": "/charts/private-credit-as-a-share-of-gdp",
-      "distance": 1
     }
   ],
   "counts": {
-    "charts": 4,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

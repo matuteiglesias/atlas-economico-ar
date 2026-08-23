@@ -76,22 +76,6 @@
       "title": "Reserve requirements",
       "href": "/topics/reserve-requirements",
       "distance": 2
-    },
-    {
-      "id": "pi.ns33",
-      "kind": "chart",
-      "slug": "reserve-requirement-changes-with-money-market-rates",
-      "title": "Reserve requirement changes with money-market rates",
-      "href": "/charts/reserve-requirement-changes-with-money-market-rates",
-      "distance": 2
-    },
-    {
-      "id": "pi.ns32",
-      "kind": "chart",
-      "slug": "reserve-requirements-and-bcra-peso-deposits",
-      "title": "Reserve requirements and BCRA peso deposits",
-      "href": "/charts/reserve-requirements-and-bcra-peso-deposits",
-      "distance": 2
     }
   ],
   "counts": {

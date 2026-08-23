@@ -175,14 +175,6 @@
       }
     },
     {
-      "id": "pi.ns15",
-      "kind": "chart",
-      "slug": "official-exchange-rate-within-the-band",
-      "title": "Official exchange rate within the band",
-      "href": "/charts/official-exchange-rate-within-the-band",
-      "distance": 2
-    },
-    {
       "id": "pi.ns55",
       "kind": "chart",
       "slug": "official-wholesale-exchange-rate",

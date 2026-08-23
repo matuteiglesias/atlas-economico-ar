@@ -124,27 +124,6 @@
   ],
   "charts": [
     {
-      "id": "pi.ef01",
-      "kind": "chart",
-      "slug": "gross-reserves-nir-and-liquid-buffers",
-      "title": "Gross reserves, NIR, and liquid buffers",
-      "href": "/charts/gross-reserves-nir-and-liquid-buffers"
-    },
-    {
-      "id": "pi.ef02",
-      "kind": "chart",
-      "slug": "reserve-adequacy-dashboard",
-      "title": "Reserve adequacy dashboard",
-      "href": "/charts/reserve-adequacy-dashboard"
-    },
-    {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map"
-    },
-    {
       "id": "pi.ef46",
       "kind": "chart",
       "slug": "gross-international-reserves",
@@ -241,14 +220,6 @@
       "distance": 1
     },
     {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map",
-      "distance": 1
-    },
-    {
       "id": "pi.ef46",
       "kind": "chart",
       "slug": "gross-international-reserves",
@@ -310,28 +281,12 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ef01",
-      "kind": "chart",
-      "slug": "gross-reserves-nir-and-liquid-buffers",
-      "title": "Gross reserves, NIR, and liquid buffers",
-      "href": "/charts/gross-reserves-nir-and-liquid-buffers",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef02",
-      "kind": "chart",
-      "slug": "reserve-adequacy-dashboard",
-      "title": "Reserve adequacy dashboard",
-      "href": "/charts/reserve-adequacy-dashboard",
-      "distance": 1
     }
   ],
   "counts": {
     "topics": 4,
     "indicators": 9,
-    "charts": 4
+    "charts": 1
   },
   "publication": {
     "state": "PUBLIC",

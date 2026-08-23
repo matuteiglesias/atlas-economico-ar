@@ -35,5 +35,35 @@
     "reference": 0,
     "superseded": 0,
     "hold": 23
+  },
+  "publicSurface": {
+    "schemaVersion": "0.1",
+    "semanticCounts": {
+      "region": 6,
+      "topic": 55,
+      "question": 38,
+      "indicator": 90,
+      "chart": 119
+    },
+    "addressableCounts": {
+      "region": 6,
+      "topic": 55,
+      "question": 15,
+      "indicator": 90,
+      "chart": 41
+    },
+    "discoverableCounts": {
+      "region": 2,
+      "topic": 55,
+      "question": 15,
+      "indicator": 90,
+      "chart": 27
+    },
+    "chartCensus": {
+      "semantic": 119,
+      "materialized": 41,
+      "addressable": 41,
+      "discoverable": 27
+    }
   }
 }

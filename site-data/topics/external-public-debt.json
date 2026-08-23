@@ -68,57 +68,7 @@
       "href": "/indicators/total-external-debt"
     }
   ],
-  "charts": [
-    {
-      "id": "pi.ef02",
-      "kind": "chart",
-      "slug": "reserve-adequacy-dashboard",
-      "title": "Reserve adequacy dashboard",
-      "href": "/charts/reserve-adequacy-dashboard"
-    },
-    {
-      "id": "pi.ef04",
-      "kind": "chart",
-      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
-      "title": "Reserve accumulation versus next-12m FX debt service",
-      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service"
-    },
-    {
-      "id": "pi.ef22",
-      "kind": "chart",
-      "slug": "fx-debt-service-maturity-wall",
-      "title": "FX debt-service maturity wall",
-      "href": "/charts/fx-debt-service-maturity-wall"
-    },
-    {
-      "id": "pi.ef23",
-      "kind": "chart",
-      "slug": "debt-service-versus-reserves",
-      "title": "Debt service versus reserves",
-      "href": "/charts/debt-service-versus-reserves"
-    },
-    {
-      "id": "pi.ef27",
-      "kind": "chart",
-      "slug": "external-debt-in-dollars-and-percent-of-gdp",
-      "title": "External debt in dollars and percent of GDP",
-      "href": "/charts/external-debt-in-dollars-and-percent-of-gdp"
-    },
-    {
-      "id": "pi.ef28",
-      "kind": "chart",
-      "slug": "reserve-coverage-of-external-debt-service",
-      "title": "Reserve coverage of external debt service",
-      "href": "/charts/reserve-coverage-of-external-debt-service"
-    },
-    {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map"
-    }
-  ],
+  "charts": [],
   "nearby": [
     {
       "id": "ef.external_vulnerability",
@@ -157,6 +107,6 @@
     "connections": 2,
     "questions": 0,
     "indicators": 2,
-    "charts": 7
+    "charts": 0
   }
 }

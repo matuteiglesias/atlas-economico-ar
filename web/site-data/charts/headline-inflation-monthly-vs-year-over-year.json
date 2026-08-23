@@ -189,22 +189,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ns07",
-      "kind": "chart",
-      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
-      "title": "Food and regulated prices as contributors to monthly inflation",
-      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation",
-      "distance": 2
-    },
-    {
-      "id": "pi.ns11",
-      "kind": "chart",
-      "slug": "inflation-expectations-vs-realized-inflation",
-      "title": "Inflation expectations vs realized inflation",
-      "href": "/charts/inflation-expectations-vs-realized-inflation",
-      "distance": 2
     }
   ],
   "counts": {

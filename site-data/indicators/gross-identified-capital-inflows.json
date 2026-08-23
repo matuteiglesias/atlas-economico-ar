@@ -34,22 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef13",
-      "kind": "chart",
-      "slug": "capital-inflows-versus-current-account-financing-need",
-      "title": "Capital inflows versus current-account financing need",
-      "href": "/charts/capital-inflows-versus-current-account-financing-need"
-    },
-    {
-      "id": "pi.ef14",
-      "kind": "chart",
-      "slug": "fdi-versus-broader-capital-inflows",
-      "title": "FDI versus broader capital inflows",
-      "href": "/charts/fdi-versus-broader-capital-inflows"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [],
   "derivedAsOutput": [],
   "nearby": [
@@ -59,22 +44,6 @@
       "slug": "capital-inflows",
       "title": "Capital inflows",
       "href": "/topics/capital-inflows",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef13",
-      "kind": "chart",
-      "slug": "capital-inflows-versus-current-account-financing-need",
-      "title": "Capital inflows versus current-account financing need",
-      "href": "/charts/capital-inflows-versus-current-account-financing-need",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef14",
-      "kind": "chart",
-      "slug": "fdi-versus-broader-capital-inflows",
-      "title": "FDI versus broader capital inflows",
-      "href": "/charts/fdi-versus-broader-capital-inflows",
       "distance": 1
     },
     {
@@ -103,7 +72,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 0,
     "derivedAsInput": 0,
     "derivedAsOutput": 0
   }

@@ -68,50 +68,7 @@
       "href": "/indicators/public-and-provincial-fx-issuance"
     }
   ],
-  "charts": [
-    {
-      "id": "pi.ef17",
-      "kind": "chart",
-      "slug": "sovereign-spreads-through-the-market-re-entry-window",
-      "title": "Sovereign spreads through the market re-entry window",
-      "href": "/charts/sovereign-spreads-through-the-market-re-entry-window"
-    },
-    {
-      "id": "pi.ef18",
-      "kind": "chart",
-      "slug": "sovereign-and-corporate-spreads",
-      "title": "Sovereign and corporate spreads",
-      "href": "/charts/sovereign-and-corporate-spreads"
-    },
-    {
-      "id": "pi.ef19",
-      "kind": "chart",
-      "slug": "fx-issuance-volumes-by-issuer-type",
-      "title": "FX issuance volumes by issuer type",
-      "href": "/charts/fx-issuance-volumes-by-issuer-type"
-    },
-    {
-      "id": "pi.ef26",
-      "kind": "chart",
-      "slug": "market-issuance-cumulative-since-re-entry",
-      "title": "Market issuance cumulative since re-entry",
-      "href": "/charts/market-issuance-cumulative-since-re-entry"
-    },
-    {
-      "id": "pi.ef39",
-      "kind": "chart",
-      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
-      "title": "Domestic capital-market depth versus external market issuance",
-      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
-    },
-    {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map"
-    }
-  ],
+  "charts": [],
   "nearby": [
     {
       "id": "ef.refinancing_needs",
@@ -150,6 +107,6 @@
     "connections": 2,
     "questions": 0,
     "indicators": 2,
-    "charts": 6
+    "charts": 0
   }
 }

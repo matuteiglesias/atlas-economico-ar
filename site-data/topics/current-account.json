@@ -127,62 +127,6 @@
   ],
   "charts": [
     {
-      "id": "pi.ef08",
-      "kind": "chart",
-      "slug": "current-account-balance-through-time",
-      "title": "Current-account balance through time",
-      "href": "/charts/current-account-balance-through-time"
-    },
-    {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition"
-    },
-    {
-      "id": "pi.ef10",
-      "kind": "chart",
-      "slug": "goods-surplus-versus-services-deficit",
-      "title": "Goods surplus versus services deficit",
-      "href": "/charts/goods-surplus-versus-services-deficit"
-    },
-    {
-      "id": "pi.ef11",
-      "kind": "chart",
-      "slug": "primary-income-drag-on-the-current-account",
-      "title": "Primary-income drag on the current account",
-      "href": "/charts/primary-income-drag-on-the-current-account"
-    },
-    {
-      "id": "pi.ef13",
-      "kind": "chart",
-      "slug": "capital-inflows-versus-current-account-financing-need",
-      "title": "Capital inflows versus current-account financing need",
-      "href": "/charts/capital-inflows-versus-current-account-financing-need"
-    },
-    {
-      "id": "pi.ef40",
-      "kind": "chart",
-      "slug": "reer-versus-current-account-balance",
-      "title": "REER versus current-account balance",
-      "href": "/charts/reer-versus-current-account-balance"
-    },
-    {
-      "id": "pi.ef41",
-      "kind": "chart",
-      "slug": "reer-versus-nir-accumulation",
-      "title": "REER versus NIR accumulation",
-      "href": "/charts/reer-versus-nir-accumulation"
-    },
-    {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map"
-    },
-    {
       "id": "pi.ef45",
       "kind": "chart",
       "slug": "goods-trade-balance",
@@ -301,6 +245,6 @@
     "connections": 6,
     "questions": 1,
     "indicators": 2,
-    "charts": 9
+    "charts": 1
   }
 }

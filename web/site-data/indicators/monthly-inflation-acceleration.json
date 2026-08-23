@@ -36,13 +36,6 @@
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
   "charts": [
     {
-      "id": "pi.ns02",
-      "kind": "chart",
-      "slug": "monthly-inflation-with-acceleration-markers",
-      "title": "Monthly inflation with acceleration markers",
-      "href": "/charts/monthly-inflation-with-acceleration-markers"
-    },
-    {
       "id": "pi.ns65",
       "kind": "chart",
       "slug": "monthly-inflation-and-acceleration",
@@ -184,14 +177,6 @@
       }
     },
     {
-      "id": "pi.ns02",
-      "kind": "chart",
-      "slug": "monthly-inflation-with-acceleration-markers",
-      "title": "Monthly inflation with acceleration markers",
-      "href": "/charts/monthly-inflation-with-acceleration-markers",
-      "distance": 1
-    },
-    {
       "id": "q.ns02",
       "kind": "question",
       "slug": "has-the-disinflation-process-stalled-or-resumed",
@@ -225,7 +210,7 @@
     }
   ],
   "counts": {
-    "charts": 2,
+    "charts": 1,
     "derivedAsInput": 0,
     "derivedAsOutput": 1
   }

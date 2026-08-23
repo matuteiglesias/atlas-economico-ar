@@ -73,20 +73,6 @@
   ],
   "charts": [
     {
-      "id": "pi.ns15",
-      "kind": "chart",
-      "slug": "official-exchange-rate-within-the-band",
-      "title": "Official exchange rate within the band",
-      "href": "/charts/official-exchange-rate-within-the-band"
-    },
-    {
-      "id": "pi.ns16",
-      "kind": "chart",
-      "slug": "position-inside-fx-band",
-      "title": "Position inside FX band",
-      "href": "/charts/position-inside-fx-band"
-    },
-    {
       "id": "pi.ns55",
       "kind": "chart",
       "slug": "official-wholesale-exchange-rate",
@@ -165,14 +151,6 @@
       "distance": 1
     },
     {
-      "id": "pi.ns15",
-      "kind": "chart",
-      "slug": "official-exchange-rate-within-the-band",
-      "title": "Official exchange rate within the band",
-      "href": "/charts/official-exchange-rate-within-the-band",
-      "distance": 1
-    },
-    {
       "id": "pi.ns55",
       "kind": "chart",
       "slug": "official-wholesale-exchange-rate",
@@ -234,14 +212,6 @@
       }
     },
     {
-      "id": "pi.ns16",
-      "kind": "chart",
-      "slug": "position-inside-fx-band",
-      "title": "Position inside FX band",
-      "href": "/charts/position-inside-fx-band",
-      "distance": 1
-    },
-    {
       "id": "q.ns11",
       "kind": "question",
       "slug": "how-are-bcra-fx-purchases-interacting-with-the-exchange-rate-and-monetary-conditions",
@@ -261,7 +231,7 @@
   "counts": {
     "topics": 2,
     "indicators": 4,
-    "charts": 3
+    "charts": 1
   },
   "publication": {
     "state": "PUBLIC",

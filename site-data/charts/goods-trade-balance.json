@@ -122,22 +122,6 @@
       "title": "Services balance",
       "href": "/topics/services-balance",
       "distance": 2
-    },
-    {
-      "id": "pi.ef08",
-      "kind": "chart",
-      "slug": "current-account-balance-through-time",
-      "title": "Current-account balance through time",
-      "href": "/charts/current-account-balance-through-time",
-      "distance": 2
-    },
-    {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition",
-      "distance": 2
     }
   ],
   "counts": {

@@ -34,15 +34,7 @@
   "unitSemantics": "ars_per_usd",
   "frequency": "daily",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ns17",
-      "kind": "chart",
-      "slug": "official-ccl-and-blue-exchange-rates",
-      "title": "Official, CCL and blue exchange rates",
-      "href": "/charts/official-ccl-and-blue-exchange-rates"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [
     "di.ns.fx_gap_blue"
   ],
@@ -54,14 +46,6 @@
       "slug": "parallel-exchange-rate",
       "title": "Parallel exchange rate",
       "href": "/topics/parallel-exchange-rate",
-      "distance": 1
-    },
-    {
-      "id": "pi.ns17",
-      "kind": "chart",
-      "slug": "official-ccl-and-blue-exchange-rates",
-      "title": "Official, CCL and blue exchange rates",
-      "href": "/charts/official-ccl-and-blue-exchange-rates",
       "distance": 1
     },
     {
@@ -106,7 +90,7 @@
     }
   ],
   "counts": {
-    "charts": 1,
+    "charts": 0,
     "derivedAsInput": 1,
     "derivedAsOutput": 0
   }

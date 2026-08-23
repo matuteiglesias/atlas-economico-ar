@@ -161,96 +161,6 @@
       }
     },
     {
-      "id": "pi.ns40",
-      "kind": "chart",
-      "slug": "remonetization-vs-bcra-fx-purchases",
-      "title": "Remonetization vs BCRA FX purchases",
-      "href": "/charts/remonetization-vs-bcra-fx-purchases",
-      "artifact": {
-        "chartSpecId": "cs.bcra.real_m2_vs_purchases",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-11",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/remonetization-vs-bcra-fx-purchases.svg",
-        "png": "/plots/remonetization-vs-bcra-fx-purchases.png",
-        "altText": "Remonetization vs BCRA FX purchases. Real private transactional M2; BCRA net FX purchases. Since Jan 2026. Data through 2026-08-11.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.transactional_m2_real",
-          "ci.ns.bcra_fx_purchases_daily"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.transactional_m2_private",
-          "series.ar.datosgob.ipc_headline_mom_national",
-          "series.ar.bcra.fx_purchases_reserve_factor"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9",
-          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
-          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns40",
-          "state": "QUARANTINE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "The rendered chart overlays a sparse monthly real-money stock/index with noisy daily FX-purchase flows on a second axis. The frequency and stock-flow mismatch invites unsupported same-period co-movement interpretation; quarantine until the quantities are transformed to a matched temporal and economic grain."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.transactional_m2_private",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "197",
-            "sourceUnit": "Millons pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
-          },
-          {
-            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
-            "provider": "datos_argentina",
-            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
-            "sourceUnit": "Variación intermensual",
-            "normalization": {
-              "kind": "scale",
-              "factor": 100
-            },
-            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-          },
-          {
-            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "78",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "The rendered chart overlays a sparse monthly real-money stock/index with noisy daily FX-purchase flows on a second axis. The frequency and stock-flow mismatch invites unsupported same-period co-movement interpretation; quarantine until the quantities are transformed to a matched temporal and economic grain."
-      }
-    },
-    {
       "id": "pi.ns41",
       "kind": "chart",
       "slug": "monetary-base-vs-transactional-m2",
@@ -460,97 +370,6 @@
       }
     },
     {
-      "id": "pi.ns40",
-      "kind": "chart",
-      "slug": "remonetization-vs-bcra-fx-purchases",
-      "title": "Remonetization vs BCRA FX purchases",
-      "href": "/charts/remonetization-vs-bcra-fx-purchases",
-      "distance": 1,
-      "artifact": {
-        "chartSpecId": "cs.bcra.real_m2_vs_purchases",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-11",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/remonetization-vs-bcra-fx-purchases.svg",
-        "png": "/plots/remonetization-vs-bcra-fx-purchases.png",
-        "altText": "Remonetization vs BCRA FX purchases. Real private transactional M2; BCRA net FX purchases. Since Jan 2026. Data through 2026-08-11.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.transactional_m2_real",
-          "ci.ns.bcra_fx_purchases_daily"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.transactional_m2_private",
-          "series.ar.datosgob.ipc_headline_mom_national",
-          "series.ar.bcra.fx_purchases_reserve_factor"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9",
-          "series.ar.datosgob.ipc_headline_mom_national": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93",
-          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ns40",
-          "state": "QUARANTINE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "The rendered chart overlays a sparse monthly real-money stock/index with noisy daily FX-purchase flows on a second axis. The frequency and stock-flow mismatch invites unsupported same-period co-movement interpretation; quarantine until the quantities are transformed to a matched temporal and economic grain."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "197,145.3_INGNACUAL_DICI_M_38,78",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.transactional_m2_private",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "197",
-            "sourceUnit": "Millons pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
-          },
-          {
-            "seriesId": "series.ar.datosgob.ipc_headline_mom_national",
-            "provider": "datos_argentina",
-            "providerSeriesId": "145.3_INGNACUAL_DICI_M_38",
-            "sourceUnit": "Variación intermensual",
-            "normalization": {
-              "kind": "scale",
-              "factor": 100
-            },
-            "snapshotSha256": "5b5fceed12f6ccb452054fd1f712a04ce2e298cf33e6ed41bc8749b9da51ae93"
-          },
-          {
-            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "78",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "The rendered chart overlays a sparse monthly real-money stock/index with noisy daily FX-purchase flows on a second axis. The frequency and stock-flow mismatch invites unsupported same-period co-movement interpretation; quarantine until the quantities are transformed to a matched temporal and economic grain."
-      }
-    },
-    {
       "id": "pi.ns39",
       "kind": "chart",
       "slug": "remonetization-vs-inflation",
@@ -637,7 +456,7 @@
   "counts": {
     "topics": 4,
     "indicators": 4,
-    "charts": 3
+    "charts": 2
   },
   "publication": {
     "state": "PUBLIC",

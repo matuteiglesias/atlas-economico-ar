@@ -68,29 +68,7 @@
       "href": "/indicators/central-bank-external-swap-liabilities"
     }
   ],
-  "charts": [
-    {
-      "id": "pi.ef07",
-      "kind": "chart",
-      "slug": "external-financing-and-debt-service-bridge",
-      "title": "External financing and debt-service bridge",
-      "href": "/charts/external-financing-and-debt-service-bridge"
-    },
-    {
-      "id": "pi.ef24",
-      "kind": "chart",
-      "slug": "official-financing-swaps-and-repos",
-      "title": "Official financing, swaps, and repos",
-      "href": "/charts/official-financing-swaps-and-repos"
-    },
-    {
-      "id": "pi.ef25",
-      "kind": "chart",
-      "slug": "swap-and-repo-liabilities-versus-nir",
-      "title": "Swap and repo liabilities versus NIR",
-      "href": "/charts/swap-and-repo-liabilities-versus-nir"
-    }
-  ],
+  "charts": [],
   "nearby": [
     {
       "id": "ef.external_vulnerability",
@@ -145,6 +123,6 @@
     "connections": 2,
     "questions": 0,
     "indicators": 2,
-    "charts": 3
+    "charts": 0
   }
 }

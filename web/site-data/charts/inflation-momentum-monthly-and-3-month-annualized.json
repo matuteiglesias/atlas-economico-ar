@@ -191,14 +191,6 @@
       }
     },
     {
-      "id": "pi.ns07",
-      "kind": "chart",
-      "slug": "food-and-regulated-prices-as-contributors-to-monthly-inflation",
-      "title": "Food and regulated prices as contributors to monthly inflation",
-      "href": "/charts/food-and-regulated-prices-as-contributors-to-monthly-inflation",
-      "distance": 2
-    },
-    {
       "id": "pi.ns03",
       "kind": "chart",
       "slug": "headline-inflation-monthly-vs-year-over-year",

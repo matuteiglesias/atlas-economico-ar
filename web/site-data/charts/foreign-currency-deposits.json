@@ -109,14 +109,6 @@
       "distance": 2
     },
     {
-      "id": "pi.ef35",
-      "kind": "chart",
-      "slug": "bank-capital-and-npls",
-      "title": "Bank capital and NPLs",
-      "href": "/charts/bank-capital-and-npls",
-      "distance": 2
-    },
-    {
       "id": "pi.ef53",
       "kind": "chart",
       "slug": "foreign-currency-shares-of-private-credit-and-deposits",

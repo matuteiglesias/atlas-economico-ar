@@ -17,7 +17,7 @@
     "topics": 30,
     "questions": 5,
     "indicators": 47,
-    "charts": 54,
+    "charts": 8,
     "relations": 37
   },
   "topics": [
@@ -602,202 +602,6 @@
   ],
   "charts": [
     {
-      "id": "pi.ef38",
-      "kind": "chart",
-      "slug": "assets-outside-the-financial-system-versus-private-credit",
-      "title": "Assets outside the financial system versus private credit",
-      "href": "/charts/assets-outside-the-financial-system-versus-private-credit"
-    },
-    {
-      "id": "pi.ef35",
-      "kind": "chart",
-      "slug": "bank-capital-and-npls",
-      "title": "Bank capital and NPLs",
-      "href": "/charts/bank-capital-and-npls"
-    },
-    {
-      "id": "pi.ef49",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-and-gross-reserves",
-      "title": "BCRA FX purchases and gross reserves",
-      "href": "/charts/bcra-fx-purchases-and-gross-reserves",
-      "artifact": {
-        "chartSpecId": "cs.bcra.purchases_vs_reserves",
-        "frameId": "rf.since_jan_2026",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-08-12",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/bcra-fx-purchases-and-gross-reserves.svg",
-        "png": "/plots/bcra-fx-purchases-and-gross-reserves.png",
-        "altText": "BCRA FX purchases and gross reserves. BCRA net FX purchases; Gross international reserves. Since Jan 2026. Data through 2026-08-12.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ns.bcra_fx_purchases_daily",
-          "ci.ef.gross_reserves_usd"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.fx_purchases_reserve_factor",
-          "series.ar.bcra.gross_international_reserves"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.fx_purchases_reserve_factor": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5",
-          "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef49",
-          "state": "QUARANTINE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Daily FX-purchase flows against the gross-reserves stock create a flow-stock mismatch; a future replacement should compare matched cumulative or period-change quantities."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "78,1",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.fx_purchases_reserve_factor",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "78",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000000
-            },
-            "snapshotSha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
-          },
-          {
-            "seriesId": "series.ar.bcra.gross_international_reserves",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "1",
-            "sourceUnit": "Millons USD",
-            "normalization": {
-              "kind": "scale",
-              "factor": 0.001
-            },
-            "snapshotSha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Daily FX-purchase flows against the gross-reserves stock create a flow-stock mismatch; a future replacement should compare matched cumulative or period-change quantities."
-      }
-    },
-    {
-      "id": "pi.ef42",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-and-reserve-accumulation",
-      "title": "BCRA FX purchases and reserve accumulation",
-      "href": "/charts/bcra-fx-purchases-and-reserve-accumulation"
-    },
-    {
-      "id": "pi.ef06",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-versus-nir-accumulation",
-      "title": "BCRA FX purchases versus NIR accumulation",
-      "href": "/charts/bcra-fx-purchases-versus-nir-accumulation"
-    },
-    {
-      "id": "pi.ef43",
-      "kind": "chart",
-      "slug": "bcra-fx-purchases-versus-sovereign-spreads",
-      "title": "BCRA FX purchases versus sovereign spreads",
-      "href": "/charts/bcra-fx-purchases-versus-sovereign-spreads"
-    },
-    {
-      "id": "pi.ef13",
-      "kind": "chart",
-      "slug": "capital-inflows-versus-current-account-financing-need",
-      "title": "Capital inflows versus current-account financing need",
-      "href": "/charts/capital-inflows-versus-current-account-financing-need"
-    },
-    {
-      "id": "pi.ef08",
-      "kind": "chart",
-      "slug": "current-account-balance-through-time",
-      "title": "Current-account balance through time",
-      "href": "/charts/current-account-balance-through-time"
-    },
-    {
-      "id": "pi.ef09",
-      "kind": "chart",
-      "slug": "current-account-component-decomposition",
-      "title": "Current-account component decomposition",
-      "href": "/charts/current-account-component-decomposition"
-    },
-    {
-      "id": "pi.ef23",
-      "kind": "chart",
-      "slug": "debt-service-versus-reserves",
-      "title": "Debt service versus reserves",
-      "href": "/charts/debt-service-versus-reserves"
-    },
-    {
-      "id": "pi.ef39",
-      "kind": "chart",
-      "slug": "domestic-capital-market-depth-versus-external-market-issuance",
-      "title": "Domestic capital-market depth versus external market issuance",
-      "href": "/charts/domestic-capital-market-depth-versus-external-market-issuance"
-    },
-    {
-      "id": "pi.ef27",
-      "kind": "chart",
-      "slug": "external-debt-in-dollars-and-percent-of-gdp",
-      "title": "External debt in dollars and percent of GDP",
-      "href": "/charts/external-debt-in-dollars-and-percent-of-gdp"
-    },
-    {
-      "id": "pi.ef07",
-      "kind": "chart",
-      "slug": "external-financing-and-debt-service-bridge",
-      "title": "External financing and debt-service bridge",
-      "href": "/charts/external-financing-and-debt-service-bridge"
-    },
-    {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map"
-    },
-    {
-      "id": "pi.ef14",
-      "kind": "chart",
-      "slug": "fdi-versus-broader-capital-inflows",
-      "title": "FDI versus broader capital inflows",
-      "href": "/charts/fdi-versus-broader-capital-inflows"
-    },
-    {
-      "id": "pi.ef37",
-      "kind": "chart",
-      "slug": "financial-depth-versus-emerging-market-peers",
-      "title": "Financial depth versus emerging-market peers",
-      "href": "/charts/financial-depth-versus-emerging-market-peers"
-    },
-    {
-      "id": "pi.ef36",
-      "kind": "chart",
-      "slug": "financial-depth-private-credit-and-domestic-markets",
-      "title": "Financial depth: private credit and domestic markets",
-      "href": "/charts/financial-depth-private-credit-and-domestic-markets"
-    },
-    {
-      "id": "pi.ef12",
-      "kind": "chart",
-      "slug": "financial-account-components",
-      "title": "Financial-account components",
-      "href": "/charts/financial-account-components"
-    },
-    {
       "id": "pi.ef50",
       "kind": "chart",
       "slug": "foreign-currency-deposits",
@@ -960,13 +764,6 @@
       }
     },
     {
-      "id": "pi.ef22",
-      "kind": "chart",
-      "slug": "fx-debt-service-maturity-wall",
-      "title": "FX debt-service maturity wall",
-      "href": "/charts/fx-debt-service-maturity-wall"
-    },
-    {
       "id": "pi.ef33",
       "kind": "chart",
       "slug": "fx-deposits-in-the-domestic-financial-system",
@@ -1054,27 +851,6 @@
         ],
         "qaNote": "Rendered synthesis is legible and economically coherent. The USD deposit stock and deposit share answer distinct scale and composition parts of the same question; both axes are explicit, and the mixed-frequency encoding does not imply a common quantitative scale. Retain as a curated synthesis while keeping the single-measure figures available."
       }
-    },
-    {
-      "id": "pi.ef34",
-      "kind": "chart",
-      "slug": "fx-deposits-versus-bank-liquidity",
-      "title": "FX deposits versus bank liquidity",
-      "href": "/charts/fx-deposits-versus-bank-liquidity"
-    },
-    {
-      "id": "pi.ef19",
-      "kind": "chart",
-      "slug": "fx-issuance-volumes-by-issuer-type",
-      "title": "FX issuance volumes by issuer type",
-      "href": "/charts/fx-issuance-volumes-by-issuer-type"
-    },
-    {
-      "id": "pi.ef10",
-      "kind": "chart",
-      "slug": "goods-surplus-versus-services-deficit",
-      "title": "Goods surplus versus services deficit",
-      "href": "/charts/goods-surplus-versus-services-deficit"
     },
     {
       "id": "pi.ef45",
@@ -1203,27 +979,6 @@
       }
     },
     {
-      "id": "pi.ef21",
-      "kind": "chart",
-      "slug": "gross-reserves-versus-sovereign-spreads",
-      "title": "Gross reserves versus sovereign spreads",
-      "href": "/charts/gross-reserves-versus-sovereign-spreads"
-    },
-    {
-      "id": "pi.ef01",
-      "kind": "chart",
-      "slug": "gross-reserves-nir-and-liquid-buffers",
-      "title": "Gross reserves, NIR, and liquid buffers",
-      "href": "/charts/gross-reserves-nir-and-liquid-buffers"
-    },
-    {
-      "id": "pi.ef26",
-      "kind": "chart",
-      "slug": "market-issuance-cumulative-since-re-entry",
-      "title": "Market issuance cumulative since re-entry",
-      "href": "/charts/market-issuance-cumulative-since-re-entry"
-    },
-    {
       "id": "pi.ef47",
       "kind": "chart",
       "slug": "monthly-change-in-gross-reserves",
@@ -1284,300 +1039,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ef05",
-      "kind": "chart",
-      "slug": "monthly-reserve-change-gross-versus-nir",
-      "title": "Monthly reserve change: gross versus NIR",
-      "href": "/charts/monthly-reserve-change-gross-versus-nir"
-    },
-    {
-      "id": "pi.ef03",
-      "kind": "chart",
-      "slug": "nir-versus-program-target-path",
-      "title": "NIR versus program target path",
-      "href": "/charts/nir-versus-program-target-path"
-    },
-    {
-      "id": "pi.ef32",
-      "kind": "chart",
-      "slug": "npl-ratio-through-the-credit-cycle",
-      "title": "NPL ratio through the credit cycle",
-      "href": "/charts/npl-ratio-through-the-credit-cycle"
-    },
-    {
-      "id": "pi.ef24",
-      "kind": "chart",
-      "slug": "official-financing-swaps-and-repos",
-      "title": "Official financing, swaps, and repos",
-      "href": "/charts/official-financing-swaps-and-repos"
-    },
-    {
-      "id": "pi.ef11",
-      "kind": "chart",
-      "slug": "primary-income-drag-on-the-current-account",
-      "title": "Primary-income drag on the current account",
-      "href": "/charts/primary-income-drag-on-the-current-account"
-    },
-    {
-      "id": "pi.ef54",
-      "kind": "chart",
-      "slug": "private-credit-and-deposits",
-      "title": "Private credit and deposits",
-      "href": "/charts/private-credit-and-deposits",
-      "artifact": {
-        "chartSpecId": "cs.bcra3.credit_vs_deposits",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-06-30",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/private-credit-and-deposits.svg",
-        "png": "/plots/private-credit-and-deposits.png",
-        "altText": "Private credit and deposits. Total private-sector credit, ARS equivalent; Total private-sector deposits, ARS equivalent. Last 5 years. Data through 2026-06-30.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.private_credit_total_ars",
-          "ci.ef.private_deposits_total_ars"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.private_credit_total_ars_equiv",
-          "series.ar.bcra.private_deposits_total_ars_equiv"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.private_credit_total_ars_equiv": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9",
-          "series.ar.bcra.private_deposits_total_ars_equiv": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef54",
-          "state": "REFERENCE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "The credit-versus-deposit stock comparison is internally consistent, but the five-year nominal ARS scale mostly tracks price-level drift and does not by itself establish financial deepening or system depth. Retain as balance-sheet reference evidence rather than a primary analytical figure."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "882,981",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.private_credit_total_ars_equiv",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "882",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "b03eaca1ea9d263d4893b027ff53def41e719b4593f42175823ee8a9ba517bf9"
-          },
-          {
-            "seriesId": "series.ar.bcra.private_deposits_total_ars_equiv",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "981",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "523f1ccc585fc8f974a268b0debc9abf5183216826e975d11cb756a9ea42f675"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "The credit-versus-deposit stock comparison is internally consistent, but the five-year nominal ARS scale mostly tracks price-level drift and does not by itself establish financial deepening or system depth. Retain as balance-sheet reference evidence rather than a primary analytical figure."
-      }
-    },
-    {
-      "id": "pi.ef29",
-      "kind": "chart",
-      "slug": "private-credit-as-a-share-of-gdp",
-      "title": "Private credit as a share of GDP",
-      "href": "/charts/private-credit-as-a-share-of-gdp"
-    },
-    {
-      "id": "pi.ef51",
-      "kind": "chart",
-      "slug": "private-credit-by-currency",
-      "title": "Private credit by currency",
-      "href": "/charts/private-credit-by-currency",
-      "artifact": {
-        "chartSpecId": "cs.bcra3.private_credit_currency",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-06-30",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/private-credit-by-currency.svg",
-        "png": "/plots/private-credit-by-currency.png",
-        "altText": "Private credit by currency. Private-sector credit in pesos; Private-sector foreign-currency credit, ARS equivalent. Last 5 years. Data through 2026-06-30.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.private_credit_peso_ars",
-          "ci.ef.private_credit_fx_ars_equivalent"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.private_credit_peso",
-          "series.ar.bcra.private_credit_fx_ars_equiv"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.private_credit_peso": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9",
-          "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef51",
-          "state": "REFERENCE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "893,904",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.private_credit_peso",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "893",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9"
-          },
-          {
-            "seriesId": "series.ar.bcra.private_credit_fx_ars_equiv",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "904",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Valid provider-consistent decomposition of private credit by currency, but the five-year nominal ARS levels are dominated by inflation and exchange-rate valuation. Retain as reference evidence; pi.ef30 and pi.ef53 are stronger analytical views for genuine credit deepening and currency composition."
-      }
-    },
-    {
-      "id": "pi.ef52",
-      "kind": "chart",
-      "slug": "private-deposits-by-currency",
-      "title": "Private deposits by currency",
-      "href": "/charts/private-deposits-by-currency",
-      "artifact": {
-        "chartSpecId": "cs.bcra3.private_deposits_currency",
-        "frameId": "rf.last_5y",
-        "renderer": "timeseries_line",
-        "dataAsOf": "2026-06-30",
-        "generatedAt": "2026-08-15T21:20:00Z",
-        "svg": "/plots/private-deposits-by-currency.svg",
-        "png": "/plots/private-deposits-by-currency.png",
-        "altText": "Private deposits by currency. Private-sector deposits in pesos; Private-sector foreign-currency deposits, ARS equivalent. Last 5 years. Data through 2026-06-30.",
-        "freshnessState": "fresh",
-        "indicatorIds": [
-          "ci.ef.private_deposits_peso_ars",
-          "ci.ef.private_deposits_fx_ars_equivalent"
-        ],
-        "seriesIds": [
-          "series.ar.bcra.private_deposits_peso",
-          "series.ar.bcra.private_deposits_fx_ars_equiv"
-        ],
-        "snapshotSha256": {
-          "series.ar.bcra.private_deposits_peso": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad",
-          "series.ar.bcra.private_deposits_fx_ars_equiv": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
-        },
-        "presentation": {
-          "variant": "embed",
-          "chromeOwner": "page"
-        },
-        "disposition": {
-          "plotIntentId": "pi.ef52",
-          "state": "REFERENCE",
-          "source": "curation_review",
-          "reviewed": true,
-          "addressable": true,
-          "prominent": false,
-          "primaryEvidence": false,
-          "note": "Valid provider-consistent decomposition of private deposits by currency, but five-year nominal ARS levels are weak primary evidence in a high-inflation period. Retain as reference; pi.ef50 and pi.ef53 give cleaner USD-level and currency-share evidence."
-        },
-        "source": {
-          "provider": "multiple",
-          "providerSeriesId": "992,1003",
-          "normalization": {
-            "kind": "composite"
-          }
-        },
-        "sources": [
-          {
-            "seriesId": "series.ar.bcra.private_deposits_peso",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "992",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "dc7af728639443527bfdb187e6db4aae90fafa68094e2382dd53f899e0f9fcad"
-          },
-          {
-            "seriesId": "series.ar.bcra.private_deposits_fx_ars_equiv",
-            "provider": "bcra_monetarias_v4",
-            "providerSeriesId": "1003",
-            "sourceUnit": "Thousands pesos",
-            "normalization": {
-              "kind": "scale",
-              "factor": 1000
-            },
-            "snapshotSha256": "ed66309b48cb218e313fa5c98322b7b7274f195e8ccc61ec9987196ecffe7c5c"
-          }
-        ],
-        "publicationStatus": "quarantine",
-        "qaNote": "Valid provider-consistent decomposition of private deposits by currency, but five-year nominal ARS levels are weak primary evidence in a high-inflation period. Retain as reference; pi.ef50 and pi.ef53 give cleaner USD-level and currency-share evidence."
-      }
-    },
-    {
-      "id": "pi.ef15",
-      "kind": "chart",
-      "slug": "private-financial-flows-around-the-2025-stress-episode",
-      "title": "Private financial flows around the 2025 stress episode",
-      "href": "/charts/private-financial-flows-around-the-2025-stress-episode"
-    },
-    {
-      "id": "pi.ef16",
-      "kind": "chart",
-      "slug": "private-financial-flows-versus-reserve-accumulation",
-      "title": "Private financial flows versus reserve accumulation",
-      "href": "/charts/private-financial-flows-versus-reserve-accumulation"
-    },
-    {
-      "id": "pi.ef31",
-      "kind": "chart",
-      "slug": "real-credit-growth-versus-npl-ratio",
-      "title": "Real credit growth versus NPL ratio",
-      "href": "/charts/real-credit-growth-versus-npl-ratio"
     },
     {
       "id": "pi.ef30",
@@ -1655,34 +1116,6 @@
       }
     },
     {
-      "id": "pi.ef40",
-      "kind": "chart",
-      "slug": "reer-versus-current-account-balance",
-      "title": "REER versus current-account balance",
-      "href": "/charts/reer-versus-current-account-balance"
-    },
-    {
-      "id": "pi.ef41",
-      "kind": "chart",
-      "slug": "reer-versus-nir-accumulation",
-      "title": "REER versus NIR accumulation",
-      "href": "/charts/reer-versus-nir-accumulation"
-    },
-    {
-      "id": "pi.ef04",
-      "kind": "chart",
-      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
-      "title": "Reserve accumulation versus next-12m FX debt service",
-      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service"
-    },
-    {
-      "id": "pi.ef20",
-      "kind": "chart",
-      "slug": "reserve-accumulation-versus-sovereign-spreads",
-      "title": "Reserve accumulation versus sovereign spreads",
-      "href": "/charts/reserve-accumulation-versus-sovereign-spreads"
-    },
-    {
       "id": "pi.ef48",
       "kind": "chart",
       "slug": "reserve-accumulation-year-to-date",
@@ -1743,115 +1176,10 @@
           }
         ]
       }
-    },
-    {
-      "id": "pi.ef02",
-      "kind": "chart",
-      "slug": "reserve-adequacy-dashboard",
-      "title": "Reserve adequacy dashboard",
-      "href": "/charts/reserve-adequacy-dashboard"
-    },
-    {
-      "id": "pi.ef28",
-      "kind": "chart",
-      "slug": "reserve-coverage-of-external-debt-service",
-      "title": "Reserve coverage of external debt service",
-      "href": "/charts/reserve-coverage-of-external-debt-service"
-    },
-    {
-      "id": "pi.ef18",
-      "kind": "chart",
-      "slug": "sovereign-and-corporate-spreads",
-      "title": "Sovereign and corporate spreads",
-      "href": "/charts/sovereign-and-corporate-spreads"
-    },
-    {
-      "id": "pi.ef17",
-      "kind": "chart",
-      "slug": "sovereign-spreads-through-the-market-re-entry-window",
-      "title": "Sovereign spreads through the market re-entry window",
-      "href": "/charts/sovereign-spreads-through-the-market-re-entry-window"
-    },
-    {
-      "id": "pi.ef25",
-      "kind": "chart",
-      "slug": "swap-and-repo-liabilities-versus-nir",
-      "title": "Swap and repo liabilities versus NIR",
-      "href": "/charts/swap-and-repo-liabilities-versus-nir"
     }
   ],
   "localGraph": {
     "nodes": [
-      {
-        "id": "ef.capital_inflows",
-        "kind": "topic",
-        "slug": "capital-inflows",
-        "title": "Capital inflows",
-        "href": "/topics/capital-inflows"
-      },
-      {
-        "id": "ef.goods_trade_balance",
-        "kind": "topic",
-        "slug": "goods-trade-balance",
-        "title": "Goods trade balance",
-        "href": "/topics/goods-trade-balance"
-      },
-      {
-        "id": "ef.gross_reserves",
-        "kind": "topic",
-        "slug": "gross-international-reserves",
-        "title": "Gross international reserves",
-        "href": "/topics/gross-international-reserves"
-      },
-      {
-        "id": "ef.official_external_financing",
-        "kind": "topic",
-        "slug": "official-external-financing",
-        "title": "Official external financing",
-        "href": "/topics/official-external-financing"
-      },
-      {
-        "id": "ef.resident_fx_hedging",
-        "kind": "topic",
-        "slug": "resident-fx-hedging-and-dollarization-pressure",
-        "title": "Resident FX hedging and dollarization pressure",
-        "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
-      },
-      {
-        "id": "ef.services_balance",
-        "kind": "topic",
-        "slug": "services-balance",
-        "title": "Services balance",
-        "href": "/topics/services-balance"
-      },
-      {
-        "id": "ef.net_international_reserves",
-        "kind": "topic",
-        "slug": "net-international-reserves",
-        "title": "Net international reserves",
-        "href": "/topics/net-international-reserves"
-      },
-      {
-        "id": "ef.reserve_accumulation",
-        "kind": "topic",
-        "slug": "reserve-accumulation",
-        "title": "Reserve accumulation",
-        "href": "/topics/reserve-accumulation"
-      },
-      {
-        "id": "ef.current_account",
-        "kind": "topic",
-        "slug": "current-account",
-        "title": "Current account",
-        "href": "/topics/current-account"
-      },
-      {
-        "id": "ef.liquid_reserve_buffers",
-        "kind": "topic",
-        "slug": "liquid-reserve-buffers",
-        "title": "Liquid reserve buffers",
-        "href": "/topics/liquid-reserve-buffers"
-      },
       {
         "id": "ef.domestic_capital_market_depth",
         "kind": "topic",
@@ -1867,53 +1195,11 @@
         "href": "/topics/credit-quality"
       },
       {
-        "id": "ef.market_access",
+        "id": "ef.goods_trade_balance",
         "kind": "topic",
-        "slug": "international-market-access",
-        "title": "International market access",
-        "href": "/topics/international-market-access"
-      },
-      {
-        "id": "ef.sovereign_risk",
-        "kind": "topic",
-        "slug": "sovereign-risk",
-        "title": "Sovereign risk",
-        "href": "/topics/sovereign-risk"
-      },
-      {
-        "id": "ef.external_public_debt",
-        "kind": "topic",
-        "slug": "external-public-debt",
-        "title": "External public debt",
-        "href": "/topics/external-public-debt"
-      },
-      {
-        "id": "ef.primary_income_balance",
-        "kind": "topic",
-        "slug": "primary-income-balance",
-        "title": "Primary income balance",
-        "href": "/topics/primary-income-balance"
-      },
-      {
-        "id": "ef.refinancing_needs",
-        "kind": "topic",
-        "slug": "external-refinancing-needs",
-        "title": "External refinancing needs",
-        "href": "/topics/external-refinancing-needs"
-      },
-      {
-        "id": "ef.external_vulnerability",
-        "kind": "topic",
-        "slug": "external-vulnerability",
-        "title": "External vulnerability",
-        "href": "/topics/external-vulnerability"
-      },
-      {
-        "id": "ef.swap_repo_financing",
-        "kind": "topic",
-        "slug": "swap-and-repo-financing",
-        "title": "Swap and repo financing",
-        "href": "/topics/swap-and-repo-financing"
+        "slug": "goods-trade-balance",
+        "title": "Goods trade balance",
+        "href": "/topics/goods-trade-balance"
       },
       {
         "id": "ef.fx_market_issuance",
@@ -1923,60 +1209,11 @@
         "href": "/topics/fx-market-issuance"
       },
       {
-        "id": "ef.fx_deposits",
-        "kind": "topic",
-        "slug": "foreign-currency-deposits",
-        "title": "Foreign-currency deposits",
-        "href": "/topics/foreign-currency-deposits"
-      },
-      {
-        "id": "ef.private_credit",
-        "kind": "topic",
-        "slug": "private-sector-credit",
-        "title": "Private-sector credit",
-        "href": "/topics/private-sector-credit"
-      },
-      {
         "id": "ef.domestic_savings_mobilization",
         "kind": "topic",
         "slug": "domestic-savings-mobilization",
         "title": "Domestic savings mobilization",
         "href": "/topics/domestic-savings-mobilization"
-      },
-      {
-        "id": "ef.foreign_direct_investment",
-        "kind": "topic",
-        "slug": "foreign-direct-investment",
-        "title": "Foreign direct investment",
-        "href": "/topics/foreign-direct-investment"
-      },
-      {
-        "id": "ef.external_position",
-        "kind": "topic",
-        "slug": "external-position",
-        "title": "External position",
-        "href": "/topics/external-position"
-      },
-      {
-        "id": "ef.reserve_adequacy",
-        "kind": "topic",
-        "slug": "reserve-adequacy",
-        "title": "Reserve adequacy",
-        "href": "/topics/reserve-adequacy"
-      },
-      {
-        "id": "ef.sovereign_spreads",
-        "kind": "topic",
-        "slug": "sovereign-spreads",
-        "title": "Sovereign spreads",
-        "href": "/topics/sovereign-spreads"
-      },
-      {
-        "id": "ef.fx_debt_service",
-        "kind": "topic",
-        "slug": "foreign-currency-debt-service",
-        "title": "Foreign-currency debt service",
-        "href": "/topics/foreign-currency-debt-service"
       },
       {
         "id": "ef.financial_depth",
@@ -1986,11 +1223,172 @@
         "href": "/topics/financial-depth"
       },
       {
+        "id": "ef.swap_repo_financing",
+        "kind": "topic",
+        "slug": "swap-and-repo-financing",
+        "title": "Swap and repo financing",
+        "href": "/topics/swap-and-repo-financing"
+      },
+      {
+        "id": "ef.gross_reserves",
+        "kind": "topic",
+        "slug": "gross-international-reserves",
+        "title": "Gross international reserves",
+        "href": "/topics/gross-international-reserves"
+      },
+      {
+        "id": "ef.sovereign_spreads",
+        "kind": "topic",
+        "slug": "sovereign-spreads",
+        "title": "Sovereign spreads",
+        "href": "/topics/sovereign-spreads"
+      },
+      {
+        "id": "ef.net_international_reserves",
+        "kind": "topic",
+        "slug": "net-international-reserves",
+        "title": "Net international reserves",
+        "href": "/topics/net-international-reserves"
+      },
+      {
+        "id": "ef.foreign_direct_investment",
+        "kind": "topic",
+        "slug": "foreign-direct-investment",
+        "title": "Foreign direct investment",
+        "href": "/topics/foreign-direct-investment"
+      },
+      {
+        "id": "ef.fx_deposits",
+        "kind": "topic",
+        "slug": "foreign-currency-deposits",
+        "title": "Foreign-currency deposits",
+        "href": "/topics/foreign-currency-deposits"
+      },
+      {
+        "id": "ef.external_vulnerability",
+        "kind": "topic",
+        "slug": "external-vulnerability",
+        "title": "External vulnerability",
+        "href": "/topics/external-vulnerability"
+      },
+      {
+        "id": "ef.reserve_adequacy",
+        "kind": "topic",
+        "slug": "reserve-adequacy",
+        "title": "Reserve adequacy",
+        "href": "/topics/reserve-adequacy"
+      },
+      {
+        "id": "ef.external_position",
+        "kind": "topic",
+        "slug": "external-position",
+        "title": "External position",
+        "href": "/topics/external-position"
+      },
+      {
+        "id": "ef.private_credit",
+        "kind": "topic",
+        "slug": "private-sector-credit",
+        "title": "Private-sector credit",
+        "href": "/topics/private-sector-credit"
+      },
+      {
+        "id": "ef.market_access",
+        "kind": "topic",
+        "slug": "international-market-access",
+        "title": "International market access",
+        "href": "/topics/international-market-access"
+      },
+      {
+        "id": "ef.capital_inflows",
+        "kind": "topic",
+        "slug": "capital-inflows",
+        "title": "Capital inflows",
+        "href": "/topics/capital-inflows"
+      },
+      {
+        "id": "ef.liquid_reserve_buffers",
+        "kind": "topic",
+        "slug": "liquid-reserve-buffers",
+        "title": "Liquid reserve buffers",
+        "href": "/topics/liquid-reserve-buffers"
+      },
+      {
+        "id": "ef.current_account",
+        "kind": "topic",
+        "slug": "current-account",
+        "title": "Current account",
+        "href": "/topics/current-account"
+      },
+      {
+        "id": "ef.resident_fx_hedging",
+        "kind": "topic",
+        "slug": "resident-fx-hedging-and-dollarization-pressure",
+        "title": "Resident FX hedging and dollarization pressure",
+        "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
+      },
+      {
+        "id": "ef.reserve_accumulation",
+        "kind": "topic",
+        "slug": "reserve-accumulation",
+        "title": "Reserve accumulation",
+        "href": "/topics/reserve-accumulation"
+      },
+      {
+        "id": "ef.refinancing_needs",
+        "kind": "topic",
+        "slug": "external-refinancing-needs",
+        "title": "External refinancing needs",
+        "href": "/topics/external-refinancing-needs"
+      },
+      {
+        "id": "ef.external_public_debt",
+        "kind": "topic",
+        "slug": "external-public-debt",
+        "title": "External public debt",
+        "href": "/topics/external-public-debt"
+      },
+      {
+        "id": "ef.services_balance",
+        "kind": "topic",
+        "slug": "services-balance",
+        "title": "Services balance",
+        "href": "/topics/services-balance"
+      },
+      {
+        "id": "ef.sovereign_risk",
+        "kind": "topic",
+        "slug": "sovereign-risk",
+        "title": "Sovereign risk",
+        "href": "/topics/sovereign-risk"
+      },
+      {
+        "id": "ef.primary_income_balance",
+        "kind": "topic",
+        "slug": "primary-income-balance",
+        "title": "Primary income balance",
+        "href": "/topics/primary-income-balance"
+      },
+      {
         "id": "ef.financial_account",
         "kind": "topic",
         "slug": "financial-account",
         "title": "Financial account",
         "href": "/topics/financial-account"
+      },
+      {
+        "id": "ef.official_external_financing",
+        "kind": "topic",
+        "slug": "official-external-financing",
+        "title": "Official external financing",
+        "href": "/topics/official-external-financing"
+      },
+      {
+        "id": "ef.fx_debt_service",
+        "kind": "topic",
+        "slug": "foreign-currency-debt-service",
+        "title": "Foreign-currency debt service",
+        "href": "/topics/foreign-currency-debt-service"
       }
     ],
     "edges": [

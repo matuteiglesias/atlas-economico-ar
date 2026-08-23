@@ -98,62 +98,6 @@
   ],
   "charts": [
     {
-      "id": "pi.ef01",
-      "kind": "chart",
-      "slug": "gross-reserves-nir-and-liquid-buffers",
-      "title": "Gross reserves, NIR, and liquid buffers",
-      "href": "/charts/gross-reserves-nir-and-liquid-buffers"
-    },
-    {
-      "id": "pi.ef02",
-      "kind": "chart",
-      "slug": "reserve-adequacy-dashboard",
-      "title": "Reserve adequacy dashboard",
-      "href": "/charts/reserve-adequacy-dashboard"
-    },
-    {
-      "id": "pi.ef03",
-      "kind": "chart",
-      "slug": "nir-versus-program-target-path",
-      "title": "NIR versus program target path",
-      "href": "/charts/nir-versus-program-target-path"
-    },
-    {
-      "id": "pi.ef04",
-      "kind": "chart",
-      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
-      "title": "Reserve accumulation versus next-12m FX debt service",
-      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service"
-    },
-    {
-      "id": "pi.ef23",
-      "kind": "chart",
-      "slug": "debt-service-versus-reserves",
-      "title": "Debt service versus reserves",
-      "href": "/charts/debt-service-versus-reserves"
-    },
-    {
-      "id": "pi.ef27",
-      "kind": "chart",
-      "slug": "external-debt-in-dollars-and-percent-of-gdp",
-      "title": "External debt in dollars and percent of GDP",
-      "href": "/charts/external-debt-in-dollars-and-percent-of-gdp"
-    },
-    {
-      "id": "pi.ef28",
-      "kind": "chart",
-      "slug": "reserve-coverage-of-external-debt-service",
-      "title": "Reserve coverage of external debt service",
-      "href": "/charts/reserve-coverage-of-external-debt-service"
-    },
-    {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map"
-    },
-    {
       "id": "pi.ef46",
       "kind": "chart",
       "slug": "gross-international-reserves",
@@ -270,6 +214,6 @@
     "connections": 3,
     "questions": 1,
     "indicators": 3,
-    "charts": 9
+    "charts": 1
   }
 }

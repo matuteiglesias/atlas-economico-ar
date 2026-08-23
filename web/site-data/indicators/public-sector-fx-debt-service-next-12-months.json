@@ -34,43 +34,7 @@
   "unitSemantics": "usd_billions",
   "frequency": "monthly",
   "seriesBindingStatus": "DEFERRED_ASSUMED_AVAILABLE",
-  "charts": [
-    {
-      "id": "pi.ef04",
-      "kind": "chart",
-      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
-      "title": "Reserve accumulation versus next-12m FX debt service",
-      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service"
-    },
-    {
-      "id": "pi.ef07",
-      "kind": "chart",
-      "slug": "external-financing-and-debt-service-bridge",
-      "title": "External financing and debt-service bridge",
-      "href": "/charts/external-financing-and-debt-service-bridge"
-    },
-    {
-      "id": "pi.ef22",
-      "kind": "chart",
-      "slug": "fx-debt-service-maturity-wall",
-      "title": "FX debt-service maturity wall",
-      "href": "/charts/fx-debt-service-maturity-wall"
-    },
-    {
-      "id": "pi.ef23",
-      "kind": "chart",
-      "slug": "debt-service-versus-reserves",
-      "title": "Debt service versus reserves",
-      "href": "/charts/debt-service-versus-reserves"
-    },
-    {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map"
-    }
-  ],
+  "charts": [],
   "derivedAsInput": [
     "di.ef.reserve_fx_service"
   ],
@@ -83,50 +47,10 @@
       "title": "Foreign-currency debt service",
       "href": "/topics/foreign-currency-debt-service",
       "distance": 1
-    },
-    {
-      "id": "pi.ef23",
-      "kind": "chart",
-      "slug": "debt-service-versus-reserves",
-      "title": "Debt service versus reserves",
-      "href": "/charts/debt-service-versus-reserves",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef07",
-      "kind": "chart",
-      "slug": "external-financing-and-debt-service-bridge",
-      "title": "External financing and debt-service bridge",
-      "href": "/charts/external-financing-and-debt-service-bridge",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef44",
-      "kind": "chart",
-      "slug": "external-vulnerability-state-map",
-      "title": "External vulnerability state map",
-      "href": "/charts/external-vulnerability-state-map",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef22",
-      "kind": "chart",
-      "slug": "fx-debt-service-maturity-wall",
-      "title": "FX debt-service maturity wall",
-      "href": "/charts/fx-debt-service-maturity-wall",
-      "distance": 1
-    },
-    {
-      "id": "pi.ef04",
-      "kind": "chart",
-      "slug": "reserve-accumulation-versus-next-12m-fx-debt-service",
-      "title": "Reserve accumulation versus next-12m FX debt service",
-      "href": "/charts/reserve-accumulation-versus-next-12m-fx-debt-service",
-      "distance": 1
     }
   ],
   "counts": {
-    "charts": 5,
+    "charts": 0,
     "derivedAsInput": 1,
     "derivedAsOutput": 0
   }
