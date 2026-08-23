@@ -1,5 +1,20 @@
 export type EntityKind = "region" | "topic" | "question" | "indicator" | "chart";
 
+export type PlotPublicationState = "APPROVED" | "REFERENCE" | "HISTORICAL" | "SUPERSEDED" | "QUARANTINE" | "UNREVIEWED";
+
+export interface PlotPublicationDisposition {
+  plotIntentId: string;
+  state: PlotPublicationState;
+  source: string;
+  reviewed: boolean;
+  addressable: boolean;
+  prominent: boolean;
+  primaryEvidence: boolean;
+  canonicalPlotIntentId?: string | null;
+  workflowState?: string;
+  note?: string;
+}
+
 export interface PlotArtifactSourceRef {
   seriesId: string;
   provider: string;
@@ -19,6 +34,8 @@ export interface PlotArtifactRef {
   png: string;
   altText: string;
   freshnessState: string;
+  disposition: PlotPublicationDisposition;
+  /** Compatibility only; new consumers must use disposition capabilities. */
   publicationStatus?: "historical" | "quarantine";
   qaNote?: string;
   preferredPlotIntentId?: string;

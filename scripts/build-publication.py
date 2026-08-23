@@ -18,10 +18,14 @@ sys.path.insert(0, str(COMPILER_SRC))
 
 from econ_knowledge_compiler.compiler import compile_site  # noqa: E402
 from econ_knowledge_compiler.loader import load_editorial, load_scope, load_vertical  # noqa: E402
-from publication.question_publication import (  # noqa: E402
-    QuestionPublicationError,
-    apply_question_publication,
+from publication.figure_disposition import (  # noqa: E402
+    PlotPublicationError,
+    derive_plot_publication,
+    disposition_map,
+    load_curation_reviews,
+    load_legacy_publication_reviews,
 )
+from publication.question_publication import QuestionPublicationError, apply_question_publication  # noqa: E402
 
 SCOPE = ROOT / "argentina_econ_semantic_scope_v0_1"
 VERTICALS = (
@@ -30,15 +34,13 @@ VERTICALS = (
 )
 EDITORIAL = ROOT / "verticals/external_financial_constraint_vertical_v0_2/editorial/atlas_en_v0_2.yaml"
 ARTIFACT_MANIFEST = ROOT / "plot-artifacts/manifest.json"
+CURATION_REVIEWS = ROOT / "figures/curation_reviews.yaml"
 PUBLICATION_QA = ROOT / "figures/publication_qa.yaml"
 QUESTION_PUBLICATION = ROOT / "publication/question_publication.json"
 PUBLICATION_SCHEMA_VERSION = "0.2"
 EXPECTED_CHARTS = 119
 EXPECTED_INDICATORS = 90
 EXPECTED_ARTIFACTS = 41
-EXPECTED_PROMINENT_ARTIFACTS = 37
-EXPECTED_QUARANTINED_ARTIFACTS = 4
-EXPECTED_HISTORICAL_ARTIFACTS = 2
 EXPECTED_SEMANTIC_QUESTIONS = 38
 
 
@@ -49,6 +51,11 @@ class PublicationError(RuntimeError):
 def load_yaml(path: Path) -> Any:
     with path.open(encoding="utf-8") as handle:
         return yaml.safe_load(handle)
+
+
+def write_json(path: Path, value: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def load_vertical_with_additions(root: Path) -> dict[str, list[dict[str, Any]]]:
@@ -68,23 +75,7 @@ def load_vertical_with_additions(root: Path) -> dict[str, list[dict[str, Any]]]:
     return vertical
 
 
-def load_publication_qa(path: Path) -> dict[str, dict[str, Any]]:
-    doc = load_yaml(path) or {}
-    if str(doc.get("schema_version")) != "0.1" or doc.get("default_status") != "publish":
-        raise PublicationError("publication QA policy contract mismatch")
-    reviews = doc.get("reviews")
-    if not isinstance(reviews, list):
-        raise PublicationError("publication QA reviews must be a list")
-    result: dict[str, dict[str, Any]] = {}
-    for review in reviews:
-        pid = review.get("plot_intent_id") if isinstance(review, dict) else None
-        if not isinstance(pid, str) or pid in result:
-            raise PublicationError(f"invalid/duplicate publication QA review: {pid!r}")
-        result[pid] = review
-    return result
-
-
-def public_artifact(artifact: dict[str, Any], review: dict[str, Any] | None = None) -> dict[str, Any]:
+def public_artifact(artifact: dict[str, Any], disposition: dict[str, Any]) -> dict[str, Any]:
     outputs = artifact.get("outputs") or {}
     svg, png = Path(str(outputs.get("svg", ""))), Path(str(outputs.get("png", "")))
     if svg.suffix != ".svg" or png.suffix != ".png":
@@ -102,6 +93,7 @@ def public_artifact(artifact: dict[str, Any], review: dict[str, Any] | None = No
         "indicatorIds": artifact["indicator_ids"],
         "seriesIds": artifact["series_ids"],
         "snapshotSha256": artifact["snapshot_sha256"],
+        "disposition": disposition,
         "source": {
             "provider": artifact["source"]["provider"],
             "providerSeriesId": artifact["source"]["provider_series_id"],
@@ -121,39 +113,46 @@ def public_artifact(artifact: dict[str, Any], review: dict[str, Any] | None = No
             }
             for source in artifact["sources"]
         ]
-    if review is not None:
-        public["publicationStatus"] = review["status"]
-        public["qaNote"] = review["note"]
-        if review.get("preferred_plot_intent_id"):
-            public["preferredPlotIntentId"] = review["preferred_plot_intent_id"]
+
+    # Compatibility projection for older consumers. New code must use disposition capabilities.
+    if disposition["state"] == "HISTORICAL":
+        public["publicationStatus"] = "historical"
+    elif not disposition["prominent"]:
+        public["publicationStatus"] = "quarantine"
+    if disposition.get("note"):
+        public["qaNote"] = disposition["note"]
+    if disposition.get("canonicalPlotIntentId"):
+        public["preferredPlotIntentId"] = disposition["canonicalPlotIntentId"]
     return public
 
 
-def load_artifacts(path: Path) -> dict[str, dict[str, Any]]:
+def load_artifacts(path: Path) -> tuple[dict[str, dict[str, Any]], dict[str, Any]]:
     doc = json.loads(path.read_text(encoding="utf-8"))
-    qa = load_publication_qa(PUBLICATION_QA)
     artifacts = doc.get("artifacts")
     if str(doc.get("schema_version")) != PUBLICATION_SCHEMA_VERSION:
         raise PublicationError("PlotArtifact schema mismatch")
     if not isinstance(artifacts, list) or doc.get("artifact_count") != len(artifacts):
         raise PublicationError("PlotArtifact manifest count mismatch")
     if len(artifacts) != EXPECTED_ARTIFACTS:
-        raise PublicationError(
-            f"expansion freeze requires {EXPECTED_ARTIFACTS} PlotArtifacts, found {len(artifacts)}"
-        )
-    result: dict[str, dict[str, Any]] = {}
+        raise PublicationError(f"expansion freeze requires {EXPECTED_ARTIFACTS} PlotArtifacts, found {len(artifacts)}")
+
+    raw: dict[str, dict[str, Any]] = {}
     for artifact in artifacts:
         pid = artifact.get("plot_intent_id")
-        if not isinstance(pid, str) or pid in result:
+        if not isinstance(pid, str) or pid in raw:
             raise PublicationError(f"invalid/duplicate PlotArtifact PlotIntent: {pid!r}")
         for output in artifact["outputs"].values():
             if not (ROOT / output).is_file():
                 raise PublicationError(f"{pid}: artifact output missing: {output}")
-        result[pid] = public_artifact(artifact, qa.get(pid))
-    missing_reviews = sorted(set(qa) - set(result))
-    if missing_reviews:
-        raise PublicationError(f"publication QA reviews lack PlotArtifacts: {missing_reviews}")
-    return result
+        raw[pid] = artifact
+
+    plot_ledger = derive_plot_publication(
+        raw,
+        load_curation_reviews(CURATION_REVIEWS),
+        load_legacy_publication_reviews(PUBLICATION_QA),
+    )
+    dispositions = disposition_map(plot_ledger)
+    return {pid: public_artifact(artifact, dispositions[pid]) for pid, artifact in raw.items()}, plot_ledger
 
 
 def attach_artifact_refs(node: Any, artifacts: dict[str, dict[str, Any]]) -> None:
@@ -168,11 +167,8 @@ def attach_artifact_refs(node: Any, artifacts: dict[str, dict[str, Any]]) -> Non
             attach_artifact_refs(value, artifacts)
 
 
-def join_artifacts(out: Path, artifacts: dict[str, dict[str, Any]]) -> None:
-    chart_ids = {
-        json.loads(path.read_text(encoding="utf-8"))["id"]
-        for path in (out / "charts").glob("*.json")
-    }
+def join_artifacts(out: Path, artifacts: dict[str, dict[str, Any]], plot_ledger: dict[str, Any]) -> None:
+    chart_ids = {json.loads(path.read_text(encoding="utf-8"))["id"] for path in (out / "charts").glob("*.json")}
     missing = sorted(set(artifacts) - chart_ids)
     if missing:
         raise PublicationError(f"PlotArtifacts absent from compiled charts: {missing}")
@@ -180,11 +176,13 @@ def join_artifacts(out: Path, artifacts: dict[str, dict[str, Any]]) -> None:
         for path in sorted((out / folder).glob("*.json")):
             page = json.loads(path.read_text(encoding="utf-8"))
             attach_artifact_refs(page, artifacts)
-            path.write_text(json.dumps(page, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            write_json(path, page)
 
-    quarantined = sum(artifact.get("publicationStatus") == "quarantine" for artifact in artifacts.values())
-    historical = sum(artifact.get("publicationStatus") == "historical" for artifact in artifacts.values())
-    prominent = len(artifacts) - quarantined
+    summary = plot_ledger["summary"]
+    state_counts = summary["stateCounts"]
+    prominent = summary["prominentCount"]
+    quarantined = state_counts["QUARANTINE"]
+    historical = state_counts["HISTORICAL"]
 
     manifest_path = out / "manifest.json"
     manifest = json.loads(manifest_path.read_text())
@@ -193,7 +191,8 @@ def join_artifacts(out: Path, artifacts: dict[str, dict[str, Any]]) -> None:
     manifest["prominentPlotArtifacts"] = prominent
     manifest["quarantinedPlotArtifacts"] = quarantined
     manifest["historicalPlotArtifacts"] = historical
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
+    manifest["plotPublication"] = summary
+    write_json(manifest_path, manifest)
 
     stats_path = out / "stats.json"
     stats = json.loads(stats_path.read_text())
@@ -201,11 +200,13 @@ def join_artifacts(out: Path, artifacts: dict[str, dict[str, Any]]) -> None:
     stats["prominent_plot_artifacts"] = prominent
     stats["quarantined_plot_artifacts"] = quarantined
     stats["historical_plot_artifacts"] = historical
-    stats_path.write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n")
+    stats["plotPublication"] = summary
+    write_json(stats_path, stats)
+    write_json(out / "plot-publication.json", plot_ledger)
 
 
 def build(output: Path) -> dict[str, Any]:
-    artifacts = load_artifacts(ARTIFACT_MANIFEST)
+    artifacts, plot_ledger = load_artifacts(ARTIFACT_MANIFEST)
     build_dir = output.with_name(f".{output.name}-build")
     shutil.rmtree(build_dir, ignore_errors=True)
     build_dir.mkdir(parents=True, exist_ok=True)
@@ -215,30 +216,24 @@ def build(output: Path) -> dict[str, Any]:
         load_editorial(EDITORIAL),
         build_dir,
     )
-    join_artifacts(build_dir, artifacts)
+    join_artifacts(build_dir, artifacts, plot_ledger)
     question_ledger = apply_question_publication(build_dir, QUESTION_PUBLICATION)
     stats = json.loads((build_dir / "stats.json").read_text())
     manifest = json.loads((build_dir / "manifest.json").read_text())
     if stats["counts"]["chart"] != EXPECTED_CHARTS:
         raise PublicationError(f"expected {EXPECTED_CHARTS} charts, got {stats['counts']['chart']}")
     if stats["counts"]["indicator"] != EXPECTED_INDICATORS:
-        raise PublicationError(
-            f"expected {EXPECTED_INDICATORS} indicators, got {stats['counts']['indicator']}"
-        )
+        raise PublicationError(f"expected {EXPECTED_INDICATORS} indicators, got {stats['counts']['indicator']}")
     if question_ledger["semanticQuestionCount"] != EXPECTED_SEMANTIC_QUESTIONS:
-        raise PublicationError(
-            f"expected {EXPECTED_SEMANTIC_QUESTIONS} semantic questions, got {question_ledger['semanticQuestionCount']}"
-        )
+        raise PublicationError(f"expected {EXPECTED_SEMANTIC_QUESTIONS} semantic questions, got {question_ledger['semanticQuestionCount']}")
     if stats["counts"]["question"] != question_ledger["stateCounts"]["PUBLIC"]:
         raise PublicationError("public question count mismatch")
     if stats["plot_artifacts"] != EXPECTED_ARTIFACTS:
         raise PublicationError("PlotArtifact count mismatch")
-    if stats["prominent_plot_artifacts"] != EXPECTED_PROMINENT_ARTIFACTS:
+    if stats["plotPublication"] != plot_ledger["summary"] or manifest["plotPublication"] != plot_ledger["summary"]:
+        raise PublicationError("PlotArtifact publication disposition summary mismatch")
+    if stats["prominent_plot_artifacts"] != plot_ledger["summary"]["prominentCount"]:
         raise PublicationError("prominent PlotArtifact count mismatch")
-    if stats["quarantined_plot_artifacts"] != EXPECTED_QUARANTINED_ARTIFACTS:
-        raise PublicationError("quarantined PlotArtifact count mismatch")
-    if stats["historical_plot_artifacts"] != EXPECTED_HISTORICAL_ARTIFACTS:
-        raise PublicationError("historical PlotArtifact count mismatch")
     shutil.rmtree(output, ignore_errors=True)
     build_dir.replace(output)
     return manifest
@@ -252,10 +247,11 @@ def main() -> int:
     build(output)
     stats = json.loads((output / "stats.json").read_text())
     question_publication = stats["questionPublication"]
+    plot_publication = stats["plotPublication"]
     print(
         f"PASS: publication compiled ({stats['counts']['chart']} charts, "
         f"{stats['counts']['indicator']} indicators, {stats['plot_artifacts']} PlotArtifacts; "
-        f"{stats['prominent_plot_artifacts']} prominent / {stats['quarantined_plot_artifacts']} quarantined; "
+        f"{plot_publication['prominentCount']} prominent / {plot_publication['primaryEvidenceCount']} primary evidence; "
         f"{question_publication['public']} public / {question_publication['semantic']} semantic questions)"
     )
     return 0
@@ -264,5 +260,5 @@ def main() -> int:
 if __name__ == "__main__":
     try:
         raise SystemExit(main())
-    except (PublicationError, QuestionPublicationError) as exc:
+    except (PublicationError, PlotPublicationError, QuestionPublicationError) as exc:
         raise SystemExit(f"FAIL: {exc}")

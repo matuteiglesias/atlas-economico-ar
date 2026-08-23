@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 
 SCHEMA_VERSION = "0.1"
-DEFAULT_RULE = "PUBLIC_IF_NON_QUARANTINED_MATERIALIZED_PLOT"
+DEFAULT_RULE = "PUBLIC_IF_PRIMARY_MATERIALIZED_PLOT"
 VALID_STATES = {"PUBLIC", "REFERENCE", "SUPERSEDED", "HOLD"}
 
 
@@ -67,34 +67,53 @@ def _question_ref(page: dict[str, Any]) -> dict[str, Any]:
     return {key: page[key] for key in ("id", "kind", "slug", "title", "href") if key in page}
 
 
+def _artifact_disposition(pid: str, artifact: dict[str, Any]) -> dict[str, Any]:
+    disposition = artifact.get("disposition")
+    if not isinstance(disposition, dict):
+        raise QuestionPublicationError(f"{pid}: materialized PlotArtifact lacks publication disposition")
+    if not isinstance(disposition.get("state"), str):
+        raise QuestionPublicationError(f"{pid}: publication disposition lacks state")
+    for field in ("prominent", "primaryEvidence", "addressable", "reviewed"):
+        if not isinstance(disposition.get(field), bool):
+            raise QuestionPublicationError(f"{pid}: publication disposition {field} must be boolean")
+    return disposition
+
+
 def _evidence(page: dict[str, Any]) -> dict[str, Any]:
     charts = page.get("charts") or []
     indicators = page.get("indicators") or []
-    materialized: list[tuple[str, dict[str, Any]]] = []
+    materialized: list[tuple[str, dict[str, Any], dict[str, Any]]] = []
     for chart in charts:
         if not isinstance(chart, dict):
             continue
         artifact = chart.get("artifact")
         if isinstance(artifact, dict):
-            materialized.append((str(chart.get("id")), artifact))
+            pid = str(chart.get("id"))
+            materialized.append((pid, artifact, _artifact_disposition(pid, artifact)))
 
-    prominent = [item for item in materialized if item[1].get("publicationStatus") != "quarantine"]
-    quarantined = [item for item in materialized if item[1].get("publicationStatus") == "quarantine"]
-    historical = [item for item in materialized if item[1].get("publicationStatus") == "historical"]
+    primary = [item for item in materialized if item[2]["primaryEvidence"]]
+    prominent = [item for item in materialized if item[2]["prominent"]]
+    by_state = defaultdict(list)
+    for item in materialized:
+        by_state[item[2]["state"]].append(item)
     has_dek = bool(page.get("dek"))
     has_intro = bool(page.get("intro"))
     return {
         "linkedPlotIntents": len(charts),
         "linkedIndicators": len(indicators),
         "materializedPlotArtifacts": len(materialized),
+        "primaryEvidencePlotArtifacts": len(primary),
         "prominentPlotArtifacts": len(prominent),
-        "quarantinedPlotArtifacts": len(quarantined),
-        "historicalPlotArtifacts": len(historical),
-        "materializedPlotIntentIds": [pid for pid, _ in materialized],
-        "prominentPlotIntentIds": [pid for pid, _ in prominent],
+        "quarantinedPlotArtifacts": len(by_state["QUARANTINE"]),
+        "historicalPlotArtifacts": len(by_state["HISTORICAL"]),
+        "referencePlotArtifacts": len(by_state["REFERENCE"]),
+        "supersededPlotArtifacts": len(by_state["SUPERSEDED"]),
+        "materializedPlotIntentIds": [pid for pid, _, _ in materialized],
+        "primaryEvidencePlotIntentIds": [pid for pid, _, _ in primary],
+        "prominentPlotIntentIds": [pid for pid, _, _ in prominent],
         "hasDek": has_dek,
         "hasIntro": has_intro,
-        "metadataOnly": not (has_dek or has_intro or prominent),
+        "metadataOnly": not (has_dek or has_intro or primary),
     }
 
 
@@ -109,12 +128,12 @@ def derive_question_publication(
     signatures: dict[str, list[str]] = defaultdict(list)
     for qid, page in sorted(question_pages.items()):
         evidence = _evidence(page)
-        if evidence["prominentPlotArtifacts"] > 0:
+        if evidence["primaryEvidencePlotArtifacts"] > 0:
             state = "PUBLIC"
-            reason = "has_non_quarantined_materialized_plot_evidence"
+            reason = "has_primary_materialized_plot_evidence"
         else:
             state = "HOLD"
-            reason = "no_non_quarantined_materialized_plot_evidence"
+            reason = "no_primary_materialized_plot_evidence"
 
         override = overrides.get(qid)
         canonical = None
@@ -129,7 +148,7 @@ def derive_question_publication(
             "questionFamily": page.get("questionFamily"),
             "topicIds": sorted(x.get("id") for x in (page.get("topics") or []) if isinstance(x, dict) and x.get("id")),
             "indicatorIds": sorted(x.get("id") for x in (page.get("indicators") or []) if isinstance(x, dict) and x.get("id")),
-            "prominentPlotIntentIds": sorted(evidence["prominentPlotIntentIds"]),
+            "primaryEvidencePlotIntentIds": sorted(evidence["primaryEvidencePlotIntentIds"]),
         }
         signature_key = json.dumps(signature, sort_keys=True, separators=(",", ":"))
         signatures[signature_key].append(qid)
@@ -160,8 +179,8 @@ def derive_question_publication(
     for qid, record in records.items():
         state = record["state"]
         evidence = record["evidence"]
-        if state == "PUBLIC" and evidence["prominentPlotArtifacts"] < 1:
-            raise QuestionPublicationError(f"{qid}: PUBLIC question lacks non-quarantined materialized evidence")
+        if state == "PUBLIC" and evidence["primaryEvidencePlotArtifacts"] < 1:
+            raise QuestionPublicationError(f"{qid}: PUBLIC question lacks primary materialized evidence")
         if state == "SUPERSEDED":
             canonical = record.get("canonicalQuestionId")
             if canonical not in records:

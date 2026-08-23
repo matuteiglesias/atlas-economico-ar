@@ -54,7 +54,7 @@ jobs:
         run: make validate-figure-curation
       - name: Test figure curation
         run: make test-figures
-      - name: Test question publication contract
+      - name: Test publication contracts
         run: make test-publication
       - name: Build complete offline Atlas publication
         env: {SOURCE_DATE_EPOCH: "1786828800"}
@@ -66,6 +66,7 @@ jobs:
           from pathlib import Path
           stats = json.loads(Path('site-data/stats.json').read_text())
           manifest = json.loads(Path('site-data/manifest.json').read_text())
+          plot_ledger = json.loads(Path('site-data/plot-publication.json').read_text())
           assert stats['counts']['indicator'] == 90, stats
           assert stats['counts']['chart'] == 119, stats
           assert stats['graph']['nodes'] == 308, stats
@@ -73,19 +74,20 @@ jobs:
           assert stats['counts']['question'] == stats['questionPublication']['public'], stats
           assert manifest['questionPublication'] == stats['questionPublication'], manifest
           assert stats['plot_artifacts'] == 41, stats
-          assert stats['prominent_plot_artifacts'] == 37, stats
-          assert stats['quarantined_plot_artifacts'] == 4, stats
-          assert stats['historical_plot_artifacts'] == 2, stats
           assert manifest['plotArtifacts'] == 41, manifest
-          assert manifest['prominentPlotArtifacts'] == 37, manifest
-          assert manifest['quarantinedPlotArtifacts'] == 4, manifest
-          assert manifest['historicalPlotArtifacts'] == 2, manifest
+          assert plot_ledger['summary']['plotArtifactCount'] == 41, plot_ledger
+          assert stats['plotPublication'] == plot_ledger['summary'], stats
+          assert manifest['plotPublication'] == plot_ledger['summary'], manifest
+          assert stats['prominent_plot_artifacts'] == plot_ledger['summary']['prominentCount'], stats
+          assert stats['quarantined_plot_artifacts'] == plot_ledger['summary']['stateCounts']['QUARANTINE'], stats
+          assert stats['historical_plot_artifacts'] == plot_ledger['summary']['stateCounts']['HISTORICAL'], stats
           assert len(list(Path('web/public/plots').glob('*.svg'))) == 41
           assert len(list(Path('web/public/plots').glob('*.png'))) == 41
           print(
               'PASS: 119 charts, 90 indicators, 41 PlotArtifacts; '
               f"{stats['questionPublication']['public']} public / 38 semantic questions; "
-              '37 prominent / 4 quarantined / 2 historical'
+              f"{plot_ledger['summary']['prominentCount']} prominent / "
+              f"{plot_ledger['summary']['primaryEvidenceCount']} primary evidence"
           )
           PY
       - uses: actions/upload-artifact@v4
