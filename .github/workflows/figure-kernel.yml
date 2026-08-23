@@ -7,6 +7,7 @@ on:
       - 'series/**'
       - 'plot-artifacts/**'
       - 'verticals/**/knowledge/*_v0_2.yaml'
+      - 'Makefile'
       - '.github/workflows/figure-kernel.yml'
   push:
     branches: [main]
@@ -15,6 +16,7 @@ on:
       - 'series/**'
       - 'plot-artifacts/**'
       - 'verticals/**/knowledge/*_v0_2.yaml'
+      - 'Makefile'
       - '.github/workflows/figure-kernel.yml'
 
 permissions:
@@ -32,11 +34,11 @@ jobs:
         run: python -m pip install 'PyYAML>=6.0,<7' 'matplotlib>=3.8,<4'
       - name: Validate Figure Grammar contract
         run: python figures/validate_contract.py
-      # - name: Run Figure Kernel tests
-      #   run: python -m unittest discover -s figures/kernel_tests -p 'test_*.py'
-      - name: Materialize published figures
+      - name: Test figure contracts
+        run: make test-figures
+      - name: Materialize review and embed figures
         env: {SOURCE_DATE_EPOCH: '1786828800'}
-        run: python figures/materialize.py
+        run: make materialize-plots
       - name: Verify artifact freeze
         run: |
           python - <<'PY'
@@ -45,10 +47,17 @@ jobs:
           root = Path('plot-artifacts')
           manifest = json.loads((root / 'manifest.json').read_text())
           assert manifest['artifact_count'] == 41
+          assert manifest['presentation_contract']['review'] == 'self_describing'
+          assert manifest['presentation_contract']['embed'] == 'page_owned_chrome'
           assert len(list((root / 'svg').glob('*.svg'))) == 41
           assert len(list((root / 'png').glob('*.png'))) == 41
+          assert len(list((root / 'embed').glob('*.svg'))) == 41
+          assert len(list((root / 'embed').glob('*.png'))) == 41
           assert len(list((root / 'metadata').glob('*.json'))) == 41
-          print('PASS: exactly 41 published figure artifacts')
+          for artifact in manifest['artifacts']:
+              assert set(artifact['outputs']) == {'svg', 'png'}
+              assert set(artifact['embed_outputs']) == {'svg', 'png'}
+          print('PASS: 41 canonical review artifacts + 41 page-owned embed variants')
           PY
       - uses: actions/upload-artifact@v4
         with:
