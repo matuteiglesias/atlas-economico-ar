@@ -72,5 +72,9 @@
       },
       "snapshot_sha256": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/monetary-base-vs-transactional-m2.svg",
+    "png": "plot-artifacts/embed/monetary-base-vs-transactional-m2.png"
+  }
 }

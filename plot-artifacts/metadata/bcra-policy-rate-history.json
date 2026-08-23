@@ -43,5 +43,9 @@
       },
       "snapshot_sha256": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/bcra-policy-rate-history.svg",
+    "png": "plot-artifacts/embed/bcra-policy-rate-history.png"
+  }
 }

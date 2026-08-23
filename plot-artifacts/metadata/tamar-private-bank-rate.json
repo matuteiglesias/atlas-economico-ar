@@ -43,5 +43,9 @@
       },
       "snapshot_sha256": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/tamar-private-bank-rate.svg",
+    "png": "plot-artifacts/embed/tamar-private-bank-rate.png"
+  }
 }

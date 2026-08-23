@@ -120,6 +120,10 @@
         "snapshotSha256": {
           "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
         },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
+        },
         "disposition": {
           "plotIntentId": "pi.ns60",
           "state": "UNREVIEWED",
@@ -176,6 +180,10 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.peso_deposits_at_bcra": "d937db2437ffe78f3dbeb6042de7d930240be96392b87a61d6a37c0e05a3c8e0"
+        },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
         },
         "disposition": {
           "plotIntentId": "pi.ns64",

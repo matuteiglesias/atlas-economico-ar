@@ -59,5 +59,9 @@
       },
       "snapshot_sha256": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/bcra-fx-purchases-and-gross-reserves.svg",
+    "png": "plot-artifacts/embed/bcra-fx-purchases-and-gross-reserves.png"
+  }
 }

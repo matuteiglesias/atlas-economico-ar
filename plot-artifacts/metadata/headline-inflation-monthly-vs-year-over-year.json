@@ -58,5 +58,9 @@
       },
       "snapshot_sha256": "7ad8331c844a0fc0eaaa954070fe98fd842bdae13134c418f9a91c894ff8536e"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/headline-inflation-monthly-vs-year-over-year.svg",
+    "png": "plot-artifacts/embed/headline-inflation-monthly-vs-year-over-year.png"
+  }
 }

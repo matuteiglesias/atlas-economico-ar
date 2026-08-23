@@ -67,6 +67,10 @@
         "snapshotSha256": {
           "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
         },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
+        },
         "disposition": {
           "plotIntentId": "pi.ef47",
           "state": "UNREVIEWED",
@@ -139,6 +143,10 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.gross_international_reserves": "e0762028d3495a627e6171b029196f704591c7c972b6b1374691515370b62c2c"
+        },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
         },
         "disposition": {
           "plotIntentId": "pi.ef47",

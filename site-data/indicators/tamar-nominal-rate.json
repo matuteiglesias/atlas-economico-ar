@@ -67,6 +67,10 @@
         "snapshotSha256": {
           "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
         },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
+        },
         "disposition": {
           "plotIntentId": "pi.ns61",
           "state": "UNREVIEWED",
@@ -146,6 +150,10 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.tamar_private_banks_apr": "b2679e61440416abbb966be1f229daf94d23c2556d69adcf518aa6ee898785b2"
+        },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
         },
         "disposition": {
           "plotIntentId": "pi.ns61",

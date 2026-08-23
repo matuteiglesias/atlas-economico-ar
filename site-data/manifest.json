@@ -22,6 +22,10 @@
   "seriesBindingsRequired": 80,
   "publicationSchemaVersion": "0.2",
   "plotArtifacts": 41,
+  "plotPresentation": {
+    "variant": "embed",
+    "chromeOwner": "page"
+  },
   "prominentPlotArtifacts": 27,
   "quarantinedPlotArtifacts": 5,
   "historicalPlotArtifacts": 3,

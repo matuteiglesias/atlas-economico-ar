@@ -63,6 +63,10 @@
           "series.ar.bcra.private_credit_peso": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9",
           "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
         },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
+        },
         "disposition": {
           "plotIntentId": "pi.ef51",
           "state": "REFERENCE",
@@ -150,6 +154,10 @@
         "snapshotSha256": {
           "series.ar.bcra.private_credit_peso": "7a7a520a8e72f6ebfc5256a009b60227366bcd863f3d581a409d42b569acb2a9",
           "series.ar.bcra.private_credit_fx_ars_equiv": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
+        },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
         },
         "disposition": {
           "plotIntentId": "pi.ef51",

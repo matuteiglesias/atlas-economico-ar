@@ -45,5 +45,9 @@
       },
       "snapshot_sha256": "d89d0583aaed180887412a1b58a6d2f69e4b6020d929401357ece6b9853bd7c5"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/cumulative-bcra-fx-purchases-since-jan-2026.svg",
+    "png": "plot-artifacts/embed/cumulative-bcra-fx-purchases-since-jan-2026.png"
+  }
 }

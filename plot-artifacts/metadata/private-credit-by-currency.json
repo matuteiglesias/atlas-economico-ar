@@ -59,5 +59,9 @@
       },
       "snapshot_sha256": "90b4642dd10f8b307be72138a02c3f2c26f9648da2df5f653dffc534f2087f0e"
     }
-  ]
+  ],
+  "embed_outputs": {
+    "svg": "plot-artifacts/embed/private-credit-by-currency.svg",
+    "png": "plot-artifacts/embed/private-credit-by-currency.png"
+  }
 }

@@ -150,6 +150,10 @@
         "snapshotSha256": {
           "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
         },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
+        },
         "disposition": {
           "plotIntentId": "pi.ns60",
           "state": "UNREVIEWED",
@@ -206,6 +210,10 @@
         ],
         "snapshotSha256": {
           "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af"
+        },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
         },
         "disposition": {
           "plotIntentId": "pi.ns63",
@@ -268,6 +276,10 @@
     "snapshotSha256": {
       "series.ar.bcra.policy_rate": "26663c4c21ba595f74e44e91f9a7b0aa7af4842610c71a4b1d49e7d5881214af",
       "series.ar.bcra.baibar_rate": "92d91cfaa48c03c88320ea03e899118c4dedce181b76d547e8d4ed829266c315"
+    },
+    "presentation": {
+      "variant": "embed",
+      "chromeOwner": "page"
     },
     "disposition": {
       "plotIntentId": "pi.ns31",

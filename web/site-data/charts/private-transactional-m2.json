@@ -145,6 +145,10 @@
           "series.ar.bcra.monetary_base_total": "446f1f99396ccb6765c1bfced87b22ba3b7a1cde588a8695fefec6669c32a7a1",
           "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
         },
+        "presentation": {
+          "variant": "embed",
+          "chromeOwner": "page"
+        },
         "disposition": {
           "plotIntentId": "pi.ns58",
           "state": "SUPERSEDED",
@@ -224,6 +228,10 @@
     ],
     "snapshotSha256": {
       "series.ar.bcra.transactional_m2_private": "997483a490e64b41afd322e33d8a773a6d3ffdfab36bad849600c24441bf4dc9"
+    },
+    "presentation": {
+      "variant": "embed",
+      "chromeOwner": "page"
     },
     "disposition": {
       "plotIntentId": "pi.ns56",
