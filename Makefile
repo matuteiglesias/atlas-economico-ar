@@ -1,7 +1,7 @@
 PYTHON ?= python3
 SOURCE_DATE_EPOCH ?= 1786828800
 
-.PHONY: test-series test-figures test-publication capture-seed-series capture-bcra-series validate-series validate-figure-curation figure-qa-pack materialize-plots compile-publication sync-web build-atlas
+.PHONY: test-series test-figures test-publication test-growth growth-frontier capture-seed-series capture-bcra-series validate-series validate-figure-curation figure-qa-pack materialize-plots compile-publication sync-web build-atlas
 
 test-series:
 	$(PYTHON) -m unittest discover -s series/tests -p 'test_*.py'
@@ -11,6 +11,12 @@ test-figures:
 
 test-publication:
 	$(PYTHON) -m unittest discover -s publication/tests -p 'test_*.py'
+
+test-growth:
+	$(PYTHON) -m unittest discover -s growth/tests -p 'test_*.py'
+
+growth-frontier:
+	$(PYTHON) scripts/build-growth-frontier.py
 
 capture-seed-series:
 	$(PYTHON) series/capture.py

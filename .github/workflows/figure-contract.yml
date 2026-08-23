@@ -4,6 +4,9 @@ on:
   pull_request:
     paths:
       - 'figures/**'
+      - 'growth/**'
+      - 'scripts/build-growth-frontier.py'
+      - 'scripts/scout-bcra-frontier.py'
       - '.github/workflows/figure-contract.yml'
       - 'verticals/nominal_stabilization_vertical_v0_1/knowledge/chart_specs.yaml'
       - 'verticals/external_financial_constraint_vertical_v0_2/knowledge/chart_specs.yaml'
@@ -12,6 +15,9 @@ on:
       - main
     paths:
       - 'figures/**'
+      - 'growth/**'
+      - 'scripts/build-growth-frontier.py'
+      - 'scripts/scout-bcra-frontier.py'
       - '.github/workflows/figure-contract.yml'
       - 'verticals/nominal_stabilization_vertical_v0_1/knowledge/chart_specs.yaml'
       - 'verticals/external_financial_constraint_vertical_v0_2/knowledge/chart_specs.yaml'
@@ -42,5 +48,11 @@ jobs:
       - name: Run Figure Grammar guardrail tests
         run: python -m unittest discover -s figures/tests -p 'test_*.py'
 
+      - name: Run measurement-frontier regression tests
+        run: make test-growth
+
+      - name: Build offline measurement-frontier evidence
+        run: python scripts/build-growth-frontier.py --output-dir /tmp/atlas-growth-frontier
+
       - name: Compile validator sources
-        run: python -m compileall -q figures
+        run: python -m compileall -q figures growth scripts/build-growth-frontier.py scripts/scout-bcra-frontier.py

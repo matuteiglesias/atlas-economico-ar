@@ -1,21 +1,25 @@
 #!/usr/bin/env python3
-"""Temporary tranche-3 scout: recompute the current PlotIntent frontier and inspect the full BCRA v4 catalog.
+"""BCRA catalog adapter over the provider-neutral Atlas measurement frontier.
 
-This script is intentionally read-only. It does not mutate Series registries, semantic contracts,
-or publication artifacts. Its output is an evidence packet for selecting the next bounded source batch.
+This script remains intentionally read-only. The generic frontier is computed entirely
+offline; network access is used only for BCRA catalog discovery and candidate tagging.
 """
 from __future__ import annotations
 
 import json
 import re
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-import yaml
-
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from growth.frontier import calculate_frontier
+
 BCRA_BASE = "https://api.bcra.gob.ar/estadisticas/v4.0"
 USER_AGENT = "atlas-economico-ar/0.3-frontier-scout (+https://github.com/matuteiglesias/atlas-economico-ar)"
 
@@ -31,75 +35,6 @@ def request_json(path: str, **params):
     if payload.get("status") != 200:
         raise RuntimeError(payload)
     return payload
-
-
-def load_yaml(path: Path):
-    return yaml.safe_load(path.read_text(encoding="utf-8"))
-
-
-def current_direct_indicators() -> set[str]:
-    ids: set[str] = set()
-    for path in (ROOT / "series" / "registry.json", ROOT / "series" / "bcra_registry.json"):
-        registry = json.loads(path.read_text(encoding="utf-8"))
-        for entry in registry.get("series", []):
-            ids.add(entry["canonical_indicator_id"])
-    return ids
-
-
-def derived_specs() -> list[dict]:
-    out = []
-    for path in sorted((ROOT / "verticals").glob("*/knowledge/derived_indicators*.yaml")):
-        doc = load_yaml(path) or {}
-        out.extend(doc.get("derived_indicators", []))
-    return out
-
-
-def derive_closure(initial: set[str]) -> tuple[set[str], dict[str, list[str]]]:
-    available = set(initial)
-    witnesses: dict[str, list[str]] = {}
-    changed = True
-    specs = derived_specs()
-    while changed:
-        changed = False
-        for spec in specs:
-            output = spec.get("output_indicator_id")
-            inputs = list(spec.get("input_indicator_ids") or [])
-            if output and output not in available and inputs and all(i in available for i in inputs):
-                available.add(output)
-                witnesses[output] = inputs
-                changed = True
-    return available, witnesses
-
-
-def plot_frontier(available: set[str]) -> list[dict]:
-    rows = []
-    for path in sorted((ROOT / "verticals").glob("*/knowledge/plot_intents*.yaml")):
-        doc = load_yaml(path) or {}
-        for plot in doc.get("plot_intents", []):
-            required = list(dict.fromkeys(plot.get("canonical_indicator_ids") or []))
-            missing = [i for i in required if i not in available]
-            rows.append(
-                {
-                    "id": plot["id"],
-                    "title": plot.get("title"),
-                    "required": required,
-                    "missing": missing,
-                    "missing_count": len(missing),
-                    "source_file": str(path.relative_to(ROOT)),
-                }
-            )
-    # Deduplicate v0.1/v0.2 entries by PlotIntent id, preferring fewer missing indicators and then v0.2 path.
-    best: dict[str, dict] = {}
-    for row in rows:
-        old = best.get(row["id"])
-        key = (row["missing_count"], 0 if "v0_2" in row["source_file"] else 1)
-        if old is None:
-            best[row["id"]] = row
-            continue
-        old_key = (old["missing_count"], 0 if "v0_2" in old["source_file"] else 1)
-        if key < old_key:
-            best[row["id"]] = row
-    return sorted(best.values(), key=lambda r: (r["missing_count"], r["id"]))
 
 
 def fetch_catalog() -> list[dict]:
@@ -136,17 +71,36 @@ KEYWORDS = {
 
 def tags(description: str) -> list[str]:
     text = description.lower()
-    return [name for name, patterns in KEYWORDS.items() if any(re.search(p, text) for p in patterns)]
+    return [name for name, patterns in KEYWORDS.items() if any(re.search(pattern, text) for pattern in patterns)]
+
+
+def legacy_projection(atlas_frontier: dict) -> list[dict]:
+    """Keep the historical BCRA packet shape while sourcing demand from the generic kernel."""
+    return [
+        {
+            "id": row["plot_intent_id"],
+            "title": row["title"],
+            "required": row["required_canonical_indicator_ids"],
+            "missing": row["missing_canonical_indicator_ids"],
+            "missing_count": row["missing_count"],
+            "source_file": row["source_file"],
+        }
+        for row in atlas_frontier["plot_intents"]
+    ]
 
 
 def main() -> int:
     out_dir = ROOT / "frontier-scout"
     out_dir.mkdir(exist_ok=True)
 
-    direct = current_direct_indicators()
-    available, derived_witnesses = derive_closure(direct)
-    frontier = plot_frontier(available)
-    missing_frequency = Counter(i for row in frontier for i in row["missing"])
+    atlas_frontier = calculate_frontier(ROOT)
+    frontier = legacy_projection(atlas_frontier)
+    missing_frequency = Counter(item for row in frontier for item in row["missing"])
+    derived_witnesses = {
+        row["output_canonical_indicator_id"]: row["input_canonical_indicator_ids"]
+        for row in atlas_frontier["derived_closure"]
+    }
+    summary = atlas_frontier["summary"]
 
     registry = json.loads((ROOT / "series" / "bcra_registry.json").read_text(encoding="utf-8"))
     existing_provider_ids = {str(row["provider_series_id"]) for row in registry["series"]}
@@ -175,30 +129,34 @@ def main() -> int:
 
     packet = {
         "catalog_count": len(catalog),
-        "existing_bcra_provider_ids": sorted(existing_provider_ids, key=lambda x: int(x)),
-        "direct_indicator_count": len(direct),
-        "available_after_declared_derived_closure_count": len(available),
+        "existing_bcra_provider_ids": sorted(existing_provider_ids, key=lambda value: int(value)),
+        "direct_indicator_count": summary["direct_indicator_count"],
+        "available_after_declared_derived_closure_count": summary[
+            "available_after_declared_derived_closure_count"
+        ],
         "derived_closure": derived_witnesses,
-        "frontier_counts": dict(sorted(Counter(r["missing_count"] for r in frontier).items())),
+        "frontier_counts": dict(sorted(Counter(row["missing_count"] for row in frontier).items())),
         "missing_indicator_frequency": dict(missing_frequency.most_common()),
         "plots": frontier,
-        "catalog_candidates": sorted(candidates, key=lambda r: int(r["provider_series_id"])),
+        "catalog_candidates": sorted(candidates, key=lambda row: int(row["provider_series_id"])),
     }
-    (out_dir / "frontier.json").write_text(json.dumps(packet, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    (out_dir / "frontier.json").write_text(
+        json.dumps(packet, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
 
     lines = [
         "# BCRA tranche-3 frontier scout",
         "",
         f"Catalog rows: **{len(catalog)}**",
         f"Existing BCRA series: **{len(existing_provider_ids)}**",
-        f"Direct indicators: **{len(direct)}**; after declared derived closure: **{len(available)}**",
+        f"Direct indicators: **{summary['direct_indicator_count']}**; after declared derived closure: **{summary['available_after_declared_derived_closure_count']}**",
         "",
         "## Plot frontier",
         "",
     ]
-    counts = Counter(r["missing_count"] for r in frontier)
-    for k in sorted(counts):
-        lines.append(f"- missing {k}: {counts[k]} PlotIntents")
+    counts = Counter(row["missing_count"] for row in frontier)
+    for value in sorted(counts):
+        lines.append(f"- missing {value}: {counts[value]} PlotIntents")
     lines += ["", "## Highest-reuse missing indicators", ""]
     for indicator, count in missing_frequency.most_common(30):
         lines.append(f"- `{indicator}` — {count} PlotIntents")
