@@ -1,0 +1,26 @@
+name: BCRA frontier scout
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check pyyaml
+      - name: Recompute frontier and fetch full BCRA catalog
+        run: python scripts/scout-bcra-frontier.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bcra-frontier-scout
+          path: frontier-scout/
+          if-no-files-found: error
