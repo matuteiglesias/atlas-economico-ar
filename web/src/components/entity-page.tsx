@@ -7,7 +7,7 @@ import type { EntityPage, Navigation } from "@/lib/types";
 const labels = { question: "Question", indicator: "Indicator", chart: "Chart" } as const;
 
 function ChartSurface({ page }: { page: EntityPage }) {
-  return <div className="large-chart"><ChartCard item={page} /></div>;
+  return <div className="large-chart"><ChartCard item={page} chrome="page" /></div>;
 }
 
 export function PublicEntityPage({ page, navigation }: { page: EntityPage; navigation: Navigation }) {
