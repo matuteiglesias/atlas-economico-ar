@@ -48,6 +48,10 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Validate publication QA policy
         run: python figures/validate_publication_qa.py
+      - name: Validate figure curation ledger
+        run: make validate-figure-curation
+      - name: Test figure curation
+        run: make test-figures
       - name: Build complete offline Atlas publication
         env: {SOURCE_DATE_EPOCH: "1786828800"}
         run: make build-atlas
