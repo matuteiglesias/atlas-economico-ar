@@ -25,6 +25,7 @@ from publication.figure_disposition import (  # noqa: E402
     load_curation_reviews,
     load_legacy_publication_reviews,
 )
+from publication.public_surface import PublicSurfaceError, apply_public_surface  # noqa: E402
 from publication.question_publication import QuestionPublicationError, apply_question_publication  # noqa: E402
 
 SCOPE = ROOT / "argentina_econ_semantic_scope_v0_1"
@@ -41,6 +42,8 @@ PUBLICATION_SCHEMA_VERSION = "0.2"
 EXPECTED_CHARTS = 119
 EXPECTED_INDICATORS = 90
 EXPECTED_ARTIFACTS = 41
+EXPECTED_ADDRESSABLE_CHARTS = 41
+EXPECTED_DISCOVERABLE_CHARTS = 27
 EXPECTED_SEMANTIC_QUESTIONS = 38
 
 
@@ -232,10 +235,11 @@ def build(output: Path) -> dict[str, Any]:
     )
     join_artifacts(build_dir, artifacts, plot_ledger)
     question_ledger = apply_question_publication(build_dir, QUESTION_PUBLICATION)
+    public_surface = apply_public_surface(build_dir, question_ledger)
     stats = json.loads((build_dir / "stats.json").read_text())
     manifest = json.loads((build_dir / "manifest.json").read_text())
     if stats["counts"]["chart"] != EXPECTED_CHARTS:
-        raise PublicationError(f"expected {EXPECTED_CHARTS} charts, got {stats['counts']['chart']}")
+        raise PublicationError(f"expected {EXPECTED_CHARTS} semantic charts, got {stats['counts']['chart']}")
     if stats["counts"]["indicator"] != EXPECTED_INDICATORS:
         raise PublicationError(f"expected {EXPECTED_INDICATORS} indicators, got {stats['counts']['indicator']}")
     if question_ledger["semanticQuestionCount"] != EXPECTED_SEMANTIC_QUESTIONS:
@@ -250,6 +254,23 @@ def build(output: Path) -> dict[str, Any]:
         raise PublicationError("prominent PlotArtifact count mismatch")
     if manifest.get("plotPresentation") != {"variant": "embed", "chromeOwner": "page"}:
         raise PublicationError("PlotArtifact presentation projection mismatch")
+
+    chart_census = public_surface["chartCensus"]
+    expected_census = {
+        "semantic": EXPECTED_CHARTS,
+        "materialized": EXPECTED_ARTIFACTS,
+        "addressable": EXPECTED_ADDRESSABLE_CHARTS,
+        "discoverable": EXPECTED_DISCOVERABLE_CHARTS,
+    }
+    if chart_census != expected_census:
+        raise PublicationError(f"public chart census mismatch: expected {expected_census}, got {chart_census}")
+    if len(list((build_dir / "charts").glob("*.json"))) != EXPECTED_ADDRESSABLE_CHARTS:
+        raise PublicationError("addressable chart route-file count mismatch")
+    if sum(item.get("kind") == "chart" for item in json.loads((build_dir / "search-index.json").read_text())) != EXPECTED_DISCOVERABLE_CHARTS:
+        raise PublicationError("discoverable chart search count mismatch")
+    if stats.get("publicSurface") != manifest.get("publicSurface"):
+        raise PublicationError("public-surface summary mismatch")
+
     shutil.rmtree(output, ignore_errors=True)
     build_dir.replace(output)
     return manifest
@@ -264,8 +285,10 @@ def main() -> int:
     stats = json.loads((output / "stats.json").read_text())
     question_publication = stats["questionPublication"]
     plot_publication = stats["plotPublication"]
+    chart_census = stats["publicSurface"]["chartCensus"]
     print(
-        f"PASS: publication compiled ({stats['counts']['chart']} charts, "
+        f"PASS: publication compiled ({chart_census['semantic']} semantic charts, "
+        f"{chart_census['addressable']} addressable, {chart_census['discoverable']} discoverable; "
         f"{stats['counts']['indicator']} indicators, {stats['plot_artifacts']} PlotArtifacts; "
         f"{plot_publication['prominentCount']} prominent / {plot_publication['primaryEvidenceCount']} primary evidence; "
         f"{question_publication['public']} public / {question_publication['semantic']} semantic questions; "
@@ -277,5 +300,5 @@ def main() -> int:
 if __name__ == "__main__":
     try:
         raise SystemExit(main())
-    except (PublicationError, PlotPublicationError, QuestionPublicationError) as exc:
+    except (PublicationError, PlotPublicationError, PublicSurfaceError, QuestionPublicationError) as exc:
         raise SystemExit(f"FAIL: {exc}")
