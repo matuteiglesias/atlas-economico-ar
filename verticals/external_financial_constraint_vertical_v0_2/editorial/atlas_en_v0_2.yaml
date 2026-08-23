@@ -57,33 +57,33 @@ entities:
   q.ns12:
     title: Are interest rates restrictive in real terms?
     slug: are-interest-rates-restrictive-in-real-terms
-    dek: Distinguish the nominal return on a policy-relevant market rate from the real return left after inflation.
+    dek: Compare the nominal TAMAR rate with its ex-post real counterpart before interpreting current rate conditions.
     intro: The current public evidence compares the TAMAR nominal annual rate with an ex-post real rate constructed using realized
-      inflation. Read the two together to separate the observed nominal return from realized inflation-adjusted conditions;
-      the page does not yet turn that comparison into a complete estimate of policy stance based on expected inflation.
+      inflation. Reading the two together separates the observed nominal return from its realized inflation-adjusted counterpart;
+      the pair is not a complete estimate of expected real policy stance.
   q.ns15:
     title: Is domestic money demand recovering?
     slug: is-domestic-money-demand-recovering
     dek: Distinguish genuine recovery in real peso balances from nominal monetary growth that can reflect the price level.
     intro: The prominent evidence follows the real monetary base and compares nominal with real private transactional M2 since
-      December 2023. Those views help separate growth in peso-denominated stocks from recovery in their purchasing-power-adjusted
-      value, which is the more relevant signal for the money-demand question.
+      December 2023. Those views separate growth in peso-denominated stocks from inflation-adjusted balances, so nominal expansion
+      is not mistaken for deeper monetization.
   q.ns16:
     title: Is remonetization proceeding fast enough to absorb monetary expansion without reigniting inflation?
     slug: is-remonetization-proceeding-fast-enough-to-absorb-monetary-expansion-without-reigniting-inflation
     dek: Read real money balances alongside inflation and the monetary base rather than treating a larger nominal peso stock
       as successful remonetization.
     intro: This page compares real private transactional M2 with monthly inflation and places the real monetary base beside
-      real transactional M2. Together the charts separate the recovery of real money balances from the supply-side monetary
-      aggregate; they do not identify a causal threshold at which monetary expansion would reignite inflation.
+      real transactional M2. Together the charts keep the recovery of real money balances, the monetary base, and inflation
+      distinct; they do not identify a causal threshold at which monetary expansion would reignite inflation.
   q.ns17:
     title: Is monetary-base growth consistent with the monetary-targeting framework?
     slug: is-monetary-base-growth-consistent-with-the-monetary-targeting-framework
     dek: Judge monetary-base growth together with real money-demand proxies and inflation rather than from the nominal base
       alone.
     intro: The public evidence is a compact monetization dashboard combining the real monetary base, real private transactional
-      M2, and monthly inflation since December 2023. It is useful for checking whether the operational aggregate, private money
-      balances, and inflation are moving coherently, but it is not a direct test against an explicit numerical policy target.
+      M2, and monthly inflation since December 2023. It places the operational aggregate beside a private money-demand proxy
+      and inflation, but it is not a direct test against an explicit numerical policy target.
   pi.ns08:
     title: Inflation-driver decomposition
     slug: inflation-driver-decomposition
