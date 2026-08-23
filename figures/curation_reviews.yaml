@@ -125,7 +125,8 @@ reviews:
       svg: 25428dbc878e9d45f0847d11a2ba1c8621fdb3fd4467c187ff7535d3acfbb811
     hazard_flags: [FREQUENCY_MISMATCH, DUAL_AXIS_RISK]
     reviewed_at: '2026-08-23T17:40:00Z'
-    note: The rendered nominal-versus-real M2 synthesis is analytically useful: the nominal stock and real index are explicitly separated by labeled axes, exposing how strong nominal growth differs from real remonetization. Mixed daily/monthly frequency remains a review hazard, but the rendering does not conceal it or imply a shared quantitative scale.
+    note: >-
+      The rendered nominal-versus-real M2 synthesis is analytically useful: the nominal stock and real index are explicitly separated by labeled axes, exposing how strong nominal growth differs from real remonetization. Mixed daily/monthly frequency remains a review hazard, but the rendering does not conceal it or imply a shared quantitative scale.
 
   pi.ns40:
     state: QUARANTINE
