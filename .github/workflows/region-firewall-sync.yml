@@ -33,10 +33,12 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
+          from textwrap import dedent
 
           path = Path("econ_knowledge_compiler_v0_1/src/econ_knowledge_compiler/compiler.py")
           text = path.read_text(encoding="utf-8")
-          old = '''    # Regions exist because scope says they exist, even before a vertical is populated.
+          old = dedent('''\
+              # Regions exist because scope says they exist, even before a vertical is populated.
               # Canonical scope can declare publication activation explicitly; the legacy
               # content-derived fallback is retained for older compiler fixtures/bundles.
               populated_slices = {x.get("slice_id") for x in raws["concepts"] if x.get("slice_id")}
@@ -49,8 +51,9 @@ jobs:
                   ent = _make_entity("region", rr, editorial)
                   ent["populated"] = declared_populated if declared_populated is not None else sid in populated_slices
                   entities[sid] = ent
-          '''.replace("              ", "")
-          new = '''    # Regions exist because scope says they exist, even before a vertical is activated.
+          ''')
+          new = dedent('''\
+              # Regions exist because scope says they exist, even before a vertical is activated.
               # Activation is explicit publication metadata. Missing metadata fails closed:
               # semantic richness must never activate a public region by itself.
               for sid, sraw in scope.get("slices", {}).items():
@@ -62,7 +65,7 @@ jobs:
                   ent = _make_entity("region", rr, editorial)
                   ent["populated"] = declared_populated
                   entities[sid] = ent
-          '''.replace("              ", "")
+          ''')
           if text.count(old) != 1:
               raise SystemExit("compiler activation block did not match exactly once")
           path.write_text(text.replace(old, new), encoding="utf-8")
