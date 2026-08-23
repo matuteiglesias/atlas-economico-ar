@@ -1,5 +1,6 @@
 slice_id: "labor_incomes"
 title: "Labor & Incomes"
+populated: false
 mission: "Explain employment quantity/quality, labor formalization, wages, real earnings, informality, and labor-market transmission from sectoral change."
 core_scope:
   - "employment/unemployment"
