@@ -42,6 +42,7 @@ jobs:
           fi
 
           python scripts/apply-bcra-third-batch.py
+          python scripts/advance-bcra-series-freeze.py
           python series/capture_bcra.py \
             --only 882 --only 893 --only 904 \
             --only 981 --only 992 --only 1003
