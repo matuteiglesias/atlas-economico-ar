@@ -56,12 +56,16 @@ export function HeaderControls({ navigation, searchItems }: { navigation: Naviga
 
   return <>
     <button className="mobile-menu" aria-label="Open Explore menu" aria-expanded={menuOpen} onClick={() => setMenuOpen(true)}><Menu /></button>
-    <div className="header-actions"><button className="search-trigger" aria-haspopup="dialog" onClick={() => setSearchOpen(true)}><Search size={18} /><span>Search the atlas…</span><kbd>⌘ K</kbd></button><Link href="/atlas">About</Link></div>
+    <div className="header-actions"><button className="search-trigger" aria-haspopup="dialog" onClick={() => setSearchOpen(true)}><Search size={18} /><span>Search the atlas…</span><kbd>⌘ K</kbd></button><Link href="/atlas">Browse</Link></div>
     {menuOpen && <div className="overlay" role="presentation" onMouseDown={() => setMenuOpen(false)}><aside className="mobile-sheet" role="dialog" aria-modal="true" aria-label="Explore the atlas" onMouseDown={(event) => event.stopPropagation()}>
       <header><p className="rail-label">Explore</p><button ref={menuCloseRef} aria-label="Close Explore menu" onClick={() => setMenuOpen(false)}><X /></button></header>
       <button className="sheet-search" onClick={() => { setMenuOpen(false); setSearchOpen(true); }}><Search /> Search the atlas</button>
-      <nav aria-label="Economic areas">{navigation.regions.map((area, index) => { const Icon = areaIcons[index]; return <Link key={area.href} href={area.href} aria-current={pathname.replace(/\/$/, "") === area.href ? "page" : undefined}><Icon /><span>{area.title}</span></Link>; })}</nav>
-      <Link className="atlas-link" href="/atlas"><Compass /> Browse the full atlas</Link>
+      <nav aria-label="Economic areas">{navigation.regions.map((area, index) => {
+        if (!area.populated) return null;
+        const Icon = areaIcons[index];
+        return <Link key={area.href} href={area.href} aria-current={pathname.replace(/\/$/, "") === area.href ? "page" : undefined}><Icon /><span>{area.title}</span></Link>;
+      })}</nav>
+      <Link className="atlas-link" href="/atlas"><Compass /> Browse atlas</Link>
     </aside></div>}
     {searchOpen && <div className="overlay search-overlay" role="presentation" onMouseDown={() => setSearchOpen(false)}><section className="search-palette" role="dialog" aria-modal="true" aria-label="Search the economic atlas" onMouseDown={(event) => event.stopPropagation()}>
       <div className="search-input"><Search aria-hidden /><label className="sr-only" htmlFor="atlas-search">Search questions, topics, charts, indicators, and areas</label><input id="atlas-search" ref={inputRef} value={query} onChange={(event) => { setQuery(event.target.value); setActive(0); }} onKeyDown={searchKeyDown} placeholder="Search questions, topics, charts…" autoComplete="off" /><button aria-label="Close search" onClick={() => setSearchOpen(false)}><X /></button></div>
