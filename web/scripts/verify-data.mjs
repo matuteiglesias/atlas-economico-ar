@@ -6,16 +6,32 @@ const manifest = JSON.parse(await readFile(path.join(dataRoot, "manifest.json"),
 const surface = JSON.parse(await readFile(path.join(dataRoot, "public-surface.json"), "utf8"));
 const search = JSON.parse(await readFile(path.join(dataRoot, "search-index.json"), "utf8"));
 const folderByKind = { region: "regions", topic: "topics", question: "questions", indicator: "indicators", chart: "charts" };
+const childKinds = new Set(["topic", "question", "indicator", "chart"]);
 const errors = [];
 
-if (surface.schemaVersion !== "0.1") errors.push(`public surface schema ${surface.schemaVersion}; expected 0.1`);
+if (surface.schemaVersion !== "0.2") errors.push(`public surface schema ${surface.schemaVersion}; expected 0.2`);
 if (JSON.stringify(manifest.publicSurface) !== JSON.stringify({
   schemaVersion: surface.schemaVersion,
   semanticCounts: surface.semanticCounts,
   addressableCounts: surface.addressableCounts,
   discoverableCounts: surface.discoverableCounts,
+  activationBlockedCounts: surface.activationBlockedCounts,
   chartCensus: surface.chartCensus,
 })) errors.push("manifest publicSurface summary differs from public-surface.json");
+
+for (const entity of surface.entities ?? []) {
+  if (!entity.owningRegionId || typeof entity.regionActivated !== "boolean" || typeof entity.activationBlocked !== "boolean") {
+    errors.push(`entity lacks region activation metadata: ${entity.kind}/${entity.id}`);
+    continue;
+  }
+  const shouldBeBlocked = childKinds.has(entity.kind) && !entity.regionActivated;
+  if (entity.activationBlocked !== shouldBeBlocked) {
+    errors.push(`activationBlocked mismatch: ${entity.kind}/${entity.id}`);
+  }
+  if (entity.activationBlocked && (entity.addressable || entity.discoverable || entity.prominent)) {
+    errors.push(`inactive-region child leaked public capabilities: ${entity.kind}/${entity.id}`);
+  }
+}
 
 for (const [kind, folder] of Object.entries(folderByKind)) {
   const indexed = search.filter((item) => item.kind === kind);
