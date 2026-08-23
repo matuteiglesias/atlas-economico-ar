@@ -34,6 +34,10 @@ export interface PlotArtifactRef {
   png: string;
   altText: string;
   freshnessState: string;
+  presentation: {
+    variant: "embed";
+    chromeOwner: "page";
+  };
   disposition: PlotPublicationDisposition;
   /** Compatibility only; new consumers must use disposition capabilities. */
   publicationStatus?: "historical" | "quarantine";
