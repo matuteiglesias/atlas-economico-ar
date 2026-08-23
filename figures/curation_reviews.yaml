@@ -183,3 +183,76 @@ reviews:
     hazard_flags: []
     reviewed_at: '2026-08-23T17:40:00Z'
     note: Clean monthly goods-trade-balance bar chart with a meaningful zero baseline, common USD scale, and current data through Jun 2026. Positive and negative months are directly comparable without transformation or dual-axis ambiguity; retain as primary analytical evidence.
+
+  pi.ef46:
+    state: APPROVED
+    review_origin: curation_loop
+    structural_fingerprint: c88b6914ca908085e4bfac3f3e3cbca4083102dcf5edcb0bb17861959d24161e
+    rendered_sha256:
+      png: fce7b8d04a38df67294c30906f5e7f13015845d0bad68e261efc2d2337d2ac84
+      svg: 0cebf7682060f87aba4ef8e8f5a7c3127f5b53e8f7c4e809af75ebcd57d57f77
+    hazard_flags: []
+    reviewed_at: '2026-08-23T23:05:00Z'
+    note: >-
+      Outputs inspected: plot-artifacts/png/gross-international-reserves.png; plot-artifacts/svg/gross-international-reserves.svg. Truth PASS — fresh daily BCRA gross-reserve stock in USD billions, with no net-reserve or flow claim. Usefulness DISTINCT — this is the direct headline reserve-stock view; broader adequacy still requires NIR/liquid-buffer evidence. Publication PASS — clean five-year single-axis line with readable units and source context. Terminal state APPROVED.
+
+  pi.ef47:
+    state: APPROVED
+    review_origin: curation_loop
+    structural_fingerprint: b1b29075353be043efa0097f7fa1e92f8ced119efb956eff9b17dcf980cbd9e8
+    rendered_sha256:
+      png: f97ee3ade9e2fbd7d472caf8ffdaee5d8010cd35e07a66af11ee684ee6da024d
+      svg: 2e55d7eff312ffaac0f6cea5e48479e864da96b02be5d0435fcf9bea96b13590
+    hazard_flags: []
+    reviewed_at: '2026-08-23T23:05:00Z'
+    note: >-
+      Outputs inspected: plot-artifacts/png/monthly-change-in-gross-reserves.png; plot-artifacts/svg/monthly-change-in-gross-reserves.svg. Truth PASS — implemented month-end gross-reserve differences are monthly USD-billion changes with a common observation rule. Usefulness DISTINCT — the bar view exposes reserve-stock volatility and sign changes without pretending to identify their causes. Publication PASS — zero baseline, single scale, and five-year window make gains and losses directly comparable. Terminal state APPROVED.
+
+  pi.ef48:
+    state: REFERENCE
+    review_origin: curation_loop
+    structural_fingerprint: affaf2b096f092992298fbf59affc8134f99807fd6651cc445054fec28a8f8aa
+    rendered_sha256:
+      png: befab5ad7f8aada3c3f123e9bb8b18384e1b7f1d37fb14017cac3c2444d20a72
+      svg: c0013fb54bf08267bde2cd76ed9a37e1111bf0fbd6d2c39193833c588f3c297a
+    hazard_flags: []
+    reviewed_at: '2026-08-23T23:05:00Z'
+    note: >-
+      Outputs inspected: plot-artifacts/png/reserve-accumulation-year-to-date.png; plot-artifacts/svg/reserve-accumulation-year-to-date.svg. Truth PASS — the line is exactly gross reserves minus the final prior-calendar-year observation, fresh through 2026-08-12. Usefulness REFERENCE — useful as a running gross-stock delta, but it is mechanically anchored and does not decompose purchases, financing, debt payments, or usable reserves. Publication PASS AS REFERENCE — visually clean, but weaker than direct stock/change evidence for primary analytical prominence. Terminal state REFERENCE.
+
+  pi.ef50:
+    state: SUPERSEDED
+    review_origin: curation_loop
+    structural_fingerprint: d9c5ccc11d5b9d95c31e28e6a78e5b729ba559c690152a09648e7aad87a31932
+    rendered_sha256:
+      png: 77dd6a52c902d24697dd28e131a474fce8569a6f7cb8999799cf173eed52dca2
+      svg: 9f1a367c22dec7160b91ac2b8e8ec12bec379bdf8dc609b5501103d2864708bb
+    hazard_flags: [REDUNDANT_FIGURE]
+    preferred_plot_intent_id: pi.ef33
+    reviewed_at: '2026-08-23T23:05:00Z'
+    note: >-
+      Outputs inspected: plot-artifacts/png/foreign-currency-deposits.png; plot-artifacts/svg/foreign-currency-deposits.svg. Truth PASS — fresh daily private-sector FX deposits are correctly shown in USD billions. Usefulness SUPERSEDED — pi.ef33 already contains this same deposit-stock evidence for q.ef16 and adds the provider-consistent deposit-share view, so this standalone figure is analytically dominated. Publication NOT NEEDED — no presentation defect requires repair. Terminal state SUPERSEDED; prefer pi.ef33.
+
+  pi.ef53:
+    state: APPROVED
+    review_origin: curation_loop
+    structural_fingerprint: 21686b554d4e27326e67789e815c43561b82479119c22fe17673ef7caaf29380
+    rendered_sha256:
+      png: 168e13b7feaea0fd62401cee59f08550d7abcc962528113a5c8e60fdb7526b07
+      svg: a1c6d878d66f5f0698a6cf0cf6238b696190f23a58334e1fae3b3f7ee0b877c3
+    hazard_flags: []
+    reviewed_at: '2026-08-23T23:05:00Z'
+    note: >-
+      Outputs inspected: plot-artifacts/png/foreign-currency-shares-of-private-credit-and-deposits.png; plot-artifacts/svg/foreign-currency-shares-of-private-credit-and-deposits.svg. Truth PASS — both monthly shares use provider-consistent ARS-equivalent FX numerators and total-stock denominators on the same percent scale and common months. Usefulness DISTINCT — the asset/liability dollarization comparison adds information beyond either stock decomposition or deposit share alone. Publication PASS — two legible lines, one unit, one axis, and a five-year frame. Terminal state APPROVED.
+
+  pi.ns01:
+    state: APPROVED
+    review_origin: curation_loop
+    structural_fingerprint: 6e10dbe50073b7cff2c8004ed0a0fb1093f7b6db222d00bb2a9e28694ee79325
+    rendered_sha256:
+      png: 2670201a71ca9193b825aeb7ef83bfc7130a84316d5e71c4b2edbb4aad81933b
+      svg: 4b5d85f3328f5c01742f02166a3ca4ac4fa03f8da476beb050ed568167ecb2ba
+    hazard_flags: [DUAL_AXIS_RISK]
+    reviewed_at: '2026-08-23T23:05:00Z'
+    note: >-
+      Outputs inspected: plot-artifacts/png/inflation-momentum-monthly-and-3-month-annualized.png; plot-artifacts/svg/inflation-momentum-monthly-and-3-month-annualized.svg. Truth PASS — both measures are monthly CPI-based; the 3-month rate compounds contiguous monthly inflation and annualizes the three-month gross change. Usefulness DISTINCT — it separates current monthly pace from short-run annualized momentum over 18 months. Publication PASS — dual axes are explicitly labeled as monthly percent versus annual rate, so the scale difference is visible rather than concealed. Terminal state APPROVED.
