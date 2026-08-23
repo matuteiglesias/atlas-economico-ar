@@ -17,8 +17,8 @@ class MeasurementResolverTests(unittest.TestCase):
     def setUpClass(cls):
         cls.measurements = {item.indicator_id: item for item in resolver.resolve_all()}
 
-    def test_fourteen_primary_direct_measurements_resolve(self):
-        self.assertEqual(len(self.measurements), 14)
+    def test_twenty_primary_direct_measurements_resolve(self):
+        self.assertEqual(len(self.measurements), 20)
         expected = {
             "ci.ns.cpi_monthly",
             "ci.ns.reer_index",
@@ -34,6 +34,12 @@ class MeasurementResolverTests(unittest.TestCase):
             "ci.ns.policy_rate_nominal",
             "ci.ns.bcra_peso_deposits",
             "ci.ef.fx_deposits_usd",
+            "ci.ef.private_credit_total_ars",
+            "ci.ef.private_credit_peso_ars",
+            "ci.ef.private_credit_fx_ars_equivalent",
+            "ci.ef.private_deposits_total_ars",
+            "ci.ef.private_deposits_peso_ars",
+            "ci.ef.private_deposits_fx_ars_equivalent",
         }
         self.assertEqual(set(self.measurements), expected)
 
@@ -64,7 +70,7 @@ class MeasurementResolverTests(unittest.TestCase):
 
     def test_bcra_primary_freshness_is_explicit(self):
         bcra = [m for m in self.measurements.values() if m.provider == "bcra_monetarias_v4"]
-        self.assertEqual(len(bcra), 11)
+        self.assertEqual(len(bcra), 17)
         policy = self.measurements["ci.ns.policy_rate_nominal"]
         self.assertEqual(policy.freshness_state, "stale_warning")
         self.assertTrue(
