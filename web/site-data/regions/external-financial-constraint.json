@@ -1181,95 +1181,11 @@
   "localGraph": {
     "nodes": [
       {
-        "id": "ef.sovereign_spreads",
-        "kind": "topic",
-        "slug": "sovereign-spreads",
-        "title": "Sovereign spreads",
-        "href": "/topics/sovereign-spreads"
-      },
-      {
-        "id": "ef.refinancing_needs",
-        "kind": "topic",
-        "slug": "external-refinancing-needs",
-        "title": "External refinancing needs",
-        "href": "/topics/external-refinancing-needs"
-      },
-      {
-        "id": "ef.net_international_reserves",
-        "kind": "topic",
-        "slug": "net-international-reserves",
-        "title": "Net international reserves",
-        "href": "/topics/net-international-reserves"
-      },
-      {
-        "id": "ef.financial_account",
-        "kind": "topic",
-        "slug": "financial-account",
-        "title": "Financial account",
-        "href": "/topics/financial-account"
-      },
-      {
-        "id": "ef.fx_deposits",
-        "kind": "topic",
-        "slug": "foreign-currency-deposits",
-        "title": "Foreign-currency deposits",
-        "href": "/topics/foreign-currency-deposits"
-      },
-      {
-        "id": "ef.goods_trade_balance",
-        "kind": "topic",
-        "slug": "goods-trade-balance",
-        "title": "Goods trade balance",
-        "href": "/topics/goods-trade-balance"
-      },
-      {
-        "id": "ef.capital_inflows",
-        "kind": "topic",
-        "slug": "capital-inflows",
-        "title": "Capital inflows",
-        "href": "/topics/capital-inflows"
-      },
-      {
-        "id": "ef.reserve_adequacy",
-        "kind": "topic",
-        "slug": "reserve-adequacy",
-        "title": "Reserve adequacy",
-        "href": "/topics/reserve-adequacy"
-      },
-      {
-        "id": "ef.fx_market_issuance",
-        "kind": "topic",
-        "slug": "fx-market-issuance",
-        "title": "FX market issuance",
-        "href": "/topics/fx-market-issuance"
-      },
-      {
-        "id": "ef.financial_depth",
-        "kind": "topic",
-        "slug": "financial-depth",
-        "title": "Financial depth",
-        "href": "/topics/financial-depth"
-      },
-      {
-        "id": "ef.swap_repo_financing",
-        "kind": "topic",
-        "slug": "swap-and-repo-financing",
-        "title": "Swap and repo financing",
-        "href": "/topics/swap-and-repo-financing"
-      },
-      {
         "id": "ef.external_position",
         "kind": "topic",
         "slug": "external-position",
         "title": "External position",
         "href": "/topics/external-position"
-      },
-      {
-        "id": "ef.current_account",
-        "kind": "topic",
-        "slug": "current-account",
-        "title": "Current account",
-        "href": "/topics/current-account"
       },
       {
         "id": "ef.sovereign_risk",
@@ -1279,20 +1195,6 @@
         "href": "/topics/sovereign-risk"
       },
       {
-        "id": "ef.reserve_accumulation",
-        "kind": "topic",
-        "slug": "reserve-accumulation",
-        "title": "Reserve accumulation",
-        "href": "/topics/reserve-accumulation"
-      },
-      {
-        "id": "ef.services_balance",
-        "kind": "topic",
-        "slug": "services-balance",
-        "title": "Services balance",
-        "href": "/topics/services-balance"
-      },
-      {
         "id": "ef.foreign_direct_investment",
         "kind": "topic",
         "slug": "foreign-direct-investment",
@@ -1300,18 +1202,32 @@
         "href": "/topics/foreign-direct-investment"
       },
       {
-        "id": "ef.market_access",
+        "id": "ef.goods_trade_balance",
         "kind": "topic",
-        "slug": "international-market-access",
-        "title": "International market access",
-        "href": "/topics/international-market-access"
+        "slug": "goods-trade-balance",
+        "title": "Goods trade balance",
+        "href": "/topics/goods-trade-balance"
       },
       {
-        "id": "ef.fx_debt_service",
+        "id": "ef.financial_depth",
         "kind": "topic",
-        "slug": "foreign-currency-debt-service",
-        "title": "Foreign-currency debt service",
-        "href": "/topics/foreign-currency-debt-service"
+        "slug": "financial-depth",
+        "title": "Financial depth",
+        "href": "/topics/financial-depth"
+      },
+      {
+        "id": "ef.refinancing_needs",
+        "kind": "topic",
+        "slug": "external-refinancing-needs",
+        "title": "External refinancing needs",
+        "href": "/topics/external-refinancing-needs"
+      },
+      {
+        "id": "ef.current_account",
+        "kind": "topic",
+        "slug": "current-account",
+        "title": "Current account",
+        "href": "/topics/current-account"
       },
       {
         "id": "ef.resident_fx_hedging",
@@ -1321,25 +1237,18 @@
         "href": "/topics/resident-fx-hedging-and-dollarization-pressure"
       },
       {
-        "id": "ef.domestic_capital_market_depth",
+        "id": "ef.sovereign_spreads",
         "kind": "topic",
-        "slug": "domestic-capital-market-depth",
-        "title": "Domestic capital-market depth",
-        "href": "/topics/domestic-capital-market-depth"
+        "slug": "sovereign-spreads",
+        "title": "Sovereign spreads",
+        "href": "/topics/sovereign-spreads"
       },
       {
-        "id": "ef.primary_income_balance",
+        "id": "ef.reserve_adequacy",
         "kind": "topic",
-        "slug": "primary-income-balance",
-        "title": "Primary income balance",
-        "href": "/topics/primary-income-balance"
-      },
-      {
-        "id": "ef.liquid_reserve_buffers",
-        "kind": "topic",
-        "slug": "liquid-reserve-buffers",
-        "title": "Liquid reserve buffers",
-        "href": "/topics/liquid-reserve-buffers"
+        "slug": "reserve-adequacy",
+        "title": "Reserve adequacy",
+        "href": "/topics/reserve-adequacy"
       },
       {
         "id": "ef.external_vulnerability",
@@ -1349,18 +1258,46 @@
         "href": "/topics/external-vulnerability"
       },
       {
-        "id": "ef.external_public_debt",
-        "kind": "topic",
-        "slug": "external-public-debt",
-        "title": "External public debt",
-        "href": "/topics/external-public-debt"
-      },
-      {
         "id": "ef.credit_quality",
         "kind": "topic",
         "slug": "credit-quality",
         "title": "Credit quality",
         "href": "/topics/credit-quality"
+      },
+      {
+        "id": "ef.financial_account",
+        "kind": "topic",
+        "slug": "financial-account",
+        "title": "Financial account",
+        "href": "/topics/financial-account"
+      },
+      {
+        "id": "ef.swap_repo_financing",
+        "kind": "topic",
+        "slug": "swap-and-repo-financing",
+        "title": "Swap and repo financing",
+        "href": "/topics/swap-and-repo-financing"
+      },
+      {
+        "id": "ef.fx_market_issuance",
+        "kind": "topic",
+        "slug": "fx-market-issuance",
+        "title": "FX market issuance",
+        "href": "/topics/fx-market-issuance"
+      },
+      {
+        "id": "ef.capital_inflows",
+        "kind": "topic",
+        "slug": "capital-inflows",
+        "title": "Capital inflows",
+        "href": "/topics/capital-inflows"
+      },
+      {
+        "id": "ef.services_balance",
+        "kind": "topic",
+        "slug": "services-balance",
+        "title": "Services balance",
+        "href": "/topics/services-balance"
       },
       {
         "id": "ef.gross_reserves",
@@ -1370,11 +1307,67 @@
         "href": "/topics/gross-international-reserves"
       },
       {
+        "id": "ef.net_international_reserves",
+        "kind": "topic",
+        "slug": "net-international-reserves",
+        "title": "Net international reserves",
+        "href": "/topics/net-international-reserves"
+      },
+      {
+        "id": "ef.domestic_savings_mobilization",
+        "kind": "topic",
+        "slug": "domestic-savings-mobilization",
+        "title": "Domestic savings mobilization",
+        "href": "/topics/domestic-savings-mobilization"
+      },
+      {
+        "id": "ef.liquid_reserve_buffers",
+        "kind": "topic",
+        "slug": "liquid-reserve-buffers",
+        "title": "Liquid reserve buffers",
+        "href": "/topics/liquid-reserve-buffers"
+      },
+      {
+        "id": "ef.market_access",
+        "kind": "topic",
+        "slug": "international-market-access",
+        "title": "International market access",
+        "href": "/topics/international-market-access"
+      },
+      {
+        "id": "ef.fx_deposits",
+        "kind": "topic",
+        "slug": "foreign-currency-deposits",
+        "title": "Foreign-currency deposits",
+        "href": "/topics/foreign-currency-deposits"
+      },
+      {
+        "id": "ef.domestic_capital_market_depth",
+        "kind": "topic",
+        "slug": "domestic-capital-market-depth",
+        "title": "Domestic capital-market depth",
+        "href": "/topics/domestic-capital-market-depth"
+      },
+      {
         "id": "ef.official_external_financing",
         "kind": "topic",
         "slug": "official-external-financing",
         "title": "Official external financing",
         "href": "/topics/official-external-financing"
+      },
+      {
+        "id": "ef.fx_debt_service",
+        "kind": "topic",
+        "slug": "foreign-currency-debt-service",
+        "title": "Foreign-currency debt service",
+        "href": "/topics/foreign-currency-debt-service"
+      },
+      {
+        "id": "ef.reserve_accumulation",
+        "kind": "topic",
+        "slug": "reserve-accumulation",
+        "title": "Reserve accumulation",
+        "href": "/topics/reserve-accumulation"
       },
       {
         "id": "ef.private_credit",
@@ -1384,11 +1377,18 @@
         "href": "/topics/private-sector-credit"
       },
       {
-        "id": "ef.domestic_savings_mobilization",
+        "id": "ef.primary_income_balance",
         "kind": "topic",
-        "slug": "domestic-savings-mobilization",
-        "title": "Domestic savings mobilization",
-        "href": "/topics/domestic-savings-mobilization"
+        "slug": "primary-income-balance",
+        "title": "Primary income balance",
+        "href": "/topics/primary-income-balance"
+      },
+      {
+        "id": "ef.external_public_debt",
+        "kind": "topic",
+        "slug": "external-public-debt",
+        "title": "External public debt",
+        "href": "/topics/external-public-debt"
       }
     ],
     "edges": [

@@ -51,7 +51,7 @@
     "hold": 23
   },
   "publicSurface": {
-    "schemaVersion": "0.1",
+    "schemaVersion": "0.2",
     "semanticCounts": {
       "region": 6,
       "topic": 55,
@@ -72,6 +72,13 @@
       "question": 15,
       "indicator": 90,
       "chart": 27
+    },
+    "activationBlockedCounts": {
+      "region": 0,
+      "topic": 0,
+      "question": 0,
+      "indicator": 0,
+      "chart": 0
     },
     "chartCensus": {
       "semantic": 119,
