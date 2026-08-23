@@ -1,0 +1,9 @@
+.planned-surface {
+  background: #fafbfc;
+  border-color: #e6e9ee;
+  color: #6f7886;
+}
+
+.planned-surface .chart-title p {
+  color: #929aa6;
+}
