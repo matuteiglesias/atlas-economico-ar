@@ -1,0 +1,160 @@
+{
+  "schema_version": "0.1",
+  "simulation_date": "2026-08-23",
+  "status": "CONDITIONAL_ON_SEMANTIC_GATE",
+  "baseline": {
+    "direct_canonical_indicators": 20,
+    "available_after_declared_derived_closure": 36,
+    "plot_intents": 119,
+    "classification_counts": {
+      "DATA_READY": 52,
+      "MISSING_1": 28,
+      "MISSING_2": 26,
+      "MISSING_3_PLUS": 13
+    }
+  },
+  "counterfactual": {
+    "direct_measurement_added": "ci.ns.infl_exp_3m",
+    "assumption": "A source mapping has first been judged semantically exact; this file does not make that judgment.",
+    "newly_available_direct_canonical_indicators": [
+      "ci.ns.infl_exp_3m"
+    ],
+    "newly_available_via_declared_derived_closure": [
+      {
+        "canonical_indicator_id": "ci.ns.tamar_real_exante",
+        "derived_indicator_id": "di.ns.real_rate_exante",
+        "already_available_other_input": "ci.ns.tamar_nominal"
+      }
+    ],
+    "available_after_declared_derived_closure": 38,
+    "classification_counts": {
+      "DATA_READY": 56,
+      "MISSING_1": 27,
+      "MISSING_2": 27,
+      "MISSING_3_PLUS": 9
+    },
+    "delta": {
+      "DATA_READY": 4,
+      "MISSING_1": -1,
+      "MISSING_2": 1,
+      "MISSING_3_PLUS": -4
+    }
+  },
+  "plot_transitions": [
+    {
+      "plot_intent_id": "pi.ns27",
+      "question_intent_ids": ["q.ns12"],
+      "before": "MISSING_1",
+      "after": "DATA_READY",
+      "closed_by": ["ci.ns.infl_exp_3m"]
+    },
+    {
+      "plot_intent_id": "pi.ns28",
+      "question_intent_ids": ["q.ns12"],
+      "before": "MISSING_1",
+      "after": "DATA_READY",
+      "closed_by": ["ci.ns.tamar_real_exante"],
+      "closure_path": ["ci.ns.infl_exp_3m", "di.ns.real_rate_exante", "ci.ns.tamar_real_exante"]
+    },
+    {
+      "plot_intent_id": "pi.ns29",
+      "question_intent_ids": ["q.ns12"],
+      "before": "MISSING_1",
+      "after": "DATA_READY",
+      "closed_by": ["ci.ns.tamar_real_exante"],
+      "closure_path": ["ci.ns.infl_exp_3m", "di.ns.real_rate_exante", "ci.ns.tamar_real_exante"]
+    },
+    {
+      "plot_intent_id": "pi.ns49",
+      "question_intent_ids": ["q.ns12"],
+      "before": "MISSING_1",
+      "after": "DATA_READY",
+      "closed_by": ["ci.ns.tamar_real_exante"],
+      "closure_path": ["ci.ns.infl_exp_3m", "di.ns.real_rate_exante", "ci.ns.tamar_real_exante"]
+    },
+    {
+      "plot_intent_id": "pi.ns47",
+      "question_intent_ids": ["q.ns18"],
+      "before": "MISSING_2",
+      "after": "MISSING_1",
+      "resolved": ["ci.ns.infl_exp_3m"],
+      "remaining_missing": ["ci.ns.fx_gap_ccl"]
+    },
+    {
+      "plot_intent_id": "pi.ns13",
+      "question_intent_ids": ["q.ns07"],
+      "before": "MISSING_3_PLUS",
+      "before_missing_count": 3,
+      "after": "MISSING_2",
+      "resolved": ["ci.ns.infl_exp_3m"],
+      "remaining_missing": ["ci.ns.infl_exp_1m", "ci.ns.infl_exp_eop"]
+    },
+    {
+      "plot_intent_id": "pi.ns14",
+      "question_intent_ids": ["q.ns07"],
+      "before": "MISSING_3_PLUS",
+      "before_missing_count": 3,
+      "after": "MISSING_2",
+      "resolved": ["ci.ns.infl_exp_3m"],
+      "remaining_missing": ["ci.ns.infl_exp_1m", "ci.ns.infl_exp_eop"]
+    },
+    {
+      "plot_intent_id": "pi.ns44",
+      "question_intent_ids": ["q.ns18"],
+      "before": "MISSING_3_PLUS",
+      "before_missing_count": 3,
+      "after": "MISSING_1",
+      "resolved": ["ci.ns.infl_exp_3m", "ci.ns.tamar_real_exante"],
+      "remaining_missing": ["ci.ns.fx_gap_ccl"]
+    },
+    {
+      "plot_intent_id": "pi.ns52",
+      "question_intent_ids": ["q.ns18"],
+      "before": "MISSING_3_PLUS",
+      "before_missing_count": 3,
+      "after": "MISSING_1",
+      "resolved": ["ci.ns.infl_exp_3m", "ci.ns.tamar_real_exante"],
+      "remaining_missing": ["ci.ns.fx_gap_ccl"]
+    }
+  ],
+  "newly_data_ready_plot_intents": [
+    "pi.ns27",
+    "pi.ns28",
+    "pi.ns29",
+    "pi.ns49"
+  ],
+  "affected_plot_intents_without_double_counting": [
+    "pi.ns13",
+    "pi.ns14",
+    "pi.ns27",
+    "pi.ns28",
+    "pi.ns29",
+    "pi.ns44",
+    "pi.ns47",
+    "pi.ns49",
+    "pi.ns52"
+  ],
+  "affected_plot_intent_count": 9,
+  "affected_question_intents": [
+    {
+      "question_intent_id": "q.ns07",
+      "question": "What inflation path does the market expect over the next months and year-end?",
+      "new_data_ready_plot_count": 0,
+      "improved_but_still_blocked": ["pi.ns13", "pi.ns14"]
+    },
+    {
+      "question_intent_id": "q.ns12",
+      "question": "Are interest rates restrictive in real terms?",
+      "new_data_ready_plot_count": 4,
+      "new_data_ready": ["pi.ns27", "pi.ns28", "pi.ns29", "pi.ns49"]
+    },
+    {
+      "question_intent_id": "q.ns18",
+      "question": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
+      "new_data_ready_plot_count": 0,
+      "improved_but_still_blocked": ["pi.ns44", "pi.ns47", "pi.ns52"],
+      "critical_remaining_blocker": "ci.ns.fx_gap_ccl"
+    }
+  ],
+  "interpretation": "The apparent 6-plot direct leverage plus 5-plot ex-ante-real-rate leverage is not 11 independent plots. Two PlotIntents require both measurements. The union is nine affected PlotIntents, of which four become DATA_READY under declared closure."
+}
