@@ -977,6 +977,294 @@
       }
     },
     {
+      "id": "re.economic_activity",
+      "kind": "topic",
+      "slug": "economic-activity",
+      "title": "Economic activity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.real_gdp",
+      "kind": "topic",
+      "slug": "real-gdp",
+      "title": "Real GDP",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.domestic_demand",
+      "kind": "topic",
+      "slug": "domestic-demand",
+      "title": "Domestic demand",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.private_consumption",
+      "kind": "topic",
+      "slug": "private-consumption",
+      "title": "Private consumption",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.public_consumption",
+      "kind": "topic",
+      "slug": "public-consumption",
+      "title": "Public consumption",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.fixed_investment",
+      "kind": "topic",
+      "slug": "gross-fixed-capital-formation",
+      "title": "Gross fixed capital formation",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.productive_capacity",
+      "kind": "topic",
+      "slug": "productive-capacity",
+      "title": "Productive capacity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.sectoral_activity",
+      "kind": "topic",
+      "slug": "sectoral-activity",
+      "title": "Sectoral activity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.sectoral_divergence",
+      "kind": "topic",
+      "slug": "sectoral-divergence",
+      "title": "Sectoral divergence",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.manufacturing_activity",
+      "kind": "topic",
+      "slug": "manufacturing-activity",
+      "title": "Manufacturing activity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.construction_activity",
+      "kind": "topic",
+      "slug": "construction-activity",
+      "title": "Construction activity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.commerce_activity",
+      "kind": "topic",
+      "slug": "commerce-and-retail-activity",
+      "title": "Commerce and retail activity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.agriculture_activity",
+      "kind": "topic",
+      "slug": "agricultural-activity",
+      "title": "Agricultural activity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.mining_energy_activity",
+      "kind": "topic",
+      "slug": "mining-and-energy-activity",
+      "title": "Mining and energy activity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.exports_volume",
+      "kind": "topic",
+      "slug": "real-exports",
+      "title": "Real exports",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.imports_volume",
+      "kind": "topic",
+      "slug": "real-imports",
+      "title": "Real imports",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.export_capacity",
+      "kind": "topic",
+      "slug": "export-capacity",
+      "title": "Export capacity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "re.financial_conditions",
+      "kind": "topic",
+      "slug": "financial-conditions-for-real-activity",
+      "title": "Financial conditions for real activity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
       "id": "q.ns01",
       "kind": "question",
       "slug": "how-fast-is-inflation-running-now-and-is-it-accelerating-or-decelerating",
@@ -1620,6 +1908,210 @@
         "owningRegionId": "external_financial_constraint",
         "regionActivated": true,
         "activationBlocked": false
+      }
+    },
+    {
+      "id": "q.re01",
+      "kind": "question",
+      "slug": "how-broad-based-is-argentina-s-economic-recovery-across-major-sectors",
+      "title": "How broad-based is Argentina's economic recovery across major sectors?",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicationState": "HOLD",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "q.re02",
+      "kind": "question",
+      "slug": "which-sectors-are-leading-the-recovery-and-which-remain-below-the-aggregate-pace",
+      "title": "Which sectors are leading the recovery, and which remain below the aggregate pace?",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicationState": "HOLD",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "q.re03",
+      "kind": "question",
+      "slug": "which-components-of-demand-and-trade-are-driving-real-gdp-growth",
+      "title": "Which components of demand and trade are driving real GDP growth?",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicationState": "HOLD",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "q.re04",
+      "kind": "question",
+      "slug": "is-private-consumption-strengthening-enough-to-support-the-recovery",
+      "title": "Is private consumption strengthening enough to support the recovery?",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicationState": "HOLD",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "q.re05",
+      "kind": "question",
+      "slug": "is-fixed-investment-recovering-and-how-durable-is-the-improvement",
+      "title": "Is fixed investment recovering, and how durable is the improvement?",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicationState": "HOLD",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "q.re06",
+      "kind": "question",
+      "slug": "is-investment-shifting-toward-machinery-and-productive-capacity-rather-than-only-construction",
+      "title": "Is investment shifting toward machinery and productive capacity rather than only construction?",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicationState": "HOLD",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "q.re07",
+      "kind": "question",
+      "slug": "are-manufacturing-and-construction-keeping-pace-with-aggregate-activity",
+      "title": "Are manufacturing and construction keeping pace with aggregate activity?",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicationState": "HOLD",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "q.re08",
+      "kind": "question",
+      "slug": "are-agriculture-mining-and-energy-accounting-for-an-increasing-share-of-the-recovery",
+      "title": "Are agriculture, mining, and energy accounting for an increasing share of the recovery?",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicationState": "HOLD",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "q.re09",
+      "kind": "question",
+      "slug": "how-strongly-are-imports-moving-with-the-recovery-in-domestic-demand",
+      "title": "How strongly are imports moving with the recovery in domestic demand?",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicationState": "HOLD",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "q.re10",
+      "kind": "question",
+      "slug": "is-expanding-productive-capacity-translating-into-stronger-export-capacity",
+      "title": "Is expanding productive capacity translating into stronger export capacity?",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicationState": "HOLD",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "q.re11",
+      "kind": "question",
+      "slug": "are-financial-conditions-becoming-more-supportive-of-investment-and-real-activity",
+      "title": "Are financial conditions becoming more supportive of investment and real activity?",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicationState": "HOLD",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "q.re12",
+      "kind": "question",
+      "slug": "how-does-the-current-recovery-compare-with-the-late-2023-starting-point",
+      "title": "How does the current recovery compare with the late-2023 starting point?",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicationState": "HOLD",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
       }
     },
     {
@@ -3060,6 +3552,374 @@
         "owningRegionId": "external_financial_constraint",
         "regionActivated": true,
         "activationBlocked": false
+      }
+    },
+    {
+      "id": "ci.re.emae_sa_index",
+      "kind": "indicator",
+      "slug": "economic-activity-index-seasonally-adjusted",
+      "title": "Economic activity index, seasonally adjusted",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.emae_yoy",
+      "kind": "indicator",
+      "slug": "economic-activity-year-over-year",
+      "title": "Economic activity, year-over-year",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.real_gdp_level",
+      "kind": "indicator",
+      "slug": "real-gdp-seasonally-adjusted-level",
+      "title": "Real GDP, seasonally adjusted level",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.real_gdp_qoq",
+      "kind": "indicator",
+      "slug": "real-gdp-quarter-over-quarter",
+      "title": "Real GDP, quarter-over-quarter",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.real_gdp_yoy",
+      "kind": "indicator",
+      "slug": "real-gdp-year-over-year",
+      "title": "Real GDP, year-over-year",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.private_consumption_real",
+      "kind": "indicator",
+      "slug": "private-consumption-real",
+      "title": "Private consumption, real",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.public_consumption_real",
+      "kind": "indicator",
+      "slug": "public-consumption-real",
+      "title": "Public consumption, real",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.gfcf_real",
+      "kind": "indicator",
+      "slug": "gross-fixed-capital-formation-real",
+      "title": "Gross fixed capital formation, real",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.exports_real",
+      "kind": "indicator",
+      "slug": "exports-of-goods-and-services-real",
+      "title": "Exports of goods and services, real",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.imports_real",
+      "kind": "indicator",
+      "slug": "imports-of-goods-and-services-real",
+      "title": "Imports of goods and services, real",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.private_consumption_qoq",
+      "kind": "indicator",
+      "slug": "private-consumption-quarter-over-quarter",
+      "title": "Private consumption, quarter-over-quarter",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.gfcf_qoq",
+      "kind": "indicator",
+      "slug": "gross-fixed-capital-formation-quarter-over-quarter",
+      "title": "Gross fixed capital formation, quarter-over-quarter",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.gfcf_construction_real",
+      "kind": "indicator",
+      "slug": "construction-component-of-fixed-investment-real",
+      "title": "Construction component of fixed investment, real",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.gfcf_machinery_real",
+      "kind": "indicator",
+      "slug": "machinery-and-equipment-component-of-fixed-investment-real",
+      "title": "Machinery and equipment component of fixed investment, real",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.manufacturing_sa_index",
+      "kind": "indicator",
+      "slug": "manufacturing-activity-index",
+      "title": "Manufacturing activity index",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.construction_sa_index",
+      "kind": "indicator",
+      "slug": "construction-activity-index",
+      "title": "Construction activity index",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.commerce_sa_index",
+      "kind": "indicator",
+      "slug": "commerce-activity-index",
+      "title": "Commerce activity index",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.agriculture_sa_index",
+      "kind": "indicator",
+      "slug": "agriculture-activity-index",
+      "title": "Agriculture activity index",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.mining_energy_sa_index",
+      "kind": "indicator",
+      "slug": "mining-and-energy-activity-index",
+      "title": "Mining and energy activity index",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.manufacturing_yoy",
+      "kind": "indicator",
+      "slug": "manufacturing-activity-year-over-year",
+      "title": "Manufacturing activity, year-over-year",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.construction_yoy",
+      "kind": "indicator",
+      "slug": "construction-activity-year-over-year",
+      "title": "Construction activity, year-over-year",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.agriculture_yoy",
+      "kind": "indicator",
+      "slug": "agriculture-activity-year-over-year",
+      "title": "Agriculture activity, year-over-year",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "ci.re.mining_energy_yoy",
+      "kind": "indicator",
+      "slug": "mining-and-energy-activity-year-over-year",
+      "title": "Mining and energy activity, year-over-year",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
       }
     },
     {
@@ -4965,6 +5825,390 @@
         "regionActivated": true,
         "activationBlocked": false
       }
+    },
+    {
+      "id": "pi.re01",
+      "kind": "chart",
+      "slug": "economic-activity-since-late-2023",
+      "title": "Economic activity since late 2023",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re02",
+      "kind": "chart",
+      "slug": "aggregate-activity-versus-major-sectors",
+      "title": "Aggregate activity versus major sectors",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re03",
+      "kind": "chart",
+      "slug": "year-over-year-activity-growth-across-sectors",
+      "title": "Year-over-year activity growth across sectors",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re04",
+      "kind": "chart",
+      "slug": "real-gdp-quarter-over-quarter-growth",
+      "title": "Real GDP quarter-over-quarter growth",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re05",
+      "kind": "chart",
+      "slug": "real-gdp-level-versus-the-pre-pandemic-anchor",
+      "title": "Real GDP level versus the pre-pandemic anchor",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re06",
+      "kind": "chart",
+      "slug": "real-private-consumption",
+      "title": "Real private consumption",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re07",
+      "kind": "chart",
+      "slug": "private-consumption-growth-versus-gdp-growth",
+      "title": "Private consumption growth versus GDP growth",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re08",
+      "kind": "chart",
+      "slug": "real-fixed-investment",
+      "title": "Real fixed investment",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re09",
+      "kind": "chart",
+      "slug": "fixed-investment-growth-versus-gdp-growth",
+      "title": "Fixed-investment growth versus GDP growth",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re10",
+      "kind": "chart",
+      "slug": "fixed-investment-construction-versus-machinery-and-equipment",
+      "title": "Fixed investment: construction versus machinery and equipment",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re11",
+      "kind": "chart",
+      "slug": "manufacturing-versus-aggregate-economic-activity",
+      "title": "Manufacturing versus aggregate economic activity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re12",
+      "kind": "chart",
+      "slug": "construction-versus-aggregate-economic-activity",
+      "title": "Construction versus aggregate economic activity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re13",
+      "kind": "chart",
+      "slug": "agriculture-and-mining-energy-versus-aggregate-activity",
+      "title": "Agriculture and mining-energy versus aggregate activity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re14",
+      "kind": "chart",
+      "slug": "real-exports-versus-real-imports",
+      "title": "Real exports versus real imports",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re15",
+      "kind": "chart",
+      "slug": "imports-versus-private-consumption-and-fixed-investment",
+      "title": "Imports versus private consumption and fixed investment",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re16",
+      "kind": "chart",
+      "slug": "real-exports-and-primary-sector-activity",
+      "title": "Real exports and primary-sector activity",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re17",
+      "kind": "chart",
+      "slug": "fixed-investment-and-real-private-credit-growth",
+      "title": "Fixed investment and real private-credit growth",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re18",
+      "kind": "chart",
+      "slug": "fixed-investment-and-ex-post-real-money-market-rates",
+      "title": "Fixed investment and ex-post real money-market rates",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re19",
+      "kind": "chart",
+      "slug": "private-consumption-and-real-private-credit-growth",
+      "title": "Private consumption and real private-credit growth",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re20",
+      "kind": "chart",
+      "slug": "private-versus-public-consumption",
+      "title": "Private versus public consumption",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re21",
+      "kind": "chart",
+      "slug": "real-demand-and-trade-components",
+      "title": "Real demand and trade components",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re22",
+      "kind": "chart",
+      "slug": "quarterly-gdp-growth-versus-monthly-activity-growth",
+      "title": "Quarterly GDP growth versus monthly activity growth",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re23",
+      "kind": "chart",
+      "slug": "manufacturing-versus-construction-growth",
+      "title": "Manufacturing versus construction growth",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
+    },
+    {
+      "id": "pi.re24",
+      "kind": "chart",
+      "slug": "agriculture-versus-mining-energy-growth",
+      "title": "Agriculture versus mining-energy growth",
+      "href": null,
+      "slice_id": "real_economy",
+      "publicSurface": {
+        "addressable": false,
+        "discoverable": false,
+        "prominent": false,
+        "owningRegionId": "real_economy",
+        "regionActivated": false,
+        "activationBlocked": true
+      }
     }
   ],
   "edges": [
@@ -5641,6 +6885,202 @@
       "directed": true
     },
     {
+      "from": "re.real_gdp",
+      "to": "re.economic_activity",
+      "kind": "relation:measurement_of",
+      "source_id": "rel.re.gdp_measures_activity",
+      "directed": true
+    },
+    {
+      "from": "re.private_consumption",
+      "to": "re.domestic_demand",
+      "kind": "relation:component_of",
+      "source_id": "rel.re.private_consumption_component_demand",
+      "directed": true
+    },
+    {
+      "from": "re.public_consumption",
+      "to": "re.domestic_demand",
+      "kind": "relation:component_of",
+      "source_id": "rel.re.public_consumption_component_demand",
+      "directed": true
+    },
+    {
+      "from": "re.fixed_investment",
+      "to": "re.domestic_demand",
+      "kind": "relation:component_of",
+      "source_id": "rel.re.investment_component_demand",
+      "directed": true
+    },
+    {
+      "from": "re.domestic_demand",
+      "to": "re.real_gdp",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.re.domestic_demand_contributes_gdp",
+      "directed": true
+    },
+    {
+      "from": "re.exports_volume",
+      "to": "re.real_gdp",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.re.exports_contribute_gdp",
+      "directed": true
+    },
+    {
+      "from": "re.imports_volume",
+      "to": "re.real_gdp",
+      "kind": "relation:accounting_relation",
+      "source_id": "rel.re.imports_accounting_gdp",
+      "directed": true
+    },
+    {
+      "from": "re.sectoral_activity",
+      "to": "re.economic_activity",
+      "kind": "relation:measurement_of",
+      "source_id": "rel.re.sectors_measure_activity",
+      "directed": true
+    },
+    {
+      "from": "re.manufacturing_activity",
+      "to": "re.sectoral_activity",
+      "kind": "relation:component_of",
+      "source_id": "rel.re.manufacturing_component_sectoral",
+      "directed": true
+    },
+    {
+      "from": "re.construction_activity",
+      "to": "re.sectoral_activity",
+      "kind": "relation:component_of",
+      "source_id": "rel.re.construction_component_sectoral",
+      "directed": true
+    },
+    {
+      "from": "re.commerce_activity",
+      "to": "re.sectoral_activity",
+      "kind": "relation:component_of",
+      "source_id": "rel.re.commerce_component_sectoral",
+      "directed": true
+    },
+    {
+      "from": "re.agriculture_activity",
+      "to": "re.sectoral_activity",
+      "kind": "relation:component_of",
+      "source_id": "rel.re.agriculture_component_sectoral",
+      "directed": true
+    },
+    {
+      "from": "re.mining_energy_activity",
+      "to": "re.sectoral_activity",
+      "kind": "relation:component_of",
+      "source_id": "rel.re.mining_energy_component_sectoral",
+      "directed": true
+    },
+    {
+      "from": "re.sectoral_divergence",
+      "to": "re.sectoral_activity",
+      "kind": "relation:distribution_of",
+      "source_id": "rel.re.divergence_distribution_sectoral",
+      "directed": true
+    },
+    {
+      "from": "re.manufacturing_activity",
+      "to": "re.sectoral_divergence",
+      "kind": "relation:associated_with",
+      "source_id": "rel.re.manufacturing_associated_divergence",
+      "directed": true
+    },
+    {
+      "from": "re.construction_activity",
+      "to": "re.sectoral_divergence",
+      "kind": "relation:associated_with",
+      "source_id": "rel.re.construction_associated_divergence",
+      "directed": true
+    },
+    {
+      "from": "re.agriculture_activity",
+      "to": "re.sectoral_divergence",
+      "kind": "relation:associated_with",
+      "source_id": "rel.re.agriculture_associated_divergence",
+      "directed": true
+    },
+    {
+      "from": "re.mining_energy_activity",
+      "to": "re.sectoral_divergence",
+      "kind": "relation:associated_with",
+      "source_id": "rel.re.mining_energy_associated_divergence",
+      "directed": true
+    },
+    {
+      "from": "re.fixed_investment",
+      "to": "re.productive_capacity",
+      "kind": "relation:enables",
+      "source_id": "rel.re.investment_enables_capacity",
+      "directed": true
+    },
+    {
+      "from": "re.productive_capacity",
+      "to": "re.export_capacity",
+      "kind": "relation:enables",
+      "source_id": "rel.re.capacity_enables_exports",
+      "directed": true
+    },
+    {
+      "from": "re.agriculture_activity",
+      "to": "re.export_capacity",
+      "kind": "relation:enables",
+      "source_id": "rel.re.agriculture_enables_export_capacity",
+      "directed": true
+    },
+    {
+      "from": "re.mining_energy_activity",
+      "to": "re.export_capacity",
+      "kind": "relation:enables",
+      "source_id": "rel.re.mining_energy_enables_export_capacity",
+      "directed": true
+    },
+    {
+      "from": "re.export_capacity",
+      "to": "re.exports_volume",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.re.export_capacity_contributes_exports",
+      "directed": true
+    },
+    {
+      "from": "re.financial_conditions",
+      "to": "re.fixed_investment",
+      "kind": "relation:enables",
+      "source_id": "rel.re.financial_conditions_enable_investment",
+      "directed": true
+    },
+    {
+      "from": "re.financial_conditions",
+      "to": "re.private_consumption",
+      "kind": "relation:associated_with",
+      "source_id": "rel.re.financial_conditions_associated_consumption",
+      "directed": true
+    },
+    {
+      "from": "re.imports_volume",
+      "to": "re.domestic_demand",
+      "kind": "relation:associated_with",
+      "source_id": "rel.re.imports_associated_demand",
+      "directed": true
+    },
+    {
+      "from": "re.private_consumption",
+      "to": "re.real_gdp",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.re.consumption_contributes_gdp",
+      "directed": true
+    },
+    {
+      "from": "re.fixed_investment",
+      "to": "re.real_gdp",
+      "kind": "relation:contributes_to",
+      "source_id": "rel.re.investment_contributes_gdp",
+      "directed": true
+    },
+    {
       "from": "q.ns01",
       "to": "ns.inflation",
       "kind": "question_mentions_topic",
@@ -6467,6 +7907,342 @@
       "directed": false
     },
     {
+      "from": "q.re01",
+      "to": "re.economic_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re01",
+      "directed": false
+    },
+    {
+      "from": "q.re01",
+      "to": "re.sectoral_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re01",
+      "directed": false
+    },
+    {
+      "from": "q.re01",
+      "to": "re.sectoral_divergence",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re01",
+      "directed": false
+    },
+    {
+      "from": "q.re02",
+      "to": "re.sectoral_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re02",
+      "directed": false
+    },
+    {
+      "from": "q.re02",
+      "to": "re.manufacturing_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re02",
+      "directed": false
+    },
+    {
+      "from": "q.re02",
+      "to": "re.construction_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re02",
+      "directed": false
+    },
+    {
+      "from": "q.re02",
+      "to": "re.commerce_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re02",
+      "directed": false
+    },
+    {
+      "from": "q.re02",
+      "to": "re.agriculture_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re02",
+      "directed": false
+    },
+    {
+      "from": "q.re02",
+      "to": "re.mining_energy_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re02",
+      "directed": false
+    },
+    {
+      "from": "q.re03",
+      "to": "re.real_gdp",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re03",
+      "directed": false
+    },
+    {
+      "from": "q.re03",
+      "to": "re.domestic_demand",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re03",
+      "directed": false
+    },
+    {
+      "from": "q.re03",
+      "to": "re.private_consumption",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re03",
+      "directed": false
+    },
+    {
+      "from": "q.re03",
+      "to": "re.public_consumption",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re03",
+      "directed": false
+    },
+    {
+      "from": "q.re03",
+      "to": "re.fixed_investment",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re03",
+      "directed": false
+    },
+    {
+      "from": "q.re03",
+      "to": "re.exports_volume",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re03",
+      "directed": false
+    },
+    {
+      "from": "q.re03",
+      "to": "re.imports_volume",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re03",
+      "directed": false
+    },
+    {
+      "from": "q.re04",
+      "to": "re.private_consumption",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re04",
+      "directed": false
+    },
+    {
+      "from": "q.re04",
+      "to": "re.domestic_demand",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re04",
+      "directed": false
+    },
+    {
+      "from": "q.re04",
+      "to": "re.real_gdp",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re04",
+      "directed": false
+    },
+    {
+      "from": "q.re05",
+      "to": "re.fixed_investment",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re05",
+      "directed": false
+    },
+    {
+      "from": "q.re05",
+      "to": "re.domestic_demand",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re05",
+      "directed": false
+    },
+    {
+      "from": "q.re05",
+      "to": "re.productive_capacity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re05",
+      "directed": false
+    },
+    {
+      "from": "q.re06",
+      "to": "re.fixed_investment",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re06",
+      "directed": false
+    },
+    {
+      "from": "q.re06",
+      "to": "re.productive_capacity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re06",
+      "directed": false
+    },
+    {
+      "from": "q.re06",
+      "to": "re.construction_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re06",
+      "directed": false
+    },
+    {
+      "from": "q.re07",
+      "to": "re.economic_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re07",
+      "directed": false
+    },
+    {
+      "from": "q.re07",
+      "to": "re.manufacturing_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re07",
+      "directed": false
+    },
+    {
+      "from": "q.re07",
+      "to": "re.construction_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re07",
+      "directed": false
+    },
+    {
+      "from": "q.re07",
+      "to": "re.sectoral_divergence",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re07",
+      "directed": false
+    },
+    {
+      "from": "q.re08",
+      "to": "re.agriculture_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re08",
+      "directed": false
+    },
+    {
+      "from": "q.re08",
+      "to": "re.mining_energy_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re08",
+      "directed": false
+    },
+    {
+      "from": "q.re08",
+      "to": "re.sectoral_divergence",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re08",
+      "directed": false
+    },
+    {
+      "from": "q.re08",
+      "to": "re.real_gdp",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re08",
+      "directed": false
+    },
+    {
+      "from": "q.re09",
+      "to": "re.imports_volume",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re09",
+      "directed": false
+    },
+    {
+      "from": "q.re09",
+      "to": "re.domestic_demand",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re09",
+      "directed": false
+    },
+    {
+      "from": "q.re09",
+      "to": "re.real_gdp",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re09",
+      "directed": false
+    },
+    {
+      "from": "q.re10",
+      "to": "re.productive_capacity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re10",
+      "directed": false
+    },
+    {
+      "from": "q.re10",
+      "to": "re.export_capacity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re10",
+      "directed": false
+    },
+    {
+      "from": "q.re10",
+      "to": "re.exports_volume",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re10",
+      "directed": false
+    },
+    {
+      "from": "q.re10",
+      "to": "re.agriculture_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re10",
+      "directed": false
+    },
+    {
+      "from": "q.re10",
+      "to": "re.mining_energy_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re10",
+      "directed": false
+    },
+    {
+      "from": "q.re11",
+      "to": "re.financial_conditions",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re11",
+      "directed": false
+    },
+    {
+      "from": "q.re11",
+      "to": "re.fixed_investment",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re11",
+      "directed": false
+    },
+    {
+      "from": "q.re11",
+      "to": "re.economic_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re11",
+      "directed": false
+    },
+    {
+      "from": "q.re12",
+      "to": "re.economic_activity",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re12",
+      "directed": false
+    },
+    {
+      "from": "q.re12",
+      "to": "re.real_gdp",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re12",
+      "directed": false
+    },
+    {
+      "from": "q.re12",
+      "to": "re.private_consumption",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re12",
+      "directed": false
+    },
+    {
+      "from": "q.re12",
+      "to": "re.fixed_investment",
+      "kind": "question_mentions_topic",
+      "source_id": "q.re12",
+      "directed": false
+    },
+    {
       "from": "ci.ns.cpi_monthly",
       "to": "ns.headline_inflation",
       "kind": "indicator_measures_topic",
@@ -7094,6 +8870,167 @@
       "to": "ef.private_credit",
       "kind": "indicator_measures_topic",
       "source_id": "ci.ef.fx_credit_share",
+      "directed": false
+    },
+    {
+      "from": "ci.re.emae_sa_index",
+      "to": "re.economic_activity",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.emae_sa_index",
+      "directed": false
+    },
+    {
+      "from": "ci.re.emae_yoy",
+      "to": "re.economic_activity",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.emae_yoy",
+      "directed": false
+    },
+    {
+      "from": "ci.re.real_gdp_level",
+      "to": "re.real_gdp",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.real_gdp_level",
+      "directed": false
+    },
+    {
+      "from": "ci.re.real_gdp_qoq",
+      "to": "re.real_gdp",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.real_gdp_qoq",
+      "directed": false
+    },
+    {
+      "from": "ci.re.real_gdp_yoy",
+      "to": "re.real_gdp",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.real_gdp_yoy",
+      "directed": false
+    },
+    {
+      "from": "ci.re.private_consumption_real",
+      "to": "re.private_consumption",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.private_consumption_real",
+      "directed": false
+    },
+    {
+      "from": "ci.re.public_consumption_real",
+      "to": "re.public_consumption",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.public_consumption_real",
+      "directed": false
+    },
+    {
+      "from": "ci.re.gfcf_real",
+      "to": "re.fixed_investment",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.gfcf_real",
+      "directed": false
+    },
+    {
+      "from": "ci.re.exports_real",
+      "to": "re.exports_volume",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.exports_real",
+      "directed": false
+    },
+    {
+      "from": "ci.re.imports_real",
+      "to": "re.imports_volume",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.imports_real",
+      "directed": false
+    },
+    {
+      "from": "ci.re.private_consumption_qoq",
+      "to": "re.private_consumption",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.private_consumption_qoq",
+      "directed": false
+    },
+    {
+      "from": "ci.re.gfcf_qoq",
+      "to": "re.fixed_investment",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.gfcf_qoq",
+      "directed": false
+    },
+    {
+      "from": "ci.re.gfcf_construction_real",
+      "to": "re.fixed_investment",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.gfcf_construction_real",
+      "directed": false
+    },
+    {
+      "from": "ci.re.gfcf_machinery_real",
+      "to": "re.fixed_investment",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.gfcf_machinery_real",
+      "directed": false
+    },
+    {
+      "from": "ci.re.manufacturing_sa_index",
+      "to": "re.manufacturing_activity",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.manufacturing_sa_index",
+      "directed": false
+    },
+    {
+      "from": "ci.re.construction_sa_index",
+      "to": "re.construction_activity",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.construction_sa_index",
+      "directed": false
+    },
+    {
+      "from": "ci.re.commerce_sa_index",
+      "to": "re.commerce_activity",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.commerce_sa_index",
+      "directed": false
+    },
+    {
+      "from": "ci.re.agriculture_sa_index",
+      "to": "re.agriculture_activity",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.agriculture_sa_index",
+      "directed": false
+    },
+    {
+      "from": "ci.re.mining_energy_sa_index",
+      "to": "re.mining_energy_activity",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.mining_energy_sa_index",
+      "directed": false
+    },
+    {
+      "from": "ci.re.manufacturing_yoy",
+      "to": "re.manufacturing_activity",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.manufacturing_yoy",
+      "directed": false
+    },
+    {
+      "from": "ci.re.construction_yoy",
+      "to": "re.construction_activity",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.construction_yoy",
+      "directed": false
+    },
+    {
+      "from": "ci.re.agriculture_yoy",
+      "to": "re.agriculture_activity",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.agriculture_yoy",
+      "directed": false
+    },
+    {
+      "from": "ci.re.mining_energy_yoy",
+      "to": "re.mining_energy_activity",
+      "kind": "indicator_measures_topic",
+      "source_id": "ci.re.mining_energy_yoy",
       "directed": false
     },
     {
@@ -9684,6 +11621,699 @@
       "to": "ci.ef.private_deposits_total_ars",
       "kind": "chart_uses_indicator",
       "source_id": "pi.ef54",
+      "directed": false
+    },
+    {
+      "from": "pi.re01",
+      "to": "q.re01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re01",
+      "directed": false
+    },
+    {
+      "from": "pi.re01",
+      "to": "q.re12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re01",
+      "directed": false
+    },
+    {
+      "from": "pi.re01",
+      "to": "ci.re.emae_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re01",
+      "directed": false
+    },
+    {
+      "from": "pi.re02",
+      "to": "q.re01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re02",
+      "directed": false
+    },
+    {
+      "from": "pi.re02",
+      "to": "q.re02",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re02",
+      "directed": false
+    },
+    {
+      "from": "pi.re02",
+      "to": "ci.re.emae_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re02",
+      "directed": false
+    },
+    {
+      "from": "pi.re02",
+      "to": "ci.re.manufacturing_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re02",
+      "directed": false
+    },
+    {
+      "from": "pi.re02",
+      "to": "ci.re.construction_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re02",
+      "directed": false
+    },
+    {
+      "from": "pi.re02",
+      "to": "ci.re.agriculture_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re02",
+      "directed": false
+    },
+    {
+      "from": "pi.re02",
+      "to": "ci.re.mining_energy_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re02",
+      "directed": false
+    },
+    {
+      "from": "pi.re03",
+      "to": "q.re01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re03",
+      "directed": false
+    },
+    {
+      "from": "pi.re03",
+      "to": "q.re02",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re03",
+      "directed": false
+    },
+    {
+      "from": "pi.re03",
+      "to": "ci.re.emae_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re03",
+      "directed": false
+    },
+    {
+      "from": "pi.re03",
+      "to": "ci.re.manufacturing_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re03",
+      "directed": false
+    },
+    {
+      "from": "pi.re03",
+      "to": "ci.re.construction_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re03",
+      "directed": false
+    },
+    {
+      "from": "pi.re03",
+      "to": "ci.re.agriculture_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re03",
+      "directed": false
+    },
+    {
+      "from": "pi.re03",
+      "to": "ci.re.mining_energy_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re03",
+      "directed": false
+    },
+    {
+      "from": "pi.re04",
+      "to": "q.re03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re04",
+      "directed": false
+    },
+    {
+      "from": "pi.re04",
+      "to": "q.re12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re04",
+      "directed": false
+    },
+    {
+      "from": "pi.re04",
+      "to": "ci.re.real_gdp_qoq",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re04",
+      "directed": false
+    },
+    {
+      "from": "pi.re05",
+      "to": "q.re12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re05",
+      "directed": false
+    },
+    {
+      "from": "pi.re05",
+      "to": "ci.re.real_gdp_level",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re05",
+      "directed": false
+    },
+    {
+      "from": "pi.re06",
+      "to": "q.re04",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re06",
+      "directed": false
+    },
+    {
+      "from": "pi.re06",
+      "to": "q.re12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re06",
+      "directed": false
+    },
+    {
+      "from": "pi.re06",
+      "to": "ci.re.private_consumption_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re06",
+      "directed": false
+    },
+    {
+      "from": "pi.re07",
+      "to": "q.re04",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re07",
+      "directed": false
+    },
+    {
+      "from": "pi.re07",
+      "to": "q.re03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re07",
+      "directed": false
+    },
+    {
+      "from": "pi.re07",
+      "to": "ci.re.private_consumption_qoq",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re07",
+      "directed": false
+    },
+    {
+      "from": "pi.re07",
+      "to": "ci.re.real_gdp_qoq",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re07",
+      "directed": false
+    },
+    {
+      "from": "pi.re08",
+      "to": "q.re05",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re08",
+      "directed": false
+    },
+    {
+      "from": "pi.re08",
+      "to": "q.re12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re08",
+      "directed": false
+    },
+    {
+      "from": "pi.re08",
+      "to": "ci.re.gfcf_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re08",
+      "directed": false
+    },
+    {
+      "from": "pi.re09",
+      "to": "q.re05",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re09",
+      "directed": false
+    },
+    {
+      "from": "pi.re09",
+      "to": "q.re03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re09",
+      "directed": false
+    },
+    {
+      "from": "pi.re09",
+      "to": "ci.re.gfcf_qoq",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re09",
+      "directed": false
+    },
+    {
+      "from": "pi.re09",
+      "to": "ci.re.real_gdp_qoq",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re09",
+      "directed": false
+    },
+    {
+      "from": "pi.re10",
+      "to": "q.re06",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re10",
+      "directed": false
+    },
+    {
+      "from": "pi.re10",
+      "to": "ci.re.gfcf_construction_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re10",
+      "directed": false
+    },
+    {
+      "from": "pi.re10",
+      "to": "ci.re.gfcf_machinery_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re10",
+      "directed": false
+    },
+    {
+      "from": "pi.re11",
+      "to": "q.re07",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re11",
+      "directed": false
+    },
+    {
+      "from": "pi.re11",
+      "to": "q.re01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re11",
+      "directed": false
+    },
+    {
+      "from": "pi.re11",
+      "to": "ci.re.manufacturing_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re11",
+      "directed": false
+    },
+    {
+      "from": "pi.re11",
+      "to": "ci.re.emae_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re11",
+      "directed": false
+    },
+    {
+      "from": "pi.re12",
+      "to": "q.re07",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re12",
+      "directed": false
+    },
+    {
+      "from": "pi.re12",
+      "to": "q.re01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re12",
+      "directed": false
+    },
+    {
+      "from": "pi.re12",
+      "to": "ci.re.construction_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re12",
+      "directed": false
+    },
+    {
+      "from": "pi.re12",
+      "to": "ci.re.emae_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re12",
+      "directed": false
+    },
+    {
+      "from": "pi.re13",
+      "to": "q.re08",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re13",
+      "directed": false
+    },
+    {
+      "from": "pi.re13",
+      "to": "q.re01",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re13",
+      "directed": false
+    },
+    {
+      "from": "pi.re13",
+      "to": "ci.re.agriculture_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re13",
+      "directed": false
+    },
+    {
+      "from": "pi.re13",
+      "to": "ci.re.mining_energy_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re13",
+      "directed": false
+    },
+    {
+      "from": "pi.re13",
+      "to": "ci.re.emae_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re13",
+      "directed": false
+    },
+    {
+      "from": "pi.re14",
+      "to": "q.re03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re14",
+      "directed": false
+    },
+    {
+      "from": "pi.re14",
+      "to": "q.re09",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re14",
+      "directed": false
+    },
+    {
+      "from": "pi.re14",
+      "to": "q.re10",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re14",
+      "directed": false
+    },
+    {
+      "from": "pi.re14",
+      "to": "ci.re.exports_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re14",
+      "directed": false
+    },
+    {
+      "from": "pi.re14",
+      "to": "ci.re.imports_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re14",
+      "directed": false
+    },
+    {
+      "from": "pi.re15",
+      "to": "q.re09",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re15",
+      "directed": false
+    },
+    {
+      "from": "pi.re15",
+      "to": "ci.re.imports_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re15",
+      "directed": false
+    },
+    {
+      "from": "pi.re15",
+      "to": "ci.re.private_consumption_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re15",
+      "directed": false
+    },
+    {
+      "from": "pi.re15",
+      "to": "ci.re.gfcf_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re15",
+      "directed": false
+    },
+    {
+      "from": "pi.re16",
+      "to": "q.re10",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re16",
+      "directed": false
+    },
+    {
+      "from": "pi.re16",
+      "to": "q.re08",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re16",
+      "directed": false
+    },
+    {
+      "from": "pi.re16",
+      "to": "ci.re.exports_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re16",
+      "directed": false
+    },
+    {
+      "from": "pi.re16",
+      "to": "ci.re.agriculture_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re16",
+      "directed": false
+    },
+    {
+      "from": "pi.re16",
+      "to": "ci.re.mining_energy_sa_index",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re16",
+      "directed": false
+    },
+    {
+      "from": "pi.re17",
+      "to": "q.re11",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re17",
+      "directed": false
+    },
+    {
+      "from": "pi.re17",
+      "to": "q.re05",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re17",
+      "directed": false
+    },
+    {
+      "from": "pi.re17",
+      "to": "ci.re.gfcf_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re17",
+      "directed": false
+    },
+    {
+      "from": "pi.re17",
+      "to": "ci.ef.real_private_credit_growth",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re17",
+      "directed": false
+    },
+    {
+      "from": "pi.re18",
+      "to": "q.re11",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re18",
+      "directed": false
+    },
+    {
+      "from": "pi.re18",
+      "to": "q.re05",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re18",
+      "directed": false
+    },
+    {
+      "from": "pi.re18",
+      "to": "ci.re.gfcf_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re18",
+      "directed": false
+    },
+    {
+      "from": "pi.re18",
+      "to": "ci.ns.tamar_real_expost",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re18",
+      "directed": false
+    },
+    {
+      "from": "pi.re19",
+      "to": "q.re04",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re19",
+      "directed": false
+    },
+    {
+      "from": "pi.re19",
+      "to": "q.re11",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re19",
+      "directed": false
+    },
+    {
+      "from": "pi.re19",
+      "to": "ci.re.private_consumption_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re19",
+      "directed": false
+    },
+    {
+      "from": "pi.re19",
+      "to": "ci.ef.real_private_credit_growth",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re19",
+      "directed": false
+    },
+    {
+      "from": "pi.re20",
+      "to": "q.re03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re20",
+      "directed": false
+    },
+    {
+      "from": "pi.re20",
+      "to": "q.re04",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re20",
+      "directed": false
+    },
+    {
+      "from": "pi.re20",
+      "to": "ci.re.private_consumption_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re20",
+      "directed": false
+    },
+    {
+      "from": "pi.re20",
+      "to": "ci.re.public_consumption_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re20",
+      "directed": false
+    },
+    {
+      "from": "pi.re21",
+      "to": "q.re03",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re21",
+      "directed": false
+    },
+    {
+      "from": "pi.re21",
+      "to": "ci.re.private_consumption_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re21",
+      "directed": false
+    },
+    {
+      "from": "pi.re21",
+      "to": "ci.re.public_consumption_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re21",
+      "directed": false
+    },
+    {
+      "from": "pi.re21",
+      "to": "ci.re.gfcf_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re21",
+      "directed": false
+    },
+    {
+      "from": "pi.re21",
+      "to": "ci.re.exports_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re21",
+      "directed": false
+    },
+    {
+      "from": "pi.re21",
+      "to": "ci.re.imports_real",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re21",
+      "directed": false
+    },
+    {
+      "from": "pi.re22",
+      "to": "q.re12",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re22",
+      "directed": false
+    },
+    {
+      "from": "pi.re22",
+      "to": "ci.re.real_gdp_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re22",
+      "directed": false
+    },
+    {
+      "from": "pi.re22",
+      "to": "ci.re.emae_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re22",
+      "directed": false
+    },
+    {
+      "from": "pi.re23",
+      "to": "q.re07",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re23",
+      "directed": false
+    },
+    {
+      "from": "pi.re23",
+      "to": "q.re02",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re23",
+      "directed": false
+    },
+    {
+      "from": "pi.re23",
+      "to": "ci.re.manufacturing_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re23",
+      "directed": false
+    },
+    {
+      "from": "pi.re23",
+      "to": "ci.re.construction_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re23",
+      "directed": false
+    },
+    {
+      "from": "pi.re24",
+      "to": "q.re08",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re24",
+      "directed": false
+    },
+    {
+      "from": "pi.re24",
+      "to": "q.re02",
+      "kind": "chart_answers_question",
+      "source_id": "pi.re24",
+      "directed": false
+    },
+    {
+      "from": "pi.re24",
+      "to": "ci.re.agriculture_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re24",
+      "directed": false
+    },
+    {
+      "from": "pi.re24",
+      "to": "ci.re.mining_energy_yoy",
+      "kind": "chart_uses_indicator",
+      "source_id": "pi.re24",
       "directed": false
     }
   ]

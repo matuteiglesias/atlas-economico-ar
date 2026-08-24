@@ -32,6 +32,7 @@ SCOPE = ROOT / "argentina_econ_semantic_scope_v0_1"
 VERTICALS = (
     ROOT / "verticals/nominal_stabilization_vertical_v0_1",
     ROOT / "verticals/external_financial_constraint_vertical_v0_2",
+    ROOT / "verticals/real_economy_vertical_v0_1",
 )
 EDITORIAL = ROOT / "verticals/external_financial_constraint_vertical_v0_2/editorial/atlas_en_v0_2.yaml"
 ARTIFACT_MANIFEST = ROOT / "plot-artifacts/manifest.json"
@@ -39,12 +40,12 @@ CURATION_REVIEWS = ROOT / "figures/curation_reviews.yaml"
 PUBLICATION_QA = ROOT / "figures/publication_qa.yaml"
 QUESTION_PUBLICATION = ROOT / "publication/question_publication.json"
 PUBLICATION_SCHEMA_VERSION = "0.2"
-EXPECTED_CHARTS = 119
-EXPECTED_INDICATORS = 90
+EXPECTED_CHARTS = 143
+EXPECTED_INDICATORS = 113
 EXPECTED_ARTIFACTS = 41
 EXPECTED_ADDRESSABLE_CHARTS = 41
 EXPECTED_DISCOVERABLE_CHARTS = 22
-EXPECTED_SEMANTIC_QUESTIONS = 38
+EXPECTED_SEMANTIC_QUESTIONS = 50
 
 
 class PublicationError(RuntimeError):

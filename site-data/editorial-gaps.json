@@ -451,6 +451,186 @@
       ]
     },
     {
+      "id": "re.economic_activity",
+      "kind": "topic",
+      "slug": "economic-activity",
+      "title": "Economic activity",
+      "href": "/topics/economic-activity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.real_gdp",
+      "kind": "topic",
+      "slug": "real-gdp",
+      "title": "Real GDP",
+      "href": "/topics/real-gdp",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.domestic_demand",
+      "kind": "topic",
+      "slug": "domestic-demand",
+      "title": "Domestic demand",
+      "href": "/topics/domestic-demand",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.private_consumption",
+      "kind": "topic",
+      "slug": "private-consumption",
+      "title": "Private consumption",
+      "href": "/topics/private-consumption",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.public_consumption",
+      "kind": "topic",
+      "slug": "public-consumption",
+      "title": "Public consumption",
+      "href": "/topics/public-consumption",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.fixed_investment",
+      "kind": "topic",
+      "slug": "gross-fixed-capital-formation",
+      "title": "Gross fixed capital formation",
+      "href": "/topics/gross-fixed-capital-formation",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.productive_capacity",
+      "kind": "topic",
+      "slug": "productive-capacity",
+      "title": "Productive capacity",
+      "href": "/topics/productive-capacity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.sectoral_activity",
+      "kind": "topic",
+      "slug": "sectoral-activity",
+      "title": "Sectoral activity",
+      "href": "/topics/sectoral-activity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.sectoral_divergence",
+      "kind": "topic",
+      "slug": "sectoral-divergence",
+      "title": "Sectoral divergence",
+      "href": "/topics/sectoral-divergence",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.manufacturing_activity",
+      "kind": "topic",
+      "slug": "manufacturing-activity",
+      "title": "Manufacturing activity",
+      "href": "/topics/manufacturing-activity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.construction_activity",
+      "kind": "topic",
+      "slug": "construction-activity",
+      "title": "Construction activity",
+      "href": "/topics/construction-activity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.commerce_activity",
+      "kind": "topic",
+      "slug": "commerce-and-retail-activity",
+      "title": "Commerce and retail activity",
+      "href": "/topics/commerce-and-retail-activity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.agriculture_activity",
+      "kind": "topic",
+      "slug": "agricultural-activity",
+      "title": "Agricultural activity",
+      "href": "/topics/agricultural-activity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.mining_energy_activity",
+      "kind": "topic",
+      "slug": "mining-and-energy-activity",
+      "title": "Mining and energy activity",
+      "href": "/topics/mining-and-energy-activity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.exports_volume",
+      "kind": "topic",
+      "slug": "real-exports",
+      "title": "Real exports",
+      "href": "/topics/real-exports",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.imports_volume",
+      "kind": "topic",
+      "slug": "real-imports",
+      "title": "Real imports",
+      "href": "/topics/real-imports",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.export_capacity",
+      "kind": "topic",
+      "slug": "export-capacity",
+      "title": "Export capacity",
+      "href": "/topics/export-capacity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "re.financial_conditions",
+      "kind": "topic",
+      "slug": "financial-conditions-for-real-activity",
+      "title": "Financial conditions for real activity",
+      "href": "/topics/financial-conditions-for-real-activity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
       "id": "q.ns02",
       "kind": "question",
       "slug": "has-the-disinflation-process-stalled-or-resumed",
@@ -565,6 +745,138 @@
       "slug": "is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
       "title": "Is stabilization credibility visible simultaneously in expectations, FX gaps, rates, and hedging demand?",
       "href": "/questions/is-stabilization-credibility-visible-simultaneously-in-expectations-fx-gaps-rates-and-hedging-demand",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.re01",
+      "kind": "question",
+      "slug": "how-broad-based-is-argentina-s-economic-recovery-across-major-sectors",
+      "title": "How broad-based is Argentina's economic recovery across major sectors?",
+      "href": "/questions/how-broad-based-is-argentina-s-economic-recovery-across-major-sectors",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.re02",
+      "kind": "question",
+      "slug": "which-sectors-are-leading-the-recovery-and-which-remain-below-the-aggregate-pace",
+      "title": "Which sectors are leading the recovery, and which remain below the aggregate pace?",
+      "href": "/questions/which-sectors-are-leading-the-recovery-and-which-remain-below-the-aggregate-pace",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.re03",
+      "kind": "question",
+      "slug": "which-components-of-demand-and-trade-are-driving-real-gdp-growth",
+      "title": "Which components of demand and trade are driving real GDP growth?",
+      "href": "/questions/which-components-of-demand-and-trade-are-driving-real-gdp-growth",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.re04",
+      "kind": "question",
+      "slug": "is-private-consumption-strengthening-enough-to-support-the-recovery",
+      "title": "Is private consumption strengthening enough to support the recovery?",
+      "href": "/questions/is-private-consumption-strengthening-enough-to-support-the-recovery",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.re05",
+      "kind": "question",
+      "slug": "is-fixed-investment-recovering-and-how-durable-is-the-improvement",
+      "title": "Is fixed investment recovering, and how durable is the improvement?",
+      "href": "/questions/is-fixed-investment-recovering-and-how-durable-is-the-improvement",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.re06",
+      "kind": "question",
+      "slug": "is-investment-shifting-toward-machinery-and-productive-capacity-rather-than-only-construction",
+      "title": "Is investment shifting toward machinery and productive capacity rather than only construction?",
+      "href": "/questions/is-investment-shifting-toward-machinery-and-productive-capacity-rather-than-only-construction",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.re07",
+      "kind": "question",
+      "slug": "are-manufacturing-and-construction-keeping-pace-with-aggregate-activity",
+      "title": "Are manufacturing and construction keeping pace with aggregate activity?",
+      "href": "/questions/are-manufacturing-and-construction-keeping-pace-with-aggregate-activity",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.re08",
+      "kind": "question",
+      "slug": "are-agriculture-mining-and-energy-accounting-for-an-increasing-share-of-the-recovery",
+      "title": "Are agriculture, mining, and energy accounting for an increasing share of the recovery?",
+      "href": "/questions/are-agriculture-mining-and-energy-accounting-for-an-increasing-share-of-the-recovery",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.re09",
+      "kind": "question",
+      "slug": "how-strongly-are-imports-moving-with-the-recovery-in-domestic-demand",
+      "title": "How strongly are imports moving with the recovery in domestic demand?",
+      "href": "/questions/how-strongly-are-imports-moving-with-the-recovery-in-domestic-demand",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.re10",
+      "kind": "question",
+      "slug": "is-expanding-productive-capacity-translating-into-stronger-export-capacity",
+      "title": "Is expanding productive capacity translating into stronger export capacity?",
+      "href": "/questions/is-expanding-productive-capacity-translating-into-stronger-export-capacity",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.re11",
+      "kind": "question",
+      "slug": "are-financial-conditions-becoming-more-supportive-of-investment-and-real-activity",
+      "title": "Are financial conditions becoming more supportive of investment and real activity?",
+      "href": "/questions/are-financial-conditions-becoming-more-supportive-of-investment-and-real-activity",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "q.re12",
+      "kind": "question",
+      "slug": "how-does-the-current-recovery-compare-with-the-late-2023-starting-point",
+      "title": "How does the current recovery compare with the late-2023 starting point?",
+      "href": "/questions/how-does-the-current-recovery-compare-with-the-late-2023-starting-point",
       "missing": [
         "dek",
         "intro"
@@ -1561,6 +1873,259 @@
       ]
     },
     {
+      "id": "ci.re.emae_sa_index",
+      "kind": "indicator",
+      "slug": "economic-activity-index-seasonally-adjusted",
+      "title": "Economic activity index, seasonally adjusted",
+      "href": "/indicators/economic-activity-index-seasonally-adjusted",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.emae_yoy",
+      "kind": "indicator",
+      "slug": "economic-activity-year-over-year",
+      "title": "Economic activity, year-over-year",
+      "href": "/indicators/economic-activity-year-over-year",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.real_gdp_level",
+      "kind": "indicator",
+      "slug": "real-gdp-seasonally-adjusted-level",
+      "title": "Real GDP, seasonally adjusted level",
+      "href": "/indicators/real-gdp-seasonally-adjusted-level",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.real_gdp_qoq",
+      "kind": "indicator",
+      "slug": "real-gdp-quarter-over-quarter",
+      "title": "Real GDP, quarter-over-quarter",
+      "href": "/indicators/real-gdp-quarter-over-quarter",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.real_gdp_yoy",
+      "kind": "indicator",
+      "slug": "real-gdp-year-over-year",
+      "title": "Real GDP, year-over-year",
+      "href": "/indicators/real-gdp-year-over-year",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.private_consumption_real",
+      "kind": "indicator",
+      "slug": "private-consumption-real",
+      "title": "Private consumption, real",
+      "href": "/indicators/private-consumption-real",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.public_consumption_real",
+      "kind": "indicator",
+      "slug": "public-consumption-real",
+      "title": "Public consumption, real",
+      "href": "/indicators/public-consumption-real",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.gfcf_real",
+      "kind": "indicator",
+      "slug": "gross-fixed-capital-formation-real",
+      "title": "Gross fixed capital formation, real",
+      "href": "/indicators/gross-fixed-capital-formation-real",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.exports_real",
+      "kind": "indicator",
+      "slug": "exports-of-goods-and-services-real",
+      "title": "Exports of goods and services, real",
+      "href": "/indicators/exports-of-goods-and-services-real",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.imports_real",
+      "kind": "indicator",
+      "slug": "imports-of-goods-and-services-real",
+      "title": "Imports of goods and services, real",
+      "href": "/indicators/imports-of-goods-and-services-real",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.private_consumption_qoq",
+      "kind": "indicator",
+      "slug": "private-consumption-quarter-over-quarter",
+      "title": "Private consumption, quarter-over-quarter",
+      "href": "/indicators/private-consumption-quarter-over-quarter",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.gfcf_qoq",
+      "kind": "indicator",
+      "slug": "gross-fixed-capital-formation-quarter-over-quarter",
+      "title": "Gross fixed capital formation, quarter-over-quarter",
+      "href": "/indicators/gross-fixed-capital-formation-quarter-over-quarter",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.gfcf_construction_real",
+      "kind": "indicator",
+      "slug": "construction-component-of-fixed-investment-real",
+      "title": "Construction component of fixed investment, real",
+      "href": "/indicators/construction-component-of-fixed-investment-real",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.gfcf_machinery_real",
+      "kind": "indicator",
+      "slug": "machinery-and-equipment-component-of-fixed-investment-real",
+      "title": "Machinery and equipment component of fixed investment, real",
+      "href": "/indicators/machinery-and-equipment-component-of-fixed-investment-real",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.manufacturing_sa_index",
+      "kind": "indicator",
+      "slug": "manufacturing-activity-index",
+      "title": "Manufacturing activity index",
+      "href": "/indicators/manufacturing-activity-index",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.construction_sa_index",
+      "kind": "indicator",
+      "slug": "construction-activity-index",
+      "title": "Construction activity index",
+      "href": "/indicators/construction-activity-index",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.commerce_sa_index",
+      "kind": "indicator",
+      "slug": "commerce-activity-index",
+      "title": "Commerce activity index",
+      "href": "/indicators/commerce-activity-index",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.agriculture_sa_index",
+      "kind": "indicator",
+      "slug": "agriculture-activity-index",
+      "title": "Agriculture activity index",
+      "href": "/indicators/agriculture-activity-index",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.mining_energy_sa_index",
+      "kind": "indicator",
+      "slug": "mining-and-energy-activity-index",
+      "title": "Mining and energy activity index",
+      "href": "/indicators/mining-and-energy-activity-index",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.manufacturing_yoy",
+      "kind": "indicator",
+      "slug": "manufacturing-activity-year-over-year",
+      "title": "Manufacturing activity, year-over-year",
+      "href": "/indicators/manufacturing-activity-year-over-year",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.construction_yoy",
+      "kind": "indicator",
+      "slug": "construction-activity-year-over-year",
+      "title": "Construction activity, year-over-year",
+      "href": "/indicators/construction-activity-year-over-year",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.agriculture_yoy",
+      "kind": "indicator",
+      "slug": "agriculture-activity-year-over-year",
+      "title": "Agriculture activity, year-over-year",
+      "href": "/indicators/agriculture-activity-year-over-year",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
+      "id": "ci.re.mining_energy_yoy",
+      "kind": "indicator",
+      "slug": "mining-and-energy-activity-year-over-year",
+      "title": "Mining and energy activity, year-over-year",
+      "href": "/indicators/mining-and-energy-activity-year-over-year",
+      "missing": [
+        "dek",
+        "intro"
+      ]
+    },
+    {
       "id": "pi.ns01",
       "kind": "chart",
       "slug": "inflation-momentum-monthly-and-3-month-annualized",
@@ -2469,7 +3034,247 @@
       "missing": [
         "intro"
       ]
+    },
+    {
+      "id": "pi.re01",
+      "kind": "chart",
+      "slug": "economic-activity-since-late-2023",
+      "title": "Economic activity since late 2023",
+      "href": "/charts/economic-activity-since-late-2023",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re02",
+      "kind": "chart",
+      "slug": "aggregate-activity-versus-major-sectors",
+      "title": "Aggregate activity versus major sectors",
+      "href": "/charts/aggregate-activity-versus-major-sectors",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re03",
+      "kind": "chart",
+      "slug": "year-over-year-activity-growth-across-sectors",
+      "title": "Year-over-year activity growth across sectors",
+      "href": "/charts/year-over-year-activity-growth-across-sectors",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re04",
+      "kind": "chart",
+      "slug": "real-gdp-quarter-over-quarter-growth",
+      "title": "Real GDP quarter-over-quarter growth",
+      "href": "/charts/real-gdp-quarter-over-quarter-growth",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re05",
+      "kind": "chart",
+      "slug": "real-gdp-level-versus-the-pre-pandemic-anchor",
+      "title": "Real GDP level versus the pre-pandemic anchor",
+      "href": "/charts/real-gdp-level-versus-the-pre-pandemic-anchor",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re06",
+      "kind": "chart",
+      "slug": "real-private-consumption",
+      "title": "Real private consumption",
+      "href": "/charts/real-private-consumption",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re07",
+      "kind": "chart",
+      "slug": "private-consumption-growth-versus-gdp-growth",
+      "title": "Private consumption growth versus GDP growth",
+      "href": "/charts/private-consumption-growth-versus-gdp-growth",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re08",
+      "kind": "chart",
+      "slug": "real-fixed-investment",
+      "title": "Real fixed investment",
+      "href": "/charts/real-fixed-investment",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re09",
+      "kind": "chart",
+      "slug": "fixed-investment-growth-versus-gdp-growth",
+      "title": "Fixed-investment growth versus GDP growth",
+      "href": "/charts/fixed-investment-growth-versus-gdp-growth",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re10",
+      "kind": "chart",
+      "slug": "fixed-investment-construction-versus-machinery-and-equipment",
+      "title": "Fixed investment: construction versus machinery and equipment",
+      "href": "/charts/fixed-investment-construction-versus-machinery-and-equipment",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re11",
+      "kind": "chart",
+      "slug": "manufacturing-versus-aggregate-economic-activity",
+      "title": "Manufacturing versus aggregate economic activity",
+      "href": "/charts/manufacturing-versus-aggregate-economic-activity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re12",
+      "kind": "chart",
+      "slug": "construction-versus-aggregate-economic-activity",
+      "title": "Construction versus aggregate economic activity",
+      "href": "/charts/construction-versus-aggregate-economic-activity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re13",
+      "kind": "chart",
+      "slug": "agriculture-and-mining-energy-versus-aggregate-activity",
+      "title": "Agriculture and mining-energy versus aggregate activity",
+      "href": "/charts/agriculture-and-mining-energy-versus-aggregate-activity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re14",
+      "kind": "chart",
+      "slug": "real-exports-versus-real-imports",
+      "title": "Real exports versus real imports",
+      "href": "/charts/real-exports-versus-real-imports",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re15",
+      "kind": "chart",
+      "slug": "imports-versus-private-consumption-and-fixed-investment",
+      "title": "Imports versus private consumption and fixed investment",
+      "href": "/charts/imports-versus-private-consumption-and-fixed-investment",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re16",
+      "kind": "chart",
+      "slug": "real-exports-and-primary-sector-activity",
+      "title": "Real exports and primary-sector activity",
+      "href": "/charts/real-exports-and-primary-sector-activity",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re17",
+      "kind": "chart",
+      "slug": "fixed-investment-and-real-private-credit-growth",
+      "title": "Fixed investment and real private-credit growth",
+      "href": "/charts/fixed-investment-and-real-private-credit-growth",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re18",
+      "kind": "chart",
+      "slug": "fixed-investment-and-ex-post-real-money-market-rates",
+      "title": "Fixed investment and ex-post real money-market rates",
+      "href": "/charts/fixed-investment-and-ex-post-real-money-market-rates",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re19",
+      "kind": "chart",
+      "slug": "private-consumption-and-real-private-credit-growth",
+      "title": "Private consumption and real private-credit growth",
+      "href": "/charts/private-consumption-and-real-private-credit-growth",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re20",
+      "kind": "chart",
+      "slug": "private-versus-public-consumption",
+      "title": "Private versus public consumption",
+      "href": "/charts/private-versus-public-consumption",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re21",
+      "kind": "chart",
+      "slug": "real-demand-and-trade-components",
+      "title": "Real demand and trade components",
+      "href": "/charts/real-demand-and-trade-components",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re22",
+      "kind": "chart",
+      "slug": "quarterly-gdp-growth-versus-monthly-activity-growth",
+      "title": "Quarterly GDP growth versus monthly activity growth",
+      "href": "/charts/quarterly-gdp-growth-versus-monthly-activity-growth",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re23",
+      "kind": "chart",
+      "slug": "manufacturing-versus-construction-growth",
+      "title": "Manufacturing versus construction growth",
+      "href": "/charts/manufacturing-versus-construction-growth",
+      "missing": [
+        "intro"
+      ]
+    },
+    {
+      "id": "pi.re24",
+      "kind": "chart",
+      "slug": "agriculture-versus-mining-energy-growth",
+      "title": "Agriculture versus mining-energy growth",
+      "href": "/charts/agriculture-versus-mining-energy-growth",
+      "missing": [
+        "intro"
+      ]
     }
   ],
-  "count": 237
+  "count": 314
 }

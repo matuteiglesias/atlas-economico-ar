@@ -209,30 +209,6 @@
       "title": "Aggregate-demand pressure",
       "href": "/topics/aggregate-demand-pressure",
       "distance": 2
-    },
-    {
-      "id": "ns.inflation_expectations",
-      "kind": "topic",
-      "slug": "inflation-expectations",
-      "title": "Inflation expectations",
-      "href": "/topics/inflation-expectations",
-      "distance": 2
-    },
-    {
-      "id": "ns.money_market_rate",
-      "kind": "topic",
-      "slug": "money-market-rate",
-      "title": "Money-market rate",
-      "href": "/topics/money-market-rate",
-      "distance": 2
-    },
-    {
-      "id": "ns.policy_rate",
-      "kind": "topic",
-      "slug": "policy-interest-rate",
-      "title": "Policy interest rate",
-      "href": "/topics/policy-interest-rate",
-      "distance": 2
     }
   ],
   "counts": {
