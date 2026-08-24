@@ -1,0 +1,159 @@
+{
+  "schema_version": "0.1",
+  "scout_base_sha": "974ae9f5f56ab1595690e5b5e333dee285f435b3",
+  "frontier_method": {
+    "authority": "growth/frontier.py on current main",
+    "execution_note": "The execution environment could inspect current GitHub content but could not obtain an executable checkout (network/DNS blocked). The scout therefore reproduced the kernel's declared DerivedIndicator closure and missing-count classification from current-main declarations. Before capture implementation, rerun `python scripts/build-growth-frontier.py --output-dir /tmp/atlas-real-economy-frontier` from a checkout.",
+    "assumptions": [
+      "ci.ef.real_private_credit_growth is available through already-bound BCRA inputs plus its declared implemented derivative",
+      "ci.ns.tamar_real_expost is available through already-owned nominal-stabilization inputs/derivation"
+    ]
+  },
+  "current_real_economy": {
+    "plot_intent_count": 24,
+    "classification_counts": {
+      "DATA_READY": 0,
+      "MISSING_1": 8,
+      "MISSING_2": 10,
+      "MISSING_3_PLUS": 6
+    },
+    "missing_1_plot_intents": [
+      "pi.re01",
+      "pi.re04",
+      "pi.re05",
+      "pi.re06",
+      "pi.re08",
+      "pi.re17",
+      "pi.re18",
+      "pi.re19"
+    ]
+  },
+  "preferred_tranche": {
+    "candidate_ids": [
+      "re.emae_sa",
+      "re.manufacturing_sa",
+      "re.construction_sa",
+      "re.real_gdp_sa",
+      "re.private_consumption_real_sa",
+      "re.gfcf_real_sa"
+    ],
+    "series_count": 6,
+    "canonical_indicator_ids": [
+      "ci.re.emae_sa_index",
+      "ci.re.manufacturing_sa_index",
+      "ci.re.construction_sa_index",
+      "ci.re.real_gdp_level",
+      "ci.re.private_consumption_real",
+      "ci.re.gfcf_real"
+    ],
+    "provider_series_ids": [
+      "143.3_NO_PR_2004_A_31",
+      "453.1_SERIE_DESEADA_0_0_24_58",
+      "33.2_ISAC_SIN_EDAD_0_M_23_56",
+      "3.2_OGP_D_2004_T_17",
+      "3.2_DGCP_D_2004_T_27",
+      "3.2_DGI_D_2004_T_19"
+    ],
+    "predicted_derived_closure": [
+      "ci.re.emae_yoy",
+      "ci.re.manufacturing_yoy",
+      "ci.re.construction_yoy",
+      "ci.re.real_gdp_qoq",
+      "ci.re.real_gdp_yoy",
+      "ci.re.private_consumption_qoq",
+      "ci.re.gfcf_qoq"
+    ],
+    "after_classification_counts": {
+      "DATA_READY": 14,
+      "MISSING_1": 2,
+      "MISSING_2": 6,
+      "MISSING_3_PLUS": 2
+    },
+    "newly_data_ready_plot_intents": [
+      "pi.re01",
+      "pi.re04",
+      "pi.re05",
+      "pi.re06",
+      "pi.re07",
+      "pi.re08",
+      "pi.re09",
+      "pi.re11",
+      "pi.re12",
+      "pi.re17",
+      "pi.re18",
+      "pi.re19",
+      "pi.re22",
+      "pi.re23"
+    ],
+    "affected_question_intents_with_at_least_one_ready_path": [
+      "q.re01",
+      "q.re02",
+      "q.re03",
+      "q.re04",
+      "q.re05",
+      "q.re07",
+      "q.re11",
+      "q.re12"
+    ],
+    "remaining": {
+      "MISSING_1": {
+        "pi.re15": ["ci.re.imports_real"],
+        "pi.re20": ["ci.re.public_consumption_real"]
+      },
+      "MISSING_2": {
+        "pi.re02": ["ci.re.agriculture_sa_index", "ci.re.mining_energy_sa_index"],
+        "pi.re03": ["ci.re.agriculture_yoy", "ci.re.mining_energy_yoy"],
+        "pi.re10": ["ci.re.gfcf_construction_real", "ci.re.gfcf_machinery_real"],
+        "pi.re13": ["ci.re.agriculture_sa_index", "ci.re.mining_energy_sa_index"],
+        "pi.re14": ["ci.re.exports_real", "ci.re.imports_real"],
+        "pi.re24": ["ci.re.agriculture_yoy", "ci.re.mining_energy_yoy"]
+      },
+      "MISSING_3_PLUS": {
+        "pi.re16": ["ci.re.exports_real", "ci.re.agriculture_sa_index", "ci.re.mining_energy_sa_index"],
+        "pi.re21": ["ci.re.public_consumption_real", "ci.re.exports_real", "ci.re.imports_real"]
+      }
+    }
+  },
+  "marginal_value_within_preferred_tranche": {
+    "re.emae_sa": ["pi.re01", "pi.re11", "pi.re12", "pi.re22"],
+    "re.manufacturing_sa": ["pi.re11", "pi.re23"],
+    "re.construction_sa": ["pi.re12", "pi.re23"],
+    "re.real_gdp_sa": ["pi.re04", "pi.re05", "pi.re07", "pi.re09", "pi.re22"],
+    "re.private_consumption_real_sa": ["pi.re06", "pi.re07", "pi.re19"],
+    "re.gfcf_real_sa": ["pi.re08", "pi.re09", "pi.re17", "pi.re18"]
+  },
+  "alternative_tranches": [
+    {
+      "name": "all_national_accounts_six",
+      "canonical_indicator_ids": [
+        "ci.re.real_gdp_level",
+        "ci.re.private_consumption_real",
+        "ci.re.public_consumption_real",
+        "ci.re.gfcf_real",
+        "ci.re.exports_real",
+        "ci.re.imports_real"
+      ],
+      "predicted_data_ready_count": 13,
+      "assessment": "Strong coherent q.re03/demand-and-trade package, but narrower question-family coverage and one fewer DATA_READY PlotIntent than preferred mixed tranche."
+    },
+    {
+      "name": "five_series_floor",
+      "assessment": "Best five-series combinations reach about 12 DATA_READY PlotIntents in the reconstructed frontier; the sixth preferred Series adds distinct closure rather than padding the tranche."
+    }
+  ],
+  "activation_contribution": {
+    "current_data_ready": 0,
+    "after_preferred_tranche_data_ready": 14,
+    "distinct_question_intents_with_a_ready_plot": 8,
+    "three_question_opening_data_gap": "NONE",
+    "interpretation": "After the preferred tranche, the data layer itself no longer prevents a conservative three-question opening: q.re04, q.re05 and q.re07/q.re12 have substantive evidence paths. Public activation still requires materialization, curation, publication and UX gates.",
+    "next_high_value_data_gap": {
+      "description": "Investment-composition pair for q.re06",
+      "canonical_indicator_ids": ["ci.re.gfcf_construction_real", "ci.re.gfcf_machinery_real"],
+      "series_count": 2,
+      "status": "HUMAN_GATE",
+      "reason": "Official component candidates exist but seasonal/comparability semantics were not explicit enough to promote them."
+    }
+  },
+  "recommendation": "B. FIRST GENERALIZE EXISTING DATOS ARGENTINA CAPTURE, THEN TRANCHE"
+}
