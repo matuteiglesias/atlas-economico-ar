@@ -1,9 +1,9 @@
 {
   "schemaVersion": "0.1",
   "defaultRule": "PUBLIC_IF_PRIMARY_MATERIALIZED_PLOT",
-  "semanticQuestionCount": 38,
+  "semanticQuestionCount": 50,
   "stateCounts": {
-    "HOLD": 23,
+    "HOLD": 35,
     "PUBLIC": 15,
     "REFERENCE": 0,
     "SUPERSEDED": 0
@@ -1928,6 +1928,580 @@
             "ci.ns.money_market_rate",
             "ci.ns.tamar_real_exante",
             "ci.ns.transactional_m2_projection_gap"
+          ],
+          "primaryEvidencePlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.re01",
+      "slug": "how-broad-based-is-argentina-s-economic-recovery-across-major-sectors",
+      "title": "How broad-based is Argentina's economic recovery across major sectors?",
+      "state": "HOLD",
+      "reason": "no_primary_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 6,
+        "linkedIndicators": 10,
+        "materializedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "referencePlotArtifacts": 0,
+        "supersededPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "primaryEvidencePlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "breadth",
+          "topicIds": [
+            "re.economic_activity",
+            "re.sectoral_activity",
+            "re.sectoral_divergence"
+          ],
+          "indicatorIds": [
+            "ci.re.agriculture_sa_index",
+            "ci.re.agriculture_yoy",
+            "ci.re.construction_sa_index",
+            "ci.re.construction_yoy",
+            "ci.re.emae_sa_index",
+            "ci.re.emae_yoy",
+            "ci.re.manufacturing_sa_index",
+            "ci.re.manufacturing_yoy",
+            "ci.re.mining_energy_sa_index",
+            "ci.re.mining_energy_yoy"
+          ],
+          "primaryEvidencePlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.re02",
+      "slug": "which-sectors-are-leading-the-recovery-and-which-remain-below-the-aggregate-pace",
+      "title": "Which sectors are leading the recovery, and which remain below the aggregate pace?",
+      "state": "HOLD",
+      "reason": "no_primary_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 4,
+        "linkedIndicators": 10,
+        "materializedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "referencePlotArtifacts": 0,
+        "supersededPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "primaryEvidencePlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "sectoral_comparison",
+          "topicIds": [
+            "re.agriculture_activity",
+            "re.commerce_activity",
+            "re.construction_activity",
+            "re.manufacturing_activity",
+            "re.mining_energy_activity",
+            "re.sectoral_activity"
+          ],
+          "indicatorIds": [
+            "ci.re.agriculture_sa_index",
+            "ci.re.agriculture_yoy",
+            "ci.re.construction_sa_index",
+            "ci.re.construction_yoy",
+            "ci.re.emae_sa_index",
+            "ci.re.emae_yoy",
+            "ci.re.manufacturing_sa_index",
+            "ci.re.manufacturing_yoy",
+            "ci.re.mining_energy_sa_index",
+            "ci.re.mining_energy_yoy"
+          ],
+          "primaryEvidencePlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.re03",
+      "slug": "which-components-of-demand-and-trade-are-driving-real-gdp-growth",
+      "title": "Which components of demand and trade are driving real GDP growth?",
+      "state": "HOLD",
+      "reason": "no_primary_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 6,
+        "linkedIndicators": 8,
+        "materializedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "referencePlotArtifacts": 0,
+        "supersededPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "primaryEvidencePlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "decomposition",
+          "topicIds": [
+            "re.domestic_demand",
+            "re.exports_volume",
+            "re.fixed_investment",
+            "re.imports_volume",
+            "re.private_consumption",
+            "re.public_consumption",
+            "re.real_gdp"
+          ],
+          "indicatorIds": [
+            "ci.re.exports_real",
+            "ci.re.gfcf_qoq",
+            "ci.re.gfcf_real",
+            "ci.re.imports_real",
+            "ci.re.private_consumption_qoq",
+            "ci.re.private_consumption_real",
+            "ci.re.public_consumption_real",
+            "ci.re.real_gdp_qoq"
+          ],
+          "primaryEvidencePlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.re04",
+      "slug": "is-private-consumption-strengthening-enough-to-support-the-recovery",
+      "title": "Is private consumption strengthening enough to support the recovery?",
+      "state": "HOLD",
+      "reason": "no_primary_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 4,
+        "linkedIndicators": 5,
+        "materializedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "referencePlotArtifacts": 0,
+        "supersededPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "primaryEvidencePlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "state_measurement",
+          "topicIds": [
+            "re.domestic_demand",
+            "re.private_consumption",
+            "re.real_gdp"
+          ],
+          "indicatorIds": [
+            "ci.ef.real_private_credit_growth",
+            "ci.re.private_consumption_qoq",
+            "ci.re.private_consumption_real",
+            "ci.re.public_consumption_real",
+            "ci.re.real_gdp_qoq"
+          ],
+          "primaryEvidencePlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.re05",
+      "slug": "is-fixed-investment-recovering-and-how-durable-is-the-improvement",
+      "title": "Is fixed investment recovering, and how durable is the improvement?",
+      "state": "HOLD",
+      "reason": "no_primary_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 4,
+        "linkedIndicators": 5,
+        "materializedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "referencePlotArtifacts": 0,
+        "supersededPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "primaryEvidencePlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "trend_regime",
+          "topicIds": [
+            "re.domestic_demand",
+            "re.fixed_investment",
+            "re.productive_capacity"
+          ],
+          "indicatorIds": [
+            "ci.ef.real_private_credit_growth",
+            "ci.ns.tamar_real_expost",
+            "ci.re.gfcf_qoq",
+            "ci.re.gfcf_real",
+            "ci.re.real_gdp_qoq"
+          ],
+          "primaryEvidencePlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.re06",
+      "slug": "is-investment-shifting-toward-machinery-and-productive-capacity-rather-than-only-construction",
+      "title": "Is investment shifting toward machinery and productive capacity rather than only construction?",
+      "state": "HOLD",
+      "reason": "no_primary_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 1,
+        "linkedIndicators": 2,
+        "materializedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "referencePlotArtifacts": 0,
+        "supersededPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "primaryEvidencePlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "composition",
+          "topicIds": [
+            "re.construction_activity",
+            "re.fixed_investment",
+            "re.productive_capacity"
+          ],
+          "indicatorIds": [
+            "ci.re.gfcf_construction_real",
+            "ci.re.gfcf_machinery_real"
+          ],
+          "primaryEvidencePlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.re07",
+      "slug": "are-manufacturing-and-construction-keeping-pace-with-aggregate-activity",
+      "title": "Are manufacturing and construction keeping pace with aggregate activity?",
+      "state": "HOLD",
+      "reason": "no_primary_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 5,
+        "materializedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "referencePlotArtifacts": 0,
+        "supersededPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "primaryEvidencePlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "relative_performance",
+          "topicIds": [
+            "re.construction_activity",
+            "re.economic_activity",
+            "re.manufacturing_activity",
+            "re.sectoral_divergence"
+          ],
+          "indicatorIds": [
+            "ci.re.construction_sa_index",
+            "ci.re.construction_yoy",
+            "ci.re.emae_sa_index",
+            "ci.re.manufacturing_sa_index",
+            "ci.re.manufacturing_yoy"
+          ],
+          "primaryEvidencePlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.re08",
+      "slug": "are-agriculture-mining-and-energy-accounting-for-an-increasing-share-of-the-recovery",
+      "title": "Are agriculture, mining, and energy accounting for an increasing share of the recovery?",
+      "state": "HOLD",
+      "reason": "no_primary_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 6,
+        "materializedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "referencePlotArtifacts": 0,
+        "supersededPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "primaryEvidencePlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "sectoral_comparison",
+          "topicIds": [
+            "re.agriculture_activity",
+            "re.mining_energy_activity",
+            "re.real_gdp",
+            "re.sectoral_divergence"
+          ],
+          "indicatorIds": [
+            "ci.re.agriculture_sa_index",
+            "ci.re.agriculture_yoy",
+            "ci.re.emae_sa_index",
+            "ci.re.exports_real",
+            "ci.re.mining_energy_sa_index",
+            "ci.re.mining_energy_yoy"
+          ],
+          "primaryEvidencePlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.re09",
+      "slug": "how-strongly-are-imports-moving-with-the-recovery-in-domestic-demand",
+      "title": "How strongly are imports moving with the recovery in domestic demand?",
+      "state": "HOLD",
+      "reason": "no_primary_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 2,
+        "linkedIndicators": 4,
+        "materializedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "referencePlotArtifacts": 0,
+        "supersededPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "primaryEvidencePlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "co_movement",
+          "topicIds": [
+            "re.domestic_demand",
+            "re.imports_volume",
+            "re.real_gdp"
+          ],
+          "indicatorIds": [
+            "ci.re.exports_real",
+            "ci.re.gfcf_real",
+            "ci.re.imports_real",
+            "ci.re.private_consumption_real"
+          ],
+          "primaryEvidencePlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.re10",
+      "slug": "is-expanding-productive-capacity-translating-into-stronger-export-capacity",
+      "title": "Is expanding productive capacity translating into stronger export capacity?",
+      "state": "HOLD",
+      "reason": "no_primary_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 2,
+        "linkedIndicators": 4,
+        "materializedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "referencePlotArtifacts": 0,
+        "supersededPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "primaryEvidencePlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "mechanism",
+          "topicIds": [
+            "re.agriculture_activity",
+            "re.export_capacity",
+            "re.exports_volume",
+            "re.mining_energy_activity",
+            "re.productive_capacity"
+          ],
+          "indicatorIds": [
+            "ci.re.agriculture_sa_index",
+            "ci.re.exports_real",
+            "ci.re.imports_real",
+            "ci.re.mining_energy_sa_index"
+          ],
+          "primaryEvidencePlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.re11",
+      "slug": "are-financial-conditions-becoming-more-supportive-of-investment-and-real-activity",
+      "title": "Are financial conditions becoming more supportive of investment and real activity?",
+      "state": "HOLD",
+      "reason": "no_primary_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 3,
+        "linkedIndicators": 4,
+        "materializedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "referencePlotArtifacts": 0,
+        "supersededPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "primaryEvidencePlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "transmission",
+          "topicIds": [
+            "re.economic_activity",
+            "re.financial_conditions",
+            "re.fixed_investment"
+          ],
+          "indicatorIds": [
+            "ci.ef.real_private_credit_growth",
+            "ci.ns.tamar_real_expost",
+            "ci.re.gfcf_real",
+            "ci.re.private_consumption_real"
+          ],
+          "primaryEvidencePlotIntentIds": []
+        },
+        "exactStructuralPeerQuestionIds": [],
+        "review": "NO_EXACT_STRUCTURAL_PEER"
+      }
+    },
+    {
+      "questionId": "q.re12",
+      "slug": "how-does-the-current-recovery-compare-with-the-late-2023-starting-point",
+      "title": "How does the current recovery compare with the late-2023 starting point?",
+      "state": "HOLD",
+      "reason": "no_primary_materialized_plot_evidence",
+      "source": "derived",
+      "canonicalQuestionId": null,
+      "evidence": {
+        "linkedPlotIntents": 6,
+        "linkedIndicators": 7,
+        "materializedPlotArtifacts": 0,
+        "primaryEvidencePlotArtifacts": 0,
+        "prominentPlotArtifacts": 0,
+        "quarantinedPlotArtifacts": 0,
+        "historicalPlotArtifacts": 0,
+        "referencePlotArtifacts": 0,
+        "supersededPlotArtifacts": 0,
+        "materializedPlotIntentIds": [],
+        "primaryEvidencePlotIntentIds": [],
+        "prominentPlotIntentIds": [],
+        "hasDek": false,
+        "hasIntro": false,
+        "metadataOnly": true
+      },
+      "distinctness": {
+        "structuralSignature": {
+          "questionFamily": "historical_comparison",
+          "topicIds": [
+            "re.economic_activity",
+            "re.fixed_investment",
+            "re.private_consumption",
+            "re.real_gdp"
+          ],
+          "indicatorIds": [
+            "ci.re.emae_sa_index",
+            "ci.re.emae_yoy",
+            "ci.re.gfcf_real",
+            "ci.re.private_consumption_real",
+            "ci.re.real_gdp_level",
+            "ci.re.real_gdp_qoq",
+            "ci.re.real_gdp_yoy"
           ],
           "primaryEvidencePlotIntentIds": []
         },

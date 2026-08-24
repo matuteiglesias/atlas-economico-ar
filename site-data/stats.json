@@ -1,16 +1,16 @@
 {
   "counts": {
     "region": 6,
-    "topic": 55,
+    "topic": 73,
     "question": 15,
-    "indicator": 90,
-    "chart": 119
+    "indicator": 113,
+    "chart": 143
   },
   "graph": {
-    "nodes": 308,
-    "edges": 674
+    "nodes": 385,
+    "edges": 872
   },
-  "verticals_loaded": 2,
+  "verticals_loaded": 3,
   "plot_artifacts": 41,
   "prominent_plot_artifacts": 22,
   "quarantined_plot_artifacts": 6,
@@ -30,20 +30,20 @@
     }
   },
   "questionPublication": {
-    "semantic": 38,
+    "semantic": 50,
     "public": 15,
     "reference": 0,
     "superseded": 0,
-    "hold": 23
+    "hold": 35
   },
   "publicSurface": {
     "schemaVersion": "0.2",
     "semanticCounts": {
       "region": 6,
-      "topic": 55,
-      "question": 38,
-      "indicator": 90,
-      "chart": 119
+      "topic": 73,
+      "question": 50,
+      "indicator": 113,
+      "chart": 143
     },
     "addressableCounts": {
       "region": 6,
@@ -61,13 +61,13 @@
     },
     "activationBlockedCounts": {
       "region": 0,
-      "topic": 0,
-      "question": 0,
-      "indicator": 0,
-      "chart": 0
+      "topic": 18,
+      "question": 12,
+      "indicator": 23,
+      "chart": 24
     },
     "chartCensus": {
-      "semantic": 119,
+      "semantic": 143,
       "materialized": 41,
       "addressable": 41,
       "discoverable": 22

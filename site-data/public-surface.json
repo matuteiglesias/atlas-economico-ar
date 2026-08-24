@@ -10,10 +10,10 @@
   },
   "semanticCounts": {
     "region": 6,
-    "topic": 55,
-    "question": 38,
-    "indicator": 90,
-    "chart": 119
+    "topic": 73,
+    "question": 50,
+    "indicator": 113,
+    "chart": 143
   },
   "materializedCounts": {
     "chart": 41
@@ -34,13 +34,13 @@
   },
   "activationBlockedCounts": {
     "region": 0,
-    "topic": 0,
-    "question": 0,
-    "indicator": 0,
-    "chart": 0
+    "topic": 18,
+    "question": 12,
+    "indicator": 23,
+    "chart": 24
   },
   "chartCensus": {
-    "semantic": 119,
+    "semantic": 143,
     "materialized": 41,
     "addressable": 41,
     "discoverable": 22
@@ -2889,6 +2889,19 @@
       "activationBlocked": false
     },
     {
+      "id": "re.agriculture_activity",
+      "kind": "topic",
+      "slug": "agricultural-activity",
+      "title": "Agricultural activity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ns.bcra_fx_operations",
       "kind": "topic",
       "slug": "bcra-fx-operations",
@@ -2913,6 +2926,32 @@
       "owningRegionId": "external_financial_constraint",
       "regionActivated": true,
       "activationBlocked": false
+    },
+    {
+      "id": "re.commerce_activity",
+      "kind": "topic",
+      "slug": "commerce-and-retail-activity",
+      "title": "Commerce and retail activity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "re.construction_activity",
+      "kind": "topic",
+      "slug": "construction-activity",
+      "title": "Construction activity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
     },
     {
       "id": "ns.core_inflation",
@@ -2967,6 +3006,19 @@
       "activationBlocked": false
     },
     {
+      "id": "re.domestic_demand",
+      "kind": "topic",
+      "slug": "domestic-demand",
+      "title": "Domestic demand",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ef.domestic_savings_mobilization",
       "kind": "topic",
       "slug": "domestic-savings-mobilization",
@@ -2980,6 +3032,19 @@
       "activationBlocked": false
     },
     {
+      "id": "re.economic_activity",
+      "kind": "topic",
+      "slug": "economic-activity",
+      "title": "Economic activity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ns.exchange_rate_band",
       "kind": "topic",
       "slug": "exchange-rate-band",
@@ -2991,6 +3056,19 @@
       "owningRegionId": "nominal_stabilization",
       "regionActivated": true,
       "activationBlocked": false
+    },
+    {
+      "id": "re.export_capacity",
+      "kind": "topic",
+      "slug": "export-capacity",
+      "title": "Export capacity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
     },
     {
       "id": "ef.external_position",
@@ -3056,6 +3134,19 @@
       "owningRegionId": "external_financial_constraint",
       "regionActivated": true,
       "activationBlocked": false
+    },
+    {
+      "id": "re.financial_conditions",
+      "kind": "topic",
+      "slug": "financial-conditions-for-real-activity",
+      "title": "Financial conditions for real activity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
     },
     {
       "id": "ef.financial_depth",
@@ -3175,6 +3266,19 @@
       "activationBlocked": false
     },
     {
+      "id": "re.fixed_investment",
+      "kind": "topic",
+      "slug": "gross-fixed-capital-formation",
+      "title": "Gross fixed capital formation",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ef.gross_reserves",
       "kind": "topic",
       "slug": "gross-international-reserves",
@@ -3264,6 +3368,32 @@
       "owningRegionId": "external_financial_constraint",
       "regionActivated": true,
       "activationBlocked": false
+    },
+    {
+      "id": "re.manufacturing_activity",
+      "kind": "topic",
+      "slug": "manufacturing-activity",
+      "title": "Manufacturing activity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "re.mining_energy_activity",
+      "kind": "topic",
+      "slug": "mining-and-energy-activity",
+      "title": "Mining and energy activity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
     },
     {
       "id": "ns.monetary_base",
@@ -3409,6 +3539,19 @@
       "activationBlocked": false
     },
     {
+      "id": "re.private_consumption",
+      "kind": "topic",
+      "slug": "private-consumption",
+      "title": "Private consumption",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ef.private_credit",
       "kind": "topic",
       "slug": "private-sector-credit",
@@ -3422,6 +3565,32 @@
       "activationBlocked": false
     },
     {
+      "id": "re.productive_capacity",
+      "kind": "topic",
+      "slug": "productive-capacity",
+      "title": "Productive capacity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "re.public_consumption",
+      "kind": "topic",
+      "slug": "public-consumption",
+      "title": "Public consumption",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ns.real_exchange_rate",
       "kind": "topic",
       "slug": "real-exchange-rate",
@@ -3433,6 +3602,45 @@
       "owningRegionId": "nominal_stabilization",
       "regionActivated": true,
       "activationBlocked": false
+    },
+    {
+      "id": "re.exports_volume",
+      "kind": "topic",
+      "slug": "real-exports",
+      "title": "Real exports",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "re.real_gdp",
+      "kind": "topic",
+      "slug": "real-gdp",
+      "title": "Real GDP",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "re.imports_volume",
+      "kind": "topic",
+      "slug": "real-imports",
+      "title": "Real imports",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
     },
     {
       "id": "ns.real_interest_rate",
@@ -3526,6 +3734,32 @@
       "activationBlocked": false
     },
     {
+      "id": "re.sectoral_activity",
+      "kind": "topic",
+      "slug": "sectoral-activity",
+      "title": "Sectoral activity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "re.sectoral_divergence",
+      "kind": "topic",
+      "slug": "sectoral-divergence",
+      "title": "Sectoral divergence",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ef.services_balance",
       "kind": "topic",
       "slug": "services-balance",
@@ -3591,6 +3825,20 @@
       "activationBlocked": false
     },
     {
+      "id": "q.re08",
+      "kind": "question",
+      "slug": "are-agriculture-mining-and-energy-accounting-for-an-increasing-share-of-the-recovery",
+      "title": "Are agriculture, mining, and energy accounting for an increasing share of the recovery?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "publicationState": "HOLD"
+    },
+    {
       "id": "q.ef20",
       "kind": "question",
       "slug": "are-bcra-fx-purchases-strengthening-the-external-position",
@@ -3616,6 +3864,20 @@
       "owningRegionId": "external_financial_constraint",
       "regionActivated": true,
       "activationBlocked": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.re11",
+      "kind": "question",
+      "slug": "are-financial-conditions-becoming-more-supportive-of-investment-and-real-activity",
+      "title": "Are financial conditions becoming more supportive of investment and real activity?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
       "publicationState": "HOLD"
     },
     {
@@ -3645,6 +3907,20 @@
       "regionActivated": true,
       "activationBlocked": false,
       "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.re07",
+      "kind": "question",
+      "slug": "are-manufacturing-and-construction-keeping-pace-with-aggregate-activity",
+      "title": "Are manufacturing and construction keeping pace with aggregate activity?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef02",
@@ -3731,6 +4007,20 @@
       "publicationState": "PUBLIC"
     },
     {
+      "id": "q.re01",
+      "kind": "question",
+      "slug": "how-broad-based-is-argentina-s-economic-recovery-across-major-sectors",
+      "title": "How broad-based is Argentina's economic recovery across major sectors?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "publicationState": "HOLD"
+    },
+    {
       "id": "q.ef19",
       "kind": "question",
       "slug": "how-does-real-appreciation-interact-with-the-external-balance",
@@ -3742,6 +4032,20 @@
       "owningRegionId": "external_financial_constraint",
       "regionActivated": true,
       "activationBlocked": false,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.re12",
+      "kind": "question",
+      "slug": "how-does-the-current-recovery-compare-with-the-late-2023-starting-point",
+      "title": "How does the current recovery compare with the late-2023 starting point?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
       "publicationState": "HOLD"
     },
     {
@@ -3857,6 +4161,20 @@
       "publicationState": "PUBLIC"
     },
     {
+      "id": "q.re09",
+      "kind": "question",
+      "slug": "how-strongly-are-imports-moving-with-the-recovery-in-domestic-demand",
+      "title": "How strongly are imports moving with the recovery in domestic demand?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "publicationState": "HOLD"
+    },
+    {
       "id": "q.ns14",
       "kind": "question",
       "slug": "how-tight-are-bank-reserve-requirements-and-liquidity-conditions",
@@ -3927,6 +4245,48 @@
       "publicationState": "PUBLIC"
     },
     {
+      "id": "q.re10",
+      "kind": "question",
+      "slug": "is-expanding-productive-capacity-translating-into-stronger-export-capacity",
+      "title": "Is expanding productive capacity translating into stronger export capacity?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.re05",
+      "kind": "question",
+      "slug": "is-fixed-investment-recovering-and-how-durable-is-the-improvement",
+      "title": "Is fixed investment recovering, and how durable is the improvement?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.re06",
+      "kind": "question",
+      "slug": "is-investment-shifting-toward-machinery-and-productive-capacity-rather-than-only-construction",
+      "title": "Is investment shifting toward machinery and productive capacity rather than only construction?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "publicationState": "HOLD"
+    },
+    {
       "id": "q.ef12",
       "kind": "question",
       "slug": "is-market-financing-broadening-beyond-the-sovereign",
@@ -3953,6 +4313,20 @@
       "regionActivated": true,
       "activationBlocked": false,
       "publicationState": "PUBLIC"
+    },
+    {
+      "id": "q.re04",
+      "kind": "question",
+      "slug": "is-private-consumption-strengthening-enough-to-support-the-recovery",
+      "title": "Is private consumption strengthening enough to support the recovery?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "publicationState": "HOLD"
     },
     {
       "id": "q.ef14",
@@ -4109,6 +4483,34 @@
       "publicationState": "PUBLIC"
     },
     {
+      "id": "q.re03",
+      "kind": "question",
+      "slug": "which-components-of-demand-and-trade-are-driving-real-gdp-growth",
+      "title": "Which components of demand and trade are driving real GDP growth?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "publicationState": "HOLD"
+    },
+    {
+      "id": "q.re02",
+      "kind": "question",
+      "slug": "which-sectors-are-leading-the-recovery-and-which-remain-below-the-aggregate-pace",
+      "title": "Which sectors are leading the recovery, and which remain below the aggregate pace?",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "publicationState": "HOLD"
+    },
+    {
       "id": "q.ef09",
       "kind": "question",
       "slug": "why-can-reserves-rise-while-sovereign-risk-stays-high",
@@ -4121,6 +4523,32 @@
       "regionActivated": true,
       "activationBlocked": false,
       "publicationState": "HOLD"
+    },
+    {
+      "id": "ci.re.agriculture_sa_index",
+      "kind": "indicator",
+      "slug": "agriculture-activity-index",
+      "title": "Agriculture activity index",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "ci.re.agriculture_yoy",
+      "kind": "indicator",
+      "slug": "agriculture-activity-year-over-year",
+      "title": "Agriculture activity, year-over-year",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
     },
     {
       "id": "ci.ef.bank_liquidity_ratio",
@@ -4266,6 +4694,58 @@
       "activationBlocked": false
     },
     {
+      "id": "ci.re.commerce_sa_index",
+      "kind": "indicator",
+      "slug": "commerce-activity-index",
+      "title": "Commerce activity index",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "ci.re.construction_sa_index",
+      "kind": "indicator",
+      "slug": "construction-activity-index",
+      "title": "Construction activity index",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "ci.re.construction_yoy",
+      "kind": "indicator",
+      "slug": "construction-activity-year-over-year",
+      "title": "Construction activity, year-over-year",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "ci.re.gfcf_construction_real",
+      "kind": "indicator",
+      "slug": "construction-component-of-fixed-investment-real",
+      "title": "Construction component of fixed investment, real",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ci.ns.core_monthly",
       "kind": "indicator",
       "slug": "core-cpi-inflation-monthly",
@@ -4383,6 +4863,32 @@
       "activationBlocked": false
     },
     {
+      "id": "ci.re.emae_sa_index",
+      "kind": "indicator",
+      "slug": "economic-activity-index-seasonally-adjusted",
+      "title": "Economic activity index, seasonally adjusted",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "ci.re.emae_yoy",
+      "kind": "indicator",
+      "slug": "economic-activity-year-over-year",
+      "title": "Economic activity, year-over-year",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ci.ns.fx_forward_eoy",
       "kind": "indicator",
       "slug": "end-of-year-fx-forward-implied-rate",
@@ -4433,6 +4939,19 @@
       "owningRegionId": "nominal_stabilization",
       "regionActivated": true,
       "activationBlocked": false
+    },
+    {
+      "id": "ci.re.exports_real",
+      "kind": "indicator",
+      "slug": "exports-of-goods-and-services-real",
+      "title": "Exports of goods and services, real",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
     },
     {
       "id": "ci.ef.external_debt_gdp",
@@ -4552,6 +5071,32 @@
       "activationBlocked": false
     },
     {
+      "id": "ci.re.gfcf_qoq",
+      "kind": "indicator",
+      "slug": "gross-fixed-capital-formation-quarter-over-quarter",
+      "title": "Gross fixed capital formation, quarter-over-quarter",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "ci.re.gfcf_real",
+      "kind": "indicator",
+      "slug": "gross-fixed-capital-formation-real",
+      "title": "Gross fixed capital formation, real",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ci.ef.capital_inflows_usd",
       "kind": "indicator",
       "slug": "gross-identified-capital-inflows",
@@ -4617,6 +5162,19 @@
       "activationBlocked": false
     },
     {
+      "id": "ci.re.imports_real",
+      "kind": "indicator",
+      "slug": "imports-of-goods-and-services-real",
+      "title": "Imports of goods and services, real",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ci.ns.infl_surprise",
       "kind": "indicator",
       "slug": "inflation-surprise-vs-prior-expectation",
@@ -4643,6 +5201,45 @@
       "activationBlocked": false
     },
     {
+      "id": "ci.re.gfcf_machinery_real",
+      "kind": "indicator",
+      "slug": "machinery-and-equipment-component-of-fixed-investment-real",
+      "title": "Machinery and equipment component of fixed investment, real",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "ci.re.manufacturing_sa_index",
+      "kind": "indicator",
+      "slug": "manufacturing-activity-index",
+      "title": "Manufacturing activity index",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "ci.re.manufacturing_yoy",
+      "kind": "indicator",
+      "slug": "manufacturing-activity-year-over-year",
+      "title": "Manufacturing activity, year-over-year",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ci.ef.market_fx_redemptions_12m",
       "kind": "indicator",
       "slug": "market-fx-redemptions-next-12-months",
@@ -4654,6 +5251,32 @@
       "owningRegionId": "external_financial_constraint",
       "regionActivated": true,
       "activationBlocked": false
+    },
+    {
+      "id": "ci.re.mining_energy_sa_index",
+      "kind": "indicator",
+      "slug": "mining-and-energy-activity-index",
+      "title": "Mining and energy activity index",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "ci.re.mining_energy_yoy",
+      "kind": "indicator",
+      "slug": "mining-and-energy-activity-year-over-year",
+      "title": "Mining and energy activity, year-over-year",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
     },
     {
       "id": "ci.ns.monetary_base_nominal",
@@ -4890,6 +5513,32 @@
       "activationBlocked": false
     },
     {
+      "id": "ci.re.private_consumption_qoq",
+      "kind": "indicator",
+      "slug": "private-consumption-quarter-over-quarter",
+      "title": "Private consumption, quarter-over-quarter",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "ci.re.private_consumption_real",
+      "kind": "indicator",
+      "slug": "private-consumption-real",
+      "title": "Private consumption, real",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ci.ns.transactional_m2_nominal",
       "kind": "indicator",
       "slug": "private-transactional-m2",
@@ -4981,6 +5630,19 @@
       "activationBlocked": false
     },
     {
+      "id": "ci.re.public_consumption_real",
+      "kind": "indicator",
+      "slug": "public-consumption-real",
+      "title": "Public consumption, real",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
       "id": "ci.ef.public_fx_debt_service_12m",
       "kind": "indicator",
       "slug": "public-sector-fx-debt-service-next-12-months",
@@ -5005,6 +5667,45 @@
       "owningRegionId": "nominal_stabilization",
       "regionActivated": true,
       "activationBlocked": false
+    },
+    {
+      "id": "ci.re.real_gdp_qoq",
+      "kind": "indicator",
+      "slug": "real-gdp-quarter-over-quarter",
+      "title": "Real GDP, quarter-over-quarter",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "ci.re.real_gdp_level",
+      "kind": "indicator",
+      "slug": "real-gdp-seasonally-adjusted-level",
+      "title": "Real GDP, seasonally adjusted level",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
+    },
+    {
+      "id": "ci.re.real_gdp_yoy",
+      "kind": "indicator",
+      "slug": "real-gdp-year-over-year",
+      "title": "Real GDP, year-over-year",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true
     },
     {
       "id": "ci.ns.monetary_base_real",
@@ -5293,6 +5994,51 @@
       "activationBlocked": false
     },
     {
+      "id": "pi.re02",
+      "kind": "chart",
+      "slug": "aggregate-activity-versus-major-sectors",
+      "title": "Aggregate activity versus major sectors",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re13",
+      "kind": "chart",
+      "slug": "agriculture-and-mining-energy-versus-aggregate-activity",
+      "title": "Agriculture and mining-energy versus aggregate activity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re24",
+      "kind": "chart",
+      "slug": "agriculture-versus-mining-energy-growth",
+      "title": "Agriculture versus mining-energy growth",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
       "id": "pi.ef38",
       "kind": "chart",
       "slug": "assets-outside-the-financial-system-versus-private-credit",
@@ -5518,6 +6264,21 @@
       "dispositionState": "UNMATERIALIZED"
     },
     {
+      "id": "pi.re12",
+      "kind": "chart",
+      "slug": "construction-versus-aggregate-economic-activity",
+      "title": "Construction versus aggregate economic activity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
       "id": "pi.ns51",
       "kind": "chart",
       "slug": "core-services-vs-core-goods-inflation",
@@ -5649,6 +6410,21 @@
       "owningRegionId": "external_financial_constraint",
       "regionActivated": true,
       "activationBlocked": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re01",
+      "kind": "chart",
+      "slug": "economic-activity-since-late-2023",
+      "title": "Economic activity since late 2023",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -5799,6 +6575,66 @@
       "owningRegionId": "external_financial_constraint",
       "regionActivated": true,
       "activationBlocked": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re18",
+      "kind": "chart",
+      "slug": "fixed-investment-and-ex-post-real-money-market-rates",
+      "title": "Fixed investment and ex-post real money-market rates",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re17",
+      "kind": "chart",
+      "slug": "fixed-investment-and-real-private-credit-growth",
+      "title": "Fixed investment and real private-credit growth",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re10",
+      "kind": "chart",
+      "slug": "fixed-investment-construction-versus-machinery-and-equipment",
+      "title": "Fixed investment: construction versus machinery and equipment",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re09",
+      "kind": "chart",
+      "slug": "fixed-investment-growth-versus-gdp-growth",
+      "title": "Fixed-investment growth versus GDP growth",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6073,6 +6909,21 @@
       "dispositionState": "UNMATERIALIZED"
     },
     {
+      "id": "pi.re15",
+      "kind": "chart",
+      "slug": "imports-versus-private-consumption-and-fixed-investment",
+      "title": "Imports versus private consumption and fixed investment",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
       "id": "pi.ns14",
       "kind": "chart",
       "slug": "inflation-expectations-fan-horizon-curve",
@@ -6174,6 +7025,36 @@
       "owningRegionId": "nominal_stabilization",
       "regionActivated": true,
       "activationBlocked": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re11",
+      "kind": "chart",
+      "slug": "manufacturing-versus-aggregate-economic-activity",
+      "title": "Manufacturing versus aggregate economic activity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re23",
+      "kind": "chart",
+      "slug": "manufacturing-versus-construction-growth",
+      "title": "Manufacturing versus construction growth",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6583,6 +7464,36 @@
       "dispositionState": "UNMATERIALIZED"
     },
     {
+      "id": "pi.re19",
+      "kind": "chart",
+      "slug": "private-consumption-and-real-private-credit-growth",
+      "title": "Private consumption and real private-credit growth",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re07",
+      "kind": "chart",
+      "slug": "private-consumption-growth-versus-gdp-growth",
+      "title": "Private consumption growth versus GDP growth",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
       "id": "pi.ef54",
       "kind": "chart",
       "slug": "private-credit-and-deposits",
@@ -6688,6 +7599,36 @@
       "dispositionState": "SUPERSEDED"
     },
     {
+      "id": "pi.re20",
+      "kind": "chart",
+      "slug": "private-versus-public-consumption",
+      "title": "Private versus public consumption",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re22",
+      "kind": "chart",
+      "slug": "quarterly-gdp-growth-versus-monthly-activity-growth",
+      "title": "Quarterly GDP growth versus monthly activity growth",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
       "id": "pi.ef31",
       "kind": "chart",
       "slug": "real-credit-growth-versus-npl-ratio",
@@ -6699,6 +7640,21 @@
       "owningRegionId": "external_financial_constraint",
       "regionActivated": true,
       "activationBlocked": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re21",
+      "kind": "chart",
+      "slug": "real-demand-and-trade-components",
+      "title": "Real demand and trade components",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     },
@@ -6748,6 +7704,81 @@
       "dispositionState": "UNMATERIALIZED"
     },
     {
+      "id": "pi.re16",
+      "kind": "chart",
+      "slug": "real-exports-and-primary-sector-activity",
+      "title": "Real exports and primary-sector activity",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re14",
+      "kind": "chart",
+      "slug": "real-exports-versus-real-imports",
+      "title": "Real exports versus real imports",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re08",
+      "kind": "chart",
+      "slug": "real-fixed-investment",
+      "title": "Real fixed investment",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re05",
+      "kind": "chart",
+      "slug": "real-gdp-level-versus-the-pre-pandemic-anchor",
+      "title": "Real GDP level versus the pre-pandemic anchor",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re04",
+      "kind": "chart",
+      "slug": "real-gdp-quarter-over-quarter-growth",
+      "title": "Real GDP quarter-over-quarter growth",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
       "id": "pi.ns35",
       "kind": "chart",
       "slug": "real-monetary-base",
@@ -6761,6 +7792,21 @@
       "activationBlocked": false,
       "materialized": true,
       "dispositionState": "APPROVED"
+    },
+    {
+      "id": "pi.re06",
+      "kind": "chart",
+      "slug": "real-private-consumption",
+      "title": "Real private consumption",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
     },
     {
       "id": "pi.ef30",
@@ -7074,6 +8120,21 @@
       "owningRegionId": "nominal_stabilization",
       "regionActivated": true,
       "activationBlocked": false,
+      "materialized": false,
+      "dispositionState": "UNMATERIALIZED"
+    },
+    {
+      "id": "pi.re03",
+      "kind": "chart",
+      "slug": "year-over-year-activity-growth-across-sectors",
+      "title": "Year-over-year activity growth across sectors",
+      "href": null,
+      "addressable": false,
+      "discoverable": false,
+      "prominent": false,
+      "owningRegionId": "real_economy",
+      "regionActivated": false,
+      "activationBlocked": true,
       "materialized": false,
       "dispositionState": "UNMATERIALIZED"
     }
