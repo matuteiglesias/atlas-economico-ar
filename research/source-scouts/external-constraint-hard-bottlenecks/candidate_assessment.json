@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "scout": "external-constraint-hard-bottlenecks",
+  "date": "2026-08-23",
+  "scope": "research_only",
+  "candidates": [
+    {
+      "canonical_indicator_id": "ci.ef.nir_usd",
+      "frontier_blocked_plot_intents": 9,
+      "decision": "DROP",
+      "classification": "SEMANTIC_GAP",
+      "match_quality": "AMBIGUOUS",
+      "direct_official_series_verified": false,
+      "authoritative_source_family": "BCRA",
+      "source_locators": [
+        "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-politica-monetaria-2025-T4.pdf",
+        "https://www.bcra.gob.ar/principales-variables/"
+      ],
+      "reason": "BCRA explicitly distinguishes materially different IMF-program and BCRA accounting definitions of NIR. Current Atlas semantics do not select one convention even though PlotIntents use NIR for both program-target and usable-buffer questions. Reconstruction from balance components would require undeclared methodology.",
+      "human_gate": "Semantic layer must choose or separate NIR conventions before source mapping.",
+      "ingestion_action": "NONE"
+    },
+    {
+      "canonical_indicator_id": "ci.ef.public_fx_debt_service_12m",
+      "frontier_blocked_plot_intents": 5,
+      "decision": "DROP",
+      "classification": "UNDECLARED_DERIVATION_AND_SCOPE_GAP",
+      "match_quality": "AMBIGUOUS",
+      "direct_official_series_verified": false,
+      "authoritative_source_family": "Ministerio de Economia / Secretaria de Finanzas / ONCP",
+      "source_locators": [
+        "https://www.argentina.gob.ar/economia/finanzas/datos-mensuales-de-la-deuda",
+        "https://www.argentina.gob.ar/economia/finanzas/datos-mensuales",
+        "https://www.argentina.gob.ar/economia/finanzas/datos-trimestrales-de-la-deuda",
+        "https://www.argentina.gob.ar/sites/default/files/presentacion_grafica_it_26_c.pdf"
+      ],
+      "reason": "Official debt files provide authoritative stock and maturity information, but the current CanonicalIndicator is a monthly rolling next-12-month public-sector FX-service measure. Producing it requires unresolved perimeter, currency, capital/interest, creditor, valuation, exclusion, windowing and revision choices. No declared DerivedIndicator currently constructs this measure.",
+      "human_gate": "Declare the exact debt-service perimeter and construction before any capture or provider adapter work.",
+      "ingestion_action": "NONE"
+    }
+  ],
+  "recommended_next_action": "MOVE_ON_TO_CLEANER_FRONTIER_BOTTLENECK",
+  "suggested_next_target": "BCRA REM short-horizon inflation expectations",
+  "series_registered": 0,
+  "series_ingested": 0,
+  "bindings_changed": 0,
+  "derived_indicators_changed": 0,
+  "plots_generated": 0
+}
