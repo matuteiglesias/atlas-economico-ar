@@ -1,7 +1,7 @@
 PYTHON ?= python3
 SOURCE_DATE_EPOCH ?= 1786828800
 
-.PHONY: test-series test-figures test-publication test-growth growth-frontier capture-seed-series capture-bcra-series validate-series validate-figure-curation figure-qa-pack materialize-plots compile-publication sync-web build-atlas
+.PHONY: test-series test-figures test-publication test-growth test-real-economy growth-frontier capture-seed-series capture-bcra-series validate-series validate-figure-curation figure-qa-pack materialize-plots compile-publication sync-web build-atlas
 
 test-series:
 	$(PYTHON) -m unittest discover -s series/tests -p 'test_*.py'
@@ -14,6 +14,9 @@ test-publication:
 
 test-growth:
 	$(PYTHON) -m unittest discover -s growth/tests -p 'test_*.py'
+
+test-real-economy:
+	$(PYTHON) verticals/real_economy_vertical_v0_1/validation/validate.py
 
 growth-frontier:
 	$(PYTHON) scripts/build-growth-frontier.py
@@ -44,5 +47,5 @@ compile-publication:
 sync-web:
 	cd web && pnpm sync:data && pnpm sync:plots
 
-build-atlas: validate-series materialize-plots compile-publication sync-web
+build-atlas: test-real-economy validate-series materialize-plots compile-publication sync-web
 	cd web && pnpm check
