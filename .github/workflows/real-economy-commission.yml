@@ -1,0 +1,139 @@
+name: Real Economy commissioning sync
+
+on:
+  push:
+    branches: [feat/real-economy-semantic-vertical]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python -m pip install 'PyYAML>=6.0,<7' 'matplotlib>=3.8,<4'
+      - uses: pnpm/action-setup@v4
+        with: {version: 10.28.1}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+      - working-directory: web
+        run: pnpm install --frozen-lockfile
+      - name: Advance three-vertical integration contracts
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def replace_once(path, old, new, expected=1):
+              p = Path(path)
+              text = p.read_text()
+              count = text.count(old)
+              if count != expected:
+                  raise SystemExit(f"{path}: expected {expected} occurrences of {old!r}, found {count}")
+              p.write_text(text.replace(old, new))
+
+          replace_once(
+              'scripts/build-publication.py',
+              '    ROOT / "verticals/external_financial_constraint_vertical_v0_2",\n)',
+              '    ROOT / "verticals/external_financial_constraint_vertical_v0_2",\n    ROOT / "verticals/real_economy_vertical_v0_1",\n)',
+          )
+          replace_once('scripts/build-publication.py', 'EXPECTED_CHARTS = 119', 'EXPECTED_CHARTS = 143')
+          replace_once('scripts/build-publication.py', 'EXPECTED_INDICATORS = 90', 'EXPECTED_INDICATORS = 113')
+          replace_once('scripts/build-publication.py', 'EXPECTED_SEMANTIC_QUESTIONS = 38', 'EXPECTED_SEMANTIC_QUESTIONS = 50')
+
+          replace_once(
+              'web/scripts/verify-data.mjs',
+              'const expectedChartCensus = { semantic: 119, materialized: 41, addressable: 41, discoverable: 22 };',
+              'const expectedChartCensus = { semantic: 143, materialized: 41, addressable: 41, discoverable: 22 };',
+          )
+
+          replace_once(
+              '.github/workflows/publication.yml',
+              '      - "verticals/**/knowledge/*_v0_2.yaml"',
+              '      - "verticals/**/knowledge/*.yaml"\n      - "verticals/**/validation/**"',
+              expected=2,
+          )
+          replace_once('.github/workflows/publication.yml', "assert stats['counts']['indicator'] == 90, stats", "assert stats['counts']['indicator'] == 113, stats")
+          replace_once('.github/workflows/publication.yml', "assert stats['counts']['chart'] == 119, stats", "assert stats['counts']['chart'] == 143, stats")
+          replace_once('.github/workflows/publication.yml', "assert stats['graph']['nodes'] == 308, stats", "assert stats['graph']['nodes'] == 385, stats\n          assert stats['verticals_loaded'] == 3, stats")
+          replace_once('.github/workflows/publication.yml', "assert stats['questionPublication']['semantic'] == 38, stats", "assert stats['questionPublication']['semantic'] == 50, stats")
+          replace_once(
+              '.github/workflows/publication.yml',
+              "'PASS: 119 charts, 90 indicators, 41 PlotArtifacts; '",
+              "'PASS: 143 semantic charts, 113 indicators, 41 PlotArtifacts; '",
+          )
+          replace_once(
+              '.github/workflows/publication.yml',
+              "f\"{stats['questionPublication']['public']} public / 38 semantic questions; \"",
+              "f\"{stats['questionPublication']['public']} public / 50 semantic questions; \"",
+          )
+          PY
+      - name: Validate Real Economy semantic vertical
+        run: make test-real-economy
+      - name: Test growth frontier
+        run: make test-growth
+      - name: Test publication contracts
+        run: make test-publication
+      - name: Build canonical Atlas
+        env: {SOURCE_DATE_EPOCH: "1786828800"}
+        run: make build-atlas
+      - name: Prove semantic commissioning remains publicly inactive
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          stats = json.loads(Path('site-data/stats.json').read_text())
+          surface = json.loads(Path('site-data/public-surface.json').read_text())
+          search = json.loads(Path('site-data/search-index.json').read_text())
+          navigation = json.loads(Path('site-data/navigation.json').read_text())
+
+          assert stats['verticals_loaded'] == 3, stats
+          assert stats['counts']['topic'] == 73, stats
+          assert stats['questionPublication']['semantic'] == 50, stats
+          assert stats['counts']['indicator'] == 113, stats
+          assert stats['counts']['chart'] == 143, stats
+          assert stats['graph']['nodes'] == 385, stats
+          assert stats['plot_artifacts'] == 41, stats
+          assert stats['publicSurface']['chartCensus'] == {
+              'semantic': 143,
+              'materialized': 41,
+              'addressable': 41,
+              'discoverable': 22,
+          }, stats
+
+          re_children = [
+              item for item in surface['entities']
+              if item['owningRegionId'] == 'real_economy' and item['kind'] != 'region'
+          ]
+          assert len(re_children) == 77, len(re_children)
+          assert all(item['regionActivated'] is False for item in re_children)
+          assert all(item['activationBlocked'] is True for item in re_children)
+          assert all(not item['addressable'] and not item['discoverable'] and not item['prominent'] for item in re_children)
+          assert not [item for item in search if item.get('regionId') == 'real_economy'], 'Real Economy leaked into search'
+          assert 'real_economy' not in {item['id'] for item in navigation['regions']}, navigation
+          assert stats['questionPublication']['public'] == 15, stats
+          assert stats['publicSurface']['discoverableCounts']['region'] == 2, stats
+          print('PASS: 77 Real Economy semantic children compiled and activation-blocked; public surface unchanged')
+          PY
+      - name: Prove figure bytes were not changed by semantic commissioning
+        run: git diff --exit-code HEAD -- plot-artifacts web/public/plots
+      - name: Commit canonical three-vertical state
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add scripts/build-publication.py web/scripts/verify-data.mjs .github/workflows/publication.yml site-data web/site-data
+          if git diff --cached --quiet; then
+            echo 'No generated-state changes to commit'
+            exit 0
+          fi
+          git commit -m 'Compile Real Economy as inactive third vertical'
+          git push
