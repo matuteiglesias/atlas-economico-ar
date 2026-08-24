@@ -1,0 +1,27 @@
+{
+  "bundle_id": "real_economy_vertical_v0_1",
+  "version": "0.1",
+  "slice_id": "real_economy",
+  "status": "semantic_vertical_commissioned_inactive",
+  "counts": {
+    "concepts": 18,
+    "relations": 28,
+    "question_intents": 12,
+    "reference_frames_vertical_specific": 4,
+    "canonical_indicators": 23,
+    "derived_indicators": 9,
+    "plot_intents": 24,
+    "chart_specs": 12,
+    "media_evidence_rows": 500
+  },
+  "compatibility": {
+    "compiler_schema": "0.1",
+    "designed_to_co_compile_with": [
+      "nominal_stabilization_vertical_v0_1",
+      "external_financial_constraint_vertical_v0_2"
+    ]
+  },
+  "series_registration": "deferred",
+  "region_activation": false,
+  "validation": "PASS"
+}
